@@ -1,7 +1,13 @@
-# VitalAir Page — Content Brief
+# Page — Content Brief (any site)
 
-Fill this in and hand it to Claude with: **"Build a VitalAir page from this brief."**
-Leave anything blank and Claude will infer it from the closest existing page, or ask.
+Fill this in and hand it to the agent with: **"Build a `<site>` page from this
+brief."** Leave anything blank and it will infer from the closest existing page (or
+ask one question). Brand styling — colors, fonts, hero treatment, CTA shape — is not
+your job here; it comes from the site's generated `<site>-ui-design` skill. You
+provide the **content and structure**; the system provides the look.
+
+> A filled brief is optional — a plain content doc dropped in
+> `projects/<site>/new-content/` works too.
 
 ---
 
@@ -39,23 +45,23 @@ For each section that needs an image or media, note what and where.
 - Section: | image: | alt text:
 - Live/dynamic widgets (review sliders, maps, forms): <!-- name them; these become placeholders to wire up after import -->
 
-## 2. Hero (navy section)
+## 2. Hero
 
-- **Eyebrow label (UPPERCASE):** <!-- e.g. AC REPAIR -->
+- **Eyebrow label (optional, if the site uses them):** <!-- e.g. AC REPAIR -->
 - **H1 headline:** <!-- e.g. AC Repair in Woodstock, GA and the Greater Atlanta Area -->
 - **Intro paragraph (1–2 sentences):**
-  <!-- e.g. 24/7 AC repair for Woodstock and Cherokee County — fast diagnostics and clear repair options from a local Daikin & Goodman dealer. -->
+  <!-- e.g. 24/7 AC repair for Woodstock and Cherokee County — fast diagnostics and clear repair options. -->
 
 ## 3. Content sections
 
 List the sections you want, top to bottom. For each: a heading + a short paragraph,
-and (optionally) bullet points that become an icon-box/feature grid.
+and (optionally) bullet points that become a card/feature grid. Aim for a variety of
+layouts (two-column, card grid, accordion), not all single-column.
 
 ### Section A
-- **Eyebrow (optional):**
 - **Heading:**
 - **Body:**
-- **Feature items (optional, become icon boxes):**
+- **Feature items (optional, become cards/icon boxes):**
   - Title — one line of supporting text
   - Title — one line of supporting text
   - Title — one line of supporting text

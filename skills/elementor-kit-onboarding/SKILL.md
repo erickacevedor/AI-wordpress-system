@@ -23,11 +23,13 @@ its Steps 2–3.
 - **Input:** an unzipped Elementor kit export at `projects/<site>/current-theme/`
   (`manifest.json`, `site-settings.json`, `content/page/*.json`,
   `content/post/*.json`, `templates/*.json`).
-- **Output:** the five site skills written to `projects/<site>/skills/` —
-  `<site>-design-read`, `<site>-ui-design`, `<site>-content-style`,
-  `<site>-page-builder`, `<site>-page-audit` — then a verification report. (The
-  portable `full-output-enforcement` stays at repo-root `skills/`; it is referenced,
-  not copied per site.)
+- **Output:** written to `projects/<site>/` — (a) the five site skills in `skills/`
+  (`<site>-design-read`, `-ui-design`, `-content-style`, `-page-builder`,
+  `-page-audit`); (b) `tokens.json` (the brand colors/fonts/button/links that feed
+  `scripts/elementor_builder.py`); (c) `KIT-ANALYSIS.md` (the human-readable
+  design-system analysis + rationale, like the two existing examples); then a
+  verification report. (The portable `full-output-enforcement` stays at repo-root
+  `skills/`; it is referenced, not copied per site.)
 
 Use a short site slug (from `manifest.json` `site`/`title`, matching the
 `projects/<site>/` folder) as `<site>`. **This step is required once per site and
@@ -106,6 +108,12 @@ Write each as `skills/<site>-<name>/SKILL.md` with proper frontmatter
 - **`<site>-design-read`** — brief-inference front door that routes to the above.
 - **`full-output-enforcement`** — the portable skill stays at repo-root `skills/`
   and is referenced during builds; do **not** copy it into `projects/<site>/skills/`.
+- **`projects/<site>/tokens.json`** — the brand tokens (colors w/ global refs + hex,
+  fonts, type scale, button spec, section bands, link slugs, phone) that feed
+  `scripts/elementor_builder.py`. This is what makes page builds reproducible.
+- **`projects/<site>/KIT-ANALYSIS.md`** — the human-readable design-system analysis
+  (palette + evidence, type scale, button, rhythm, kit gotchas, closest page to
+  mirror). Model it on the two existing examples.
 
 ### 4. Verify (do not skip)
 Produce a short report and confirm before any page is built:

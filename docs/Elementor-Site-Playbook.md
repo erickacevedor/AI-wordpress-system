@@ -94,8 +94,12 @@ Run `<site>-page-builder`:
 2. **Map content** to the site's standard section anatomy.
 3. **Write/polish copy** with `<site>-content-style`.
 4. **Style** with `<site>-ui-design` (inline, on-brand).
-5. **Emit complete JSON** with `full-output-enforcement`.
-6. **Audit** with `<site>-page-audit`.
+5. **Emit complete JSON** with `full-output-enforcement` — ideally by authoring
+   `projects/<site>/build.py` on top of `scripts/elementor_builder.py` (which bakes in
+   the boxed section structure + responsive settings, so the page is reproducible and
+   passes the gate) driven by `projects/<site>/tokens.json`.
+6. **Validate** — `python3 scripts/validate-page.py <page>.json` must exit 0 (all
+   import invariants incl. responsive), then **audit** with `<site>-page-audit`.
 7. **Export** an importable single-template file (see format below) + optionally
    register in `manifest.json` for full-kit import.
 

@@ -1,0 +1,12 @@
+---
+description: Canonical operating guide for this Elementor page-building repo
+alwaysApply: true
+---
+
+Read `AGENTS.md` at the repo root — it is the canonical, tool-agnostic operating
+guide (process, folder convention, standards, tooling). `CLAUDE.md` and `GEMINI.md`
+are equivalent stubs pointing to the same file.
+
+Loop: kit → `projects/<site>/current-theme/`, content → `new-content/` → onboard once
+(generate the `<site>-*` skills) before building any page → build to `output/` →
+`python3 scripts/validate-page.py <page>.json` must pass → hand off for import.

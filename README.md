@@ -77,6 +77,8 @@ that *generates* that site's skills. After that, making pages is just:
 ```
 AI-wordpress-system/
 ├── README.md                         <- this file (the master process)
+├── AGENTS.md                         <- canonical operating guide for AI agents (Codex/etc. read this)
+├── CLAUDE.md · GEMINI.md · .cursor/  <- thin stubs that point every agent at AGENTS.md
 ├── docs/
 │   ├── Elementor-Site-Playbook.md     <- the portable process (use as CLAUDE.md)
 │   ├── Page-Creation-SOP.md           <- human step-by-step SOP
@@ -89,11 +91,17 @@ AI-wordpress-system/
 │   └── example-site-vitalair/         <- EXAMPLE of what onboarding generates per site
 │       └── vitalair-{design-read,ui-design,content-style,page-builder,page-audit}/
 ├── scripts/
-│   └── responsive-audit.py            <- pre-import gate: flags any element missing its breakpoint settings
+│   ├── elementor_builder.py           <- reusable builder library (structure + responsive baked in)
+│   ├── validate-page.py               <- REQUIRED pre-import gate (all invariants incl. responsive)
+│   ├── responsive-audit.py            <- responsive-only subset (also run by validate)
+│   └── repackage-skills.sh            <- re-zip the portable skills after editing them
 ├── projects/                          <- ONE folder per site (the per-site layer)
 │   ├── <site>/
 │   │   ├── current-theme/             <- the exported Elementor kit (manifest, site-settings, content/, templates/)
 │   │   ├── new-content/               <- the source doc/brief for the new page(s)
+│   │   ├── tokens.json                <- brand tokens (colors/fonts/button/links) that feed build.py
+│   │   ├── build.py                   <- reproducible page build (imports scripts/elementor_builder.py)
+│   │   ├── KIT-ANALYSIS.md            <- the design-system analysis onboarding produced (the "why")
 │   │   ├── skills/                    <- GENERATED per-site skills: <site>-{design-read,ui-design,content-style,page-builder,page-audit}/
 │   │   └── output/                    <- built page JSON + PREVIEW.html + HANDOFF-notes.md
 │   ├── dolan/  · magnolia/            <- worked examples (kit → generated skills → built page)
@@ -169,8 +177,11 @@ source doc in `projects/<site>/new-content/`.
 
 ### Step 2 — Onboard the site (generate its skills) — REQUIRED, once per site
 Open the repo with Claude and say **"Onboard this Elementor kit."** Claude runs
-`elementor-kit-onboarding`, reads `projects/<site>/current-theme/`, and writes the
-five `<site>-*` skills to `projects/<site>/skills/` + a verification report.
+`elementor-kit-onboarding`, reads `projects/<site>/current-theme/`, and writes: the
+five `<site>-*` skills to `projects/<site>/skills/`, a `projects/<site>/tokens.json`
+(brand colors/fonts/button/links that feed the builder), a
+`projects/<site>/KIT-ANALYSIS.md` (the design-system analysis + rationale), and a
+verification report.
 
 > This step is **not optional and not skippable.** Every page for a site is built
 > *through* its generated `<site>-*` skills — never by an ad-hoc read of the kit at
@@ -188,13 +199,19 @@ Fill `docs/content-brief-template.md` (page type, location/topic, hero, sections
 FAQ, CTA) or paste the content doc. Blanks get inferred from the closest existing
 page.
 
-### Step 5 — Build, audit, and import
-Say **"Build a page from this brief."** Claude runs `<site>-page-builder` and writes
-an import-ready template (+ `PREVIEW.html` + `HANDOFF-notes.md`) to
-`projects/<site>/output/`. It passes `<site>-page-audit` and
-`python3 scripts/responsive-audit.py projects/<site>/output/<page>.json` (exit 0)
-before handoff. In WordPress: **Elementor -> Templates -> Import Templates** (the
-up-arrow icon) -> select the JSON -> **Insert**.
+### Step 5 — Build, validate, and import
+Say **"Build a page from this brief."** Claude runs `<site>-page-builder` (ideally by
+authoring `projects/<site>/build.py` on top of `scripts/elementor_builder.py`, so the
+page is reproducible) and writes an import-ready template (+ `PREVIEW.html` +
+`HANDOFF-notes.md`) to `projects/<site>/output/`. It must pass `<site>-page-audit`
+and the validation gate:
+```
+python3 scripts/validate-page.py projects/<site>/output/<page>.json   # exit 0
+```
+(This runs all import invariants — valid JSON, single-page wrapper, unique ids, one
+H1, no subscriber gates, no dead/localhost links, and the full responsive check.)
+In WordPress: **Elementor -> Templates -> Import Templates** (the up-arrow icon) ->
+select the JSON -> **Insert**.
 
 ---
 
@@ -353,8 +370,8 @@ next site.
    `docs/content-brief-template.md`) and say **"Build a page."** The
    `<site>-page-builder` runs the pipeline and writes the page +
    `PREVIEW.html` + `HANDOFF-notes.md` to `projects/<site>/output/`.
-5. **Audit & import.** The build passes `<site>-page-audit` and
-   `python3 scripts/responsive-audit.py projects/<site>/output/<page>.json` (exit 0),
+5. **Validate & import.** The build passes `<site>-page-audit` and
+   `python3 scripts/validate-page.py projects/<site>/output/<page>.json` (exit 0),
    then import the JSON via Elementor → Templates → Import Templates.
 
 Already onboarded a site (e.g. `dolan`, `magnolia`)? Skip to step 4 — the
