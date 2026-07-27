@@ -32,10 +32,27 @@ content from AI draft to published, consistent, and clean. Works for every site.
 - [ ] Featured image set (especially for posts).
 
 ## 5. Responsive & functional
-- [ ] Multi-column rows stack correctly on tablet/mobile.
-- [ ] Heading/body sizes readable on mobile.
-- [ ] Accordions/toggles, maps, and forms work.
-- [ ] Page previewed on desktop and mobile.
+Audit these in the JSON *before* import (each has an explicit per-breakpoint setting),
+then confirm visually in Elementor's tablet + mobile preview:
+- [ ] **Grids stack:** every grid container has `grid_columns_grid_tablet` (~2) and
+      `grid_columns_grid_mobile` (1) — not just the desktop `grid_columns_grid`.
+- [ ] **Rows stack:** every multi-column flex row (`flex_direction: row`/`row-reverse`)
+      sets `flex_direction_mobile: column`.
+- [ ] **Columns go full width:** any container with a `%` `width` also sets
+      `width_mobile` (usually 100%) — and `width_tablet` where the layout needs it.
+- [ ] **Headings shrink:** H1 and every section H2 carry
+      `typography_font_size_mobile` (and ideally `_tablet`). A heading pointing at a
+      global typography slot with no mobile size does **not** shrink — give it
+      self-contained responsive sizes instead.
+- [ ] **Container padding:** the boxed content container has a smaller
+      `padding_mobile` (heavy desktop vertical padding is uncomfortable on phones).
+- [ ] **Images:** fixed-height images set `height_mobile` so they don't crop oddly.
+- [ ] **Emoji icons:** if used as icons, they carry a mobile font size too.
+- [ ] Accordions/toggles, maps, and forms work; page previewed on desktop + mobile.
+
+> Tip: run `python3 scripts/responsive-audit.py <page>.json` — it walks the JSON and
+> flags any grid/row/%-column/heading/container/image missing its `*_mobile` /
+> `*_tablet` key. Exit code 1 = issues, so it works as a pre-import gate.
 
 ## 6. Publish steps
 1. Import the template (Elementor -> Templates -> Import Templates) or insert onto the page.

@@ -48,7 +48,18 @@ it. Mine the actual inline styling:
 - **Section rhythm:** list top-level section `background_color` sequences across
   pages → the alternating pattern.
 - **Structure:** detect whether sections use the Container model and whether they
-  follow an outer-Section → inner-Content-Container pattern; note padding placement.
+  follow an outer-Section → inner-Content-Container pattern; note padding placement
+  and the content-container width. **Read the kit's content width** (the theme's
+  boxed content width, ~1140px on a default Elementor/Hello theme) and use it.
+  **Standard to enforce when building:** every section = full-width (100%) Section
+  (background only) → **one BOXED content container** set to that site content width
+  (`content_width:"boxed"`, `boxed_width` = the kit width, never exceed ~1300px) →
+  content widgets directly, with no excess wrapper around a lone image/text and a
+  variety of layouts (two-column, card grid, accordion).
+- **Icons:** note the icon libraries in use, but the build standard is to **mix in
+  emoji as icons** (card headers, benefit lists, step markers) so pages aren't fully
+  dependent on the Elementor/FontAwesome/Spectre icon fonts. Emoji go in heading/text
+  widgets; save JSON as UTF-8.
 - **Reusable templates:** read `templates/*` → header/footer/section IDs + names.
 - **Widget mix:** rank `widgetType` → which widgets the site actually uses.
 
@@ -79,7 +90,12 @@ Write each as `skills/<site>-<name>/SKILL.md` with proper frontmatter
   (featured image, categories/tags, author) at publish time.
 - **`<site>-page-audit`** — brand + Elementor-hygiene checks AND a "do NOT fix"
   list of intentional brand choices (so generic web-redesign rules don't fight
-  the brand).
+  the brand). Include the **responsive checklist**: grids set tablet(~2)/mobile(1)
+  columns; flex rows set `flex_direction_mobile:column`; %-width columns set
+  `width_mobile:100%`; H1 + every section H2 have `typography_font_size_mobile`
+  (globals-only headings don't shrink); boxed container has `padding_mobile`;
+  fixed-height images have `height_mobile`. Audit these in the JSON before import
+  (see `docs/Publishing-QA-Checklist.md` §5).
 - **`<site>-page-builder`** — orchestrator: design-read → map sections → write
   copy → style inline → emit complete JSON → audit → export.
 - **`<site>-design-read`** — brief-inference front door that routes to the above.
@@ -100,8 +116,11 @@ this verification with a subagent.
 Every generated skill set must encode: globals are often fake (style inline);
 single-page import needs the `{version,title,type:"page",content,page_settings}`
 wrapper (kit `content/page` format throws "Invalid template type"); unique ids
-(regenerate on clone); complete/valid JSON only; plus whatever the site's own
-section-structure, button-hover, and mobile conventions are.
+(regenerate on clone); complete/valid JSON only; the **full-width Section → one
+boxed content container (at the site's content width, ~1140px) → content, no excess
+wrappers** layout standard; **emoji-as-icons** mixed in so pages don't fully depend
+on icon fonts; plus whatever the site's own section-rhythm, button-hover, and mobile
+conventions are.
 
 ## Guardrails
 - Never hard-code VitalAir (or any prior site's) values — read them fresh each time.

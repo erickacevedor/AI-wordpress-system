@@ -120,15 +120,38 @@ and "broken." Encode them in the generated `<site>-ui-design` and `-page-audit`.
     "content":[ ...elements... ],"page_settings":{"template":"default"}}
    ```
    The `content/page/<id>.json` (+ manifest entry) format is only for **Import Kit**.
-3. **Section structure (if the site uses it):** every section =
-   **Section (full-width, background, no padding) → Content Container (holds the
-   default padding, always) → content**. Children and nested containers get
-   **zero padding**; spacing comes from the Content Container's padding + gap.
+3. **Section structure (standard):** every section =
+   **Section (full-width 100%, background only, no padding) → one BOXED Content
+   Container (set to the site's content width — `content_width:"boxed"`,
+   `boxed_width` = the kit's content width, e.g. ~1140px on a default Elementor/Hello
+   theme; read it from the kit, never exceed ~1300px — carries the padding) →
+   content**.
+   - **No excess containers:** content widgets sit directly in the boxed container.
+     Don't double-wrap a lone image or text — one element = one widget. Add a nested
+     container only for a genuine layout need (two-column row, a card with its own
+     background, or a grid of repeated items).
+   - **Variety:** mix layouts (two-column text+image, card grids, accordions), not
+     just stacked single-column blocks.
+   - **Padding discipline:** only the boxed container (and self-contained cards)
+     carries padding; nested rows/columns/grids get **zero padding**; spacing comes
+     from the container padding + gap.
+8. **Emoji icons (reduce icon-library dependence):** don't rely only on Elementor /
+   FontAwesome / Spectre icons. Where an icon accents content (card headers,
+   benefit/feature lists, step markers), use an **emoji as the icon** — in a heading
+   widget (large size for a card "icon") or inline at the start of a text line.
+   Emoji need no icon font and are edited in the text field; save JSON as UTF-8. Keep
+   real icon widgets where they fit (e.g. button arrows) — aim for a **mix** so a
+   missing icon font never blanks the page.
 4. **Button hover:** match the site. Where specified, color-change only — no
    size/shape animation (`hover_animation` empty).
-5. **Mobile:** multi-column rows must stack. Set child `width_tablet` (~48% for
-   3-col) and `width_mobile` (100%), and per-breakpoint heading/body sizes.
-   Content-container padding gets a smaller `padding_mobile`.
+5. **Mobile (audit the JSON before import):** **grids** set
+   `grid_columns_grid_tablet` (~2) + `grid_columns_grid_mobile` (1); **flex rows**
+   set `flex_direction_mobile: column`; **%-width columns** set `width_mobile` (100%)
+   + `width_tablet`; **H1 + every section H2** carry `typography_font_size_mobile`/
+   `_tablet` (a heading using a global typography slot with no mobile size won't
+   shrink — give it self-contained responsive sizes); the boxed container gets a
+   smaller `padding_mobile`; fixed-height images set `height_mobile`. Full list in
+   `docs/Publishing-QA-Checklist.md` §5.
 6. **IDs:** every element needs a unique `id`. When cloning a page, regenerate
    **all** ids so it imports as new (no collisions).
 7. **Complete JSON only:** no `// ...`, no collapsed repeated widgets, valid

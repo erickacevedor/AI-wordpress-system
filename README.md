@@ -191,14 +191,22 @@ per-site `ui-design` and `page-audit` skill enforces them:
    format throws **"Invalid template type."** For single-page import, wrap as:
    `{"version":"0.4","title":"<Page>","type":"page","content":[ ...elements... ],"page_settings":{"template":"default"}}`
    The `content/page/<id>.json` (+ manifest entry) format is only for **Import Kit**.
-3. **Section structure:** every section = **Section (full-width, background, no
-   padding) -> Content Container (holds the default padding, always) -> content**.
-   Children and nested containers get **zero padding**; spacing comes from the
-   Content Container's padding + gap.
+3. **Section structure:** every section = **Section (full-width 100%, background,
+   no padding) -> one BOXED Content Container (site width, max 1300px, holds the
+   padding) -> content**. Content widgets go directly in the boxed container - no
+   excess wrappers around a lone image or text. Children and nested containers get
+   **zero padding**; spacing comes from the Content Container's padding + gap. (See
+   §5b for the full standard.)
 4. **Button hover = color only.** No size/shape animation (`hover_animation` empty).
-5. **Mobile:** multi-column rows must stack. Set child `width_tablet` (~48% for
-   3-col) and `width_mobile` (100%), plus per-breakpoint heading/body sizes and a
-   smaller `padding_mobile` on the Content Container.
+5. **Mobile (every page must pass this):** multi-column **grids** set
+   `grid_columns_grid_tablet` (~2) + `grid_columns_grid_mobile` (1); multi-column
+   **flex rows** set `flex_direction_mobile: column`; **%-width columns** set
+   `width_mobile` (100%) and `width_tablet`; **H1 + every section H2** carry
+   `typography_font_size_mobile`/`_tablet` (a heading pointing at a global typography
+   slot with no mobile size will **not** shrink — give it self-contained responsive
+   sizes); the boxed Content Container gets a smaller `padding_mobile`; fixed-height
+   images set `height_mobile`. See the responsive checklist in
+   `docs/Publishing-QA-Checklist.md` §5 and audit the JSON before import.
 6. **Unique ids.** Every element needs a unique `id`; regenerate all ids when
    cloning a page so it imports as new.
 7. **Complete JSON only.** No `// ...`, no collapsed repeated widgets, valid
@@ -213,24 +221,48 @@ per-site `ui-design` and `page-audit` skill enforces them:
 These structural rules are applied to every page the system builds; every per-site
 `ui-design`, `page-builder`, and `page-audit` skill enforces them.
 
-**1. Two-tier section structure.** Every section is built as:
+**1. Two-tier section structure — full-width band + boxed content.** Every section
+is built as:
 
 ```
-Section                 (full-width outer container - background only, NO padding)
-  └─ Content Container   (the ONLY element with padding - always a default padding)
-       └─ content        (headings, text, buttons, nested columns/grids)
+Section                 (full-width, 100% - background only, NO padding)
+  └─ Content Container   (BOXED to the site's content width - carries the padding)
+       └─ content        (headings, text, buttons, and multi-column rows/grids)
 ```
 
-**2. Padding discipline.** Only the Content Container carries padding. Every child
-- including nested containers, columns, and grids - has zero padding. All spacing
-comes from the Content Container's padding and the gap between elements.
+The outer Section always spans the full 100% viewport width (so backgrounds and
+overlays go edge to edge). Inside it sits **exactly one** boxed Content Container
+set to the **site's own content width** (`content_width: "boxed"`, `boxed_width` =
+the kit's content width — e.g. 1140px on a default Elementor/Hello theme; read it
+from the kit and never exceed ~1300px). That boxed container is the single wrapper
+for the section's content.
 
-**3. Nested containers stay padding-free.** Multi-column rows (feature banners,
-service grids, map + list) live inside the Content Container and never add their
-own padding.
+**2. No excess containers.** Content widgets sit **directly** inside the boxed
+Content Container. Do not wrap a lone element in its own extra container - one image
+= one image widget in the container; one paragraph = one text widget in the
+container. Add a nested container **only** when the layout genuinely needs it: a
+real two-column row, a card that carries its own background, or a grid of repeated
+items. Aim for a variety of these layouts (two-column text+image, card grids,
+accordions) rather than stacking single-column blocks.
+
+**3. Padding discipline.** Only the boxed Content Container (and self-contained
+cards) carries padding. Every other child - nested rows, columns, grids - has zero
+padding; all spacing comes from the container's padding and the gap between
+elements. Multi-column rows (feature banners, service grids, map + list) live inside
+the boxed container and never add their own padding.
 
 **4. Button behavior.** Buttons change background color and text color on hover
 only - no grow, shrink, scale, or other size/shape animation.
+
+**5. Emoji icons (reduce icon-library dependence).** Don't rely solely on the
+Elementor / FontAwesome / Spectre icon libraries. Where an icon accents content
+(card headers, feature/benefit lists, step markers), use an **emoji as the icon**:
+place it in a heading or text widget (large font size for a card "icon", inline at
+the start of a line for a list). Emoji render cross-platform, need no icon font, and
+are edited right in the text field. Save the JSON as UTF-8 (emoji embed directly).
+Keep genuine icon widgets where they fit (e.g. a button arrow) - the goal is a
+**mix**, so a missing icon font never leaves the page blank. Pick emoji that match
+the topic and the brand tone.
 
 **Optional layout variant.** A section can be split into two columns - content on
 one side and an empty column on the other, reserved for an image added manually in
