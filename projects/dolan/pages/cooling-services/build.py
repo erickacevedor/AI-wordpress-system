@@ -6,15 +6,25 @@ Reproducible build on scripts/elementor_builder.py + tokens.json. Structural and
 responsive correctness comes from the shared library; only Dolan's brand values
 (tokens) and this page's content/section assembly live here.
 
-Run:  python3 projects/dolan/build.py
-Then: python3 scripts/validate-page.py projects/dolan/output/cooling-services.json
+Run:  python3 projects/dolan/pages/cooling-services/build.py
+Then: python3 scripts/validate-page.py projects/dolan/pages/cooling-services/cooling-services.json
 """
 import json, os, sys
+# Resolve paths independent of nesting depth: HERE = this page folder,
+# ROOT = repo root (has AGENTS.md), SITE = projects/<site>/ (holds tokens.json).
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, "..", "..", "scripts"))
+def _find_root(p):
+    while p != os.path.dirname(p):
+        if os.path.exists(os.path.join(p, "AGENTS.md")):
+            return p
+        p = os.path.dirname(p)
+    raise RuntimeError("repo root (AGENTS.md) not found above %s" % HERE)
+ROOT = _find_root(HERE)
+SITE = os.path.dirname(os.path.dirname(HERE))  # pages/<slug> -> projects/<site>
+sys.path.insert(0, os.path.join(ROOT, "scripts"))
 import elementor_builder as E
 
-T = json.load(open(os.path.join(HERE, "tokens.json"), encoding="utf-8"))
+T = json.load(open(os.path.join(SITE, "tokens.json"), encoding="utf-8"))
 C = {k: v["hex"] for k, v in T["colors"].items()}
 G = {k: v["global"] for k, v in T["colors"].items()}
 F = T["fonts"]
@@ -174,8 +184,7 @@ S.append(E.section(overlay(T["cta_image"], 233139, 70), [
 
 doc = E.wrap_page("Air Conditioning & Cooling Services in Louisburg, NC", S,
                   {"template": "default", "hide_title": "yes", "custom_css": DIVI_CSS})
-out = os.path.join(HERE, "output", "cooling-services.json")
-os.makedirs(os.path.dirname(out), exist_ok=True)
+out = os.path.join(HERE, "cooling-services.json")
 with open(out, "w", encoding="utf-8") as f:
     json.dump(doc, f, ensure_ascii=False, separators=(",", ":"))
 print("Wrote", out, "| sections:", len(S))

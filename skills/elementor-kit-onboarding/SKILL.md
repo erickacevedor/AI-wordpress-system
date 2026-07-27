@@ -23,13 +23,14 @@ its Steps 2–3.
 - **Input:** an unzipped Elementor kit export at `projects/<site>/current-theme/`
   (`manifest.json`, `site-settings.json`, `content/page/*.json`,
   `content/post/*.json`, `templates/*.json`).
-- **Output:** written to `projects/<site>/` — (a) the five site skills in `skills/`
-  (`<site>-design-read`, `-ui-design`, `-content-style`, `-page-builder`,
+- **Output (all SITE-WIDE, at `projects/<site>/`):** (a) the five site skills in
+  `skills/` (`<site>-design-read`, `-ui-design`, `-content-style`, `-page-builder`,
   `-page-audit`); (b) `tokens.json` (the brand colors/fonts/button/links that feed
   `scripts/elementor_builder.py`); (c) `KIT-ANALYSIS.md` (the human-readable
   design-system analysis + rationale, like the two existing examples); then a
   verification report. (The portable `full-output-enforcement` stays at repo-root
-  `skills/`; it is referenced, not copied per site.)
+  `skills/`; it is referenced, not copied per site.) Individual **pages** are built
+  later, each into its own `projects/<site>/pages/<page-slug>/` container.
 
 Use a short site slug (from `manifest.json` `site`/`title`, matching the
 `projects/<site>/` folder) as `<site>`. **This step is required once per site and

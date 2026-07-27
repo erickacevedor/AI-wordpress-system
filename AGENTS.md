@@ -23,17 +23,28 @@ new pages that import cleanly and look like they always belonged.
 
 ```
 projects/<site>/
-├── current-theme/     ← the unzipped Elementor kit export (manifest, site-settings, content/, templates/)
-├── new-content/       ← the source doc/brief for the new page(s)
-├── tokens.json        ← the site's brand tokens (colors/fonts/button/links) — feeds build.py
-├── build.py           ← reproducible page build (imports scripts/elementor_builder.py)
-├── skills/            ← GENERATED per-site skills: <site>-{design-read,ui-design,content-style,page-builder,page-audit}/
-├── KIT-ANALYSIS.md    ← the design-system analysis onboarding produced (why the tokens are what they are)
-└── output/            ← built page JSON + PREVIEW.html + HANDOFF-notes.md
+├── current-theme/     ← the unzipped Elementor kit export (manifest, site-settings, content/, templates/)  [SITE-WIDE]
+├── tokens.json        ← the site's brand tokens (colors/fonts/button/links) — feeds every page build       [SITE-WIDE]
+├── KIT-ANALYSIS.md    ← the design-system analysis onboarding produced (why the tokens are what they are)   [SITE-WIDE]
+├── skills/            ← GENERATED per-site skills: <site>-{design-read,ui-design,content-style,page-builder,page-audit}/  [SITE-WIDE]
+└── pages/             ← one self-contained folder PER PAGE
+    └── <page-slug>/
+        ├── source.<ext>       ← the page's source doc/brief
+        ├── build.py           ← reproducible build (imports scripts/elementor_builder.py, reads ../../tokens.json)
+        ├── <page-slug>.json   ← the built, import-ready page
+        ├── PREVIEW.html       ← browser design-review
+        └── HANDOFF-notes.md   ← import + SEO handoff
 ```
 
+**Site-wide vs. per-page:** the kit, `tokens.json`, `KIT-ANALYSIS.md`, and `skills/`
+are the brand — shared by every page, so they stay at the site root. Everything
+specific to one page (source, build, output, preview, handoff) lives together in its
+own `pages/<page-slug>/` container, so a site can hold many pages without collisions.
 Portable skills live once at repo-root `skills/`; they are **referenced**, never
 copied per site.
+
+A `build.py` finds the repo root by walking up to `AGENTS.md`, so it works regardless
+of nesting depth.
 
 ---
 
@@ -44,17 +55,18 @@ copied per site.
 > Never build a page from an ad-hoc read of the kit — build only *through* the
 > generated skills. This is what keeps every later page fast and consistent.
 
-1. **Set up.** Unzip the Elementor export into `projects/<site>/current-theme/`; put
-   the page's source doc in `projects/<site>/new-content/`.
+1. **Set up.** Unzip the Elementor export into `projects/<site>/current-theme/`.
 2. **Onboard (required, once per site).** Run `skills/elementor-kit-onboarding`: read
    `current-theme/`, mine the REAL design system (see below), and write the five
    `<site>-*` skills to `projects/<site>/skills/`, a `projects/<site>/tokens.json`,
    and `projects/<site>/KIT-ANALYSIS.md`. Verify palette/fonts/button/voice vs. the
    live site before proceeding.
-3. **Build.** Run the site's `<site>-page-builder` pipeline (design-read → map
-   sections → write copy → style → emit JSON). Prefer authoring
-   `projects/<site>/build.py` on top of `scripts/elementor_builder.py` so the page is
-   reproducible. Write the page + `PREVIEW.html` + `HANDOFF-notes.md` to `output/`.
+3. **Build a page.** Create `projects/<site>/pages/<page-slug>/`, put the source doc
+   there (`source.<ext>`), and run the site's `<site>-page-builder` pipeline
+   (design-read → map sections → write copy → style → emit JSON) — ideally by
+   authoring `pages/<page-slug>/build.py` on top of `scripts/elementor_builder.py`
+   (reading `../../tokens.json`) so the page is reproducible. Write the page +
+   `PREVIEW.html` + `HANDOFF-notes.md` into that same page folder.
 4. **Validate (required gate).** `python3 scripts/validate-page.py <page>.json` must
    exit 0. Then run `<site>-page-audit` for brand/voice.
 5. **Hand off.** Tell the user the import path (Elementor → Templates → Import
@@ -102,7 +114,7 @@ export URLs → use root-relative links).
 
 | Command | Purpose |
 |---|---|
-| `python3 projects/<site>/build.py` | Build the page from tokens + section assembly (reproducible) |
+| `python3 projects/<site>/pages/<slug>/build.py` | Build that page from tokens + section assembly (reproducible) |
 | `python3 scripts/validate-page.py <page>.json` | **Required gate.** All import invariants incl. responsive. Exit 0 = ready |
 | `python3 scripts/responsive-audit.py <page>.json` | Responsive-only subset (also run by validate) |
 | `scripts/repackage-skills.sh` | Re-zip the portable skills into `skills-zipped/` after editing them |

@@ -17,7 +17,7 @@ complete, and responsive in one pass.
 **Input:** a content doc/brief (page type, location, hero, sections, FAQ, CTA).
 Missing pieces are inferred from the closest existing page or one focused question.
 
-**Output:** a single-page Elementor JSON saved to `projects/magnolia/output/<slug>.json`,
+**Output:** a single-page Elementor JSON saved to `projects/magnolia/pages/<slug>/<slug>.json`,
 plus a `PREVIEW.html` and `HANDOFF-notes.md`. Import via Elementor → Templates →
 Import Templates.
 
@@ -61,7 +61,7 @@ brand palette/button/rhythm.
 
 ## Deliverable & handoff
 
-Save JSON + PREVIEW.html + HANDOFF-notes.md to `projects/magnolia/output/`. Tell the
+Save JSON + PREVIEW.html + HANDOFF-notes.md into `projects/magnolia/pages/<slug>/`. Tell the
 user the import path and list post-import wiring (swap hero image + alt, confirm
 slugs, header/footer, SEO meta). Note which existing page it was based on.
 

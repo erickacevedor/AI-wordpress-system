@@ -6,8 +6,8 @@ ask one question). Brand styling — colors, fonts, hero treatment, CTA shape �
 your job here; it comes from the site's generated `<site>-ui-design` skill. You
 provide the **content and structure**; the system provides the look.
 
-> A filled brief is optional — a plain content doc dropped in
-> `projects/<site>/new-content/` works too.
+> A filled brief is optional — a plain content doc dropped in the page's folder
+> (`projects/<site>/pages/<page-slug>/source.<ext>`) works too.
 
 ---
 

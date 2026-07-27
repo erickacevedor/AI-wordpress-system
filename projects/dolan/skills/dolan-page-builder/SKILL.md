@@ -17,7 +17,7 @@ complete, and responsive in one pass.
 **Input:** a content doc/brief (page type, location, hero, sections, FAQ, CTA).
 Missing pieces are inferred from the closest existing page or one focused question.
 
-**Output:** a single-page Elementor JSON saved to `projects/dolan/output/<slug>.json`,
+**Output:** a single-page Elementor JSON saved to `projects/dolan/pages/<slug>/<slug>.json`,
 plus a `PREVIEW.html` and `HANDOFF-notes.md`. Import via Elementor → Templates →
 Import Templates.
 
@@ -57,7 +57,7 @@ brand palette/button/rhythm.
 
 ## Deliverable & handoff
 
-Save JSON + PREVIEW.html + HANDOFF-notes.md to `projects/dolan/output/`. Tell the user
+Save JSON + PREVIEW.html + HANDOFF-notes.md into `projects/dolan/pages/<slug>/`. Tell the user
 the import path and post-import wiring (confirm `#contact` anchor + service slugs,
 header/footer, SEO meta). Note which existing page it was based on.
 

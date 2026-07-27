@@ -19,16 +19,27 @@ Portable skills live once at the repo root (`skills/elementor-kit-onboarding`,
 
 ```
 projects/<site>/
-├── current-theme/           ← the unzipped Elementor kit export
+├── current-theme/           ← the unzipped Elementor kit export             [SITE-WIDE]
 │   ├── manifest.json        ← index of everything
 │   ├── site-settings.json   ← global colors/fonts (REAL on some kits, theme defaults on others)
 │   ├── content/page/*.json  ← pages   · content/post/*.json ← posts
 │   └── templates/*.json     ← header, footer, reusable containers
-├── new-content/             ← the source doc/brief for the new page(s)
-├── skills/                  ← GENERATED per-site skills (by onboarding — not hand-written)
+├── tokens.json              ← brand tokens that feed every page build       [SITE-WIDE]
+├── KIT-ANALYSIS.md          ← design-system analysis (the "why")            [SITE-WIDE]
+├── skills/                  ← GENERATED per-site skills (by onboarding)     [SITE-WIDE]
 │   └── <site>-{design-read,ui-design,content-style,page-builder,page-audit}/
-└── output/                  ← built page JSON + PREVIEW.html + HANDOFF-notes.md
+└── pages/                   ← one self-contained folder PER PAGE
+    └── <page-slug>/
+        ├── source.<ext>        ← the page's source doc/brief
+        ├── build.py            ← reproducible build (imports scripts/elementor_builder.py, reads ../../tokens.json)
+        ├── <page-slug>.json    ← built import-ready page
+        ├── PREVIEW.html
+        └── HANDOFF-notes.md
 ```
+
+The kit, `tokens.json`, `KIT-ANALYSIS.md`, and `skills/` are **site-wide** (shared by
+every page). Everything specific to one page lives together in its own
+`pages/<page-slug>/` container, so a site can hold many pages without collisions.
 
 **Skills first, every new site.** Reading `current-theme/` and *generating* the
 `<site>-*` skills is a required step, once per site, **before** any page is built.
@@ -43,8 +54,9 @@ changed.) The portable `full-output-enforcement` is referenced from repo-root
 
 ### Step 1 — Export & load the Elementor kit
 In WordPress: **Elementor → Tools → Export Kit** (include content + templates +
-site settings). Unzip into `projects/<site>/current-theme/`, put the new page's
-source doc in `projects/<site>/new-content/`, and point Claude at the repo.
+site settings). Unzip into `projects/<site>/current-theme/` and point Claude at the
+repo. (Each page's source doc goes in its own `projects/<site>/pages/<page-slug>/`
+folder at build time — Step 5.)
 
 ### Step 2 — Analyze the kit & generate the site skills
 Run the `elementor-kit-onboarding` skill (or follow it manually). It:
@@ -95,9 +107,9 @@ Run `<site>-page-builder`:
 3. **Write/polish copy** with `<site>-content-style`.
 4. **Style** with `<site>-ui-design` (inline, on-brand).
 5. **Emit complete JSON** with `full-output-enforcement` — ideally by authoring
-   `projects/<site>/build.py` on top of `scripts/elementor_builder.py` (which bakes in
-   the boxed section structure + responsive settings, so the page is reproducible and
-   passes the gate) driven by `projects/<site>/tokens.json`.
+   `projects/<site>/pages/<page-slug>/build.py` on top of `scripts/elementor_builder.py`
+   (which bakes in the boxed section structure + responsive settings, so the page is
+   reproducible and passes the gate) driven by the site-wide `projects/<site>/tokens.json`.
 6. **Validate** — `python3 scripts/validate-page.py <page>.json` must exit 0 (all
    import invariants incl. responsive), then **audit** with `<site>-page-audit`.
 7. **Export** an importable single-template file (see format below) + optionally
