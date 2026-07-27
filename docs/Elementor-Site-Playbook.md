@@ -13,21 +13,29 @@ and emits JSON — a plain claude.ai Project can't do those.
 
 ## Folder convention (one per site)
 
+Portable skills live once at the repo root (`skills/elementor-kit-onboarding`,
+`skills/full-output-enforcement`). Everything site-specific lives under
+`projects/<site>/`:
+
 ```
-<site>/                      ← the Elementor kit export (unzipped)
-├── manifest.json            ← index of everything
-├── site-settings.json       ← global colors/fonts (often still theme defaults!)
-├── content/page/*.json      ← pages
-├── content/post/*.json      ← posts
-├── templates/*.json         ← header, footer, reusable containers
-└── skills/                  ← generated per-site skills live here
-    ├── <site>-design-read/
-    ├── <site>-ui-design/
-    ├── <site>-content-style/
-    ├── <site>-page-builder/
-    ├── <site>-page-audit/
-    └── full-output-enforcement/  ← portable, copy as-is
+projects/<site>/
+├── current-theme/           ← the unzipped Elementor kit export
+│   ├── manifest.json        ← index of everything
+│   ├── site-settings.json   ← global colors/fonts (REAL on some kits, theme defaults on others)
+│   ├── content/page/*.json  ← pages   · content/post/*.json ← posts
+│   └── templates/*.json     ← header, footer, reusable containers
+├── new-content/             ← the source doc/brief for the new page(s)
+├── skills/                  ← GENERATED per-site skills (by onboarding — not hand-written)
+│   └── <site>-{design-read,ui-design,content-style,page-builder,page-audit}/
+└── output/                  ← built page JSON + PREVIEW.html + HANDOFF-notes.md
 ```
+
+**Skills first, every new site.** Reading `current-theme/` and *generating* the
+`<site>-*` skills is a required step, once per site, **before** any page is built.
+Never build a page by an ad-hoc read of the kit — build only *through* the generated
+skills. (Reuse existing `projects/<site>/skills/`; regenerate only if the kit
+changed.) The portable `full-output-enforcement` is referenced from repo-root
+`skills/` — it is not copied per site.
 
 ---
 
@@ -35,7 +43,8 @@ and emits JSON — a plain claude.ai Project can't do those.
 
 ### Step 1 — Export & load the Elementor kit
 In WordPress: **Elementor → Tools → Export Kit** (include content + templates +
-site settings). Unzip into a fresh `<site>/` folder and point Claude at it.
+site settings). Unzip into `projects/<site>/current-theme/`, put the new page's
+source doc in `projects/<site>/new-content/`, and point Claude at the repo.
 
 ### Step 2 — Analyze the kit & generate the site skills
 Run the `elementor-kit-onboarding` skill (or follow it manually). It:
@@ -60,7 +69,10 @@ Run the `elementor-kit-onboarding` skill (or follow it manually). It:
      list of intentional brand choices.
    - `<site>-page-builder` — orchestrator that runs the pipeline.
    - `<site>-design-read` — brief-inference front door.
-   - Copy the portable `output-enforcement` skill in as-is.
+   - (The portable `full-output-enforcement` stays at repo-root `skills/` and is
+     referenced during builds — it is **not** copied per site.)
+
+   Write these to `projects/<site>/skills/<site>-<name>/SKILL.md`.
 
 ### Step 3 — Double-check (verification gate)
 Before building anything, confirm the generated skills are right:
@@ -82,7 +94,7 @@ Run `<site>-page-builder`:
 2. **Map content** to the site's standard section anatomy.
 3. **Write/polish copy** with `<site>-content-style`.
 4. **Style** with `<site>-ui-design` (inline, on-brand).
-5. **Emit complete JSON** with `output-enforcement`.
+5. **Emit complete JSON** with `full-output-enforcement`.
 6. **Audit** with `<site>-page-audit`.
 7. **Export** an importable single-template file (see format below) + optionally
    register in `manifest.json` for full-kit import.

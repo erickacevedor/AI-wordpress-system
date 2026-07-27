@@ -20,14 +20,19 @@ its Steps 2–3.
 
 ## Inputs & output
 
-- **Input:** an unzipped Elementor kit export folder (`manifest.json`,
-  `site-settings.json`, `content/page/*.json`, `content/post/*.json`,
-  `templates/*.json`).
-- **Output:** a `skills/` folder with `<site>-ui-design`, `<site>-content-style`,
-  `<site>-page-audit`, `<site>-page-builder`, `<site>-design-read`, plus the
-  portable `output-enforcement` copied in — then a verification report.
+- **Input:** an unzipped Elementor kit export at `projects/<site>/current-theme/`
+  (`manifest.json`, `site-settings.json`, `content/page/*.json`,
+  `content/post/*.json`, `templates/*.json`).
+- **Output:** the five site skills written to `projects/<site>/skills/` —
+  `<site>-design-read`, `<site>-ui-design`, `<site>-content-style`,
+  `<site>-page-builder`, `<site>-page-audit` — then a verification report. (The
+  portable `full-output-enforcement` stays at repo-root `skills/`; it is referenced,
+  not copied per site.)
 
-Use a short site slug (from `manifest.json` `site`/`title`) as `<site>`.
+Use a short site slug (from `manifest.json` `site`/`title`, matching the
+`projects/<site>/` folder) as `<site>`. **This step is required once per site and
+must run before any page is built** — pages are built only through these generated
+skills, never from an ad-hoc read of the kit.
 
 ## Procedure
 
@@ -99,7 +104,8 @@ Write each as `skills/<site>-<name>/SKILL.md` with proper frontmatter
 - **`<site>-page-builder`** — orchestrator: design-read → map sections → write
   copy → style inline → emit complete JSON → audit → export.
 - **`<site>-design-read`** — brief-inference front door that routes to the above.
-- **`output-enforcement`** — copy the portable skill in unchanged.
+- **`full-output-enforcement`** — the portable skill stays at repo-root `skills/`
+  and is referenced during builds; do **not** copy it into `projects/<site>/skills/`.
 
 ### 4. Verify (do not skip)
 Produce a short report and confirm before any page is built:

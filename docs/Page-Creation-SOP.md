@@ -1,23 +1,28 @@
 # VitalAir — Fast Page Creation SOP
 
 A repeatable process for turning a content doc into an on-brand, import-ready
-Elementor page for the VitalAir site. The goal is a new page in ~10–15 minutes
-that looks like it always belonged in the kit.
+Elementor page. The goal is a new page in ~10–15 minutes that looks like it always
+belonged in the kit. **VitalAir is the worked example below** — for any other site,
+swap `vitalair-` for your `<site>-` skills; the process is identical.
+
+> **Prerequisite:** the site's `<site>-*` skills already exist (generated once by
+> `elementor-kit-onboarding` — see README §4 / the Playbook). If they don't, onboard
+> the kit first; don't build a page from an ad-hoc read of the kit.
 
 ## What powers this
 
-Six skills in `skills/` do the work. You mostly talk to the first one; it calls
-the rest:
+The site's generated per-site skills (in `projects/<site>/skills/`) plus the portable
+`full-output-enforcement` do the work. You mostly talk to the first one; it calls the
+rest:
 
 | Skill | Role in the process |
 |-------|---------------------|
-| `vitalair-page-builder` | **Entry point.** Orchestrates the whole pipeline. |
-| `vitalair-design-read` | Reads the brief, picks the closest existing page to mirror. |
-| `vitalair-content-style` | Writes/edits copy in the VitalAir voice. |
-| `vitalair-ui-design` | Applies brand colors, Poppins, pill CTAs, layout. |
+| `<site>-page-builder` | **Entry point.** Orchestrates the whole pipeline. |
+| `<site>-design-read` | Reads the brief, picks the closest existing page to mirror. |
+| `<site>-content-style` | Writes/edits copy in the site's voice. |
+| `<site>-ui-design` | Applies brand colors, fonts, CTA style, the boxed section layout. |
 | `full-output-enforcement` | Ensures the Elementor JSON comes out complete/valid. |
-| `vitalair-page-audit` | Final brand + hygiene check before handoff. |
-| `minimalist-ui-OFF-BRAND` | Ignore for VitalAir — off-brand, opt-in only. |
+| `<site>-page-audit` | Final brand + hygiene + responsive check before handoff. |
 
 ## The process
 

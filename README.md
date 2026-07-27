@@ -75,28 +75,37 @@ that *generates* that site's skills. After that, making pages is just:
 ## 2. What's in this folder
 
 ```
-Elementor-AI-Page-System/
+AI-wordpress-system/
 ├── README.md                         <- this file (the master process)
 ├── docs/
-│   ├── Elementor-Site-Playbook.md     <- the portable 5-step process (use as CLAUDE.md)
+│   ├── Elementor-Site-Playbook.md     <- the portable process (use as CLAUDE.md)
 │   ├── Page-Creation-SOP.md           <- human step-by-step SOP
 │   ├── content-brief-template.md      <- fill-in brief you hand Claude per page
 │   ├── Example-Kit-Analysis-VitalAir.md <- example of the analysis Claude produces
-│   └── Publishing-QA-Checklist.md     <- pre-publish QA gate (SEO, links, media, mobile)
-├── skills/
-│   ├── elementor-kit-onboarding/      <- PORTABLE: analyzes a kit, generates site skills
-│   ├── full-output-enforcement/       <- PORTABLE: keeps Elementor JSON complete/valid
+│   └── Publishing-QA-Checklist.md     <- pre-publish QA gate (SEO, links, media, mobile, responsive)
+├── skills/                            <- PORTABLE layer (never changes site to site)
+│   ├── elementor-kit-onboarding/      <- analyzes a kit, GENERATES the per-site skills
+│   ├── full-output-enforcement/       <- keeps Elementor JSON complete/valid
 │   └── example-site-vitalair/         <- EXAMPLE of what onboarding generates per site
-│       ├── vitalair-design-read/
-│       ├── vitalair-ui-design/
-│       ├── vitalair-content-style/
-│       ├── vitalair-page-builder/
-│       └── vitalair-page-audit/
+│       └── vitalair-{design-read,ui-design,content-style,page-builder,page-audit}/
+├── scripts/
+│   └── responsive-audit.py            <- pre-import gate: flags any element missing its breakpoint settings
+├── projects/                          <- ONE folder per site (the per-site layer)
+│   ├── <site>/
+│   │   ├── current-theme/             <- the exported Elementor kit (manifest, site-settings, content/, templates/)
+│   │   ├── new-content/               <- the source doc/brief for the new page(s)
+│   │   ├── skills/                    <- GENERATED per-site skills: <site>-{design-read,ui-design,content-style,page-builder,page-audit}/
+│   │   └── output/                    <- built page JSON + PREVIEW.html + HANDOFF-notes.md
+│   ├── dolan/  · magnolia/            <- worked examples (kit → generated skills → built page)
+│   └── air-comfort/                   <- earlier example (kit + built pages)
 ├── skills-zipped/                     <- the two PORTABLE skills, pre-zipped for Claude Desktop upload
 └── examples/                          <- real import-ready pages this system produced
-    ├── VitalAir-Service-Areas.json
-    └── VitalAir-Norcross-GA-Image-Layout.json
 ```
+
+**The two layers, on disk:** the **portable** skills live once at repo-root
+`skills/`. The **per-site** skills are *generated* into each
+`projects/<site>/skills/` by onboarding — never hand-authored from scratch, never
+shared between sites.
 
 ---
 
@@ -153,14 +162,21 @@ sections are correct here, not mistakes).
 
 ## 4. The end-to-end process (5 steps)
 
-### Step 1 — Export the Elementor kit
+### Step 1 — Export & drop in the Elementor kit
 In WordPress: **Elementor -> Tools -> Export Kit** (include content + templates +
-site settings). Unzip into a fresh `<site>/` folder.
+site settings). Unzip into `projects/<site>/current-theme/`, and put the new page's
+source doc in `projects/<site>/new-content/`.
 
-### Step 2 — Onboard the site (generate its skills)
-Put the portable skills + `docs/Elementor-Site-Playbook.md` (as `CLAUDE.md`) in the
-folder, open it with Claude, and say **"Onboard this Elementor kit."** Claude runs
-`elementor-kit-onboarding` and produces the five `<site>-*` skills + a report.
+### Step 2 — Onboard the site (generate its skills) — REQUIRED, once per site
+Open the repo with Claude and say **"Onboard this Elementor kit."** Claude runs
+`elementor-kit-onboarding`, reads `projects/<site>/current-theme/`, and writes the
+five `<site>-*` skills to `projects/<site>/skills/` + a verification report.
+
+> This step is **not optional and not skippable.** Every page for a site is built
+> *through* its generated `<site>-*` skills — never by an ad-hoc read of the kit at
+> build time. Generating the skills once is what makes every later page fast,
+> consistent, and reviewable. (Already onboarded? The skills are in
+> `projects/<site>/skills/` — reuse them; regenerate only if the kit changed.)
 
 ### Step 3 — Double-check (verification gate)
 Confirm the generated palette / font / type scale / button spec / voice match the
@@ -172,10 +188,13 @@ Fill `docs/content-brief-template.md` (page type, location/topic, hero, sections
 FAQ, CTA) or paste the content doc. Blanks get inferred from the closest existing
 page.
 
-### Step 5 — Build and import
-Say **"Build a page from this brief."** Claude runs `<site>-page-builder` and
-returns an import-ready template. In WordPress: **Elementor -> Templates -> Import
-Templates** (the up-arrow icon) -> select the JSON -> **Insert**.
+### Step 5 — Build, audit, and import
+Say **"Build a page from this brief."** Claude runs `<site>-page-builder` and writes
+an import-ready template (+ `PREVIEW.html` + `HANDOFF-notes.md`) to
+`projects/<site>/output/`. It passes `<site>-page-audit` and
+`python3 scripts/responsive-audit.py projects/<site>/output/<page>.json` (exit 0)
+before handoff. In WordPress: **Elementor -> Templates -> Import Templates** (the
+up-arrow icon) -> select the JSON -> **Insert**.
 
 ---
 
@@ -311,14 +330,35 @@ next site.
 
 ---
 
-## 8. Quick start for the next site
-1. Copy the **portable** skills (`elementor-kit-onboarding`,
-   `full-output-enforcement`) + `docs/Elementor-Site-Playbook.md` (as `CLAUDE.md`)
-   + `docs/content-brief-template.md` into the new `<site>/` kit folder.
-2. Open with Claude -> "Onboard this Elementor kit."
-3. Verify the generated skills.
-4. Hand over a content brief -> "Build a page."
-5. Import the returned template.
+## 8. Quick start for the next site (the loop — do it in this order)
+
+> **Rule: skills first, every new site.** Reading the kit and *generating the
+> `<site>-*` skills is a required step, once per site, before any page is built.*
+> Do **not** shortcut it by "just building the page" from an ad-hoc look at the kit —
+> that skips the durable, reusable artifact and causes rework. Build pages only
+> *through* the generated skills.
+
+1. **Set up the site folder.** Create `projects/<site>/` and unzip the Elementor
+   export into `projects/<site>/current-theme/`. Put the new page's source doc in
+   `projects/<site>/new-content/`.
+2. **Generate the per-site skills (required, once).** Point Claude at the folder and
+   say **"Onboard this Elementor kit."** It runs `elementor-kit-onboarding`, reads
+   `current-theme/`, and writes the five skills to
+   `projects/<site>/skills/<site>-{design-read,ui-design,content-style,page-builder,page-audit}/`
+   plus a verification report.
+3. **Verify the generated skills** (palette / font / type scale / button spec / voice
+   match the live site; section-structure + responsive rules present). Fix the
+   *skills*, not the output, if anything's off.
+4. **Build the page.** Hand over the content (or a filled
+   `docs/content-brief-template.md`) and say **"Build a page."** The
+   `<site>-page-builder` runs the pipeline and writes the page +
+   `PREVIEW.html` + `HANDOFF-notes.md` to `projects/<site>/output/`.
+5. **Audit & import.** The build passes `<site>-page-audit` and
+   `python3 scripts/responsive-audit.py projects/<site>/output/<page>.json` (exit 0),
+   then import the JSON via Elementor → Templates → Import Templates.
+
+Already onboarded a site (e.g. `dolan`, `magnolia`)? Skip to step 4 — the
+`<site>-*` skills already exist under `projects/<site>/skills/`.
 
 ---
 
