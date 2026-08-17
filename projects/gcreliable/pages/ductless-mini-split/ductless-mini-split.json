@@ -1,0 +1,5057 @@
+{
+ "version": "0.4",
+ "title": "Ductless Mini Split",
+ "type": "page",
+ "content": [
+  {
+   "id": "400060b3",
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "background_background": "gradient",
+    "background_color": "#0033CC",
+    "background_color_b": "#001E78",
+    "background_gradient_angle": {
+     "unit": "deg",
+     "size": 135,
+     "sizes": []
+    },
+    "flex_align_items": "center",
+    "padding": {
+     "unit": "px",
+     "top": "90",
+     "right": "20",
+     "bottom": "90",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "16",
+     "bottom": "40",
+     "left": "16",
+     "isLinked": false
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "min_height": {
+     "unit": "vh",
+     "size": 44,
+     "sizes": []
+    },
+    "flex_justify_content": "center"
+   },
+   "elements": [
+    {
+     "id": "40004d5c",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1280,
+       "sizes": []
+      },
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 16,
+       "column": "16",
+       "row": "16",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "boxed_width_laptop": {
+       "unit": "%",
+       "size": 92,
+       "sizes": []
+      },
+      "boxed_width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "boxed_width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "flex_align_items": "center"
+     },
+     "elements": [
+      {
+       "id": "40001357",
+       "settings": {
+        "title": "Ductless Mini-Split Services<span style=\"display:block;font-size:1.9rem;font-weight:400;text-transform:none;letter-spacing:0;margin-top:10px;\">in New Rochelle, NY</span>",
+        "header_size": "h1",
+        "typography_typography": "custom",
+        "typography_font_family": "brandon-grotesque",
+        "typography_font_size": {
+         "unit": "rem",
+         "size": 3.4,
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "rem",
+         "size": 2.6,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "rem",
+         "size": 2.2,
+         "sizes": []
+        },
+        "typography_font_weight": "800",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.1,
+         "sizes": []
+        },
+        "typography_text_transform": "uppercase",
+        "title_color": "#FFFFFF",
+        "align": "center",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.5,
+         "sizes": []
+        },
+        "typography_line_height_mobile": {
+         "unit": "em",
+         "size": 1.05,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "heading",
+       "elType": "widget"
+      },
+      {
+       "id": "400026ae",
+       "settings": {
+        "title": "Targeted Heating and Cooling Without the Ductwork",
+        "header_size": "h2",
+        "typography_typography": "custom",
+        "typography_font_family": "brandon-grotesque",
+        "typography_font_size": {
+         "unit": "rem",
+         "size": 1.5,
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "rem",
+         "size": 1.35,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "rem",
+         "size": 1.2,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_text_transform": "none",
+        "title_color": "#FFFFFF",
+        "align": "center",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.5,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "heading",
+       "elType": "widget"
+      },
+      {
+       "id": "40003a05",
+       "settings": {
+        "text": "Schedule an Appointment",
+        "align": "center",
+        "link": {
+         "url": "/schedule-appointment",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "brandon-grotesque",
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": true
+        },
+        "hover_color": "#FFFFFF",
+        "__globals__": {
+         "background_color": "globals/colors?id=secondary",
+         "border_color": "globals/colors?id=secondary",
+         "button_text_color": "globals/colors?id=63acc82",
+         "button_background_hover_color": "",
+         "button_hover_border_color": ""
+        },
+        "background_color": "#FF0000",
+        "button_text_color": "#FFFFFF",
+        "border_color": "#FF0000",
+        "button_background_hover_color": "#FF6464",
+        "button_hover_border_color": "#FF6464",
+        "size": "xl",
+        "_element_width": "auto",
+        "selected_icon": {
+         "value": "far fa-calendar-check",
+         "library": "fa-regular"
+        },
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_font_size": {
+         "unit": "rem",
+         "size": 1,
+         "sizes": []
+        },
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1.2,
+         "sizes": []
+        },
+        "button_hover_transition_duration": {
+         "unit": "s",
+         "size": 0,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "button",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "40015c1e",
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_align_items": "center",
+    "padding": {
+     "unit": "px",
+     "top": "64",
+     "right": "20",
+     "bottom": "64",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "16",
+     "bottom": "40",
+     "left": "16",
+     "isLinked": false
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "400148c7",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1280,
+       "sizes": []
+      },
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 22,
+       "column": "22",
+       "row": "22",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "boxed_width_laptop": {
+       "unit": "%",
+       "size": 92,
+       "sizes": []
+      },
+      "boxed_width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "boxed_width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "flex_align_items": "stretch"
+     },
+     "elements": [
+      {
+       "id": "40013570",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_align_items": "center",
+        "flex_gap": {
+         "unit": "px",
+         "size": 44,
+         "column": "44",
+         "row": "44",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "px",
+         "size": 28,
+         "column": "28",
+         "row": "28",
+         "isLinked": true
+        },
+        "flex_direction_mobile": "column-reverse",
+        "flex_wrap": "wrap",
+        "flex_direction_tablet": "column-reverse",
+        "flex_justify_content": "space-between"
+       },
+       "elements": [
+        {
+         "id": "4000ae0f",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 18,
+           "column": "18",
+           "row": "18"
+          },
+          "width": {
+           "unit": "%",
+           "size": 52,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "4000740a",
+           "settings": {
+            "title": "Flexible Comfort Where Traditional HVAC Falls Short",
+            "header_size": "h2",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 2.2,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "rem",
+             "size": 1.9,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "rem",
+             "size": 1.6,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "4",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "40008761",
+           "settings": {
+            "editor": "<p>One room stays hot every afternoon. A finished attic never feels like the rest of the house. An addition was built without extending the original ductwork. These are the kinds of comfort problems that can make ductless mini-splits worth considering.</p><p>Ductless systems use indoor units connected to outdoor equipment to provide targeted heating and cooling without traditional ductwork. G.C. Reliable Service designs ductless solutions for homes and light-commercial properties in <a href=\"/service-area/new-rochelle\">New Rochelle</a> and throughout Westchester County, based on the property, existing HVAC equipment, and how each space is used.</p><p>For older Westchester homes, additions, and finished spaces where installing new ductwork may be disruptive, ductless can provide another path to reliable comfort.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "40009ab8",
+           "settings": {
+            "text": "Schedule an Appointment",
+            "align": "left",
+            "link": {
+             "url": "/schedule-appointment",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_weight": "600",
+            "typography_text_transform": "uppercase",
+            "border_radius": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
+            },
+            "border_border": "solid",
+            "border_width": {
+             "unit": "px",
+             "top": "2",
+             "right": "2",
+             "bottom": "2",
+             "left": "2",
+             "isLinked": true
+            },
+            "hover_color": "#FFFFFF",
+            "__globals__": {
+             "background_color": "globals/colors?id=secondary",
+             "border_color": "globals/colors?id=secondary",
+             "button_text_color": "globals/colors?id=63acc82",
+             "button_background_hover_color": "",
+             "button_hover_border_color": ""
+            },
+            "background_color": "#FF0000",
+            "button_text_color": "#FFFFFF",
+            "border_color": "#FF0000",
+            "button_background_hover_color": "#FF6464",
+            "button_hover_border_color": "#FF6464",
+            "size": "xl",
+            "_element_width": "auto",
+            "selected_icon": {
+             "value": "far fa-calendar-check",
+             "library": "fa-regular"
+            },
+            "icon_indent": {
+             "unit": "px",
+             "size": 10,
+             "sizes": []
+            },
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1,
+             "sizes": []
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 1.2,
+             "sizes": []
+            },
+            "button_hover_transition_duration": {
+             "unit": "s",
+             "size": 0,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "40012219",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 16,
+           "column": "16",
+           "row": "16"
+          },
+          "width": {
+           "unit": "%",
+           "size": 44,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "40010ec2",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+             "unit": "px",
+             "size": 0,
+             "column": "0",
+             "row": "0",
+             "isLinked": true
+            },
+            "padding": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [
+            {
+             "id": "4000c166",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "flex_justify_content": "center",
+              "flex_align_items": "center",
+              "flex_gap": {
+               "unit": "px",
+               "size": 4,
+               "column": "4",
+               "row": "4",
+               "isLinked": true
+              },
+              "min_height": {
+               "unit": "px",
+               "size": 380,
+               "sizes": []
+              },
+              "min_height_mobile": {
+               "unit": "px",
+               "size": 230,
+               "sizes": []
+              },
+              "background_background": "classic",
+              "background_color": "#E6ECFA",
+              "background_image": {
+               "url": "https://gcreliable.com/wp-content/uploads/2026/07/gc-reliable-technician-2.webp",
+               "id": 227360,
+               "size": "",
+               "alt": "G.C. Reliable Service technician",
+               "source": "library"
+              },
+              "background_position": "center center",
+              "background_size": "cover",
+              "background_repeat": "no-repeat",
+              "border_radius": {
+               "unit": "px",
+               "top": "12",
+               "right": "12",
+               "bottom": "12",
+               "left": "12",
+               "isLinked": true
+              },
+              "padding": {
+               "unit": "px",
+               "top": "20",
+               "right": "20",
+               "bottom": "20",
+               "left": "20",
+               "isLinked": false
+              },
+              "box_shadow_box_shadow_type": "yes",
+              "box_shadow_box_shadow": {
+               "horizontal": 0,
+               "vertical": 16,
+               "blur": 40,
+               "spread": -14,
+               "color": "rgba(0,0,0,0.30)"
+              }
+             },
+             "elements": [],
+             "isInner": true,
+             "elType": "container"
+            },
+            {
+             "id": "4000fb6b",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "flex_gap": {
+               "unit": "px",
+               "size": 2,
+               "column": "2",
+               "row": "2",
+               "isLinked": true
+              },
+              "width": {
+               "unit": "%",
+               "size": 62,
+               "sizes": []
+              },
+              "width_tablet": {
+               "unit": "%",
+               "size": 72,
+               "sizes": []
+              },
+              "width_mobile": {
+               "unit": "%",
+               "size": 100,
+               "sizes": []
+              },
+              "_flex_align_self": "flex-start",
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "border_radius": {
+               "unit": "px",
+               "top": "12",
+               "right": "12",
+               "bottom": "12",
+               "left": "12",
+               "isLinked": true
+              },
+              "border_border": "solid",
+              "border_width": {
+               "unit": "px",
+               "top": "0",
+               "right": "0",
+               "bottom": "0",
+               "left": "5",
+               "isLinked": false
+              },
+              "border_color": "#FF0000",
+              "__globals__": {
+               "border_color": "globals/colors?id=secondary"
+              },
+              "padding": {
+               "unit": "px",
+               "top": "16",
+               "right": "20",
+               "bottom": "16",
+               "left": "20",
+               "isLinked": false
+              },
+              "margin": {
+               "unit": "px",
+               "top": "-72",
+               "right": "0",
+               "bottom": "0",
+               "left": "26",
+               "isLinked": false
+              },
+              "margin_mobile": {
+               "unit": "px",
+               "top": "-40",
+               "right": "0",
+               "bottom": "0",
+               "left": "0",
+               "isLinked": false
+              },
+              "z_index": 3,
+              "box_shadow_box_shadow_type": "yes",
+              "box_shadow_box_shadow": {
+               "horizontal": 0,
+               "vertical": 12,
+               "blur": 34,
+               "spread": -8,
+               "color": "rgba(0,0,0,0.28)"
+              }
+             },
+             "elements": [
+              {
+               "id": "4000d4bd",
+               "settings": {
+                "title": "40+",
+                "header_size": "h3",
+                "typography_typography": "custom",
+                "typography_font_family": "brandon-grotesque",
+                "typography_font_size": {
+                 "unit": "rem",
+                 "size": 2.4,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_text_transform": "none",
+                "title_color": "#FF0000",
+                "align": "left",
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": 0.5,
+                 "sizes": []
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "2",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "4000e814",
+               "settings": {
+                "title": "Years serving New Rochelle &amp; Westchester since 1980",
+                "header_size": "h4",
+                "typography_typography": "custom",
+                "typography_font_family": "brandon-grotesque",
+                "typography_font_size": {
+                 "unit": "rem",
+                 "size": 1.0,
+                 "sizes": []
+                },
+                "typography_font_weight": "500",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.25,
+                 "sizes": []
+                },
+                "typography_text_transform": "none",
+                "title_color": "#1A1A1A",
+                "align": "left",
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": 0.5,
+                 "sizes": []
+                }
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "4002a4e5",
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "background_color": "#EFF2F5",
+    "flex_align_items": "center",
+    "padding": {
+     "unit": "px",
+     "top": "64",
+     "right": "20",
+     "bottom": "64",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "16",
+     "bottom": "40",
+     "left": "16",
+     "isLinked": false
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "4002918e",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1280,
+       "sizes": []
+      },
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 22,
+       "column": "22",
+       "row": "22",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "boxed_width_laptop": {
+       "unit": "%",
+       "size": 92,
+       "sizes": []
+      },
+      "boxed_width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "boxed_width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "flex_align_items": "stretch"
+     },
+     "elements": [
+      {
+       "id": "40016f75",
+       "settings": {
+        "title": "Ductless May Be a Good Fit If You Have&hellip;",
+        "header_size": "h2",
+        "typography_typography": "custom",
+        "typography_font_family": "brandon-grotesque",
+        "typography_font_size": {
+         "unit": "rem",
+         "size": 2.2,
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "rem",
+         "size": 1.9,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "rem",
+         "size": 1.6,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_text_transform": "none",
+        "title_color": "#1A1A1A",
+        "align": "center",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.5,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "heading",
+       "elType": "widget"
+      },
+      {
+       "id": "400182cc",
+       "settings": {
+        "editor": "<p style=\"text-align:center;\">Ductless is rarely about the equipment first. It is about a space that the existing system was never set up to handle.</p>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "text-editor",
+       "elType": "widget"
+      },
+      {
+       "id": "40027e37",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_align_items": "stretch",
+        "flex_gap": {
+         "unit": "px",
+         "size": 44,
+         "column": "44",
+         "row": "44",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "px",
+         "size": 28,
+         "column": "28",
+         "row": "28",
+         "isLinked": true
+        },
+        "flex_direction_mobile": "column",
+        "flex_wrap": "wrap"
+       },
+       "elements": [
+        {
+         "id": "400230db",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 16,
+           "column": "16",
+           "row": "16"
+          },
+          "width": {
+           "unit": "%",
+           "size": 56,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "40019623",
+           "settings": {
+            "title": "Spaces Ductless Handles Well",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1.5,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "6",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "40021d84",
+           "settings": {
+            "icon_list": [
+             {
+              "text": "A finished attic, basement, or bonus room",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "4001a97"
+             },
+             {
+              "text": "A new addition or converted garage",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "4001bcd"
+             },
+             {
+              "text": "An older home without central ductwork",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "4001d02"
+             },
+             {
+              "text": "One room that stays hotter or colder than the rest",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "4001e37"
+             },
+             {
+              "text": "A home office that needs independent temperature control",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "4001f6d"
+             },
+             {
+              "text": "Multiple areas with different comfort preferences",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "40020a2"
+             }
+            ],
+            "space_between": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "icon_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "text_indent": {
+             "unit": "px",
+             "size": 8,
+             "sizes": []
+            },
+            "icon_color": "#0033CC",
+            "text_color": "#1A1A1A",
+            "icon_typography_typography": "custom",
+            "icon_typography_font_family": "brandon-grotesque"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "icon-list",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "40026ae0",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 16,
+           "column": "16",
+           "row": "16",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "28",
+           "right": "28",
+           "bottom": "28",
+           "left": "28",
+           "isLinked": false
+          },
+          "box_shadow_box_shadow_type": "yes",
+          "box_shadow_box_shadow": {
+           "horizontal": 0,
+           "vertical": 10,
+           "blur": 30,
+           "spread": -10,
+           "color": "rgba(0,0,0,0.18)"
+          },
+          "width": {
+           "unit": "%",
+           "size": 40,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "40024432",
+           "settings": {
+            "title": "The Goal Is Not Simply to Add Equipment",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1.5,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#FF0000",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "6",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "40025789",
+           "settings": {
+            "editor": "<p>It is to solve the comfort problem with the right number of zones and the right amount of capacity.</p><p>Sometimes that means a single indoor unit in one difficult room. Sometimes it means several zones &mdash; and sometimes extending your existing <a href=\"/systems/air-conditioning\">air conditioning</a> or heating system is the better answer. We will tell you which.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "4004af12",
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_align_items": "center",
+    "padding": {
+     "unit": "px",
+     "top": "64",
+     "right": "20",
+     "bottom": "64",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "16",
+     "bottom": "40",
+     "left": "16",
+     "isLinked": false
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "40049bbb",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1280,
+       "sizes": []
+      },
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 22,
+       "column": "22",
+       "row": "22",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "boxed_width_laptop": {
+       "unit": "%",
+       "size": 92,
+       "sizes": []
+      },
+      "boxed_width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "boxed_width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "flex_align_items": "stretch"
+     },
+     "elements": [
+      {
+       "id": "4002b83c",
+       "settings": {
+        "title": "Ductless Mini-Split Services Built Around Your Home",
+        "header_size": "h2",
+        "typography_typography": "custom",
+        "typography_font_family": "brandon-grotesque",
+        "typography_font_size": {
+         "unit": "rem",
+         "size": 2.2,
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "rem",
+         "size": 1.9,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "rem",
+         "size": 1.6,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_text_transform": "none",
+        "title_color": "#1A1A1A",
+        "align": "center",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.5,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "heading",
+       "elType": "widget"
+      },
+      {
+       "id": "4002cb93",
+       "settings": {
+        "editor": "<p style=\"text-align:center;\">G.C. Reliable provides ductless installation, replacement, repair, and maintenance with recommendations tailored to your property and comfort goals.</p>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "text-editor",
+       "elType": "widget"
+      },
+      {
+       "id": "4003c6fe",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_align_items": "stretch",
+        "flex_gap": {
+         "unit": "px",
+         "size": 22,
+         "column": "22",
+         "row": "22",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "px",
+         "size": 28,
+         "column": "28",
+         "row": "28",
+         "isLinked": true
+        },
+        "flex_direction_mobile": "column",
+        "flex_wrap": "wrap"
+       },
+       "elements": [
+        {
+         "id": "400318ef",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 16,
+           "column": "16",
+           "row": "16",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "28",
+           "right": "28",
+           "bottom": "28",
+           "left": "28",
+           "isLinked": false
+          },
+          "box_shadow_box_shadow_type": "yes",
+          "box_shadow_box_shadow": {
+           "horizontal": 0,
+           "vertical": 10,
+           "blur": 30,
+           "spread": -10,
+           "color": "rgba(0,0,0,0.18)"
+          },
+          "width": {
+           "unit": "%",
+           "size": 32,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "4002deea",
+           "settings": {
+            "title": "❄️",
+            "header_size": "p",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 42,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 36,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4002f241",
+           "settings": {
+            "title": "Installation &amp; Replacement",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1.5,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "6",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "40030598",
+           "settings": {
+            "editor": "<p>Whether you are adding ductless for the first time or replacing an aging system, proper planning matters. We evaluate room size, layout, insulation, sun exposure, existing HVAC equipment, electrical requirements, and indoor-unit placement before recommending single-zone or multi-zone equipment.</p><p>We also consider whether ductless should supplement your furnace, boiler, or central AC, or provide most of the heating and cooling for the space. If you already have a mini-split, we can help you compare repair and replacement based on its age, condition, performance, and repair history.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4003664b",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 16,
+           "column": "16",
+           "row": "16",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "28",
+           "right": "28",
+           "bottom": "28",
+           "left": "28",
+           "isLinked": false
+          },
+          "box_shadow_box_shadow_type": "yes",
+          "box_shadow_box_shadow": {
+           "horizontal": 0,
+           "vertical": 10,
+           "blur": 30,
+           "spread": -10,
+           "color": "rgba(0,0,0,0.18)"
+          },
+          "width": {
+           "unit": "%",
+           "size": 32,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "40032c46",
+           "settings": {
+            "title": "🔧",
+            "header_size": "p",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 42,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 36,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "40033f9d",
+           "settings": {
+            "title": "Repair",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1.5,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "6",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "400352f4",
+           "settings": {
+            "editor": "<p>One leaking indoor unit or uncomfortable zone does not automatically mean the entire system needs replacement.</p><p>G.C. Reliable services all makes and models and offers 24/7 emergency HVAC availability when a heating or cooling problem cannot wait.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4003b3a7",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 16,
+           "column": "16",
+           "row": "16",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "28",
+           "right": "28",
+           "bottom": "28",
+           "left": "28",
+           "isLinked": false
+          },
+          "box_shadow_box_shadow_type": "yes",
+          "box_shadow_box_shadow": {
+           "horizontal": 0,
+           "vertical": 10,
+           "blur": 30,
+           "spread": -10,
+           "color": "rgba(0,0,0,0.18)"
+          },
+          "width": {
+           "unit": "%",
+           "size": 32,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "400379a2",
+           "settings": {
+            "title": "🧰",
+            "header_size": "p",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 42,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 36,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "40038cf9",
+           "settings": {
+            "title": "Maintenance",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1.5,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "6",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4003a050",
+           "settings": {
+            "editor": "<p>Ductless systems still need regular care. Filters require routine cleaning, while coils, drains, electrical components, refrigerant performance, and outdoor equipment should be inspected periodically.</p><p>Professional <a href=\"/systems/maintenance\">maintenance</a> can identify drainage, airflow, electrical, or performance concerns before they interrupt comfort and help keep every zone operating as intended.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "40048864",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_gap": {
+         "unit": "px",
+         "size": 16,
+         "column": "16",
+         "row": "16",
+         "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "border_radius": {
+         "unit": "px",
+         "top": "12",
+         "right": "12",
+         "bottom": "12",
+         "left": "12",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "px",
+         "top": "28",
+         "right": "28",
+         "bottom": "28",
+         "left": "28",
+         "isLinked": false
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+         "horizontal": 0,
+         "vertical": 10,
+         "blur": 30,
+         "spread": -10,
+         "color": "rgba(0,0,0,0.18)"
+        }
+       },
+       "elements": [
+        {
+         "id": "4003da55",
+         "settings": {
+          "title": "Call for Service If You Notice",
+          "header_size": "h3",
+          "typography_typography": "custom",
+          "typography_font_family": "brandon-grotesque",
+          "typography_font_size": {
+           "unit": "rem",
+           "size": 1.5,
+           "sizes": []
+          },
+          "typography_font_weight": "500",
+          "typography_text_transform": "none",
+          "title_color": "#FF0000",
+          "align": "left",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.5,
+           "sizes": []
+          },
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "6",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "4004750d",
+         "settings": {
+          "icon_list": [
+           {
+            "text": "Weak or warm airflow",
+            "selected_icon": {
+             "value": "fad fa-check-circle",
+             "library": "fa-duotone"
+            },
+            "_id": "4003eda"
+           },
+           {
+            "text": "Water leaking from an indoor unit",
+            "selected_icon": {
+             "value": "fad fa-check-circle",
+             "library": "fa-duotone"
+            },
+            "_id": "4004010"
+           },
+           {
+            "text": "Unusual noises",
+            "selected_icon": {
+             "value": "fad fa-check-circle",
+             "library": "fa-duotone"
+            },
+            "_id": "4004145"
+           },
+           {
+            "text": "Ice buildup",
+            "selected_icon": {
+             "value": "fad fa-check-circle",
+             "library": "fa-duotone"
+            },
+            "_id": "400427b"
+           },
+           {
+            "text": "Frequent starts and stops",
+            "selected_icon": {
+             "value": "fad fa-check-circle",
+             "library": "fa-duotone"
+            },
+            "_id": "40043b0"
+           },
+           {
+            "text": "Error codes or failure to turn on",
+            "selected_icon": {
+             "value": "fad fa-check-circle",
+             "library": "fa-duotone"
+            },
+            "_id": "40044e5"
+           },
+           {
+            "text": "One zone working while another does not",
+            "selected_icon": {
+             "value": "fad fa-check-circle",
+             "library": "fa-duotone"
+            },
+            "_id": "400461b"
+           }
+          ],
+          "space_between": {
+           "unit": "px",
+           "size": 14,
+           "sizes": []
+          },
+          "icon_size": {
+           "unit": "px",
+           "size": 20,
+           "sizes": []
+          },
+          "text_indent": {
+           "unit": "px",
+           "size": 8,
+           "sizes": []
+          },
+          "icon_color": "#0033CC",
+          "text_color": "#1A1A1A",
+          "icon_typography_typography": "custom",
+          "icon_typography_font_family": "brandon-grotesque"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "icon-list",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "40060b30",
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "background_color": "#EFF2F5",
+    "flex_align_items": "center",
+    "padding": {
+     "unit": "px",
+     "top": "64",
+     "right": "20",
+     "bottom": "64",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "16",
+     "bottom": "40",
+     "left": "16",
+     "isLinked": false
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "4005f7d9",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1280,
+       "sizes": []
+      },
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 22,
+       "column": "22",
+       "row": "22",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "boxed_width_laptop": {
+       "unit": "%",
+       "size": 92,
+       "sizes": []
+      },
+      "boxed_width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "boxed_width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "flex_align_items": "stretch"
+     },
+     "elements": [
+      {
+       "id": "4004c269",
+       "settings": {
+        "title": "One Zone or Several? Choosing the Right Ductless Setup",
+        "header_size": "h2",
+        "typography_typography": "custom",
+        "typography_font_family": "brandon-grotesque",
+        "typography_font_size": {
+         "unit": "rem",
+         "size": 2.2,
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "rem",
+         "size": 1.9,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "rem",
+         "size": 1.6,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_text_transform": "none",
+        "title_color": "#1A1A1A",
+        "align": "center",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.5,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "heading",
+       "elType": "widget"
+      },
+      {
+       "id": "4004d5c0",
+       "settings": {
+        "editor": "<p style=\"text-align:center;\">Ductless gives you flexibility, but more zones are not automatically better. The right setup depends on which spaces need conditioning, how those rooms connect, and whether ductless will supplement or replace another HVAC system.</p>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "text-editor",
+       "elType": "widget"
+      },
+      {
+       "id": "4005e482",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_align_items": "stretch",
+        "flex_gap": {
+         "unit": "px",
+         "size": 22,
+         "column": "22",
+         "row": "22",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "px",
+         "size": 28,
+         "column": "28",
+         "row": "28",
+         "isLinked": true
+        },
+        "flex_direction_mobile": "column",
+        "flex_wrap": "wrap"
+       },
+       "elements": [
+        {
+         "id": "40059726",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 16,
+           "column": "16",
+           "row": "16",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "28",
+           "right": "28",
+           "bottom": "28",
+           "left": "28",
+           "isLinked": false
+          },
+          "box_shadow_box_shadow_type": "yes",
+          "box_shadow_box_shadow": {
+           "horizontal": 0,
+           "vertical": 10,
+           "blur": 30,
+           "spread": -10,
+           "color": "rgba(0,0,0,0.18)"
+          },
+          "width": {
+           "unit": "%",
+           "size": 48,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "4004e917",
+           "settings": {
+            "title": "Single-Zone Ductless Systems",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1.5,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "6",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4004fc6e",
+           "settings": {
+            "editor": "<p>A single-zone system pairs one indoor unit with compatible outdoor equipment. It can be a practical choice for one defined problem area:</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "40057078",
+           "settings": {
+            "icon_list": [
+             {
+              "text": "A finished attic",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "40050fc"
+             },
+             {
+              "text": "A home office",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "4005231"
+             },
+             {
+              "text": "An addition",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "4005367"
+             },
+             {
+              "text": "A converted garage",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "400549c"
+             },
+             {
+              "text": "A bedroom with poor airflow",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "40055d2"
+             }
+            ],
+            "space_between": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "icon_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "text_indent": {
+             "unit": "px",
+             "size": 8,
+             "sizes": []
+            },
+            "icon_color": "#0033CC",
+            "text_color": "#1A1A1A",
+            "icon_typography_typography": "custom",
+            "icon_typography_font_family": "brandon-grotesque"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "icon-list",
+           "elType": "widget"
+          },
+          {
+           "id": "400583cf",
+           "settings": {
+            "editor": "<p>If the rest of the home is comfortable, treating one difficult space may make more sense than changing the entire HVAC system.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4005d12b",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 16,
+           "column": "16",
+           "row": "16",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "28",
+           "right": "28",
+           "bottom": "28",
+           "left": "28",
+           "isLinked": false
+          },
+          "box_shadow_box_shadow_type": "yes",
+          "box_shadow_box_shadow": {
+           "horizontal": 0,
+           "vertical": 10,
+           "blur": 30,
+           "spread": -10,
+           "color": "rgba(0,0,0,0.18)"
+          },
+          "width": {
+           "unit": "%",
+           "size": 48,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "4005aa7d",
+           "settings": {
+            "title": "Multi-Zone Ductless Systems",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1.5,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "6",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4005bdd4",
+           "settings": {
+            "editor": "<p>Multi-zone systems connect several indoor units to compatible outdoor equipment, allowing different areas to maintain separate temperatures.</p><p>They can work well in homes without ductwork, or properties with several areas that need individual control.</p><p>One indoor unit does not necessarily cool several closed rooms effectively. Doors, hallways, room layout, and airflow all matter, so the number of zones should reflect how the property actually functions.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "400753f7",
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_align_items": "center",
+    "padding": {
+     "unit": "px",
+     "top": "64",
+     "right": "20",
+     "bottom": "64",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "16",
+     "bottom": "40",
+     "left": "16",
+     "isLinked": false
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "400740a0",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1280,
+       "sizes": []
+      },
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 22,
+       "column": "22",
+       "row": "22",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "boxed_width_laptop": {
+       "unit": "%",
+       "size": 92,
+       "sizes": []
+      },
+      "boxed_width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "boxed_width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "flex_align_items": "stretch"
+     },
+     "elements": [
+      {
+       "id": "40061e87",
+       "settings": {
+        "title": "What to Expect When Adding Ductless Comfort",
+        "header_size": "h2",
+        "typography_typography": "custom",
+        "typography_font_family": "brandon-grotesque",
+        "typography_font_size": {
+         "unit": "rem",
+         "size": 2.2,
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "rem",
+         "size": 1.9,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "rem",
+         "size": 1.6,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_text_transform": "none",
+        "title_color": "#1A1A1A",
+        "align": "center",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.5,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "heading",
+       "elType": "widget"
+      },
+      {
+       "id": "400631de",
+       "settings": {
+        "editor": "<p style=\"text-align:center;\">A ductless project starts with the comfort problem, not the equipment.</p>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "text-editor",
+       "elType": "widget"
+      },
+      {
+       "id": "40072d49",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_align_items": "stretch",
+        "flex_gap": {
+         "unit": "px",
+         "size": 20,
+         "column": "20",
+         "row": "20",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "px",
+         "size": 28,
+         "column": "28",
+         "row": "28",
+         "isLinked": true
+        },
+        "flex_direction_mobile": "column",
+        "flex_wrap": "wrap"
+       },
+       "elements": [
+        {
+         "id": "40066be3",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 4,
+           "column": "4",
+           "row": "4",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#F8F8FB",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "4",
+           "isLinked": false
+          },
+          "border_color": "#0033CC",
+          "__globals__": {
+           "border_color": "globals/colors?id=primary"
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "10",
+           "right": "10",
+           "bottom": "10",
+           "left": "10",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "6",
+           "right": "0",
+           "bottom": "6",
+           "left": "20",
+           "isLinked": false
+          },
+          "width": {
+           "unit": "%",
+           "size": 48,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "40064535",
+           "settings": {
+            "title": "<span style=\"color:#0033CC;font-weight:700;\">01.</span>&nbsp; We Identify Where Comfort Is Falling Short",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1.35,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "6",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4006588c",
+           "settings": {
+            "editor": "<p>We begin by understanding which rooms are uncomfortable, how they are used, and what existing HVAC equipment already serves the property.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4006a5e8",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 4,
+           "column": "4",
+           "row": "4",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#F8F8FB",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "4",
+           "isLinked": false
+          },
+          "border_color": "#0033CC",
+          "__globals__": {
+           "border_color": "globals/colors?id=primary"
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "10",
+           "right": "10",
+           "bottom": "10",
+           "left": "10",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "6",
+           "right": "0",
+           "bottom": "6",
+           "left": "20",
+           "isLinked": false
+          },
+          "width": {
+           "unit": "%",
+           "size": 48,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "40067f3a",
+           "settings": {
+            "title": "<span style=\"color:#0033CC;font-weight:700;\">02.</span>&nbsp; We Plan the Zones and Equipment Locations",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1.35,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "6",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "40069291",
+           "settings": {
+            "editor": "<p>Indoor-unit placement affects airflow, visibility, drainage, and service access. We also consider line routing, electrical requirements, and how the mini-split will work with any furnace, boiler, <a href=\"/systems/heat-pumps\">heat pump</a>, or central AC already in place.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4006dfed",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 4,
+           "column": "4",
+           "row": "4",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#F8F8FB",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "4",
+           "isLinked": false
+          },
+          "border_color": "#0033CC",
+          "__globals__": {
+           "border_color": "globals/colors?id=primary"
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "10",
+           "right": "10",
+           "bottom": "10",
+           "left": "10",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "6",
+           "right": "0",
+           "bottom": "6",
+           "left": "20",
+           "isLinked": false
+          },
+          "width": {
+           "unit": "%",
+           "size": 48,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "4006b93f",
+           "settings": {
+            "title": "<span style=\"color:#0033CC;font-weight:700;\">03.</span>&nbsp; We Help You Compare the Options",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1.35,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "6",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4006cc96",
+           "settings": {
+            "editor": "<p>Depending on your home, that may mean comparing single-zone versus multi-zone, ductless versus extending ductwork, supplemental comfort versus a larger HVAC upgrade, repair versus replacement, and different equipment and efficiency options. You should understand why a particular setup is being recommended before moving forward.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "400719f2",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 4,
+           "column": "4",
+           "row": "4",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#F8F8FB",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "4",
+           "isLinked": false
+          },
+          "border_color": "#0033CC",
+          "__globals__": {
+           "border_color": "globals/colors?id=primary"
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "10",
+           "right": "10",
+           "bottom": "10",
+           "left": "10",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "6",
+           "right": "0",
+           "bottom": "6",
+           "left": "20",
+           "isLinked": false
+          },
+          "width": {
+           "unit": "%",
+           "size": 48,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "4006f344",
+           "settings": {
+            "title": "<span style=\"color:#0033CC;font-weight:700;\">04.</span>&nbsp; We Install and Test Each Zone",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1.35,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "6",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4007069b",
+           "settings": {
+            "editor": "<p>After installation, we test heating and cooling performance, airflow, drainage, and controls. We also review basic system operation and filter care so you know what ongoing ownership involves.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "40088967",
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "background_color": "#EFF2F5",
+    "flex_align_items": "center",
+    "padding": {
+     "unit": "px",
+     "top": "64",
+     "right": "20",
+     "bottom": "64",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "16",
+     "bottom": "40",
+     "left": "16",
+     "isLinked": false
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "40087610",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1280,
+       "sizes": []
+      },
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 22,
+       "column": "22",
+       "row": "22",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "boxed_width_laptop": {
+       "unit": "%",
+       "size": 92,
+       "sizes": []
+      },
+      "boxed_width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "boxed_width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "flex_align_items": "stretch"
+     },
+     "elements": [
+      {
+       "id": "4007674e",
+       "settings": {
+        "title": "What Westchester Homeowners Ask About Ductless Mini-Splits",
+        "header_size": "h2",
+        "typography_typography": "custom",
+        "typography_font_family": "brandon-grotesque",
+        "typography_font_size": {
+         "unit": "rem",
+         "size": 2.2,
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "rem",
+         "size": 1.9,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "rem",
+         "size": 1.6,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_text_transform": "none",
+        "title_color": "#1A1A1A",
+        "align": "center",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.5,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "heading",
+       "elType": "widget"
+      },
+      {
+       "id": "40077aa5",
+       "settings": {
+        "editor": "<p style=\"text-align:center;\">Ductless systems can solve specific comfort problems, but they are not the best fit for every property. These common questions can help you compare your options.</p>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "text-editor",
+       "elType": "widget"
+      },
+      {
+       "id": "400862b9",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_align_items": "stretch",
+        "flex_gap": {
+         "unit": "px",
+         "size": 34,
+         "column": "34",
+         "row": "34",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "px",
+         "size": 28,
+         "column": "28",
+         "row": "28",
+         "isLinked": true
+        },
+        "flex_direction_mobile": "column",
+        "flex_wrap": "wrap"
+       },
+       "elements": [
+        {
+         "id": "40080206",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 16,
+           "column": "16",
+           "row": "16"
+          },
+          "width": {
+           "unit": "%",
+           "size": 62,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "4007eeaf",
+           "settings": {
+            "tabs": [
+             {
+              "tab_title": "Can a ductless mini-split both heat and cool?",
+              "tab_content": "<p>Yes. Many ductless mini-splits operate as heat pumps and provide both heating and cooling. Whether ductless should serve as the primary heating source or supplement existing equipment depends on the system, property, number of zones, insulation, and heating needs &mdash; see <a href=\"/systems/heating\">heating</a> for whole-home options.</p>",
+              "_id": "40078df"
+             },
+             {
+              "tab_title": "Can one mini-split cool multiple rooms?",
+              "tab_content": "<p>Sometimes, but not reliably in every layout. One indoor unit works best in the room or open area where it is installed. Closed doors and separate rooms can limit airflow, so multiple zones may be more appropriate when several distinct spaces need conditioning.</p>",
+              "_id": "4007a15"
+             },
+             {
+              "tab_title": "Are ductless mini-splits expensive to run?",
+              "tab_content": "<p>Operating costs depend on equipment efficiency, temperature settings, insulation, outdoor conditions, and how the zones are used. Zoning can allow you to focus comfort on occupied spaces, but actual energy savings vary from one property to another.</p>",
+              "_id": "4007b4a"
+             },
+             {
+              "tab_title": "Do ductless mini-splits work well in older Westchester homes?",
+              "tab_content": "<p>They can be a strong option when installing traditional ductwork would require opening finished walls or working around layouts that were not designed for central air. Electrical capacity, insulation, existing heating equipment, and room layout should still be evaluated before deciding.</p>",
+              "_id": "4007c80"
+             },
+             {
+              "tab_title": "Should I choose ductless or central air conditioning?",
+              "tab_content": "<p>Neither is automatically better. Central AC may make more sense when a home already has effective ductwork and needs consistent whole-home cooling. Ductless can be useful for homes without ducts, additions, individual problem rooms, or properties where zoning is a priority &mdash; compare it with <a href=\"/systems/air-conditioning\">central air conditioning</a> before you decide.</p>",
+              "_id": "4007db5"
+             }
+            ],
+            "title_color": "#1A1A1A",
+            "tab_active_color": "#0033CC",
+            "icon_color": "#FF0000",
+            "icon_active_color": "#0033CC",
+            "title_typography_typography": "custom",
+            "title_typography_font_family": "brandon-grotesque",
+            "title_typography_font_size": {
+             "unit": "rem",
+             "size": 1.25,
+             "sizes": []
+            },
+            "title_typography_font_weight": "500",
+            "content_typography_typography": "custom",
+            "content_typography_font_family": "brandon-grotesque",
+            "border_width": {
+             "unit": "px",
+             "top": "1",
+             "right": "1",
+             "bottom": "1",
+             "left": "1",
+             "isLinked": true
+            },
+            "border_color": "#C5C5C5",
+            "__globals__": {
+             "tab_active_color": "globals/colors?id=primary",
+             "icon_color": "globals/colors?id=secondary"
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "accordion",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "40084f62",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 16,
+           "column": "16",
+           "row": "16",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "28",
+           "right": "28",
+           "bottom": "28",
+           "left": "28",
+           "isLinked": false
+          },
+          "box_shadow_box_shadow_type": "yes",
+          "box_shadow_box_shadow": {
+           "horizontal": 0,
+           "vertical": 10,
+           "blur": 30,
+           "spread": -10,
+           "color": "rgba(0,0,0,0.18)"
+          },
+          "width": {
+           "unit": "%",
+           "size": 34,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "4008155d",
+           "settings": {
+            "title": "Still Have Questions?",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1.5,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "6",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "400828b4",
+           "settings": {
+            "editor": "<p>Tell us which room is not working and how you use it. We will help you book the right visit &mdash; a ductless consultation, a repair evaluation, or <a href=\"/systems/maintenance\">seasonal maintenance</a>.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "40083c0b",
+           "settings": {
+            "text": "Schedule an Appointment",
+            "align": "left",
+            "link": {
+             "url": "/schedule-appointment",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_weight": "600",
+            "typography_text_transform": "uppercase",
+            "border_radius": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
+            },
+            "border_border": "solid",
+            "border_width": {
+             "unit": "px",
+             "top": "2",
+             "right": "2",
+             "bottom": "2",
+             "left": "2",
+             "isLinked": true
+            },
+            "hover_color": "#FFFFFF",
+            "__globals__": {
+             "background_color": "globals/colors?id=secondary",
+             "border_color": "globals/colors?id=secondary",
+             "button_text_color": "globals/colors?id=63acc82",
+             "button_background_hover_color": "",
+             "button_hover_border_color": ""
+            },
+            "background_color": "#FF0000",
+            "button_text_color": "#FFFFFF",
+            "border_color": "#FF0000",
+            "button_background_hover_color": "#FF6464",
+            "button_hover_border_color": "#FF6464",
+            "size": "xl",
+            "_element_width": "auto",
+            "selected_icon": {
+             "value": "far fa-calendar-check",
+             "library": "fa-regular"
+            },
+            "icon_indent": {
+             "unit": "px",
+             "size": 10,
+             "sizes": []
+            },
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1,
+             "sizes": []
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 1.2,
+             "sizes": []
+            },
+            "button_hover_transition_duration": {
+             "unit": "s",
+             "size": 0,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "4009f8dc",
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_align_items": "center",
+    "padding": {
+     "unit": "px",
+     "top": "64",
+     "right": "20",
+     "bottom": "64",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "16",
+     "bottom": "40",
+     "left": "16",
+     "isLinked": false
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "4009e585",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1280,
+       "sizes": []
+      },
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 22,
+       "column": "22",
+       "row": "22",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "boxed_width_laptop": {
+       "unit": "%",
+       "size": 92,
+       "sizes": []
+      },
+      "boxed_width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "boxed_width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "flex_align_items": "stretch"
+     },
+     "elements": [
+      {
+       "id": "40089cbe",
+       "settings": {
+        "title": "See How G.C. Reliable Helps Local Properties Stay Comfortable",
+        "header_size": "h2",
+        "typography_typography": "custom",
+        "typography_font_family": "brandon-grotesque",
+        "typography_font_size": {
+         "unit": "rem",
+         "size": 2.2,
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "rem",
+         "size": 1.9,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "rem",
+         "size": 1.6,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_text_transform": "none",
+        "title_color": "#1A1A1A",
+        "align": "center",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.5,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "heading",
+       "elType": "widget"
+      },
+      {
+       "id": "4008b015",
+       "settings": {
+        "editor": "<p style=\"text-align:center;\">Browse recent Google reviews to see how local customers describe G.C. Reliable&rsquo;s communication, responsiveness, workmanship, and approach to solving comfort problems throughout New Rochelle, Larchmont, Mamaroneck, Scarsdale, and beyond.</p>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "text-editor",
+       "elType": "widget"
+      },
+      {
+       "id": "4008d6c3",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_gap": {
+         "unit": "px",
+         "size": 6,
+         "column": "6",
+         "row": "6",
+         "isLinked": true
+        },
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=4f0dee9"
+        },
+        "background_color": "#EFF2F5",
+        "border_border": "dashed",
+        "border_width": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": true
+        },
+        "border_color": "#C5C5C5",
+        "border_radius": {
+         "unit": "px",
+         "top": "20",
+         "right": "20",
+         "bottom": "20",
+         "left": "20",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "px",
+         "top": "30",
+         "right": "24",
+         "bottom": "30",
+         "left": "24",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "4008c36c",
+         "settings": {
+          "shortcode": "[trustindex data-widget-id=be35b8a27428268b9b962ab1e27]",
+          "_background_background": "classic",
+          "__globals__": {
+           "_background_color": "globals/colors?id=63acc82"
+          },
+          "_padding": {
+           "unit": "px",
+           "top": "15",
+           "right": "25",
+           "bottom": "25",
+           "left": "25",
+           "isLinked": false
+          },
+          "_border_radius": {
+           "unit": "px",
+           "top": "15",
+           "right": "15",
+           "bottom": "15",
+           "left": "15",
+           "isLinked": true
+          }
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "shortcode",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "4009d22e",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_align_items": "stretch",
+        "flex_gap": {
+         "unit": "px",
+         "size": 20,
+         "column": "20",
+         "row": "20",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "px",
+         "size": 28,
+         "column": "28",
+         "row": "28",
+         "isLinked": true
+        },
+        "flex_direction_mobile": "column",
+        "flex_wrap": "wrap",
+        "flex_justify_content": "center"
+       },
+       "elements": [
+        {
+         "id": "4009241f",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 6,
+           "column": "6",
+           "row": "6",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "26",
+           "right": "20",
+           "bottom": "26",
+           "left": "20",
+           "isLinked": false
+          },
+          "box_shadow_box_shadow_type": "yes",
+          "box_shadow_box_shadow": {
+           "horizontal": 0,
+           "vertical": 8,
+           "blur": 26,
+           "spread": -10,
+           "color": "rgba(0,0,0,0.20)"
+          },
+          "flex_align_items": "center",
+          "width": {
+           "unit": "%",
+           "size": 32,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "400910c8",
+           "settings": {
+            "selected_icon": {
+             "value": "fas fa-calendar-check",
+             "library": "fa-solid"
+            },
+            "primary_color": "#0033CC",
+            "size": {
+             "unit": "px",
+             "size": 40,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "icon",
+           "elType": "widget"
+          },
+          {
+           "id": "4008ea1a",
+           "settings": {
+            "title": "40+",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 2.2,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "center",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4008fd71",
+           "settings": {
+            "title": "Years serving Westchester",
+            "header_size": "h4",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.25,
+             "sizes": []
+            },
+            "typography_text_transform": "none",
+            "title_color": "#666666",
+            "align": "center",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4009717b",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 6,
+           "column": "6",
+           "row": "6",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "26",
+           "right": "20",
+           "bottom": "26",
+           "left": "20",
+           "isLinked": false
+          },
+          "box_shadow_box_shadow_type": "yes",
+          "box_shadow_box_shadow": {
+           "horizontal": 0,
+           "vertical": 8,
+           "blur": 26,
+           "spread": -10,
+           "color": "rgba(0,0,0,0.20)"
+          },
+          "flex_align_items": "center",
+          "width": {
+           "unit": "%",
+           "size": 32,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "40095e24",
+           "settings": {
+            "selected_icon": {
+             "value": "fas fa-clock",
+             "library": "fa-solid"
+            },
+            "primary_color": "#0033CC",
+            "size": {
+             "unit": "px",
+             "size": 40,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "icon",
+           "elType": "widget"
+          },
+          {
+           "id": "40093776",
+           "settings": {
+            "title": "24/7",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 2.2,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "center",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "40094acd",
+           "settings": {
+            "title": "Emergency HVAC availability",
+            "header_size": "h4",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.25,
+             "sizes": []
+            },
+            "typography_text_transform": "none",
+            "title_color": "#666666",
+            "align": "center",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4009bed7",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 6,
+           "column": "6",
+           "row": "6",
+           "isLinked": true
+          },
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "26",
+           "right": "20",
+           "bottom": "26",
+           "left": "20",
+           "isLinked": false
+          },
+          "box_shadow_box_shadow_type": "yes",
+          "box_shadow_box_shadow": {
+           "horizontal": 0,
+           "vertical": 8,
+           "blur": 26,
+           "spread": -10,
+           "color": "rgba(0,0,0,0.20)"
+          },
+          "flex_align_items": "center",
+          "width": {
+           "unit": "%",
+           "size": 32,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "4009ab80",
+           "settings": {
+            "selected_icon": {
+             "value": "fas fa-wrench",
+             "library": "fa-solid"
+            },
+            "primary_color": "#0033CC",
+            "size": {
+             "unit": "px",
+             "size": 40,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "icon",
+           "elType": "widget"
+          },
+          {
+           "id": "400984d2",
+           "settings": {
+            "title": "All",
+            "header_size": "h3",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 2.2,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_text_transform": "none",
+            "title_color": "#1A1A1A",
+            "align": "center",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "40099829",
+           "settings": {
+            "title": "Makes &amp; models serviced",
+            "header_size": "h4",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.25,
+             "sizes": []
+            },
+            "typography_text_transform": "none",
+            "title_color": "#666666",
+            "align": "center",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "400b41a3",
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "background_background": "gradient",
+    "background_color": "#0033CC",
+    "background_color_b": "#001E78",
+    "background_gradient_angle": {
+     "unit": "deg",
+     "size": 135,
+     "sizes": []
+    },
+    "flex_align_items": "center",
+    "padding": {
+     "unit": "px",
+     "top": "68",
+     "right": "20",
+     "bottom": "68",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "16",
+     "bottom": "40",
+     "left": "16",
+     "isLinked": false
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "400b2e4c",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1280,
+       "sizes": []
+      },
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 22,
+       "column": "22",
+       "row": "22",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "boxed_width_laptop": {
+       "unit": "%",
+       "size": 92,
+       "sizes": []
+      },
+      "boxed_width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "boxed_width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "flex_align_items": "stretch"
+     },
+     "elements": [
+      {
+       "id": "400b1af5",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_align_items": "center",
+        "flex_gap": {
+         "unit": "px",
+         "size": 44,
+         "column": "44",
+         "row": "44",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "px",
+         "size": 28,
+         "column": "28",
+         "row": "28",
+         "isLinked": true
+        },
+        "flex_direction_mobile": "column-reverse",
+        "flex_wrap": "wrap",
+        "flex_direction_tablet": "column-reverse",
+        "flex_justify_content": "space-between"
+       },
+       "elements": [
+        {
+         "id": "400a9394",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 18,
+           "column": "18",
+           "row": "18"
+          },
+          "width": {
+           "unit": "%",
+           "size": 55,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "400a0c33",
+           "settings": {
+            "title": "Why Locals Choose G.C. Reliable for Ductless Comfort",
+            "header_size": "h2",
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 2.2,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "rem",
+             "size": 1.9,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "rem",
+             "size": 1.6,
+             "sizes": []
+            },
+            "typography_font_weight": "500",
+            "typography_text_transform": "none",
+            "title_color": "#FFFFFF",
+            "align": "left",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.5,
+             "sizes": []
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "4",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "400a1f8a",
+           "settings": {
+            "editor": "<p style=\"color:#FFFFFF;\">G.C. Reliable has served Westchester County since 1980 with professional workmanship, straightforward communication, and HVAC solutions designed around the property rather than a one-size-fits-all recommendation.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "400a6ce6",
+           "settings": {
+            "icon_list": [
+             {
+              "text": "<strong>Decades of Westchester experience:</strong> more than 40 years of local HVAC work inform our approach to older homes, additions, finished spaces, and room-to-room comfort problems.",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "400a32e"
+             },
+             {
+              "text": "<strong>Systems planned around how you use the property:</strong> we consider which rooms actually need help, how they are used, and how ductless will work alongside existing HVAC equipment.",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "400a463"
+             },
+             {
+              "text": "<strong>One local team beyond installation:</strong> system planning, professional installation, maintenance, repairs for all makes and models, and 24/7 emergency availability.",
+              "selected_icon": {
+               "value": "fad fa-check-circle",
+               "library": "fa-duotone"
+              },
+              "_id": "400a598"
+             }
+            ],
+            "space_between": {
+             "unit": "px",
+             "size": 16,
+             "sizes": []
+            },
+            "icon_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "text_indent": {
+             "unit": "px",
+             "size": 8,
+             "sizes": []
+            },
+            "icon_color": "#FFFFFF",
+            "text_color": "#FFFFFF",
+            "icon_typography_typography": "custom",
+            "icon_typography_font_family": "brandon-grotesque"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "icon-list",
+           "elType": "widget"
+          },
+          {
+           "id": "400a803d",
+           "settings": {
+            "text": "Learn More About G.C. Reliable",
+            "align": "left",
+            "link": {
+             "url": "/about-us",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "typography_typography": "custom",
+            "typography_font_family": "brandon-grotesque",
+            "typography_font_weight": "600",
+            "typography_text_transform": "uppercase",
+            "border_radius": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
+            },
+            "border_border": "solid",
+            "border_width": {
+             "unit": "px",
+             "top": "2",
+             "right": "2",
+             "bottom": "2",
+             "left": "2",
+             "isLinked": true
+            },
+            "hover_color": "#FFFFFF",
+            "__globals__": {
+             "background_color": "globals/colors?id=secondary",
+             "border_color": "globals/colors?id=secondary",
+             "button_text_color": "globals/colors?id=63acc82",
+             "button_background_hover_color": "",
+             "button_hover_border_color": ""
+            },
+            "background_color": "#FF0000",
+            "button_text_color": "#FFFFFF",
+            "border_color": "#FF0000",
+            "button_background_hover_color": "#FF6464",
+            "button_hover_border_color": "#FF6464",
+            "size": "xl",
+            "_element_width": "auto",
+            "selected_icon": {
+             "value": "far fa-calendar-check",
+             "library": "fa-regular"
+            },
+            "icon_indent": {
+             "unit": "px",
+             "size": 10,
+             "sizes": []
+            },
+            "typography_font_size": {
+             "unit": "rem",
+             "size": 1,
+             "sizes": []
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 1.2,
+             "sizes": []
+            },
+            "button_hover_transition_duration": {
+             "unit": "s",
+             "size": 0,
+             "sizes": []
+            }
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "400b079e",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 16,
+           "column": "16",
+           "row": "16"
+          },
+          "width": {
+           "unit": "%",
+           "size": 40,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          }
+         },
+         "elements": [
+          {
+           "id": "400af447",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+             "unit": "px",
+             "size": 0,
+             "column": "0",
+             "row": "0",
+             "isLinked": true
+            },
+            "padding": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": [
+            {
+             "id": "400aa6eb",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "flex_justify_content": "center",
+              "flex_align_items": "center",
+              "flex_gap": {
+               "unit": "px",
+               "size": 4,
+               "column": "4",
+               "row": "4",
+               "isLinked": true
+              },
+              "min_height": {
+               "unit": "px",
+               "size": 380,
+               "sizes": []
+              },
+              "min_height_mobile": {
+               "unit": "px",
+               "size": 230,
+               "sizes": []
+              },
+              "background_background": "classic",
+              "background_color": "#E6ECFA",
+              "background_image": {
+               "url": "https://gcreliable.com/wp-content/uploads/2026/07/gc-reliable-3.webp",
+               "id": 227384,
+               "size": "",
+               "alt": "G.C. Reliable Service team",
+               "source": "library"
+              },
+              "background_position": "center center",
+              "background_size": "cover",
+              "background_repeat": "no-repeat",
+              "border_radius": {
+               "unit": "px",
+               "top": "12",
+               "right": "12",
+               "bottom": "12",
+               "left": "12",
+               "isLinked": true
+              },
+              "padding": {
+               "unit": "px",
+               "top": "20",
+               "right": "20",
+               "bottom": "20",
+               "left": "20",
+               "isLinked": false
+              },
+              "box_shadow_box_shadow_type": "yes",
+              "box_shadow_box_shadow": {
+               "horizontal": 0,
+               "vertical": 16,
+               "blur": 40,
+               "spread": -14,
+               "color": "rgba(0,0,0,0.30)"
+              }
+             },
+             "elements": [],
+             "isInner": true,
+             "elType": "container"
+            },
+            {
+             "id": "400ae0f0",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "flex_gap": {
+               "unit": "px",
+               "size": 2,
+               "column": "2",
+               "row": "2",
+               "isLinked": true
+              },
+              "width": {
+               "unit": "%",
+               "size": 62,
+               "sizes": []
+              },
+              "width_tablet": {
+               "unit": "%",
+               "size": 72,
+               "sizes": []
+              },
+              "width_mobile": {
+               "unit": "%",
+               "size": 100,
+               "sizes": []
+              },
+              "_flex_align_self": "flex-start",
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "border_radius": {
+               "unit": "px",
+               "top": "12",
+               "right": "12",
+               "bottom": "12",
+               "left": "12",
+               "isLinked": true
+              },
+              "border_border": "solid",
+              "border_width": {
+               "unit": "px",
+               "top": "0",
+               "right": "0",
+               "bottom": "0",
+               "left": "5",
+               "isLinked": false
+              },
+              "border_color": "#FF0000",
+              "__globals__": {
+               "border_color": "globals/colors?id=secondary"
+              },
+              "padding": {
+               "unit": "px",
+               "top": "16",
+               "right": "20",
+               "bottom": "16",
+               "left": "20",
+               "isLinked": false
+              },
+              "margin": {
+               "unit": "px",
+               "top": "-72",
+               "right": "0",
+               "bottom": "0",
+               "left": "26",
+               "isLinked": false
+              },
+              "margin_mobile": {
+               "unit": "px",
+               "top": "-40",
+               "right": "0",
+               "bottom": "0",
+               "left": "0",
+               "isLinked": false
+              },
+              "z_index": 3,
+              "box_shadow_box_shadow_type": "yes",
+              "box_shadow_box_shadow": {
+               "horizontal": 0,
+               "vertical": 12,
+               "blur": 34,
+               "spread": -8,
+               "color": "rgba(0,0,0,0.28)"
+              }
+             },
+             "elements": [
+              {
+               "id": "400aba42",
+               "settings": {
+                "title": "24/7",
+                "header_size": "h3",
+                "typography_typography": "custom",
+                "typography_font_family": "brandon-grotesque",
+                "typography_font_size": {
+                 "unit": "rem",
+                 "size": 2.4,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_text_transform": "none",
+                "title_color": "#FF0000",
+                "align": "left",
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": 0.5,
+                 "sizes": []
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "2",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "400acd99",
+               "settings": {
+                "title": "Emergency help when comfort can&rsquo;t wait",
+                "header_size": "h4",
+                "typography_typography": "custom",
+                "typography_font_family": "brandon-grotesque",
+                "typography_font_size": {
+                 "unit": "rem",
+                 "size": 1.0,
+                 "sizes": []
+                },
+                "typography_font_weight": "500",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.25,
+                 "sizes": []
+                },
+                "typography_text_transform": "none",
+                "title_color": "#1A1A1A",
+                "align": "left",
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": 0.5,
+                 "sizes": []
+                }
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "400ba256",
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "background_color": "#EFF2F5",
+    "flex_align_items": "center",
+    "padding": {
+     "unit": "px",
+     "top": "64",
+     "right": "20",
+     "bottom": "64",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "16",
+     "bottom": "40",
+     "left": "16",
+     "isLinked": false
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "400b8eff",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1280,
+       "sizes": []
+      },
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 22,
+       "column": "22",
+       "row": "22",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "boxed_width_laptop": {
+       "unit": "%",
+       "size": 92,
+       "sizes": []
+      },
+      "boxed_width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "boxed_width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "flex_align_items": "center"
+     },
+     "elements": [
+      {
+       "id": "400b54fa",
+       "settings": {
+        "title": "Put Comfort Where You Actually Need It",
+        "header_size": "h2",
+        "typography_typography": "custom",
+        "typography_font_family": "brandon-grotesque",
+        "typography_font_size": {
+         "unit": "rem",
+         "size": 2.2,
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "rem",
+         "size": 1.9,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "rem",
+         "size": 1.6,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_text_transform": "none",
+        "title_color": "#1A1A1A",
+        "align": "center",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.5,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "4",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "heading",
+       "elType": "widget"
+      },
+      {
+       "id": "400b6851",
+       "settings": {
+        "editor": "<p style=\"text-align:center;\">If one room never feels right, you are adding usable living space, or extending ductwork does not make sense for your property, ductless may be a practical solution. Contact G.C. Reliable Service to discuss ductless mini-split options for your New Rochelle, Pelham, Scarsdale, or Eastchester property and find a system built around the way you use your space.</p>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "text-editor",
+       "elType": "widget"
+      },
+      {
+       "id": "400b7ba8",
+       "settings": {
+        "text": "Schedule an Appointment",
+        "align": "center",
+        "link": {
+         "url": "/schedule-appointment",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "brandon-grotesque",
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": true
+        },
+        "hover_color": "#FFFFFF",
+        "__globals__": {
+         "background_color": "globals/colors?id=secondary",
+         "border_color": "globals/colors?id=secondary",
+         "button_text_color": "globals/colors?id=63acc82",
+         "button_background_hover_color": "",
+         "button_hover_border_color": ""
+        },
+        "background_color": "#FF0000",
+        "button_text_color": "#FFFFFF",
+        "border_color": "#FF0000",
+        "button_background_hover_color": "#FF6464",
+        "button_hover_border_color": "#FF6464",
+        "size": "xl",
+        "_element_width": "auto",
+        "selected_icon": {
+         "value": "far fa-calendar-check",
+         "library": "fa-regular"
+        },
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_font_size": {
+         "unit": "rem",
+         "size": 1,
+         "sizes": []
+        },
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1.2,
+         "sizes": []
+        },
+        "button_hover_transition_duration": {
+         "unit": "s",
+         "size": 0,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "button",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

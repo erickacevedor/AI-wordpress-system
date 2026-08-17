@@ -72,7 +72,7 @@ of nesting depth.
 5. **Hand off.** Tell the user the import path (Elementor → Templates → Import
    Templates) and the post-import wiring (SEO meta/slug, header/footer, image swaps).
 
-Already onboarded (`dolan`, `magnolia`, `petitt`)? Skip to step 3 — reuse `projects/<site>/skills/`.
+Already onboarded (`dolan`, `magnolia`, `petitt`, `gcreliable`)? Skip to step 3 — reuse `projects/<site>/skills/`.
 
 ---
 
