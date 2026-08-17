@@ -17,6 +17,12 @@ Exit code 0 = clean, 1 = issues found (handy in a pre-import gate).
 """
 import json, sys
 
+# Same cp1252 guard as validate-page.py — the report markers are non-ASCII.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except Exception:
+    pass
+
 
 def audit(doc):
     issues = []
@@ -35,8 +41,17 @@ def audit(doc):
                     issues.append(f"[grid {eid}] missing grid_columns_grid_mobile")
 
             if s.get("flex_direction") in ("row", "row-reverse"):
-                if s.get("flex_direction_mobile") not in ("column", "column-reverse"):
-                    issues.append(f"[row {eid}] flex row does not stack (set flex_direction_mobile: column)")
+                # The bug this catches is OMITTING a mobile direction, so a layout row
+                # stays side-by-side and squashes at 375px. Explicitly setting
+                # `row`/`row-reverse` for mobile is a different thing: a deliberate
+                # choice, and a common, legitimate one — an icon beside its label, a
+                # rating beside its count, a price beside its unit. Stacking those
+                # would be the bug. So: omission fails, an explicit value passes, and
+                # the deliberate cases stay greppable in the build source.
+                mobile_dir = s.get("flex_direction_mobile")
+                if mobile_dir is None:
+                    issues.append(f"[row {eid}] flex row has no mobile direction — it will not stack "
+                                  f"(set flex_direction_mobile: column, or 'row' if that is intended)")
 
             if et == "container" and isinstance(s.get("width"), dict) and s["width"].get("unit") == "%":
                 if s.get("width_mobile", {}).get("size") != 100:

@@ -21,6 +21,15 @@ runtime (plain dependency-free Python 3) — Claude, Codex, Gemini CLI, a human,
 """
 import json, sys, pathlib, importlib.util
 
+# The pass/fail markers below are non-ASCII. On a Windows console defaulting to cp1252
+# printing them raises UnicodeEncodeError *after* validation has already run — so the
+# gate would crash on success and report nothing. Force UTF-8 where we can.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except Exception:
+    pass
+
 
 def _load_responsive_audit():
     p = pathlib.Path(__file__).with_name("responsive-audit.py")
@@ -30,13 +39,21 @@ def _load_responsive_audit():
     return mod
 
 
+# Theme Builder parts import through the same pipeline as pages but are not pages:
+# a header/footer legitimately has NO H1, so the single-H1 rule must not apply to them.
+_DOC_TYPES = ("page", "header", "footer", "single", "archive", "section", "container")
+
+
 def validate(doc):
     errors = []
     warnings = []
 
+    doc_type = doc.get("type") if isinstance(doc, dict) else None
+
     # 2. wrapper
-    if not isinstance(doc, dict) or doc.get("type") != "page":
-        errors.append('wrapper: top-level `type` must be "page" (single-page import wrapper)')
+    if doc_type not in _DOC_TYPES:
+        errors.append('wrapper: top-level `type` must be one of %s (got %r)'
+                      % (", ".join(_DOC_TYPES), doc_type))
     if not isinstance(doc.get("content"), list) or not doc.get("content"):
         errors.append("wrapper: `content` must be a non-empty list of sections")
     if "page_settings" not in doc:
@@ -81,9 +98,14 @@ def validate(doc):
         dupes = sorted({i for i in ids if ids.count(i) > 1})
         errors.append("ids: %d duplicate element id(s): %s" % (len(dupes), ", ".join(dupes[:8])))
 
-    # 4. single H1
-    if h["h1"] != 1:
-        errors.append("headings: exactly one H1 required, found %d" % h["h1"])
+    # 4. single H1 — pages only. A header or footer carrying an H1 would steal the
+    #    document outline from every page it is attached to, so there the rule inverts.
+    if doc_type == "page":
+        if h["h1"] != 1:
+            errors.append("headings: exactly one H1 required, found %d" % h["h1"])
+    elif h["h1"]:
+        errors.append("headings: a %s must not contain an H1 (found %d) — it would "
+                      "override the H1 of every page it is applied to" % (doc_type, h["h1"]))
 
     # 5. subscriber gates
     if gates[0]:
