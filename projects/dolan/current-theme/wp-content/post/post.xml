@@ -15,7 +15,7 @@
 <!--    existing user on the site or to create a new user. -->
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
-<!-- generator="WordPress/7.0.2" created="2026-07-27 13:12" -->
+<!-- generator="WordPress/7.0.2" created="2026-08-05 00:50" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -27,7 +27,7 @@
 		<title>Dolan Design HVAC &amp; Plumbing</title>
 		<link>https://dolandesignhvac.com</link>
 		<description></description>
-		<pubDate>Mon, 27 Jul 2026 13:12:27 +0000</pubDate>
+		<pubDate>Wed, 05 Aug 2026 00:50:07 +0000</pubDate>
 		<language>en-US</language>
 		<wp:wxr_version>1.2</wp:wxr_version>
 		<wp:base_site_url>https://dolandesignhvac.com</wp:base_site_url>
@@ -422,10 +422,6 @@ Finally, contact a professional AC repair service in Wake Forest, NC, for an exp
 				<wp:meta_value><![CDATA[AC Repair Wake Forest NC %%page%% %%sep%% %%sitename%%]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 				<wp:meta_value><![CDATA[1]]></wp:meta_value>
 			</wp:postmeta>
@@ -456,6 +452,10 @@ Finally, contact a professional AC repair service in Wake Forest, NC, for an exp
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
 				<wp:meta_value><![CDATA[63]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>
@@ -820,10 +820,6 @@ Ultimately, the continuous influx of heartfelt testimonials affirms a standard o
 				<wp:meta_value><![CDATA[1]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_primary_category]]></wp:meta_key>
 				<wp:meta_value><![CDATA[]]></wp:meta_value>
 			</wp:postmeta>
@@ -850,6 +846,10 @@ Ultimately, the continuous influx of heartfelt testimonials affirms a standard o
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
 				<wp:meta_value><![CDATA[65]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>
@@ -1239,16 +1239,16 @@ Set a recurring reminder for early fall. Keep vents clear. Make sure alarms are 
 				<wp:meta_value><![CDATA[46]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_seo_score]]></wp:meta_key>
 				<wp:meta_value><![CDATA[60]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>
@@ -1655,12 +1655,12 @@ Weekday appointments go quickly once forecasts show colder nights. A quick messa
 				<wp:meta_value><![CDATA[45]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>
@@ -2054,10 +2054,6 @@ Weekday appointments go quickly once forecasts show colder nights. A quick messa
 				<wp:meta_value><![CDATA[]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_primary_category]]></wp:meta_key>
 				<wp:meta_value><![CDATA[15]]></wp:meta_value>
 			</wp:postmeta>
@@ -2080,6 +2076,10 @@ Weekday appointments go quickly once forecasts show colder nights. A quick messa
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_analytic_object_id]]></wp:meta_key>
 				<wp:meta_value><![CDATA[41]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
@@ -2296,12 +2296,12 @@ Call Dolan Design HVAC &amp; Plumbing as soon as possible to get the process sta
 				<wp:meta_value><![CDATA[a:2:{s:5:"check";s:32:"02dc9f2044fd66803ce9e83afeaf2ee4";s:6:"images";a:1:{i:0;i:232186;}}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>
@@ -2537,7 +2537,7 @@ Tests and Assessments<br />
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>
@@ -2755,12 +2755,12 @@ If your heating system isn’t delivering the comfort you expect, our team is he
 				<wp:meta_value><![CDATA[33]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>
@@ -2979,12 +2979,12 @@ If your heating system isn’t delivering the comfort you expect, our team is he
 				<wp:meta_value><![CDATA[a:1:{i:0;s:5:"index";}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_analytic_object_id]]></wp:meta_key>
 				<wp:meta_value><![CDATA[32]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
@@ -3325,12 +3325,12 @@ We’ll help you stay safe, comfortable, and confident all winter long.</div>
 				<wp:meta_value><![CDATA[31]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>
@@ -3551,16 +3551,16 @@ We’ll help you stay safe, comfortable, and confident all winter long.</div>
 				<wp:meta_value><![CDATA[a:1:{i:0;s:5:"index";}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_analytic_object_id]]></wp:meta_key>
 				<wp:meta_value><![CDATA[30]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>
@@ -3784,12 +3784,12 @@ While your heating system works quietly in the background to keep the indoors co
 				<wp:meta_value><![CDATA[a:1:{i:0;s:5:"index";}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_analytic_object_id]]></wp:meta_key>
 				<wp:meta_value><![CDATA[29]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
@@ -4056,12 +4056,12 @@ While your heating system works quietly in the background to keep the indoors co
 				<wp:meta_value><![CDATA[28]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>
@@ -4364,10 +4364,6 @@ Most HVAC professionals recommend once per year, ideally in spring. If you have 
 				<wp:meta_value><![CDATA[a:1:{i:0;s:5:"index";}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_analytic_object_id]]></wp:meta_key>
 				<wp:meta_value><![CDATA[23]]></wp:meta_value>
 			</wp:postmeta>
@@ -4378,6 +4374,10 @@ Most HVAC professionals recommend once per year, ideally in spring. If you have 
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>
@@ -4866,12 +4866,12 @@ If you want to avoid unexpected breakdowns, now is the time to act! Schedule you
 				<wp:meta_value><![CDATA[a:1:{i:0;s:5:"index";}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_analytic_object_id]]></wp:meta_key>
 				<wp:meta_value><![CDATA[25]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
@@ -5411,16 +5411,16 @@ Airflow and duct system performance</p>
 				<wp:meta_value><![CDATA[a:1:{i:0;s:5:"index";}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_analytic_object_id]]></wp:meta_key>
 				<wp:meta_value><![CDATA[27]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>
@@ -5966,6 +5966,10 @@ If your system is freezing or struggling to cool your home, schedule an HVAC ins
 				<wp:meta_value><![CDATA[VB|Divi|4.27.6]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_primary_category]]></wp:meta_key>
 				<wp:meta_value><![CDATA[]]></wp:meta_value>
 			</wp:postmeta>
@@ -5988,10 +5992,6 @@ If your system is freezing or struggling to cool your home, schedule an HVAC ins
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_analytic_object_id]]></wp:meta_key>
 				<wp:meta_value><![CDATA[26]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
@@ -6483,7 +6483,7 @@ Call Dolan Design today at (919) 896-8630 to get your system ready before spring
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
@@ -6754,16 +6754,16 @@ Call Dolan Design today at (919) 896-8630 to get your system ready before spring
 				<wp:meta_value><![CDATA[a:1:{i:0;s:5:"index";}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_analytic_object_id]]></wp:meta_key>
 				<wp:meta_value><![CDATA[24]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>
@@ -7030,16 +7030,16 @@ Call Dolan Design today at (919) 896-8630 to get your system ready before spring
 				<wp:meta_value><![CDATA[a:1:{i:0;s:5:"index";}]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
-				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:2:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_analytic_object_id]]></wp:meta_key>
 				<wp:meta_value><![CDATA[21]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[rank_math_internal_links_processed]]></wp:meta_key>
 				<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[et_enqueued_post_fonts]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:3:{s:6:"family";a:2:{s:10:"et-gf-ruda";s:32:"Ruda:regular,500,600,700,800,900";s:12:"et-gf-ubuntu";s:63:"Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic";}s:6:"subset";a:2:{i:0;s:5:"latin";i:1;s:9:"latin-ext";}s:9:"cache_key";s:76:"{"gph":"0","divi":"4.27.6","wp":"7.0.2","enable_all_character_sets":"false"}";}]]></wp:meta_value>
 			</wp:postmeta>
 		</item>
 		<item>

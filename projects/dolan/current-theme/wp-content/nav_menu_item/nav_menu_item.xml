@@ -15,7 +15,7 @@
 <!--    existing user on the site or to create a new user. -->
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
-<!-- generator="WordPress/7.0.2" created="2026-07-27 13:12" -->
+<!-- generator="WordPress/7.0.2" created="2026-08-05 00:50" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -27,7 +27,7 @@
 		<title>Dolan Design HVAC &amp; Plumbing</title>
 		<link>https://dolandesignhvac.com</link>
 		<description></description>
-		<pubDate>Mon, 27 Jul 2026 13:12:28 +0000</pubDate>
+		<pubDate>Wed, 05 Aug 2026 00:50:08 +0000</pubDate>
 		<language>en-US</language>
 		<wp:wxr_version>1.2</wp:wxr_version>
 		<wp:base_site_url>https://dolandesignhvac.com</wp:base_site_url>
@@ -74,7 +74,7 @@
 			<content:encoded><![CDATA[]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>230611</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:36]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:12]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2024-04-04 21:24:04]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -176,6 +176,14 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
@@ -193,7 +201,7 @@
 			<content:encoded><![CDATA[ ]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>230694</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:36]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:12]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2024-04-18 15:15:23]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -291,114 +299,11 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2026-07-07]]></wp:meta_value>
-			</wp:postmeta>
-		</item>
-		<item>
-			<title></title>
-			<link></link>
-			<pubDate></pubDate>
-			<dc:creator><![CDATA[admin_f6kh8kxr]]></dc:creator>
-			<guid isPermaLink="false"><![CDATA[admin_f6kh8kxr]]></guid>
-			<description></description>
-			<content:encoded><![CDATA[ ]]></content:encoded>
-			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-			<wp:post_id>230861</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
-			<wp:post_date_gmt><![CDATA[2024-05-20 13:16:26]]></wp:post_date_gmt>
-			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-			<wp:post_name><![CDATA[230861]]></wp:post_name>
-			<wp:status><![CDATA[publish]]></wp:status>
-			<wp:post_parent><![CDATA[0]]></wp:post_parent>
-			<wp:menu_order>1</wp:menu_order>
-			<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-			<wp:post_password><![CDATA[]]></wp:post_password>
-			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-				<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-				<wp:meta_value><![CDATA[0]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-				<wp:meta_value><![CDATA[230856]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-				<wp:meta_value><![CDATA[page]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-				<wp:meta_value><![CDATA[]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-				<wp:meta_value><![CDATA[]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-				<wp:meta_value><![CDATA[]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2024-05-20]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2024-07-11]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2024-10-30]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2025-02-06]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2025-02-10]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2025-03-23]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2025-03-24]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2025-04-21]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2025-05-05]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_sgpb_popup_id]]></wp:meta_key>
-				<wp:meta_value><![CDATA[0]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2025-09-30]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2025-12-03]]></wp:meta_value>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
@@ -419,7 +324,7 @@
 			<content:encoded><![CDATA[]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>230864</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2024-05-20 13:29:06]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -513,6 +418,14 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
@@ -530,7 +443,7 @@
 			<content:encoded><![CDATA[ ]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>231163</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:36]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:12]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2024-10-30 14:03:52]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -616,6 +529,14 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
@@ -633,7 +554,7 @@
 			<content:encoded><![CDATA[ ]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>231260</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:12]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2025-02-06 18:48:57]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -715,6 +636,14 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
@@ -732,7 +661,7 @@
 			<content:encoded><![CDATA[ ]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>231261</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2025-02-06 18:48:57]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -814,6 +743,14 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
@@ -831,7 +768,7 @@
 			<content:encoded><![CDATA[]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>231275</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2025-02-06 22:53:40]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -913,6 +850,14 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
@@ -930,7 +875,7 @@
 			<content:encoded><![CDATA[ ]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>231280</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:36]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:12]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2025-02-10 17:03:57]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -1008,6 +953,113 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-07]]></wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>Youngsville NC</title>
+			<link></link>
+			<pubDate></pubDate>
+			<dc:creator><![CDATA[admin_f6kh8kxr]]></dc:creator>
+			<guid isPermaLink="false"><![CDATA[admin_f6kh8kxr]]></guid>
+			<description></description>
+			<content:encoded><![CDATA[]]></content:encoded>
+			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+			<wp:post_id>231460</wp:post_id>
+			<wp:post_date><![CDATA[2026-07-31 15:15:12]]></wp:post_date>
+			<wp:post_date_gmt><![CDATA[2025-03-23 22:02:06]]></wp:post_date_gmt>
+			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+			<wp:post_name><![CDATA[youngsville-nc]]></wp:post_name>
+			<wp:status><![CDATA[publish]]></wp:status>
+			<wp:post_parent><![CDATA[0]]></wp:post_parent>
+			<wp:menu_order>18</wp:menu_order>
+			<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+			<wp:post_password><![CDATA[]]></wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2025-09-30]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+				<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+				<wp:meta_value><![CDATA[231261]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+				<wp:meta_value><![CDATA[231444]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+				<wp:meta_value><![CDATA[page]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+				<wp:meta_value><![CDATA[]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+				<wp:meta_value><![CDATA[]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+				<wp:meta_value><![CDATA[]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2025-03-23]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2025-03-24]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2025-04-21]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2025-05-05]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_sgpb_popup_id]]></wp:meta_key>
+				<wp:meta_value><![CDATA[0]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2025-12-03]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
@@ -1025,7 +1077,7 @@
 			<content:encoded><![CDATA[]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>231489</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2025-03-24 16:18:14]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -1043,7 +1095,7 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-				<wp:meta_value><![CDATA[230861]]></wp:meta_value>
+				<wp:meta_value><![CDATA[233381]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -1095,6 +1147,14 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
@@ -1112,7 +1172,7 @@
 			<content:encoded><![CDATA[ ]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>231500</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2025-03-24 17:04:10]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -1130,7 +1190,7 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-				<wp:meta_value><![CDATA[230861]]></wp:meta_value>
+				<wp:meta_value><![CDATA[233381]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -1182,6 +1242,14 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
@@ -1199,7 +1267,7 @@
 			<content:encoded><![CDATA[ ]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>231552</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2025-04-21 15:20:39]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -1217,7 +1285,7 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-				<wp:meta_value><![CDATA[230861]]></wp:meta_value>
+				<wp:meta_value><![CDATA[233381]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -1265,6 +1333,14 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
@@ -1273,16 +1349,16 @@
 			</wp:postmeta>
 		</item>
 		<item>
-			<title></title>
+			<title>Ductless Mini Splits</title>
 			<link></link>
 			<pubDate></pubDate>
 			<dc:creator><![CDATA[admin_f6kh8kxr]]></dc:creator>
 			<guid isPermaLink="false"><![CDATA[admin_f6kh8kxr]]></guid>
 			<description></description>
-			<content:encoded><![CDATA[ ]]></content:encoded>
+			<content:encoded><![CDATA[]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>231582</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2025-05-05 16:17:31]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -1300,7 +1376,7 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-				<wp:meta_value><![CDATA[230861]]></wp:meta_value>
+				<wp:meta_value><![CDATA[233381]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -1344,145 +1420,11 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2026-07-07]]></wp:meta_value>
-			</wp:postmeta>
-		</item>
-		<item>
-			<title></title>
-			<link></link>
-			<pubDate></pubDate>
-			<dc:creator><![CDATA[admin_f6kh8kxr]]></dc:creator>
-			<guid isPermaLink="false"><![CDATA[admin_f6kh8kxr]]></guid>
-			<description></description>
-			<content:encoded><![CDATA[ ]]></content:encoded>
-			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-			<wp:post_id>231808</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
-			<wp:post_date_gmt><![CDATA[2025-09-30 17:18:35]]></wp:post_date_gmt>
-			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-			<wp:post_name><![CDATA[231808]]></wp:post_name>
-			<wp:status><![CDATA[publish]]></wp:status>
-			<wp:post_parent><![CDATA[0]]></wp:post_parent>
-			<wp:menu_order>15</wp:menu_order>
-			<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-			<wp:post_password><![CDATA[]]></wp:post_password>
-			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-				<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-				<wp:meta_value><![CDATA[231261]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-				<wp:meta_value><![CDATA[231789]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-				<wp:meta_value><![CDATA[page]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-				<wp:meta_value><![CDATA[]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-				<wp:meta_value><![CDATA[]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-				<wp:meta_value><![CDATA[]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_sgpb_popup_id]]></wp:meta_key>
-				<wp:meta_value><![CDATA[0]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2025-09-30]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2025-12-03]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-				<wp:meta_value><![CDATA[2026-07-07]]></wp:meta_value>
-			</wp:postmeta>
-		</item>
-		<item>
-			<title></title>
-			<link></link>
-			<pubDate></pubDate>
-			<dc:creator><![CDATA[admin_f6kh8kxr]]></dc:creator>
-			<guid isPermaLink="false"><![CDATA[admin_f6kh8kxr]]></guid>
-			<description></description>
-			<content:encoded><![CDATA[ ]]></content:encoded>
-			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-			<wp:post_id>232827</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
-			<wp:post_date_gmt><![CDATA[2026-04-22 18:07:01]]></wp:post_date_gmt>
-			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-			<wp:post_name><![CDATA[232827]]></wp:post_name>
-			<wp:status><![CDATA[publish]]></wp:status>
-			<wp:post_parent><![CDATA[0]]></wp:post_parent>
-			<wp:menu_order>8</wp:menu_order>
-			<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-			<wp:post_password><![CDATA[]]></wp:post_password>
-			<wp:is_sticky>0</wp:is_sticky>
-			<category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-				<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-				<wp:meta_value><![CDATA[0]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-				<wp:meta_value><![CDATA[232821]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-				<wp:meta_value><![CDATA[page]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-				<wp:meta_value><![CDATA[]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-				<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-				<wp:meta_value><![CDATA[]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-				<wp:meta_value><![CDATA[]]></wp:meta_value>
-			</wp:postmeta>
-			<wp:postmeta>
-				<wp:meta_key><![CDATA[_menu_sgpb_popup_id]]></wp:meta_key>
-				<wp:meta_value><![CDATA[0]]></wp:meta_value>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
@@ -1503,7 +1445,7 @@
 			<content:encoded><![CDATA[ ]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>232836</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2026-04-22 18:20:55]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -1521,7 +1463,7 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-				<wp:meta_value><![CDATA[232827]]></wp:meta_value>
+				<wp:meta_value><![CDATA[233388]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -1553,6 +1495,14 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
@@ -1570,7 +1520,7 @@
 			<content:encoded><![CDATA[ ]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>232837</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2026-04-22 18:20:55]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -1588,7 +1538,7 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-				<wp:meta_value><![CDATA[232827]]></wp:meta_value>
+				<wp:meta_value><![CDATA[233388]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -1620,6 +1570,14 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
@@ -1637,7 +1595,7 @@
 			<content:encoded><![CDATA[ ]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>232838</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2026-04-22 18:20:55]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -1655,7 +1613,7 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-				<wp:meta_value><![CDATA[232827]]></wp:meta_value>
+				<wp:meta_value><![CDATA[233388]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -1687,6 +1645,14 @@
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 				<wp:meta_value><![CDATA[2026-04-22]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
@@ -1704,7 +1670,7 @@
 			<content:encoded><![CDATA[]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>233322</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2026-07-07 18:54:02]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -1717,12 +1683,20 @@
 			<wp:is_sticky>0</wp:is_sticky>
 			<category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
 			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 				<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-				<wp:meta_value><![CDATA[230861]]></wp:meta_value>
+				<wp:meta_value><![CDATA[233381]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -1767,7 +1741,7 @@
 			<content:encoded><![CDATA[]]></content:encoded>
 			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 			<wp:post_id>233336</wp:post_id>
-			<wp:post_date><![CDATA[2026-07-09 17:51:35]]></wp:post_date>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
 			<wp:post_date_gmt><![CDATA[2026-07-09 17:51:35]]></wp:post_date_gmt>
 			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
@@ -1780,16 +1754,146 @@
 			<wp:is_sticky>0</wp:is_sticky>
 			<category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
 			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 				<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-				<wp:meta_value><![CDATA[230861]]></wp:meta_value>
+				<wp:meta_value><![CDATA[233381]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
 				<wp:meta_value><![CDATA[233330]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+				<wp:meta_value><![CDATA[page]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+				<wp:meta_value><![CDATA[]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+				<wp:meta_value><![CDATA[]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+				<wp:meta_value><![CDATA[]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_sgpb_popup_id]]></wp:meta_key>
+				<wp:meta_value><![CDATA[0]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-09]]></wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>Cooling Services</title>
+			<link></link>
+			<pubDate></pubDate>
+			<dc:creator><![CDATA[astafford]]></dc:creator>
+			<guid isPermaLink="false"><![CDATA[astafford]]></guid>
+			<description></description>
+			<content:encoded><![CDATA[]]></content:encoded>
+			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+			<wp:post_id>233381</wp:post_id>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
+			<wp:post_date_gmt><![CDATA[2026-07-28 14:50:55]]></wp:post_date_gmt>
+			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+			<wp:post_name><![CDATA[cooling-services]]></wp:post_name>
+			<wp:status><![CDATA[publish]]></wp:status>
+			<wp:post_parent><![CDATA[0]]></wp:post_parent>
+			<wp:menu_order>1</wp:menu_order>
+			<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+			<wp:post_password><![CDATA[]]></wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+				<wp:meta_value><![CDATA[2026-07-28]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+				<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+				<wp:meta_value><![CDATA[0]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+				<wp:meta_value><![CDATA[233352]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+				<wp:meta_value><![CDATA[page]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+				<wp:meta_value><![CDATA[]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+				<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+				<wp:meta_value><![CDATA[]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+				<wp:meta_value><![CDATA[]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_sgpb_popup_id]]></wp:meta_key>
+				<wp:meta_value><![CDATA[0]]></wp:meta_value>
+			</wp:postmeta>
+		</item>
+		<item>
+			<title>Plumbing Services</title>
+			<link></link>
+			<pubDate></pubDate>
+			<dc:creator><![CDATA[astafford]]></dc:creator>
+			<guid isPermaLink="false"><![CDATA[astafford]]></guid>
+			<description></description>
+			<content:encoded><![CDATA[]]></content:encoded>
+			<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+			<wp:post_id>233388</wp:post_id>
+			<wp:post_date><![CDATA[2026-07-31 15:15:11]]></wp:post_date>
+			<wp:post_date_gmt><![CDATA[2026-07-31 15:15:11]]></wp:post_date_gmt>
+			<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+			<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+			<wp:post_name><![CDATA[plumbing-services]]></wp:post_name>
+			<wp:status><![CDATA[publish]]></wp:status>
+			<wp:post_parent><![CDATA[0]]></wp:post_parent>
+			<wp:menu_order>8</wp:menu_order>
+			<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+			<wp:post_password><![CDATA[]]></wp:post_password>
+			<wp:is_sticky>0</wp:is_sticky>
+			<category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+				<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+				<wp:meta_value><![CDATA[0]]></wp:meta_value>
+			</wp:postmeta>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+				<wp:meta_value><![CDATA[233094]]></wp:meta_value>
 			</wp:postmeta>
 			<wp:postmeta>
 				<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
