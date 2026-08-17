@@ -1,0 +1,55 @@
+
+{
+    "lenz-comfort": {
+        "id": 10,
+        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-comfort.png"
+    },
+    "lenz-cooling": {
+        "id": 11,
+        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-cooling.png"
+    },
+    "lenz-emergency": {
+        "id": 12,
+        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-emergency.png"
+    },
+    "lenz-heating": {
+        "id": 14,
+        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-heating.png"
+    },
+    "lenz-heating-cooling-og": {
+        "id": 13,
+        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-heating-cooling-og.png"
+    },
+    "lenz-logo": {
+        "id": 17,
+        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-logo.png"
+    },
+    "lenz-logo-new": {
+        "id": 16,
+        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-logo-new.png"
+    },
+    "lenz-logo-new-dark": {
+        "id": 15,
+        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-logo-new-dark.png"
+    },
+    "lenz-service-area": {
+        "id": 18,
+        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-service-area.png"
+    },
+    "lenz-service-van-wrap": {
+        "id": 19,
+        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-service-van-wrap.png"
+    },
+    "lenz-team": {
+        "id": 20,
+        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-team.png"
+    },
+    "lenz-technician-service-call": {
+        "id": 21,
+        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-technician-service-call.png"
+    },
+    "lenz-thermostat": {
+        "id": 22,
+        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-thermostat.png"
+    }
+}
