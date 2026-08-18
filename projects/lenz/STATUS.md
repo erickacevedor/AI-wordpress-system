@@ -1,9 +1,10 @@
 # Lenz — project status
 
 **As of 2026-08-17.** Snapshot of what is built, what is live, and what is not.
-Companion to `KIT-ANALYSIS.md` (the design system and the *why*) and the per-page
-`HANDOFF-notes.md` files (the import/wiring detail). Update this file when the
-answer to "where are we?" changes.
+Companion to `KIT-ANALYSIS.md` (the design system and the *why*), `ENVIRONMENT.md`
+(how to reach the install: ports, DB access, WP-CLI, how a page lands), and the
+per-page `HANDOFF-notes.md` files. Update this file when the answer to "where are
+we?" changes.
 
 ---
 
