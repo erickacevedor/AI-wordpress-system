@@ -11,17 +11,24 @@ checklist in docs/Publishing-QA-Checklist.md §5:
   - H1 / H2 headings without a mobile font size (globals-only headings do NOT shrink)
   - boxed content containers without padding_mobile
   - fixed-height images without height_mobile
+  - emoji-as-icon headings sized in px without a mobile size (checklist §5)
 
 Usage:  python3 scripts/responsive-audit.py path/to/page.json
 Exit code 0 = clean, 1 = issues found (handy in a pre-import gate).
 """
-import json, sys
+import json, re, sys
 
 # Same cp1252 guard as validate-page.py — the report markers are non-ASCII.
 try:
     sys.stdout.reconfigure(encoding="utf-8")
 except Exception:
     pass
+
+
+# Emoji used as an icon (card headers, benefit lists, step markers). Matches the
+# pictographic + dingbat ranges the builder's emoji_icon() emits; deliberately not a
+# full grapheme parser -- a false negative here just means one fewer flagged heading.
+_EMOJI = re.compile("[🌀-🫿☀-➿⬀-⯿]")
 
 
 def audit(doc):
@@ -67,6 +74,16 @@ def audit(doc):
 
             if wt == "image" and s.get("height", {}).get("size") and not s.get("height_mobile", {}).get("size"):
                 issues.append(f"[image {eid}] fixed height without height_mobile")
+
+            # An emoji icon is a heading widget carrying an explicit size. h1/h2 are
+            # covered above; this catches the p/h3/h4 ones used as card icons, which
+            # otherwise stay at their 42px desktop size on a 375px screen.
+            if (wt == "heading" and s.get("header_size") not in ("h1", "h2")
+                    and _EMOJI.search(s.get("title", "") or "")
+                    and s.get("typography_font_size", {}).get("size")
+                    and not s.get("typography_font_size_mobile", {}).get("size")):
+                issues.append(f"[emoji {eid}] emoji icon \"{(s.get('title') or '')[:2]}\" has a "
+                              f"desktop font size but no typography_font_size_mobile")
 
             for v in e.values():
                 walk(v)
