@@ -166,6 +166,18 @@ carry the same hard-won rules as the kit path:
 - Mix **emoji-as-icons** with native icons so a page never depends entirely on an
   icon font — and if the prototype uses an icon library, ship it as an inline SVG
   sprite rather than a CDN link.
+- **Accessibility rules the validator does not check**, so they must live in the
+  generated skills: heading levels never skip (H1 → H2 → H3 — change the size, not
+  the level); every CTA has a visible descriptive label, never icon-only; nothing
+  auto-plays; a form field gets a real label rather than a placeholder standing in for
+  one; every page records a canonical URL in its handoff note.
+
+> **One rule inverts on the way from prototype to Elementor.** A prototype is told to
+> reference CSS variables and never hardcode a hex. In Elementor the opposite holds:
+> style **inline**, because a kit's Global Colors are frequently still Hello Elementor
+> defaults, so pointing a widget at a global slot silently produces off-brand output.
+> Keep the variables in the prototype's stylesheet; resolve them to real values in
+> `tokens.json`, and let the builder write those values into the page.
 - Root-relative internal links. Never emit `display_condition_list`.
 
 Header and footer become Elementor **library templates** built the same way, under

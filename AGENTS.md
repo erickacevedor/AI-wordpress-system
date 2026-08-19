@@ -133,7 +133,22 @@ Already onboarded (`dolan`, `magnolia`, `petitt`, `gcreliable`)? Skip to step 3 
    `display_condition_list` gates; no dead (`#`/empty) or `localhost` links; alt text
    on every image.
 
-The validator **blocks** on all of the above. It **warns** on findings that are real
+6. **Accessible by construction** (build-time rules — hold to these while authoring;
+   the validator does not check them):
+   - **Heading levels never skip.** H1 → H2 → H3 in order. Don't jump H2 → H4 to get
+     a smaller size — set the size, keep the level.
+   - **Every CTA carries a visible, descriptive label.** No icon-only buttons. "Call
+     (555) 123-4567", not a bare phone glyph. Where a kit genuinely uses an icon-only
+     control (a mobile header phone button), note it in the handoff so an accessible
+     name gets added after import.
+   - **Nothing auto-plays.** No auto-playing video, audio, or motion.
+   - **A form field's label is a label, not a placeholder.** Placeholder text
+     disappears on focus and is invisible to most screen readers; every field needs a
+     real label.
+   - **Every page records a canonical URL** in its `HANDOFF-notes.md`, beside the slug
+     and meta. Elementor JSON cannot carry it, so the note is the only place it exists.
+
+The validator **blocks** on all of the above except #6. It **warns** on findings that are real
 but are not import failures: two adjacent sections sharing a background; padding on a
 nested layout row/column/grid; an over-long meta title (≥60) or description (≥155) in
 the page's `HANDOFF-notes.md`; text/background pairs below WCAG AA; widgets that need

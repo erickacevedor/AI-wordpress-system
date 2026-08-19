@@ -96,6 +96,13 @@ Write each as `skills/<site>-<name>/SKILL.md` with proper frontmatter
 - **Posts as well as pages:** the same system covers blog posts — the generated
   skills should reference the site's single-post template and note post extras
   (featured image, categories/tags, author) at publish time.
+- **Accessibility rules every generated skill must carry** (build-time; the
+  validator does not check these, so they have to live in the skills):
+  heading levels never skip (H1 → H2 → H3 — set the font size, don't drop a level to
+  get one); every CTA has a visible descriptive label, never icon-only; nothing
+  auto-plays; a form field gets a real label, never a placeholder standing in for one;
+  and every page records a canonical URL in its handoff note. Put them in
+  `<site>-page-builder` (as pipeline steps) and `<site>-page-audit` (as checks).
 - **`<site>-page-audit`** — brand + Elementor-hygiene checks AND a "do NOT fix"
   list of intentional brand choices (so generic web-redesign rules don't fight
   the brand). Include the **responsive checklist**: grids set tablet(~2)/mobile(1)

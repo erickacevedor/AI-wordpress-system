@@ -18,10 +18,16 @@ content from AI draft to published, consistent, and clean. Works for every site.
 - [ ] 🤖 Text is readable on its background (WCAG AA) *(warning — a brand's own palette
       can fail, which is a decision to make, not a build bug)*.
 - [ ] CTAs use the brand button style; hover changes color only (no size/shape animation).
+- [ ] Every CTA has a **visible, descriptive label** — no icon-only buttons. (If the
+      kit genuinely uses one, note that it needs an accessible name after import.)
 - [ ] Colors set inline, not via Elementor global slots.
 
 ## 2. SEO elements
-- [ ] 🤖 Exactly **one H1** (the hero headline); headings follow H1 -> H2 -> H3 with no skipped levels.
+- [ ] 🤖 Exactly **one H1** (the hero headline).
+- [ ] Headings follow H1 -> H2 -> H3 with **no skipped levels** — if a heading looks
+      too big, change its font size, don't drop it a level.
+- [ ] Every page has a **canonical URL** recorded in `HANDOFF-notes.md` and set in
+      the SEO plugin after import.
 - [ ] 🤖 **Meta title** set, under ~60 characters *(length-checked in `HANDOFF-notes.md`)*.
 - [ ] 🤖 **Meta description** set, under ~155 characters *(length-checked in `HANDOFF-notes.md`)*.
 - [ ] **URL slug** lowercase, hyphenated, concise.
@@ -36,6 +42,9 @@ content from AI draft to published, consistent, and clean. Works for every site.
 ## 4. Images & media
 - [ ] 🤖 Every image has **alt text** — that it is *descriptive* is still your call.
 - [ ] Hero/feature images placed (two-column or background with overlay for legibility).
+- [ ] **Nothing auto-plays** — no auto-playing video, audio, or motion.
+- [ ] Form fields have **real labels**, not placeholder text standing in for a label
+      (placeholders vanish on focus and most screen readers skip them).
 - [ ] 🤖 Live/dynamic widgets (review sliders, forms, advanced maps) wired up — the
       import placeholders replaced with the real widgets/shortcodes. *(The gate lists
       what the target install must provide; put that list in the handoff.)*

@@ -131,7 +131,9 @@ Full list: `docs/Publishing-QA-Checklist.md`.
 - Brand font, brand button, brand type scale — no invented accent colors.
 - Colors set inline, not via Elementor global slots (kit globals are often fake).
 - `validate-page.py` exits 0 and `<site>-page-audit` passes.
-- Handoff note carries slug + meta title (<60) + meta description (<155).
+- Handoff note carries slug + canonical URL + meta title (<60) + meta description (<155).
+- Heading levels never skip; every CTA has a visible label; nothing auto-plays; form
+  fields have real labels rather than placeholders doing the job.
 
 ## Tips for speed
 
