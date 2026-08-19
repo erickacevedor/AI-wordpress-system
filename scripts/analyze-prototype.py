@@ -403,8 +403,10 @@ def main():
               % (len(doc["colors"]), len(doc["roles"]), len(doc["type_scale"]),
                  len(doc["spacing"])))
         print("   TODO markers remain for the button spec, links and phone — fill them")
-        print("   from the brief. Then verify with: python3 scripts/validate-tokens.py "
-              "(or read it back with site_tokens.py).")
+        print("   from the brief, then check the pipeline can read the result:")
+        print("     python3 -c \"import sys;sys.path.insert(0,'scripts');"
+              "import site_tokens as ST;"
+              "print(ST.load('projects/<site>').missing_core() or 'readable')\"")
         sys.exit(0)
 
     if "--json" in sys.argv:

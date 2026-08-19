@@ -505,8 +505,19 @@ def main():
         css = sys.argv[sys.argv.index("--css") + 1]
     check = "--check" in sys.argv
 
-    with open(src, encoding="utf-8") as f:
-        doc = json.load(f)
+    try:
+        with open(src, encoding="utf-8") as f:
+            doc = json.load(f)
+    except FileNotFoundError:
+        print("✗ page JSON not found: %s" % src)
+        sys.exit(2)
+    except ValueError as ex:
+        print("✗ not valid JSON: %s (%s)" % (src, ex))
+        sys.exit(2)
+    if not isinstance(doc, dict) or not doc.get("content"):
+        print("✗ %s is not a single-page wrapper (no `content` array) — this renders "
+              "built pages, not kit content/page files." % src)
+        sys.exit(2)
     html_out = render(doc, os.path.basename(src), css)
 
     target = out or os.path.join(os.path.dirname(os.path.abspath(src)), "PREVIEW.html")

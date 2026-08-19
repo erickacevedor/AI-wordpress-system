@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Re-zip the PORTABLE skills into skills-zipped/ for Claude Desktop / Cowork upload.
-# Run this whenever you edit skills/elementor-kit-onboarding or skills/full-output-enforcement,
-# so the zips don't ship stale instructions.
+# Run this whenever you edit anything under skills/, so the zips don't ship stale
+# instructions. Keep the skill list below in step with the folders in skills/ —
+# a portable skill that is not listed here silently never reaches Claude Desktop.
 #
 # Uses `zip` where it exists, and falls back to Python's zipfile otherwise — Git Bash
 # on Windows ships no `zip`, and a silent failure here means the zips quietly drift
@@ -28,7 +29,7 @@ with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
 PY
 }
 
-for skill in elementor-kit-onboarding full-output-enforcement; do
+for skill in elementor-kit-onboarding html-prototype-onboarding full-output-enforcement; do
   if [ -d "skills/$skill" ]; then
     rm -f "skills-zipped/$skill.zip"
     if command -v zip >/dev/null 2>&1; then

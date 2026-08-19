@@ -143,13 +143,25 @@ def main():
     if not args:
         print(__doc__)
         sys.exit(2)
-    with open(args[0], encoding="utf-8") as f:
-        doc = json.load(f)
+    try:
+        with open(args[0], encoding="utf-8") as f:
+            doc = json.load(f)
+    except FileNotFoundError:
+        print("✗ page JSON not found: %s" % args[0])
+        sys.exit(2)
+    except ValueError as ex:
+        print("✗ not valid JSON: %s (%s)" % (args[0], ex))
+        sys.exit(2)
 
     if "--html" in sys.argv:
         path = sys.argv[sys.argv.index("--html") + 1]
-        with open(path, encoding="utf-8", errors="replace") as f:
-            html = f.read()
+        try:
+            with open(path, encoding="utf-8", errors="replace") as f:
+                html = f.read()
+        except FileNotFoundError:
+            print("✗ rendered HTML not found: %s" % path)
+            print("  save the page first, e.g.  curl -s <url> -o rendered.html")
+            sys.exit(2)
         source = path
     else:
         if len(args) < 2:
