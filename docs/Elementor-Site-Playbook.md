@@ -252,8 +252,22 @@ cleanly through `build.py`, changing only copy and section mix.
 ## When a site arrives without an Elementor kit
 
 Step 1 assumes an export. A site sometimes arrives as a static design instead (an
-HTML/CSS repo, a Figma handoff, a live URL with no export access). The loop still
-holds — only the *source* of the design read changes:
+HTML/CSS repo, a Figma handoff, a live URL with no export access), or has to be
+designed from scratch. That path is a first-class stage of this repo — see
+[`design-source/README.md`](../design-source/README.md):
+
+```bash
+# building the design from scratch? start from the master prompt
+design-source/prompts/local-service-site.md      # fill every [[ FIELD ]], then run it
+
+# then, prototype in hand:
+python3 scripts/analyze-prototype.py projects/<site>/design-source
+python3 scripts/analyze-prototype.py projects/<site>/design-source \
+        --emit-tokens projects/<site>/tokens.json
+# then run skills/html-prototype-onboarding to write KIT-ANALYSIS.md + the five skills
+```
+
+The loop still holds — only the *source* of the design read changes:
 
 - Step 1 has no `current-theme/`. Point the onboarding at whatever the design system
   actually lives in (the stylesheet's custom properties, the source repo's config).
@@ -268,7 +282,13 @@ holds — only the *source* of the design read changes:
 
 `projects/lenz/` is this case. It is also the cautionary example: it was onboarded
 from HTML, the skill-generation step got skipped as "not applicable," and it is the
-one site with no `<site>-*` skills to build its next page from.
+one site with no `<site>-*` skills to build its next page from — which is exactly
+what `skills/html-prototype-onboarding` now exists to prevent.
+
+**Set the content width deliberately on this path.** A from-scratch prototype has no
+kit telling it what the content width is, and the master prompt defaults to 1800px
+while every kit in `projects/` boxes at 1140–1280px. Decide it before the prototype
+is built; reconciling it afterwards means re-deciding every section's proportions.
 
 ## Why per-site skills (not one global skill)
 Each site has its own palette, font, voice, and templates. A shared skill would

@@ -15,15 +15,42 @@ new pages that import cleanly and look like they always belonged.
 
 **Two layers (keep them separate):**
 - **Portable** (never changes site to site): the process + `skills/elementor-kit-onboarding`
-  + `skills/full-output-enforcement` + `scripts/`.
+  + `skills/html-prototype-onboarding` + `skills/full-output-enforcement` + `scripts/`.
 - **Per-site** (generated once per website): each `projects/<site>/skills/<site>-*`
   set carries a single site's colors, fonts, voice, and layout.
+
+## Route the task before doing anything
+
+**Most tasks are the third row — a doc for a site that is already onboarded.** Check
+which row you are on first; the other two are one-time setup.
+
+| The situation | Start at |
+|---|---|
+| A doc/brief for an **already-onboarded** site (`projects/<site>/skills/` exists) | **Step 3** of the loop below. The common case. |
+| A site with an **exported Elementor kit**, not yet onboarded | Step 1 — `scripts/analyze-kit.py` + `skills/elementor-kit-onboarding` |
+| A site with **no kit**: an HTML/CSS prototype, a design repo, or a brand-new build | `design-source/` — `scripts/analyze-prototype.py` + `skills/html-prototype-onboarding` |
+
+**Two origins, one seam.** A site's design system is either *mined from a kit* or
+*read from a prototype*. Both produce `projects/<site>/tokens.json`, and everything
+downstream — `brand.py`, `build.py`, the gate, the preview, the handoff — is
+origin-agnostic. Nothing after the seam knows or cares which path the site took.
+
+```
+kit export  ──> current-theme/  ──> analyze-kit.py ──────┐
+                                                          ├──> tokens.json ──> the loop below
+HTML design ──> design-source/  ──> analyze-prototype.py ─┘
+```
+
+A site stays **one folder** either way: `projects/<site>/` holds its origin, its
+tokens, its skills and its pages together.
 
 ## Folder convention (one per site)
 
 ```
 projects/<site>/
 ├── current-theme/     ← the unzipped Elementor kit export (manifest, site-settings, content/, templates/)  [SITE-WIDE]
+│                     ...or, for a site with no kit:
+├── design-source/     ← the HTML/CSS prototype this site's design system comes from  [SITE-WIDE]
 ├── tokens.json        ← the site's brand tokens (colors/fonts/button/links) — feeds every page build       [SITE-WIDE]
 ├── brand.py           ← the site's component vocabulary over elementor_builder.py (extract before page 3)  [SITE-WIDE]
 ├── KIT-ANALYSIS.md    ← the design-system analysis onboarding produced (why the tokens are what they are)   [SITE-WIDE]
@@ -135,7 +162,8 @@ export URLs → use root-relative links).
 
 | Command | Purpose |
 |---|---|
-| `python3 scripts/analyze-kit.py projects/<site>/current-theme` | **Onboarding.** Mines the kit: palette by real usage, fonts, type scale, button spec, section rhythm, Pro/plugin dependencies, gotchas. Does the counting so the agent does the judging |
+| `python3 scripts/analyze-kit.py projects/<site>/current-theme` | **Onboarding, kit origin.** Mines the kit: palette by real usage, fonts, type scale, button spec, section rhythm, plugin dependencies, gotchas. Does the counting so the agent does the judging |
+| `python3 scripts/analyze-prototype.py projects/<site>/design-source` | **Onboarding, HTML origin.** Same job against a prototype's CSS: colour ramps, semantic roles (resolving `var()`), type scale, spacing, contrast. `--emit-tokens <path>` writes the `tokens.json` skeleton |
 | `python3 projects/<site>/pages/<slug>/build.py` | Build that page from tokens + section assembly (reproducible) |
 | `python3 scripts/validate-page.py <page>.json` | **Required gate.** All import invariants incl. responsive, contrast, dependencies. Exit 0 = ready |
 | `python3 scripts/responsive-audit.py <page>.json` | Responsive-only subset (also run by validate) |
@@ -150,6 +178,9 @@ export URLs → use root-relative links).
 - `scripts/elementor_builder.py` — the reusable builder library. Brand styling is
   passed in (from `tokens.json`); structural + responsive correctness is baked in, so
   a page built entirely through it passes the validator.
+- `design-source/` — the HTML stage: the master prompt for building a prototype from
+  scratch, and how to onboard one. Optional; untouched by kit-origin sites. See
+  `design-source/README.md`.
 - `scripts/site_tokens.py` / `scripts/elementor_meta.py` — importable helpers. The
   first reads ANY site's `tokens.json` through a canonical view (sites name their
   colour roles differently; it normalises on read rather than forcing a migration).

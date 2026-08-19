@@ -14,6 +14,33 @@ they always belonged.
 
 ---
 
+## 0. Two origins, one seam
+
+A site's design system comes from one of two places, and the rest of the system does
+not care which:
+
+```
+kit export  ──> projects/<site>/current-theme/  ──> scripts/analyze-kit.py ───────┐
+                                                                                  ├──> tokens.json
+HTML design ──> projects/<site>/design-source/  ──> scripts/analyze-prototype.py ─┘        │
+                                                                                           ▼
+                                    brand.py → pages/<slug>/build.py → validate → preview → handoff
+```
+
+`tokens.json` is the seam. Everything downstream is origin-agnostic, so the three
+ways of working compose cleanly:
+
+- **WordPress only** — the normal path. Kit in, Elementor pages out. Never open
+  `design-source/`.
+- **HTML only** — build the prototype in `design-source/`, stop there.
+- **HTML then WordPress** — the Lenz pattern: prototype first, onboard it, then build
+  Elementor pages from the same tokens.
+
+And a site stays one folder: `projects/<site>/` holds its origin, tokens, skills and
+pages together.
+
+---
+
 ## 1. The core idea — two layers
 
 Keeping these two layers separate is the whole trick:
@@ -44,8 +71,12 @@ AI-wordpress-system/
 │   ├── content-brief-template.md      <- fill-in brief you hand the agent per page
 │   ├── Example-Kit-Analysis-VitalAir.md <- an example of the kit analysis onboarding produces
 │   └── Publishing-QA-Checklist.md     <- pre-publish QA gate (SEO, links, media, responsive)
+├── design-source/                     <- the HTML stage (optional; only for sites with no kit)
+│   ├── README.md                      <- which path am I on, and how to onboard a prototype
+│   └── prompts/local-service-site.md  <- master prompt: builds a static site from scratch
 ├── skills/                            <- PORTABLE layer (never changes site to site)
 │   ├── elementor-kit-onboarding/      <- analyzes a kit, GENERATES the per-site skills
+│   ├── html-prototype-onboarding/     <- same, for a site with no kit (reads an HTML prototype)
 │   ├── full-output-enforcement/       <- keeps Elementor JSON complete/valid
 │   └── example-site-vitalair/         <- reference example of what onboarding generates
 ├── scripts/                           <- dependency-free Python 3 toolchain (any agent / CI)
@@ -53,6 +84,7 @@ AI-wordpress-system/
 │   ├── site_tokens.py                 <- canonical reader for ANY site's tokens.json
 │   ├── elementor_meta.py              <- what a page needs from the target install
 │   ├── analyze-kit.py                 <- deterministic kit miner (onboarding's counting half)
+│   ├── analyze-prototype.py           <- same, for HTML/CSS prototypes; --emit-tokens writes the seam
 │   ├── validate-page.py               <- REQUIRED pre-import gate (invariants + responsive + contrast + deps)
 │   ├── responsive-audit.py            <- responsive-only subset (also run by validate)
 │   ├── contrast-audit.py              <- WCAG AA contrast (also run by validate)
@@ -66,6 +98,7 @@ AI-wordpress-system/
 ├── projects/                          <- ONE folder per site (the per-site layer)
 │   └── <site>/
 │       ├── current-theme/             <- the exported Elementor kit          [SITE-WIDE]
+│       ├── design-source/             <- ...or the HTML prototype, for kit-less sites [SITE-WIDE]
 │       ├── tokens.json                <- brand tokens that feed every build   [SITE-WIDE]
 │       ├── brand.py                   <- the site's component vocabulary      [SITE-WIDE]
 │       ├── KIT-ANALYSIS.md            <- the design-system analysis (the "why")[SITE-WIDE]

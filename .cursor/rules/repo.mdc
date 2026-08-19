@@ -7,6 +7,25 @@ Read `AGENTS.md` at the repo root — it is the canonical, tool-agnostic operati
 guide (process, folder convention, standards, tooling). `CLAUDE.md` and `GEMINI.md`
 are equivalent stubs pointing to the same file.
 
-Loop: kit → `projects/<site>/current-theme/`, content → `new-content/` → onboard once
-(generate the `<site>-*` skills) before building any page → build to `output/` →
-`python3 scripts/validate-page.py <page>.json` must pass → hand off for import.
+Route the task first. **Most tasks are the third row.**
+
+- Doc/brief for an **already-onboarded** site (`projects/<site>/skills/` exists) →
+  skip straight to building the page. This is the common case.
+- Site with an **exported Elementor kit**, not yet onboarded → `scripts/analyze-kit.py`
+  then `skills/elementor-kit-onboarding`.
+- Site with **no kit** (HTML/CSS prototype, or brand new) → `design-source/`, then
+  `scripts/analyze-prototype.py` and `skills/html-prototype-onboarding`.
+
+Both onboarding paths converge on `projects/<site>/tokens.json`. Everything after
+that is identical and origin-agnostic.
+
+Build a page: source doc into `projects/<site>/pages/<page-slug>/`, author
+`build.py` on the site's `brand.py` (or `scripts/elementor_builder.py`), then
+`python3 scripts/validate-page.py <page>.json` must exit 0, then
+`python3 scripts/make-preview.py <page>.json`. Deliverable is the page JSON plus
+`HANDOFF-notes.md`.
+
+Match the kit; don't redesign it. Build through the generated `<site>-*` skills,
+never from an ad-hoc read of the kit. Emit complete JSON — no elisions. The client's
+install usually is not reachable: verify with the preview or a local throwaway
+WordPress (`scripts/sandbox.sh`), never against their live site.

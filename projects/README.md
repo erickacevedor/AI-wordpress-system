@@ -6,7 +6,9 @@ process. Standard layout per site:
 ```
 projects/<site>/
 ├── current-theme/     ← the unzipped Elementor kit export             [SITE-WIDE]
-├── tokens.json        ← brand tokens (colors/fonts/button/links)      [SITE-WIDE]  → feeds every page build
+├── current-theme/     ← the exported Elementor kit                    [SITE-WIDE]  (kit-origin sites)
+├── design-source/     ← ...or the HTML/CSS prototype                  [SITE-WIDE]  (kit-less sites)
+├── tokens.json        ← brand tokens (colors/fonts/button/links)      [SITE-WIDE]  → THE SEAM: both origins produce it
 ├── brand.py           ← the site's component vocabulary               [SITE-WIDE]  → extract before page 3
 ├── KIT-ANALYSIS.md    ← design-system analysis onboarding produced    [SITE-WIDE]  (the "why")
 ├── skills/            ← generated per-site skills                     [SITE-WIDE]  (<site>-design-read/-ui-design/-content-style/-page-builder/-page-audit)
