@@ -1,89 +1,154 @@
-# VitalAir — Fast Page Creation SOP
+# Page Creation SOP (any site)
 
-A repeatable process for turning a content doc into an on-brand, import-ready
-Elementor page. The goal is a new page in ~10–15 minutes that looks like it always
-belonged in the kit. **VitalAir is the worked example below** — for any other site,
-swap `vitalair-` for your `<site>-` skills; the process is identical.
+The short operator runbook: content doc in, import-ready Elementor page out. Where
+`docs/Elementor-Site-Playbook.md` explains how a site gets *onboarded* (once), this
+explains how a *page* gets built (every time).
 
-> **Prerequisite:** the site's `<site>-*` skills already exist (generated once by
-> `elementor-kit-onboarding` — see README §4 / the Playbook). If they don't, onboard
-> the kit first; don't build a page from an ad-hoc read of the kit.
+Swap `<site>` for the site slug throughout — the process is identical for every site
+in `projects/`.
+
+> **Prerequisite:** the site's `<site>-*` skills already exist, generated once by
+> `elementor-kit-onboarding`. If `projects/<site>/skills/` is empty, onboard the kit
+> first. Never build a page from an ad-hoc read of the kit — that is how a site drifts
+> off its own brand.
 
 ## What powers this
 
-The site's generated per-site skills (in `projects/<site>/skills/`) plus the portable
-`full-output-enforcement` do the work. You mostly talk to the first one; it calls the
-rest:
+The site's generated skills (in `projects/<site>/skills/`) plus the portable
+`full-output-enforcement`. You mostly talk to the first one; it calls the rest.
 
 | Skill | Role in the process |
 |-------|---------------------|
 | `<site>-page-builder` | **Entry point.** Orchestrates the whole pipeline. |
 | `<site>-design-read` | Reads the brief, picks the closest existing page to mirror. |
 | `<site>-content-style` | Writes/edits copy in the site's voice. |
-| `<site>-ui-design` | Applies brand colors, fonts, CTA style, the boxed section layout. |
-| `full-output-enforcement` | Ensures the Elementor JSON comes out complete/valid. |
+| `<site>-ui-design` | Applies the brand colors, fonts, CTA style, boxed section layout. |
+| `full-output-enforcement` | Keeps the emitted Elementor JSON complete and valid. |
 | `<site>-page-audit` | Final brand + hygiene + responsive check before handoff. |
 
 ## The process
 
-### Step 1 — Write the content brief
-Fill in `content-brief-template.md`: page type, location, hero, sections, FAQ,
-CTA. You don't need every field — blanks get inferred from the closest existing
-page. Content quality in = page quality out, so focus on real headings, real
-local details, and real FAQ answers.
+### Step 1 — Put the content in the page folder
+
+```
+mkdir -p projects/<site>/pages/<page-slug>
+```
+
+Drop the source in it as `source.<ext>` — a client `.docx`, a brief, or a pasted
+outline. A filled `content-brief-template.md` is welcome but optional; in practice
+most pages start from whatever the client actually sent.
+
+Content quality in, page quality out. Real headings, real local detail and real FAQ
+answers are worth more than a complete form.
 
 ### Step 2 — Hand it over
-Tell Claude: **"Build a VitalAir page from this brief"** and attach/paste the
-filled template. Claude states a one-line "design read" (e.g. *"a Woodstock
-service-area page mirroring Service-Marietta"*) so you can confirm direction
-before it builds. If something brand-critical is missing (hero headline,
-location, CTA), it asks one quick question instead of guessing.
 
-### Step 3 — Claude builds (automatic)
-The page-builder pipeline runs:
-1. **Design read** — pick page kind + closest existing page/template to clone.
-2. **Map to sections** — navy hero → alternating white/`#EEF2FA` bands →
-   icon-box grids → FAQ accordion → closing CTA.
-3. **Write copy** — local, plain, reassuring; "symptom → reassurance → CTA".
-4. **Style inline** — navy hero, green `#74BC2B` pill CTAs, Poppins, type scale,
-   green uppercase eyebrows, ~1200px text width, header `10` + footer `181`.
-5. **Emit full JSON** — complete tree, unique ids, all keys, no truncation.
-6. **Audit** — brand + Elementor hygiene check; keeps on-brand elements intact.
+Tell the agent: **"Build a `<site>` page from this source."**
 
-The fast route is **clone-and-swap**: copy the closest `content/page/<id>.json`,
-replace the copy, re-point the location, regenerate all element ids, keep the
-styling. Author from scratch only when nothing is close.
+It replies with a one-line **design read** — *"a Woodstock service-area page, sibling
+of Service-Marietta"* — before building anything. Confirm or redirect. This is the
+cheapest correction point in the whole process; a wrong design read caught here costs
+one sentence, caught after the build it costs a rebuild.
 
-### Step 4 — Review the design read + draft
-Skim the returned page. Because it clones an approved page, styling is usually
-right the first time — your review is mostly about **copy and section choice**,
-not pixels.
+If something brand-critical is missing (hero headline, location, CTA target), it asks
+one focused question rather than guessing.
 
-### Step 5 — Import into WordPress/Elementor
-- **Single page:** Elementor → Templates → **Import Template** → select the page JSON.
-- **Whole kit:** WordPress → Elementor → Tools → **Import Kit** → the full export.
-- Set the page slug/SEO, assign header `10` + footer `181` if not inherited, publish.
+### Step 3 — The agent builds
 
-### Step 6 — Final on-page check
-In the Elementor editor confirm: navy hero, alternating section backgrounds,
-green pill CTAs, Poppins rendering, mobile spacing, FAQ toggles work, and all
-links point somewhere real.
+1. **Design read** — page kind + the closest existing page to mirror.
+2. **Extract the source** — `.docx` → `source.txt` (watch for mojibake in curly quotes).
+3. **Map to sections** — the site's own section anatomy and band rhythm.
+4. **Write copy** — in the site's voice, from `<site>-content-style`.
+5. **Style** — brand values from `tokens.json`, via `<site>-ui-design`.
+6. **Emit JSON** — by authoring `pages/<page-slug>/build.py` on
+   `scripts/elementor_builder.py` (and the site's `brand.py` where one exists), so the
+   page is reproducible and the structural + responsive standards are baked in.
+7. **Validate + audit** — the gate below, then `<site>-page-audit`.
+
+Output lands in the page folder: `<page-slug>.json`, `build.py`, `PREVIEW.html`,
+`HANDOFF-notes.md`.
+
+### Step 4 — The gate (not optional)
+
+```
+python3 projects/<site>/pages/<page-slug>/build.py
+python3 scripts/validate-page.py projects/<site>/pages/<page-slug>/<page-slug>.json
+```
+
+Exit 0 or it does not ship. Anything it flags is a blocker — fix it, don't explain it
+away. Warnings (band rhythm, padding discipline, over-long meta) don't fail the gate,
+but each one is a real finding: clear it or make a deliberate call to keep it.
+
+### Step 5 — Review the draft
+
+```
+python3 scripts/make-preview.py projects/<site>/pages/<page-slug>/<page-slug>.json
+```
+
+`PREVIEW.html` is generated **from** the page JSON — including the breakpoints, so
+resizing the window shows the real tablet and mobile layouts. Because it is generated,
+it cannot drift from what ships; if it looks wrong, the page is wrong.
+
+Because the page mirrors an approved one, styling is usually right the first time.
+Your review is mostly **copy and section choice**, not pixels.
+
+For a genuine render — Elementor's own — import into a local throwaway WordPress:
+
+```
+export SANDBOX_WP="/path/to/sandbox/wp"  SANDBOX_URL="http://localhost:10010"
+scripts/sandbox.sh page projects/<site>/pages/<page-slug>/<page-slug>.json
+```
+
+Never verify against the client's live site. It usually is not reachable, and when it
+is, it is not a test environment.
+
+### Step 6 — Import into WordPress
+
+- **Single page:** Elementor → Templates → **Import Templates** → select the JSON → Insert.
+- **Whole kit:** WordPress → Elementor → Tools → **Import Kit**.
+
+Then work the `HANDOFF-notes.md`: set the slug and SEO meta in the SEO plugin
+(Rank Math / Yoast), confirm the header/footer are inherited, swap any placeholder
+images, and wire up live widgets (review sliders, forms, maps).
+
+**State the dependencies in the handoff.** The gate lists what the page needs from the
+target install — addon plugins, shortcodes, custom widgets. Whoever imports it needs to
+know: a missing plugin does not error, it renders an empty gap, and the client is the
+one who finds it. (Elementor Pro is a given on every site we build for, so it is not
+reported.)
+
+### Step 7 — Final on-page check
+
+In the Elementor editor and then on the published URL, confirm: the section rhythm
+reads as intended, the brand font renders, CTAs are the site's button style, mobile
+spacing is comfortable, accordions/forms work, and every link points somewhere real.
+Full list: `docs/Publishing-QA-Checklist.md`.
 
 ## Quality bar (what "done" means)
 
-- Reads in the VitalAir voice with local Atlanta framing.
-- Alternating navy/white/light section rhythm; no two same-bg sections in a row.
-- Green pill CTAs; green uppercase eyebrows above headings; Poppins throughout.
-- Colors set inline (not via Elementor global slots).
-- JSON imports cleanly (valid, unique ids, nothing truncated).
+- Reads in the site's voice, with its local/topic framing.
+- Section backgrounds alternate; no two identical bands adjacent.
+- Brand font, brand button, brand type scale — no invented accent colors.
+- Colors set inline, not via Elementor global slots (kit globals are often fake).
+- `validate-page.py` exits 0 and `<site>-page-audit` passes.
+- Handoff note carries slug + meta title (<60) + meta description (<155).
 
 ## Tips for speed
 
-- **Reuse aggressively.** Naming the closest existing page in the brief is the
-  single biggest time-saver.
-- **Batch service-area pages.** They're near-identical except location + a few
-  lines — give Claude several briefs at once.
-- **Keep a brief per page.** Store filled briefs alongside pages so future edits
-  start from the same source of truth.
-- **Don't ask for redesigns mid-build.** If you want a different look, that's a
+- **Reuse aggressively.** Naming the closest existing page is the single biggest
+  time-saver — mirror its section model and styling values, then change only copy and
+  section mix. Mirror the *design decisions*; don't text-swap the kit's JSON file
+  (kit pages predate the responsive standards and their ids collide on import).
+- **Extract `brand.py` before page three.** Once a site has a component vocabulary
+  reading from `tokens.json`, each new page is copy + section order. See the playbook's
+  "three build tiers"; `projects/gcreliable/brand.py` is the worked example.
+- **Batch near-identical pages.** Service-area pages differ by location and a few
+  lines — hand over several sources at once.
+- **Keep the source in the page folder.** Future edits start from the same source of
+  truth instead of from the built JSON.
+- **Don't ask for a redesign mid-build.** If you want a different look, that's a
   separate, off-brand task — the builder's job is kit consistency.
+- **Replacing an existing page?** Generate the change summary rather than writing it:
+  `python3 scripts/page-diff.py <new>.json --find`, then `--kit-page <id> --markdown`,
+  and paste the result into the handoff. Clients approving a redesign they cannot
+  preview need to see exactly what they are losing.

@@ -50,13 +50,24 @@ AI-wordpress-system/
 │   └── example-site-vitalair/         <- reference example of what onboarding generates
 ├── scripts/                           <- dependency-free Python 3 toolchain (any agent / CI)
 │   ├── elementor_builder.py           <- reusable builder library (structure + responsive baked in)
-│   ├── validate-page.py               <- REQUIRED pre-import gate (all invariants incl. responsive)
+│   ├── site_tokens.py                 <- canonical reader for ANY site's tokens.json
+│   ├── elementor_meta.py              <- what a page needs from the target install
+│   ├── analyze-kit.py                 <- deterministic kit miner (onboarding's counting half)
+│   ├── validate-page.py               <- REQUIRED pre-import gate (invariants + responsive + contrast + deps)
 │   ├── responsive-audit.py            <- responsive-only subset (also run by validate)
+│   ├── contrast-audit.py              <- WCAG AA contrast (also run by validate)
+│   ├── make-preview.py                <- PREVIEW.html generated FROM the page JSON
+│   ├── page-diff.py                   <- "what changed vs. the live page", for redesigns
+│   ├── verify-render.py               <- does the render match what the JSON promised?
+│   ├── import-page.php · import-template.php  <- headless import (for the local sandbox)
+│   ├── sandbox.sh                     <- drive a throwaway WP install to see the real render
+│   ├── test-validate-page.py          <- regression tests for the gate itself
 │   └── repackage-skills.sh            <- re-zip the portable skills after editing them
 ├── projects/                          <- ONE folder per site (the per-site layer)
 │   └── <site>/
 │       ├── current-theme/             <- the exported Elementor kit          [SITE-WIDE]
 │       ├── tokens.json                <- brand tokens that feed every build   [SITE-WIDE]
+│       ├── brand.py                   <- the site's component vocabulary      [SITE-WIDE]
 │       ├── KIT-ANALYSIS.md            <- the design-system analysis (the "why")[SITE-WIDE]
 │       ├── skills/                    <- GENERATED per-site skills            [SITE-WIDE]
 │       └── pages/<page-slug>/         <- one self-contained folder PER PAGE:
@@ -161,12 +172,36 @@ python3 scripts/validate-page.py projects/<site>/pages/<page-slug>/<page-slug>.j
 
 `validate-page.py` runs every import invariant in one command: valid JSON, single-page
 wrapper, unique ids, exactly one H1, no visibility gates, no dead/`localhost` links,
-plus the full responsive check. Exit 0 = import-ready.
+the section-structure standard (full-width band → one boxed container, never nested),
+alt text on every image, plus the full responsive check. Exit 0 = import-ready.
 
-**Fastest content route: clone-and-swap.** When authoring copy/structure, prefer
-adapting the closest existing page in `current-theme/content/page/` over inventing
-structure — replace text, re-point location/topic, keep the on-brand styling — then
-rebuild it clean to the standards below.
+It also emits **warnings**, which report real problems without failing the gate:
+adjacent sections sharing a background, padding on a nested layout row, and an
+over-long meta title/description in the page's `HANDOFF-notes.md`. They encode design
+and SEO convention rather than import invariants, so clearing them is a judgement
+call — but each one is a genuine finding, not noise.
+
+### The three build tiers
+
+| Tier | File | Holds | Changes |
+|---|---|---|---|
+| Values | `projects/<site>/tokens.json` | colors, fonts, type scale, button spec, links | per site |
+| Vocabulary | `projects/<site>/brand.py` | the site's components — hero, card, check list, FAQ, CTA band | per site |
+| Invariants | `scripts/elementor_builder.py` | section structure + responsive correctness | never |
+
+`brand.py` is what makes a site's *second* page cheap: it reads `tokens.json` (so no
+brand constant is typed twice) and exposes the components mined from the kit's
+reference page, leaving each `build.py` to supply only copy and section order.
+`projects/gcreliable/brand.py` is the worked example. Skip it on a one-page site;
+extract it before the third page, and certainly before a run of near-identical
+service pages.
+
+**Fastest content route: mirror the closest page.** Reuse the closest existing page's
+*section model and styling values* — name it in the design read, then rebuild it
+cleanly through `build.py`, changing only copy and section mix. Do **not** text-swap
+the kit's own `content/page/<id>.json`: those pages predate the responsive standards
+(no `*_mobile` keys) and their element ids collide on import, so the gate rejects
+them. Mirror the design decisions; generate the structure.
 
 ---
 
@@ -275,18 +310,90 @@ Dependency-free Python 3, so any agent or CI can run it.
 
 | Command | Purpose |
 |---|---|
+| `python3 scripts/analyze-kit.py projects/<site>/current-theme` | **Onboarding.** Mines the kit: palette by real usage, fonts, type scale, button spec, section rhythm, Pro/plugin dependencies, gotchas. Does the counting so the agent does the judging |
 | `python3 projects/<site>/pages/<slug>/build.py` | Build that page from tokens + section assembly (reproducible) |
-| `python3 scripts/validate-page.py <page>.json` | **Required gate.** All import invariants incl. responsive. Exit 0 = ready |
+| `python3 scripts/validate-page.py <page>.json` | **Required gate.** All import invariants incl. responsive, contrast, dependencies. Exit 0 = ready |
 | `python3 scripts/responsive-audit.py <page>.json` | Responsive-only subset (also run by validate) |
+| `python3 scripts/contrast-audit.py <page>.json` | WCAG AA contrast only (also run by validate) |
+| `python3 scripts/make-preview.py <page>.json [--css site.css]` | Generate `PREVIEW.html` **from** the page JSON, breakpoints included, so it cannot drift |
+| `python3 scripts/page-diff.py <new>.json --kit-page <id>` | **Redesigns.** "What changed vs. the live page", ready for the handoff (`--find` to locate the live page) |
+| `python3 scripts/verify-render.py <page>.json <url>` | Compare a rendered page against what the JSON promised |
+| `scripts/sandbox.sh check\|import\|verify\|page` | Drive a local throwaway WordPress to see the real Elementor render before handoff |
+| `python3 scripts/test-validate-page.py` | Regression tests for the gate — run after touching the validator |
 | `scripts/repackage-skills.sh` | Re-zip the portable skills into `skills-zipped/` after editing them |
 
 `scripts/elementor_builder.py` is the reusable builder library — brand styling is
 passed in (from `tokens.json`); structural + responsive correctness is baked in, so a
-page built entirely through it passes the validator.
+page built entirely through it passes the validator. A site's `brand.py` sits between
+the two: site components built from the library, valued from the tokens.
+
+The gate has its own tests because a gate nobody tests silently stops gating —
+`test-validate-page.py` mutates a known-good page so each check *must* fire, and
+asserts the deliberate non-firing cases stay quiet.
 
 ---
 
-## 10. Set up your agent
+## 10. Seeing the page before you ship it
+
+The target site usually **cannot be reached from here.** The deliverable is a JSON
+file plus its handoff note; somebody else imports it, on a host we may never touch,
+once. That single constraint shapes the whole back half of this system: everything
+has to be verified *before* handoff, because there is no feedback afterwards.
+
+Three levels, cheapest first:
+
+**1. The gate.** `validate-page.py` proves the file is structurally sound and reports
+what it cannot fix for you — contrast below AA, addon plugins and shortcodes the target
+must have, links to pages that do not exist. (Elementor Pro is assumed everywhere, so
+Pro widgets are never flagged.)
+
+**2. The preview.** `make-preview.py` renders the page JSON to a standalone HTML file,
+including real media queries, so the mobile and tablet layouts are inspectable by
+resizing the window. It is generated *from* the page, so it cannot disagree with what
+ships. Pass `--css` to inline a site stylesheet when the design leans on CSS classes.
+
+```
+python3 scripts/make-preview.py projects/<site>/pages/<slug>/<slug>.json
+```
+
+**3. The sandbox.** The only ground truth is Elementor itself. Keep one throwaway
+WordPress + Elementor install locally, import into *that*, and compare the render
+against the JSON:
+
+```
+export SANDBOX_WP="/path/to/wp"  SANDBOX_URL="http://localhost:10010"
+scripts/sandbox.sh check
+scripts/sandbox.sh page projects/<site>/pages/<slug>/<slug>.json
+```
+
+`sandbox.sh page` validates, imports (idempotently, matched by slug), refetches the
+URL and checks that every heading, CTA and image the JSON promised is actually in the
+rendered HTML — plus the container count, which is how you catch a payload that
+imported "successfully" and rendered nothing.
+
+**Never point this at the client's site to "try it".** The sandbox exists so the
+client's install only ever sees a file that has already been proven.
+
+---
+
+## 11. Redesigning an existing page
+
+Same loop, one extra step: the client already has a page, cannot preview the
+replacement, and needs to know what they are losing before they approve it.
+
+```
+python3 scripts/page-diff.py <new>.json --find          # find the live page in the kit
+python3 scripts/page-diff.py <new>.json --kit-page 225062 --markdown
+```
+
+That emits a "What changed vs. the live page" block — headings added, dropped and
+kept, CTA changes and re-targets, image and word counts, band sequence before/after —
+to paste into `HANDOFF-notes.md`. It compares *content*, not markup, because a rebuilt
+page shares no element ids or container structure with the original.
+
+---
+
+## 12. Set up your agent
 
 - **Claude Code / Codex / Gemini CLI / Cursor:** clone the repo and open it. The agent
   auto-loads its config file (`CLAUDE.md` / `AGENTS.md` / `GEMINI.md` /

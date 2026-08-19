@@ -25,6 +25,7 @@ new pages that import cleanly and look like they always belonged.
 projects/<site>/
 ├── current-theme/     ← the unzipped Elementor kit export (manifest, site-settings, content/, templates/)  [SITE-WIDE]
 ├── tokens.json        ← the site's brand tokens (colors/fonts/button/links) — feeds every page build       [SITE-WIDE]
+├── brand.py           ← the site's component vocabulary over elementor_builder.py (extract before page 3)  [SITE-WIDE]
 ├── KIT-ANALYSIS.md    ← the design-system analysis onboarding produced (why the tokens are what they are)   [SITE-WIDE]
 ├── skills/            ← GENERATED per-site skills: <site>-{design-read,ui-design,content-style,page-builder,page-audit}/  [SITE-WIDE]
 └── pages/             ← one self-contained folder PER PAGE
@@ -63,14 +64,25 @@ of nesting depth.
    live site before proceeding.
 3. **Build a page.** Create `projects/<site>/pages/<page-slug>/`, put the source doc
    there (`source.<ext>`), and run the site's `<site>-page-builder` pipeline
-   (design-read → map sections → write copy → style → emit JSON) — ideally by
-   authoring `pages/<page-slug>/build.py` on top of `scripts/elementor_builder.py`
-   (reading `../../tokens.json`) so the page is reproducible. Write the page +
-   `PREVIEW.html` + `HANDOFF-notes.md` into that same page folder.
+   (design-read → extract source → map sections → write copy → style → emit JSON) by
+   authoring `pages/<page-slug>/build.py` on the site's `brand.py` — or directly on
+   `scripts/elementor_builder.py` if the site has none yet — reading `../../tokens.json`
+   so the page is reproducible. Write the page + `PREVIEW.html` + `HANDOFF-notes.md`
+   into that same page folder.
 4. **Validate (required gate).** `python3 scripts/validate-page.py <page>.json` must
    exit 0. Then run `<site>-page-audit` for brand/voice.
-5. **Hand off.** Tell the user the import path (Elementor → Templates → Import
+5. **Preview + verify before handing off.** The target site usually **cannot be
+   reached from here** — the deliverable is the JSON plus its handoff note, and
+   somebody else imports it, once, with no second try. So confirm it here first:
+   `python3 scripts/make-preview.py <page>.json` for a review render straight from the
+   JSON (breakpoints included), and — when it matters — import into a local throwaway
+   WordPress with `scripts/sandbox.sh page <page>.json` to see what Elementor actually
+   does with it. Never verify against the client's live site.
+6. **Hand off.** Tell the user the import path (Elementor → Templates → Import
    Templates) and the post-import wiring (SEO meta/slug, header/footer, image swaps).
+   List the dependencies the gate reported — addon plugins, shortcodes, custom widgets
+   — because a missing plugin renders as an empty gap that the client finds first.
+   (Elementor Pro is assumed on every target and is not reported.)
 
 Already onboarded (`dolan`, `magnolia`, `petitt`, `gcreliable`)? Skip to step 3 — reuse `projects/<site>/skills/`.
 
@@ -91,7 +103,16 @@ Already onboarded (`dolan`, `magnolia`, `petitt`, `gcreliable`)? Skip to step 3 
    containers have `padding_mobile`; fixed-height images have `height_mobile`.
 5. **Import hygiene:** single-page wrapper `{version,title,type:"page",content,page_settings}`;
    unique element ids; exactly one H1; complete/valid JSON (no truncation); no
-   `display_condition_list` gates; no dead (`#`/empty) or `localhost` links.
+   `display_condition_list` gates; no dead (`#`/empty) or `localhost` links; alt text
+   on every image.
+
+The validator **blocks** on all of the above. It **warns** on findings that are real
+but are not import failures: two adjacent sections sharing a background; padding on a
+nested layout row/column/grid; an over-long meta title (≥60) or description (≥155) in
+the page's `HANDOFF-notes.md`; text/background pairs below WCAG AA; widgets that need
+an addon plugin or a shortcode on the target install (Elementor Pro is assumed present
+and never flagged); and internal links pointing at pages the kit does not have. Clearing a warning is a judgement call
+— but each one is a genuine finding, not noise.
 
 The design read, palette-is-real-or-fake call, button-hover convention, and section
 rhythm are **per site** — read them from `projects/<site>/skills/<site>-ui-design`
@@ -114,14 +135,33 @@ export URLs → use root-relative links).
 
 | Command | Purpose |
 |---|---|
+| `python3 scripts/analyze-kit.py projects/<site>/current-theme` | **Onboarding.** Mines the kit: palette by real usage, fonts, type scale, button spec, section rhythm, Pro/plugin dependencies, gotchas. Does the counting so the agent does the judging |
 | `python3 projects/<site>/pages/<slug>/build.py` | Build that page from tokens + section assembly (reproducible) |
-| `python3 scripts/validate-page.py <page>.json` | **Required gate.** All import invariants incl. responsive. Exit 0 = ready |
+| `python3 scripts/validate-page.py <page>.json` | **Required gate.** All import invariants incl. responsive, contrast, dependencies. Exit 0 = ready |
 | `python3 scripts/responsive-audit.py <page>.json` | Responsive-only subset (also run by validate) |
+| `python3 scripts/contrast-audit.py <page>.json` | WCAG AA contrast only (also run by validate) |
+| `python3 scripts/make-preview.py <page>.json [--css site.css]` | Generate `PREVIEW.html` **from** the page JSON, breakpoints included, so it cannot drift |
+| `python3 scripts/page-diff.py <new>.json --kit-page <id>` | **Redesigns.** "What changed vs. the live page", ready for the handoff (`--find` to locate the live page) |
+| `python3 scripts/verify-render.py <page>.json <url>` | Compare a rendered page against what the JSON promised |
+| `scripts/sandbox.sh check\|import\|verify\|page` | Drive a local throwaway WordPress to see the real Elementor render before handoff |
+| `python3 scripts/test-validate-page.py` | Regression tests for the gate — run after touching the validator |
 | `scripts/repackage-skills.sh` | Re-zip the portable skills into `skills-zipped/` after editing them |
 
 - `scripts/elementor_builder.py` — the reusable builder library. Brand styling is
   passed in (from `tokens.json`); structural + responsive correctness is baked in, so
   a page built entirely through it passes the validator.
+- `scripts/site_tokens.py` / `scripts/elementor_meta.py` — importable helpers. The
+  first reads ANY site's `tokens.json` through a canonical view (sites name their
+  colour roles differently; it normalises on read rather than forcing a migration).
+  The second answers what a page needs from the target install vs. what the kit's
+  manifest says it has.
+- `projects/<site>/brand.py` — the middle tier: that site's components (hero, card,
+  check list, FAQ, CTA band) built on the library and valued from `tokens.json`, so a
+  page's `build.py` supplies only copy + section order. Extract it before the third
+  page of a site; `projects/gcreliable/brand.py` is the worked example.
+- Reuse the closest existing page's **section model and styling values**, but never by
+  text-swapping the kit's `content/page/<id>.json` — those pages predate the responsive
+  standards and their ids collide on import. Mirror the decisions, generate the structure.
 - Extracting content from a `.docx`: `textutil -convert txt` (macOS) or unzip
   `word/document.xml` and strip tags.
 

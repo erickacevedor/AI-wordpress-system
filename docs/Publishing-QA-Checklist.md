@@ -3,32 +3,42 @@
 Run this before any AI-built page or post goes live. It's the final gate that takes
 content from AI draft to published, consistent, and clean. Works for every site.
 
+> **Run the machine half first:** `python3 scripts/validate-page.py <page>.json`.
+> It already enforces the structural, responsive, link, alt-text and id items below,
+> and warns on band rhythm, padding discipline and over-long meta. Items it cannot
+> reach — does the copy read right, is the live widget wired up, do the links point at
+> the pages you meant — are the ones that need your eyes. Items marked 🤖 are checked
+> for you; the rest are yours.
+
 ## 1. Brand & structure
-- [ ] Every section is **Section -> Content Container -> content** (padding only on
+- [ ] 🤖 Every section is **Section -> Content Container -> content** (padding only on
       the Content Container; children have none).
-- [ ] Section backgrounds alternate correctly (no two identical in a row).
+- [ ] 🤖 Section backgrounds alternate correctly (no two identical in a row) *(warning)*.
 - [ ] Correct brand font throughout (no leftover theme default like Noto Sans Coptic).
+- [ ] 🤖 Text is readable on its background (WCAG AA) *(warning — a brand's own palette
+      can fail, which is a decision to make, not a build bug)*.
 - [ ] CTAs use the brand button style; hover changes color only (no size/shape animation).
 - [ ] Colors set inline, not via Elementor global slots.
 
 ## 2. SEO elements
-- [ ] Exactly **one H1** (the hero headline); headings follow H1 -> H2 -> H3 with no skipped levels.
-- [ ] **Meta title** set, under ~60 characters.
-- [ ] **Meta description** set, under ~155 characters.
+- [ ] 🤖 Exactly **one H1** (the hero headline); headings follow H1 -> H2 -> H3 with no skipped levels.
+- [ ] 🤖 **Meta title** set, under ~60 characters *(length-checked in `HANDOFF-notes.md`)*.
+- [ ] 🤖 **Meta description** set, under ~155 characters *(length-checked in `HANDOFF-notes.md`)*.
 - [ ] **URL slug** lowercase, hyphenated, concise.
 - [ ] Target keyword appears naturally in the H1 and intro paragraph.
 - [ ] SEO meta entered in the site's SEO plugin (Rank Math / Yoast) at the WP page level.
 
 ## 3. Internal linking
 - [ ] Required internal links present, with descriptive anchor text (not "click here").
-- [ ] No dead links (`#` or empty); CTAs point to real destinations.
+- [ ] 🤖 No dead links (`#` or empty); CTAs point to real destinations.
 - [ ] External links behave as intended.
 
 ## 4. Images & media
-- [ ] Every image has descriptive **alt text**.
+- [ ] 🤖 Every image has **alt text** — that it is *descriptive* is still your call.
 - [ ] Hero/feature images placed (two-column or background with overlay for legibility).
-- [ ] Live/dynamic widgets (review sliders, forms, advanced maps) wired up — the
-      import placeholders replaced with the real widgets/shortcodes.
+- [ ] 🤖 Live/dynamic widgets (review sliders, forms, advanced maps) wired up — the
+      import placeholders replaced with the real widgets/shortcodes. *(The gate lists
+      what the target install must provide; put that list in the handoff.)*
 - [ ] Featured image set (especially for posts).
 
 ## 5. Responsive & functional

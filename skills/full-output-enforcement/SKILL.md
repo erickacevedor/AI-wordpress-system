@@ -19,7 +19,7 @@ Treat every task as production-critical. A partial output is a broken output. Op
 Elementor page and template exports are large, deeply nested JSON trees. They are especially unforgiving of truncation — an incomplete file simply fails to import. When producing or editing them:
 
 - Emit the **entire** JSON tree. Never stub sections with `"... rest of widgets ..."`, `// same as above`, or a comment describing what should be there.
-- Every element needs a unique `id` and a complete `settings` object (with inline colors/typography, per the VitalAir UI design system).
+- Every element needs a unique `id` and a complete `settings` object, with colors and typography set inline (kit globals are often still theme defaults) per the site's own `<site>-ui-design` skill.
 - Preserve required keys at every level: `elType`, `widgetType` (for widgets), `elements`, `settings`.
 - Do not collapse repeated widgets (e.g. three icon-boxes) into one example plus a note — write all of them out in full.
 - Keep the JSON valid: matched braces/brackets, correct commas, proper escaping of quotes and HTML inside `editor` fields.

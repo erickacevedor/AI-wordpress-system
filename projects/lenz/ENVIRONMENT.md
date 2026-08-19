@@ -84,12 +84,26 @@ Local's bundled PHP:
 
 ```bash
 PHP="/c/Users/erick/AppData/Roaming/Local/lightning-services/php-8.2.29+0/bin/win64/php.exe"
-curl -sL -o /tmp/wp-cli.phar https://raw.githubusercontent.com/wp-cli/wp-cli/v2.11.0/phar/wp-cli.phar
+curl -sL -o /tmp/wp-cli.phar \
+  https://github.com/wp-cli/wp-cli/releases/download/v2.11.0/wp-cli-2.11.0.phar
 "$PHP" /tmp/wp-cli.phar --path="/c/Users/erick/Local Sites/lenz-2026/app/public" option get siteurl
 ```
 
+> **Corrected 2026-08-18.** This previously pointed at
+> `raw.githubusercontent.com/wp-cli/wp-cli/v2.11.0/phar/wp-cli.phar`, which **404s**.
+> The phar is a release asset, not a file in the repo. Worse, `curl -sL -o` happily
+> writes the 14-byte "404: Not Found" body to the target, so the failure surfaces
+> later as an incomprehensible wp-cli error. `scripts/sandbox.sh` now fetches the
+> release asset and size-checks the download.
+
 Pin the version rather than fetching `wp-cli.phar` from `latest` so a build is
 reproducible. `--path` is required; without it WP-CLI cannot find the install.
+
+`scripts/sandbox.sh` automates all of this (it finds Local's bundled php by itself);
+this section remains as the manual recipe. Lenz keeps its own `tools/*.php` copies —
+the promoted `scripts/import-page.php` differs deliberately in reading the page
+template from the document instead of forcing `elementor_header_footer`, so migrate
+Lenz to it only alongside a re-import and a check.
 
 ---
 
