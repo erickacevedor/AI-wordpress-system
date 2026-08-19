@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lenz Heating &amp; Cooling — Home (v4) (Preview)</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif;line-height:1.55;color:#1a1a1a}
+img{max-width:100%}
+a{color:inherit}
+.acc details{border-bottom:1px solid rgba(0,0,0,.12)}
+.acc summary{cursor:pointer;padding:14px 0;font-weight:600;list-style:revert}
+.acc .acc-body{padding:0 0 14px}
+.ph{border:2px dashed #b9c2cf;border-radius:10px;padding:22px;text-align:center;
+    background:repeating-linear-gradient(45deg,#f7f9fc,#f7f9fc 10px,#eef2f7 10px,#eef2f7 20px);
+    color:#5a6676;font-size:14px}
+.ph strong{color:#31405a;font-size:15px}
+.ph-icon{font-size:28px;line-height:1;opacity:.55}
+.pv-bar{position:sticky;top:0;z-index:99;background:#101828;color:#fff;padding:9px 14px;
+        font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;display:flex;
+        gap:16px;flex-wrap:wrap;align-items:center}
+.pv-bar b{color:#7dd3fc;font-weight:600}
+.pv-bar .warn{color:#fbbf24}
+/* ============================================================================
+   lenz-core.css — the design layer for Lenz Heating & Cooling (v4)
+
+   WHAT BELONGS IN HERE, AND WHAT DOES NOT
+   ---------------------------------------
+   Elementor owns everything a client legitimately edits: text, images, links,
+   button labels and destinations, section order, padding, show/hide, and colours
+   drawn from Global Colors.
+
+   This file owns what Elementor CANNOT express, plus what must stay consistent for
+   the design system to survive contact with an editor:
+     - background-clip:text            (no Elementor control exists)
+     - stacked / multi-stop / arbitrarily-sized radial gradients
+     - mask-image
+     - pseudo-element overlays and sheens
+     - the contrast allow-list, focus rings, reduced-motion behaviour
+
+   Two-stop gradients are NOT here — those are emitted as real Elementor gradient
+   backgrounds so they stay editable and can point at Global Colors. See
+   KIT-ANALYSIS.md for the full 7-native / 6-CSS split.
+
+   THE WRAPPER CAVEAT
+   ------------------
+   Elementor's CSS Classes field puts the class on the element WRAPPER. For a
+   container that is the container itself, so `.lead-card {...}` works. For a widget
+   it is `.elementor-widget-*`, NOT the markup inside — so a button needs
+   `.btn-gold .elementor-button {...}`, never `.btn-gold {...}`.
+
+   SPECIFICITY
+   -----------
+   We do not use !important. The rule is simpler: never set a property in a widget
+   that this file also owns, so Elementor never emits a competing per-element rule.
+   ============================================================================ */
+
+/* ---------------------------------------------------------------- Tokens ---- */
+/* Verbatim from the source project's tokens.css. Colour values are the AUDITED set
+   with the four contrast corrections already baked in — do not "tidy" them. */
+:root {
+  /* Brand Blue */
+  --blue-50:#F1F4FD; --blue-100:#DFE4FB; --blue-200:#BBC6F6; --blue-300:#8095EF;
+  --blue-400:#4160E7;  /*  5.18:1 on white  AA */
+  --blue-500:#1A3BCC;  /*  8.26:1 on white  AA  <- brand base */
+  --blue-600:#1837BE;  /*  9.02:1 on white  AA  <- CTA background */
+  --blue-700:#122A91;  /* 11.89:1 on white  AA */
+  --blue-800:#0D1D64;  /* 15.25:1 on white  AA */
+  --blue-900:#07113B;  /* 18.22:1 on white  AA  <- Deep Navy */
+
+  /* Heat Orange */
+  --orange-50:#FEF4F1; --orange-100:#FDE5DE; --orange-200:#FAC8B7; --orange-300:#F6997A;
+  --orange-400:#F16537; /* 3.15:1 — LARGE TEXT / UI ONLY */
+  --orange-500:#F05A28; /* 3.39:1 — LARGE TEXT / GRADIENTS ONLY <- brand base */
+  --orange-600:#C83D0E; /* 5.09:1 — AA for body text */
+  --orange-700:#992E0B; --orange-800:#692007; --orange-900:#3E1304;
+
+  /* Flame Gold — inherently light; NEVER carries white text */
+  --gold-50:#FFFCF0;   /* <- the cream page surface */
+  --gold-100:#FFF7DB; --gold-200:#FFEEB2; --gold-300:#FFDF70; --gold-400:#FFCF29;
+  --gold-500:#FFC600;  /* 11.89:1 against #121212 <- brand base */
+  --gold-600:#D6A600; --gold-700:#A37F00; --gold-800:#705700; --gold-900:#423300;
+
+  /* Cool Purple */
+  --purple-50:#FAF3FB; --purple-100:#F3E4F6; --purple-200:#E6C5EC; --purple-300:#D093DC;
+  --purple-400:#B85DCB; --purple-500:#7B2D8B; --purple-600:#8F34A2;
+  --purple-700:#6D287B; --purple-800:#4B1B55; --purple-900:#2C1032;
+
+  /* Neutrals */
+  --neutral-0:#FFFFFF;   --neutral-50:#F8F8F8;  --neutral-100:#F0F0F0;
+  --neutral-200:#E0E0E0; --neutral-300:#BDBDBD; --neutral-400:#9E9E9E;
+  --neutral-500:#757575; --neutral-600:#616161; --neutral-700:#424242;
+  --neutral-800:#212121; --neutral-900:#121212;
+
+  /* Gradients — the two-stop ones are emitted natively by Elementor and appear here
+     only for the CSS-owned surfaces that reference them (clipped text, stripes). */
+  --gradient-warm:        linear-gradient(135deg, #FFC600 0%, #F05A28 100%);
+  --gradient-temperature: linear-gradient(135deg, #F05A28 0%, #7B2D8B 100%);
+  --gradient-cool:        linear-gradient(135deg, #1A3BCC 0%, #07113B 100%);
+  /* Uses the -600 stops deliberately so clipped text still passes AA under 18px. */
+  --gradient-heading:     linear-gradient(96deg, var(--orange-600) 0%, var(--purple-600) 100%);
+
+  /* Semantic roles */
+  --color-text-primary:var(--neutral-900);
+  --color-text-secondary:var(--neutral-600);
+  --color-border:var(--neutral-200);
+  --color-border-strong:var(--neutral-300);
+  --color-accent:#D6410F;                     /* CORRECTED — 4.54:1 on white */
+  --color-accent-display:var(--orange-500);   /* large display type + gradients only */
+  --color-dark-bg:var(--blue-900); --color-dark-bg-raised:#0D1A4E;
+  --color-dark-border:#1B2A6B;
+  --color-star:#F59E0B; --color-star-edge:var(--gold-700);
+  --color-error:#B3261E; --color-success:#1B6E3C;
+
+  /* Typography */
+  --font-heading:'Montserrat', system-ui, sans-serif;
+  --font-body:'Open Sans', system-ui, sans-serif;
+  --text-2xs:10px;  --text-xs:13px;  --text-sm:16px;  --text-md:20px;
+  --text-lg:25px;   --text-xl:31px;  --text-2xl:39px; --text-3xl:49px;  --text-4xl:61px;
+  --font-regular:400; --font-medium:500; --font-semibold:600;
+  --font-bold:700;    --font-extrabold:800;
+
+  /* Spacing */
+  --space-1:4px;  --space-2:8px;   --space-3:12px;  --space-4:16px;
+  --space-5:20px; --space-6:24px;  --space-8:32px;  --space-10:40px;
+  --space-12:48px; --space-16:64px; --space-20:80px; --space-24:96px;
+
+  /* Radii */
+  --radius-xs:4px; --radius-sm:8px; --radius-md:12px; --radius-lg:18px;
+  --radius-xl:28px; --radius-pill:999px;
+
+  /* Elevation — navy-tinted, never neutral black */
+  --shadow-1:0 1px 2px rgba(7,17,59,0.08), 0 1px 3px rgba(7,17,59,0.10);
+  --shadow-2:0 4px 10px rgba(7,17,59,0.10), 0 2px 4px rgba(7,17,59,0.08);
+  --shadow-3:0 12px 28px rgba(7,17,59,0.16), 0 6px 12px rgba(7,17,59,0.10);
+  --shadow-4:0 28px 60px rgba(7,17,59,0.28), 0 12px 24px rgba(7,17,59,0.18);
+
+  /* Motion */
+  --transition-fast:150ms ease;
+  --transition-base:200ms ease;
+  --transition-slow:300ms cubic-bezier(0.22,1,0.36,1);
+
+  /* Focus */
+  --focus-ring:0 0 0 3px var(--gold-500), 0 0 0 5px var(--blue-900);
+  --focus-ring-dark:0 0 0 3px var(--gold-500), 0 0 0 5px #FFFFFF;
+}
+
+/* ------------------------------------------------------------ Foundations -- */
+.lenz-sr-only {
+  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+  overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+}
+
+/* Two-ring focus. Hello Elementor ships a thin default that vanishes on navy. */
+body :focus-visible { outline:none; box-shadow:var(--focus-ring); border-radius:var(--radius-xs); }
+.lenz-on-dark :focus-visible { box-shadow:var(--focus-ring-dark); }
+
+.lenz-icon    { width:24px; height:24px; flex:none; }
+.lenz-icon-sm { width:20px; height:20px; flex:none; }
+.lenz-icon-xs { width:16px; height:16px; flex:none; }
+
+/* ============================================================================
+   CSS-ONLY RULE 1 — gradient-clipped text
+   Five usages, two gradients. Elementor has no background-clip control, so every
+   one of these is owned here. The class goes on the heading/text WRAPPER, so we
+   reach the inner element explicitly.
+   ============================================================================ */
+.lenz-gradient-text .elementor-heading-title,
+.lenz-gradient-text .elementor-widget-container > *,
+.lenz-gradient-text {
+  background:var(--gradient-heading);
+  -webkit-background-clip:text; background-clip:text;
+  color:transparent;
+}
+.lenz-gradient-text-warm .elementor-heading-title,
+.lenz-gradient-text-warm {
+  background:var(--gradient-temperature);
+  -webkit-background-clip:text; background-clip:text;
+  color:transparent;
+}
+
+/* The hero H1 carries an inline <span class="lenz-accent"> for the highlighted
+   phrase. Elementor's heading field accepts inline HTML, so the span survives the
+   move from static markup intact. */
+.lenz-accent {
+  background:var(--gradient-temperature);
+  -webkit-background-clip:text; background-clip:text;
+  color:transparent;
+}
+
+/* Large display numerals — value props "01..04" and the about-stat figures. */
+.lenz-stat-num .elementor-heading-title,
+.lenz-stat-num {
+  font-family:var(--font-heading); font-weight:var(--font-extrabold);
+  line-height:1;
+  background:var(--gradient-heading);
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+}
+
+/* ============================================================================
+   CSS-ONLY RULE 2 — hero atmosphere
+   Two stacked radial gradients with percentage sizing AND positioning
+   (120% 90% at 88% 8%). Elementor gives one background plus one overlay, neither
+   of which can express this, so the whole effect is owned here and the section's
+   own background stays a flat navy that Elementor still controls.
+   ============================================================================ */
+.lenz-hero { position:relative; overflow:hidden; }
+.lenz-hero::before {
+  content:""; position:absolute; inset:0; pointer-events:none; z-index:0;
+  background:
+    radial-gradient(120% 90% at 88% 8%, rgba(240,90,40,0.34) 0%, rgba(123,45,139,0.10) 42%, transparent 68%),
+    radial-gradient(90% 80% at 6% 100%, rgba(26,59,204,0.40) 0%, transparent 60%);
+}
+/* Keep content above the atmosphere layer. */
+.lenz-hero > .e-con-inner,
+.lenz-hero > .e-child { position:relative; z-index:1; }
+
+/* ============================================================================
+   CSS-ONLY RULE 3 — lead-card sheen
+   Radial highlight at 120% 100% at 100% 0%. The card's gradient itself is a REAL
+   Elementor gradient background; only this overlay lives here.
+   ============================================================================ */
+.lenz-lead-card { position:relative; overflow:hidden; }
+.lenz-lead-card::after {
+  content:""; position:absolute; inset:0; pointer-events:none;
+  background:radial-gradient(120% 100% at 100% 0%, rgba(255,255,255,0.18), transparent 55%);
+}
+.lenz-lead-card > * { position:relative; z-index:1; }
+
+@media (prefers-reduced-motion: no-preference){
+  .lenz-lead-card { transition:transform var(--transition-slow), box-shadow var(--transition-slow); }
+  .lenz-lead-card:hover { transform:translateY(-3px); box-shadow:var(--shadow-4); }
+}
+
+/* ============================================================================
+   CSS-ONLY RULE 4 — CTA band wash
+   Three rgba stops; Elementor's gradient control takes exactly two.
+   ============================================================================ */
+.lenz-cta-band { position:relative; overflow:hidden; }
+.lenz-cta-band::before {
+  content:""; position:absolute; inset:0; pointer-events:none;
+  background:linear-gradient(120deg, rgba(240,90,40,0.30) 0%, rgba(123,45,139,0.22) 55%, rgba(26,59,204,0.28) 100%);
+}
+.lenz-cta-band > .e-con-inner,
+.lenz-cta-band > .e-child { position:relative; z-index:1; }
+
+/* ============================================================================
+   CSS-ONLY RULE 5 — brand marquee
+   Gradient used as mask-image, plus a cloned-track animation. No Elementor
+   equivalent exists; this ships as a custom widget whose markup these rules style.
+   ============================================================================ */
+.lenz-marquee {
+  display:flex; gap:var(--space-10); overflow:hidden;
+  -webkit-mask-image:linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  mask-image:linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+}
+.lenz-marquee__track {
+  display:flex; align-items:center; gap:var(--space-10);
+  flex:none; min-width:100%;
+  animation:lenz-marquee 42s linear infinite;
+}
+@keyframes lenz-marquee {
+  from { transform:translateX(0); }
+  to   { transform:translateX(calc(-100% - var(--space-10))); }
+}
+.lenz-marquee:hover .lenz-marquee__track,
+.lenz-marquee[data-paused="true"] .lenz-marquee__track { animation-play-state:paused; }
+
+.lenz-brand-logo {
+  flex:none; display:inline-flex; align-items:center; justify-content:center;
+  height:56px; padding-inline:var(--space-2); text-decoration:none;
+  filter:grayscale(1); opacity:0.7;
+  transition:filter var(--transition-base), opacity var(--transition-base);
+}
+.lenz-brand-logo:hover, .lenz-brand-logo:focus-visible { filter:grayscale(0); opacity:1; }
+.lenz-brand-logo img { max-height:44px; width:auto; }
+.lenz-brand-logo__wordmark {
+  font-family:var(--font-heading); font-weight:var(--font-bold); font-size:var(--text-md);
+  color:var(--blue-800); white-space:nowrap; letter-spacing:0.01em;
+}
+
+/* Reduced motion: freeze into a static wrapped grid and drop the duplicate track. */
+@media (prefers-reduced-motion: reduce){
+  .lenz-marquee { overflow:visible; -webkit-mask-image:none; mask-image:none; flex-wrap:wrap; }
+  .lenz-marquee__track { animation:none; flex-wrap:wrap; min-width:0; gap:var(--space-6) var(--space-8); }
+  .lenz-marquee__track--dupe { display:none; }
+  .lenz-brand-logo { filter:none; opacity:1; }
+}
+
+/* ============================================================================
+   CSS-ONLY RULE 6 — review loading skeleton
+   ============================================================================ */
+.lenz-skel {
+  background:linear-gradient(90deg, rgba(255,255,255,0.06) 25%, rgba(255,255,255,0.14) 37%, rgba(255,255,255,0.06) 63%);
+  background-size:400% 100%;
+  border-radius:var(--radius-lg);
+  animation:lenz-skel 1.4s ease infinite;
+}
+@keyframes lenz-skel { from { background-position:100% 50%; } to { background-position:0 50%; } }
+@media (prefers-reduced-motion:reduce){ .lenz-skel { animation:none; } }
+
+/* ============================================================================
+   CONTRAST ALLOW-LIST
+   Expressed as an allow-list of dark surfaces, never a deny-list of light ones.
+   The previous form made gold the default and reset ~10 light sections back to
+   rust by name — every new light section then shipped with an invisible gold
+   eyebrow until someone remembered to extend the list. Do not invert this.
+     light surfaces -> --orange-700 (7.43:1 on cream, 7.64:1 on white)
+     dark surfaces  -> --gold-400   (12.33:1 on navy)
+   ============================================================================ */
+.lenz-eyebrow,
+.lenz-eyebrow .elementor-heading-title {
+  font-family:var(--font-heading); font-weight:var(--font-bold);
+  font-size:var(--text-2xs); letter-spacing:0.14em; text-transform:uppercase;
+  color:var(--color-accent);
+  display:inline-flex; align-items:center; gap:var(--space-2);
+}
+/* The icon must always share the label's colour — an eyebrow that passes 4.5:1 with
+   a black icon next to it still fails the user. */
+.lenz-eyebrow svg { fill:currentColor; color:currentColor; }
+
+.lenz-on-dark .lenz-eyebrow,
+.lenz-on-dark .lenz-eyebrow .elementor-heading-title { color:var(--gold-400); }
+
+/* Gold and orange both collapse against the warm financing gradient; navy is the
+   only value clearing 4.5:1 across the whole stop range. */
+.lenz-eyebrow--on-warm,
+.lenz-eyebrow--on-warm .elementor-heading-title { color:var(--blue-900); }
+.lenz-eyebrow--on-warm svg { color:var(--blue-900); }
+
+/* ============================================================================
+   BUTTONS
+   Note every selector reaches .elementor-button — the class lands on the widget
+   wrapper, not the anchor.
+   Hover convention is a -1px LIFT plus a background change. Do not substitute an
+   Elementor hover_animation like grow/shrink; that is a different brand's habit.
+   ============================================================================ */
+.lenz-btn .elementor-button {
+  display:inline-flex; align-items:center; justify-content:center; gap:var(--space-2);
+  min-height:48px; padding:0 var(--space-6);
+  font-family:var(--font-heading); font-weight:var(--font-bold); font-size:var(--text-sm);
+  line-height:1; text-decoration:none; border:2px solid transparent;
+  border-radius:var(--radius-pill); white-space:nowrap;
+}
+@media (prefers-reduced-motion: no-preference){
+  .lenz-btn .elementor-button {
+    transition:background-color var(--transition-base), border-color var(--transition-base),
+               transform var(--transition-fast), box-shadow var(--transition-base);
+  }
+  .lenz-btn .elementor-button:hover  { transform:translateY(-1px); }
+  .lenz-btn .elementor-button:active { transform:translateY(0); }
+}
+.lenz-btn svg { width:20px; height:20px; }
+
+/* The approved copy includes long labels ("Schedule Your Service Online") that
+   overflow a 375px viewport with nowrap. Let them wrap on small screens. */
+@media (max-width:480px){
+  .lenz-btn .elementor-button { white-space:normal; padding-inline:var(--space-5); text-wrap:balance; }
+}
+
+.lenz-btn--primary .elementor-button        { background:var(--blue-600); color:#FFFFFF; }
+.lenz-btn--primary .elementor-button:hover  { background:var(--blue-700); color:#FFFFFF; }
+.lenz-btn--primary .elementor-button:active { background:var(--blue-800); }
+
+/* Gold NEVER carries white text. */
+.lenz-btn--gold .elementor-button        { background:var(--gold-500); color:var(--neutral-900); }
+.lenz-btn--gold .elementor-button:hover  { background:var(--gold-400); color:var(--neutral-900); }
+.lenz-btn--gold .elementor-button:active { background:var(--gold-600); }
+
+.lenz-btn--outline .elementor-button       { background:transparent; color:var(--blue-700); border-color:var(--color-border-strong); }
+.lenz-btn--outline .elementor-button:hover { background:var(--blue-50); border-color:var(--blue-600); color:var(--blue-800); }
+
+.lenz-btn--outline-light .elementor-button       { background:transparent; color:#FFFFFF; border-color:rgba(255,255,255,0.4); }
+.lenz-btn--outline-light .elementor-button:hover { background:rgba(255,255,255,0.10); border-color:#FFFFFF; color:#FFFFFF; }
+
+.lenz-btn--navy .elementor-button       { background:var(--blue-900); color:#FFFFFF; border-color:var(--blue-900); }
+.lenz-btn--navy .elementor-button:hover { background:var(--blue-800); border-color:var(--blue-800); color:#FFFFFF; }
+
+/* Secondary on the warm gradient — still solid enough to read, never a ghost. */
+.lenz-btn--ghost-navy .elementor-button       { background:rgba(255,255,255,0.86); color:var(--blue-900); border-color:var(--blue-900); }
+.lenz-btn--ghost-navy .elementor-button:hover { background:#FFFFFF; color:var(--blue-900); }
+
+/* ============================================================================
+   TRUST BAR
+   Five proofs whose 1px gaps ARE the borders — the grid's own background shows
+   through between the items.
+
+   DIVISION OF LABOUR: Elementor's grid container owns display, the column counts
+   and the 1px gap (so they stay editable and the responsive audit can see them).
+   This file owns only what Elementor cannot express: the background-as-border
+   trick and the last-item span. Deliberately NO display/grid-template-columns
+   here — declaring them would fight `.e-con` and make the editor's column control
+   silently do nothing.
+   ============================================================================ */
+.lenz-trustbar__grid {
+  background:var(--color-dark-border);
+  border-block:1px solid var(--color-dark-border);
+}
+.lenz-trustbar__item {
+  background:var(--blue-800); padding:var(--space-5) var(--space-4);
+  display:flex; flex-direction:column; gap:2px; text-align:center; align-items:center;
+}
+/* At two columns a fifth item would sit alone; let it span the row instead. */
+.lenz-trustbar__item:last-child:nth-child(odd) { grid-column:span 2; }
+@media (min-width:600px){
+  .lenz-trustbar__item:last-child:nth-child(odd) { grid-column:auto; }
+}
+/* NOT nowrap. The longest proof ("Veteran & Woman-Owned") is ~250px at 20px
+   Montserrat 800, but a fifth of the 1140px row is only ~196px — so nowrap clipped
+   it at every desktop width, not just on mobile. Balanced wrapping keeps the five
+   cells level instead. */
+.lenz-trustbar__value,
+.lenz-trustbar__value .elementor-widget-container,
+.lenz-trustbar__value p {
+  font-family:var(--font-heading); font-weight:var(--font-extrabold);
+  font-size:var(--text-md); color:var(--gold-400); line-height:1.15;
+  white-space:normal; text-wrap:balance; overflow-wrap:break-word;
+}
+@media (min-width:600px) and (max-width:1239px){
+  .lenz-trustbar__value,
+  .lenz-trustbar__value p { font-size:var(--text-sm); }
+}
+.lenz-trustbar__label,
+.lenz-trustbar__label .elementor-widget-container,
+.lenz-trustbar__label p { font-size:var(--text-xs); color:var(--blue-100); }
+
+/* (The old max-width:599px and 600–1023px overrides were removed — they only
+   re-stated the wrapping that is now the default above, and their 600–1023 range
+   contradicted the 600–1239 step. One rule, one place.) */
+
+/* ============================================================================
+   ABOUT — media bleeds past the content column on ONE side (right), desktop only
+   ============================================================================ */
+/* The media bleeds past the content column on ONE side (right), desktop only.
+   `overflow:hidden` on the section is what stops that bleed becoming a horizontal
+   scrollbar — the source does the same. The negative margin works because the row is
+   a GRID container; on a %-width flex item it would shrink the slot instead. */
+.lenz-about { overflow:hidden; }
+@media (min-width:904px){
+  .lenz-about__media { margin-right:calc((100vw - 1140px) / -2); }
+}
+@media (min-width:1240px){
+  .lenz-about__media { margin-right:-72px; }
+}
+
+/* ============================================================================
+   SECTION HEAD
+   ============================================================================ */
+.lenz-section-head { max-width:62ch; }
+.lenz-section-head--center { margin-inline:auto; text-align:center; }
+
+/* ============================================================================
+   1. OFFER BAR — 28px, static, scrolls away (NOT sticky)
+   The seasonal palette is driven by data-season, set at runtime.
+   ============================================================================ */
+.lenz-offer-bar { min-height:28px; overflow:hidden; }
+.lenz-offer-bar .e-con-inner { padding-block:0; }
+.lenz-offer-bar__inner {
+  display:flex; align-items:center; justify-content:center; gap:var(--space-3);
+  min-height:28px; font-size:var(--text-xs); line-height:1;
+  color:#FFFFFF; white-space:nowrap;
+}
+.lenz-offer-bar__msg { font-weight:var(--font-semibold); }
+.lenz-offer-bar__cta {
+  font-family:var(--font-heading); font-weight:var(--font-bold);
+  font-size:var(--text-2xs); letter-spacing:0.06em; text-transform:uppercase;
+  color:var(--gold-500); text-decoration:none;
+  display:inline-flex; align-items:center; gap:4px;
+  border-bottom:1px solid currentColor; padding-bottom:1px;
+}
+/* All four seasonal sets clear AA for large text. */
+.lenz-offer-bar[data-season="summer"] { background:var(--orange-800); }
+.lenz-offer-bar[data-season="winter"] { background:var(--blue-900); }
+.lenz-offer-bar[data-season="spring"] { background:var(--purple-800); }
+.lenz-offer-bar[data-season="fall"]   { background:var(--orange-900); }
+.lenz-offer-bar[data-season="winter"] .lenz-offer-bar__cta { color:var(--orange-400); }
+
+/* ============================================================================
+   2. NAV — v4's light cream bar
+   v4 keeps the colourful body and re-skins only the top bar: cream instead of
+   navy, so the header reads friendly rather than corporate. v5 is the dark-bar
+   sibling. Financing is the single gold accent here.
+   ============================================================================ */
+.lenz-nav {
+  position:sticky; top:0; z-index:100;
+  border-bottom:1px solid var(--color-border);
+}
+@supports ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){
+  .lenz-nav { -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px); }
+}
+.lenz-nav.is-stuck { box-shadow:var(--shadow-2); }
+
+/* Elementor sizes widgets in a flex container to full width by default, which made
+   the logo, phone and CTA fight for the same space and overlap. Every direct child
+   of the bar sizes to its content instead; only the menu is allowed to flex. */
+.lenz-nav__inner { align-items:center; flex-wrap:nowrap; }
+.lenz-nav__inner > .elementor-widget { flex:0 0 auto; width:auto; max-width:none; }
+/* The menu carries the auto margin, so everything after it (phone, CTA) is pushed
+   to the right — and stays right whether or not the phone is currently displayed.
+   Putting the margin on the phone instead breaks the moment it hides at <1360px. */
+.lenz-nav__inner > .lenz-nav__menu { flex:0 1 auto; min-width:0; margin-inline-end:auto; }
+
+.lenz-nav__logo { display:inline-flex; align-items:center; }
+/* 29px inside the bar still leaves air top and bottom. v4 deliberately relaxes
+   the old 44px lock with block padding — that is the spec, not a regression. */
+.lenz-nav__logo img { height:29px; width:auto; display:block; }
+
+/* Pushes everything after it to the right without needing a spacer element. */
+.lenz-nav__phone {
+  display:inline-flex; align-items:center; gap:6px; text-decoration:none;
+  font-family:var(--font-heading); font-weight:var(--font-bold);
+  font-size:var(--text-sm); color:var(--color-text-primary); white-space:nowrap;
+}
+.lenz-nav__phone svg { color:var(--color-accent); }
+.lenz-nav__phone:hover { color:var(--blue-700); }
+
+/* THE PHONE IS NOT IN THE BAR, AND THIS IS NOT A BREAKPOINT PROBLEM.
+   The boxed container is 1140px at every viewport width, so a wider window never
+   creates room — raising a media query could not have fixed this, which cost a few
+   iterations to see. Measured: logo ~100 + CTA ~110 + row gaps ~48 leaves ~692px for
+   the menu, and Elementor's menu renders the same seven items at ~860px. It adds a
+   wrapper and a dropdown-icon button per item that the source's plain anchors do
+   not, so the source's 1240px threshold does not transfer.
+   Something had to go, and the phone is the one element that is genuinely duplicated
+   elsewhere: it is in the offer bar directly above ("CALL NOW") and will be in the
+   mobile menu. Dropping a nav LINK would have changed the sitemap; this does not.
+   The markup is kept so it can be re-enabled if the item count ever drops.
+   NOTE the toggle is on the WRAPPER: Elementor's widget div is the flex child, so
+   hiding only the inner anchor would leave an empty box still eating a gap. */
+.lenz-nav__phone-wrap { display:none; }
+
+.lenz-nav__cta .elementor-button { min-height:36px; padding:0 var(--space-4); font-size:var(--text-xs); }
+@media (max-width:1023px){ .lenz-nav__cta { display:none; } }
+
+/* ---- Pro Mega Menu, re-skinned to the light bar ---------------------------
+   Only colour/spacing is overridden here; the widget keeps ownership of layout,
+   open/close behaviour and its own responsive collapse. */
+/* MARKUP NOTE (verified against the render, not assumed): `.e-n-menu-title` is a
+   DIV wrapper. The interactive element is `.e-n-menu-title-container` inside it —
+   an <a class="... e-link"> for linked items, a plain <div> for a label-only item
+   like Services. Styling `.e-n-menu-title` as though it were the link leaves the
+   padding and hover on the wrong box. */
+/* Seven items share the bar with a logo, a phone number and a CTA — inside a boxed
+   container that is 1140px at EVERY viewport width. A wider window gives the bar no
+   extra room, so this has to fit in a fixed budget rather than at a breakpoint:
+     1140 − logo 100 − phone 150 − CTA 110 − row gaps 64  ≈  716px for the menu.
+   Elementor's default item gap (~30px) spends ~180px of that on whitespace alone.
+   The source design fits the same seven items using 4px gaps and 8px padding; match
+   it, and the row lands around 660px with room to spare.
+
+   The gap itself is NOT set here — it is the widget's `menu_item_title_space_between`
+   control (see build-templates.py). Elementor emits an element-scoped rule for it
+   that outranks a class selector, so declaring `gap` in this file would lose silently
+   AND make the editor's spacing control look broken. */
+.lenz-nav__menu .e-n-menu-heading { flex-wrap:nowrap; }
+
+.lenz-nav__menu .e-n-menu-title-container {
+  font-family:var(--font-heading); font-weight:var(--font-semibold);
+  font-size:var(--text-xs); color:var(--color-text-primary);
+  letter-spacing:0.01em; white-space:nowrap; text-decoration:none;
+  padding:var(--space-2) 6px; border-radius:var(--radius-xs);
+  display:inline-flex; align-items:center;
+}
+.lenz-nav__menu .e-n-menu-title-container:hover { color:var(--blue-700); background:var(--blue-50); }
+.lenz-nav__menu .e-n-menu-title-text { font:inherit; color:inherit; }
+
+/* Financing is promoted to the one gold accent in the bar. Targeted by href rather
+   than position: the widget gives no per-item class, and :nth-child would silently
+   move the pill onto the wrong label the moment someone reorders the menu. */
+.lenz-nav__menu .e-n-menu-title-container[href*="#financing"] {
+  background:var(--gold-500); color:var(--neutral-900);
+  font-weight:var(--font-bold);
+  padding-inline:var(--space-4); border-radius:var(--radius-pill);
+  box-shadow:var(--shadow-1);
+}
+.lenz-nav__menu .e-n-menu-title-container[href*="#financing"]:hover {
+  background:var(--gold-400); color:var(--neutral-900);
+}
+.lenz-nav__menu .e-n-menu-title-container[href*="#financing"] .e-n-menu-title-text { color:var(--neutral-900); }
+
+/* ---- the dropdown panel --------------------------------------------------- */
+.lenz-mega .lenz-mega__inner {
+  display:grid; grid-template-columns:repeat(4,1fr);
+  gap:var(--space-8); padding-block:var(--space-6);
+}
+@media (max-width:1200px){ .lenz-mega .lenz-mega__inner { grid-template-columns:repeat(2,1fr); } }
+/* Non-clickable category label, styled distinctly from its child links. */
+.lenz-mega__col-title {
+  font-family:var(--font-heading); font-weight:var(--font-extrabold);
+  font-size:var(--text-2xs); letter-spacing:0.14em; text-transform:uppercase;
+  color:var(--blue-700);
+  padding-bottom:var(--space-3); margin-bottom:var(--space-3);
+  border-bottom:1px solid var(--color-border);
+}
+.lenz-mega__list { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:2px; }
+.lenz-mega__list a {
+  display:block; font-size:var(--text-xs); font-weight:var(--font-semibold);
+  color:var(--color-text-primary); text-decoration:none;
+  padding:var(--space-2) var(--space-3); border-radius:var(--radius-xs);
+}
+.lenz-mega__list a:hover { background:var(--blue-50); color:var(--blue-700); }
+
+/* ============================================================================
+   7. FINANCING
+   Everything on this panel sits on the warm gradient, so text is navy (not white)
+   and the primary CTA is a solid navy fill — never a ghost outline.
+   ============================================================================ */
+.lenz-financing__panel { box-shadow:var(--shadow-3); }
+.lenz-financing__head { max-width:60ch; }
+.lenz-financing__point-icon {
+  width:44px; height:44px; border-radius:var(--radius-md);
+  background:var(--blue-900); color:#FFFFFF;
+  display:inline-flex; align-items:center; justify-content:center;
+}
+
+/* ============================================================================
+   8. VALUE PROPS — large numerals, no cards
+   ============================================================================ */
+.lenz-vprop { padding-top:var(--space-6); border-top:2px solid var(--color-border); }
+
+/* ============================================================================
+   9. SERVICE AGREEMENTS
+   The badge and stripe take the temperature gradient from CSS rather than as a
+   native Elementor background: both are inline decorations inside a card, and a
+   nested container for a 6px bar would be structure for structure's sake.
+   ============================================================================ */
+.lenz-plan { position:relative; }
+.lenz-plan--blue { box-shadow:var(--shadow-3); border-width:2px; }
+.lenz-plan__badge {
+  position:absolute; top:calc(var(--space-4) * -1); left:50%; transform:translateX(-50%);
+  background:var(--gradient-temperature); color:#FFFFFF;
+  font-family:var(--font-heading); font-weight:var(--font-bold);
+  font-size:var(--text-2xs); letter-spacing:0.08em; text-transform:uppercase;
+  padding:6px 14px; border-radius:var(--radius-pill); white-space:nowrap;
+  box-shadow:var(--shadow-2);
+}
+.lenz-plan__stripe {
+  display:block; height:6px; width:56px; border-radius:var(--radius-pill);
+  margin-bottom:var(--space-5);
+}
+.lenz-plan__stripe[data-plan="red"]   { background:var(--orange-600); }
+.lenz-plan__stripe[data-plan="white"] { background:var(--blue-500); }
+.lenz-plan__stripe[data-plan="blue"]  { background:var(--gradient-temperature); }
+.lenz-plan__name, .lenz-plan__name p {
+  font-family:var(--font-heading); font-weight:var(--font-extrabold);
+  font-size:var(--text-lg); letter-spacing:0.02em;
+}
+.lenz-plan__price, .lenz-plan__price p {
+  font-family:var(--font-heading); font-weight:var(--font-extrabold);
+  font-size:var(--text-2xl); margin-top:var(--space-2); line-height:1.1;
+}
+.lenz-plan__price small, .lenz-plan__price p small {
+  font-family:var(--font-body); font-weight:var(--font-regular);
+  font-size:var(--text-sm); color:var(--color-text-secondary);
+}
+.lenz-plan__meta, .lenz-plan__meta p { font-size:var(--text-xs); color:var(--color-text-secondary); margin-top:var(--space-1); }
+.lenz-plan__list { list-style:none; padding:0; margin:var(--space-6) 0; display:flex; flex-direction:column; gap:var(--space-3); }
+.lenz-plan__list li { display:flex; align-items:flex-start; gap:var(--space-3); font-size:var(--text-sm); }
+.lenz-plan__list svg { color:var(--color-success); flex:none; margin-top:2px; }
+.lenz-plan__list b { font-weight:var(--font-bold); }
+/* Pin every card's CTA to the floor so the three read as a set, not a staircase. */
+.lenz-plan .lenz-btn { margin-top:auto; }
+.lenz-plan .elementor-button { width:100%; }
+
+/* ============================================================================
+   10. REVIEWS
+   ============================================================================ */
+.lenz-review {
+  background:var(--color-dark-bg-raised); border:1px solid var(--color-dark-border);
+  border-radius:var(--radius-lg); padding:var(--space-6);
+  display:flex; flex-direction:column; gap:var(--space-3); margin:0; height:100%;
+}
+.lenz-review--feature { border-radius:var(--radius-xl); padding:var(--space-8); gap:var(--space-4); }
+.lenz-review--feature blockquote { font-size:var(--text-md); line-height:1.6; color:#FFFFFF; margin:0; }
+.lenz-review--card blockquote { font-size:var(--text-sm); color:var(--blue-100); margin:0; }
+.lenz-review__name {
+  font-family:var(--font-heading); font-weight:var(--font-bold);
+  font-size:var(--text-sm); color:var(--gold-400);
+}
+.lenz-reviews__micro { text-align:center; }
+.lenz-reviews__micro a {
+  color:var(--gold-400); font-family:var(--font-heading); font-weight:var(--font-bold);
+  text-decoration:none; display:inline-flex; align-items:center; gap:6px; font-size:var(--text-md);
+}
+.lenz-reviews__micro a:hover { color:var(--gold-300); }
+/* The reviews band is dark, so its eyebrow opts into gold — see the allow-list. */
+.lenz-reviews .lenz-eyebrow { color:var(--gold-400); }
+
+/* ============================================================================
+   11. BRAND CREDENTIAL CHIPS (the marquee itself is CSS-ONLY RULE 5, above)
+   ============================================================================ */
+.lenz-brands__creds {
+  display:flex; flex-wrap:wrap; gap:var(--space-4);
+  padding-top:var(--space-8); border-top:1px solid var(--color-border);
+}
+.lenz-cred-chip {
+  display:inline-flex; align-items:center; gap:var(--space-3);
+  border:1px solid var(--gold-300); background:var(--gold-50);
+  border-radius:var(--radius-pill); padding:var(--space-3) var(--space-5);
+}
+.lenz-cred-chip svg { color:var(--gold-800); }
+.lenz-cred-chip span {
+  font-family:var(--font-heading); font-weight:var(--font-bold);
+  font-size:var(--text-xs); color:var(--neutral-900);
+}
+
+/* ============================================================================
+   12. ABOUT
+   ============================================================================ */
+.lenz-about__stats { display:flex; flex-wrap:wrap; gap:var(--space-8); margin-block:var(--space-4); }
+.lenz-about__stats b {
+  font-family:var(--font-heading); font-weight:var(--font-extrabold);
+  font-size:var(--text-2xl); display:block; line-height:1;
+}
+.lenz-about__stats span { font-size:var(--text-xs); color:var(--color-text-secondary); }
+.lenz-about__caption {
+  margin-top:var(--space-4); font-family:var(--font-heading); font-weight:var(--font-bold);
+  font-size:var(--text-sm); color:var(--blue-800);
+}
+.lenz-about__caption span {
+  display:block; font-family:var(--font-body); font-weight:var(--font-regular);
+  font-size:var(--text-xs); color:var(--color-text-secondary); margin-top:2px;
+}
+
+/* ============================================================================
+   WHO 13 NEWS — labelled placeholder until the segment URL is supplied
+   ============================================================================ */
+.lenz-who13__media {
+  border-radius:var(--radius-lg); overflow:hidden;
+  border:1px solid var(--color-border); box-shadow:var(--shadow-2);
+  aspect-ratio:16/9;   /* reserved so a lazy player cannot shift layout */
+}
+.lenz-who13__media iframe { width:100%; height:100%; border:0; display:block; }
+.lenz-who13__placeholder {
+  width:100%; height:100%;
+  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:var(--space-3);
+  background:var(--blue-50); color:var(--blue-800);
+  font-family:var(--font-heading); font-weight:var(--font-bold); font-size:var(--text-xs);
+  letter-spacing:0.1em; text-transform:uppercase;
+}
+
+/* ============================================================================
+   TRUSTED, ACCREDITED & PROUDLY LOCAL
+   ============================================================================ */
+.lenz-creds__icon {
+  width:48px; height:48px; border-radius:var(--radius-md); flex:none;
+  background:var(--blue-900); color:var(--gold-400);
+  display:inline-flex; align-items:center; justify-content:center;
+}
+.lenz-creds__list { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:var(--space-3); }
+.lenz-creds__list li {
+  position:relative; padding-left:var(--space-6);
+  font-size:var(--text-sm); color:var(--color-text-secondary); line-height:1.55;
+}
+.lenz-creds__list li::before {
+  content:""; position:absolute; left:0; top:9px; width:8px; height:8px;
+  border-radius:50%; background:var(--color-accent);
+}
+.lenz-creds__list b { color:var(--neutral-900); font-weight:var(--font-bold); }
+
+/* ============================================================================
+   13. SERVICE AREA — city list + one GBP embed, NO interactive map picker
+   ============================================================================ */
+.lenz-area__cities { display:flex; flex-wrap:wrap; gap:var(--space-3); }
+.lenz-area-chip {
+  display:inline-flex; align-items:center; gap:var(--space-2);
+  border:1px solid var(--color-border-strong); border-radius:var(--radius-pill);
+  padding:var(--space-3) var(--space-5);
+  font-family:var(--font-heading); font-weight:var(--font-semibold); font-size:var(--text-sm);
+}
+.lenz-area-chip svg { color:var(--color-accent); }
+.lenz-area__note {
+  display:flex; align-items:flex-start; gap:var(--space-3);
+  padding:var(--space-5); background:var(--blue-50); border-radius:var(--radius-md);
+  font-size:var(--text-sm); color:var(--blue-800); max-width:56ch;
+}
+.lenz-area__note svg { color:var(--blue-600); flex:none; margin-top:2px; }
+.lenz-area__address { display:inline-flex; align-items:center; gap:var(--space-2); font-size:var(--text-sm); color:var(--color-text-secondary); }
+.lenz-area__address svg { color:var(--color-accent); flex:none; }
+.lenz-area__address a { color:var(--blue-700); text-decoration:underline; text-underline-offset:2px; }
+.lenz-area__address a:hover { color:var(--blue-800); }
+.lenz-area__map {
+  border-radius:var(--radius-lg); overflow:hidden;
+  border:1px solid var(--color-border); box-shadow:var(--shadow-2);
+  aspect-ratio:4/3;   /* reserves the space so the lazy iframe cannot shift layout */
+}
+@media (min-width:904px){ .lenz-area__map { aspect-ratio:1/1; } }
+.lenz-area__map iframe { width:100%; height:100%; border:0; display:block; }
+
+/* ============================================================================
+   14. FAQS — Elementor's CORE nested-accordion, re-skinned
+   ============================================================================ */
+.lenz-faqs__list { max-width:820px; margin-inline:auto; width:100%; }
+.lenz-faqs__list .e-n-accordion-item {
+  background:#FFFFFF; border:1px solid var(--color-border);
+  border-radius:var(--radius-lg); overflow:hidden; margin-bottom:var(--space-3);
+}
+.lenz-faqs__list .e-n-accordion-item-title {
+  padding:var(--space-5) var(--space-6);
+  font-family:var(--font-heading); font-weight:var(--font-bold); font-size:var(--text-md);
+  color:var(--color-text-primary);
+}
+.lenz-faqs__list .e-n-accordion-item-title:hover { color:var(--blue-700); }
+.lenz-faqs__list .e-n-accordion-item-title-icon { color:var(--color-accent); }
+.lenz-faqs__list p { color:var(--color-text-secondary); font-size:var(--text-sm); max-width:70ch; }
+
+/* ============================================================================
+   15. CLOSE + FORM
+   ============================================================================ */
+.lenz-close-form__alt { display:flex; flex-direction:column; gap:var(--space-3); margin-top:var(--space-2); }
+.lenz-close-form__alt small { color:var(--blue-200); font-size:var(--text-xs); }
+.lenz-form-card { box-shadow:var(--shadow-4); }
+
+.lenz-form .elementor-field-group > label {
+  font-family:var(--font-heading); font-weight:var(--font-bold);
+  font-size:var(--text-xs); color:var(--color-text-primary); margin-bottom:var(--space-2);
+}
+.lenz-form .elementor-field-required .elementor-field-label:after { color:var(--color-error); }
+.lenz-form .elementor-field-textual {
+  min-height:48px; padding:0 var(--space-4);
+  font-family:var(--font-body); font-size:var(--text-sm);
+  border:1px solid var(--color-border-strong); border-radius:var(--radius-sm);
+  background:#FFFFFF; color:var(--color-text-primary);
+}
+.lenz-form .elementor-field-textual:focus {
+  outline:none; border-color:var(--blue-600); box-shadow:var(--focus-ring);
+}
+/* The submit button reuses the gold CTA. Pro Forms renders its own button element,
+   so this reaches it directly rather than through the .lenz-btn wrapper pattern. */
+.lenz-form .elementor-button[type="submit"] {
+  width:100%; min-height:52px;
+  background:var(--gold-500); color:var(--neutral-900);
+  font-family:var(--font-heading); font-weight:var(--font-bold); font-size:var(--text-sm);
+  border:2px solid transparent; border-radius:var(--radius-pill);
+}
+.lenz-form .elementor-button[type="submit"]:hover { background:var(--gold-400); color:var(--neutral-900); }
+@media (prefers-reduced-motion: no-preference){
+  .lenz-form .elementor-button[type="submit"] { transition:background-color var(--transition-base), transform var(--transition-fast); }
+  .lenz-form .elementor-button[type="submit"]:hover { transform:translateY(-1px); }
+}
+.lenz-form .elementor-message-success {
+  background:var(--gold-50); border:1px solid var(--color-success);
+  color:var(--neutral-900); border-radius:var(--radius-md); padding:var(--space-4);
+  font-size:var(--text-sm);
+}
+.lenz-form .elementor-message-danger { color:var(--color-error); font-size:var(--text-xs); font-weight:var(--font-semibold); }
+
+/* ============================================================================
+   16. FOOTER
+   ============================================================================ */
+.lenz-footer__logo img { height:41px; width:auto; }
+.lenz-footer__tag {
+  font-family:var(--font-heading); font-weight:var(--font-bold);
+  font-size:var(--text-sm); color:var(--gold-400); margin-top:var(--space-4);
+}
+.lenz-footer__nap { list-style:none; padding:0; margin-top:var(--space-4); display:flex; flex-direction:column; gap:var(--space-2); }
+.lenz-footer__nap li { display:flex; align-items:flex-start; gap:var(--space-2); font-size:var(--text-sm); color:var(--neutral-300); }
+.lenz-footer__nap a { color:var(--neutral-300); text-decoration:none; }
+.lenz-footer__nap a:hover { color:#FFFFFF; }
+.lenz-footer__nap svg { color:var(--gold-400); flex:none; margin-top:3px; }
+
+.lenz-footer__col-title .elementor-heading-title {
+  font-family:var(--font-heading); font-size:var(--text-xs);
+  letter-spacing:0.1em; text-transform:uppercase; color:var(--gold-400);
+}
+.lenz-footer__list .elementor-icon-list-item > a,
+.lenz-footer__list .elementor-icon-list-text { color:var(--neutral-300); font-size:var(--text-sm); }
+.lenz-footer__list .elementor-icon-list-item > a:hover .elementor-icon-list-text { color:#FFFFFF; }
+/* No bullet icons — the items ship with an empty icon, so reclaim the slot. */
+.lenz-footer__list .elementor-icon-list-icon { display:none; }
+
+.lenz-footer__bottom {
+  border-top:1px solid var(--neutral-700); margin-top:var(--space-12); padding-top:var(--space-6);
+  display:flex; flex-wrap:wrap; gap:var(--space-2) var(--space-4);
+  font-size:var(--text-xs); color:var(--neutral-400);
+}
+.lenz-footer__bottom a { color:var(--neutral-400); text-decoration:none; }
+.lenz-footer__bottom a:hover { color:#FFFFFF; }
+.lenz-footer__bottom .sep { color:var(--neutral-600); }
+
+/* ============================================================================
+   HERO
+   ============================================================================ */
+/* Gold pill eyebrow. Distinct from the standard .lenz-eyebrow — this one sits on
+   navy and carries its own tinted background. */
+.lenz-hero__eyebrow {
+  display:inline-flex; align-items:center; gap:var(--space-2);
+  font-family:var(--font-heading); font-weight:var(--font-bold);
+  font-size:var(--text-2xs); letter-spacing:0.14em; text-transform:uppercase;
+  color:var(--gold-400);
+  background:rgba(255,198,0,0.10); border:1px solid rgba(255,198,0,0.28);
+  padding:6px 12px; border-radius:var(--radius-pill);
+}
+.lenz-hero__eyebrow .dot { width:8px; height:8px; border-radius:50%; background:var(--gold-500); flex:none; }
+
+/* --text-sm, not --text-md: this paragraph runs long, and at 20px it ran nine lines
+   deep and competed with the h1 instead of supporting it. */
+.lenz-hero__sub .elementor-widget-container,
+.lenz-hero__sub { font-size:var(--text-sm); line-height:1.6; color:var(--blue-100); max-width:52ch; }
+
+.lenz-hero__proof {
+  display:inline-flex; align-items:center; gap:var(--space-3);
+  background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14);
+  border-radius:var(--radius-pill); padding:8px 16px;
+}
+.lenz-hero__proof .proof-text { font-size:var(--text-xs); color:#FFFFFF; font-weight:var(--font-semibold); }
+
+.lenz-stars { display:inline-flex; gap:2px; }
+.lenz-stars svg { width:20px; height:20px; fill:var(--color-star); stroke:var(--color-star-edge); stroke-width:1; }
+
+.lenz-hero__media img {
+  width:100%; height:100%; object-fit:cover;
+  border-radius:var(--radius-xl); box-shadow:var(--shadow-4);
+  aspect-ratio:4/5;
+}
+
+/* ============================================================================
+   LEAD CARDS — the gradient itself is a NATIVE Elementor background; only the
+   internals and the sheen (above) live here.
+   ============================================================================ */
+.lenz-lead-card__icon {
+  width:52px; height:52px; border-radius:var(--radius-md);
+  background:rgba(255,255,255,0.16); display:inline-flex; align-items:center; justify-content:center;
+  color:#FFFFFF;
+}
+.lenz-lead-card__icon svg { width:28px; height:28px; }
+.lenz-lead-card .elementor-heading-title { color:#FFFFFF; }
+.lenz-lead-card__body .elementor-widget-container { color:rgba(255,255,255,0.92); font-size:var(--text-sm); }
+.lenz-lead-card__go {
+  display:inline-flex; align-items:center; gap:6px;
+  font-family:var(--font-heading); font-weight:var(--font-bold); font-size:var(--text-sm);
+  color:var(--gold-400); text-decoration:none; margin-top:auto;
+}
+.lenz-lead-card__go svg { width:20px; height:20px; }
+
+/* ============================================================================
+   SERVICE CARDS
+   ============================================================================ */
+.lenz-service-card {
+  display:flex; flex-direction:row; align-items:flex-start; gap:var(--space-4);
+  background:#FFFFFF; border:1px solid var(--color-border);
+  border-radius:var(--radius-lg); padding:var(--space-5);
+  text-decoration:none; color:var(--color-text-primary);
+}
+.lenz-service-card:hover { border-color:var(--blue-300); box-shadow:var(--shadow-2); }
+@media (prefers-reduced-motion: no-preference){
+  .lenz-service-card { transition:transform var(--transition-slow), box-shadow var(--transition-slow), border-color var(--transition-base); }
+  .lenz-service-card:hover { transform:translateY(-2px); }
+}
+.lenz-service-card__icon {
+  width:44px; height:44px; border-radius:var(--radius-sm); flex:none;
+  background:var(--blue-50); color:var(--blue-700);
+  display:inline-flex; align-items:center; justify-content:center;
+}
+.lenz-service-card__icon svg { width:20px; height:20px; }
+.lenz-service-card__icon[data-cat="cooling"] { background:var(--blue-50);   color:var(--blue-700); }
+.lenz-service-card__icon[data-cat="heating"] { background:var(--orange-50); color:var(--color-accent); }
+.lenz-service-card__icon[data-cat="both"]    { background:var(--gold-100);  color:var(--gold-800); }
+.lenz-service-card__title .elementor-heading-title { font-size:var(--text-sm); font-weight:var(--font-bold); }
+.lenz-service-card__blurb .elementor-widget-container { font-size:var(--text-xs); color:var(--color-text-secondary); }
+
+/* ---- "Not sure what you need?" — the strongest conversion element in the block */
+.lenz-service-help {
+  display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between;
+  gap:var(--space-4);
+  background:var(--blue-900); color:#FFFFFF;
+  border-radius:var(--radius-lg); padding:var(--space-6) var(--space-8);
+}
+.lenz-service-help .elementor-heading-title { color:#FFFFFF; font-size:var(--text-md); }
+.lenz-service-help__txt .elementor-widget-container { color:var(--blue-100); font-size:var(--text-sm); }
+.lenz-phone-link {
+  font-family:var(--font-heading); font-weight:var(--font-bold); font-size:var(--text-lg);
+  color:var(--gold-400); text-decoration:none;
+  display:inline-flex; align-items:center; gap:8px; white-space:nowrap;
+}
+.lenz-phone-link:hover { color:var(--gold-300); }
+.lenz-phone-link svg { width:20px; height:20px; }
+
+.c1{display:flex;flex-direction:column;background-color:#07113B}
+.c2{display:flex;flex-direction:column;gap:22px 22px;padding:64px 20px 80px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c3{display:flex;flex-direction:row;gap:64px 64px;align-items:center}
+.c4{display:flex;flex-direction:column;gap:24px 24px;width:52%}
+.w6{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:61px;font-weight:800;line-height:1.02em;letter-spacing:-0.04em;color:#FFFFFF;margin:0}
+.w7{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:#DFE4FB}
+.c9{display:flex;flex-direction:row;gap:12px 12px;align-items:center}
+.w10{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #ddd;border-width:2px 2px 2px 2px;padding:0px 24px 0px 24px}
+.bw11{display:flex;justify-content:flex-start}
+.w12{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #ddd;border-width:2px 2px 2px 2px;padding:0px 24px 0px 24px}
+.bw13{display:flex;justify-content:flex-start}
+.w14{display:block;max-width:100%;width:100%;object-fit:cover;height:560px;border-radius:28px 28px 28px 28px}
+.c15{display:flex;flex-direction:column;background-color:#0D1D64}
+.c16{display:flex;flex-direction:column;gap:22px 22px;padding:0px 20px 0px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c17{display:grid;grid-template-columns:repeat(5, minmax(0,1fr));gap:1px 1px;align-items:stretch}
+.c18{display:flex;flex-direction:column}
+.c21{display:flex;flex-direction:column}
+.c24{display:flex;flex-direction:column}
+.c27{display:flex;flex-direction:column}
+.c30{display:flex;flex-direction:column}
+.c33{display:flex;flex-direction:column;background-color:#FFFCF0}
+.c34{display:flex;flex-direction:column;gap:22px 22px;padding:80px 20px 80px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c35{display:flex;flex-direction:column;gap:12px 12px}
+.w37{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:39px;font-weight:800;line-height:1.15em;letter-spacing:-0.02em;color:#121212;margin:0}
+.w38{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:20px;line-height:1.6em;color:#616161}
+.c39{display:grid;grid-template-columns:repeat(2, minmax(0,1fr));gap:24px 24px;align-items:stretch}
+.c40{display:flex;flex-direction:column;gap:20px 20px;padding:32px 32px 32px 32px;background:linear-gradient(135deg, #1A3BCC 0%, #07113B 100%);border-radius:28px 28px 28px 28px}
+.w42{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:31px;font-weight:700;line-height:1.15em;color:#FFFFFF;margin:0}
+.w43{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:rgba(255,255,255,0.92)}
+.c45{display:flex;flex-direction:column;gap:20px 20px;padding:32px 32px 32px 32px;background:linear-gradient(135deg, #F05A28 0%, #7B2D8B 100%);border-radius:28px 28px 28px 28px}
+.w47{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:31px;font-weight:700;line-height:1.15em;color:#FFFFFF;margin:0}
+.w48{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:rgba(255,255,255,0.92)}
+.c50{display:flex;flex-direction:column;gap:20px 20px;padding:32px 32px 32px 32px;background:linear-gradient(135deg, #8F34A2 0%, #122A91 100%);border-radius:28px 28px 28px 28px}
+.w52{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:31px;font-weight:700;line-height:1.15em;color:#FFFFFF;margin:0}
+.w53{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:rgba(255,255,255,0.92)}
+.c55{display:flex;flex-direction:column;gap:20px 20px;padding:32px 32px 32px 32px;background:linear-gradient(135deg, #122A91 0%, #07113B 100%);border-radius:28px 28px 28px 28px}
+.w57{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:31px;font-weight:700;line-height:1.15em;color:#FFFFFF;margin:0}
+.w58{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:rgba(255,255,255,0.92)}
+.c60{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:16px 16px;align-items:stretch}
+.c61{display:flex;flex-direction:row;gap:16px 16px}
+.c63{display:flex;flex-direction:column;gap:2px 2px}
+.w64{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w65{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c66{display:flex;flex-direction:row;gap:16px 16px}
+.c68{display:flex;flex-direction:column;gap:2px 2px}
+.w69{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w70{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c71{display:flex;flex-direction:row;gap:16px 16px}
+.c73{display:flex;flex-direction:column;gap:2px 2px}
+.w74{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w75{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c76{display:flex;flex-direction:row;gap:16px 16px}
+.c78{display:flex;flex-direction:column;gap:2px 2px}
+.w79{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w80{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c81{display:flex;flex-direction:row;gap:16px 16px}
+.c83{display:flex;flex-direction:column;gap:2px 2px}
+.w84{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w85{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c86{display:flex;flex-direction:row;gap:16px 16px}
+.c88{display:flex;flex-direction:column;gap:2px 2px}
+.w89{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w90{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c91{display:flex;flex-direction:row;gap:16px 16px}
+.c93{display:flex;flex-direction:column;gap:2px 2px}
+.w94{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w95{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c96{display:flex;flex-direction:row;gap:16px 16px}
+.c98{display:flex;flex-direction:column;gap:2px 2px}
+.w99{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w100{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c101{display:flex;flex-direction:row;gap:16px 16px}
+.c103{display:flex;flex-direction:column;gap:2px 2px}
+.w104{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w105{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c106{display:flex;flex-direction:row;gap:16px 16px}
+.c108{display:flex;flex-direction:column;gap:2px 2px}
+.w109{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w110{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c111{display:flex;flex-direction:row;gap:16px 16px}
+.c113{display:flex;flex-direction:column;gap:2px 2px}
+.w114{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w115{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c116{display:flex;flex-direction:row;gap:16px 16px}
+.c118{display:flex;flex-direction:column;gap:2px 2px}
+.w119{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w120{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c121{display:flex;flex-direction:row;gap:16px 16px}
+.c123{display:flex;flex-direction:column;gap:2px 2px}
+.w124{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w125{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c126{display:flex;flex-direction:row;gap:16px 16px}
+.c128{display:flex;flex-direction:column;gap:2px 2px}
+.w129{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w130{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c131{display:flex;flex-direction:row;gap:16px 16px}
+.c133{display:flex;flex-direction:column;gap:2px 2px}
+.w134{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w135{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c136{display:flex;flex-direction:row;gap:16px 16px}
+.c138{display:flex;flex-direction:column;gap:2px 2px}
+.w139{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w140{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c141{display:flex;flex-direction:row;gap:16px 16px}
+.c143{display:flex;flex-direction:column;gap:2px 2px}
+.w144{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;margin:0}
+.w145{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:13px;line-height:1.7em;color:#616161}
+.c146{display:flex;flex-direction:row;gap:16px 16px}
+.c147{display:flex;flex-direction:column;gap:2px 2px}
+.w148{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:20px;font-weight:700;color:#FFFFFF;margin:0}
+.w149{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:#DFE4FB}
+.c151{display:flex;flex-direction:column;background-color:#07113B}
+.c152{display:flex;flex-direction:column;gap:22px 22px;padding:48px 20px 48px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c153{display:flex;flex-direction:column;gap:20px 20px;align-items:center}
+.w154{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:39px;font-weight:800;line-height:1.15em;letter-spacing:-0.02em;color:#FFFFFF;text-align:center;margin:0}
+.w155{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:20px;line-height:1.6em;color:#DFE4FB;text-align:center}
+.w156{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #ddd;border-width:2px 2px 2px 2px;padding:0px 24px 0px 24px}
+.bw157{display:flex;justify-content:center}
+.c158{display:flex;flex-direction:column;background-color:#FFFCF0}
+.c159{display:flex;flex-direction:column;gap:22px 22px;padding:80px 20px 80px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c160{display:flex;flex-direction:column;gap:40px 40px;padding:48px 48px 48px 48px;background:linear-gradient(135deg, #FFC600 0%, #F05A28 100%);border-radius:28px 28px 28px 28px}
+.c161{display:flex;flex-direction:column;gap:12px 12px}
+.w163{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:39px;font-weight:800;line-height:1.15em;letter-spacing:-0.02em;color:#07113B;margin:0}
+.w164{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:20px;line-height:1.6em;color:#3E1304}
+.c165{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:24px 24px;align-items:stretch}
+.c166{display:flex;flex-direction:column;gap:8px 8px;padding:24px 24px 24px 24px;background-color:rgba(255,255,255,0.72);border-radius:18px 18px 18px 18px;border:solid rgba(7,17,59,0.10);border-width:1px 1px 1px 1px}
+.w168{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:20px;font-weight:700;color:#07113B;margin:0}
+.w169{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:#424242}
+.c170{display:flex;flex-direction:column;gap:8px 8px;padding:24px 24px 24px 24px;background-color:rgba(255,255,255,0.72);border-radius:18px 18px 18px 18px;border:solid rgba(7,17,59,0.10);border-width:1px 1px 1px 1px}
+.w172{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:20px;font-weight:700;color:#07113B;margin:0}
+.w173{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:#424242}
+.c174{display:flex;flex-direction:column;gap:8px 8px;padding:24px 24px 24px 24px;background-color:rgba(255,255,255,0.72);border-radius:18px 18px 18px 18px;border:solid rgba(7,17,59,0.10);border-width:1px 1px 1px 1px}
+.w176{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:20px;font-weight:700;color:#07113B;margin:0}
+.w177{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:#424242}
+.c178{display:flex;flex-direction:row;gap:16px 16px;align-items:center}
+.w179{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #ddd;border-width:2px 2px 2px 2px;padding:0px 24px 0px 24px}
+.bw180{display:flex;justify-content:flex-start}
+.w181{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #ddd;border-width:2px 2px 2px 2px;padding:0px 24px 0px 24px}
+.bw182{display:flex;justify-content:flex-start}
+.c183{display:flex;flex-direction:column;background-color:#FFFFFF}
+.c184{display:flex;flex-direction:column;gap:22px 22px;padding:80px 20px 80px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c185{display:flex;flex-direction:column;gap:12px 12px}
+.w187{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:39px;font-weight:800;line-height:1.15em;letter-spacing:-0.02em;color:#121212;margin:0}
+.c188{display:grid;grid-template-columns:repeat(4, minmax(0,1fr));gap:32px 32px;align-items:stretch}
+.c189{display:flex;flex-direction:column;gap:12px 12px}
+.w191{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:25px;font-weight:700;line-height:1.15em;margin:0}
+.w192{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:#616161}
+.c193{display:flex;flex-direction:column;gap:12px 12px}
+.w195{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:25px;font-weight:700;line-height:1.15em;margin:0}
+.w196{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:#616161}
+.c197{display:flex;flex-direction:column;gap:12px 12px}
+.w199{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:25px;font-weight:700;line-height:1.15em;margin:0}
+.w200{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:#616161}
+.c201{display:flex;flex-direction:column;gap:12px 12px}
+.w203{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:25px;font-weight:700;line-height:1.15em;margin:0}
+.w204{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:#616161}
+.c205{display:flex;flex-direction:column;background-color:#FFFCF0}
+.c206{display:flex;flex-direction:column;gap:22px 22px;padding:80px 20px 80px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c207{display:flex;flex-direction:column;gap:12px 12px;align-items:center}
+.w209{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:39px;font-weight:800;line-height:1.15em;letter-spacing:-0.02em;color:#121212;text-align:center;margin:0}
+.w210{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:20px;line-height:1.6em;color:#616161;text-align:center}
+.c211{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:24px 24px;align-items:stretch}
+.c212{display:flex;flex-direction:column;gap:8px 8px;padding:32px 32px 32px 32px;background-color:#FFFFFF;border-radius:28px 28px 28px 28px;border:solid #E0E0E0;border-width:1px 1px 1px 1px}
+.w218{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #ddd;border-width:2px 2px 2px 2px;padding:0px 24px 0px 24px}
+.bw219{display:flex;justify-content:flex-start}
+.c220{display:flex;flex-direction:column;gap:8px 8px;padding:32px 32px 32px 32px;background-color:#FFFFFF;border-radius:28px 28px 28px 28px;border:solid #E0E0E0;border-width:1px 1px 1px 1px}
+.w226{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #ddd;border-width:2px 2px 2px 2px;padding:0px 24px 0px 24px}
+.bw227{display:flex;justify-content:flex-start}
+.c228{display:flex;flex-direction:column;gap:8px 8px;padding:32px 32px 32px 32px;background-color:#FFFFFF;border-radius:28px 28px 28px 28px;border:solid #1837BE;border-width:1px 1px 1px 1px}
+.w235{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #ddd;border-width:2px 2px 2px 2px;padding:0px 24px 0px 24px}
+.bw236{display:flex;justify-content:flex-start}
+.w237{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.6em;color:#616161;text-align:center}
+.c238{display:flex;flex-direction:column;background-color:#07113B}
+.c239{display:flex;flex-direction:column;gap:22px 22px;padding:80px 20px 80px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c240{display:flex;flex-direction:column;gap:12px 12px}
+.w242{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:39px;font-weight:800;line-height:1.15em;letter-spacing:-0.02em;color:#FFFFFF;margin:0}
+.w243{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:20px;line-height:1.6em;color:#DFE4FB}
+.c244{display:flex;flex-direction:row;gap:24px 24px;align-items:stretch}
+.c246{display:flex;flex-direction:column;gap:24px 24px;width:38%}
+.c250{display:flex;flex-direction:column;background-color:#FFFFFF}
+.c251{display:flex;flex-direction:column;gap:22px 22px;padding:80px 20px 80px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c252{display:flex;flex-direction:column;gap:12px 12px}
+.w254{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:39px;font-weight:800;line-height:1.15em;letter-spacing:-0.02em;color:#121212;margin:0}
+.w255{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:20px;line-height:1.6em;color:#616161}
+.c258{display:flex;flex-direction:column;background-color:#FFFCF0}
+.c259{display:flex;flex-direction:column;gap:22px 22px;padding:80px 20px 80px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c260{display:grid;grid-template-columns:repeat(2, minmax(0,1fr));gap:64px 64px;align-items:stretch}
+.c261{display:flex;flex-direction:column;gap:16px 16px}
+.w263{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:39px;font-weight:800;line-height:1.15em;letter-spacing:-0.02em;color:#121212;margin:0}
+.w265{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:#616161}
+.w266{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:#616161}
+.w267{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.7em;color:#616161}
+.c268{display:flex;flex-direction:row;gap:12px 12px;align-items:center}
+.w269{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #ddd;border-width:2px 2px 2px 2px;padding:0px 24px 0px 24px}
+.bw270{display:flex;justify-content:flex-start}
+.w271{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #ddd;border-width:2px 2px 2px 2px;padding:0px 24px 0px 24px}
+.bw272{display:flex;justify-content:flex-start}
+.c273{display:flex;flex-direction:column;gap:16px 16px}
+.w274{display:block;max-width:100%;width:100%;object-fit:cover;height:440px;border-radius:28px 28px 28px 28px}
+.c276{display:flex;flex-direction:column;background-color:#FFFFFF}
+.c277{display:flex;flex-direction:column;gap:22px 22px;padding:48px 20px 48px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c278{display:flex;flex-direction:row;gap:64px 64px;align-items:center}
+.c279{display:flex;flex-direction:column;gap:16px 16px;width:50%}
+.w281{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:39px;font-weight:800;line-height:1.15em;letter-spacing:-0.02em;color:#121212;margin:0}
+.w282{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:20px;line-height:1.6em;color:#616161}
+.w283{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:16px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #ddd;border-width:2px 2px 2px 2px;padding:0px 24px 0px 24px}
+.bw284{display:flex;justify-content:flex-start}
+.c286{display:flex;flex-direction:column;background-color:#F1F4FD}
+.c287{display:flex;flex-direction:column;gap:22px 22px;padding:80px 20px 80px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c288{display:flex;flex-direction:column;gap:12px 12px}
+.w290{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:39px;font-weight:800;line-height:1.15em;letter-spacing:-0.02em;color:#121212;margin:0}
+.c291{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:20px 20px;align-items:stretch}
+.c292{display:flex;flex-direction:column;gap:16px 16px;padding:24px 24px 24px 24px;background-color:#FFFFFF;border-radius:18px 18px 18px 18px;border:solid #E0E0E0;border-width:1px 1px 1px 1px}
+.w294{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:25px;font-weight:700;line-height:1.15em;margin:0}
+.c296{display:flex;flex-direction:column;gap:16px 16px;padding:24px 24px 24px 24px;background-color:#FFFFFF;border-radius:18px 18px 18px 18px;border:solid #E0E0E0;border-width:1px 1px 1px 1px}
+.w298{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:25px;font-weight:700;line-height:1.15em;margin:0}
+.c300{display:flex;flex-direction:column;gap:16px 16px;padding:24px 24px 24px 24px;background-color:#FFFFFF;border-radius:18px 18px 18px 18px;border:solid #E0E0E0;border-width:1px 1px 1px 1px}
+.w302{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:25px;font-weight:700;line-height:1.15em;margin:0}
+.c304{display:flex;flex-direction:column;background-color:#FFFFFF}
+.c305{display:flex;flex-direction:column;gap:22px 22px;padding:80px 20px 80px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c306{display:flex;flex-direction:column;gap:12px 12px}
+.w308{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:39px;font-weight:800;line-height:1.15em;letter-spacing:-0.02em;color:#121212;margin:0}
+.w309{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:20px;line-height:1.6em;color:#616161}
+.c310{display:flex;flex-direction:row;gap:48px 48px;align-items:center}
+.c311{display:flex;flex-direction:column;gap:24px 24px;width:48%}
+.c316{display:flex;flex-direction:column;background-color:#FFFCF0}
+.c317{display:flex;flex-direction:column;gap:22px 22px;padding:80px 20px 80px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c318{display:flex;flex-direction:column;gap:12px 12px;align-items:center}
+.w320{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:39px;font-weight:800;line-height:1.15em;letter-spacing:-0.02em;color:#121212;text-align:center;margin:0}
+.c322{display:flex;flex-direction:column;background-color:#07113B}
+.c323{display:flex;flex-direction:column;gap:22px 22px;padding:80px 20px 80px 20px;max-width:1140px;margin-left:auto;margin-right:auto;width:100%}
+.c324{display:flex;flex-direction:row;gap:64px 64px;align-items:center}
+.c325{display:flex;flex-direction:column;gap:16px 16px;width:46%}
+.w326{font-family:'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:39px;font-weight:800;line-height:1.15em;letter-spacing:-0.02em;color:#FFFFFF;margin:0}
+.w327{font-family:'Open Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:20px;line-height:1.6em;color:#DFE4FB}
+.c329{display:flex;flex-direction:column;gap:16px 16px;width:48%}
+.c330{display:flex;flex-direction:column;gap:0px 0px;padding:32px 32px 32px 32px;background-color:#FFFFFF;border-radius:28px 28px 28px 28px}
+@media (max-width:1024px){.c4{width:100%}.w6{font-size:48px}.c17{grid-template-columns:repeat(3, minmax(0,1fr))}.w37{font-size:33px}.c60{grid-template-columns:repeat(2, minmax(0,1fr))}.w154{font-size:33px}.w163{font-size:33px}.w187{font-size:33px}.c188{grid-template-columns:repeat(2, minmax(0,1fr))}.w209{font-size:33px}.c211{grid-template-columns:repeat(2, minmax(0,1fr))}.w242{font-size:33px}.c246{width:100%}.w254{font-size:33px}.c260{grid-template-columns:repeat(1, minmax(0,1fr))}.w263{font-size:33px}.c279{width:100%}.w281{font-size:33px}.w290{font-size:33px}.c291{grid-template-columns:repeat(2, minmax(0,1fr))}.w308{font-size:33px}.c311{width:100%}.w320{font-size:33px}.c325{width:100%}.w326{font-size:33px}.c329{width:100%}}
+@media (max-width:767px){.c2{padding:48px 18px 56px 18px}.c3{flex-direction:column}.c4{width:100%}.w6{font-size:39px}.c9{flex-direction:column}.w14{height:380px}.c16{padding:0px 18px 0px 18px}.c17{grid-template-columns:repeat(2, minmax(0,1fr))}.c34{padding:64px 18px 64px 18px}.w37{font-size:28px}.c39{grid-template-columns:repeat(1, minmax(0,1fr))}.w42{font-size:21px}.w47{font-size:21px}.w52{font-size:21px}.w57{font-size:21px}.c60{grid-template-columns:repeat(1, minmax(0,1fr))}.c146{flex-direction:column}.c152{padding:40px 18px 40px 18px}.w154{font-size:28px}.c159{padding:64px 18px 64px 18px}.w163{font-size:28px}.c165{grid-template-columns:repeat(1, minmax(0,1fr))}.c178{flex-direction:column}.c184{padding:64px 18px 64px 18px}.w187{font-size:28px}.c188{grid-template-columns:repeat(1, minmax(0,1fr))}.w191{font-size:21px}.w195{font-size:21px}.w199{font-size:21px}.w203{font-size:21px}.c206{padding:64px 18px 64px 18px}.w209{font-size:28px}.c211{grid-template-columns:repeat(1, minmax(0,1fr))}.c239{padding:64px 18px 64px 18px}.w242{font-size:28px}.c244{flex-direction:column}.c246{width:100%}.c251{padding:64px 18px 64px 18px}.w254{font-size:28px}.c259{padding:64px 18px 64px 18px}.c260{grid-template-columns:repeat(1, minmax(0,1fr))}.w263{font-size:28px}.c268{flex-direction:column}.w274{height:280px}.c277{padding:40px 18px 40px 18px}.c278{flex-direction:column}.c279{width:100%}.w281{font-size:28px}.c287{padding:64px 18px 64px 18px}.w290{font-size:28px}.c291{grid-template-columns:repeat(1, minmax(0,1fr))}.w294{font-size:21px}.w298{font-size:21px}.w302{font-size:21px}.c305{padding:64px 18px 64px 18px}.w308{font-size:28px}.c310{flex-direction:column}.c311{width:100%}.c317{padding:64px 18px 64px 18px}.w320{font-size:28px}.c323{padding:64px 18px 64px 18px}.c324{flex-direction:column}.c325{width:100%}.w326{font-size:28px}.c329{width:100%}}
+</style>
+</head>
+<body>
+<div class="pv-bar">
+  <span><b>PREVIEW</b> Lenz Heating &amp; Cooling — Home (v4)</span>
+  <span>15 sections · 123 widgets</span>
+  <span>generated from home.json — resize the window to check tablet/mobile</span>
+  <span class="warn">placeholders: Elementor Pro Form, Widget: lenz-marquee</span>
+</div>
+<div class="c1 lenz-hero lenz-on-dark"><div class="c2 lenz-hero__inner"><div class="c3"><div class="c4"><span class="lenz-hero__eyebrow"><span class="dot"></span> Veteran &amp; woman-owned since 2009</span><h1 class="w6">Des Moines&rsquo; Trusted Heating, Cooling &amp; <span class="lenz-accent">Air Quality</span> Experts</h1><div class="w7 lenz-hero__sub">Since 2009, Lenz Heating &amp; Cooling has been Central Iowa&rsquo;s go-to team for honest, hassle-free home comfort. We&rsquo;re a local, veteran-owned, and family-run business based right here in Urbandale, dedicated to keeping your home comfortable in every season. Whether you need 24/7 emergency HVAC repair, a new furnace, or a high-efficiency AC installation, we proudly serve homeowners across Des Moines, West Des Moines, Ankeny, Waukee, and surrounding Central Iowa communities.</div><span class="lenz-hero__proof"><span class="lenz-stars" role="img" aria-label="5 out of 5 stars"><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg></span><span class="proof-text">Real reviews from Des Moines homeowners</span></span><div class="c9"><div class="bw11"><a class="w10 lenz-btn lenz-btn--gold" href="#contact">Get a Free Estimate</a></div><div class="bw13"><a class="w12 lenz-btn lenz-btn--outline-light" href="tel:+15152256446">Call (515) 225-6446</a></div></div></div><img class="w14 lenz-hero__media" src="/wp-content/uploads/2026/08/lenz-comfort.png" alt="A family relaxing together in a bright, comfortable Des Moines living room" loading="lazy"></div></div></div><div class="c15 lenz-trustbar lenz-on-dark"><div class="c16"><div class="c17 lenz-trustbar__grid"><div class="c18 lenz-trustbar__item"><div class="w19 lenz-trustbar__value">Since 2009</div><div class="w20 lenz-trustbar__label">Serving Central Iowa</div></div><div class="c21 lenz-trustbar__item"><div class="w22 lenz-trustbar__value">24/7/365</div><div class="w23 lenz-trustbar__label">Emergency service</div></div><div class="c24 lenz-trustbar__item"><div class="w25 lenz-trustbar__value">#50871-CL</div><div class="w26 lenz-trustbar__label">Iowa Master Licensed</div></div><div class="c27 lenz-trustbar__item"><div class="w28 lenz-trustbar__value">Veteran &amp; Woman-Owned</div><div class="w29 lenz-trustbar__label">Family operated</div></div><div class="c30 lenz-trustbar__item"><div class="w31 lenz-trustbar__value">WHO 13 News</div><div class="w32 lenz-trustbar__label">As seen on Hello Iowa</div></div></div></div></div><div class="c33 lenz-services"><div class="c34"><div class="c35 lenz-section-head"><span class="lenz-eyebrow"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-wrench"/></svg> Our services</span><h2 class="w37">Complete Heating, Cooling &amp; Essential Home Services</h2><div class="w38">From emergency AC repairs and furnace replacements to gas line runs and indoor air quality, Lenz Heating &amp; Cooling provides complete HVAC and home comfort solutions across Des Moines and Central Iowa.</div></div><div class="c39"><div class="c40 lenz-lead-card lenz-lead-card--cool"><span class="lenz-lead-card__icon"><svg class="lenz-icon" aria-hidden="true"><use href="#i-snow"/></svg></span><h3 class="w42">Air Conditioning Services</h3><div class="w43 lenz-lead-card__body">Keep your home cool and comfortable during hot Iowa summers. Our certified technicians handle emergency AC repairs, routine performance tune-ups, and energy-efficient air conditioner replacements tailored to your home&rsquo;s layout and budget.</div><a class="lenz-lead-card__go" href="/services/air-conditioning/">Explore AC Services <svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-arrow"/></svg></a></div><div class="c45 lenz-lead-card lenz-lead-card--warm"><span class="lenz-lead-card__icon"><svg class="lenz-icon" aria-hidden="true"><use href="#i-flame"/></svg></span><h3 class="w47">Heating &amp; Furnace Services</h3><div class="w48 lenz-lead-card__body">Dependable heating built to withstand harsh Central Iowa winters. We provide fast diagnostic repairs, seasonal safety inspections, and high-efficiency furnace replacements for gas and electric heating systems.</div><a class="lenz-lead-card__go" href="/services/heating/">Explore Heating Services <svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-arrow"/></svg></a></div><div class="c50 lenz-lead-card lenz-lead-card--air"><span class="lenz-lead-card__icon"><svg class="lenz-icon" aria-hidden="true"><use href="#i-air"/></svg></span><h3 class="w52">Indoor Air Quality</h3><div class="w53 lenz-lead-card__body">Breathe cleaner, healthier air year-round. We provide professional air duct cleaning and advanced whole-home air purifiers to remove dust, allergens, and hot or cold spots.</div><a class="lenz-lead-card__go" href="/services/indoor-air-quality/">Improve Air Quality <svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-arrow"/></svg></a></div><div class="c55 lenz-lead-card lenz-lead-card--extra"><span class="lenz-lead-card__icon"><svg class="lenz-icon" aria-hidden="true"><use href="#i-wrench"/></svg></span><h3 class="w57">Additional Services</h3><div class="w58 lenz-lead-card__body">Specialized home utility solutions that optimize your system&rsquo;s overall efficiency and safety. Our team installs and services smart thermostats, heat pumps, water heaters (tank and tankless), custom ductwork repairs and modifications, airflow balancing, and gas lines.</div><a class="lenz-lead-card__go" href="/services/additional-services/">View All Additional Services <svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-arrow"/></svg></a></div></div><div class="c60"><div class="c61 lenz-service-card"><span class="lenz-service-card__icon" data-cat="cooling"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-snow"/></svg></span><div class="c63"><h4 class="w64 lenz-service-card__title">AC Installation</h4><div class="w65 lenz-service-card__blurb">Right-sized systems, installed properly.</div></div></div><div class="c66 lenz-service-card"><span class="lenz-service-card__icon" data-cat="cooling"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-wrench"/></svg></span><div class="c68"><h4 class="w69 lenz-service-card__title">AC Repair</h4><div class="w70 lenz-service-card__blurb">Fast diagnosis, day or night.</div></div></div><div class="c71 lenz-service-card"><span class="lenz-service-card__icon" data-cat="cooling"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-calendar"/></svg></span><div class="c73"><h4 class="w74 lenz-service-card__title">AC Maintenance</h4><div class="w75 lenz-service-card__blurb">Seasonal tune-ups that prevent breakdowns.</div></div></div><div class="c76 lenz-service-card"><span class="lenz-service-card__icon" data-cat="cooling"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-snow"/></svg></span><div class="c78"><h4 class="w79 lenz-service-card__title">AC Replacement</h4><div class="w80 lenz-service-card__blurb">Efficient upgrades sized to your home.</div></div></div><div class="c81 lenz-service-card"><span class="lenz-service-card__icon" data-cat="heating"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-flame"/></svg></span><div class="c83"><h4 class="w84 lenz-service-card__title">Heating Installation</h4><div class="w85 lenz-service-card__blurb">High-efficiency gas and electric furnaces.</div></div></div><div class="c86 lenz-service-card"><span class="lenz-service-card__icon" data-cat="heating"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-wrench"/></svg></span><div class="c88"><h4 class="w89 lenz-service-card__title">Heating Repair</h4><div class="w90 lenz-service-card__blurb">No heat? We diagnose it fast.</div></div></div><div class="c91 lenz-service-card"><span class="lenz-service-card__icon" data-cat="heating"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-calendar"/></svg></span><div class="c93"><h4 class="w94 lenz-service-card__title">Heating Maintenance</h4><div class="w95 lenz-service-card__blurb">Safety inspections before the first freeze.</div></div></div><div class="c96 lenz-service-card"><span class="lenz-service-card__icon" data-cat="heating"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-heat"/></svg></span><div class="c98"><h4 class="w99 lenz-service-card__title">Heating Replacement</h4><div class="w100 lenz-service-card__blurb">Upgrade an aging or failing furnace.</div></div></div><div class="c101 lenz-service-card"><span class="lenz-service-card__icon" data-cat="both"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-droplet"/></svg></span><div class="c103"><h4 class="w104 lenz-service-card__title">Humidity Control</h4><div class="w105 lenz-service-card__blurb">Whole-home humidifiers and dehumidifiers.</div></div></div><div class="c106 lenz-service-card"><span class="lenz-service-card__icon" data-cat="both"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-shield"/></svg></span><div class="c108"><h4 class="w109 lenz-service-card__title">UV Light Purification</h4><div class="w110 lenz-service-card__blurb">Treat air as it moves through the system.</div></div></div><div class="c111 lenz-service-card"><span class="lenz-service-card__icon" data-cat="both"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-air"/></svg></span><div class="c113"><h4 class="w114 lenz-service-card__title">Indoor Purification</h4><div class="w115 lenz-service-card__blurb">Filtration for dust, dander and allergens.</div></div></div><div class="c116 lenz-service-card"><span class="lenz-service-card__icon" data-cat="both"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-wind"/></svg></span><div class="c118"><h4 class="w119 lenz-service-card__title">Duct Cleaning</h4><div class="w120 lenz-service-card__blurb">Clear out built-up dust and debris.</div></div></div><div class="c121 lenz-service-card"><span class="lenz-service-card__icon" data-cat="both"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-calendar"/></svg></span><div class="c123"><h4 class="w124 lenz-service-card__title">Thermostat Services</h4><div class="w125 lenz-service-card__blurb">Smart thermostat install and setup.</div></div></div><div class="c126 lenz-service-card"><span class="lenz-service-card__icon" data-cat="both"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-droplet"/></svg></span><div class="c128"><h4 class="w129 lenz-service-card__title">Water Heater Services</h4><div class="w130 lenz-service-card__blurb">Tank and tankless, professionally installed.</div></div></div><div class="c131 lenz-service-card"><span class="lenz-service-card__icon" data-cat="both"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-wind"/></svg></span><div class="c133"><h4 class="w134 lenz-service-card__title">Ductwork</h4><div class="w135 lenz-service-card__blurb">Repairs, modifications and airflow balancing.</div></div></div><div class="c136 lenz-service-card"><span class="lenz-service-card__icon" data-cat="both"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-flame"/></svg></span><div class="c138"><h4 class="w139 lenz-service-card__title">Gas Lines</h4><div class="w140 lenz-service-card__blurb">Safe runs for appliances and outdoor setups.</div></div></div><div class="c141 lenz-service-card"><span class="lenz-service-card__icon" data-cat="both"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-heat"/></svg></span><div class="c143"><h4 class="w144 lenz-service-card__title">Heat Pumps</h4><div class="w145 lenz-service-card__blurb">Heating and cooling from one efficient system.</div></div></div></div><div class="c146 lenz-service-help"><div class="c147 lenz-service-help__txt"><h3 class="w148">Not sure what you need?</h3><div class="w149">Tell us what you&rsquo;re hearing or feeling and we&rsquo;ll work it out — no pressure, no charge.</div></div><a class="lenz-phone-link" href="tel:+15152256446">(515) 225-6446 <svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-arrow"/></svg></a></div></div></div><div class="c151 lenz-cta-band lenz-on-dark"><div class="c152"><div class="c153 lenz-cta-band__inner"><h2 class="w154">Heat out? AC down? We&rsquo;re ready right now.</h2><div class="w155">24/7 emergency service across the Des Moines metro since 2009.</div><div class="bw157"><a class="w156 lenz-btn lenz-btn--gold" href="tel:+15152256446">Call (515) 225-6446</a></div></div></div></div><div class="c158 lenz-financing"><div class="c159"><div class="c160 lenz-financing__panel"><div class="c161 lenz-financing__head"><span class="lenz-eyebrow lenz-eyebrow--on-warm"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-card"/></svg> Financing</span><h2 class="w163">Financing that fits your budget</h2><div class="w164">Get pre-approved for a new furnace, an AC replacement, or an emergency repair — with plans built around your budget, not ours.</div></div><div class="c165"><div class="c166"><span class="lenz-financing__point-icon"><svg class="lenz-icon" aria-hidden="true"><use href="#i-clock"/></svg></span><h3 class="w168">Fast online pre-approval</h3><div class="w169">A few minutes online or during your in-home estimate.</div></div><div class="c170"><span class="lenz-financing__point-icon"><svg class="lenz-icon" aria-hidden="true"><use href="#i-card"/></svg></span><h3 class="w172">Flexible monthly terms</h3><div class="w173">Including promotional 0% deferred interest for qualified buyers.</div></div><div class="c174"><span class="lenz-financing__point-icon"><svg class="lenz-icon" aria-hidden="true"><use href="#i-check"/></svg></span><h3 class="w176">No impact to browse options</h3><div class="w177">See what you qualify for before you commit to anything.</div></div></div><div class="c178"><div class="bw180"><a class="w179 lenz-btn lenz-btn--navy" href="#financing">Explore financing</a></div><div class="bw182"><a class="w181 lenz-btn lenz-btn--ghost-navy" href="tel:+15152256446">Talk to us: (515) 225-6446</a></div></div></div></div></div><div class="c183 lenz-valueprops"><div class="c184"><div class="c185 lenz-section-head"><span class="lenz-eyebrow"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-shield"/></svg> Why Lenz</span><h2 class="w187">Why homeowners choose Lenz</h2></div><div class="c188"><div class="c189 lenz-vprop"><span class="lenz-stat-num" style="font-size:49px">01</span><h3 class="w191">Veteran-owned &amp; led</h3><div class="w192">Founded by U.S. Marine Corps Veteran Al Lenz — military-grade precision, transparency, and respect on every home visit.</div></div><div class="c193 lenz-vprop"><span class="lenz-stat-num" style="font-size:49px">02</span><h3 class="w195">Woman-owned &amp; operated</h3><div class="w196">Led with a focus on family-first customer service, clear communication, and home safety you can rely on.</div></div><div class="c197 lenz-vprop"><span class="lenz-stat-num" style="font-size:49px">03</span><h3 class="w199">24/7 emergency service</h3><div class="w200">HVAC breakdowns don&rsquo;t wait for business hours. Our background-checked, certified technicians are ready to roll day or night.</div></div><div class="c201 lenz-vprop"><span class="lenz-stat-num" style="font-size:49px">04</span><h3 class="w203">Free second opinions</h3><div class="w204">Got an expensive quote from another contractor? We&rsquo;ll re-evaluate your system for free — zero pressure, zero obligation.</div></div></div></div></div><div class="c205 lenz-plans"><div class="c206"><div class="c207 lenz-section-head lenz-section-head--center"><span class="lenz-eyebrow"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-award"/></svg> Service agreements</span><h2 class="w209">Save Money &amp; Prevent Sudden HVAC Breakdowns</h2><div class="w210">Keep your heating and cooling systems running smoothly year-round with a Lenz Service Agreement. Enjoy priority emergency dispatch, routine maintenance checks, exclusive discounts on repairs, and banked loyalty rewards all managed automatically by our team.</div></div><div class="c211"><div class="c212 lenz-plan lenz-plan--red"><span class="lenz-plan__stripe" data-plan="red" aria-hidden="true"></span><div class="w214 lenz-plan__name">RED</div><div class="w215 lenz-plan__price">$120 <small>+ tax / year</small></div><div class="w216 lenz-plan__meta">1 year term</div><ul class="lenz-plan__list"><li><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-check"/></svg><span><b>2</b> maintenance checks</span></li><li><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-check"/></svg><span><b>72-hour</b> emergency response</span></li><li><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-check"/></svg><span><b>10%</b> off parts &amp; service</span></li><li><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-check"/></svg><span><b>$50/yr</b> loyalty bonus, consecutive years</span></li></ul><div class="bw219"><a class="w218 lenz-btn lenz-btn--outline" href="#contact">Choose RED</a></div></div><div class="c220 lenz-plan lenz-plan--white"><span class="lenz-plan__stripe" data-plan="white" aria-hidden="true"></span><div class="w222 lenz-plan__name">WHITE</div><div class="w223 lenz-plan__price">$160 <small>+ tax / year</small></div><div class="w224 lenz-plan__meta">1&frac12; year term</div><ul class="lenz-plan__list"><li><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-check"/></svg><span><b>3</b> maintenance checks</span></li><li><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-check"/></svg><span><b>48-hour</b> emergency response</span></li><li><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-check"/></svg><span><b>15%</b> off parts &amp; service</span></li><li><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-check"/></svg><span><b>$100/yr</b> loyalty bonus, consecutive years</span></li></ul><div class="bw227"><a class="w226 lenz-btn lenz-btn--outline" href="#contact">Choose WHITE</a></div></div><div class="c228 lenz-plan lenz-plan--blue"><span class="lenz-plan__badge">Recommended</span><span class="lenz-plan__stripe" data-plan="blue" aria-hidden="true"></span><div class="w231 lenz-plan__name">BLUE</div><div class="w232 lenz-plan__price">$220 <small>+ tax / year</small></div><div class="w233 lenz-plan__meta">2 year term</div><ul class="lenz-plan__list"><li><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-check"/></svg><span><b>4</b> maintenance checks</span></li><li><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-check"/></svg><span><b>24-hour</b> emergency response</span></li><li><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-check"/></svg><span><b>20%</b> off parts &amp; service</span></li><li><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-check"/></svg><span><b>$150/yr</b> loyalty bonus, consecutive years</span></li></ul><div class="bw236"><a class="w235 lenz-btn lenz-btn--primary" href="#contact">Choose BLUE</a></div></div></div><div class="w237">We call you to schedule the appointments — no reminder notes on your fridge. Loyalty bonus transfers to a new homeowner who continues the agreement.</div></div></div><div class="c238 lenz-reviews lenz-on-dark"><div class="c239"><div class="c240 lenz-section-head"><span class="lenz-eyebrow"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-star"/></svg> Reviews</span><h2 class="w242">Over 1,800+ 5-Star Reviews Across Central Iowa</h2><div class="w243">See what your neighbours in Central Iowa have to say about working with our team.</div></div><div class="c244"><figure class="lenz-review lenz-review--feature"><span class="lenz-stars" role="img" aria-label="5 out of 5 stars"><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg></span><blockquote>&ldquo;LENZ did a phenomenal job on my evaporator coil replacement. I&rsquo;ve never seen techs work so hard on a relatively small job — and they came back the next day to make sure it was done right. Great follow-through and price, and a commitment to honest work. LENZ has my business for life now.&rdquo;</blockquote><figcaption class="lenz-review__name">— Curtis Taylor</figcaption></figure><div class="c246"><figure class="lenz-review lenz-review--card"><span class="lenz-stars" role="img" aria-label="5 out of 5 stars"><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg></span><blockquote>&ldquo;Puia was great. Great attitude and service. As always, I appreciate the work you all do and happy to be a customer.&rdquo;</blockquote><figcaption class="lenz-review__name">— Dave Olsen</figcaption></figure><figure class="lenz-review lenz-review--card"><span class="lenz-stars" role="img" aria-label="5 out of 5 stars"><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg><svg class="lenz-icon" aria-hidden="true"><use href="#i-star"/></svg></span><blockquote>&ldquo;Your service man did a great job, very courteous young man. Lenz is the best and we appreciate all you do for us.&rdquo;</blockquote><figcaption class="lenz-review__name">— Ron &amp; Janet Hester</figcaption></figure></div></div><p class="lenz-reviews__micro"><a href="#contact">Ready for service like this? Get a free estimate <svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-arrow"/></svg></a></p></div></div><div class="c250 lenz-brands"><div class="c251"><div class="c252 lenz-section-head"><span class="lenz-eyebrow"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-wrench"/></svg> Equipment we service</span><h2 class="w254">Certified Technicians Servicing All Major HVAC Brands</h2><div class="w255">Whether you need emergency repairs on an existing system or a custom installation for a new build, our certified technicians service every major heating and cooling brand on the market. We install, repair, and maintain industry-leading systems to keep your home running efficiently year-round.</div></div><div class="ph"><strong>Widget: lenz-marquee</strong><br><span>not rendered here — wire up / verify after import</span></div><div class="lenz-brands__creds"><span class="lenz-cred-chip"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-award"/></svg><span>BBB Accredited (A+ Rating)</span></span><span class="lenz-cred-chip"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-shield"/></svg><span>Iowa Master Licensed #50871-CL</span></span><span class="lenz-cred-chip"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-check"/></svg><span>Certified Drug-Free Workplace</span></span></div></div></div><div class="c258 lenz-about"><div class="c259"><div class="c260"><div class="c261"><span class="lenz-eyebrow"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-tv"/></svg> About Lenz</span><h2 class="w263">Meet Lenz Heating &amp; Cooling: Des Moines&rsquo; Family-Owned HVAC Team</h2><div class="lenz-about__stats"><div><b class="lenz-stat-num">26+ yrs</b><span>Al&rsquo;s experience</span></div><div><b class="lenz-stat-num">11</b><span>Cities served</span></div><div><b class="lenz-stat-num">A+</b><span>BBB rating</span></div></div><div class="w265">Since 2009, Lenz Heating &amp; Cooling has delivered dependable home comfort services across the Des Moines metro area. Founded by Al Lenz — an Iowa native, U.S. Marine Corps Veteran, and Iowa Master License holder with over 26 years of hands-on industry experience — our company was built on a simple promise: to do honest work and stand behind it.</div><div class="w266">Co-owned and operated with his wife Jenny, Lenz Heating &amp; Cooling combines technical expertise with dedicated customer care. Every technician on our team undergoes rigorous training, background checks, and drug testing so you can feel completely safe letting us into your home.</div><div class="w267">We don&rsquo;t just want to earn your business — we want to earn your trust.</div><div class="c268"><div class="bw270"><a class="w269 lenz-btn lenz-btn--primary" href="#contact">Get a free estimate</a></div><div class="bw272"><a class="w271 lenz-btn lenz-btn--outline" href="tel:+15152256446">Call (515) 225-6446</a></div></div></div><div class="c273 lenz-about__media"><img class="w274" src="/wp-content/uploads/2026/08/lenz-service-van-wrap.png" alt="Lenz Heating &amp; Cooling wrapped service van showing the blue and orange wave graphic" loading="lazy"><p class="lenz-about__caption">Let Our Family Help Yours<span>Serving the Des Moines metro since 2009</span></p></div></div></div></div><div class="c276 lenz-who13"><div class="c277"><div class="c278"><div class="c279"><span class="lenz-eyebrow"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-tv"/></svg> As seen on TV</span><h2 class="w281">Expert HVAC Tips Featured on WHO 13 News&rsquo; Hello Iowa!</h2><div class="w282">We regularly join WHO 13 News to share seasonal advice, energy-saving tips, and home maintenance strategies with our Central Iowa neighbours.</div><div class="bw284"><a class="w283 lenz-btn lenz-btn--primary" href="#contact">Watch Our Latest News Segments</a></div></div><div class="lenz-who13__media"><div class="lenz-who13__placeholder"><svg class="lenz-icon" aria-hidden="true"><use href="#i-tv"/></svg><span>Hello Iowa! segment</span></div></div></div></div></div><div class="c286 lenz-creds"><div class="c287"><div class="c288 lenz-section-head"><span class="lenz-eyebrow"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-award"/></svg> Trusted, accredited &amp; proudly local</span><h2 class="w290">Trusted, Accredited &amp; Proudly Local</h2></div><div class="c291"><div class="c292"><span class="lenz-creds__icon"><svg class="lenz-icon" aria-hidden="true"><use href="#i-award"/></svg></span><h3 class="w294">Accredited &amp; master licensed</h3><ul class="lenz-creds__list"><li><b>BBB Accredited (A+ Rating)</b> — a verified commitment to transparent pricing and honest service.</li><li><b>Iowa Master Licensed</b> — held by founder Al Lenz (#50871-CL) in HVAC, Refrigeration &amp; Hydronics.</li><li><b>Safety first</b> — background-checked technicians and a certified Drug-Free Workplace.</li></ul></div><div class="c296"><span class="lenz-creds__icon"><svg class="lenz-icon" aria-hidden="true"><use href="#i-shield"/></svg></span><h3 class="w298">Community &amp; chamber partners</h3><ul class="lenz-creds__list"><li><b>Chambers</b> — Urbandale, Waukee Area, and Creston.</li><li><b>Community partners</b> — ChildServe, American Heart Association, and the Waukee Leadership Institute.</li><li><b>Local outreach</b> — Operation Lenz a Helping Hand and youth sports sponsors (DCG Football, UGRA Softball).</li></ul></div><div class="c300"><span class="lenz-creds__icon"><svg class="lenz-icon" aria-hidden="true"><use href="#i-check"/></svg></span><h3 class="w302">What that means for you</h3><ul class="lenz-creds__list"><li>Straightforward, upfront pricing explained before any work begins.</li><li>Trained, vetted technicians you can trust in your home.</li><li>A local team invested in the same communities you live in.</li></ul></div></div></div></div><div class="c304 lenz-area"><div class="c305"><div class="c306 lenz-section-head"><span class="lenz-eyebrow"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-pin"/></svg> Service area</span><h2 class="w308">Proudly Serving the Greater Des Moines Metropolitan Area &amp; Central Iowa</h2><div class="w309">Based right here in Urbandale, Lenz Heating &amp; Cooling proudly serves Des Moines and surrounding communities with round-the-clock repairs, maintenance, and system replacements you can rely on.</div></div><div class="c310"><div class="c311"><div class="lenz-area__cities"><span class="lenz-area-chip"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-pin"/></svg>Urbandale</span><span class="lenz-area-chip"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-pin"/></svg>Des Moines</span><span class="lenz-area-chip"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-pin"/></svg>West Des Moines</span><span class="lenz-area-chip"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-pin"/></svg>Waukee</span><span class="lenz-area-chip"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-pin"/></svg>Ankeny</span><span class="lenz-area-chip"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-pin"/></svg>Johnston</span><span class="lenz-area-chip"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-pin"/></svg>Clive</span><span class="lenz-area-chip"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-pin"/></svg>Grimes</span><span class="lenz-area-chip"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-pin"/></svg>Altoona</span><span class="lenz-area-chip"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-pin"/></svg>Norwalk</span><span class="lenz-area-chip"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-pin"/></svg>Windsor Heights</span></div><p class="lenz-area__note"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-info"/></svg> Not sure if you&rsquo;re in our service radius? Give our local office a call at (515) 225-6446 to speak with our team.</p><p class="lenz-area__address"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-pin"/></svg><a href="https://www.google.com/maps/dir/?api=1&destination=7641+Douglas+Avenue,+Urbandale,+IA+50322" target="_blank" rel="noopener noreferrer">Headquarters: 7641 Douglas Avenue, Urbandale, IA</a></p></div><div class="lenz-area__map"><iframe src="https://www.google.com/maps?q=7641+Douglas+Avenue,+Urbandale,+IA+50322&output=embed" title="Lenz Heating &amp; Cooling location and service area map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div></div></div></div><div class="c316 lenz-faqs"><div class="c317"><div class="c318 lenz-section-head lenz-section-head--center"><span class="lenz-eyebrow"><svg class="lenz-icon-xs" aria-hidden="true"><use href="#i-info"/></svg> FAQs</span><h2 class="w320">Frequently Asked HVAC Questions</h2></div><div class="acc w321 lenz-faqs__list"><details><summary>What happens if my heating or AC breaks down after hours or on a weekend?</summary><div class="acc-body"><p>Lenz Heating &amp; Cooling offers 24/7/365 emergency HVAC service across Greater Des Moines. When you call (515) 225-6446, you speak directly with our local team, not a third-party call centre. Our certified technicians are on call day and night to diagnose and repair your heating or cooling system.</p></div></details><details><summary>How do I know if my repair or quote qualifies for a free estimate?</summary><div class="acc-body"><p>We provide free, no-obligation estimates for all new equipment installations, full system replacements, and second opinions. For routine repairs and troubleshooting, we charge a flat diagnostic fee that covers a full system inspection, followed by upfront pricing before any repair work begins.</p></div></details><details><summary>Do I have to sit around all day waiting for my technician to show up?</summary><div class="acc-body"><p>No, we provide clear arrival windows and real-time text tracking updates. You will receive an automated text notification when your technician is en route, eliminating long waiting windows and allowing you to plan your day.</p></div></details><details><summary>What can I expect during a home visit from a Lenz technician?</summary><div class="acc-body"><p>You can expect a professional, clean, and transparent service visit from a direct Lenz employee. Every home visit includes real-time arrival notifications when your technician is on the way, uniformed technicians wearing protective shoe covers, and thorough system diagnostics with clear, flat-rate pricing explained before any work starts.</p></div></details><details><summary>How do I apply for financing for a new furnace or AC installation?</summary><div class="acc-body"><p>You can apply for HVAC financing through Synchrony Bank online or in person during your estimate. We offer flexible payment plans, including promotional 0% deferred interest financing for qualified buyers. Pre-approval takes only a few minutes.</p></div></details><details><summary>What equipment brands do you service?</summary><div class="acc-body"><p>Carrier, Goodman, Lennox, Rheem, Trane, American Pride, Amana, Optimus, and Bryant. We&rsquo;re a Rheem Pro Partner.</p></div></details><details><summary>Are your technicians background-checked?</summary><div class="acc-body"><p>Yes. Every technician completes extensive training and a background check before entering a home.</p></div></details></div></div></div><div class="c322 lenz-close-form lenz-on-dark"><div class="c323"><div class="c324"><div class="c325"><h2 class="w326">Let&rsquo;s Get Your Home Comfortable Again</h2><div class="w327">Get fast, friendly HVAC repair, maintenance, or replacement from Central Iowa&rsquo;s trusted family-owned team. We&rsquo;re ready when you are!</div><div class="lenz-close-form__alt"><a class="lenz-phone-link" href="tel:+15152256446"><svg class="lenz-icon-sm" aria-hidden="true"><use href="#i-phone"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div></div><div class="c329"><div class="c330 lenz-form-card"><div class="ph"><strong>Elementor Pro Form</strong><br><span>not rendered here — wire up / verify after import</span></div></div></div></div></div></div>
+</body>
+</html>
