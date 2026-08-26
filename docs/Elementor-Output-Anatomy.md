@@ -240,3 +240,123 @@ Local one-line helpers (`h1`, `h2`, `body`, `btn`, `emoji`, `band`, `overlay`,
 
 A service page lands around 5–10 sections and 40–70 widgets. A page that needs 200
 widgets is either a homepage or a sign that a per-item component should be a grid.
+
+---
+
+## 11. Decisions every HTML→Elementor port must settle
+
+A static prototype contains things WordPress does differently and things Elementor
+cannot draw. None of these are discovered by `analyze-prototype.py` — it reads the
+design system, not the intent — and each one changes the shape or the cost of the
+job. **Settle them before the first `build.py`**, and record the answers in the
+site's `KIT-ANALYSIS.md`.
+
+Left implicit, they get decided by accident halfway through page four.
+
+### 11.1 Forms — the one thing that is never a 1:1 port
+
+A prototype's form is markup plus client-side validation and no backend. In
+WordPress it becomes a widget or a plugin, and that brings decisions that are
+infrastructure, not layout: **which form system** (Elementor Pro Forms, or a plugin
+such as WPForms/Fluent Forms), **where submissions go** (email recipient, CRM, both),
+**anti-spam**, and **what the success state is** (inline message vs. thank-you page,
+which affects conversion tracking).
+
+If the same form repeats on every page, decide once whether it is a saved Elementor
+template rather than rebuilt per page.
+
+### 11.2 The blog index is a template, not a page
+
+A prototype's blog page is a static placeholder grid. In WordPress it is an **archive
+template** in the Theme Builder driven by real posts — different object, different
+build path. Take it out of the page count before estimating.
+
+The same applies to any page whose content is a loop over posts, products, or
+testimonials.
+
+### 11.3 Header and footer come out of the page
+
+See §7. Most prototypes repeat an identical header and footer on every page; they
+belong in `pages/_theme/`. Deciding this late means porting the same 50 lines six
+times and then unpicking it.
+
+### 11.4 Decorative backgrounds and watermarks
+
+Prototypes routinely carry decorative SVG or image layers applied through
+`::before`/`::after` on sections and cards. Elementor has no pseudo-element control:
+each one becomes a section background image with explicit positioning, or it is
+dropped.
+
+Ask three things: **is it part of the brand or is it dressing?**, **does dropping it
+change the design's identity?**, and **what compensating spacing exists purely to
+make room for it?** — a large `padding-bottom` on a footer usually exists only to
+clear a watermark, and porting the padding without the watermark leaves dead space.
+
+Watch for these arriving as a block appended to the end of a stylesheet in a
+different hand from the rest (no comments, duplicated declarations). That is a late
+addition, and it is worth confirming it is wanted at all before paying to port it.
+
+### 11.5 Effects Elementor has no control for
+
+Every prototype has a handful: a hover `transform`, a `clamp()` fluid type ramp, a
+`nth-child` colour alternation, a sticky in-page anchor bar, scroll-reveal
+animation.
+
+The choice is per-effect, not per-project:
+
+| | |
+|---|---|
+| **Native equivalent** | Elementor entrance animations for scroll-reveal; the Accordion widget for a `<details>` list (it already does "only one open"); a Google Maps widget for an embedded iframe |
+| **Approximate** | fluid `clamp()` → explicit desktop/tablet/mobile sizes |
+| **Restate per widget** | `nth-child` alternation — Elementor has no positional selector, so the colour is set widget by widget. **This must be written down**, or the pattern breaks the first time someone adds a card |
+| **A little CSS** | a hover `transform`, a sticky offset — a few lines that Elementor cannot express |
+| **Drop** | anything whose absence nobody would notice |
+
+The last two are where the project's shape is decided. **Settle up front whether the
+deliverable may carry any custom CSS at all**, because "a few lines" is how §6's
+companion plugin starts. If the answer is yes, cap it: name the rules and keep them
+in one place.
+
+### 11.6 Icons
+
+A prototype's inline SVGs have no Elementor equivalent. Either map them to the
+kit's icon font / emoji (kit-native, §6A), or carry a sprite and reference it from
+small `html` widgets (§6B). Mixing is fine and usually right — gcreliable
+deliberately mixes emoji and Font Awesome "so the page never depends entirely on the
+icon font."
+
+### 11.7 The type scale, when there isn't one
+
+A hand-written prototype often has twenty-plus distinct `font-size` values. That is
+drift, not a scale, and Elementor cannot reproduce drift — every heading also needs a
+mobile size (§4), so the count doubles. Collapse it to 6–8 steps and **record which
+original size became which step**, because every later page depends on that mapping.
+
+---
+
+### Open decisions — Mid Lakes (`em-midlakes`, not yet onboarded)
+
+Recorded here so they survive between machines. Fold them into
+`projects/midlakes/KIT-ANALYSIS.md` when the site is onboarded, and delete this
+block.
+
+Prototype: `/Volumes/DataStorage/Github/em-midlakes/public` — 6 pages named
+`index.php` with **zero** `<?php` tags, 1698 lines of CSS, Manrope + Fraunces,
+`--container: 1200px`, bands `white` / `paper` `#f4f6f9` / `ink` `#0f1f35`.
+
+| # | Decision | Detail |
+|---|---|---|
+| 1 | **Form system** | Five identical `quote-form` (first/last/phone/email/message), JS-only, no backend. Elementor Pro Forms or a plugin? Recipient, anti-spam, success state |
+| 2 | **Watermarks** | `1/2/4/6.svg` on `.about`, `.service-card`, `.why-card`, `.spec-card`, `#contact`, `.site-footer` via `::before`/`::after`. Appended block, different hand from the rest of the file. Also `.site-footer { padding-bottom: 300px }`, which exists only to clear one |
+| 3 | **Blog** | `post-grid` holds a single `post-empty` placeholder → archive template, not a page. Drops the build to five real pages |
+| 4 | **Custom CSS allowed?** | The button is `border-radius: 999px` with `translateY(-2px)` on hover. The radius is native; the hover is not. Decide the policy, not this one case |
+| 5 | **Service icons** | Six inline SVGs on the home service cards. Font Awesome / emoji, or a sprite? |
+| 6 | **Type scale** | 27 distinct sizes to collapse, including two `clamp()` heads (h1 38.4→64px, h2 28.8→44px) |
+| 7 | **`_roles`** | `analyze-prototype.py` infers `primary: blue`; the brand primary is the red `#c10a0a`. Must be corrected by hand |
+
+Already settled by reading the prototype: header/footer → `pages/_theme/`; the FAQ
+`<details>` list → the Accordion widget; the `service-area` Google Maps iframe → the
+Maps widget; `nth-child` icon/numeral alternation → restated per widget. Fraunces
+italic carries the whole serif voice from three rules — `em`/`.serif` as a general
+italic utility, plus `.why-num` and `.step-num` for the decorative numerals — so it
+is small, distinctive, and the first thing a port loses silently.
