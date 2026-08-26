@@ -67,10 +67,13 @@ AI-wordpress-system/
 ├── CLAUDE.md · GEMINI.md · .cursor/  <- thin stubs that point every agent at AGENTS.md
 ├── docs/
 │   ├── Elementor-Site-Playbook.md     <- the portable process, in depth
+│   ├── Elementor-Output-Anatomy.md    <- what a finished page looks like + why (read before build.py)
 │   ├── Page-Creation-SOP.md           <- human step-by-step SOP
 │   ├── content-brief-template.md      <- fill-in brief you hand the agent per page
 │   ├── Example-Kit-Analysis-VitalAir.md <- an example of the kit analysis onboarding produces
 │   └── Publishing-QA-Checklist.md     <- pre-publish QA gate (SEO, links, media, responsive)
+├── .claude/skills/                    <- GENERATED mirror of the portable skills (repackage-skills.sh)
+│                                      so Claude Code can invoke them as /<name>; skills/ is the source
 ├── design-source/                     <- the HTML stage (optional; only for sites with no kit)
 │   ├── README.md                      <- which path am I on, and how to onboard a prototype
 │   └── prompts/local-service-site.md  <- master prompt: builds a static site from scratch
@@ -84,7 +87,7 @@ AI-wordpress-system/
 │   ├── site_tokens.py                 <- canonical reader for ANY site's tokens.json
 │   ├── elementor_meta.py              <- what a page needs from the target install
 │   ├── analyze-kit.py                 <- deterministic kit miner (onboarding's counting half)
-│   ├── analyze-prototype.py           <- same, for HTML/CSS prototypes; --emit-tokens writes the seam
+│   ├── analyze-prototype.py           <- same, for HTML/CSS prototypes (reads custom properties AND rules)
 │   ├── validate-page.py               <- REQUIRED pre-import gate (invariants + responsive + contrast + deps)
 │   ├── responsive-audit.py            <- responsive-only subset (also run by validate)
 │   ├── contrast-audit.py              <- WCAG AA contrast (also run by validate)
@@ -94,7 +97,8 @@ AI-wordpress-system/
 │   ├── import-page.php · import-template.php  <- headless import (for the local sandbox)
 │   ├── sandbox.sh                     <- drive a throwaway WP install to see the real render
 │   ├── test-validate-page.py          <- regression tests for the gate itself
-│   └── repackage-skills.sh            <- re-zip the portable skills after editing them
+│   ├── test-analyze-prototype.py      <- regression tests for the HTML prototype reader
+│   └── repackage-skills.sh            <- re-zip portable skills + mirror them to .claude/skills/
 ├── projects/                          <- ONE folder per site (the per-site layer)
 │   └── <site>/
 │       ├── current-theme/             <- the exported Elementor kit          [SITE-WIDE]
@@ -353,7 +357,8 @@ Dependency-free Python 3, so any agent or CI can run it.
 | `python3 scripts/verify-render.py <page>.json <url>` | Compare a rendered page against what the JSON promised |
 | `scripts/sandbox.sh check\|import\|verify\|page` | Drive a local throwaway WordPress to see the real Elementor render before handoff |
 | `python3 scripts/test-validate-page.py` | Regression tests for the gate — run after touching the validator |
-| `scripts/repackage-skills.sh` | Re-zip the portable skills into `skills-zipped/` after editing them |
+| `python3 scripts/test-analyze-prototype.py` | Regression tests for the prototype reader — run after touching `analyze-prototype.py` |
+| `scripts/repackage-skills.sh` | Re-zip the portable skills into `skills-zipped/` **and** mirror them into `.claude/skills/` so Claude Code can invoke them as `/<name>`. Run after editing anything under `skills/` |
 
 `scripts/elementor_builder.py` is the reusable builder library — brand styling is
 passed in (from `tokens.json`); structural + responsive correctness is baked in, so a
@@ -363,6 +368,12 @@ the two: site components built from the library, valued from the tokens.
 The gate has its own tests because a gate nobody tests silently stops gating —
 `test-validate-page.py` mutates a known-good page so each check *must* fire, and
 asserts the deliberate non-firing cases stay quiet.
+
+`test-analyze-prototype.py` exists for the same reason, learned the same way: the
+prototype reader shipped without ever meeting a real prototype, and the first one it
+saw broke it in five places at once. Its fixtures come in two shapes — a token-first
+design system and a hand-written one — because only the second shape exposed the
+bugs, and only the first one guards against fixing them by breaking it.
 
 ---
 

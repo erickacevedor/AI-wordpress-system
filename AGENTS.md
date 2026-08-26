@@ -178,7 +178,7 @@ export URLs → use root-relative links).
 | Command | Purpose |
 |---|---|
 | `python3 scripts/analyze-kit.py projects/<site>/current-theme` | **Onboarding, kit origin.** Mines the kit: palette by real usage, fonts, type scale, button spec, section rhythm, plugin dependencies, gotchas. Does the counting so the agent does the judging |
-| `python3 scripts/analyze-prototype.py projects/<site>/design-source` | **Onboarding, HTML origin.** Same job against a prototype's CSS: colour ramps, semantic roles (resolving `var()`), type scale, spacing, contrast. `--emit-tokens <path>` writes the `tokens.json` skeleton |
+| `python3 scripts/analyze-prototype.py projects/<site>/design-source` | **Onboarding, HTML origin.** Same job against a prototype's stylesheets. From the custom properties: colour ramps, semantic roles (resolving `var()`), type scale, spacing, contrast. From the rules: the button spec, the section background bands, the font families actually assigned, the section rhythm, and a census of every font-size in use. `--emit-tokens <path>` writes the `tokens.json` seam and self-checks it against `site_tokens.py` |
 | `python3 projects/<site>/pages/<slug>/build.py` | Build that page from tokens + section assembly (reproducible) |
 | `python3 scripts/validate-page.py <page>.json` | **Required gate.** All import invariants incl. responsive, contrast, dependencies. Exit 0 = ready |
 | `python3 scripts/responsive-audit.py <page>.json` | Responsive-only subset (also run by validate) |
@@ -188,7 +188,8 @@ export URLs → use root-relative links).
 | `python3 scripts/verify-render.py <page>.json <url>` | Compare a rendered page against what the JSON promised |
 | `scripts/sandbox.sh check\|import\|verify\|page` | Drive a local throwaway WordPress to see the real Elementor render before handoff |
 | `python3 scripts/test-validate-page.py` | Regression tests for the gate — run after touching the validator |
-| `scripts/repackage-skills.sh` | Re-zip the portable skills into `skills-zipped/` after editing them |
+| `python3 scripts/test-analyze-prototype.py` | Regression tests for the prototype reader — run after touching `analyze-prototype.py` |
+| `scripts/repackage-skills.sh` | Re-zip the portable skills into `skills-zipped/` **and** mirror them into `.claude/skills/` so Claude Code can invoke them as `/<name>`. Run after editing anything under `skills/` |
 
 - `scripts/elementor_builder.py` — the reusable builder library. Brand styling is
   passed in (from `tokens.json`); structural + responsive correctness is baked in, so
@@ -213,10 +214,17 @@ export URLs → use root-relative links).
 
 ## Guardrails
 
+- **Know what the output looks like before authoring a `build.py`.**
+  [`docs/Elementor-Output-Anatomy.md`](docs/Elementor-Output-Anatomy.md) records the
+  skeleton every built page shares — the full-width→boxed pair the gate enforces as an
+  *error*, `__globals__` colour binding, the responsive settings that are errors and not
+  warnings, and the two porting strategies (kit-native vs. lenz's companion plugin) with
+  what each costs. Read it once per unfamiliar task shape, not once per page.
 - Match the kit; don't redesign it. Keep each site's button shape/hover as-is.
 - Never emit `display_condition_list`. Use root-relative internal links.
 - Emit complete JSON — no `// ...`, no "other sections follow the same pattern."
 - If a brand-critical fact is missing (hero headline, location, CTA target), ask one
   focused question rather than guessing.
 - The two root PDFs and `docs/*VitalAir*` are legacy references; the live process is
-  this file + `README.md` + `docs/Elementor-Site-Playbook.md`.
+  this file + `README.md` + `docs/Elementor-Site-Playbook.md` +
+  `docs/Elementor-Output-Anatomy.md`.

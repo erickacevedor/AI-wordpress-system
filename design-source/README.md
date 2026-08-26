@@ -77,11 +77,27 @@ python3 scripts/analyze-prototype.py projects/<site>/design-source \
 #    generate the <site>-* skills — see skills/html-prototype-onboarding
 ```
 
-`analyze-prototype.py` reads CSS custom properties: colour ramps, semantic roles
-(resolving `var()` chains to the hex that actually lands), type scale, spacing, radii,
-fonts — and scores every role for contrast against white and near-black. It does the
-counting; the judgement (which ramp is the brand primary, which role is the CTA, what
-the voice is) stays with you.
+`analyze-prototype.py` reads both layers a prototype keeps its design system in.
+
+From the **custom properties**: colour ramps, semantic roles (resolving `var()` chains
+to the hex that actually lands), type scale, spacing, radii, fonts — scoring every role
+for contrast against white and near-black.
+
+From the **rules**: the button spec (`.btn` / `.btn-primary` / `:hover` — fill, hover
+fill, text, radius, padding, weight, and whether the hover is an animation), the
+section background bands, the font families actually assigned to `body` and the
+headings, the section rhythm, and a census of every `font-size` in use with its
+frequency. This layer matters because a hand-written prototype declares `--red` and
+`--ink` and then hardcodes the rest: read only `:root` on one of those and you get a
+palette and nothing else.
+
+A band is identified by the markup, not the selector name — a class only counts if a
+page actually puts it on a `<section>`. That is what keeps `.btn-primary` and
+`.quote-form` out of the band list.
+
+It does the counting; the judgement (which ramp is the brand primary, which role is
+the CTA, whether twenty-seven font-sizes are a scale or drift, what the voice is)
+stays with you.
 
 It **will not** overwrite an existing `tokens.json`. Emit elsewhere and merge by hand
 if the site already has one — tokens are hand-tuned after generation.

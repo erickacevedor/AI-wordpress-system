@@ -27,6 +27,11 @@ python3 scripts/validate-page.py projects/<site>/pages/<page-slug>/<page-slug>.j
 python3 scripts/make-preview.py projects/<site>/pages/<page-slug>/<page-slug>.json
 ```
 
+Before authoring a `build.py`, read `docs/Elementor-Output-Anatomy.md` — the skeleton
+every built page shares (full-width→boxed sections as a hard gate error, `__globals__`
+colour binding, responsive settings that are errors not warnings) and the two porting
+strategies with what each costs.
+
 Build through the site's generated `<site>-*` skills, never from an ad-hoc read of
 the kit. Match the kit; don't redesign it. Emit complete JSON. The client's site
 usually is not reachable — verify locally before handoff, never against their live

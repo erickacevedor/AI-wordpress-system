@@ -42,6 +42,15 @@ of the kit.
   against the client's live site.
 - Emit complete JSON. No elisions, no "the rest follows the same pattern."
 
+## Before authoring a build.py
+
+Read [`docs/Elementor-Output-Anatomy.md`](./docs/Elementor-Output-Anatomy.md) — what a
+finished page from this repo actually looks like: the full-width→boxed section pair the
+gate enforces as an **error**, `__globals__` colour binding instead of hex, the
+responsive settings that are errors and not warnings, and the two porting strategies
+(kit-native vs. a companion CSS plugin) with what each costs.
+
 See `AGENTS.md` for the full process, `README.md` for the master overview,
-`docs/Elementor-Site-Playbook.md` for the detailed playbook, and
+`docs/Elementor-Site-Playbook.md` for the detailed playbook,
+`docs/Elementor-Output-Anatomy.md` for the anatomy of the output, and
 `design-source/README.md` for the HTML stage.
