@@ -336,9 +336,23 @@ original size became which step**, because every later page depends on that mapp
 
 ### Open decisions — Mid Lakes (`em-midlakes`, not yet onboarded)
 
-Recorded here so they survive between machines. Fold them into
-`projects/midlakes/KIT-ANALYSIS.md` when the site is onboarded, and delete this
-block.
+> **SUPERSEDED 2026-08-27 — read `projects/midlakes/PORT-DECISIONS.md` instead.**
+> Decisions 1–5 are answered there, along with the CSS cap and the Elementor
+> behaviour verified on the real install. `projects/midlakes/STATUS.md` says where
+> the port is; `projects/midlakes/ENVIRONMENT.md` says how to reach it.
+>
+> Two corrections to what is below, kept visible because the numbers are cited
+> elsewhere:
+>
+> - **Decision 7 is wrong.** The brand primary is the **blue `#2540af`**, confirmed
+>   by the client; the red `#c10a0a` is the **CTA** colour, which is a separate token
+>   slot. `analyze-prototype.py` inferring `primary: blue` was correct — it does
+>   *not* need hand-correcting the way this block claims.
+> - **The measurements are stale.** They predate the About page: it is now **7
+>   pages, 1832 lines of CSS, 6 forms**. The prototype also lives at
+>   `D:\laragon\www\midlakes\public` on this machine.
+>
+> Delete this whole block once `KIT-ANALYSIS.md` exists.
 
 Prototype: `/Volumes/DataStorage/Github/em-midlakes/public` — 6 pages named
 `index.php` with **zero** `<?php` tags, 1698 lines of CSS, Manrope + Fraunces,

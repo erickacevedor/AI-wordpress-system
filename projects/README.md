@@ -36,6 +36,7 @@ walking up to `AGENTS.md`, so it runs from anywhere.
 | `petitt` | ✅ full | `pages/white-house/` |
 | `gcreliable` | ✅ full + `brand.py` | `pages/ac-installation/`, `pages/ductless-mini-split/` — the reference for the component-vocabulary tier |
 | `lenz` | ⚠️ no skills | Onboarded from an HTML design repo rather than a kit, so the skill-generation step never ran — it has `tokens.json` + `KIT-ANALYSIS.md` but no `skills/`, and its `pages/home/build.py` carries the brand vocabulary inline. Also holds `plugin/`, `tools/` and `pages/_theme/` (header + footer templates). Generate the `lenz-*` skills and extract `brand.py` before building its service pages. |
+| `midlakes` | 🚧 not onboarded | HTML prototype at `D:\laragon\www\midlakes\public` (7 pages). **No `tokens.json` / `KIT-ANALYSIS.md` / `skills/` yet — nothing built.** The WP install exists and its wire-up is done (page stubs, menus, permalinks). Read `STATUS.md` first, then `PORT-DECISIONS.md` (settled decisions + verified Elementor behaviour) and `ENVIRONMENT.md` (access, and two traps). Fidelity mandate: match the prototype exactly. |
 | `air-comfort` | ⚠️ legacy | Built before the skills/tokens/pages pattern — has `current-theme/` + a flat `output/` (3 pages sharing one PREVIEW/HANDOFF). This is exactly the collision the `pages/<slug>/` layout fixes; onboard + migrate it if it becomes active. |
 
 ## Add a new page to an existing site
