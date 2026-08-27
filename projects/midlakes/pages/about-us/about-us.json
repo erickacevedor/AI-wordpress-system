@@ -1,0 +1,3485 @@
+{
+  "version": "0.4",
+  "title": "About",
+  "type": "page",
+  "content": [
+    {
+      "id": "4100ae0f",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_image": {
+          "url": "http://localhost:10015/wp-content/uploads/2026/08/hero-hvac.webp",
+          "id": 34,
+          "size": "",
+          "alt": "Modern outdoor air conditioning condenser units beside a home at dusk",
+          "source": "library"
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_repeat": "no-repeat",
+        "overflow": "hidden",
+        "css_classes": "ml-hero"
+      },
+      "elements": [
+        {
+          "id": "41009ab8",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "104",
+              "right": "24",
+              "bottom": "56",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "88",
+              "right": "24",
+              "bottom": "48",
+              "left": "24",
+              "isLinked": false
+            },
+            "min_height": {
+              "unit": "px",
+              "size": 460,
+              "sizes": []
+            },
+            "min_height_tablet": {
+              "unit": "px",
+              "size": 560,
+              "sizes": []
+            },
+            "flex_justify_content": "flex-end",
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "41008761",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 22,
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 700,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "px",
+                  "size": 700,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "41003a05",
+                  "settings": {
+                    "title": "About Mid Lakes Heating &amp; Cooling",
+                    "header_size": "h1",
+                    "typography_font_size_mobile": {
+                      "unit": "rem",
+                      "size": 2.4,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02,
+                      "sizes": []
+                    },
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "_css_classes": "ml-h1"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "41004d5c",
+                  "settings": {
+                    "editor": "You don&rsquo;t want a faceless call center or a hard sell when your house is uncomfortable. You want a local team that will take your call, be there when they say they will, and provide you with an honest recommendation. We set out to create that kind of business.",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.12,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "rgba(255,255,255,0.85)",
+                    "_element_width": "initial",
+                    "_element_custom_width": {
+                      "unit": "px",
+                      "size": 540,
+                      "sizes": []
+                    },
+                    "_element_custom_width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                },
+                {
+                  "id": "410060b3",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14",
+                      "isLinked": true
+                    },
+                    "flex_direction_mobile": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "41001357",
+                      "settings": {
+                        "text": "Request Service",
+                        "align": "left",
+                        "link": {
+                          "url": "#contact",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Manrope",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15.2,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "999",
+                          "right": "999",
+                          "bottom": "999",
+                          "left": "999",
+                          "isLinked": true
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1.5",
+                          "right": "1.5",
+                          "bottom": "1.5",
+                          "left": "1.5",
+                          "isLinked": true
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "26",
+                          "bottom": "14",
+                          "left": "26",
+                          "isLinked": false
+                        },
+                        "background_color": "#c10a0a",
+                        "button_text_color": "#ffffff",
+                        "border_color": "#c10a0a",
+                        "button_background_hover_color": "#a30808",
+                        "button_hover_border_color": "#a30808",
+                        "hover_color": "#ffffff",
+                        "_css_classes": "ml-btn ml-btn-primary"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "button",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "410026ae",
+                      "settings": {
+                        "text": "Call (678) 776-0591",
+                        "align": "left",
+                        "link": {
+                          "url": "tel:+16787760591",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Manrope",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15.2,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "999",
+                          "right": "999",
+                          "bottom": "999",
+                          "left": "999",
+                          "isLinked": true
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1.5",
+                          "right": "1.5",
+                          "bottom": "1.5",
+                          "left": "1.5",
+                          "isLinked": true
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "26",
+                          "bottom": "14",
+                          "left": "26",
+                          "isLinked": false
+                        },
+                        "background_color": "rgba(0,0,0,0)",
+                        "button_text_color": "#ffffff",
+                        "border_color": "rgba(255,255,255,0.5)",
+                        "button_background_hover_color": "rgba(255,255,255,0.1)",
+                        "button_hover_border_color": "rgba(255,255,255,0.5)",
+                        "hover_color": "#ffffff",
+                        "_css_classes": "ml-btn ml-btn-ghost"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "button",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4100740a",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:12px 36px;\"><li style=\"margin:0;\"><strong style=\"color:#ffffff;font-weight:800;margin-right:6px;\">Veteran-Owned</strong>&amp; Family-Operated</li><li style=\"margin:0;\"><strong style=\"color:#ffffff;font-weight:800;margin-right:6px;\">Since 2018</strong>Serving Metro Atlanta &amp; Northeast GA</li><li style=\"margin:0;\"><strong style=\"color:#ffffff;font-weight:800;margin-right:6px;\">Licensed</strong>&amp; Insured</li><li style=\"margin:0;\"><strong style=\"color:#ffffff;font-weight:800;margin-right:6px;\">Parts &amp; Labor</strong>Guarantee</li></ul>",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.95,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "rgba(255,255,255,0.8)",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "34",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "_padding": {
+                      "unit": "px",
+                      "top": "26",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "_border_border": "solid",
+                    "_border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "_border_color": "rgba(255,255,255,0.18)"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "41020a2d",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "css_classes": "ml-wm-waves"
+      },
+      "elements": [
+        {
+          "id": "4101f6d6",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            },
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "4101e37f",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "4101bcd1",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 20,
+                      "column": "20",
+                      "row": "20"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 55.5,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4100c166",
+                      "settings": {
+                        "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Who we are",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.72,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.18,
+                          "sizes": []
+                        },
+                        "text_color": "#c10a0a"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4100d4bd",
+                      "settings": {
+                        "title": "Your Neighbors in Home Comfort, Right Here in Loganville",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4100e814",
+                      "settings": {
+                        "editor": "Mid Lakes Heating &amp; Cooling was established in 2018 and is based in Loganville. It is a family-run business that operates locally and is based on the straightforward principle of treating every customer like a neighbor and every home like our own.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4101d028",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 20,
+                      "column": "20",
+                      "row": "20"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 39.64,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4101a97a",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 24,
+                          "column": "24",
+                          "row": "24",
+                          "isLinked": true
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "6",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "41012219",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "unit": "px",
+                              "size": 0,
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "20",
+                              "left": "0",
+                              "isLinked": false
+                            },
+                            "border_border": "solid",
+                            "border_width": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "1",
+                              "left": "0",
+                              "isLinked": false
+                            },
+                            "border_color": "#dde3ec"
+                          },
+                          "elements": [
+                            {
+                              "id": "4100fb6b",
+                              "settings": {
+                                "title": "2018",
+                                "header_size": "p",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 2.2,
+                                  "sizes": []
+                                },
+                                "typography_font_size_mobile": {
+                                  "unit": "rem",
+                                  "size": 2.2,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "800",
+                                "typography_letter_spacing": {
+                                  "unit": "em",
+                                  "size": -0.03,
+                                  "sizes": []
+                                },
+                                "title_color": "#0f1f35"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "heading",
+                              "elType": "widget"
+                            },
+                            {
+                              "id": "41010ec2",
+                              "settings": {
+                                "editor": "Founded in Loganville",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 0.9,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "text_color": "#5a6472"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "text-editor",
+                              "elType": "widget"
+                            }
+                          ],
+                          "isInner": true,
+                          "elType": "container"
+                        },
+                        {
+                          "id": "41015c1e",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "unit": "px",
+                              "size": 0,
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "20",
+                              "left": "0",
+                              "isLinked": false
+                            },
+                            "border_border": "solid",
+                            "border_width": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "1",
+                              "left": "0",
+                              "isLinked": false
+                            },
+                            "border_color": "#dde3ec"
+                          },
+                          "elements": [
+                            {
+                              "id": "41013570",
+                              "settings": {
+                                "title": "300+",
+                                "header_size": "p",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 2.2,
+                                  "sizes": []
+                                },
+                                "typography_font_size_mobile": {
+                                  "unit": "rem",
+                                  "size": 2.2,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "800",
+                                "typography_letter_spacing": {
+                                  "unit": "em",
+                                  "size": -0.03,
+                                  "sizes": []
+                                },
+                                "title_color": "#0f1f35"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "heading",
+                              "elType": "widget"
+                            },
+                            {
+                              "id": "410148c7",
+                              "settings": {
+                                "editor": "Comfort Club members",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 0.9,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "text_color": "#5a6472"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "text-editor",
+                              "elType": "widget"
+                            }
+                          ],
+                          "isInner": true,
+                          "elType": "container"
+                        },
+                        {
+                          "id": "41019623",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "unit": "px",
+                              "size": 0,
+                              "column": "0",
+                              "row": "0",
+                              "isLinked": true
+                            },
+                            "padding": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          },
+                          "elements": [
+                            {
+                              "id": "41016f75",
+                              "settings": {
+                                "title": "75+",
+                                "header_size": "p",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 2.2,
+                                  "sizes": []
+                                },
+                                "typography_font_size_mobile": {
+                                  "unit": "rem",
+                                  "size": 2.2,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "800",
+                                "typography_letter_spacing": {
+                                  "unit": "em",
+                                  "size": -0.03,
+                                  "sizes": []
+                                },
+                                "title_color": "#0f1f35"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "heading",
+                              "elType": "widget"
+                            },
+                            {
+                              "id": "410182cc",
+                              "settings": {
+                                "editor": "Years of combined experience",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 0.9,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "text_color": "#5a6472"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "text-editor",
+                              "elType": "widget"
+                            }
+                          ],
+                          "isInner": true,
+                          "elType": "container"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "4102cb93",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#f4f6f9"
+      },
+      "elements": [
+        {
+          "id": "4102b83c",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "4102a4e5",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "41027e37",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 55.5,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "41021d84",
+                      "settings": {
+                        "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Our story",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.72,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.18,
+                          "sizes": []
+                        },
+                        "text_color": "#c10a0a"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "410230db",
+                      "settings": {
+                        "title": "Built on Doing the Right Thing",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "41024432",
+                      "settings": {
+                        "editor": "Giving our neighbors a heating and cooling company they can genuinely trust was the simple initial goal of Mid Lakes Heating &amp; Cooling. Honest, trustworthy, and truly local&mdash;not the biggest or most ostentatious.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "41025789",
+                      "settings": {
+                        "editor": "One repair and one cozy house at a time, we have expanded since 2018 by doing the right thing for our clients. Our technicians have over 75 years of combined experience, but what really makes us stand out is the way we treat people: honest responses, excellent work, and no pressure.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4102918e",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 39.64,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "41026ae0",
+                      "settings": {
+                        "html": "<figure class=\"ml-figure\" style=\"position:relative;margin:0;border-radius:14px;overflow:hidden;\"><img src=\"http://localhost:10015/wp-content/uploads/2026/08/ductwork.webp\" alt=\"Industrial HVAC ductwork and ventilation piping\" loading=\"lazy\" style=\"display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;\" /></figure>"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "html",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "4103a050",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "css_classes": "ml-wm-waves"
+      },
+      "elements": [
+        {
+          "id": "41038cf9",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            },
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "410379a2",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "410352f4",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 55.5,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4102deea",
+                      "settings": {
+                        "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Ownership",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.72,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.18,
+                          "sizes": []
+                        },
+                        "text_color": "#c10a0a"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4102f241",
+                      "settings": {
+                        "title": "Meet the Owner: John Jessup",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "41030598",
+                      "settings": {
+                        "editor": "Born in Georgia, John Jessup was raised in Loganville, where he currently resides with his spouse. John joined the US Army after graduating from high school and spent three years serving his country. In 1993, he graduated from the University of Georgia with a degree in accountancy.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "410318ef",
+                      "settings": {
+                        "editor": "John is in charge of Mid Lakes Heating &amp; Cooling&rsquo;s accounting, banking, insurance, and administrative departments&mdash;the back-end work that keeps everything honest and efficient for each and every client.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "41032c46",
+                      "settings": {
+                        "editor": "As a member of the Walton County Board of Education, John is also quite active in the community where he was raised. He enjoys fishing, hunting, watching college football, and yes, supporting the Dawgs, when he&rsquo;s not working or giving back to the community.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4103664b",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 39.64,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "41033f9d",
+                      "settings": {
+                        "html": "<figure class=\"ml-figure\" style=\"position:relative;margin:0;border-radius:14px;overflow:hidden;\"><img src=\"http://localhost:10015/wp-content/uploads/2026/08/technician.webp\" alt=\"Mid Lakes HVAC technician servicing a heating and cooling system\" loading=\"lazy\" style=\"display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;\" /></figure>"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "html",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "4104fc6e",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "4104e917",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 48,
+              "column": "48",
+              "row": "48",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "4103da55",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "4103b3a7",
+                  "settings": {
+                    "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Our values",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.72,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0.18,
+                      "sizes": []
+                    },
+                    "text_color": "#c10a0a"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                },
+                {
+                  "id": "4103c6fe",
+                  "settings": {
+                    "title": "What We Stand For",
+                    "header_size": "h2",
+                    "typography_font_size_mobile": {
+                      "unit": "rem",
+                      "size": 1.8,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02,
+                      "sizes": []
+                    },
+                    "typography_typography": "custom",
+                    "_css_classes": "ml-h2"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "4104d5c0",
+              "settings": {
+                "content_width": "full",
+                "container_type": "grid",
+                "grid_columns_grid": {
+                  "unit": "fr",
+                  "size": 3,
+                  "sizes": []
+                },
+                "grid_columns_grid_tablet": {
+                  "unit": "fr",
+                  "size": 2,
+                  "sizes": []
+                },
+                "grid_columns_grid_mobile": {
+                  "unit": "fr",
+                  "size": 1,
+                  "sizes": []
+                },
+                "grid_rows_grid": {
+                  "unit": "fr",
+                  "size": 0,
+                  "sizes": []
+                },
+                "grid_gaps": {
+                  "column": "20",
+                  "row": "20",
+                  "isLinked": true,
+                  "unit": "px"
+                },
+                "grid_align_items": "stretch",
+                "presetTitle": "Grid",
+                "presetIcon": "eicon-container-grid"
+              },
+              "elements": [
+                {
+                  "id": "410427b1",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "column": "10",
+                      "row": "10",
+                      "isLinked": true
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f4f6f9",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "36",
+                      "right": "32",
+                      "bottom": "36",
+                      "left": "32",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#dde3ec",
+                    "min_height": {
+                      "unit": "px",
+                      "size": 350,
+                      "sizes": []
+                    },
+                    "css_classes": "ml-wm-card-4"
+                  },
+                  "elements": [
+                    {
+                      "id": "4103edac",
+                      "settings": {
+                        "title": "01",
+                        "header_size": "p",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "title_color": "#c10a0a",
+                        "_css_classes": "ml-why-num"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "41040103",
+                      "settings": {
+                        "title": "Honest Recommendations",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4104145a",
+                      "settings": {
+                        "editor": "We&rsquo;ll make the necessary repairs and clearly advise you when a replacement is the better course of action. There is no compulsion to upsell unnecessary items.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.95,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4104750d",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "column": "10",
+                      "row": "10",
+                      "isLinked": true
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f4f6f9",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "36",
+                      "right": "32",
+                      "bottom": "36",
+                      "left": "32",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#dde3ec",
+                    "min_height": {
+                      "unit": "px",
+                      "size": 350,
+                      "sizes": []
+                    },
+                    "css_classes": "ml-wm-card-4"
+                  },
+                  "elements": [
+                    {
+                      "id": "41043b08",
+                      "settings": {
+                        "title": "02",
+                        "header_size": "p",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "title_color": "#2540af",
+                        "_css_classes": "ml-why-num"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "41044e5f",
+                      "settings": {
+                        "title": "We Treat Your Home Like Ours",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "410461b6",
+                      "settings": {
+                        "editor": "Because we would want the same in our own homes, our professionals respect your space, arrive prepared, and work carefully.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.95,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4104c269",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "column": "10",
+                      "row": "10",
+                      "isLinked": true
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f4f6f9",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "36",
+                      "right": "32",
+                      "bottom": "36",
+                      "left": "32",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#dde3ec",
+                    "min_height": {
+                      "unit": "px",
+                      "size": 350,
+                      "sizes": []
+                    },
+                    "css_classes": "ml-wm-card-4"
+                  },
+                  "elements": [
+                    {
+                      "id": "41048864",
+                      "settings": {
+                        "title": "03",
+                        "header_size": "p",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "title_color": "#c10a0a",
+                        "_css_classes": "ml-why-num"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "41049bbb",
+                      "settings": {
+                        "title": "We Look at the Whole Home",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4104af12",
+                      "settings": {
+                        "editor": "Sometimes the equipment isn&rsquo;t the issue. In order to address the true problem, we examine beyond the furnace and air conditioner to insulation, humidity, and what&rsquo;s going on beneath your house.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.95,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "41059726",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_image": {
+          "url": "http://localhost:10015/wp-content/uploads/2026/08/vents.webp",
+          "id": 38,
+          "size": "",
+          "alt": "Modern rooftop ventilation vents on a concrete facade",
+          "source": "library"
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_repeat": "no-repeat",
+        "overflow": "hidden",
+        "css_classes": "ml-comfort"
+      },
+      "elements": [
+        {
+          "id": "410583cf",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "120",
+              "right": "24",
+              "bottom": "120",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "80",
+              "right": "24",
+              "bottom": "80",
+              "left": "24",
+              "isLinked": false
+            },
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "41057078",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 18,
+                  "column": "18",
+                  "row": "18",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 560,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "px",
+                  "size": 560,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "4105231c",
+                  "settings": {
+                    "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Beyond HVAC",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.72,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0.18,
+                      "sizes": []
+                    },
+                    "text_color": "#ffffff"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                },
+                {
+                  "id": "41053673",
+                  "settings": {
+                    "title": "The Work Most Companies Stop Short Of",
+                    "header_size": "h2",
+                    "typography_font_size_mobile": {
+                      "unit": "rem",
+                      "size": 1.8,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02,
+                      "sizes": []
+                    },
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "_css_classes": "ml-h2"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "410549ca",
+                  "settings": {
+                    "editor": "The equipment is where most heating and cooling companies end up. We don&rsquo;t. Mid Lakes assists with crawl space encapsulation, attic insulation, and humidity control in addition to HVAC repair, maintenance and installation&mdash;the whole-house upgrades that reduce system effort and improve the consistency of your rooms. It&rsquo;s what makes us different.",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.95,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "rgba(255,255,255,0.82)"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                },
+                {
+                  "id": "41055d21",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14",
+                      "isLinked": true
+                    },
+                    "flex_direction_mobile": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "41050fc5",
+                      "settings": {
+                        "text": "Explore Our Services",
+                        "align": "left",
+                        "link": {
+                          "url": "/services/",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Manrope",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15.2,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "999",
+                          "right": "999",
+                          "bottom": "999",
+                          "left": "999",
+                          "isLinked": true
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1.5",
+                          "right": "1.5",
+                          "bottom": "1.5",
+                          "left": "1.5",
+                          "isLinked": true
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "26",
+                          "bottom": "14",
+                          "left": "26",
+                          "isLinked": false
+                        },
+                        "background_color": "#c10a0a",
+                        "button_text_color": "#ffffff",
+                        "border_color": "#c10a0a",
+                        "button_background_hover_color": "#a30808",
+                        "button_hover_border_color": "#a30808",
+                        "hover_color": "#ffffff",
+                        "_css_classes": "ml-btn ml-btn-primary"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "button",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "410740a0",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#f4f6f9"
+      },
+      "elements": [
+        {
+          "id": "41072d49",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 48,
+              "column": "48",
+              "row": "48",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "4105d12b",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "4105aa7d",
+                  "settings": {
+                    "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Credentials",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.72,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0.18,
+                      "sizes": []
+                    },
+                    "text_color": "#c10a0a"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                },
+                {
+                  "id": "4105bdd4",
+                  "settings": {
+                    "title": "Why Homeowners Choose Mid Lakes",
+                    "header_size": "h2",
+                    "typography_font_size_mobile": {
+                      "unit": "rem",
+                      "size": 1.8,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02,
+                      "sizes": []
+                    },
+                    "typography_typography": "custom",
+                    "_css_classes": "ml-h2"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "4107069b",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "stretch",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 48,
+                  "column": "48",
+                  "row": "48"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "4106dfed",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 47.92,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4106588c",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "26",
+                          "right": "26",
+                          "bottom": "28",
+                          "left": "26",
+                          "isLinked": false
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#dde3ec",
+                        "css_classes": "ml-wm-card-4"
+                      },
+                      "elements": [
+                        {
+                          "id": "4105e482",
+                          "settings": {
+                            "editor": "Certified &amp; qualified",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.78,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "700",
+                            "typography_text_transform": "uppercase",
+                            "typography_letter_spacing": {
+                              "unit": "em",
+                              "size": 0.14,
+                              "sizes": []
+                            },
+                            "text_color": "#5a6472"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "text-editor",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "41064535",
+                          "settings": {
+                            "icon_list": [
+                              {
+                                "text": "<strong>Carrier Dealer:</strong> We install high-end, long-lasting, high-efficiency systems.",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4105f7d"
+                              },
+                              {
+                                "text": "<strong>NATE-Certified Technicians:</strong> Trained and tested to the industry&rsquo;s leading standard.",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "41060b3"
+                              },
+                              {
+                                "text": "<strong>EPA 608 Certified:</strong> Qualified to safely handle refrigerant systems.",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "41061e8"
+                              },
+                              {
+                                "text": "<strong>Licensed &amp; Insured:</strong> You may be sure of professional, code-compliant work.",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "410631d"
+                              }
+                            ],
+                            "icon_color": "#2540af",
+                            "icon_size": {
+                              "unit": "px",
+                              "size": 18,
+                              "sizes": []
+                            },
+                            "space_between": {
+                              "unit": "px",
+                              "size": 12,
+                              "sizes": []
+                            },
+                            "text_indent": {
+                              "unit": "px",
+                              "size": 12,
+                              "sizes": []
+                            },
+                            "text_color": "#1a2436",
+                            "icon_typography_typography": "custom",
+                            "icon_typography_font_family": "Manrope",
+                            "icon_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.96,
+                              "sizes": []
+                            },
+                            "icon_typography_font_weight": "400",
+                            "divider": "",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "16",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "icon-list",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4106f344",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 47.92,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4106cc96",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "26",
+                          "right": "26",
+                          "bottom": "28",
+                          "left": "26",
+                          "isLinked": false
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#dde3ec",
+                        "css_classes": "ml-wm-card-4"
+                      },
+                      "elements": [
+                        {
+                          "id": "41066be3",
+                          "settings": {
+                            "editor": "Backed by our promise",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.78,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "700",
+                            "typography_text_transform": "uppercase",
+                            "typography_letter_spacing": {
+                              "unit": "em",
+                              "size": 0.14,
+                              "sizes": []
+                            },
+                            "text_color": "#5a6472"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "text-editor",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "4106b93f",
+                          "settings": {
+                            "icon_list": [
+                              {
+                                "text": "<strong>Parts &amp; Labor Guaranty:</strong> We firmly support the quality of our work on every project.",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "41067f3"
+                              },
+                              {
+                                "text": "<strong>24/7 Emergency Service:</strong> When your system malfunctions after hours, a real, local person responds.",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4106929"
+                              },
+                              {
+                                "text": "<strong>Free Estimates:</strong> No-obligation, 100% free estimates for new installs.",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4106a5e"
+                              }
+                            ],
+                            "icon_color": "#c10a0a",
+                            "icon_size": {
+                              "unit": "px",
+                              "size": 18,
+                              "sizes": []
+                            },
+                            "space_between": {
+                              "unit": "px",
+                              "size": 12,
+                              "sizes": []
+                            },
+                            "text_indent": {
+                              "unit": "px",
+                              "size": 12,
+                              "sizes": []
+                            },
+                            "text_color": "#1a2436",
+                            "icon_typography_typography": "custom",
+                            "icon_typography_font_family": "Manrope",
+                            "icon_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.96,
+                              "sizes": []
+                            },
+                            "icon_typography_font_weight": "400",
+                            "divider": "",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "16",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "icon-list",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "410719f2",
+              "settings": {
+                "editor": "More than 300 local homeowners who rely on us to maintain their systems throughout the year are members of the Comfort Club &mdash; see our <a href=\"/service-agreements/\" style=\"color:#c10a0a;text-decoration:underline;text-underline-offset:2px;\">service agreements</a>.",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 0.95,
+                  "sizes": []
+                },
+                "typography_font_weight": "400",
+                "text_color": "#5a6472",
+                "_margin": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": true,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "41083c0b",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "410828b4",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "4108155d",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "4107eeaf",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 55.5,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "410753f7",
+                      "settings": {
+                        "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Community",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.72,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.18,
+                          "sizes": []
+                        },
+                        "text_color": "#c10a0a"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4107674e",
+                      "settings": {
+                        "title": "Proud to Serve Our Community",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "41077aa5",
+                      "settings": {
+                        "editor": "Being local is more than simply our location; it&rsquo;s who we are. We are committed to the community that sustains us, from John&rsquo;s work on the Walton County Board of Education to the daily tasks of making our neighbors comfortable.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "41078dfc",
+                      "settings": {
+                        "editor": "Mid Lakes serves homeowners across Gwinnett, DeKalb, Rockdale, Newton, Walton, Athens-Clarke, Oconee, Morgan, Jasper, Greene, and Putnam Counties.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4107b4aa",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_wrap": "wrap",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 14,
+                          "column": "14",
+                          "row": "14",
+                          "isLinked": true
+                        },
+                        "flex_direction_mobile": "column"
+                      },
+                      "elements": [
+                        {
+                          "id": "4107a153",
+                          "settings": {
+                            "text": "See Our Service Area",
+                            "align": "left",
+                            "link": {
+                              "url": "/service-area/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "typography_typography": "custom",
+                            "typography_font_family": "Manrope",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 15.2,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "700",
+                            "border_radius": {
+                              "unit": "px",
+                              "top": "999",
+                              "right": "999",
+                              "bottom": "999",
+                              "left": "999",
+                              "isLinked": true
+                            },
+                            "border_border": "solid",
+                            "border_width": {
+                              "unit": "px",
+                              "top": "1.5",
+                              "right": "1.5",
+                              "bottom": "1.5",
+                              "left": "1.5",
+                              "isLinked": true
+                            },
+                            "text_padding": {
+                              "unit": "px",
+                              "top": "14",
+                              "right": "26",
+                              "bottom": "14",
+                              "left": "26",
+                              "isLinked": false
+                            },
+                            "background_color": "#c10a0a",
+                            "button_text_color": "#ffffff",
+                            "border_color": "#c10a0a",
+                            "button_background_hover_color": "#a30808",
+                            "button_hover_border_color": "#a30808",
+                            "hover_color": "#ffffff",
+                            "_css_classes": "ml-btn ml-btn-primary"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "button",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "41080206",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 39.64,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4107c801",
+                      "settings": {
+                        "editor": "Counties we serve",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.78,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.14,
+                          "sizes": []
+                        },
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4107db58",
+                      "settings": {
+                        "html": "<ul style=\"list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px;\"><li style=\"display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;\">Gwinnett</li><li style=\"display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;\">DeKalb</li><li style=\"display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;\">Rockdale</li><li style=\"display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;\">Newton</li><li style=\"display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;\">Walton</li><li style=\"display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;\">Athens-Clarke</li><li style=\"display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;\">Oconee</li><li style=\"display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;\">Morgan</li><li style=\"display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;\">Jasper</li><li style=\"display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;\">Greene</li><li style=\"display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;\">Putnam</li></ul>"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "html",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "410984d2",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#0f1f35",
+        "_element_id": "contact",
+        "css_classes": "ml-wm-contact ml-band-ink"
+      },
+      "elements": [
+        {
+          "id": "4109717b",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            },
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "41095e24",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "41093776",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18,
+                      "column": "18",
+                      "row": "18"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 46.41,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4108fd71",
+                      "settings": {
+                        "title": "Ready to Get Comfortable?",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "410910c8",
+                      "settings": {
+                        "editor": "Whether you need a repair, a new system, seasonal maintenance, or a whole-home comfort improvement, we are happy to provide honest answers and service.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.95,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "rgba(255,255,255,0.75)",
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "px",
+                          "size": 460,
+                          "sizes": []
+                        },
+                        "_element_custom_width_mobile": {
+                          "unit": "%",
+                          "size": 100,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4109241f",
+                      "settings": {
+                        "html": "<dl style=\"display:grid;gap:26px;margin:0;\"><div style=\"margin:0;\"><dt style=\"font-size:0.72rem;letter-spacing:0.16em;text-transform:uppercase;color:#6fb3ec;font-weight:700;margin-bottom:6px;\">Direct Phone</dt><dd style=\"margin:0;font-size:1.1rem;font-weight:600;color:#ffffff;\"><a href=\"tel:+16787760591\" style=\"color:#ff8b8b;\">(678) 776-0591</a><span style=\"display:block;font-size:0.85rem;font-weight:400;color:#8fb2d8;margin-top:4px;\">24/7 Emergency Line</span></dd></div><div style=\"margin:0;\"><dt style=\"font-size:0.72rem;letter-spacing:0.16em;text-transform:uppercase;color:#6fb3ec;font-weight:700;margin-bottom:6px;\">Office Location</dt><dd style=\"margin:0;font-size:1.1rem;font-weight:600;color:#ffffff;\">2834 Horseshoe Rd, Loganville, GA 30052</dd></div><div style=\"margin:0;\"><dt style=\"font-size:0.72rem;letter-spacing:0.16em;text-transform:uppercase;color:#6fb3ec;font-weight:700;margin-bottom:6px;\">Hours</dt><dd style=\"margin:0;font-size:1.1rem;font-weight:600;color:#ffffff;\">Mon&ndash;Fri: 8:00 AM &ndash; 5:00 PM<span style=\"display:block;font-size:0.85rem;font-weight:400;color:#8fb2d8;margin-top:4px;\">24/7 After-Hours Emergency Support</span></dd></div></dl>",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "36",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "html",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "41094acd",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 48.73,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4108ea1a",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 6,
+                          "column": "6",
+                          "row": "6",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#17293f",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "36",
+                          "right": "36",
+                          "bottom": "36",
+                          "left": "36",
+                          "isLinked": false
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "rgba(255,255,255,0.08)",
+                        "padding_mobile": {
+                          "unit": "px",
+                          "top": "26",
+                          "right": "22",
+                          "bottom": "26",
+                          "left": "22",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "4108c36c",
+                          "settings": {
+                            "title": "Schedule Service Online",
+                            "header_size": "h3",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 1.5,
+                              "sizes": []
+                            },
+                            "typography_font_size_mobile": {
+                              "unit": "rem",
+                              "size": 1.5,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "800",
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1.1,
+                              "sizes": []
+                            },
+                            "typography_letter_spacing": {
+                              "unit": "em",
+                              "size": -0.02,
+                              "sizes": []
+                            },
+                            "title_color": "#ffffff"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "heading",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "4108d6c3",
+                          "settings": {
+                            "editor": "Fill out the form below and our team will reach out to schedule your service.",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.92,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "400",
+                            "text_color": "rgba(255,255,255,0.65)"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "text-editor",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "4108b015",
+                          "settings": {
+                            "form_name": "Mid Lakes Quote Request",
+                            "form_fields": [
+                              {
+                                "custom_id": "firstName",
+                                "field_label": "First name",
+                                "placeholder": "Jane",
+                                "field_type": "text",
+                                "width": "50",
+                                "required": "true",
+                                "_id": "41084f6"
+                              },
+                              {
+                                "custom_id": "lastName",
+                                "field_label": "Last name",
+                                "placeholder": "Doe",
+                                "field_type": "text",
+                                "width": "50",
+                                "required": "true",
+                                "_id": "410862b"
+                              },
+                              {
+                                "custom_id": "phone",
+                                "field_label": "Phone number",
+                                "placeholder": "(678) 555-0123",
+                                "field_type": "tel",
+                                "width": "50",
+                                "required": "true",
+                                "_id": "4108761"
+                              },
+                              {
+                                "custom_id": "email",
+                                "field_label": "Email",
+                                "placeholder": "you@example.com",
+                                "field_type": "email",
+                                "width": "50",
+                                "required": "true",
+                                "_id": "4108896"
+                              },
+                              {
+                                "custom_id": "message",
+                                "field_label": "How can we help?",
+                                "placeholder": "Tell us about your heating or cooling needs...",
+                                "field_type": "textarea",
+                                "width": "100",
+                                "required": "",
+                                "_id": "41089cb",
+                                "rows": 3
+                              }
+                            ],
+                            "button_text": "Submit Request",
+                            "button_size": "sm",
+                            "button_width": "100",
+                            "submit_actions": [
+                              "email"
+                            ],
+                            "email_to": "websites@exploremedia.com",
+                            "email_subject": "New estimate request — Mid Lakes HVAC",
+                            "email_content": "[all-fields]",
+                            "email_from_name": "Mid Lakes Website",
+                            "email_reply_to": "[field id=\"email\"]",
+                            "success_message": "Thanks! Your request has been received&mdash;we&rsquo;ll call you shortly.",
+                            "honeypot": "yes",
+                            "label_spacing": {
+                              "unit": "px",
+                              "size": 7,
+                              "sizes": []
+                            },
+                            "row_gap": {
+                              "unit": "px",
+                              "size": 16,
+                              "sizes": []
+                            },
+                            "column_gap": {
+                              "unit": "px",
+                              "size": 16,
+                              "sizes": []
+                            },
+                            "label_color": "rgba(255,255,255,0.7)",
+                            "field_typography_typography": "custom",
+                            "field_typography_font_family": "Manrope",
+                            "field_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.95,
+                              "sizes": []
+                            },
+                            "label_typography_typography": "custom",
+                            "label_typography_font_family": "Manrope",
+                            "label_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.82,
+                              "sizes": []
+                            },
+                            "label_typography_font_weight": "600",
+                            "field_background_color": "rgba(255,255,255,0.04)",
+                            "field_text_color": "#ffffff",
+                            "field_border_color": "rgba(255,255,255,0.4)",
+                            "field_border_width": {
+                              "unit": "px",
+                              "top": "1",
+                              "right": "1",
+                              "bottom": "1",
+                              "left": "1",
+                              "isLinked": true
+                            },
+                            "field_border_radius": {
+                              "unit": "px",
+                              "top": "10",
+                              "right": "10",
+                              "bottom": "10",
+                              "left": "10",
+                              "isLinked": true
+                            },
+                            "field_padding": {
+                              "unit": "px",
+                              "top": "13",
+                              "right": "15",
+                              "bottom": "13",
+                              "left": "15",
+                              "isLinked": false
+                            },
+                            "button_background_color": "#c10a0a",
+                            "button_text_color": "#ffffff",
+                            "button_border_color": "#c10a0a",
+                            "button_border_border": "solid",
+                            "button_border_width": {
+                              "unit": "px",
+                              "top": "1.5",
+                              "right": "1.5",
+                              "bottom": "1.5",
+                              "left": "1.5",
+                              "isLinked": true
+                            },
+                            "button_border_radius": {
+                              "unit": "px",
+                              "top": "999",
+                              "right": "999",
+                              "bottom": "999",
+                              "left": "999",
+                              "isLinked": true
+                            },
+                            "button_background_hover_color": "#a30808",
+                            "button_hover_border_color": "#a30808",
+                            "button_text_color_hover": "#ffffff",
+                            "button_typography_typography": "custom",
+                            "button_typography_font_family": "Manrope",
+                            "button_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.95,
+                              "sizes": []
+                            },
+                            "button_typography_font_weight": "700",
+                            "button_padding": {
+                              "unit": "px",
+                              "top": "14",
+                              "right": "26",
+                              "bottom": "14",
+                              "left": "26",
+                              "isLinked": false
+                            },
+                            "_css_classes": "ml-form ml-btn"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "form",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    }
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer",
+    "hide_title": "yes"
+  }
+}

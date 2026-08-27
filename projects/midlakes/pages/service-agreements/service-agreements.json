@@ -1,0 +1,3043 @@
+{
+  "version": "0.4",
+  "title": "Service Agreements",
+  "type": "page",
+  "content": [
+    {
+      "id": "43008761",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_image": {
+          "url": "http://localhost:10015/wp-content/uploads/2026/08/technician.webp",
+          "id": 35,
+          "size": "",
+          "alt": "Mid Lakes HVAC technician servicing a heating and cooling system",
+          "source": "library"
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_repeat": "no-repeat",
+        "overflow": "hidden",
+        "css_classes": "ml-hero"
+      },
+      "elements": [
+        {
+          "id": "4300740a",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "104",
+              "right": "24",
+              "bottom": "56",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "88",
+              "right": "24",
+              "bottom": "48",
+              "left": "24",
+              "isLinked": false
+            },
+            "min_height": {
+              "unit": "px",
+              "size": 460,
+              "sizes": []
+            },
+            "min_height_tablet": {
+              "unit": "px",
+              "size": 560,
+              "sizes": []
+            },
+            "flex_justify_content": "flex-end",
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "430060b3",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 22,
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 700,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "px",
+                  "size": 700,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "430026ae",
+                  "settings": {
+                    "title": "HVAC Service Agreements in Loganville, GA",
+                    "header_size": "h1",
+                    "typography_font_size_mobile": {
+                      "unit": "rem",
+                      "size": 2.4,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02,
+                      "sizes": []
+                    },
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "_css_classes": "ml-h1"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "43003a05",
+                  "settings": {
+                    "editor": "Join over 300 local homeowners who trust Mid Lakes HVAC for year-round system tune-ups, priority service, and lower energy bills.",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.12,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "rgba(255,255,255,0.85)",
+                    "_element_width": "initial",
+                    "_element_custom_width": {
+                      "unit": "px",
+                      "size": 540,
+                      "sizes": []
+                    },
+                    "_element_custom_width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                },
+                {
+                  "id": "43004d5c",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14",
+                      "isLinked": true
+                    },
+                    "flex_direction_mobile": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "43001357",
+                      "settings": {
+                        "text": "Call to Enroll: (678) 776-0591",
+                        "align": "left",
+                        "link": {
+                          "url": "tel:+16787760591",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Manrope",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15.2,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "999",
+                          "right": "999",
+                          "bottom": "999",
+                          "left": "999",
+                          "isLinked": true
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1.5",
+                          "right": "1.5",
+                          "bottom": "1.5",
+                          "left": "1.5",
+                          "isLinked": true
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "26",
+                          "bottom": "14",
+                          "left": "26",
+                          "isLinked": false
+                        },
+                        "background_color": "#c10a0a",
+                        "button_text_color": "#ffffff",
+                        "border_color": "#c10a0a",
+                        "button_background_hover_color": "#a30808",
+                        "button_hover_border_color": "#a30808",
+                        "hover_color": "#ffffff",
+                        "_css_classes": "ml-btn ml-btn-primary"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "button",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "430148c7",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "css_classes": "ml-wm-waves"
+      },
+      "elements": [
+        {
+          "id": "43013570",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            },
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "43012219",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "4300fb6b",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 55.5,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "43009ab8",
+                      "settings": {
+                        "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Comfort Club",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.72,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.18,
+                          "sizes": []
+                        },
+                        "text_color": "#c10a0a"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4300ae0f",
+                      "settings": {
+                        "title": "Protect Your Investment &amp; Avoid Unexpected Breakdowns",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4300c166",
+                      "settings": {
+                        "editor": "Your heating and air conditioning system is one of the biggest investments in your home. Just like changing the oil in your car, regular preventive maintenance extends the life of your equipment, preserves your manufacturer warranty, and keeps your monthly utility bills as low as possible.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4300d4bd",
+                      "settings": {
+                        "editor": "With a Mid Lakes HVAC Service Agreement, you never have to worry about remembering to schedule your seasonal tune-ups. Our NATE and EPA-certified technicians handle the care for you, keeping your home comfortable in every season across Walton, Gwinnett, DeKalb, and surrounding counties.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "43010ec2",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 39.64,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4300e814",
+                      "settings": {
+                        "html": "<figure class=\"ml-figure\" style=\"position:relative;margin:0;border-radius:14px;overflow:hidden;\"><img src=\"http://localhost:10015/wp-content/uploads/2026/08/wall-units.webp\" alt=\"Ductless mini-split units mounted on the exterior wall of a home\" loading=\"lazy\" style=\"display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;\" /></figure>"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "html",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "4301d028",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#f4f6f9"
+      },
+      "elements": [
+        {
+          "id": "4301bcd1",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 48,
+              "column": "48",
+              "row": "48",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "43019623",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "43015c1e",
+                  "settings": {
+                    "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Pricing",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.72,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0.18,
+                      "sizes": []
+                    },
+                    "text_color": "#c10a0a"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                },
+                {
+                  "id": "43016f75",
+                  "settings": {
+                    "title": "Simple, Transparent Pricing with Zero Commitment",
+                    "header_size": "h2",
+                    "typography_font_size_mobile": {
+                      "unit": "rem",
+                      "size": 1.8,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02,
+                      "sizes": []
+                    },
+                    "typography_typography": "custom",
+                    "_css_classes": "ml-h2"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "430182cc",
+                  "settings": {
+                    "editor": "We keep our service agreements simple, transparent, and affordable. There are no hidden fees, long-term contracts, or cancellation penalties&mdash;you only pay at the time of your service.",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#5a6472"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "4301a97a",
+              "settings": {
+                "html": "<div class=\"ml-rate-table-wrap\"><table class=\"ml-rate-table\"><thead><tr><th scope=\"col\">Coverage Type</th><th scope=\"col\">Semi-Annual Rate</th><th scope=\"col\">Details</th></tr></thead><tbody><tr><th scope=\"row\">Primary System</th><td class=\"rate-amount\">$95 per service visit</td><td>Includes complete Spring AC &amp; Fall Heating tune-ups</td></tr><tr><th scope=\"row\">Each Additional System</th><td class=\"rate-amount\">+$45 per extra unit</td><td>Added to the primary rate for multi-zone homes</td></tr><tr><th scope=\"row\">Cancellation Policy</th><td class=\"rate-amount\">$0 penalty</td><td>Cancel or modify your service agreement at any time</td></tr></tbody></table></div>"
+              },
+              "elements": [],
+              "isInner": true,
+              "widgetType": "html",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "4303b3a7",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "css_classes": "ml-wm-waves"
+      },
+      "elements": [
+        {
+          "id": "4303a050",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 48,
+              "column": "48",
+              "row": "48",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            },
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "43021d84",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "4301e37f",
+                  "settings": {
+                    "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Included",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.72,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0.18,
+                      "sizes": []
+                    },
+                    "text_color": "#c10a0a"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                },
+                {
+                  "id": "4301f6d6",
+                  "settings": {
+                    "title": "What&rsquo;s Included in Your Mid Lakes Service Agreement",
+                    "header_size": "h2",
+                    "typography_font_size_mobile": {
+                      "unit": "rem",
+                      "size": 1.8,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02,
+                      "sizes": []
+                    },
+                    "typography_typography": "custom",
+                    "_css_classes": "ml-h2"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "43020a2d",
+                  "settings": {
+                    "editor": "Our preventive service program is designed to give you total peace of mind and exclusive financial savings throughout the year:",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#5a6472"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "43038cf9",
+              "settings": {
+                "content_width": "full",
+                "container_type": "grid",
+                "grid_columns_grid": {
+                  "unit": "fr",
+                  "size": 3,
+                  "sizes": []
+                },
+                "grid_columns_grid_tablet": {
+                  "unit": "fr",
+                  "size": 2,
+                  "sizes": []
+                },
+                "grid_columns_grid_mobile": {
+                  "unit": "fr",
+                  "size": 1,
+                  "sizes": []
+                },
+                "grid_rows_grid": {
+                  "unit": "fr",
+                  "size": 0,
+                  "sizes": []
+                },
+                "grid_gaps": {
+                  "column": "20",
+                  "row": "20",
+                  "isLinked": true,
+                  "unit": "px"
+                },
+                "grid_align_items": "stretch",
+                "presetTitle": "Grid",
+                "presetIcon": "eicon-container-grid"
+              },
+              "elements": [
+                {
+                  "id": "43025789",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "column": "10",
+                      "row": "10",
+                      "isLinked": true
+                    },
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "28",
+                      "bottom": "32",
+                      "left": "28",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#dde3ec",
+                    "min_height": {
+                      "unit": "px",
+                      "size": 350,
+                      "sizes": []
+                    },
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 18,
+                      "blur": 40,
+                      "spread": -24,
+                      "color": "rgba(15,31,53,0.35)"
+                    },
+                    "border_color_hover": "rgba(0,0,0,0)",
+                    "css_classes": "ml-card ml-wm-card-1"
+                  },
+                  "elements": [
+                    {
+                      "id": "430230db",
+                      "settings": {
+                        "title": "Two Annual Tune-Ups",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.2,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.2,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "43024432",
+                      "settings": {
+                        "editor": "Comprehensive seasonal maintenance, one Spring AC tune-up and one Fall Heating tune-up, to prepare your system for extreme Georgia weather.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.96,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4302918e",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "column": "10",
+                      "row": "10",
+                      "isLinked": true
+                    },
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "28",
+                      "bottom": "32",
+                      "left": "28",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#dde3ec",
+                    "min_height": {
+                      "unit": "px",
+                      "size": 350,
+                      "sizes": []
+                    },
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 18,
+                      "blur": 40,
+                      "spread": -24,
+                      "color": "rgba(15,31,53,0.35)"
+                    },
+                    "border_color_hover": "rgba(0,0,0,0)",
+                    "css_classes": "ml-card ml-wm-card-1"
+                  },
+                  "elements": [
+                    {
+                      "id": "43026ae0",
+                      "settings": {
+                        "title": "5% Member Discount on Repairs",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.2,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.2,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "43027e37",
+                      "settings": {
+                        "editor": "Agreement holders enjoy 5% off all needed replacement parts, repairs, and labor.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.96,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4302cb93",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "column": "10",
+                      "row": "10",
+                      "isLinked": true
+                    },
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "28",
+                      "bottom": "32",
+                      "left": "28",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#dde3ec",
+                    "min_height": {
+                      "unit": "px",
+                      "size": 350,
+                      "sizes": []
+                    },
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 18,
+                      "blur": 40,
+                      "spread": -24,
+                      "color": "rgba(15,31,53,0.35)"
+                    },
+                    "border_color_hover": "rgba(0,0,0,0)",
+                    "css_classes": "ml-card ml-wm-card-1"
+                  },
+                  "elements": [
+                    {
+                      "id": "4302a4e5",
+                      "settings": {
+                        "title": "Priority 24/7 Dispatch",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.2,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.2,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4302b83c",
+                      "settings": {
+                        "editor": "Agreement members skip the line with priority scheduling on all service calls, including late-night and weekend emergencies.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.96,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "43030598",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "column": "10",
+                      "row": "10",
+                      "isLinked": true
+                    },
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "28",
+                      "bottom": "32",
+                      "left": "28",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#dde3ec",
+                    "min_height": {
+                      "unit": "px",
+                      "size": 350,
+                      "sizes": []
+                    },
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 18,
+                      "blur": 40,
+                      "spread": -24,
+                      "color": "rgba(15,31,53,0.35)"
+                    },
+                    "border_color_hover": "rgba(0,0,0,0)",
+                    "css_classes": "ml-card ml-wm-card-1"
+                  },
+                  "elements": [
+                    {
+                      "id": "4302deea",
+                      "settings": {
+                        "title": "Lower Monthly Energy Bills",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.2,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.2,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4302f241",
+                      "settings": {
+                        "editor": "Properly cleaned and calibrated systems run at peak efficiency, helping slash monthly power costs.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.96,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "43033f9d",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "column": "10",
+                      "row": "10",
+                      "isLinked": true
+                    },
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "28",
+                      "bottom": "32",
+                      "left": "28",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#dde3ec",
+                    "min_height": {
+                      "unit": "px",
+                      "size": 350,
+                      "sizes": []
+                    },
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 18,
+                      "blur": 40,
+                      "spread": -24,
+                      "color": "rgba(15,31,53,0.35)"
+                    },
+                    "border_color_hover": "rgba(0,0,0,0)",
+                    "css_classes": "ml-card ml-wm-card-1"
+                  },
+                  "elements": [
+                    {
+                      "id": "430318ef",
+                      "settings": {
+                        "title": "Extended Equipment Lifespan",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.2,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.2,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "43032c46",
+                      "settings": {
+                        "editor": "Regular tune-ups catch minor wear-and-tear before it turns into a major, expensive system breakdown.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.96,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "430379a2",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "column": "10",
+                      "row": "10",
+                      "isLinked": true
+                    },
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "28",
+                      "bottom": "32",
+                      "left": "28",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#dde3ec",
+                    "min_height": {
+                      "unit": "px",
+                      "size": 350,
+                      "sizes": []
+                    },
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 18,
+                      "blur": 40,
+                      "spread": -24,
+                      "color": "rgba(15,31,53,0.35)"
+                    },
+                    "border_color_hover": "rgba(0,0,0,0)",
+                    "css_classes": "ml-card ml-wm-card-1"
+                  },
+                  "elements": [
+                    {
+                      "id": "430352f4",
+                      "settings": {
+                        "title": "Warranty Protection",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.2,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.2,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4303664b",
+                      "settings": {
+                        "editor": "Major HVAC manufacturers require documented proof of annual professional maintenance to keep valid warranty coverage on parts.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.96,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "43059726",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "430583cf",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 48,
+              "column": "48",
+              "row": "48",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "43040103",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "4303c6fe",
+                  "settings": {
+                    "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Inspections",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.72,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0.18,
+                      "sizes": []
+                    },
+                    "text_color": "#c10a0a"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                },
+                {
+                  "id": "4303da55",
+                  "settings": {
+                    "title": "What Happens During Your Seasonal Tune-Ups?",
+                    "header_size": "h2",
+                    "typography_font_size_mobile": {
+                      "unit": "rem",
+                      "size": 1.8,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02,
+                      "sizes": []
+                    },
+                    "typography_typography": "custom",
+                    "_css_classes": "ml-h2"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "4303edac",
+                  "settings": {
+                    "editor": "Our certified technicians bring over 75 years of combined experience to every inspection.",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#5a6472"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "43057078",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "stretch",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 48,
+                  "column": "48",
+                  "row": "48"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "430549ca",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 47.92,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "43049bbb",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "26",
+                          "right": "26",
+                          "bottom": "28",
+                          "left": "26",
+                          "isLinked": false
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#dde3ec",
+                        "css_classes": "ml-wm-card-4"
+                      },
+                      "elements": [
+                        {
+                          "id": "4304145a",
+                          "settings": {
+                            "editor": "Spring Air Conditioning Tune-Up Checklist",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.78,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "700",
+                            "typography_text_transform": "uppercase",
+                            "typography_letter_spacing": {
+                              "unit": "em",
+                              "size": 0.14,
+                              "sizes": []
+                            },
+                            "text_color": "#5a6472"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "text-editor",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "43048864",
+                          "settings": {
+                            "icon_list": [
+                              {
+                                "text": "Inspect and clean evaporator &amp; condenser coils",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "430427b"
+                              },
+                              {
+                                "text": "Check refrigerant charge levels &amp; system operating pressure",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "43043b0"
+                              },
+                              {
+                                "text": "Inspect &amp; flush condensate drain lines to prevent water damage",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "43044e5"
+                              },
+                              {
+                                "text": "Test capacitors, relays, &amp; electrical connections for safety",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "430461b"
+                              },
+                              {
+                                "text": "Calibrate thermostat &amp; verify proper home airflow",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4304750"
+                              }
+                            ],
+                            "icon_color": "#2540af",
+                            "icon_size": {
+                              "unit": "px",
+                              "size": 18,
+                              "sizes": []
+                            },
+                            "space_between": {
+                              "unit": "px",
+                              "size": 12,
+                              "sizes": []
+                            },
+                            "text_indent": {
+                              "unit": "px",
+                              "size": 12,
+                              "sizes": []
+                            },
+                            "text_color": "#1a2436",
+                            "icon_typography_typography": "custom",
+                            "icon_typography_font_family": "Manrope",
+                            "icon_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.96,
+                              "sizes": []
+                            },
+                            "icon_typography_font_weight": "400",
+                            "divider": "",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "16",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "icon-list",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "43055d21",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 47.92,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "43053673",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "26",
+                          "right": "26",
+                          "bottom": "28",
+                          "left": "26",
+                          "isLinked": false
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#dde3ec",
+                        "css_classes": "ml-wm-card-4"
+                      },
+                      "elements": [
+                        {
+                          "id": "4304af12",
+                          "settings": {
+                            "editor": "Fall Heating System Tune-Up Checklist",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.78,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "700",
+                            "typography_text_transform": "uppercase",
+                            "typography_letter_spacing": {
+                              "unit": "em",
+                              "size": 0.14,
+                              "sizes": []
+                            },
+                            "text_color": "#5a6472"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "text-editor",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "4305231c",
+                          "settings": {
+                            "icon_list": [
+                              {
+                                "text": "Inspect heat exchanger &amp; burner assembly for safe operation",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4304c26"
+                              },
+                              {
+                                "text": "Test safety controls &amp; ignition systems",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4304d5c"
+                              },
+                              {
+                                "text": "Inspect blower motor &amp; check internal electrical components",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4304e91"
+                              },
+                              {
+                                "text": "Inspect gas line connections &amp; vent piping",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4304fc6"
+                              },
+                              {
+                                "text": "Replace or inspect standard air filters",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "43050fc"
+                              }
+                            ],
+                            "icon_color": "#c10a0a",
+                            "icon_size": {
+                              "unit": "px",
+                              "size": 18,
+                              "sizes": []
+                            },
+                            "space_between": {
+                              "unit": "px",
+                              "size": 12,
+                              "sizes": []
+                            },
+                            "text_indent": {
+                              "unit": "px",
+                              "size": 12,
+                              "sizes": []
+                            },
+                            "text_color": "#1a2436",
+                            "icon_typography_typography": "custom",
+                            "icon_typography_font_family": "Manrope",
+                            "icon_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.96,
+                              "sizes": []
+                            },
+                            "icon_typography_font_weight": "400",
+                            "divider": "",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "16",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "icon-list",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "43072d49",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#f4f6f9",
+        "_element_id": "faq"
+      },
+      "elements": [
+        {
+          "id": "430719f2",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "4307069b",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "4306dfed",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 32,
+                      "column": "32",
+                      "row": "32"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 53.77,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4305aa7d",
+                      "settings": {
+                        "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>FAQs",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.72,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.18,
+                          "sizes": []
+                        },
+                        "text_color": "#c10a0a"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4305bdd4",
+                      "settings": {
+                        "title": "Service Agreement FAQs",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4306b93f",
+                      "settings": {
+                        "items": [
+                          {
+                            "item_title": "When does my service agreement kick in after I sign up?",
+                            "_id": "4305d12"
+                          },
+                          {
+                            "item_title": "Do I need to be home for the entire tune-up appointment?",
+                            "_id": "43060b3"
+                          },
+                          {
+                            "item_title": "Will I receive reminders when it&rsquo;s time for my Spring or Fall tune-up?",
+                            "_id": "4306453"
+                          },
+                          {
+                            "item_title": "What if a technician finds a problem during my inspection?",
+                            "_id": "43067f3"
+                          }
+                        ],
+                        "default_state": "all_collapsed",
+                        "max_items_expended": "one",
+                        "title_tag": "h3",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Manrope",
+                        "title_typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.05,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "normal_title_color": "#1a2436",
+                        "hover_title_color": "#c10a0a",
+                        "active_title_color": "#1a2436",
+                        "normal_icon_color": "#c10a0a",
+                        "hover_icon_color": "#c10a0a",
+                        "active_icon_color": "#c10a0a",
+                        "accordion_padding": {
+                          "unit": "px",
+                          "top": "22",
+                          "right": "0",
+                          "bottom": "22",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "accordion_border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "content_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "22",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "accordion_item_title_space_between": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "accordion_item_title_distance_from_content": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "4305f7d9",
+                          "settings": {
+                            "_title": "item",
+                            "content_width": "full"
+                          },
+                          "elements": [
+                            {
+                              "id": "4305e482",
+                              "settings": {
+                                "editor": "Your coverage begins immediately upon enrollment. We&rsquo;ll work with you to schedule your first seasonal tune-up right away or queue it up for the upcoming Spring/Fall maintenance window based on your system&rsquo;s current needs.",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 0.95,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "text_color": "#5a6472"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "text-editor",
+                              "elType": "widget"
+                            }
+                          ],
+                          "isInner": true,
+                          "elType": "container",
+                          "isLocked": true
+                        },
+                        {
+                          "id": "430631de",
+                          "settings": {
+                            "_title": "item",
+                            "content_width": "full"
+                          },
+                          "elements": [
+                            {
+                              "id": "43061e87",
+                              "settings": {
+                                "editor": "Yes, an adult over 18 needs to be present. Because our technicians perform complete indoor and outdoor checks, including thermostat calibration, indoor coil inspections, and electrical testing, we need access to both your outdoor unit and interior equipment.",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 0.95,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "text_color": "#5a6472"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "text-editor",
+                              "elType": "widget"
+                            }
+                          ],
+                          "isInner": true,
+                          "elType": "container",
+                          "isLocked": true
+                        },
+                        {
+                          "id": "43066be3",
+                          "settings": {
+                            "_title": "item",
+                            "content_width": "full"
+                          },
+                          "elements": [
+                            {
+                              "id": "4306588c",
+                              "settings": {
+                                "editor": "Absolutely. You don&rsquo;t have to keep track of the calendar. Our team will reach out via call, text, or email ahead of each season to schedule your appointment at a time that works best for your schedule.",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 0.95,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "text_color": "#5a6472"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "text-editor",
+                              "elType": "widget"
+                            }
+                          ],
+                          "isInner": true,
+                          "elType": "container",
+                          "isLocked": true
+                        },
+                        {
+                          "id": "4306a5e8",
+                          "settings": {
+                            "_title": "item",
+                            "content_width": "full"
+                          },
+                          "elements": [
+                            {
+                              "id": "43069291",
+                              "settings": {
+                                "editor": "If we spot worn components or potential issues during your tune-up, our technician will explain the findings clearly and present your options before doing any extra work. As an agreement holder, you&rsquo;ll automatically receive your 5% discount on any needed replacement parts or repairs.",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 0.95,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "text_color": "#5a6472"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "text-editor",
+                              "elType": "widget"
+                            }
+                          ],
+                          "isInner": true,
+                          "elType": "container",
+                          "isLocked": true
+                        }
+                      ],
+                      "isInner": true,
+                      "widgetType": "nested-accordion",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4306f344",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 32,
+                      "column": "32",
+                      "row": "32"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 41.36,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4306cc96",
+                      "settings": {
+                        "html": "<figure class=\"ml-figure\" style=\"position:relative;margin:0;border-radius:14px;overflow:hidden;\"><img src=\"http://localhost:10015/wp-content/uploads/2026/08/vents.webp\" alt=\"Modern rooftop ventilation vents on a concrete facade\" loading=\"lazy\" style=\"display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;\" /><figcaption style=\"position:absolute;left:0;right:0;bottom:0;padding:22px;background:linear-gradient(180deg,transparent,rgba(15,31,53,0.9));color:#ffffff;font-size:0.9rem;line-height:1.5;\"><strong style=\"display:block;font-size:1.05rem;margin-bottom:4px;\">Two visits a year.</strong>One Spring AC tune-up and one Fall heating tune-up, scheduled for you.</figcaption></figure>"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "html",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "43087610",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#0f1f35",
+        "_element_id": "contact",
+        "css_classes": "ml-wm-contact ml-band-ink"
+      },
+      "elements": [
+        {
+          "id": "430862b9",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            },
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "43084f62",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "430828b4",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18,
+                      "column": "18",
+                      "row": "18"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 46.41,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4307eeaf",
+                      "settings": {
+                        "title": "Ready to Protect Your Home Investment?",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "43080206",
+                      "settings": {
+                        "editor": "Enrolling in our service agreement takes less than two minutes. Give the Mid Lakes team a call today or fill out the request form below.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.95,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "rgba(255,255,255,0.75)",
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "px",
+                          "size": 460,
+                          "sizes": []
+                        },
+                        "_element_custom_width_mobile": {
+                          "unit": "%",
+                          "size": 100,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4308155d",
+                      "settings": {
+                        "html": "<dl style=\"display:grid;gap:26px;margin:0;\"><div style=\"margin:0;\"><dt style=\"font-size:0.72rem;letter-spacing:0.16em;text-transform:uppercase;color:#6fb3ec;font-weight:700;margin-bottom:6px;\">Direct Phone</dt><dd style=\"margin:0;font-size:1.1rem;font-weight:600;color:#ffffff;\"><a href=\"tel:+16787760591\" style=\"color:#ff8b8b;\">(678) 776-0591</a><span style=\"display:block;font-size:0.85rem;font-weight:400;color:#8fb2d8;margin-top:4px;\">24/7 Emergency Line</span></dd></div><div style=\"margin:0;\"><dt style=\"font-size:0.72rem;letter-spacing:0.16em;text-transform:uppercase;color:#6fb3ec;font-weight:700;margin-bottom:6px;\">Office Location</dt><dd style=\"margin:0;font-size:1.1rem;font-weight:600;color:#ffffff;\">2834 Horseshoe Rd, Loganville, GA 30052</dd></div><div style=\"margin:0;\"><dt style=\"font-size:0.72rem;letter-spacing:0.16em;text-transform:uppercase;color:#6fb3ec;font-weight:700;margin-bottom:6px;\">Hours</dt><dd style=\"margin:0;font-size:1.1rem;font-weight:600;color:#ffffff;\">Mon&ndash;Fri: 8:00 AM &ndash; 5:00 PM<span style=\"display:block;font-size:0.85rem;font-weight:400;color:#8fb2d8;margin-top:4px;\">24/7 After-Hours Emergency Support</span></dd></div><div style=\"margin:0;\"><dt style=\"font-size:0.72rem;letter-spacing:0.16em;text-transform:uppercase;color:#6fb3ec;font-weight:700;margin-bottom:6px;\">License</dt><dd style=\"margin:0;font-size:1.1rem;font-weight:600;color:#ffffff;\">GA State License #CR108663</dd></div></dl>",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "36",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "html",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "43089cbe",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_wrap": "wrap",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 14,
+                          "column": "14",
+                          "row": "14",
+                          "isLinked": true
+                        },
+                        "flex_direction_mobile": "column"
+                      },
+                      "elements": [
+                        {
+                          "id": "43088967",
+                          "settings": {
+                            "text": "Call (678) 776-0591 to Enroll",
+                            "align": "left",
+                            "link": {
+                              "url": "tel:+16787760591",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "typography_typography": "custom",
+                            "typography_font_family": "Manrope",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 15.2,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "700",
+                            "border_radius": {
+                              "unit": "px",
+                              "top": "999",
+                              "right": "999",
+                              "bottom": "999",
+                              "left": "999",
+                              "isLinked": true
+                            },
+                            "border_border": "solid",
+                            "border_width": {
+                              "unit": "px",
+                              "top": "1.5",
+                              "right": "1.5",
+                              "bottom": "1.5",
+                              "left": "1.5",
+                              "isLinked": true
+                            },
+                            "text_padding": {
+                              "unit": "px",
+                              "top": "14",
+                              "right": "26",
+                              "bottom": "14",
+                              "left": "26",
+                              "isLinked": false
+                            },
+                            "background_color": "#c10a0a",
+                            "button_text_color": "#ffffff",
+                            "border_color": "#c10a0a",
+                            "button_background_hover_color": "#a30808",
+                            "button_hover_border_color": "#a30808",
+                            "hover_color": "#ffffff",
+                            "_css_classes": "ml-btn ml-btn-primary"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "button",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "43083c0b",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 48.73,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4307db58",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 6,
+                          "column": "6",
+                          "row": "6",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#17293f",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "36",
+                          "right": "36",
+                          "bottom": "36",
+                          "left": "36",
+                          "isLinked": false
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "rgba(255,255,255,0.08)",
+                        "padding_mobile": {
+                          "unit": "px",
+                          "top": "26",
+                          "right": "22",
+                          "bottom": "26",
+                          "left": "22",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "4307b4aa",
+                          "settings": {
+                            "title": "Get a Free Estimate",
+                            "header_size": "h3",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 1.5,
+                              "sizes": []
+                            },
+                            "typography_font_size_mobile": {
+                              "unit": "rem",
+                              "size": 1.5,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "800",
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1.1,
+                              "sizes": []
+                            },
+                            "typography_letter_spacing": {
+                              "unit": "em",
+                              "size": -0.02,
+                              "sizes": []
+                            },
+                            "title_color": "#ffffff"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "heading",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "4307c801",
+                          "settings": {
+                            "editor": "Fill out the form below and our team will reach out to schedule your service.",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.92,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "400",
+                            "text_color": "rgba(255,255,255,0.65)"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "text-editor",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "4307a153",
+                          "settings": {
+                            "form_name": "Mid Lakes Quote Request",
+                            "form_fields": [
+                              {
+                                "custom_id": "firstName",
+                                "field_label": "First name",
+                                "placeholder": "Jane",
+                                "field_type": "text",
+                                "width": "50",
+                                "required": "true",
+                                "_id": "430740a"
+                              },
+                              {
+                                "custom_id": "lastName",
+                                "field_label": "Last name",
+                                "placeholder": "Doe",
+                                "field_type": "text",
+                                "width": "50",
+                                "required": "true",
+                                "_id": "430753f"
+                              },
+                              {
+                                "custom_id": "phone",
+                                "field_label": "Phone number",
+                                "placeholder": "(678) 555-0123",
+                                "field_type": "tel",
+                                "width": "50",
+                                "required": "true",
+                                "_id": "4307674"
+                              },
+                              {
+                                "custom_id": "email",
+                                "field_label": "Email",
+                                "placeholder": "you@example.com",
+                                "field_type": "email",
+                                "width": "50",
+                                "required": "true",
+                                "_id": "43077aa"
+                              },
+                              {
+                                "custom_id": "message",
+                                "field_label": "How can we help?",
+                                "placeholder": "Tell us about your heating or cooling needs...",
+                                "field_type": "textarea",
+                                "width": "100",
+                                "required": "",
+                                "_id": "43078df",
+                                "rows": 3
+                              }
+                            ],
+                            "button_text": "Submit Request",
+                            "button_size": "sm",
+                            "button_width": "100",
+                            "submit_actions": [
+                              "email"
+                            ],
+                            "email_to": "websites@exploremedia.com",
+                            "email_subject": "New estimate request — Mid Lakes HVAC",
+                            "email_content": "[all-fields]",
+                            "email_from_name": "Mid Lakes Website",
+                            "email_reply_to": "[field id=\"email\"]",
+                            "success_message": "Thanks! Your request has been received&mdash;we&rsquo;ll call you shortly.",
+                            "honeypot": "yes",
+                            "label_spacing": {
+                              "unit": "px",
+                              "size": 7,
+                              "sizes": []
+                            },
+                            "row_gap": {
+                              "unit": "px",
+                              "size": 16,
+                              "sizes": []
+                            },
+                            "column_gap": {
+                              "unit": "px",
+                              "size": 16,
+                              "sizes": []
+                            },
+                            "label_color": "rgba(255,255,255,0.7)",
+                            "field_typography_typography": "custom",
+                            "field_typography_font_family": "Manrope",
+                            "field_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.95,
+                              "sizes": []
+                            },
+                            "label_typography_typography": "custom",
+                            "label_typography_font_family": "Manrope",
+                            "label_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.82,
+                              "sizes": []
+                            },
+                            "label_typography_font_weight": "600",
+                            "field_background_color": "rgba(255,255,255,0.04)",
+                            "field_text_color": "#ffffff",
+                            "field_border_color": "rgba(255,255,255,0.4)",
+                            "field_border_width": {
+                              "unit": "px",
+                              "top": "1",
+                              "right": "1",
+                              "bottom": "1",
+                              "left": "1",
+                              "isLinked": true
+                            },
+                            "field_border_radius": {
+                              "unit": "px",
+                              "top": "10",
+                              "right": "10",
+                              "bottom": "10",
+                              "left": "10",
+                              "isLinked": true
+                            },
+                            "field_padding": {
+                              "unit": "px",
+                              "top": "13",
+                              "right": "15",
+                              "bottom": "13",
+                              "left": "15",
+                              "isLinked": false
+                            },
+                            "button_background_color": "#c10a0a",
+                            "button_text_color": "#ffffff",
+                            "button_border_color": "#c10a0a",
+                            "button_border_border": "solid",
+                            "button_border_width": {
+                              "unit": "px",
+                              "top": "1.5",
+                              "right": "1.5",
+                              "bottom": "1.5",
+                              "left": "1.5",
+                              "isLinked": true
+                            },
+                            "button_border_radius": {
+                              "unit": "px",
+                              "top": "999",
+                              "right": "999",
+                              "bottom": "999",
+                              "left": "999",
+                              "isLinked": true
+                            },
+                            "button_background_hover_color": "#a30808",
+                            "button_hover_border_color": "#a30808",
+                            "button_text_color_hover": "#ffffff",
+                            "button_typography_typography": "custom",
+                            "button_typography_font_family": "Manrope",
+                            "button_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.95,
+                              "sizes": []
+                            },
+                            "button_typography_font_weight": "700",
+                            "button_padding": {
+                              "unit": "px",
+                              "top": "14",
+                              "right": "26",
+                              "bottom": "14",
+                              "left": "26",
+                              "isLinked": false
+                            },
+                            "_css_classes": "ml-form ml-btn"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "form",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    }
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer",
+    "hide_title": "yes"
+  }
+}

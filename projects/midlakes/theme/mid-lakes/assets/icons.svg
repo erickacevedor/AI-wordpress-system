@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true"
+     data-source="midlakes prototype index.php service cards">
+  <!-- HVAC Repair & Maintenance -->
+  <symbol id="ml-icon-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path
+      d="M14.7 6.3a4 4 0 0 0-5.4 5.4l-6 6a2 2 0 0 0 2.8 2.8l6-6a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.2-2.2 2.6-2.6z" />
+  </symbol>
+  <!-- Ductless / Mini-Split Systems -->
+  <symbol id="ml-icon-airflow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 8h13a3 3 0 1 0-3-3" />
+      <path d="M2 12h17a3 3 0 1 1-3 3" />
+      <path d="M2 16h9a3 3 0 1 1-3 3" />
+  </symbol>
+  <!-- Crawl Space Encapsulation -->
+  <symbol id="ml-icon-shield-check" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3 4 6v6c0 4.4 3.4 8 8 9 4.6-1 8-4.6 8-9V6l-8-3z" />
+      <path d="m9 12 2 2 4-4" />
+  </symbol>
+  <!-- Attic Insulation -->
+  <symbol id="ml-icon-attic" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m3 9 9-6 9 6" />
+      <path d="M4 10h16" />
+      <path d="M4 14h16" />
+      <path d="M4 18h16" />
+  </symbol>
+  <!-- Humidity Control & Air Quality -->
+  <symbol id="ml-icon-droplet" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 2.7S6 9.5 6 14a6 6 0 0 0 12 0c0-4.5-6-11.3-6-11.3z" />
+  </symbol>
+  <!-- Thermostat Repair & Upgrades -->
+  <symbol id="ml-icon-thermostat" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="14" r="6" />
+      <path d="M12 11v3l2 1" />
+      <path d="M9 4h6" />
+      <path d="M12 4v3" />
+  </symbol>
+</svg>

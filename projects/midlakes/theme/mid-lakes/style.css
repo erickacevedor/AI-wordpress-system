@@ -1,0 +1,16 @@
+/*
+Theme Name:   Mid Lakes
+Theme URI:    https://github.com/
+Description:  Child theme of Hello Elementor for Mid Lakes Heating & Cooling, LLC.
+              Carries ONLY the capped rule list from projects/midlakes/PORT-DECISIONS.md —
+              the properties Elementor has no control for. Everything else is built in
+              Elementor. See assets/mid-lakes.css for the rules and why each one is here.
+Author:       Explore Media
+Template:     hello-elementor
+Version:      1.0.0
+Text Domain:  mid-lakes
+*/
+
+/* Intentionally empty. The real stylesheet is assets/mid-lakes.css, enqueued from
+   functions.php AFTER the parent so its (0,0,1) rules win over Hello Elementor's.
+   Do not add rules here. */

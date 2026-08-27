@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Services (Preview)</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif;line-height:1.55;color:#1a1a1a}
+img{max-width:100%}
+a{color:inherit}
+.acc details{border-bottom:1px solid rgba(0,0,0,.12)}
+.acc summary{cursor:pointer;padding:14px 0;font-weight:600;list-style:revert}
+.acc .acc-body{padding:0 0 14px}
+.ph{border:2px dashed #b9c2cf;border-radius:10px;padding:22px;text-align:center;
+    background:repeating-linear-gradient(45deg,#f7f9fc,#f7f9fc 10px,#eef2f7 10px,#eef2f7 20px);
+    color:#5a6676;font-size:14px}
+.ph strong{color:#31405a;font-size:15px}
+.ph-icon{font-size:28px;line-height:1;opacity:.55}
+.pv-bar{position:sticky;top:0;z-index:99;background:#101828;color:#fff;padding:9px 14px;
+        font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;display:flex;
+        gap:16px;flex-wrap:wrap;align-items:center}
+.pv-bar b{color:#7dd3fc;font-weight:600}
+.pv-bar .warn{color:#fbbf24}
+
+.c1{display:flex;flex-direction:column;background-image:url('http://localhost:10015/wp-content/uploads/2026/08/ductwork.webp');background-size:cover;background-position:center center;background-repeat:no-repeat}
+.c2{display:flex;flex-direction:column;gap:0px 0px;justify-content:flex-end;min-height:460px;padding:104px 24px 56px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c3{display:flex;flex-direction:column;gap:22px 22px;width:700px}
+.w4{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;color:#ffffff;margin:0}
+.w5{font-size:1.12rem;font-weight:400;color:rgba(255,255,255,0.85)}
+.c6{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w7{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw8{display:flex;justify-content:flex-start}
+.w9{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid rgba(255,255,255,0.5);border-width:1.5px 1.5px 1.5px 1.5px;background:rgba(0,0,0,0);color:#ffffff;padding:14px 26px 14px 26px}
+.bw10{display:flex;justify-content:flex-start}
+.w11{font-size:0.95rem;font-weight:400;color:rgba(255,255,255,0.8)}
+.c12{display:flex;flex-direction:column;background-color:rgba(244,246,249,0.94);border:solid #dde3ec;border-width:0px 0px 1px 0px}
+.c13{display:flex;flex-direction:column;gap:0px 0px;padding:0px 24px 0px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c15{display:flex;flex-direction:column;background-color:#ffffff}
+.c16{display:flex;flex-direction:column;gap:22px 22px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c17{display:flex;flex-direction:column;gap:14px 14px;width:720px}
+.w18{font-size:1.1rem;font-weight:400;color:#5a6472}
+.w19{font-size:1.1rem;font-weight:400;color:#5a6472}
+.c20{display:flex;flex-direction:column;background-color:#f4f6f9}
+.c21{display:flex;flex-direction:column;gap:48px 48px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c22{display:flex;flex-direction:column;gap:14px 14px;width:720px}
+.w23{font-size:0.72rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#c10a0a}
+.w24{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w25{font-size:1.1rem;font-weight:400;color:#5a6472}
+.w26{font-size:1.1rem;font-weight:400;color:#5a6472}
+.c27{display:flex;flex-direction:column;gap:0px 0px;margin:8px 0px 52px 0px}
+.c28{display:flex;flex-direction:row;gap:48px 48px;align-items:flex-start}
+.c29{display:flex;flex-direction:column;gap:12px 12px;width:51.26%}
+.w30{font-size:1.55rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w31{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w32{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w33{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w34{font-size:0.95rem;font-weight:400;color:#5a6472}
+.c35{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w36{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw37{display:flex;justify-content:flex-start}
+.c38{display:flex;flex-direction:column;gap:16px 16px;width:44.57%}
+.c39{display:flex;flex-direction:column;gap:0px 0px;padding:26px 26px 28px 26px;background-color:#ffffff;border-radius:14px 14px 14px 14px;border:solid #dde3ec;border-width:1px 1px 1px 1px}
+.w40{font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#5a6472}
+.w41{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:#1a2436}
+.c42{display:flex;flex-direction:column;gap:0px 0px;padding:52px 0px 52px 0px;border:solid #dde3ec;border-width:1px 0px 0px 0px}
+.c43{display:flex;flex-direction:row-reverse;gap:48px 48px;align-items:flex-start}
+.c44{display:flex;flex-direction:column;gap:12px 12px;width:51.26%}
+.w45{font-size:1.55rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w46{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w47{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w48{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w49{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w50{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w51{font-size:0.95rem;font-weight:400;color:#5a6472}
+.c52{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w53{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw54{display:flex;justify-content:flex-start}
+.c55{display:flex;flex-direction:column;gap:16px 16px;width:44.57%}
+.c56{display:flex;flex-direction:column;gap:0px 0px;padding:26px 26px 28px 26px;background-color:#ffffff;border-radius:14px 14px 14px 14px;border:solid #dde3ec;border-width:1px 1px 1px 1px}
+.w57{font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#5a6472}
+.w58{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:#1a2436}
+.c59{display:flex;flex-direction:column;gap:0px 0px;padding:52px 0px 52px 0px;border:solid #dde3ec;border-width:1px 0px 0px 0px}
+.c60{display:flex;flex-direction:row;gap:48px 48px;align-items:flex-start}
+.c61{display:flex;flex-direction:column;gap:12px 12px;width:51.26%}
+.w62{font-size:1.55rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w63{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w64{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w65{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w66{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w67{font-size:0.95rem;font-weight:400;color:#5a6472}
+.c68{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w69{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw70{display:flex;justify-content:flex-start}
+.c71{display:flex;flex-direction:column;gap:16px 16px;width:44.57%}
+.c72{display:flex;flex-direction:column;gap:0px 0px;padding:26px 26px 28px 26px;background-color:#ffffff;border-radius:14px 14px 14px 14px;border:solid #dde3ec;border-width:1px 1px 1px 1px}
+.w73{font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#5a6472}
+.w74{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:#1a2436}
+.c75{display:flex;flex-direction:column;background-color:#ffffff}
+.c76{display:flex;flex-direction:column;gap:48px 48px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c77{display:flex;flex-direction:column;gap:14px 14px;width:720px}
+.w78{font-size:0.72rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#c10a0a}
+.w79{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w80{font-size:1.1rem;font-weight:400;color:#5a6472}
+.w81{font-size:1.1rem;font-weight:400;color:#5a6472}
+.c82{display:flex;flex-direction:column;gap:0px 0px;margin:8px 0px 52px 0px}
+.c83{display:flex;flex-direction:row;gap:48px 48px;align-items:flex-start}
+.c84{display:flex;flex-direction:column;gap:12px 12px;width:51.26%}
+.w85{font-size:1.55rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w86{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w87{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w88{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w89{font-size:0.95rem;font-weight:400;color:#5a6472}
+.c90{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w91{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw92{display:flex;justify-content:flex-start}
+.c93{display:flex;flex-direction:column;gap:16px 16px;width:44.57%}
+.c94{display:flex;flex-direction:column;gap:0px 0px;padding:26px 26px 28px 26px;background-color:#ffffff;border-radius:14px 14px 14px 14px;border:solid #dde3ec;border-width:1px 1px 1px 1px}
+.w95{font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#5a6472}
+.w96{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:#1a2436}
+.c97{display:flex;flex-direction:column;gap:0px 0px;padding:52px 0px 52px 0px;border:solid #dde3ec;border-width:1px 0px 0px 0px}
+.c98{display:flex;flex-direction:row-reverse;gap:48px 48px;align-items:flex-start}
+.c99{display:flex;flex-direction:column;gap:12px 12px;width:51.26%}
+.w100{font-size:1.55rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w101{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w102{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w103{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w104{font-size:0.95rem;font-weight:400;color:#5a6472}
+.c105{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w106{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw107{display:flex;justify-content:flex-start}
+.c108{display:flex;flex-direction:column;gap:16px 16px;width:44.57%}
+.c109{display:flex;flex-direction:column;gap:0px 0px;padding:26px 26px 28px 26px;background-color:#ffffff;border-radius:14px 14px 14px 14px;border:solid #dde3ec;border-width:1px 1px 1px 1px}
+.w110{font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#5a6472}
+.w111{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:#1a2436}
+.c112{display:flex;flex-direction:column;gap:0px 0px;padding:52px 0px 52px 0px;border:solid #dde3ec;border-width:1px 0px 0px 0px}
+.c113{display:flex;flex-direction:row;gap:48px 48px;align-items:flex-start}
+.c114{display:flex;flex-direction:column;gap:12px 12px;width:51.26%}
+.w115{font-size:1.55rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w116{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w117{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w118{font-size:0.95rem;font-weight:400;color:#5a6472}
+.w119{font-size:0.95rem;font-weight:400;color:#5a6472}
+.c120{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w121{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw122{display:flex;justify-content:flex-start}
+.c123{display:flex;flex-direction:column;gap:16px 16px;width:44.57%}
+.c124{display:flex;flex-direction:column;gap:0px 0px;padding:26px 26px 28px 26px;background-color:#ffffff;border-radius:14px 14px 14px 14px;border:solid #dde3ec;border-width:1px 1px 1px 1px}
+.w125{font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#5a6472}
+.w126{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:#1a2436}
+.c127{display:flex;flex-direction:column;background-image:url('http://localhost:10015/wp-content/uploads/2026/08/technician.webp');background-size:cover;background-position:center center;background-repeat:no-repeat}
+.c128{display:flex;flex-direction:column;gap:22px 22px;padding:120px 24px 120px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c129{display:flex;flex-direction:column;gap:18px 18px;width:560px}
+.w130{font-size:0.72rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#ffffff}
+.w131{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;color:#ffffff;margin:0}
+.w132{font-size:0.95rem;font-weight:400;color:rgba(255,255,255,0.82)}
+.w133{font-size:0.95rem;font-weight:400;color:rgba(255,255,255,0.82)}
+.w134{font-size:0.95rem;font-weight:400;color:rgba(255,255,255,0.82)}
+.c135{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w136{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw137{display:flex;justify-content:flex-start}
+.c138{display:flex;flex-direction:column;background-color:#f4f6f9}
+.c139{display:flex;flex-direction:column;gap:24px 24px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c140{display:flex;flex-direction:column;gap:14px 14px;width:720px}
+.w141{font-size:0.72rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#c10a0a}
+.w142{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w143{font-size:1.1rem;font-weight:400;color:#5a6472}
+.w144{font-size:1.1rem;font-weight:400;color:#5a6472}
+.c145{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:20px 20px;align-items:stretch}
+.c146{display:flex;flex-direction:column;gap:10px 10px;min-height:350px;padding:32px 28px 32px 28px;background-color:#ffffff;border-radius:14px 14px 14px 14px;border:solid #dde3ec;border-width:1px 1px 1px 1px}
+.w147{font-size:1.2rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w148{font-size:0.96rem;font-weight:400;color:#5a6472}
+.c149{display:flex;flex-direction:column;gap:10px 10px;min-height:350px;padding:32px 28px 32px 28px;background-color:#ffffff;border-radius:14px 14px 14px 14px;border:solid #dde3ec;border-width:1px 1px 1px 1px}
+.w150{font-size:1.2rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w151{font-size:0.96rem;font-weight:400;color:#5a6472}
+.c152{display:flex;flex-direction:column;gap:10px 10px;min-height:350px;padding:32px 28px 32px 28px;background-color:#ffffff;border-radius:14px 14px 14px 14px;border:solid #dde3ec;border-width:1px 1px 1px 1px}
+.w153{font-size:1.2rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w154{font-size:0.96rem;font-weight:400;color:#5a6472}
+.w155{font-size:1.1rem;font-weight:400;color:#5a6472}
+.c156{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w157{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw158{display:flex;justify-content:flex-start}
+.c159{display:flex;flex-direction:column;background-color:#ffffff}
+.c160{display:flex;flex-direction:column;gap:48px 48px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c161{display:flex;flex-direction:column;gap:14px 14px;width:720px}
+.w162{font-size:0.72rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#c10a0a}
+.w163{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w164{font-size:1.1rem;font-weight:400;color:#5a6472}
+.w166{font-size:0.95rem;font-weight:400;color:#5a6472}
+.c167{display:flex;flex-direction:column;background-color:#0f1f35}
+.c168{display:flex;flex-direction:column;gap:22px 22px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c169{display:flex;flex-direction:row;gap:56px 56px;align-items:flex-start}
+.c170{display:flex;flex-direction:column;gap:18px 18px;width:46.41%}
+.w171{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;color:#ffffff;margin:0}
+.w172{font-size:0.95rem;font-weight:400;color:rgba(255,255,255,0.75)}
+.w173{font-size:0.95rem;font-weight:400;color:rgba(255,255,255,0.75)}
+.w174{font-size:0.95rem;font-weight:400;color:rgba(255,255,255,0.75)}
+.w175{font-size:0.95rem;font-weight:400;color:rgba(255,255,255,0.75)}
+.c176{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w177{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw178{display:flex;justify-content:flex-start}
+.c179{display:flex;flex-direction:column;gap:16px 16px;width:48.73%}
+.c180{display:flex;flex-direction:column;gap:6px 6px;padding:36px 36px 36px 36px;background-color:#17293f;border-radius:14px 14px 14px 14px;border:solid rgba(255,255,255,0.08);border-width:1px 1px 1px 1px}
+.w181{font-size:1.5rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;color:#ffffff;margin:0}
+.w182{font-size:0.92rem;font-weight:400;color:rgba(255,255,255,0.65)}
+@media (max-width:1024px){.c2{min-height:560px}.c29{width:100%}.c38{width:100%}.c44{width:100%}.c55{width:100%}.c61{width:100%}.c71{width:100%}.c84{width:100%}.c93{width:100%}.c99{width:100%}.c108{width:100%}.c114{width:100%}.c123{width:100%}.c145{grid-template-columns:repeat(2, minmax(0,1fr))}.c170{width:100%}.c179{width:100%}}
+@media (max-width:767px){.c2{padding:88px 24px 48px 24px}.c3{width:100%}.w4{font-size:2.4rem}.c6{flex-direction:column}.c16{padding:64px 24px 64px 24px}.c17{width:100%}.c21{padding:64px 24px 64px 24px}.c22{width:100%}.w24{font-size:1.8rem}.c27{margin:8px 0px 36px 0px}.c28{flex-direction:column}.c29{width:100%}.c35{flex-direction:column}.c38{width:100%}.c42{padding:36px 0px 36px 0px}.c43{flex-direction:column}.c44{width:100%}.c52{flex-direction:column}.c55{width:100%}.c59{padding:36px 0px 36px 0px}.c60{flex-direction:column}.c61{width:100%}.c68{flex-direction:column}.c71{width:100%}.c76{padding:64px 24px 64px 24px}.c77{width:100%}.w79{font-size:1.8rem}.c82{margin:8px 0px 36px 0px}.c83{flex-direction:column}.c84{width:100%}.c90{flex-direction:column}.c93{width:100%}.c97{padding:36px 0px 36px 0px}.c98{flex-direction:column}.c99{width:100%}.c105{flex-direction:column}.c108{width:100%}.c112{padding:36px 0px 36px 0px}.c113{flex-direction:column}.c114{width:100%}.c120{flex-direction:column}.c123{width:100%}.c128{padding:80px 24px 80px 24px}.c129{width:100%}.w131{font-size:1.8rem}.c135{flex-direction:column}.c139{padding:64px 24px 64px 24px}.c140{width:100%}.w142{font-size:1.8rem}.c145{grid-template-columns:repeat(1, minmax(0,1fr))}.c156{flex-direction:column}.c160{padding:64px 24px 64px 24px}.c161{width:100%}.w163{font-size:1.8rem}.c168{padding:64px 24px 64px 24px}.c169{flex-direction:column}.c170{width:100%}.w171{font-size:1.8rem}.c176{flex-direction:column}.c179{width:100%}.c180{padding:26px 22px 26px 22px}}
+</style>
+</head>
+<body>
+<div class="pv-bar">
+  <span><b>PREVIEW</b> Services</span>
+  <span>9 sections · 97 widgets</span>
+  <span>generated from services.json — resize the window to check tablet/mobile</span>
+  <span class="warn">placeholders: Elementor Pro Form</span>
+</div>
+<div class="c1 ml-hero"><div class="c2"><div class="c3"><h1 class="w4 ml-h1">HVAC &amp; Home Comfort Services in Loganville, GA</h1><div class="w5">When your home isn&rsquo;t comfortable, you want a local team you can trust to find the problem and make it right.</div><div class="c6"><div class="bw8"><a class="w7 ml-btn ml-btn-primary" href="#contact">Schedule Service</a></div><div class="bw10"><a class="w9 ml-btn ml-btn-ghost" href="tel:+16787760591">Call (678) 776-0591</a></div></div><div class="w11"><ul style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:12px 36px;"><li style="margin:0;"><strong style="color:#ffffff;font-weight:800;margin-right:6px;">24/7</strong>Emergency Service</li><li style="margin:0;"><strong style="color:#ffffff;font-weight:800;margin-right:6px;">75+</strong>Years Combined Experience</li><li style="margin:0;"><strong style="color:#ffffff;font-weight:800;margin-right:6px;">100%</strong>Licensed &amp; Insured</li><li style="margin:0;"><strong style="color:#ffffff;font-weight:800;margin-right:6px;">Parts &amp; Labor</strong>Guarantee</li></ul></div></div></div></div><div class="c12"><div class="c13"><nav aria-label="Services on this page"><ul style="display:flex;gap:2px;list-style:none;margin:0;padding:0;overflow-x:auto;"><li><a href="#hvac-repair" style="display:block;padding:15px 16px;white-space:nowrap;font-size:0.9rem;font-weight:600;color:#5a6472;border-bottom:2px solid transparent;text-decoration:none;">HVAC Repair &amp; Maintenance</a></li><li><a href="#ductless" style="display:block;padding:15px 16px;white-space:nowrap;font-size:0.9rem;font-weight:600;color:#5a6472;border-bottom:2px solid transparent;text-decoration:none;">Ductless / Mini-Split</a></li><li><a href="#thermostats" style="display:block;padding:15px 16px;white-space:nowrap;font-size:0.9rem;font-weight:600;color:#5a6472;border-bottom:2px solid transparent;text-decoration:none;">Thermostats</a></li><li><a href="#crawl-space" style="display:block;padding:15px 16px;white-space:nowrap;font-size:0.9rem;font-weight:600;color:#5a6472;border-bottom:2px solid transparent;text-decoration:none;">Crawl Space Encapsulation</a></li><li><a href="#attic-insulation" style="display:block;padding:15px 16px;white-space:nowrap;font-size:0.9rem;font-weight:600;color:#5a6472;border-bottom:2px solid transparent;text-decoration:none;">Attic Insulation</a></li><li><a href="#humidity" style="display:block;padding:15px 16px;white-space:nowrap;font-size:0.9rem;font-weight:600;color:#5a6472;border-bottom:2px solid transparent;text-decoration:none;">Humidity Control</a></li></ul></nav></div></div><div class="c15 ml-wm-waves"><div class="c16"><div class="c17"><div class="w18">Mid Lakes HVAC provides dependable heating, cooling, and whole-home comfort services for families throughout Madison, Loganville, and surrounding Georgia communities. From urgent HVAC repairs and seasonal maintenance to ductless systems, insulation, humidity control, and crawl space improvements, our team brings decades of hands-on experience to every home we serve.</div><div class="w19">We&rsquo;re family-owned, locally operated, and committed to giving our neighbors straightforward recommendations, quality workmanship, and service we&rsquo;re proud to stand behind.</div></div></div></div><div class="c20"><div class="c21"><div class="c22"><div class="w23"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;"></span>Heating &amp; Cooling</div><h2 class="w24 ml-h2">Heating &amp; Cooling Services</h2><div class="w25">Your heating and cooling system should keep your family comfortable without constant headaches.</div><div class="w26">Whether you need a repair, seasonal maintenance, or a better solution for a hard-to-comfort room, our team is here to help you understand what&rsquo;s going on and find the right way forward.</div></div><div class="c27"><div class="c28"><div class="c29"><h3 class="w30">HVAC Repair &amp; Maintenance</h3><div class="w31">When your heating or cooling system isn&rsquo;t doing its job, you shouldn&rsquo;t have to guess what&rsquo;s wrong.</div><div class="w32">Mid Lakes HVAC provides professional HVAC repair and preventive maintenance for central heating and cooling systems. Our technicians take the time to inspect your equipment, diagnose the problem, and explain what we find so you can make a confident decision about your home.</div><div class="w33">Routine maintenance is just as important. Seasonal service can help your equipment run more efficiently, reduce unnecessary wear, and give us a chance to catch developing problems before they leave your family without heating or cooling.</div><div class="w34">For homeowners who want to make ongoing maintenance easier, Mid Lakes HVAC also offers the <a href="/service-agreements/" style="color:#c10a0a;text-decoration:underline;text-underline-offset:2px;">Mid Lakes Comfort Club</a>.</div><div class="c35"><div class="bw37"><a class="w36 ml-btn ml-btn-primary" href="#contact">Schedule HVAC Repair or Maintenance</a></div></div></div><div class="c38"><div class="c39 ml-wm-card-4"><div class="w40">We can help with issues such as:</div><ul class="w41"><li>✓ AC or heating systems that won&rsquo;t turn on</li><li>✓ Weak or inconsistent airflow</li><li>✓ Uneven temperatures throughout the home</li><li>✓ Unusual noises or odors</li><li>✓ Frequent system cycling</li><li>✓ Equipment that runs constantly</li><li>✓ Poor heating or cooling performance</li><li>✓ Unexpected system breakdowns</li></ul></div></div></div></div><div class="c42"><div class="c43"><div class="c44"><h3 class="w45">Ductless / Mini-Split Systems</h3><div class="w46">Some rooms are simply harder to keep comfortable than others. A home addition, bonus room, garage, workshop, or older property without existing ductwork may need a different approach.</div><div class="w47">Ductless mini-splits provide flexible, efficient heating and cooling without requiring a traditional duct system. Mid Lakes HVAC provides complete ductless installation, repair, and maintenance services to help you get dependable comfort where you need it.</div><div class="w48"><strong>Ductless / Mini-Split Installation.</strong> Every home is different, so we don&rsquo;t believe in a one-size-fits-all approach. Our team can help determine the right system size, number of indoor units, and configuration based on your space and comfort goals.</div><div class="w49"><strong>Ductless / Mini-Split Repair.</strong> If your mini-split isn&rsquo;t heating or cooling properly, starts leaking, makes unusual noises, or stops responding, we&rsquo;ll diagnose the issue and explain your repair options clearly.</div><div class="w50"><strong>Ductless / Mini-Split Maintenance.</strong> Routine maintenance helps keep your ductless equipment clean, efficient, and ready for the seasons ahead. It can also help catch small issues before they turn into larger repairs.</div><div class="w51">Whether you&rsquo;re considering your first mini-split or need help with a system already in your home, our team is ready to help.</div><div class="c52"><div class="bw54"><a class="w53 ml-btn ml-btn-primary" href="#contact">Request Ductless Service</a></div></div></div><div class="c55"><div class="c56 ml-wm-card-4"><div class="w57">A ductless system can provide:</div><ul class="w58"><li>✓ Individual room or zone control</li><li>✓ Efficient heating and cooling</li><li>✓ Quiet operation</li><li>✓ Flexible installation options</li><li>✓ Comfort without extensive ductwork</li></ul></div></div></div></div><div class="c59"><div class="c60"><div class="c61"><h3 class="w62">Thermostat Repair &amp; Upgrades</h3><div class="w63">Your thermostat may be small, but it has a big job. When it isn&rsquo;t communicating properly with your HVAC system, you may notice inconsistent temperatures, unusual cycling, or equipment that doesn&rsquo;t respond when you change the settings.</div><div class="w64">Mid Lakes HVAC provides thermostat repair, replacement, and installation services.</div><div class="w65">We&rsquo;ll check both the thermostat and your HVAC controls to determine where the problem is really coming from. If a repair makes sense, we&rsquo;ll tell you. If replacement is the better option, we&rsquo;ll walk you through your choices without pushing features you don&rsquo;t need.</div><div class="w66">For homeowners looking for easier control, we can also install compatible modern thermostats, including options such as:</div><div class="w67">We&rsquo;ll make sure your new thermostat is properly matched to your equipment and set up to work the way it should.</div><div class="c68"><div class="bw70"><a class="w69 ml-btn ml-btn-primary" href="#contact">Schedule Thermostat Service</a></div></div></div><div class="c71"><div class="c72 ml-wm-card-4"><div class="w73">Including options such as:</div><ul class="w74"><li>✓ Programmable thermostats</li><li>✓ Smart thermostats</li><li>✓ Wi-Fi-enabled controls</li><li>✓ Temperature scheduling</li><li>✓ Remote system management</li></ul></div></div></div></div></div></div><div class="c75 ml-wm-waves"><div class="c76"><div class="c77"><div class="w78"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;"></span>Whole-Home Comfort</div><h2 class="w79 ml-h2">Whole-Home Comfort &amp; Efficiency</h2><div class="w80">Sometimes the problem isn&rsquo;t your HVAC equipment at all.</div><div class="w81">Poor insulation, excess humidity, or moisture beneath your home can make your heating and cooling system work harder and leave certain rooms feeling uncomfortable. That&rsquo;s why Mid Lakes HVAC looks beyond the equipment itself when your home isn&rsquo;t feeling the way it should.</div></div><div class="c82"><div class="c83"><div class="c84"><h3 class="w85">Crawl Space Encapsulation</h3><div class="w86">What happens beneath your home can affect the comfort above it.</div><div class="w87">When ground moisture and humid outdoor air enter an unprotected crawl space, they can contribute to high humidity, musty odors, mold-friendly conditions, and deterioration of materials beneath the home.</div><div class="w88">Crawl space encapsulation helps separate the area from outside moisture and creates a cleaner, more controlled environment.</div><div class="w89">Our team can take a look at your crawl space, explain what we&rsquo;re seeing, and recommend an approach that makes sense for your property.</div><div class="c90"><div class="bw92"><a class="w91 ml-btn ml-btn-primary" href="#contact">Request a Crawl Space Estimate</a></div></div></div><div class="c93"><div class="c94 ml-wm-card-4"><div class="w95">Encapsulation can help:</div><ul class="w96"><li>✓ Reduce crawl space moisture</li><li>✓ Control humidity beneath the home</li><li>✓ Reduce conditions that encourage mold growth</li><li>✓ Help protect structural materials</li><li>✓ Minimize musty odors</li><li>✓ Support more comfortable indoor conditions</li><li>✓ Improve the overall efficiency of the home</li></ul></div></div></div></div><div class="c97"><div class="c98"><div class="c99"><h3 class="w100">Attic Insulation</h3><div class="w101">If your home is difficult to keep comfortable, your attic may be part of the problem.</div><div class="w102">Inadequate insulation allows heat to move more easily between the attic and your living space. During Georgia summers, that can mean more heat entering the home. In colder weather, it can allow the warmth you&rsquo;re paying for to escape.</div><div class="w103">Mid Lakes HVAC provides attic insulation upgrades designed to help your home hold onto conditioned air and make life a little easier on your HVAC system.</div><div class="w104">If certain rooms are always too hot or too cold, or your system seems to run more than it should, we can help determine whether your attic insulation may be contributing to the problem.</div><div class="c105"><div class="bw107"><a class="w106 ml-btn ml-btn-primary" href="#contact">Get a Free Insulation Estimate</a></div></div></div><div class="c108"><div class="c109 ml-wm-card-4"><div class="w110">Proper insulation can help:</div><ul class="w111"><li>✓ Reduce summer heat gain</li><li>✓ Reduce winter heat loss</li><li>✓ Maintain more consistent indoor temperatures</li><li>✓ Keep conditioned air inside the living space</li><li>✓ Reduce unnecessary HVAC workload</li><li>✓ Support improved energy efficiency</li></ul></div></div></div></div><div class="c112"><div class="c113"><div class="c114"><h3 class="w115">Humidity Control &amp; Air Quality</h3><div class="w116">Anyone who lives in Georgia knows the humidity doesn&rsquo;t always stay outside.</div><div class="w117">When moisture levels inside your home get too high, the air can feel sticky or clammy even when the thermostat says the temperature should be comfortable. Excess humidity can also contribute to condensation, musty odors, dust mites, and conditions that support mold growth.</div><div class="w118">Mid Lakes HVAC provides humidity-control solutions designed to help your home feel more balanced and comfortable.</div><div class="w119">We&rsquo;ll listen to what you&rsquo;ve been noticing in your home, evaluate the conditions, and recommend a solution that works with your existing comfort system.</div><div class="c120"><div class="bw122"><a class="w121 ml-btn ml-btn-primary" href="#contact">Ask About Humidity Control</a></div></div></div><div class="c123"><div class="c124 ml-wm-card-4"><div class="w125">Better humidity management can help:</div><ul class="w126"><li>✓ Improve indoor comfort</li><li>✓ Reduce sticky or clammy air</li><li>✓ Limit excess moisture</li><li>✓ Reduce condensation</li><li>✓ Create less favorable conditions for mold and dust mites</li><li>✓ Help protect furnishings and building materials</li><li>✓ Support healthier indoor air conditions</li></ul></div></div></div></div></div></div><div class="c127 ml-comfort"><div class="c128"><div class="c129"><div class="w130"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;"></span>Around the clock</div><h2 class="w131 ml-h2">24/7 Emergency HVAC Service</h2><div class="w132">Heating and cooling problems don&rsquo;t check the clock before they happen.</div><div class="w133">If your system stops working unexpectedly and your family needs help after regular business hours, Mid Lakes HVAC offers 24/7 emergency service. Our after-hours team is available for urgent heating and cooling problems throughout our service area.</div><div class="w134">You&rsquo;ll have a local team to call when you need one most. Call (678) 776-0591 for 24/7 emergency HVAC service.</div><div class="c135"><div class="bw137"><a class="w136 ml-btn ml-btn-primary" href="tel:+16787760591">Call Now</a></div></div></div></div></div><div class="c138"><div class="c139"><div class="c140"><div class="w141"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;"></span>Comfort Club</div><h2 class="w142 ml-h2">Keep Your HVAC System Ready for Every Season</h2><div class="w143">A little preventive care can go a long way toward avoiding an inconvenient breakdown on the hottest or coldest day of the year.</div><div class="w144">The Mid Lakes Comfort Club makes it easier to stay on top of routine HVAC maintenance with:</div></div><div class="c145"><div class="c146 ml-card ml-wm-card-1"><h3 class="w147">Two Annual Tune-Ups</h3><div class="w148">one for cooling season and one for heating season</div></div><div class="c149 ml-card ml-wm-card-1"><h3 class="w150">Priority 24/7 Dispatch</h3><div class="w151">on emergency calls</div></div><div class="c152 ml-card ml-wm-card-1"><h3 class="w153">Exclusive Discounts</h3><div class="w154">on qualifying repairs and equipment upgrades</div></div></div><div class="w155">Regular servicing can help maintain system performance, catch developing issues early, and protect the equipment your family depends on year-round.</div><div class="c156"><div class="bw158"><a class="w157 ml-btn ml-btn-primary" href="/service-agreements/">Join the Mid Lakes Comfort Club</a></div></div></div></div><div class="c159 ml-wm-waves"><div class="c160"><div class="c161"><div class="w162"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;"></span>Coverage</div><h2 class="w163 ml-h2">Proud to Serve Our Neighbors Across the Area</h2><div class="w164">Mid Lakes HVAC provides heating, cooling, and home comfort services for homeowners throughout Loganville and surrounding Georgia communities, including:</div></div><ul style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px;"><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Athens, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Auburn, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Bethlehem, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Buckhead, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Buford, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Conyers, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Covington, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Good Hope, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Greensboro, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Lawrenceville, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Lilburn, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Loganville, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Madison, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Monroe, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Norcross, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Snellville, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Social Circle, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Suwanee, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Watkinsville, GA</li><li style="display:inline-block;padding:9px 17px;border-radius:999px;background:#ffffff;border:1px solid #dde3ec;font-size:0.92rem;font-weight:600;color:#1a2436;">Winder, GA</li></ul><div class="w166">Don&rsquo;t see your community listed? <a href="tel:+16787760591" style="color:#c10a0a;text-decoration:underline;text-underline-offset:2px;">Give us a call</a> and we&rsquo;ll let you know whether service is available in your area.</div></div></div><div class="c167 ml-wm-contact ml-band-ink"><div class="c168"><div class="c169"><div class="c170"><h2 class="w171 ml-h2">Your Local Team for a More Comfortable Home</h2><div class="w172">You don&rsquo;t have to know exactly what&rsquo;s wrong before you call us.</div><div class="w173">Tell us what&rsquo;s going on, and we&rsquo;ll give you an honest recommendation for the best way forward. Whether you need a repair, a maintenance visit, a ductless system, or a whole-home comfort improvement, you can count on Mid Lakes HVAC to treat your home with the same care and respect we&rsquo;d expect in our own.</div><div class="w174">As a family-owned and locally operated company, we take pride in serving the families and communities around us. With 75+ years of combined experience, 24/7 emergency availability, licensed and insured service, and a Parts &amp; Labor Guarantee, we&rsquo;re here to help you feel comfortable about both your home and the work being done in it.</div><div class="w175">Call (678) 776-0591 or schedule your service online today.</div><div class="c176"><div class="bw178"><a class="w177 ml-btn ml-btn-primary" href="tel:+16787760591">Call (678) 776-0591</a></div></div></div><div class="c179"><div class="c180"><h3 class="w181">Get a Free Estimate</h3><div class="w182">Fill out the form below and our team will reach out to schedule your service.</div><div class="ph"><strong>Elementor Pro Form</strong><br><span>not rendered here — wire up / verify after import</span></div></div></div></div></div></div>
+</body>
+</html>

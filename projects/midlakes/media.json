@@ -1,0 +1,31 @@
+{
+  "_note": "Attachment ids on the Local install (mid-lakes, http://localhost:10015). Written by uploading the five prototype photos from D:/laragon/www/midlakes/public/images with `wp media import`, alt text included. tokens.json keys the same photos by role; this file is the id map build.py reads.",
+  "_urls_are_local": "The URLs below are localhost:10015. At go-live run `wp elementor replace_urls http://localhost:10015 https://<production-domain>` — see PORT-DECISIONS 'Open #1'.",
+  "_not_here": "The two logos and the four wave watermarks are NOT in the media library. WordPress blocks SVG uploads by default, and they are version-controlled child-theme assets instead: wp-content/themes/mid-lakes/assets/.",
+
+  "hero-hvac": {
+    "id": 34,
+    "url": "http://localhost:10015/wp-content/uploads/2026/08/hero-hvac.webp",
+    "alt": "Modern outdoor air conditioning condenser units beside a home at dusk"
+  },
+  "technician": {
+    "id": 35,
+    "url": "http://localhost:10015/wp-content/uploads/2026/08/technician.webp",
+    "alt": "Mid Lakes HVAC technician servicing a heating and cooling system"
+  },
+  "ductwork": {
+    "id": 36,
+    "url": "http://localhost:10015/wp-content/uploads/2026/08/ductwork.webp",
+    "alt": "Industrial HVAC ductwork and ventilation piping"
+  },
+  "wall-units": {
+    "id": 37,
+    "url": "http://localhost:10015/wp-content/uploads/2026/08/wall-units.webp",
+    "alt": "Ductless mini-split units mounted on the exterior wall of a home"
+  },
+  "vents": {
+    "id": 38,
+    "url": "http://localhost:10015/wp-content/uploads/2026/08/vents.webp",
+    "alt": "Modern rooftop ventilation vents on a concrete facade"
+  }
+}

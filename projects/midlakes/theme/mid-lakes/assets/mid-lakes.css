@@ -1,0 +1,562 @@
+/* ==========================================================================
+   Mid Lakes — the capped stylesheet
+   ==========================================================================
+
+   THIS FILE IS A CAP, NOT A STYLESHEET. Every rule below is a property Elementor
+   has no control for. Nothing else goes in here without a decision recorded in
+   projects/midlakes/PORT-DECISIONS.md.
+
+   The governing rule is ONE OWNER PER PROPERTY:
+
+     - a property in this file must NOT also be emitted by build.py
+     - a property emitted by build.py must NOT appear in this file
+     - never !important
+
+   Why that matters: Elementor's generated per-element rules are (0,3,0) for a
+   container and (0,4,0) for a widget's inner element. Nothing here can outrank
+   them, and trying is how a stylesheet turns into a fight. Every rule below is
+   instead a property Elementor never emits at all — transform, transition,
+   pseudo-elements, clamp(), a variable font axis, table internals — so there is
+   zero competition and specificity never comes up.
+
+   Class prefix is `ml-`. Remember where a class lands:
+
+     container  -> on the element itself      .ml-card
+     widget     -> on the WRAPPER             .ml-btn .elementor-button   (not .ml-btn)
+
+   ========================================================================== */
+
+
+/* --------------------------------------------------------------------------
+   1. The fluid heads                                  [cap rule, approved]
+
+   h1: clamp(2.4rem, 5.2vw, 4rem)   h2: clamp(1.8rem, 3.4vw, 2.75rem)
+   Continuous fluid scaling; Elementor offers three fixed breakpoints.
+
+   build.py emits ONLY typography_font_size_mobile (2.4rem / 1.8rem — the clamp
+   floors) so responsive-audit.py passes. Below 767px Elementor's (0,4,0) mobile
+   rule wins, which is the floor anyway; above it this rule is unopposed and
+   scales fluidly. h2's floor is exact below 767px; h1's is within 1.5px.
+
+   build.py does NOT emit a desktop or tablet font-size for h1/h2. It DOES emit
+   weight, line-height and letter-spacing — those stay Elementor-owned.
+   -------------------------------------------------------------------------- */
+
+.ml-h1 .elementor-heading-title {
+  font-size: clamp(2.4rem, 5.2vw, 4rem);
+}
+
+.ml-h2 .elementor-heading-title {
+  font-size: clamp(1.8rem, 3.4vw, 2.75rem);
+}
+
+
+/* --------------------------------------------------------------------------
+   2. Fraunces                                         [cap rule, approved]
+
+   Loaded as ital,opsz,wght@1,9..144,400;1,9..144,500 — the `opsz` VARIABLE axis,
+   which Elementor's font picker cannot express. functions.php enqueues the exact
+   Google Fonts URL; these rules apply it.
+
+   Fraunces carries the entire serif voice of this design from three places and
+   is the first thing a port loses silently.
+
+   This file owns font-family, font-style and font-weight for these classes.
+   build.py emits their font-size and color and nothing else.
+   -------------------------------------------------------------------------- */
+
+.ml-serif,
+.ml-serif .elementor-heading-title,
+.ml-serif em,
+.ml-why-num .elementor-heading-title,
+.ml-step-num .elementor-heading-title,
+.ml-rich em {
+  font-family: 'Fraunces', Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* The decorative numerals are block-level in the prototype and the step numerals
+   use tabular figures so 1/2/3/4 sit on the same rhythm. */
+.ml-why-num .elementor-heading-title,
+.ml-step-num .elementor-heading-title {
+  display: block;
+}
+
+.ml-step-num .elementor-heading-title {
+  font-variant-numeric: tabular-nums;
+}
+
+
+/* --------------------------------------------------------------------------
+   3. The button's 2px lift                            [cap rule, approved]
+
+   .btn:hover { transform: translateY(-2px) } — no transform-on-hover control
+   exists for buttons. The transition is here too, because it is the same
+   property family and Elementor's own `transition: all` on .elementor-button
+   would otherwise ease the lift on the wrong curve.
+
+   NOTE THE DESCENDANT SELECTOR. The class lands on the widget WRAPPER, so
+   `.ml-btn:hover { transform }` would move the wrapper, not the button.
+
+   build.py owns the button's colours, border, radius, padding and typography,
+   and must NOT set hover_animation — this IS the hover animation.
+   -------------------------------------------------------------------------- */
+
+.ml-btn .elementor-button {
+  transition: transform 0.15s ease, background 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+}
+
+.ml-btn .elementor-button:hover,
+.ml-btn .elementor-button:focus-visible {
+  transform: translateY(-2px);
+}
+
+/* .btn-block — the form's submit button spans the card. */
+.ml-btn-block .elementor-button {
+  width: 100%;
+}
+
+
+/* --------------------------------------------------------------------------
+   4. The card lift                                    [cap CANDIDATE — see below]
+
+   .service-card:hover / .post-card:hover { transform: translateY(-4px) }.
+   Elementor has no transform-on-hover control for containers either.
+
+   ⚠️ Recorded in PORT-DECISIONS.md as a cap CANDIDATE, not an approved rule.
+   Proceeding on the recommendation there because it is the button's twin and
+   the alternative is a card that visibly does not move. Say the word and it
+   comes out — nothing else depends on it.
+
+   ONLY the transform is here. The hover box-shadow and border-color ARE native
+   Elementor container controls, so build.py owns those. That is the per-property
+   split working as intended: do not move them into this file.
+   -------------------------------------------------------------------------- */
+
+.ml-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.ml-card:hover {
+  transform: translateY(-4px);
+}
+
+
+/* --------------------------------------------------------------------------
+   5. The two photo-band overlays                      [cap CANDIDATE — see below]
+
+   Both are THREE-stop gradients; Elementor's gradient control has two. The
+   hero's middle stop is the design's whole trick — it lightens through the upper
+   third so the photo reads, then darkens hard behind the copy. A two-stop
+   approximation flattens exactly that.
+
+   ⚠️ Recorded in PORT-DECISIONS.md as a cap CANDIDATE. Proceeding on the
+   recommendation there. The native fallback, if these are rejected, is a
+   background_overlay gradient at 180deg rgba(15,31,53,.45) -> rgba(15,31,53,.85).
+
+   build.py puts the PHOTO on the band as background_image and sets the boxed
+   container's z_index to 1 so the copy sits above this layer — mirroring the
+   prototype's `.hero-inner { position: relative; z-index: 1 }`.
+   -------------------------------------------------------------------------- */
+
+.ml-hero,
+.ml-comfort {
+  position: relative;
+}
+
+/* ::after for the same reason as the watermarks — `.e-con::before` is Elementor's.
+   These two escaped the bug only because `inset: 0` happens to set all four offsets,
+   but they would still have inherited Elementor's `opacity: var(--overlay-opacity)`.
+   Nothing here should depend on that kind of luck. */
+.ml-hero::after,
+.ml-comfort::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.ml-hero::after {
+  background: linear-gradient(180deg,
+              rgba(15, 31, 53, 0.55) 0%,
+              rgba(15, 31, 53, 0.35) 40%,
+              rgba(15, 31, 53, 0.85) 100%);
+}
+
+.ml-comfort::after {
+  background: linear-gradient(100deg,
+              rgba(15, 31, 53, 0.94) 0%,
+              rgba(15, 31, 53, 0.80) 45%,
+              rgba(15, 31, 53, 0.35) 100%);
+}
+
+
+/* --------------------------------------------------------------------------
+   6. The watermarks                                   [cap rule, condition met]
+
+   The cap already carries a conditional row: "Watermark pseudo-elements — only
+   if the background-image route (decision 3) cannot place 1/2/4/6.svg exactly."
+
+   THE CONDITION IS MET, and here is why. Every watermark in the prototype is a
+   `width: 100%; height: <fixed>px` box, offset OUTSIDE its parent, painted with
+   `background-size: cover`. Elementor's background controls paint the element's
+   OWN box — they cannot express a 200px-tall layer hanging 50px below the card,
+   because the layer's height is decoupled from both the element and the image's
+   4:1 ratio. Approximating gives a wave of the wrong height in the wrong place
+   on every surface. So: pseudo-elements, verbatim from the prototype.
+
+   ⚠️ THESE ARE ::after, NOT ::before, AND THAT IS LOAD-BEARING.
+
+   Elementor already uses `.e-con::before` for a container's background overlay,
+   and that rule sets `top`, `left`, `width`, `height`, `opacity` and `content`:
+
+       .e-con:before { content: var(--background-overlay); position: absolute;
+                       top: calc(0px - var(--border-top-width));
+                       left: calc(0px - var(--border-left-width));
+                       width: max(100% + …, 100%);
+                       height: max(100% + …, 100%);
+                       opacity: var(--overlay-opacity); … }
+
+   A watermark anchored with `bottom` and `height` but no `top` is then
+   OVER-CONSTRAINED — `top` from Elementor wins, `bottom` is dropped, and the wave
+   pins itself to the TOP of the card instead of hanging off the bottom. It still
+   renders, still looks deliberate, and is wrong on every surface anchored to the
+   bottom edge. That is exactly what happened before this fix.
+
+   `.e-con::after` is untouched by Elementor (verified: zero matches in
+   frontend.min.css), so everything that needs ONE layer lives there and competes
+   with nothing.
+
+   The `.about` band is the only surface needing TWO, so it keeps a `::before` —
+   and that one is deliberately the TOP-LEFT wave, because it sets `top` and `left`
+   explicitly and therefore overrides Elementor's values outright. Its `opacity: 1`
+   is also explicit, so a background overlay added to that container later cannot
+   drag `--overlay-opacity` into the wave.
+
+   Suppression is by omission: `.what-happens` sections simply do not get the
+   `ml-wm-waves` class, which is cleaner than the prototype's display:none
+   override and produces the same result.
+
+   ⚠️ .ml-footer's 300px bottom padding (emitted by build.py) exists ONLY to
+   clear .ml-footer::after. Drop one and the other goes with it.
+   -------------------------------------------------------------------------- */
+
+.ml-wm-waves,
+.ml-wm-card-1,
+.ml-wm-card-4,
+.ml-wm-contact,
+.ml-footer {
+  position: relative;
+  overflow: hidden;
+}
+
+.ml-wm-waves::before,
+.ml-wm-waves::after,
+.ml-wm-card-1::after,
+.ml-wm-card-4::after,
+.ml-wm-contact::after,
+.ml-footer::after {
+  content: "";
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+/* The white .about band carries a mirrored pair, bleeding out of both corners.
+   2-flip.svg is 2.svg pre-rotated 180deg, because Elementor cannot transform a
+   background and this file is not allowed to grow a transform rule for dressing.
+
+   ::before is the TOP-LEFT one on purpose — see the note above. */
+.ml-wm-waves::before {
+  background-image: url("./2-flip.svg");
+  width: 100%;
+  height: 400px;
+  left: -200px;
+  top: -250px;
+  opacity: 1;
+}
+
+.ml-wm-waves::after {
+  background-image: url("./2.svg");
+  width: 100%;
+  height: 400px;
+  right: -200px;
+  bottom: -250px;
+  opacity: 1;
+}
+
+.ml-wm-card-1::after {
+  background-image: url("./1.svg");
+  width: 100%;
+  height: 200px;
+  bottom: -50px;
+  left: 0;
+  opacity: 0.3;
+}
+
+.ml-wm-card-4::after {
+  background-image: url("./4.svg");
+  width: 100%;
+  height: 200px;
+  bottom: -100px;
+  left: 0;
+  opacity: 0.3;
+}
+
+.ml-wm-contact::after {
+  background-image: url("./6.svg");
+  width: 100%;
+  height: 200px;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.ml-footer::after {
+  background-image: url("./1.svg");
+  width: 100%;
+  height: 200px;
+  bottom: 0;
+  left: 0;
+  opacity: 0.1;
+}
+
+
+/* --------------------------------------------------------------------------
+   7. The rate table                                   [cap rule, approved]
+
+   /service-agreements/ carries the only tabular data on the site. There is no
+   table widget, and the <620px behaviour — hide the header row, turn each row
+   into its own card — is pure CSS with no Elementor equivalent.
+
+   build.py ships the prototype's <table> markup verbatim inside ONE `html`
+   widget wrapped in .ml-rate-table-wrap, and emits no styling for it at all.
+   This section is therefore the sole owner of everything inside it.
+   -------------------------------------------------------------------------- */
+
+.ml-rate-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #dde3ec;
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.ml-rate-table {
+  width: 100%;
+  min-width: 620px;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+  color: #1a2436;
+  line-height: 1.6;
+}
+
+.ml-rate-table thead th {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #5a6472;
+  padding: 20px 26px;
+  border-bottom: 1px solid #dde3ec;
+  white-space: nowrap;
+}
+
+.ml-rate-table tbody th,
+.ml-rate-table tbody td {
+  padding: 22px 26px;
+  border-bottom: 1px solid #dde3ec;
+  vertical-align: top;
+  font-size: 0.96rem;
+}
+
+.ml-rate-table tbody tr:last-child th,
+.ml-rate-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.ml-rate-table tbody th {
+  font-weight: 700;
+  color: #1a2436;
+  white-space: nowrap;
+}
+
+.ml-rate-table .rate-amount {
+  font-weight: 700;
+  color: #2540af;
+  white-space: nowrap;
+}
+
+/* Three columns cannot scroll usefully on a phone: the rate ends up off screen
+   with no hint it is there. Stack each row into its own card and drop the header
+   row, since the row label and the rate read on their own. */
+@media (max-width: 620px) {
+  .ml-rate-table-wrap {
+    overflow-x: visible;
+    border: none;
+    border-radius: 0;
+    background: none;
+  }
+
+  .ml-rate-table {
+    min-width: 0;
+  }
+
+  .ml-rate-table thead {
+    display: none;
+  }
+
+  .ml-rate-table tbody tr {
+    display: block;
+    background: #ffffff;
+    border: 1px solid #dde3ec;
+    border-radius: 14px;
+    padding: 22px 24px;
+  }
+
+  .ml-rate-table tbody tr + tr {
+    margin-top: 14px;
+  }
+
+  .ml-rate-table tbody th,
+  .ml-rate-table tbody td {
+    display: block;
+    padding: 0;
+    border-bottom: none;
+    white-space: normal;
+  }
+
+  .ml-rate-table tbody th {
+    font-size: 1.02rem;
+  }
+
+  .ml-rate-table .rate-amount {
+    margin: 6px 0 10px;
+    font-size: 1.1rem;
+  }
+
+  .ml-rate-table tbody td:last-child {
+    color: #5a6472;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   8. The primary nav must not wrap                    [cap rule, condition met]
+
+   The prototype's `.main-nav` is a plain `display: flex`, so it defaults to
+   `flex-wrap: nowrap` — the nav is one line or it is nothing, which is exactly why
+   styles.css tightens it at 1400px and collapses it at 1200px.
+
+   Elementor's nav-menu widget ships the opposite:
+
+       .elementor-nav-menu--layout-horizontal .elementor-nav-menu
+           { display: flex; flex-wrap: wrap }
+
+   ...and offers no control to change it. Under any width pressure the menu silently
+   becomes two or three stacked lines instead of staying a single row — which is the
+   bug that produced the "stretched header". The width fix (every widget in the bar
+   set to `_element_width: auto`) removes today's pressure; this removes the failure
+   mode, so a longer menu label later degrades the way the prototype does.
+   -------------------------------------------------------------------------- */
+
+.ml-nav .elementor-nav-menu--layout-horizontal .elementor-nav-menu {
+  flex-wrap: nowrap;
+}
+
+
+/* --------------------------------------------------------------------------
+   9. Focus indicators                                 [cap rule, condition met]
+
+   Same conditional logic as the watermarks: :focus-visible is a pseudo-class
+   Elementor has no control for, and the prototype's focus design is not
+   decoration — it is the WCAG 2.4.7 / 1.4.11 compliance the CSS comments
+   document ratio by ratio.
+
+   The ring switches colour by band, because brand red on navy is 2.62:1.
+   -------------------------------------------------------------------------- */
+
+:where(a, button, input, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid #c10a0a;   /* 5.85:1 on paper */
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* On the navy surfaces switch to the logo's sky blue (5.61:1 on navy). */
+.ml-hero :where(a, button, [tabindex]):focus-visible,
+.ml-comfort :where(a, button, [tabindex]):focus-visible,
+.ml-band-ink :where(a, button, input, textarea, [tabindex]):focus-visible,
+.ml-footer :where(a, button, [tabindex]):focus-visible,
+.ml-figure :where(a, button, [tabindex]):focus-visible {
+  outline-color: #4a9be5;
+}
+
+/* Form fields already draw a border, so give focus a filled ring instead of an
+   offset outline, to avoid clipping inside the card. */
+.ml-form input:focus-visible,
+.ml-form textarea:focus-visible,
+.ml-form select:focus-visible {
+  outline: 3px solid #4a9be5;
+  outline-offset: 0;
+  border-color: #4a9be5;
+}
+
+/* Honour the Windows/macOS high-contrast and forced-colors modes. */
+@media (forced-colors: active) {
+  :where(a, button, input, textarea, summary):focus-visible {
+    outline: 3px solid Highlight;
+  }
+
+  .ml-btn .elementor-button {
+    border: 1px solid ButtonText;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   11. The header's frosted glass                      [cap rule, condition met]
+
+   .site-header { background: rgba(244,246,249,.92); backdrop-filter: blur(10px) }
+
+   The translucent fill is native (Elementor sets it). The blur is not: Elementor's
+   CSS Filters group emits `filter:`, which blurs an element's OWN CONTENTS — it
+   would smear the logo and the nav rather than the page scrolling underneath. There
+   is no backdrop-filter control anywhere in Elementor, which is this cap's exact
+   criterion. Verified empirically: passing css_filters_* on the header container
+   generated no CSS at all.
+
+   Elementor owns the fill, the border and the sticky behaviour; this owns the blur.
+   -------------------------------------------------------------------------- */
+
+.ml-header {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+
+/* --------------------------------------------------------------------------
+   10. Reduced motion
+
+   The prototype disables its scroll-reveal under prefers-reduced-motion. The
+   Elementor build uses Elementor's own entrance animations, which already
+   respect the setting — but the two transforms this file adds do not, so they
+   are switched off here too.
+   -------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .ml-btn .elementor-button,
+  .ml-card {
+    transition: none;
+  }
+
+  .ml-btn .elementor-button:hover,
+  .ml-btn .elementor-button:focus-visible,
+  .ml-card:hover {
+    transform: none;
+  }
+}

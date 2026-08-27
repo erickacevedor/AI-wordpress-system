@@ -11,13 +11,15 @@ Update this file when the answer to "where are we?" changes.
 
 ## One-paragraph summary
 
-The prototype is finished and clean. The WordPress install exists, is reachable, and
-has its **wire-up done** — seven page stubs, two menus, permalinks, front page and
-posts page. **Nothing has been onboarded and no page has been built.** The next step
-is onboarding: `tokens.json`, `KIT-ANALYSIS.md`, and the five `midlakes-*` skills.
-**Nothing blocks the build** — the content and form questions were answered
-2026-08-27 (see `PORT-DECISIONS.md`); only the production domain and the SEO plugin
-are still open, and both are go-live wire-up.
+**The site is built.** All six pages, the header, the footer, the child theme, the
+icon sprite, the form and the media library — built from the prototype, gated at
+`validate-page.py` exit 0, imported into the Local install, and verified against the
+rendered HTML. All seven URLs return 200 and render with the right header, footer,
+watermarks, alternations and fonts.
+
+What remains is **go-live wire-up, not build work**: the blog archive template, the
+production domain, and an SEO plugin for the seven hand-written `<title>` tags. Two
+child-theme rules are shipped as *cap candidates* and want a yes/no.
 
 ---
 
@@ -54,10 +56,10 @@ Read-only without `--emit-tokens`.
 | Images | 5 webp, 2 logo SVG, 4 watermark SVG (`1/2/4/6.svg`) |
 | Button | `#c10a0a` → hover `#a30808` + `translateY(-2px)`, radius `999px` |
 
-> **These numbers drifted from the ones recorded in §11 of
-> `docs/Elementor-Output-Anatomy.md`**, which were taken before the About page work:
-> that block says 6 pages, 1698 CSS lines, 5 forms. It is stale, not wrong-in-kind.
-> Its decision #7 (brand primary is red) **is** wrong — see `PORT-DECISIONS.md`.
+> These numbers used to disagree with §11 of `docs/Elementor-Output-Anatomy.md`
+> (6 pages, 1698 CSS lines, 5 forms — taken before the About page work), and with its
+> decision #7, which claimed the brand primary was red. **That block is gone**; the
+> current numbers live here and in `KIT-ANALYSIS.md` §13.
 
 ---
 
@@ -68,62 +70,95 @@ Read-only without `--emit-tokens`.
 ```
 projects/midlakes/
 ├── STATUS.md            this file
-├── ENVIRONMENT.md       install access, ports, the two traps, what is wired up
-└── PORT-DECISIONS.md    settled decisions, the CSS cap, verified Elementor behaviour
+├── ENVIRONMENT.md       install access, ports, the three traps, what is on the site
+├── PORT-DECISIONS.md    settled decisions, the CSS cap, verified Elementor behaviour
+├── KIT-ANALYSIS.md      the design system, the component vocabulary, the port's answers
+├── tokens.json          the seam — verified readable by site_tokens.py
+├── media.json           the five photos → attachment ids 34–38
+├── brand.py             THE VOCABULARY. Every component, once. ~1240 lines
+├── build-all.sh         build + gate everything; --deploy to push and verify
+├── deploy-theme.sh      repo → wp-content/themes/mid-lakes
+├── wp.sh                WP-CLI with both Local traps handled
+├── tools/
+│   └── set-kit-defaults.php   Manrope base type, 1200 container, tablet_extra@1200
+├── theme/mid-lakes/     the CHILD THEME — the capped stylesheet + the SVG assets
+├── skills/              the five midlakes-* skills
+└── pages/
+    ├── _theme/{header,footer}/    Theme Builder parts (templates 49, 50)
+    ├── home/  about-us/  services/
+    ├── service-agreements/  service-area/  financing/
+    └──   each: source.php · build.py · <slug>.json · HANDOFF-notes.md
 ```
-
-Nothing else. **No `tokens.json`, no `KIT-ANALYSIS.md`, no `skills/`, no `pages/`.**
 
 ### On the install
 
-Wire-up only — no page content anywhere. Full detail in `ENVIRONMENT.md`.
+Full detail in `ENVIRONMENT.md`.
 
-- Pages **10–16** (Home, About, Services, Service Agreements, Service Areas,
-  Financing, Blog) — published, **empty**, slugs matching the prototype
-- Home (10) is the front page; Blog (16) is the posts page
-- **Main Menu** (3) → Header, **Footer Menu** (4) → Footer
-- Permalinks `/%postname%/`; all seven URLs return 200
-- Default Kit (6) **untouched** — Global Colors are still Hello Elementor defaults
+- Pages **10–15** hold the six built pages; **16 (Blog)** is the posts page and is
+  still empty — it needs an archive template, not a page
+- Theme **`mid-lakes`** active, deployed from this repo
+- Templates **49** (header) and **50** (footer), both *Entire Site*
+- Attachments **34–38** — the five photos, alt text set
+- Default Kit (6): **typography set to Manrope**, container 1200,
+  `tablet_extra` breakpoint at 1200. **Global Colors still stock** — colour stays
+  inline, and that has not changed
+- All seven URLs return 200
 
 ---
 
 ## What does not exist yet
 
-- Onboarding output: `tokens.json`, `KIT-ANALYSIS.md`, the five `midlakes-*` skills
-- The `mid-lakes` **child theme** (decision 2) and its capped stylesheet
-- The **SVG icon sprite** (decision 4)
-- The **Elementor Pro Form template** (decision 1)
-- Header / footer **Theme Builder templates** (`pages/_theme/`)
-- **Any page.** Six real pages to build — blog is an archive, not a page
-- **Media library is empty** (0 attachments). Images need uploading and a `media.json`
-  attachment-id map, the way lenz does it
+- **The blog archive template.** Page 16 is the posts page; the prototype's
+  `post-grid` is a loop, so it is a Theme Builder *archive*, not a page. Nothing
+  else on the site depends on it
+- **A production domain** and an **SEO plugin** — the seven hand-written
+  locality-targeted `<title>` tags are parked in `tokens.json → pages.seo` and
+  repeated in every `HANDOFF-notes.md`, but have nowhere to live yet
+- **A decision on the two cap candidates** (below)
+- **Real blog posts.** The archive will be empty until there are some
 
 ---
 
 ## Next steps, in order
 
-1. ~~**Unblock.**~~ Done 2026-08-27 — see "Answered" in `PORT-DECISIONS.md`. Only the
-   production domain and the SEO plugin remain, and neither blocks building.
-2. **Onboard.** `python scripts/analyze-prototype.py D:/laragon/www/midlakes/public
-   --emit-tokens projects/midlakes/tokens.json`, then hand-verify `_roles`
-   (**primary is blue, CTA is red** — the script's inference is right, the old doc
-   note is not), `links`, `phone`, `button`, `content_width` (1200).
-3. **Write `KIT-ANALYSIS.md`**, folding in the §11 Mid Lakes block and deleting it
-   from `docs/Elementor-Output-Anatomy.md` — with the primary-colour correction.
-4. **Generate the five `midlakes-*` skills** per
-   `skills/html-prototype-onboarding`. Put the two footguns from `PORT-DECISIONS.md`
-   into `midlakes-page-builder`.
-5. **Child theme + sprite + form template**, then header/footer.
-6. **Build pages**, one folder each, validator exit 0 before every import.
-
----
+1. ~~**Unblock.**~~ ~~**Onboard.**~~ ~~**`KIT-ANALYSIS.md`.**~~ ~~**The five
+   skills.**~~ ~~**Child theme + sprite + form template.**~~ ~~**Header/footer.**~~
+   ~~**Build the six pages.**~~ All done 2026-08-27.
+2. **Answer the two cap candidates.** Both are shipped and both are one rule each,
+   marked `[cap CANDIDATE]` in `mid-lakes.css`, removable without touching a single
+   `build.py`:
+   - `.ml-card:hover { transform: translateY(-4px) }` — the service/post card lift.
+   - `.ml-hero::after` / `.ml-comfort::after` — the two **three-stop** photo
+     overlays. Elementor's gradient control has two stops; the hero's middle stop is
+     what lets the photo read through the top third. The native fallback is visibly
+     flatter.
+3. **The blog archive template** (`pages/_theme/archive/`), then some posts.
+4. **Go-live wire-up.** Production domain → `wp elementor replace_urls
+   http://localhost:10015 https://<domain>`; install an SEO plugin and load the seven
+   titles/descriptions from `tokens.json → pages.seo`.
+5. **Decide whether the watermarks are worth their cost.** They are **37% of the
+   capped stylesheet** (49 of 134 declarations), plus seven SVG assets, plus the
+   300px footer-padding trap. They are decoration — dropping them removes no
+   information from any page. §11.4 of `docs/Elementor-Output-Anatomy.md` says to
+   confirm a late-appended watermark block is wanted at all before paying to port it,
+   and the prototype's block is exactly that shape. Ported under decision 3; worth
+   re-confirming now the price is measurable.
+6. **Raise the SEO string lengths with the client.** The prototype's own titles run to
+   61–62 characters and its descriptions to 159–179; Google truncates around 60/155.
+   They were kept **verbatim** because rewriting existing content is a client call.
 
 ## Standing rules for this site
 
 - **Fidelity beats editability.** The client chose "exactly as it is" knowing capped
   properties stop responding to the Elementor editor.
-- **Style inline, never at a global colour slot** — the kit is stock Hello.
+- **Fonts come from the kit; colours are written into the page.** The kit's base
+  typography is Manrope. `system_colors` is deliberately still stock Hello, so a
+  global colour slot silently renders off-brand.
+- **Build through `brand.py`**, never from an ad-hoc read of the prototype. Every
+  component, every alternation and all three footguns are handled there once.
 - **One owner per property** — child theme *or* Elementor, never both. No `!important`.
-- **`validate-page.py` exit 0 is not optional.**
+- **`validate-page.py` exit 0 is not optional.** Every current warning is one of
+  two known things: the deliberate white-on-white band doubles, and the
+  prototype's own over-length SEO strings. Anything else is a real finding.
 - The install is a deployment target. Anything hand-edited there is lost on the next
   import and invisible to git.

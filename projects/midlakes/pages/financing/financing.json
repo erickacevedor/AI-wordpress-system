@@ -1,0 +1,3768 @@
+{
+  "version": "0.4",
+  "title": "Financing",
+  "type": "page",
+  "content": [
+    {
+      "id": "4500ae0f",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_image": {
+          "url": "http://localhost:10015/wp-content/uploads/2026/08/wall-units.webp",
+          "id": 37,
+          "size": "",
+          "alt": "Ductless mini-split units mounted on the exterior wall of a home",
+          "source": "library"
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_repeat": "no-repeat",
+        "overflow": "hidden",
+        "css_classes": "ml-hero"
+      },
+      "elements": [
+        {
+          "id": "45009ab8",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "104",
+              "right": "24",
+              "bottom": "56",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "88",
+              "right": "24",
+              "bottom": "48",
+              "left": "24",
+              "isLinked": false
+            },
+            "min_height": {
+              "unit": "px",
+              "size": 460,
+              "sizes": []
+            },
+            "min_height_tablet": {
+              "unit": "px",
+              "size": 560,
+              "sizes": []
+            },
+            "flex_justify_content": "flex-end",
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "45008761",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 22,
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 700,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "px",
+                  "size": 700,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "45003a05",
+                  "settings": {
+                    "title": "Flexible Financing for Your Home Comfort Needs",
+                    "header_size": "h1",
+                    "typography_font_size_mobile": {
+                      "unit": "rem",
+                      "size": 2.4,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02,
+                      "sizes": []
+                    },
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "_css_classes": "ml-h1"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "45004d5c",
+                  "settings": {
+                    "editor": "A new HVAC system or major home-comfort project can be an important investment&mdash;and sometimes, the need comes sooner than expected.",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.12,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "rgba(255,255,255,0.85)",
+                    "_element_width": "initial",
+                    "_element_custom_width": {
+                      "unit": "px",
+                      "size": 540,
+                      "sizes": []
+                    },
+                    "_element_custom_width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                },
+                {
+                  "id": "450060b3",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14",
+                      "isLinked": true
+                    },
+                    "flex_direction_mobile": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "45001357",
+                      "settings": {
+                        "text": "Explore Financing Options",
+                        "align": "left",
+                        "link": {
+                          "url": "#financing-options",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Manrope",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15.2,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "999",
+                          "right": "999",
+                          "bottom": "999",
+                          "left": "999",
+                          "isLinked": true
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1.5",
+                          "right": "1.5",
+                          "bottom": "1.5",
+                          "left": "1.5",
+                          "isLinked": true
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "26",
+                          "bottom": "14",
+                          "left": "26",
+                          "isLinked": false
+                        },
+                        "background_color": "#c10a0a",
+                        "button_text_color": "#ffffff",
+                        "border_color": "#c10a0a",
+                        "button_background_hover_color": "#a30808",
+                        "button_hover_border_color": "#a30808",
+                        "hover_color": "#ffffff",
+                        "_css_classes": "ml-btn ml-btn-primary"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "button",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "450026ae",
+                      "settings": {
+                        "text": "Call (678) 776-0591",
+                        "align": "left",
+                        "link": {
+                          "url": "tel:+16787760591",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Manrope",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15.2,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "999",
+                          "right": "999",
+                          "bottom": "999",
+                          "left": "999",
+                          "isLinked": true
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1.5",
+                          "right": "1.5",
+                          "bottom": "1.5",
+                          "left": "1.5",
+                          "isLinked": true
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "26",
+                          "bottom": "14",
+                          "left": "26",
+                          "isLinked": false
+                        },
+                        "background_color": "rgba(0,0,0,0)",
+                        "button_text_color": "#ffffff",
+                        "border_color": "rgba(255,255,255,0.5)",
+                        "button_background_hover_color": "rgba(255,255,255,0.1)",
+                        "button_hover_border_color": "rgba(255,255,255,0.5)",
+                        "hover_color": "#ffffff",
+                        "_css_classes": "ml-btn ml-btn-ghost"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "button",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4500740a",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:12px 36px;\"><li style=\"margin:0;\"><strong style=\"color:#ffffff;font-weight:800;margin-right:6px;\">Family-Owned</strong>&amp; Operated</li><li style=\"margin:0;\"><strong style=\"color:#ffffff;font-weight:800;margin-right:6px;\">Free</strong>Estimates</li><li style=\"margin:0;\"><strong style=\"color:#ffffff;font-weight:800;margin-right:6px;\">Licensed</strong>&amp; Insured</li><li style=\"margin:0;\"><strong style=\"color:#ffffff;font-weight:800;margin-right:6px;\">Parts &amp; Labor</strong>Guarantee</li></ul>",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.95,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "rgba(255,255,255,0.8)",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "34",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "_padding": {
+                      "unit": "px",
+                      "top": "26",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "_border_border": "solid",
+                    "_border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "_border_color": "rgba(255,255,255,0.18)"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "4500fb6b",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "css_classes": "ml-wm-waves"
+      },
+      "elements": [
+        {
+          "id": "4500e814",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            },
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "4500d4bd",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "4500c166",
+                  "settings": {
+                    "editor": "At Mid Lakes Heating and Cooling, we want to make it easier to move forward with the solution that makes sense for your home and family. Financing is available for qualifying projects, and our team can help guide you through the process from your estimate to the online application.",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#5a6472"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "4501e37f",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#f4f6f9"
+      },
+      "elements": [
+        {
+          "id": "4501d028",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "4501bcd1",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "45019623",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 55.5,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "45010ec2",
+                      "settings": {
+                        "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Flexibility",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.72,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.18,
+                          "sizes": []
+                        },
+                        "text_color": "#c10a0a"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45012219",
+                      "settings": {
+                        "title": "More Flexibility When Your Home Needs It",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45013570",
+                      "settings": {
+                        "editor": "Some home improvements are planned months in advance. Others begin with an air conditioner that stops working on a hot Georgia afternoon or a comfort problem that can no longer be put off.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "450148c7",
+                      "settings": {
+                        "editor": "Financing gives eligible homeowners another way to manage a larger home-comfort expense without having to cover the entire cost upfront.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45015c1e",
+                      "settings": {
+                        "editor": "That means you can focus first on what your home needs, understand the recommended solution, and then decide which payment option makes the most sense for your household.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45016f75",
+                      "settings": {
+                        "editor": "Our goal is simple: give you clear information and help make the process easier&mdash;not add more pressure to an already important decision.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4501a97a",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 39.64,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "450182cc",
+                      "settings": {
+                        "html": "<figure class=\"ml-figure\" style=\"position:relative;margin:0;border-radius:14px;overflow:hidden;\"><img src=\"http://localhost:10015/wp-content/uploads/2026/08/hero-hvac.webp\" alt=\"Modern outdoor air conditioning condenser units beside a home at dusk\" loading=\"lazy\" style=\"display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;\" /></figure>"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "html",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "450352f4",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_element_id": "financing-options",
+        "css_classes": "ml-wm-waves"
+      },
+      "elements": [
+        {
+          "id": "45033f9d",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            },
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "45032c46",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "45030598",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 55.5,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4501f6d6",
+                      "settings": {
+                        "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Our lending partner",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.72,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.18,
+                          "sizes": []
+                        },
+                        "text_color": "#c10a0a"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45020a2d",
+                      "settings": {
+                        "title": "Financing Through Service Finance",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45021d84",
+                      "settings": {
+                        "editor": "Mid Lakes HVAC partners with Service Finance to provide financing for qualifying home-comfort projects.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "450230db",
+                      "settings": {
+                        "editor": "Available rates, terms, and promotional offers depend on the financing program and credit approval.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45025789",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_wrap": "wrap",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 14,
+                          "column": "14",
+                          "row": "14",
+                          "isLinked": true
+                        },
+                        "flex_direction_mobile": "column"
+                      },
+                      "elements": [
+                        {
+                          "id": "45024432",
+                          "settings": {
+                            "text": "Apply for Financing",
+                            "align": "left",
+                            "link": {
+                              "url": "#contact",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "typography_typography": "custom",
+                            "typography_font_family": "Manrope",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 15.2,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "700",
+                            "border_radius": {
+                              "unit": "px",
+                              "top": "999",
+                              "right": "999",
+                              "bottom": "999",
+                              "left": "999",
+                              "isLinked": true
+                            },
+                            "border_border": "solid",
+                            "border_width": {
+                              "unit": "px",
+                              "top": "1.5",
+                              "right": "1.5",
+                              "bottom": "1.5",
+                              "left": "1.5",
+                              "isLinked": true
+                            },
+                            "text_padding": {
+                              "unit": "px",
+                              "top": "14",
+                              "right": "26",
+                              "bottom": "14",
+                              "left": "26",
+                              "isLinked": false
+                            },
+                            "background_color": "#c10a0a",
+                            "button_text_color": "#ffffff",
+                            "border_color": "#c10a0a",
+                            "button_background_hover_color": "#a30808",
+                            "button_hover_border_color": "#a30808",
+                            "hover_color": "#ffffff",
+                            "_css_classes": "ml-btn ml-btn-primary"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "button",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "450318ef",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 39.64,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4502f241",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "26",
+                          "right": "26",
+                          "bottom": "28",
+                          "left": "26",
+                          "isLinked": false
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#dde3ec",
+                        "css_classes": "ml-wm-card-4"
+                      },
+                      "elements": [
+                        {
+                          "id": "45026ae0",
+                          "settings": {
+                            "editor": "Here are the key details:",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.78,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "700",
+                            "typography_text_transform": "uppercase",
+                            "typography_letter_spacing": {
+                              "unit": "em",
+                              "size": 0.14,
+                              "sizes": []
+                            },
+                            "text_color": "#5a6472"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "text-editor",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "4502deea",
+                          "settings": {
+                            "icon_list": [
+                              {
+                                "text": "Services over $3,000 can be financed",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "45027e3"
+                              },
+                              {
+                                "text": "0% interest options may be available",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4502918"
+                              },
+                              {
+                                "text": "Promotional terms may include 12, 18, or 24 months",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4502a4e"
+                              },
+                              {
+                                "text": "Applications are completed online",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4502b83"
+                              },
+                              {
+                                "text": "Your Mid Lakes technician can help guide you through the application process",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4502cb9"
+                              }
+                            ],
+                            "icon_color": "#2540af",
+                            "icon_size": {
+                              "unit": "px",
+                              "size": 18,
+                              "sizes": []
+                            },
+                            "space_between": {
+                              "unit": "px",
+                              "size": 12,
+                              "sizes": []
+                            },
+                            "text_indent": {
+                              "unit": "px",
+                              "size": 12,
+                              "sizes": []
+                            },
+                            "text_color": "#1a2436",
+                            "icon_typography_typography": "custom",
+                            "icon_typography_font_family": "Manrope",
+                            "icon_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.96,
+                              "sizes": []
+                            },
+                            "icon_typography_font_weight": "400",
+                            "divider": "",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "16",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "icon-list",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "45055d21",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#f4f6f9"
+      },
+      "elements": [
+        {
+          "id": "450549ca",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 48,
+              "column": "48",
+              "row": "48",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "4503a050",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "px",
+                  "size": 720,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "4503664b",
+                  "settings": {
+                    "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Process",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.72,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0.18,
+                      "sizes": []
+                    },
+                    "text_color": "#c10a0a"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                },
+                {
+                  "id": "450379a2",
+                  "settings": {
+                    "title": "How the Financing Process Works",
+                    "header_size": "h2",
+                    "typography_font_size_mobile": {
+                      "unit": "rem",
+                      "size": 1.8,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02,
+                      "sizes": []
+                    },
+                    "typography_typography": "custom",
+                    "_css_classes": "ml-h2"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "45038cf9",
+                  "settings": {
+                    "editor": "We keep the process straightforward so you can focus on making the right decision for your home.",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#5a6472"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "45053673",
+              "settings": {
+                "content_width": "full",
+                "container_type": "grid",
+                "grid_columns_grid": {
+                  "unit": "fr",
+                  "size": 4,
+                  "sizes": []
+                },
+                "grid_columns_grid_tablet": {
+                  "unit": "fr",
+                  "size": 2,
+                  "sizes": []
+                },
+                "grid_columns_grid_mobile": {
+                  "unit": "fr",
+                  "size": 1,
+                  "sizes": []
+                },
+                "grid_rows_grid": {
+                  "unit": "fr",
+                  "size": 0,
+                  "sizes": []
+                },
+                "grid_gaps": {
+                  "column": "26",
+                  "row": "26",
+                  "isLinked": true,
+                  "unit": "px"
+                },
+                "grid_align_items": "stretch",
+                "presetTitle": "Grid",
+                "presetIcon": "eicon-container-grid"
+              },
+              "elements": [
+                {
+                  "id": "45040103",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "26",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "2",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "border_color": "#dde3ec"
+                  },
+                  "elements": [
+                    {
+                      "id": "4503b3a7",
+                      "settings": {
+                        "title": "1",
+                        "header_size": "p",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.7,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.7,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "title_color": "#c10a0a",
+                        "_css_classes": "ml-step-num"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4503c6fe",
+                      "settings": {
+                        "title": "Start With an Evaluation",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.08,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.08,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4503da55",
+                      "settings": {
+                        "editor": "Tell us what&rsquo;s going on with your home or what you&rsquo;re hoping to improve.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.94,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4503edac",
+                      "settings": {
+                        "editor": "Our team will evaluate your needs, explain the recommended solution, and provide pricing for the work.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.94,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "450461b6",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "26",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "2",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "border_color": "#dde3ec"
+                  },
+                  "elements": [
+                    {
+                      "id": "4504145a",
+                      "settings": {
+                        "title": "2",
+                        "header_size": "p",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.7,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.7,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "title_color": "#2540af",
+                        "_css_classes": "ml-step-num"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "450427b1",
+                      "settings": {
+                        "title": "Decide Whether You&rsquo;d Like to Finance",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.08,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.08,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45043b08",
+                      "settings": {
+                        "editor": "Once you know what the project involves and what it will cost, you can decide whether financing makes sense for your household.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.94,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45044e5f",
+                      "settings": {
+                        "editor": "If you&rsquo;d like to explore it, just let your technician know.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.94,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4504c269",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "26",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "2",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "border_color": "#dde3ec"
+                  },
+                  "elements": [
+                    {
+                      "id": "4504750d",
+                      "settings": {
+                        "title": "3",
+                        "header_size": "p",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.7,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.7,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "title_color": "#c10a0a",
+                        "_css_classes": "ml-step-num"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45048864",
+                      "settings": {
+                        "title": "Complete Your Application Online",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.08,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.08,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45049bbb",
+                      "settings": {
+                        "editor": "The financing application is completed online through Service Finance.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.94,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4504af12",
+                      "settings": {
+                        "editor": "You won&rsquo;t have to navigate the process by yourself. Your Mid Lakes technician can help walk you through the application and point you toward the information you need.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.94,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4505231c",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8,
+                      "column": "8",
+                      "row": "8",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "26",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "2",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "border_color": "#dde3ec"
+                  },
+                  "elements": [
+                    {
+                      "id": "4504d5c0",
+                      "settings": {
+                        "title": "4",
+                        "header_size": "p",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.7,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.7,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "title_color": "#2540af",
+                        "_css_classes": "ml-step-num"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4504e917",
+                      "settings": {
+                        "title": "Review Your Financing Offer",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.08,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.08,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4504fc6e",
+                      "settings": {
+                        "editor": "If approved, review the available financing terms and choose the option that works for you.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.94,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45050fc5",
+                      "settings": {
+                        "editor": "Once your project details and payment arrangements are finalized, our team can move forward with scheduling your service.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.94,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "4506a5e8",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "css_classes": "ml-wm-waves"
+      },
+      "elements": [
+        {
+          "id": "45069291",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            },
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "45067f3a",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "4506588c",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 55.5,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "45057078",
+                      "settings": {
+                        "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Considerations",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.72,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.18,
+                          "sizes": []
+                        },
+                        "text_color": "#c10a0a"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "450583cf",
+                      "settings": {
+                        "title": "Why Loganville Homeowners Consider Financing",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45059726",
+                      "settings": {
+                        "editor": "There&rsquo;s no single right way to pay for a home-comfort project. For some families, financing simply provides more room to work with when a larger expense comes along.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4505aa7d",
+                      "settings": {
+                        "editor": "Financing is simply another option. We&rsquo;ll give you the information you need and let you decide what works best for your family.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "45066be3",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 39.64,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "45064535",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "column": "0",
+                          "row": "0",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "26",
+                          "right": "26",
+                          "bottom": "28",
+                          "left": "26",
+                          "isLinked": false
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#dde3ec",
+                        "css_classes": "ml-wm-card-4"
+                      },
+                      "elements": [
+                        {
+                          "id": "4505bdd4",
+                          "settings": {
+                            "editor": "It may help you:",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.78,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "700",
+                            "typography_text_transform": "uppercase",
+                            "typography_letter_spacing": {
+                              "unit": "em",
+                              "size": 0.14,
+                              "sizes": []
+                            },
+                            "text_color": "#5a6472"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "text-editor",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "450631de",
+                          "settings": {
+                            "icon_list": [
+                              {
+                                "text": "Spread the cost of a larger project over time",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4505d12"
+                              },
+                              {
+                                "text": "Avoid paying the full project cost upfront",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4505e48"
+                              },
+                              {
+                                "text": "Address an important comfort need sooner",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "4505f7d"
+                              },
+                              {
+                                "text": "Choose a solution based on what your home needs",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "45060b3"
+                              },
+                              {
+                                "text": "Keep more flexibility in your household budget",
+                                "selected_icon": {
+                                  "value": "fas fa-check-circle",
+                                  "library": "fa-solid"
+                                },
+                                "_id": "45061e8"
+                              }
+                            ],
+                            "icon_color": "#c10a0a",
+                            "icon_size": {
+                              "unit": "px",
+                              "size": 18,
+                              "sizes": []
+                            },
+                            "space_between": {
+                              "unit": "px",
+                              "size": 12,
+                              "sizes": []
+                            },
+                            "text_indent": {
+                              "unit": "px",
+                              "size": 12,
+                              "sizes": []
+                            },
+                            "text_color": "#1a2436",
+                            "icon_typography_typography": "custom",
+                            "icon_typography_font_family": "Manrope",
+                            "icon_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.96,
+                              "sizes": []
+                            },
+                            "icon_typography_font_weight": "400",
+                            "divider": "",
+                            "_margin": {
+                              "unit": "px",
+                              "top": "16",
+                              "right": "0",
+                              "bottom": "0",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "icon-list",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "45087610",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#f4f6f9",
+        "_element_id": "faq"
+      },
+      "elements": [
+        {
+          "id": "450862b9",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "45084f62",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "450828b4",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 32,
+                      "column": "32",
+                      "row": "32"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 53.77,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4506b93f",
+                      "settings": {
+                        "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>FAQs",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.72,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.18,
+                          "sizes": []
+                        },
+                        "text_color": "#c10a0a"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4506cc96",
+                      "settings": {
+                        "title": "Financing FAQs",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45080206",
+                      "settings": {
+                        "items": [
+                          {
+                            "item_title": "Who is Mid Lakes HVAC&rsquo;s financing provider?",
+                            "_id": "4506dfe"
+                          },
+                          {
+                            "item_title": "How do I apply for financing?",
+                            "_id": "450719f"
+                          },
+                          {
+                            "item_title": "Do I need to apply before my appointment?",
+                            "_id": "450753f"
+                          },
+                          {
+                            "item_title": "Do I have to use financing?",
+                            "_id": "45078df"
+                          },
+                          {
+                            "item_title": "Can someone help me with the application?",
+                            "_id": "4507c80"
+                          }
+                        ],
+                        "default_state": "all_collapsed",
+                        "max_items_expended": "one",
+                        "title_tag": "h3",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Manrope",
+                        "title_typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.05,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "normal_title_color": "#1a2436",
+                        "hover_title_color": "#c10a0a",
+                        "active_title_color": "#1a2436",
+                        "normal_icon_color": "#c10a0a",
+                        "hover_icon_color": "#c10a0a",
+                        "active_icon_color": "#c10a0a",
+                        "accordion_padding": {
+                          "unit": "px",
+                          "top": "22",
+                          "right": "0",
+                          "bottom": "22",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "accordion_border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "content_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "22",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "accordion_item_title_space_between": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "accordion_item_title_distance_from_content": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "4507069b",
+                          "settings": {
+                            "_title": "item",
+                            "content_width": "full"
+                          },
+                          "elements": [
+                            {
+                              "id": "4506f344",
+                              "settings": {
+                                "editor": "Mid Lakes HVAC partners with Service Finance to offer financing to qualifying customers.",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 0.95,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "text_color": "#5a6472"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "text-editor",
+                              "elType": "widget"
+                            }
+                          ],
+                          "isInner": true,
+                          "elType": "container",
+                          "isLocked": true
+                        },
+                        {
+                          "id": "450740a0",
+                          "settings": {
+                            "_title": "item",
+                            "content_width": "full"
+                          },
+                          "elements": [
+                            {
+                              "id": "45072d49",
+                              "settings": {
+                                "editor": "The application is completed online through Service Finance. If you decide to apply, your Mid Lakes technician can help guide you through the process.",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 0.95,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "text_color": "#5a6472"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "text-editor",
+                              "elType": "widget"
+                            }
+                          ],
+                          "isInner": true,
+                          "elType": "container",
+                          "isLocked": true
+                        },
+                        {
+                          "id": "45077aa5",
+                          "settings": {
+                            "_title": "item",
+                            "content_width": "full"
+                          },
+                          "elements": [
+                            {
+                              "id": "4507674e",
+                              "settings": {
+                                "editor": "No. You can start by having our team evaluate your needs and provide pricing for the recommended work. From there, you can decide whether financing is right for you.",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 0.95,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "text_color": "#5a6472"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "text-editor",
+                              "elType": "widget"
+                            }
+                          ],
+                          "isInner": true,
+                          "elType": "container",
+                          "isLocked": true
+                        },
+                        {
+                          "id": "4507b4aa",
+                          "settings": {
+                            "_title": "item",
+                            "content_width": "full"
+                          },
+                          "elements": [
+                            {
+                              "id": "4507a153",
+                              "settings": {
+                                "editor": "Not at all. Financing is simply one payment option available to qualifying customers. You can choose the approach that works best for your household.",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 0.95,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "text_color": "#5a6472"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "text-editor",
+                              "elType": "widget"
+                            }
+                          ],
+                          "isInner": true,
+                          "elType": "container",
+                          "isLocked": true
+                        },
+                        {
+                          "id": "4507eeaf",
+                          "settings": {
+                            "_title": "item",
+                            "content_width": "full"
+                          },
+                          "elements": [
+                            {
+                              "id": "4507db58",
+                              "settings": {
+                                "editor": "Yes. Our technicians can help you navigate the online application process so you&rsquo;re not left figuring it out on your own.",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                  "unit": "rem",
+                                  "size": 0.95,
+                                  "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "text_color": "#5a6472"
+                              },
+                              "elements": [],
+                              "isInner": true,
+                              "widgetType": "text-editor",
+                              "elType": "widget"
+                            }
+                          ],
+                          "isInner": true,
+                          "elType": "container",
+                          "isLocked": true
+                        }
+                      ],
+                      "isInner": true,
+                      "widgetType": "nested-accordion",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "45083c0b",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 32,
+                      "column": "32",
+                      "row": "32"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 41.36,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4508155d",
+                      "settings": {
+                        "html": "<figure class=\"ml-figure\" style=\"position:relative;margin:0;border-radius:14px;overflow:hidden;\"><img src=\"http://localhost:10015/wp-content/uploads/2026/08/ductwork.webp\" alt=\"Industrial HVAC ductwork and ventilation piping\" loading=\"lazy\" style=\"display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;\" /><figcaption style=\"position:absolute;left:0;right:0;bottom:0;padding:22px;background:linear-gradient(180deg,transparent,rgba(15,31,53,0.9));color:#ffffff;font-size:0.9rem;line-height:1.5;\"><strong style=\"display:block;font-size:1.05rem;margin-bottom:4px;\">Free estimates first.</strong>Understand the work and the cost before you consider financing.</figcaption></figure>"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "html",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "450984d2",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "css_classes": "ml-wm-waves"
+      },
+      "elements": [
+        {
+          "id": "4509717b",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            },
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "45095e24",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "45093776",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 55.5,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "45088967",
+                      "settings": {
+                        "editor": "<span style=\"display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;\"></span>Straight answers",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.72,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.18,
+                          "sizes": []
+                        },
+                        "text_color": "#c10a0a"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "45089cbe",
+                      "settings": {
+                        "title": "Local Service. Straightforward Help.",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4508b015",
+                      "settings": {
+                        "editor": "A major HVAC or home-comfort expense can feel like a lot to navigate, especially when it wasn&rsquo;t part of the plan.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4508c36c",
+                      "settings": {
+                        "editor": "As a family-owned and locally operated company, Mid Lakes HVAC believes in keeping things straightforward. We&rsquo;ll help you understand what your home needs, explain the work clearly, and walk you through your options without unnecessary pressure.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4508d6c3",
+                      "settings": {
+                        "editor": "And if you decide financing is the right fit, our team will be there to help you take the next step.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4508ea1a",
+                      "settings": {
+                        "editor": "With 75+ years of combined team experience, licensed and insured service, free estimates, and a Parts &amp; Labor Guarantee, you can feel confident about both the work being recommended and the local team standing behind it.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#5a6472"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "450910c8",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_wrap": "wrap",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 14,
+                          "column": "14",
+                          "row": "14",
+                          "isLinked": true
+                        },
+                        "flex_direction_mobile": "column"
+                      },
+                      "elements": [
+                        {
+                          "id": "4508fd71",
+                          "settings": {
+                            "text": "Get to Know the Mid Lakes Team",
+                            "align": "left",
+                            "link": {
+                              "url": "/about-us/",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "typography_typography": "custom",
+                            "typography_font_family": "Manrope",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 15.2,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "700",
+                            "border_radius": {
+                              "unit": "px",
+                              "top": "999",
+                              "right": "999",
+                              "bottom": "999",
+                              "left": "999",
+                              "isLinked": true
+                            },
+                            "border_border": "solid",
+                            "border_width": {
+                              "unit": "px",
+                              "top": "1.5",
+                              "right": "1.5",
+                              "bottom": "1.5",
+                              "left": "1.5",
+                              "isLinked": true
+                            },
+                            "text_padding": {
+                              "unit": "px",
+                              "top": "14",
+                              "right": "26",
+                              "bottom": "14",
+                              "left": "26",
+                              "isLinked": false
+                            },
+                            "background_color": "#c10a0a",
+                            "button_text_color": "#ffffff",
+                            "border_color": "#c10a0a",
+                            "button_background_hover_color": "#a30808",
+                            "button_hover_border_color": "#a30808",
+                            "hover_color": "#ffffff",
+                            "_css_classes": "ml-btn ml-btn-primary"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "button",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "45094acd",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 39.64,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4509241f",
+                      "settings": {
+                        "html": "<figure class=\"ml-figure\" style=\"position:relative;margin:0;border-radius:14px;overflow:hidden;\"><img src=\"http://localhost:10015/wp-content/uploads/2026/08/technician.webp\" alt=\"Mid Lakes HVAC technician servicing a heating and cooling system\" loading=\"lazy\" style=\"display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;\" /></figure>"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "html",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "450ae0f0",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#0f1f35",
+        "_element_id": "contact",
+        "css_classes": "ml-wm-contact ml-band-ink"
+      },
+      "elements": [
+        {
+          "id": "450acd99",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "96",
+              "right": "24",
+              "bottom": "96",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "64",
+              "left": "24",
+              "isLinked": false
+            },
+            "z_index": 1
+          },
+          "elements": [
+            {
+              "id": "450aba42",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 56,
+                  "column": "56",
+                  "row": "56"
+                },
+                "flex_direction_mobile": "column"
+              },
+              "elements": [
+                {
+                  "id": "450a9394",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18,
+                      "column": "18",
+                      "row": "18"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 46.41,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "450a4638",
+                      "settings": {
+                        "title": "Let&rsquo;s Find the Right Way Forward",
+                        "header_size": "h2",
+                        "typography_font_size_mobile": {
+                          "unit": "rem",
+                          "size": 1.8,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.1,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.02,
+                          "sizes": []
+                        },
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "_css_classes": "ml-h2"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "450a598f",
+                      "settings": {
+                        "editor": "You don&rsquo;t need to have the repair, replacement, or payment plan figured out before you call.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.95,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "rgba(255,255,255,0.75)",
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "px",
+                          "size": 460,
+                          "sizes": []
+                        },
+                        "_element_custom_width_mobile": {
+                          "unit": "%",
+                          "size": 100,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "450a6ce6",
+                      "settings": {
+                        "editor": "Tell us what&rsquo;s going on with your home. We&rsquo;ll help you understand the problem, recommend the right next step, and explain your options so you can make a decision that works for your family.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.95,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "rgba(255,255,255,0.75)",
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "px",
+                          "size": 460,
+                          "sizes": []
+                        },
+                        "_element_custom_width_mobile": {
+                          "unit": "%",
+                          "size": 100,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "450a803d",
+                      "settings": {
+                        "editor": "Call (678) 776-0591 or contact us online to get started.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.95,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "rgba(255,255,255,0.75)",
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "px",
+                          "size": 460,
+                          "sizes": []
+                        },
+                        "_element_custom_width_mobile": {
+                          "unit": "%",
+                          "size": 100,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "450b079e",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_wrap": "wrap",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 14,
+                          "column": "14",
+                          "row": "14",
+                          "isLinked": true
+                        },
+                        "flex_direction_mobile": "column"
+                      },
+                      "elements": [
+                        {
+                          "id": "450af447",
+                          "settings": {
+                            "text": "Call (678) 776-0591",
+                            "align": "left",
+                            "link": {
+                              "url": "tel:+16787760591",
+                              "is_external": "",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            },
+                            "typography_typography": "custom",
+                            "typography_font_family": "Manrope",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 15.2,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "700",
+                            "border_radius": {
+                              "unit": "px",
+                              "top": "999",
+                              "right": "999",
+                              "bottom": "999",
+                              "left": "999",
+                              "isLinked": true
+                            },
+                            "border_border": "solid",
+                            "border_width": {
+                              "unit": "px",
+                              "top": "1.5",
+                              "right": "1.5",
+                              "bottom": "1.5",
+                              "left": "1.5",
+                              "isLinked": true
+                            },
+                            "text_padding": {
+                              "unit": "px",
+                              "top": "14",
+                              "right": "26",
+                              "bottom": "14",
+                              "left": "26",
+                              "isLinked": false
+                            },
+                            "background_color": "#c10a0a",
+                            "button_text_color": "#ffffff",
+                            "border_color": "#c10a0a",
+                            "button_background_hover_color": "#a30808",
+                            "button_hover_border_color": "#a30808",
+                            "hover_color": "#ffffff",
+                            "_css_classes": "ml-btn ml-btn-primary"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "button",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "450aa6eb",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "column": "16",
+                      "row": "16"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 48.73,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "450a32e1",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 6,
+                          "column": "6",
+                          "row": "6",
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#17293f",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "36",
+                          "right": "36",
+                          "bottom": "36",
+                          "left": "36",
+                          "isLinked": false
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "rgba(255,255,255,0.08)",
+                        "padding_mobile": {
+                          "unit": "px",
+                          "top": "26",
+                          "right": "22",
+                          "bottom": "26",
+                          "left": "22",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "450a0c33",
+                          "settings": {
+                            "title": "Get a Free Estimate",
+                            "header_size": "h3",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 1.5,
+                              "sizes": []
+                            },
+                            "typography_font_size_mobile": {
+                              "unit": "rem",
+                              "size": 1.5,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "800",
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1.1,
+                              "sizes": []
+                            },
+                            "typography_letter_spacing": {
+                              "unit": "em",
+                              "size": -0.02,
+                              "sizes": []
+                            },
+                            "title_color": "#ffffff"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "heading",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "450a1f8a",
+                          "settings": {
+                            "editor": "Fill out the form below and our team will reach out to schedule your service.",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.92,
+                              "sizes": []
+                            },
+                            "typography_font_weight": "400",
+                            "text_color": "rgba(255,255,255,0.65)"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "text-editor",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "4509f8dc",
+                          "settings": {
+                            "form_name": "Mid Lakes Quote Request",
+                            "form_fields": [
+                              {
+                                "custom_id": "firstName",
+                                "field_label": "First name",
+                                "placeholder": "Jane",
+                                "field_type": "text",
+                                "width": "50",
+                                "required": "true",
+                                "_id": "4509982"
+                              },
+                              {
+                                "custom_id": "lastName",
+                                "field_label": "Last name",
+                                "placeholder": "Doe",
+                                "field_type": "text",
+                                "width": "50",
+                                "required": "true",
+                                "_id": "4509ab8"
+                              },
+                              {
+                                "custom_id": "phone",
+                                "field_label": "Phone number",
+                                "placeholder": "(678) 555-0123",
+                                "field_type": "tel",
+                                "width": "50",
+                                "required": "true",
+                                "_id": "4509bed"
+                              },
+                              {
+                                "custom_id": "email",
+                                "field_label": "Email",
+                                "placeholder": "you@example.com",
+                                "field_type": "email",
+                                "width": "50",
+                                "required": "true",
+                                "_id": "4509d22"
+                              },
+                              {
+                                "custom_id": "message",
+                                "field_label": "How can we help?",
+                                "placeholder": "Tell us about your heating or cooling needs...",
+                                "field_type": "textarea",
+                                "width": "100",
+                                "required": "",
+                                "_id": "4509e58",
+                                "rows": 3
+                              }
+                            ],
+                            "button_text": "Submit Request",
+                            "button_size": "sm",
+                            "button_width": "100",
+                            "submit_actions": [
+                              "email"
+                            ],
+                            "email_to": "websites@exploremedia.com",
+                            "email_subject": "New estimate request — Mid Lakes HVAC",
+                            "email_content": "[all-fields]",
+                            "email_from_name": "Mid Lakes Website",
+                            "email_reply_to": "[field id=\"email\"]",
+                            "success_message": "Thanks! Your request has been received&mdash;we&rsquo;ll call you shortly.",
+                            "honeypot": "yes",
+                            "label_spacing": {
+                              "unit": "px",
+                              "size": 7,
+                              "sizes": []
+                            },
+                            "row_gap": {
+                              "unit": "px",
+                              "size": 16,
+                              "sizes": []
+                            },
+                            "column_gap": {
+                              "unit": "px",
+                              "size": 16,
+                              "sizes": []
+                            },
+                            "label_color": "rgba(255,255,255,0.7)",
+                            "field_typography_typography": "custom",
+                            "field_typography_font_family": "Manrope",
+                            "field_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.95,
+                              "sizes": []
+                            },
+                            "label_typography_typography": "custom",
+                            "label_typography_font_family": "Manrope",
+                            "label_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.82,
+                              "sizes": []
+                            },
+                            "label_typography_font_weight": "600",
+                            "field_background_color": "rgba(255,255,255,0.04)",
+                            "field_text_color": "#ffffff",
+                            "field_border_color": "rgba(255,255,255,0.4)",
+                            "field_border_width": {
+                              "unit": "px",
+                              "top": "1",
+                              "right": "1",
+                              "bottom": "1",
+                              "left": "1",
+                              "isLinked": true
+                            },
+                            "field_border_radius": {
+                              "unit": "px",
+                              "top": "10",
+                              "right": "10",
+                              "bottom": "10",
+                              "left": "10",
+                              "isLinked": true
+                            },
+                            "field_padding": {
+                              "unit": "px",
+                              "top": "13",
+                              "right": "15",
+                              "bottom": "13",
+                              "left": "15",
+                              "isLinked": false
+                            },
+                            "button_background_color": "#c10a0a",
+                            "button_text_color": "#ffffff",
+                            "button_border_color": "#c10a0a",
+                            "button_border_border": "solid",
+                            "button_border_width": {
+                              "unit": "px",
+                              "top": "1.5",
+                              "right": "1.5",
+                              "bottom": "1.5",
+                              "left": "1.5",
+                              "isLinked": true
+                            },
+                            "button_border_radius": {
+                              "unit": "px",
+                              "top": "999",
+                              "right": "999",
+                              "bottom": "999",
+                              "left": "999",
+                              "isLinked": true
+                            },
+                            "button_background_hover_color": "#a30808",
+                            "button_hover_border_color": "#a30808",
+                            "button_text_color_hover": "#ffffff",
+                            "button_typography_typography": "custom",
+                            "button_typography_font_family": "Manrope",
+                            "button_typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.95,
+                              "sizes": []
+                            },
+                            "button_typography_font_weight": "700",
+                            "button_padding": {
+                              "unit": "px",
+                              "top": "14",
+                              "right": "26",
+                              "bottom": "14",
+                              "left": "26",
+                              "isLinked": false
+                            },
+                            "_css_classes": "ml-form ml-btn"
+                          },
+                          "elements": [],
+                          "isInner": true,
+                          "widgetType": "form",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "450b41a3",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#f4f6f9",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "#dde3ec"
+      },
+      "elements": [
+        {
+          "id": "450b2e4c",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "24",
+              "bottom": "34",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "28",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "450b1af5",
+              "settings": {
+                "editor": "Financing is provided by Service Finance and is subject to credit approval. Available rates, promotional offers, repayment terms, and eligibility requirements may vary. Review all financing terms and conditions provided by Service Finance before accepting an offer.",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 0.85,
+                  "sizes": []
+                },
+                "typography_font_weight": "400",
+                "text_color": "#5a6472",
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "px",
+                  "size": 900,
+                  "sizes": []
+                },
+                "_element_custom_width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "isInner": true,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    }
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer",
+    "hide_title": "yes"
+  }
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Financing (Preview)</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif;line-height:1.55;color:#1a1a1a}
+img{max-width:100%}
+a{color:inherit}
+.acc details{border-bottom:1px solid rgba(0,0,0,.12)}
+.acc summary{cursor:pointer;padding:14px 0;font-weight:600;list-style:revert}
+.acc .acc-body{padding:0 0 14px}
+.ph{border:2px dashed #b9c2cf;border-radius:10px;padding:22px;text-align:center;
+    background:repeating-linear-gradient(45deg,#f7f9fc,#f7f9fc 10px,#eef2f7 10px,#eef2f7 20px);
+    color:#5a6676;font-size:14px}
+.ph strong{color:#31405a;font-size:15px}
+.ph-icon{font-size:28px;line-height:1;opacity:.55}
+.pv-bar{position:sticky;top:0;z-index:99;background:#101828;color:#fff;padding:9px 14px;
+        font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;display:flex;
+        gap:16px;flex-wrap:wrap;align-items:center}
+.pv-bar b{color:#7dd3fc;font-weight:600}
+.pv-bar .warn{color:#fbbf24}
+
+.c1{display:flex;flex-direction:column;background-image:url('http://localhost:10015/wp-content/uploads/2026/08/wall-units.webp');background-size:cover;background-position:center center;background-repeat:no-repeat}
+.c2{display:flex;flex-direction:column;gap:0px 0px;justify-content:flex-end;min-height:460px;padding:104px 24px 56px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c3{display:flex;flex-direction:column;gap:22px 22px;width:700px}
+.w4{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;color:#ffffff;margin:0}
+.w5{font-size:1.12rem;font-weight:400;color:rgba(255,255,255,0.85)}
+.c6{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w7{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw8{display:flex;justify-content:flex-start}
+.w9{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid rgba(255,255,255,0.5);border-width:1.5px 1.5px 1.5px 1.5px;background:rgba(0,0,0,0);color:#ffffff;padding:14px 26px 14px 26px}
+.bw10{display:flex;justify-content:flex-start}
+.w11{font-size:0.95rem;font-weight:400;color:rgba(255,255,255,0.8)}
+.c12{display:flex;flex-direction:column;background-color:#ffffff}
+.c13{display:flex;flex-direction:column;gap:22px 22px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c14{display:flex;flex-direction:column;gap:14px 14px;width:720px}
+.w15{font-size:1.1rem;font-weight:400;color:#5a6472}
+.c16{display:flex;flex-direction:column;background-color:#f4f6f9}
+.c17{display:flex;flex-direction:column;gap:22px 22px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c18{display:flex;flex-direction:row;gap:56px 56px;align-items:flex-start}
+.c19{display:flex;flex-direction:column;gap:14px 14px;width:55.5%}
+.w20{font-size:0.72rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#c10a0a}
+.w21{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w22{font-size:1.1rem;font-weight:400;color:#5a6472}
+.w23{font-size:1.1rem;font-weight:400;color:#5a6472}
+.w24{font-size:1.1rem;font-weight:400;color:#5a6472}
+.w25{font-size:1.1rem;font-weight:400;color:#5a6472}
+.c26{display:flex;flex-direction:column;gap:14px 14px;width:39.64%}
+.c28{display:flex;flex-direction:column;background-color:#ffffff}
+.c29{display:flex;flex-direction:column;gap:22px 22px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c30{display:flex;flex-direction:row;gap:56px 56px;align-items:flex-start}
+.c31{display:flex;flex-direction:column;gap:14px 14px;width:55.5%}
+.w32{font-size:0.72rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#c10a0a}
+.w33{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w34{font-size:1.1rem;font-weight:400;color:#5a6472}
+.w35{font-size:1.1rem;font-weight:400;color:#5a6472}
+.c36{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w37{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw38{display:flex;justify-content:flex-start}
+.c39{display:flex;flex-direction:column;gap:14px 14px;width:39.64%}
+.c40{display:flex;flex-direction:column;gap:0px 0px;padding:26px 26px 28px 26px;background-color:#ffffff;border-radius:14px 14px 14px 14px;border:solid #dde3ec;border-width:1px 1px 1px 1px}
+.w41{font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#5a6472}
+.w42{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:#1a2436}
+.c43{display:flex;flex-direction:column;background-color:#f4f6f9}
+.c44{display:flex;flex-direction:column;gap:48px 48px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c45{display:flex;flex-direction:column;gap:14px 14px;width:720px}
+.w46{font-size:0.72rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#c10a0a}
+.w47{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w48{font-size:1.1rem;font-weight:400;color:#5a6472}
+.c49{display:grid;grid-template-columns:repeat(4, minmax(0,1fr));gap:26px 26px;align-items:stretch}
+.c50{display:flex;flex-direction:column;gap:8px 8px;padding:26px 0px 0px 0px;border:solid #dde3ec;border-width:2px 0px 0px 0px}
+.w51{font-size:1.7rem;font-weight:500;color:#c10a0a;margin:0}
+.w52{font-size:1.08rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w53{font-size:0.94rem;font-weight:400;color:#5a6472}
+.w54{font-size:0.94rem;font-weight:400;color:#5a6472}
+.c55{display:flex;flex-direction:column;gap:8px 8px;padding:26px 0px 0px 0px;border:solid #dde3ec;border-width:2px 0px 0px 0px}
+.w56{font-size:1.7rem;font-weight:500;color:#2540af;margin:0}
+.w57{font-size:1.08rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w58{font-size:0.94rem;font-weight:400;color:#5a6472}
+.w59{font-size:0.94rem;font-weight:400;color:#5a6472}
+.c60{display:flex;flex-direction:column;gap:8px 8px;padding:26px 0px 0px 0px;border:solid #dde3ec;border-width:2px 0px 0px 0px}
+.w61{font-size:1.7rem;font-weight:500;color:#c10a0a;margin:0}
+.w62{font-size:1.08rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w63{font-size:0.94rem;font-weight:400;color:#5a6472}
+.w64{font-size:0.94rem;font-weight:400;color:#5a6472}
+.c65{display:flex;flex-direction:column;gap:8px 8px;padding:26px 0px 0px 0px;border:solid #dde3ec;border-width:2px 0px 0px 0px}
+.w66{font-size:1.7rem;font-weight:500;color:#2540af;margin:0}
+.w67{font-size:1.08rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w68{font-size:0.94rem;font-weight:400;color:#5a6472}
+.w69{font-size:0.94rem;font-weight:400;color:#5a6472}
+.c70{display:flex;flex-direction:column;background-color:#ffffff}
+.c71{display:flex;flex-direction:column;gap:22px 22px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c72{display:flex;flex-direction:row;gap:56px 56px;align-items:flex-start}
+.c73{display:flex;flex-direction:column;gap:14px 14px;width:55.5%}
+.w74{font-size:0.72rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#c10a0a}
+.w75{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w76{font-size:1.1rem;font-weight:400;color:#5a6472}
+.w77{font-size:1.1rem;font-weight:400;color:#5a6472}
+.c78{display:flex;flex-direction:column;gap:14px 14px;width:39.64%}
+.c79{display:flex;flex-direction:column;gap:0px 0px;padding:26px 26px 28px 26px;background-color:#ffffff;border-radius:14px 14px 14px 14px;border:solid #dde3ec;border-width:1px 1px 1px 1px}
+.w80{font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#5a6472}
+.w81{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:#1a2436}
+.c82{display:flex;flex-direction:column;background-color:#f4f6f9}
+.c83{display:flex;flex-direction:column;gap:22px 22px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c84{display:flex;flex-direction:row;gap:56px 56px;align-items:flex-start}
+.c85{display:flex;flex-direction:column;gap:32px 32px;width:53.77%}
+.w86{font-size:0.72rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#c10a0a}
+.w87{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.c89{display:flex;flex-direction:column;gap:32px 32px;width:41.36%}
+.c91{display:flex;flex-direction:column;background-color:#ffffff}
+.c92{display:flex;flex-direction:column;gap:22px 22px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c93{display:flex;flex-direction:row;gap:56px 56px;align-items:flex-start}
+.c94{display:flex;flex-direction:column;gap:14px 14px;width:55.5%}
+.w95{font-size:0.72rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#c10a0a}
+.w96{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;margin:0}
+.w97{font-size:1.1rem;font-weight:400;color:#5a6472}
+.w98{font-size:1.1rem;font-weight:400;color:#5a6472}
+.w99{font-size:1.1rem;font-weight:400;color:#5a6472}
+.w100{font-size:1.1rem;font-weight:400;color:#5a6472}
+.c101{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w102{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw103{display:flex;justify-content:flex-start}
+.c104{display:flex;flex-direction:column;gap:14px 14px;width:39.64%}
+.c106{display:flex;flex-direction:column;background-color:#0f1f35}
+.c107{display:flex;flex-direction:column;gap:22px 22px;padding:96px 24px 96px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.c108{display:flex;flex-direction:row;gap:56px 56px;align-items:flex-start}
+.c109{display:flex;flex-direction:column;gap:18px 18px;width:46.41%}
+.w110{font-weight:800;line-height:1.1em;letter-spacing:-0.02em;color:#ffffff;margin:0}
+.w111{font-size:0.95rem;font-weight:400;color:rgba(255,255,255,0.75)}
+.w112{font-size:0.95rem;font-weight:400;color:rgba(255,255,255,0.75)}
+.w113{font-size:0.95rem;font-weight:400;color:rgba(255,255,255,0.75)}
+.c114{display:flex;flex-direction:row;gap:14px 14px;flex-wrap:wrap}
+.w115{display:inline-flex;align-items:center;gap:8px;text-decoration:none;cursor:pointer;font-family:'Manrope', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;font-size:15.2px;font-weight:700;border-radius:999px 999px 999px 999px;border:solid #c10a0a;border-width:1.5px 1.5px 1.5px 1.5px;background:#c10a0a;color:#ffffff;padding:14px 26px 14px 26px}
+.bw116{display:flex;justify-content:flex-start}
+.c117{display:flex;flex-direction:column;gap:16px 16px;width:48.73%}
+.c118{display:flex;flex-direction:column;gap:6px 6px;padding:36px 36px 36px 36px;background-color:#17293f;border-radius:14px 14px 14px 14px;border:solid rgba(255,255,255,0.08);border-width:1px 1px 1px 1px}
+.w119{font-size:1.5rem;font-weight:800;line-height:1.1em;letter-spacing:-0.02em;color:#ffffff;margin:0}
+.w120{font-size:0.92rem;font-weight:400;color:rgba(255,255,255,0.65)}
+.c122{display:flex;flex-direction:column;background-color:#f4f6f9;border:solid #dde3ec;border-width:1px 0px 0px 0px}
+.c123{display:flex;flex-direction:column;gap:0px 0px;padding:30px 24px 34px 24px;max-width:1200px;margin-left:auto;margin-right:auto;width:100%}
+.w124{font-size:0.85rem;font-weight:400;color:#5a6472}
+@media (max-width:1024px){.c2{min-height:560px}.c19{width:100%}.c26{width:100%}.c31{width:100%}.c39{width:100%}.c49{grid-template-columns:repeat(2, minmax(0,1fr))}.c73{width:100%}.c78{width:100%}.c85{width:100%}.c89{width:100%}.c94{width:100%}.c104{width:100%}.c109{width:100%}.c117{width:100%}}
+@media (max-width:767px){.c2{padding:88px 24px 48px 24px}.c3{width:100%}.w4{font-size:2.4rem}.c6{flex-direction:column}.c13{padding:64px 24px 64px 24px}.c14{width:100%}.c17{padding:64px 24px 64px 24px}.c18{flex-direction:column}.c19{width:100%}.w21{font-size:1.8rem}.c26{width:100%}.c29{padding:64px 24px 64px 24px}.c30{flex-direction:column}.c31{width:100%}.w33{font-size:1.8rem}.c36{flex-direction:column}.c39{width:100%}.c44{padding:64px 24px 64px 24px}.c45{width:100%}.w47{font-size:1.8rem}.c49{grid-template-columns:repeat(1, minmax(0,1fr))}.c71{padding:64px 24px 64px 24px}.c72{flex-direction:column}.c73{width:100%}.w75{font-size:1.8rem}.c78{width:100%}.c83{padding:64px 24px 64px 24px}.c84{flex-direction:column}.c85{width:100%}.w87{font-size:1.8rem}.c89{width:100%}.c92{padding:64px 24px 64px 24px}.c93{flex-direction:column}.c94{width:100%}.w96{font-size:1.8rem}.c101{flex-direction:column}.c104{width:100%}.c107{padding:64px 24px 64px 24px}.c108{flex-direction:column}.c109{width:100%}.w110{font-size:1.8rem}.c114{flex-direction:column}.c117{width:100%}.c118{padding:26px 22px 26px 22px}.c123{padding:24px 24px 28px 24px}}
+</style>
+</head>
+<body>
+<div class="pv-bar">
+  <span><b>PREVIEW</b> Financing</span>
+  <span>10 sections · 62 widgets</span>
+  <span>generated from financing.json — resize the window to check tablet/mobile</span>
+  <span class="warn">placeholders: Elementor Pro Form</span>
+</div>
+<div class="c1 ml-hero"><div class="c2"><div class="c3"><h1 class="w4 ml-h1">Flexible Financing for Your Home Comfort Needs</h1><div class="w5">A new HVAC system or major home-comfort project can be an important investment&mdash;and sometimes, the need comes sooner than expected.</div><div class="c6"><div class="bw8"><a class="w7 ml-btn ml-btn-primary" href="#financing-options">Explore Financing Options</a></div><div class="bw10"><a class="w9 ml-btn ml-btn-ghost" href="tel:+16787760591">Call (678) 776-0591</a></div></div><div class="w11"><ul style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:12px 36px;"><li style="margin:0;"><strong style="color:#ffffff;font-weight:800;margin-right:6px;">Family-Owned</strong>&amp; Operated</li><li style="margin:0;"><strong style="color:#ffffff;font-weight:800;margin-right:6px;">Free</strong>Estimates</li><li style="margin:0;"><strong style="color:#ffffff;font-weight:800;margin-right:6px;">Licensed</strong>&amp; Insured</li><li style="margin:0;"><strong style="color:#ffffff;font-weight:800;margin-right:6px;">Parts &amp; Labor</strong>Guarantee</li></ul></div></div></div></div><div class="c12 ml-wm-waves"><div class="c13"><div class="c14"><div class="w15">At Mid Lakes Heating and Cooling, we want to make it easier to move forward with the solution that makes sense for your home and family. Financing is available for qualifying projects, and our team can help guide you through the process from your estimate to the online application.</div></div></div></div><div class="c16"><div class="c17"><div class="c18"><div class="c19"><div class="w20"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;"></span>Flexibility</div><h2 class="w21 ml-h2">More Flexibility When Your Home Needs It</h2><div class="w22">Some home improvements are planned months in advance. Others begin with an air conditioner that stops working on a hot Georgia afternoon or a comfort problem that can no longer be put off.</div><div class="w23">Financing gives eligible homeowners another way to manage a larger home-comfort expense without having to cover the entire cost upfront.</div><div class="w24">That means you can focus first on what your home needs, understand the recommended solution, and then decide which payment option makes the most sense for your household.</div><div class="w25">Our goal is simple: give you clear information and help make the process easier&mdash;not add more pressure to an already important decision.</div></div><div class="c26"><figure class="ml-figure" style="position:relative;margin:0;border-radius:14px;overflow:hidden;"><img src="http://localhost:10015/wp-content/uploads/2026/08/hero-hvac.webp" alt="Modern outdoor air conditioning condenser units beside a home at dusk" loading="lazy" style="display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;" /></figure></div></div></div></div><div class="c28 ml-wm-waves"><div class="c29"><div class="c30"><div class="c31"><div class="w32"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;"></span>Our lending partner</div><h2 class="w33 ml-h2">Financing Through Service Finance</h2><div class="w34">Mid Lakes HVAC partners with Service Finance to provide financing for qualifying home-comfort projects.</div><div class="w35">Available rates, terms, and promotional offers depend on the financing program and credit approval.</div><div class="c36"><div class="bw38"><a class="w37 ml-btn ml-btn-primary" href="#contact">Apply for Financing</a></div></div></div><div class="c39"><div class="c40 ml-wm-card-4"><div class="w41">Here are the key details:</div><ul class="w42"><li>✓ Services over $3,000 can be financed</li><li>✓ 0% interest options may be available</li><li>✓ Promotional terms may include 12, 18, or 24 months</li><li>✓ Applications are completed online</li><li>✓ Your Mid Lakes technician can help guide you through the application process</li></ul></div></div></div></div></div><div class="c43"><div class="c44"><div class="c45"><div class="w46"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;"></span>Process</div><h2 class="w47 ml-h2">How the Financing Process Works</h2><div class="w48">We keep the process straightforward so you can focus on making the right decision for your home.</div></div><div class="c49"><div class="c50"><p class="w51 ml-step-num">1</p><h3 class="w52">Start With an Evaluation</h3><div class="w53">Tell us what&rsquo;s going on with your home or what you&rsquo;re hoping to improve.</div><div class="w54">Our team will evaluate your needs, explain the recommended solution, and provide pricing for the work.</div></div><div class="c55"><p class="w56 ml-step-num">2</p><h3 class="w57">Decide Whether You&rsquo;d Like to Finance</h3><div class="w58">Once you know what the project involves and what it will cost, you can decide whether financing makes sense for your household.</div><div class="w59">If you&rsquo;d like to explore it, just let your technician know.</div></div><div class="c60"><p class="w61 ml-step-num">3</p><h3 class="w62">Complete Your Application Online</h3><div class="w63">The financing application is completed online through Service Finance.</div><div class="w64">You won&rsquo;t have to navigate the process by yourself. Your Mid Lakes technician can help walk you through the application and point you toward the information you need.</div></div><div class="c65"><p class="w66 ml-step-num">4</p><h3 class="w67">Review Your Financing Offer</h3><div class="w68">If approved, review the available financing terms and choose the option that works for you.</div><div class="w69">Once your project details and payment arrangements are finalized, our team can move forward with scheduling your service.</div></div></div></div></div><div class="c70 ml-wm-waves"><div class="c71"><div class="c72"><div class="c73"><div class="w74"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;"></span>Considerations</div><h2 class="w75 ml-h2">Why Loganville Homeowners Consider Financing</h2><div class="w76">There&rsquo;s no single right way to pay for a home-comfort project. For some families, financing simply provides more room to work with when a larger expense comes along.</div><div class="w77">Financing is simply another option. We&rsquo;ll give you the information you need and let you decide what works best for your family.</div></div><div class="c78"><div class="c79 ml-wm-card-4"><div class="w80">It may help you:</div><ul class="w81"><li>✓ Spread the cost of a larger project over time</li><li>✓ Avoid paying the full project cost upfront</li><li>✓ Address an important comfort need sooner</li><li>✓ Choose a solution based on what your home needs</li><li>✓ Keep more flexibility in your household budget</li></ul></div></div></div></div></div><div class="c82"><div class="c83"><div class="c84"><div class="c85"><div class="w86"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;"></span>FAQs</div><h2 class="w87 ml-h2">Financing FAQs</h2><div class="acc w88"><details><summary>Who is Mid Lakes HVAC&amp;rsquo;s financing provider?</summary><div class="acc-body">Mid Lakes HVAC partners with Service Finance to offer financing to qualifying customers.</div></details><details><summary>How do I apply for financing?</summary><div class="acc-body">The application is completed online through Service Finance. If you decide to apply, your Mid Lakes technician can help guide you through the process.</div></details><details><summary>Do I need to apply before my appointment?</summary><div class="acc-body">No. You can start by having our team evaluate your needs and provide pricing for the recommended work. From there, you can decide whether financing is right for you.</div></details><details><summary>Do I have to use financing?</summary><div class="acc-body">Not at all. Financing is simply one payment option available to qualifying customers. You can choose the approach that works best for your household.</div></details><details><summary>Can someone help me with the application?</summary><div class="acc-body">Yes. Our technicians can help you navigate the online application process so you&rsquo;re not left figuring it out on your own.</div></details></div></div><div class="c89"><figure class="ml-figure" style="position:relative;margin:0;border-radius:14px;overflow:hidden;"><img src="http://localhost:10015/wp-content/uploads/2026/08/ductwork.webp" alt="Industrial HVAC ductwork and ventilation piping" loading="lazy" style="display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;" /><figcaption style="position:absolute;left:0;right:0;bottom:0;padding:22px;background:linear-gradient(180deg,transparent,rgba(15,31,53,0.9));color:#ffffff;font-size:0.9rem;line-height:1.5;"><strong style="display:block;font-size:1.05rem;margin-bottom:4px;">Free estimates first.</strong>Understand the work and the cost before you consider financing.</figcaption></figure></div></div></div></div><div class="c91 ml-wm-waves"><div class="c92"><div class="c93"><div class="c94"><div class="w95"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#c10a0a;margin-right:8px;vertical-align:middle;"></span>Straight answers</div><h2 class="w96 ml-h2">Local Service. Straightforward Help.</h2><div class="w97">A major HVAC or home-comfort expense can feel like a lot to navigate, especially when it wasn&rsquo;t part of the plan.</div><div class="w98">As a family-owned and locally operated company, Mid Lakes HVAC believes in keeping things straightforward. We&rsquo;ll help you understand what your home needs, explain the work clearly, and walk you through your options without unnecessary pressure.</div><div class="w99">And if you decide financing is the right fit, our team will be there to help you take the next step.</div><div class="w100">With 75+ years of combined team experience, licensed and insured service, free estimates, and a Parts &amp; Labor Guarantee, you can feel confident about both the work being recommended and the local team standing behind it.</div><div class="c101"><div class="bw103"><a class="w102 ml-btn ml-btn-primary" href="/about-us/">Get to Know the Mid Lakes Team</a></div></div></div><div class="c104"><figure class="ml-figure" style="position:relative;margin:0;border-radius:14px;overflow:hidden;"><img src="http://localhost:10015/wp-content/uploads/2026/08/technician.webp" alt="Mid Lakes HVAC technician servicing a heating and cooling system" loading="lazy" style="display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;" /></figure></div></div></div></div><div class="c106 ml-wm-contact ml-band-ink"><div class="c107"><div class="c108"><div class="c109"><h2 class="w110 ml-h2">Let&rsquo;s Find the Right Way Forward</h2><div class="w111">You don&rsquo;t need to have the repair, replacement, or payment plan figured out before you call.</div><div class="w112">Tell us what&rsquo;s going on with your home. We&rsquo;ll help you understand the problem, recommend the right next step, and explain your options so you can make a decision that works for your family.</div><div class="w113">Call (678) 776-0591 or contact us online to get started.</div><div class="c114"><div class="bw116"><a class="w115 ml-btn ml-btn-primary" href="tel:+16787760591">Call (678) 776-0591</a></div></div></div><div class="c117"><div class="c118"><h3 class="w119">Get a Free Estimate</h3><div class="w120">Fill out the form below and our team will reach out to schedule your service.</div><div class="ph"><strong>Elementor Pro Form</strong><br><span>not rendered here — wire up / verify after import</span></div></div></div></div></div></div><div class="c122"><div class="c123"><div class="w124">Financing is provided by Service Finance and is subject to credit approval. Available rates, promotional offers, repayment terms, and eligibility requirements may vary. Review all financing terms and conditions provided by Service Finance before accepting an offer.</div></div></div>
+</body>
+</html>

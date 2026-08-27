@@ -1,0 +1,385 @@
+{
+  "version": "0.4",
+  "title": "Mid Lakes Footer",
+  "type": "footer",
+  "content": [
+    {
+      "id": "4b010ec2",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#0f1f35",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "rgba(255,255,255,0.08)",
+        "css_classes": "ml-footer ml-band-ink"
+      },
+      "elements": [
+        {
+          "id": "4b00fb6b",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "64",
+              "right": "24",
+              "bottom": "300",
+              "left": "24",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "48",
+              "right": "24",
+              "bottom": "240",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "4b00ae0f",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 40,
+                  "column": "40",
+                  "row": "40"
+                },
+                "flex_direction_mobile": "column",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "48",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "4b0060b3",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18,
+                      "column": "18",
+                      "row": "18"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 41.36,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4b001357",
+                      "settings": {
+                        "html": "<a href=\"/\" aria-label=\"Mid Lakes Heating and Cooling home\" style=\"display:inline-block;line-height:0;\"><img src=\"/wp-content/themes/mid-lakes/assets/MidLakesLogo_White.svg\" alt=\"Mid Lakes Heating & Cooling, LLC\" width=\"178\" height=\"64\" style=\"height:64px;width:auto;display:block;\" /></a>"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "html",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4b0026ae",
+                      "settings": {
+                        "editor": "Family-owned heating, cooling, and home efficiency experts serving Loganville, GA and surrounding areas.",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.95,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "rgba(255,255,255,0.7)",
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "px",
+                          "size": 340,
+                          "sizes": []
+                        },
+                        "_element_custom_width_mobile": {
+                          "unit": "%",
+                          "size": 100,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4b008761",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12,
+                      "column": "12",
+                      "row": "12"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 25.85,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4b00740a",
+                      "settings": {
+                        "menu": "footer-menu",
+                        "layout": "vertical",
+                        "pointer": "none",
+                        "menu_typography_typography": "custom",
+                        "menu_typography_font_family": "Manrope",
+                        "menu_typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.95,
+                          "sizes": []
+                        },
+                        "menu_typography_font_weight": "600",
+                        "color_menu_item": "rgba(255,255,255,0.8)",
+                        "color_menu_item_hover": "#ff8b8b",
+                        "color_menu_item_active": "#c10a0a",
+                        "padding_horizontal_menu_item": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        },
+                        "padding_vertical_menu_item": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        },
+                        "_element_width": "auto",
+                        "menu_space_between": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "align_items": "left"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "nav-menu",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "4b009ab8",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "column": "10",
+                      "row": "10"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 25.85,
+                      "sizes": []
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4b003a05",
+                      "settings": {
+                        "editor": "<a href=\"tel:+16787760591\" style=\"color:#ffffff;font-weight:800;text-decoration:none;\">(678) 776-0591</a>",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1.35,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "4b004d5c",
+                      "settings": {
+                        "editor": "2834 Horseshoe Rd, Loganville, GA 30052",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.92,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "rgba(255,255,255,0.7)"
+                      },
+                      "elements": [],
+                      "isInner": true,
+                      "widgetType": "text-editor",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "4b00e814",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_justify_content": "space-between",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "column": "16",
+                  "row": "16",
+                  "isLinked": true
+                },
+                "flex_direction_mobile": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "0",
+                  "bottom": "22",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "border_color": "rgba(255,255,255,0.08)"
+              },
+              "elements": [
+                {
+                  "id": "4b00c166",
+                  "settings": {
+                    "editor": "&copy; [ml_year] Mid Lakes Heating &amp; Cooling, LLC. All rights reserved.",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.85,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#8fb2d8"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                },
+                {
+                  "id": "4b00d4bd",
+                  "settings": {
+                    "editor": "Powered by <a href=\"https://explorehvac.com/\" target=\"_blank\" rel=\"noopener\" style=\"color:rgba(255,255,255,0.85);font-weight:700;text-decoration:none;\">ExploreHVAC</a>",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.85,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#8fb2d8"
+                  },
+                  "elements": [],
+                  "isInner": true,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    }
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  }
+}

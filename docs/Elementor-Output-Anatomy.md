@@ -119,6 +119,46 @@ these by construction.
 - **SEO meta is read from `HANDOFF-notes.md`**, and warns over 60 characters. The
   handoff file is an input to the gate, not just prose.
 
+### ⚠️ `.e-con::before` is already Elementor's — write pseudo-elements on `::after`
+
+The moment a site ships any custom CSS (§6 strategy B, or a capped child theme), this
+bites. Elementor renders a container's **background overlay** as `.e-con::before`, and
+that rule is not passive:
+
+```css
+.e-con:before { content: var(--background-overlay); position: absolute;
+                top:    calc(0px - var(--border-top-width));
+                left:   calc(0px - var(--border-left-width));
+                width:  max(100% + …, 100%);
+                height: max(100% + …, 100%);
+                opacity: var(--overlay-opacity); … }
+```
+
+So a decorative layer written the natural way —
+
+```css
+.my-card::before { content: ""; position: absolute;
+                   bottom: -100px; left: 0; width: 100%; height: 200px; }
+```
+
+— is **over-constrained**. `top` from Elementor and `height` from you are both set, so
+CSS drops `bottom`, and the layer pins itself to the **top-left** of the element
+instead of hanging off the bottom.
+
+It still renders. It looks deliberate. Nothing warns you, and the gate cannot see it,
+because the JSON is correct — the defect only exists in the browser. On midlakes it
+put four of six watermarks in the wrong place and survived a full build, gate, import
+and render-verify before anyone looked at the page.
+
+**`.e-con::after` is untouched by Elementor** (zero matches in `frontend.min.css`), so
+put decorative layers there and they compete with nothing. If an element genuinely
+needs two, give `::before` the one that sets `top` and `left` explicitly — those
+override Elementor's values outright — and set `opacity` explicitly too, so a
+background overlay added later cannot drag `--overlay-opacity` into your layer.
+
+> The short version: **on an Elementor container, `::before` is taken. Reach for
+> `::after` first.**
+
 ## 6. Two porting strategies
 
 The repo has done this two ways. Both are legitimate; they trade different things.
@@ -332,45 +372,8 @@ drift, not a scale, and Elementor cannot reproduce drift — every heading also 
 mobile size (§4), so the count doubles. Collapse it to 6–8 steps and **record which
 original size became which step**, because every later page depends on that mapping.
 
----
-
-### Open decisions — Mid Lakes (`em-midlakes`, not yet onboarded)
-
-> **SUPERSEDED 2026-08-27 — read `projects/midlakes/PORT-DECISIONS.md` instead.**
-> Decisions 1–5 are answered there, along with the CSS cap and the Elementor
-> behaviour verified on the real install. `projects/midlakes/STATUS.md` says where
-> the port is; `projects/midlakes/ENVIRONMENT.md` says how to reach it.
->
-> Two corrections to what is below, kept visible because the numbers are cited
-> elsewhere:
->
-> - **Decision 7 is wrong.** The brand primary is the **blue `#2540af`**, confirmed
->   by the client; the red `#c10a0a` is the **CTA** colour, which is a separate token
->   slot. `analyze-prototype.py` inferring `primary: blue` was correct — it does
->   *not* need hand-correcting the way this block claims.
-> - **The measurements are stale.** They predate the About page: it is now **7
->   pages, 1832 lines of CSS, 6 forms**. The prototype also lives at
->   `D:\laragon\www\midlakes\public` on this machine.
->
-> Delete this whole block once `KIT-ANALYSIS.md` exists.
-
-Prototype: `/Volumes/DataStorage/Github/em-midlakes/public` — 6 pages named
-`index.php` with **zero** `<?php` tags, 1698 lines of CSS, Manrope + Fraunces,
-`--container: 1200px`, bands `white` / `paper` `#f4f6f9` / `ink` `#0f1f35`.
-
-| # | Decision | Detail |
-|---|---|---|
-| 1 | **Form system** | Five identical `quote-form` (first/last/phone/email/message), JS-only, no backend. Elementor Pro Forms or a plugin? Recipient, anti-spam, success state |
-| 2 | **Watermarks** | `1/2/4/6.svg` on `.about`, `.service-card`, `.why-card`, `.spec-card`, `#contact`, `.site-footer` via `::before`/`::after`. Appended block, different hand from the rest of the file. Also `.site-footer { padding-bottom: 300px }`, which exists only to clear one |
-| 3 | **Blog** | `post-grid` holds a single `post-empty` placeholder → archive template, not a page. Drops the build to five real pages |
-| 4 | **Custom CSS allowed?** | The button is `border-radius: 999px` with `translateY(-2px)` on hover. The radius is native; the hover is not. Decide the policy, not this one case |
-| 5 | **Service icons** | Six inline SVGs on the home service cards. Font Awesome / emoji, or a sprite? |
-| 6 | **Type scale** | 27 distinct sizes to collapse, including two `clamp()` heads (h1 38.4→64px, h2 28.8→44px) |
-| 7 | **`_roles`** | `analyze-prototype.py` infers `primary: blue`; the brand primary is the red `#c10a0a`. Must be corrected by hand |
-
-Already settled by reading the prototype: header/footer → `pages/_theme/`; the FAQ
-`<details>` list → the Accordion widget; the `service-area` Google Maps iframe → the
-Maps widget; `nth-child` icon/numeral alternation → restated per widget. Fraunces
-italic carries the whole serif voice from three rules — `em`/`.serif` as a general
-italic utility, plus `.why-num` and `.step-num` for the decorative numerals — so it
-is small, distinctive, and the first thing a port loses silently.
+> **A worked answer to all seven.** `projects/midlakes/KIT-ANALYSIS.md` settles §11.1
+> through §11.7 for a real HTML→Elementor port, with the reasoning in
+> `projects/midlakes/PORT-DECISIONS.md`. It also declines §11.7's collapse on purpose:
+> when `build.py` emits the sizes programmatically, exactness costs nothing, and the
+> collapse is a maintainability trade that a fidelity-first mandate outranks.
