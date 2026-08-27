@@ -151,15 +151,33 @@ Same approach; only the container differs (plugin there, child theme here).
 
 ---
 
-## Open — blocking
+## Answered 2026-08-27
+
+| Question | Answer |
+|---|---|
+| **Carrier vs Rheem** | **Carrier.** Fixed in the prototype at `0417f8d` — eight Rheem mentions on home and `service-area` became Carrier. Two of them also dropped *"Authorized"*: **"Carrier Factory Authorized Dealer" is a specific certification and nothing evidences it**, so the copy now says "a Carrier® dealer" / "Carrier® Dealer Quality", matching the client's own About wording. Swap the word back if the certification does exist |
+| **Service Finance application URL** | **Leave as it is.** Both financing CTAs stay pointing at `#contact`. Not a placeholder to chase — a deliberate choice. Do not "fix" it |
+| **Elementor Pro licence** | **Not a concern** — client's call. Build against Pro (Forms + Theme Builder) as planned |
+| **Form recipient** | **`websites@exploremedia.com`** |
+
+### Form settings still unstated — defaults chosen
+
+The recipient was given; the other two were not. Proceeding on these unless told
+otherwise, because both are reversible in the Elementor UI in seconds:
+
+- **Anti-spam: Elementor's built-in honeypot.** No third-party keys to obtain, nothing
+  to configure at go-live. Switch to reCAPTCHA only if spam actually arrives.
+- **Success state: inline message.** A thank-you *page* is the better choice if
+  conversion tracking is ever wanted, since an inline message fires no pageview —
+  but nothing has asked for tracking, and a page is a heavier change to undo.
+
+---
+
+## Open — non-blocking
 
 | # | Needed | Blocks |
 |---|---|---|
-| 1 | **Form recipient email**, **anti-spam** (Elementor honeypot vs. reCAPTCHA + keys), **success state** (inline message vs. thank-you page — the latter is what conversion tracking needs) | The form template, so every page |
-| 2 | **Elementor Pro licence status.** A key is present, but the options show `_elementor_pro_free_trial_data` and **no licence-data record** — it looks like a **trial**. Theme Builder and Forms are both Pro-only; if it lapses the header, footer and all six forms stop working | Everything |
-| 3 | **Carrier vs Rheem.** About says *Carrier Dealer*; home and services say *Rheem® Authorized*. Unresolved since the content work — one is wrong and it gets baked in | About, home, services content |
-| 4 | **Service Finance application URL.** Both financing CTAs still point at `#contact` as a placeholder | Financing content |
-| 5 | **Production domain** — canonical URLs in handoff notes, and `wp elementor replace_urls` at go-live | Go-live |
-| 6 | **SEO plugin** (Yoast or Rank Math). None installed, so the prototype's seven hand-written locality-targeted `<title>` tags have nowhere to live | Go-live |
+| 1 | **Production domain** — canonical URLs in handoff notes, and `wp elementor replace_urls` at go-live | Go-live |
+| 2 | **SEO plugin** (Yoast or Rank Math). None installed, so the prototype's seven hand-written locality-targeted `<title>` tags have nowhere to live | Go-live |
 
-Items 3 and 4 block page *content*. The rest block go-live rather than the build.
+**Nothing blocks the build any more.** Both remaining items are go-live wire-up.

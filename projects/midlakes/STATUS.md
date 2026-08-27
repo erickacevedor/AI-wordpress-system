@@ -15,8 +15,9 @@ The prototype is finished and clean. The WordPress install exists, is reachable,
 has its **wire-up done** — seven page stubs, two menus, permalinks, front page and
 posts page. **Nothing has been onboarded and no page has been built.** The next step
 is onboarding: `tokens.json`, `KIT-ANALYSIS.md`, and the five `midlakes-*` skills.
-Two content questions (Carrier vs Rheem, the financing URL) and the Elementor Pro
-licence status are the things that actually block progress.
+**Nothing blocks the build** — the content and form questions were answered
+2026-08-27 (see `PORT-DECISIONS.md`); only the production domain and the SEO plugin
+are still open, and both are go-live wire-up.
 
 ---
 
@@ -101,9 +102,8 @@ Wire-up only — no page content anywhere. Full detail in `ENVIRONMENT.md`.
 
 ## Next steps, in order
 
-1. **Unblock.** Chase the six open items in `PORT-DECISIONS.md`. Items 3 and 4
-   (Carrier vs Rheem, the Service Finance URL) block page content; item 2 (is the Pro
-   licence a trial?) blocks the whole Pro-dependent plan.
+1. ~~**Unblock.**~~ Done 2026-08-27 — see "Answered" in `PORT-DECISIONS.md`. Only the
+   production domain and the SEO plugin remain, and neither blocks building.
 2. **Onboard.** `python scripts/analyze-prototype.py D:/laragon/www/midlakes/public
    --emit-tokens projects/midlakes/tokens.json`, then hand-verify `_roles`
    (**primary is blue, CTA is red** — the script's inference is right, the old doc
