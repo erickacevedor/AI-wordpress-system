@@ -28,9 +28,10 @@ licence status are the things that actually block progress.
 | **This repo** | `D:\laragon\www\AI-wordpress-system` — the pipeline and the deliverable |
 | **Install** | `C:\Users\erick\Local Sites\mid-lakes` — a deployment target, not a source of truth |
 
-> **The prototype repo has 5 commits on local `main` that are NOT pushed** (as of
-> `f45edfc`, 2026-08-27). Asked about twice, never answered. They are the About page
-> build, the Service Agreements rename, the ductwork image crop, and the cache stamps.
+The prototype repo is **level with `origin/main` at `f45edfc`** (pushed 2026-08-27),
+working tree clean. Its last five commits are the ones this port is built on: the
+About page build, the Maintenance→Service Agreements rename, the ductwork image crop,
+the wave-decoration fix, and the cache stamps.
 
 ---
 
