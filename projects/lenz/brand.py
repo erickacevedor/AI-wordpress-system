@@ -255,3 +255,151 @@ def eyebrow(icon, label, extra=""):
 
 def esc(s):
     return _html.escape(s, quote=False)
+
+
+# ============================================================ components ====
+# Shared by the home and every service page. Each one builds its widgets in a
+# fixed order, so a page that uses them rebuilds to identical JSON.
+
+def head(icon, label, title, lead=None, extra="", lead_cls="section__lead"):
+    """`.section__head`: eyebrow, h2.section__title, optional p.section__lead."""
+    kids = [eyebrow(icon, label), heading(title, "h2", "section__title", size="var(--text-2xl)")]
+    if lead:
+        kids.append(text(lead, lead_cls))
+    return box(("section__head " + extra).strip(), kids)
+
+
+def arrow_link(cls, label, href, icon="i-arrow", icon_cls="icon-sm", attrs=""):
+    return raw('<a class="%s" href="%s"%s>%s %s</a>' % (cls, href, attrs, label, svg(icon, icon_cls)))
+
+
+def service_card(cat, icon, name, blurb, key):
+    return box("service-card", [
+        raw('<span class="service-card__icon" data-cat="%s">%s</span>' % (cat, svg(icon, "icon-sm"))),
+        box("", [heading(name, "h4"), text("<p>%s</p>" % blurb)], tag="span"),
+    ], tag="a", link=L[key])
+
+
+# Hardcoded fallback quotes, as the prototype ships them until a Places proxy
+# exists. No aggregateRating anywhere until verified Google data exists.
+REVIEWS = [
+    ("LENZ did a phenomenal job on my evaporator coil replacement. I&apos;ve never seen techs work so "
+     "hard on a relatively small job — and they came back the next day to make sure it was done right. "
+     "Great follow-through and price, and a commitment to honest work. LENZ has my business for life now.",
+     "Curtis Taylor"),
+    ("Puia was great. Great attitude and service. As always, I appreciate the work you all do and happy "
+     "to be a customer.", "Dave Olsen"),
+    ("Your service man did a great job, very courteous young man. Lenz is the best and we appreciate "
+     "all you do for us.", "Ron &amp; Janet Hester"),
+]
+
+
+def review(cls, quote, name):
+    return box(cls, [raw(STARS), text("<blockquote>%s</blockquote>" % quote),
+                     text("— " + name, "review-name")], tag="figure")
+
+
+def reviews_grid():
+    return box("reviews__grid", [
+        review("review-feature", *REVIEWS[0]),
+        box("review-side", [review("review-card", *REVIEWS[1]), review("review-card", *REVIEWS[2])]),
+    ])
+
+
+def faq_list(items):
+    """The prototype's FAQ disclosure (lenz-site.js drives it), verbatim markup."""
+    return raw('<div class="faq-list">' + "".join(
+        '<div class="faq"><h3 style="margin:0"><button class="faq__trigger" aria-expanded="false" '
+        'aria-controls="faq-%d" id="faq-%d-t">%s %s</button></h3><div class="faq__panel" id="faq-%d" '
+        'role="region" aria-labelledby="faq-%d-t"><p>%s</p></div></div>'
+        % (i, i, q, svg("i-plus", "faq__icon icon-sm"), i, i, a)
+        for i, (q, a) in enumerate(items, 1)) + "</div>")
+
+
+FORM_SERVICES = ["Air Conditioning", "AC Installation", "AC Repair", "AC Replacement", "Furnace & Heating",
+                 "Heat Pumps", "Ductwork", "Duct Cleaning", "Indoor Air Quality", "Water Heater Installation",
+                 "Maintenance"]
+
+
+def _field(fid, ftype, label, **kw):
+    f = {"_id": fid, "custom_id": fid, "field_type": ftype, "field_label": label, "required": "true",
+         "width": "100", "placeholder": ""}
+    f.update(kw)
+    return f
+
+
+def estimate_form(button_text="Schedule Your Service Online", preselect=None):
+    """Elementor Pro form in place of the prototype's static form, so a request
+    goes somewhere. Recipient = the contact email ClickUp settled on (09/10 item
+    14); confirm before launch. Local routes mail to Mailpit."""
+    service = _field("service", "select", "Service",
+                     field_options="Choose a service…|\n" + "\n".join(FORM_SERVICES))
+    if preselect:
+        service["field_value"] = preselect
+    return E.widget("form", {
+        "form_name": "Estimate request",
+        "form_fields": [_field("name", "text", "Name"), _field("phone", "tel", "Phone"), service],
+        "show_labels": "yes",
+        "mark_required": "yes",
+        "button_text": button_text,
+        "button_width": "100",
+        # Element CSS for the submit colour outranks any stylesheet, so the
+        # prototype's .btn-gold values are set here (the stylesheet has the rest).
+        "button_text_color": "#121212",
+        "button_hover_color": "#121212",
+        "button_background_color": "#FFC600",
+        "button_background_hover_color": "#FFCF29",
+        "field_background_color": "#FFFFFF",
+        "column_gap": {"unit": "px", "size": 0, "sizes": []},
+        "row_gap": {"unit": "px", "size": 20, "sizes": []},
+        "submit_actions": ["email"],
+        "email_to": EMAIL,
+        "email_subject": "New estimate request from the website",
+        "email_content": "[all-fields]",
+        "email_from_name": "Lenz website",
+        "success_message": "Thanks — your request was received. We'll call you back within 2 hours during "
+                           "business hours. Need help now? Call (515) 225-6446.",
+        "required_field_message": "This field is required.",
+        "invalid_message": "Please check the highlighted fields.",
+    }, classes="lz-form")
+
+
+def close_form(title, lead_html, button_text="Schedule Your Service Online", preselect=None, extra=""):
+    """The navy closing band with the estimate form (`#contact`)."""
+    form = estimate_form(button_text, preselect)
+    return section(("close-form section " + extra).strip(), [
+        box("close-form__inner", [
+            box("", [
+                heading(title, "h2", size="var(--text-2xl)"),
+                text(lead_html, "close-form__lead"),
+                raw('<div class="close-form__alt"><a class="phone-link" href="%s">%s%s</a><small>Open 24 hours · '
+                    'Serving the Des Moines metro</small></div>' % (PHONE_TEL, svg("i-phone", "icon-sm"), PHONE)),
+            ]),
+            box("form-card", [
+                form,
+                raw('<p class="form-note">We&apos;ll call you back within 2 hours during business hours.</p>'
+                    '<div class="form-status" role="status" aria-live="polite"></div>'),
+            ]),
+        ]),
+    ], el_id="contact")
+
+
+def cta_band(title, sub, extra=""):
+    """The navy emergency band with the van photo behind it."""
+    return section(("cta-band section--tight " + extra).strip(), [
+        raw('<img class="cta-band__bg" src="%s" alt="" aria-hidden="true" decoding="async" loading="lazy" />'
+            % MEDIA["lenz-service-van-wrap-webp"]["url"]),
+        box("cta-band__inner", [
+            heading(title, "h2", size="var(--text-2xl)"),
+            text("<p>%s</p>" % sub),
+            button("Call " + PHONE, PHONE_TEL, "btn btn-gold", icon="phone"),
+        ]),
+    ])
+
+
+def trustbar(items, extra=""):
+    return section(("trustbar " + extra).strip(), [
+        box("trustbar__grid", [
+            box("trustbar__item", [text(v, "trustbar__value"), text(l, "trustbar__label")]) for v, l in items
+        ]),
+    ], label="At a glance")

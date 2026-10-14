@@ -28,17 +28,7 @@ B.reset(0x10000000)
 S = []
 
 
-def head(icon, label, title, lead=None, extra="", lead_cls="section__lead"):
-    """`.section__head`: eyebrow, h2.section__title, optional p.section__lead."""
-    kids = [eyebrow(icon, label),
-            B.heading(title, "h2", "section__title", size="var(--text-2xl)")]
-    if lead:
-        kids.append(B.text(lead, lead_cls))
-    return B.box(("section__head " + extra).strip(), kids)
-
-
-def arrow_link(cls, label, href, icon="i-arrow", icon_cls="icon-sm", attrs=""):
-    return B.raw('<a class="%s" href="%s"%s>%s %s</a>' % (cls, href, attrs, label, svg(icon, icon_cls)))
+head, arrow_link, service_card = B.head, B.arrow_link, B.service_card
 
 
 # =================================================================== HERO ====
@@ -72,12 +62,7 @@ S.append(B.section("hero", [
 TRUST = [("Since 2009", "Serving Central Iowa"), ("24/7/365", "Emergency service"),
          ("#50871-CL", "Iowa Master Licensed"), ("Veteran &amp; Woman-Owned", "Family operated"),
          ("WHO 13 News", "As seen on Hello Iowa")]
-S.append(B.section("trustbar", [
-    B.box("trustbar__grid", [
-        B.box("trustbar__item", [B.text(v, "trustbar__value"), B.text(l, "trustbar__label")])
-        for v, l in TRUST
-    ]),
-], label="At a glance"))
+S.append(B.trustbar(TRUST))
 
 # =============================================================== SERVICES ====
 BANDS = [
@@ -116,13 +101,6 @@ BANDS = [
 ]
 
 
-def service_card(cat, icon, name, blurb, key):
-    return B.box("service-card", [
-        B.raw('<span class="service-card__icon" data-cat="%s">%s</span>' % (cat, svg(icon, "icon-sm"))),
-        B.box("", [B.heading(name, "h4"), B.text("<p>%s</p>" % blurb)], tag="span"),
-    ], tag="a", link=L[key])
-
-
 bands = []
 for key, icon, title, hub, cta, blurb, cards in BANDS:
     bands.append(B.box("svc-band svc-band--" + key, [
@@ -156,15 +134,8 @@ S.append(B.section("section section--mist w-wave wave-1", [
 # `.container.cta-band__inner`; the gate allows one child per band, so here the
 # boxed `.container` holds the photo and a `.cta-band__inner` box. Containers are
 # position:static (adapter), so the photo still anchors to `.cta-band`.
-S.append(B.section("cta-band section--tight", [
-    B.raw('<img class="cta-band__bg" src="%s" alt="" aria-hidden="true" decoding="async" loading="lazy" />'
-          % B.MEDIA["lenz-service-van-wrap-webp"]["url"]),
-    B.box("cta-band__inner", [
-        B.heading("Heat out? AC down? We&apos;re ready right now.", "h2", size="var(--text-2xl)"),
-        B.text("<p>24/7 emergency service across the Des Moines metro since 2009.</p>"),
-        B.button("Call " + PHONE, PHONE_TEL, "btn btn-gold", icon="phone"),
-    ]),
-]))
+S.append(B.cta_band("Heat out? AC down? We&apos;re ready right now.",
+                      "24/7 emergency service across the Des Moines metro since 2009."))
 
 # ============================================================== FINANCING ====
 FIN = [("i-clock", "Fast online pre-approval", "A few minutes online or during your in-home estimate."),
@@ -260,30 +231,10 @@ S.append(B.section("plans section", [
 ], el_id="plans"))
 
 # ================================================================ REVIEWS ====
-# Hardcoded fallback quotes, as the prototype ships them until a Places proxy
-# exists. No aggregateRating anywhere until verified Google data exists.
-REV = [("LENZ did a phenomenal job on my evaporator coil replacement. I&apos;ve never seen techs work so "
-        "hard on a relatively small job — and they came back the next day to make sure it was done right. "
-        "Great follow-through and price, and a commitment to honest work. LENZ has my business for life now.",
-        "Curtis Taylor"),
-       ("Puia was great. Great attitude and service. As always, I appreciate the work you all do and happy "
-        "to be a customer.", "Dave Olsen"),
-       ("Your service man did a great job, very courteous young man. Lenz is the best and we appreciate "
-        "all you do for us.", "Ron &amp; Janet Hester")]
-
-
-def review(cls, quote, name):
-    return B.box(cls, [B.raw(STARS), B.text("<blockquote>%s</blockquote>" % quote),
-                       B.text("— " + name, "review-name")], tag="figure")
-
-
 S.append(B.section("reviews section", [
     head("i-star", "Reviews", "Over 2,000 5-Star Reviews Across Central Iowa",
          "See what your neighbors in Central Iowa have to say about working with our team."),
-    B.box("reviews__grid", [
-        review("review-feature", *REV[0]),
-        B.box("review-side", [review("review-card", *REV[1]), review("review-card", *REV[2])]),
-    ]),
+    B.reviews_grid(),
     B.raw('<p class="reviews__micro"><a href="%s">Ready for service like this? Get a free estimate %s</a></p>'
           % (L["form"], svg("i-arrow", "icon-sm"))),
 ], el_id="reviews"))
@@ -467,82 +418,15 @@ FAQ = [
     ("Are your technicians background-checked?",
      "Yes. Every technician completes extensive training and a background check before entering a home."),
 ]
-faq_html = '<div class="faq-list">' + "".join(
-    '<div class="faq"><h3 style="margin:0"><button class="faq__trigger" aria-expanded="false" '
-    'aria-controls="faq-%d" id="faq-%d-t">%s %s</button></h3><div class="faq__panel" id="faq-%d" '
-    'role="region" aria-labelledby="faq-%d-t"><p>%s</p></div></div>'
-    % (i, i, q, svg("i-plus", "faq__icon icon-sm"), i, i, a)
-    for i, (q, a) in enumerate(FAQ, 1)) + "</div>"
 S.append(B.section("faqs section", [
     head("i-info", "FAQs", "Frequently Asked HVAC Questions", extra="section__head--center"),
-    B.raw(faq_html),
+    B.faq_list(FAQ),
 ], el_id="faqs"))
 
 # ============================================================= CLOSE FORM ====
-# Elementor Pro form in place of the prototype's static form, so a request goes
-# somewhere. Recipient = the contact email ClickUp settled on (09/10 item 14);
-# confirm before launch. Local routes mail to Mailpit, so nothing reaches the
-# client from this install.
-SERVICES_OPT = ["Air Conditioning", "AC Installation", "AC Repair", "AC Replacement", "Furnace & Heating",
-                "Heat Pumps", "Ductwork", "Duct Cleaning", "Indoor Air Quality", "Water Heater Installation",
-                "Maintenance"]
-
-
-def field(fid, ftype, label, **kw):
-    f = {"_id": fid, "custom_id": fid, "field_type": ftype, "field_label": label, "required": "true",
-         "width": "100", "placeholder": ""}
-    f.update(kw)
-    return f
-
-
-form = B.E.widget("form", {
-    "form_name": "Estimate request",
-    "form_fields": [
-        field("name", "text", "Name"),
-        field("phone", "tel", "Phone"),
-        field("service", "select", "Service",
-              field_options="Choose a service…|\n" + "\n".join(SERVICES_OPT)),
-    ],
-    "show_labels": "yes",
-    "mark_required": "yes",
-    "button_text": "Schedule Your Service Online",
-    "button_width": "100",
-    # Element CSS for the submit colour outranks any stylesheet, so the
-    # prototype's .btn-gold values are set here (the stylesheet has the rest).
-    "button_text_color": "#121212",
-    "button_hover_color": "#121212",
-    "button_background_color": "#FFC600",
-    "button_background_hover_color": "#FFCF29",
-    "field_background_color": "#FFFFFF",
-    "column_gap": {"unit": "px", "size": 0, "sizes": []},
-    "row_gap": {"unit": "px", "size": 20, "sizes": []},
-    "submit_actions": ["email"],
-    "email_to": B.EMAIL,
-    "email_subject": "New estimate request from the website",
-    "email_content": "[all-fields]",
-    "email_from_name": "Lenz website",
-    "success_message": "Thanks — your request was received. We'll call you back within 2 hours during "
-                       "business hours. Need help now? Call (515) 225-6446.",
-    "required_field_message": "This field is required.",
-    "invalid_message": "Please check the highlighted fields.",
-}, classes="lz-form")
-
-S.append(B.section("close-form section", [
-    B.box("close-form__inner", [
-        B.box("", [
-            B.heading("Let&apos;s Get Your Home Comfortable Again", "h2", size="var(--text-2xl)"),
-            B.text("Get fast, friendly HVAC repair, maintenance, or replacement from Central Iowa&apos;s "
-                   "trusted family-owned team. We&apos;re ready when you are!", "close-form__lead"),
-            B.raw('<div class="close-form__alt"><a class="phone-link" href="%s">%s%s</a><small>Open 24 hours · '
-                  'Serving the Des Moines metro</small></div>' % (PHONE_TEL, svg("i-phone", "icon-sm"), PHONE)),
-        ]),
-        B.box("form-card", [
-            form,
-            B.raw('<p class="form-note">We&apos;ll call you back within 2 hours during business hours.</p>'
-                  '<div class="form-status" role="status" aria-live="polite"></div>'),
-        ]),
-    ]),
-], el_id="contact"))
+S.append(B.close_form("Let&apos;s Get Your Home Comfortable Again",
+                      "Get fast, friendly HVAC repair, maintenance, or replacement from Central Iowa&apos;s "
+                      "trusted family-owned team. We&apos;re ready when you are!"))
 
 # ================================================================== WRITE ====
 doc = B.E.wrap_page("Home", S, {"template": "elementor_header_footer", "hide_title": "yes"})

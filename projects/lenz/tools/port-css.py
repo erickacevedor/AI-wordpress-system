@@ -262,7 +262,9 @@ def main():
     kinds = load_manifest()
     stats = {"rules": 0, "retargeted": 0, "dropped": 0, "bumped": 0}
     tokens = strip_comments(open(os.path.join(SRC, "tokens.css"), encoding="utf-8").read())
-    proto = strip_comments(open(os.path.join(SRC, "css", "lenz-v6-1.css"), encoding="utf-8").read())
+    # The home's stylesheet, then the service template's (it only adds components).
+    proto = "\n".join(strip_comments(open(os.path.join(SRC, "css", name), encoding="utf-8").read())
+                      for name in ("lenz-v6-1.css", "lenz-service.css"))
     adapter = open(os.path.join(PLUGIN_CSS, "src", "adapter.css"), encoding="utf-8").read()
     overrides = open(os.path.join(PLUGIN_CSS, "src", "overrides.css"), encoding="utf-8").read()
     ported = port_rules(proto, kinds, stats)
@@ -272,7 +274,7 @@ def main():
         "   assets/css/src/overrides.css, then re-run the porter and deploy-plugin.sh.\n"
         "   Source: erickacevedor/lenz v6-1 (see design-source/v6-1/SOURCE.txt). */\n\n")
     out = (header + adapter + "\n/* ---- tokens.css (verbatim) ---- */\n" + tokens.strip() + "\n\n"
-           "/* ---- lenz-v6-1.css (ported) ---- */\n" + ported + "\n" + overrides)
+           "/* ---- lenz-v6-1.css + lenz-service.css (ported) ---- */\n" + ported + "\n" + overrides)
     path = os.path.join(PLUGIN_CSS, "lenz-core.css")
     with open(path, "w", encoding="utf-8") as f:
         f.write(out)

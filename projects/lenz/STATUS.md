@@ -30,11 +30,13 @@ build-all.sh [--import]   one command for all of it (import = LOCAL installs onl
 ## Built
 
 - Home (all 15 sections), header, footer.
+- Service page template (`service_page.py`) and its first page, AC Repair (Local page 46).
 
 ## Not built yet
 
-- Inner pages (about 25, copy in the lenz-docs folder). No HTML design exists for
-  them; a service page template has to be designed in the v6-1 system first.
+- The other service pages (content swaps on `service_page.py`), the three hubs
+  (Cooling, Heating, IAQ: different structure, need their own template), and the
+  company pages (About, Contact, Financing, Specials, Service Areas, ...).
 - Pages with no doc: heating-replacement, duct-cleaning, additional-services and
   its five children, privacy-policy, terms.
 

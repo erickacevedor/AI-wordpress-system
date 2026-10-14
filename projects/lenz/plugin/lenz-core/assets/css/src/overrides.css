@@ -122,3 +122,10 @@
   .elementor .brands__split { grid-template-columns: minmax(0, 1fr); }
   .elementor .brands__aside { min-width: 0; }
 }
+
+/* Between 1024px (where the desktop nav appears) and about 1040px the bar is
+   6px wider than the window and the page scrolls sideways (verified on v6-1 at
+   1024px, the iPad landscape width). A tighter gap in that band only. */
+@media (min-width: 1024px) and (max-width: 1099px) {
+  .elementor .nav__inner { gap: var(--space-3); }
+}
