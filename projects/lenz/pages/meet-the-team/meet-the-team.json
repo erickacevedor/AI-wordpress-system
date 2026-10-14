@@ -944,7 +944,7 @@
    "elType": "container"
   },
   {
-   "id": "61099829",
+   "id": "610a4638",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -952,7 +952,7 @@
    },
    "elements": [
     {
-     "id": "610984d2",
+     "id": "610a32e1",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -980,14 +980,14 @@
      },
      "elements": [
       {
-       "id": "61095e24",
+       "id": "610a0c33",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "61093776",
+         "id": "6109e585",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-wrench\"/></svg> In the field</span>"
          },
@@ -997,7 +997,7 @@
          "elType": "widget"
         },
         {
-         "id": "61094acd",
+         "id": "6109f8dc",
          "settings": {
           "title": "Service &amp; Installation Team",
           "header_size": "h2",
@@ -1029,7 +1029,7 @@
        "elType": "container"
       },
       {
-       "id": "6109717b",
+       "id": "610a1f8a",
        "settings": {
         "content_width": "full",
         "css_classes": "people people--3"
@@ -1594,6 +1594,107 @@
          ],
          "isInner": true,
          "elType": "container"
+        },
+        {
+         "id": "610984d2",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "61093776",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">W</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "61094acd",
+           "settings": {
+            "title": "Will",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "61095e24",
+           "settings": {
+            "editor": "Installation Expert",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6109717b",
+           "settings": {
+            "editor": "<p>Will is originally from Adel, he grew up in the community and continues to call Adel home today. He attended ADM High School. He joined the Lenz team in July of 2026. Will comes from a family of four, his mom, dad, and a sister. When Will isn't working, you can usually find him staying active at the gym, spending time outdoors fishing, or enjoying one of his favorite hobbies, riding his motorcycle. He chose to work for Lenz because of the great things he had heard about the company, the team, and the reputation Lenz has built in the community.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6109d22e",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "61099829",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">S</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6109ab80",
+           "settings": {
+            "title": "Songwa",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6109bed7",
+           "settings": {
+            "editor": "Service Technician",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
         }
        ],
        "isInner": true,
@@ -1608,7 +1709,7 @@
    "elType": "container"
   },
   {
-   "id": "610acd99",
+   "id": "610b7ba8",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1616,7 +1717,7 @@
    },
    "elements": [
     {
-     "id": "610aba42",
+     "id": "610b6851",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1644,14 +1745,14 @@
      },
      "elements": [
       {
-       "id": "610a9394",
+       "id": "610b41a3",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "610a6ce6",
+         "id": "610b1af5",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-calendar\"/></svg> In the office</span>"
          },
@@ -1661,7 +1762,7 @@
          "elType": "widget"
         },
         {
-         "id": "610a803d",
+         "id": "610b2e4c",
          "settings": {
           "title": "Office Team",
           "header_size": "h2",
@@ -1693,14 +1794,14 @@
        "elType": "container"
       },
       {
-       "id": "610aa6eb",
+       "id": "610b54fa",
        "settings": {
         "content_width": "full",
         "css_classes": "people people--2"
        },
        "elements": [
         {
-         "id": "6109f8dc",
+         "id": "610aa6eb",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1708,7 +1809,7 @@
          },
          "elements": [
           {
-           "id": "6109ab80",
+           "id": "610a598f",
            "settings": {
             "html": "<span class=\"person__avatar\" aria-hidden=\"true\">H</span>"
            },
@@ -1718,7 +1819,7 @@
            "elType": "widget"
           },
           {
-           "id": "6109bed7",
+           "id": "610a6ce6",
            "settings": {
             "title": "Haley",
             "header_size": "h3",
@@ -1730,7 +1831,7 @@
            "elType": "widget"
           },
           {
-           "id": "6109d22e",
+           "id": "610a803d",
            "settings": {
             "editor": "Office Assistant",
             "_css_classes": "person__role"
@@ -1741,7 +1842,7 @@
            "elType": "widget"
           },
           {
-           "id": "6109e585",
+           "id": "610a9394",
            "settings": {
             "editor": "<p>Haley joined Lenz in February 2026. Originally from Indianola and now enjoying country living in Milo, she's often the friendly voice on the phone. She chose Lenz for its family-owned, supportive atmosphere. She loves thrifting and spending time outdoors.</p>",
             "_css_classes": "person__bio"
@@ -1756,7 +1857,7 @@
          "elType": "container"
         },
         {
-         "id": "610a598f",
+         "id": "610b079e",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1764,7 +1865,7 @@
          },
          "elements": [
           {
-           "id": "610a0c33",
+           "id": "610aba42",
            "settings": {
             "html": "<span class=\"person__avatar\" aria-hidden=\"true\">S</span>"
            },
@@ -1774,7 +1875,7 @@
            "elType": "widget"
           },
           {
-           "id": "610a1f8a",
+           "id": "610acd99",
            "settings": {
             "title": "Sam",
             "header_size": "h3",
@@ -1786,7 +1887,7 @@
            "elType": "widget"
           },
           {
-           "id": "610a32e1",
+           "id": "610ae0f0",
            "settings": {
             "editor": "Office Assistant",
             "_css_classes": "person__role"
@@ -1797,7 +1898,7 @@
            "elType": "widget"
           },
           {
-           "id": "610a4638",
+           "id": "610af447",
            "settings": {
             "editor": "<p>Sam joined Lenz in March 2026. Originally from Ankeny, she studied in Minnesota and Pennsylvania before finishing at DMACC. She thrives in Lenz's small, family-business environment. In her free time, she's into creative projects, crafts, and a good book.</p>",
             "_css_classes": "person__bio"
@@ -1824,7 +1925,7 @@
    "elType": "container"
   },
   {
-   "id": "610d3879",
+   "id": "610de688",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1832,7 +1933,7 @@
    },
    "elements": [
     {
-     "id": "610d2522",
+     "id": "610dd331",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1860,14 +1961,14 @@
      },
      "elements": [
       {
-       "id": "610cfe74",
+       "id": "610dac83",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "610cc46f",
+         "id": "610d727e",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg> Office dogs</span>"
          },
@@ -1877,7 +1978,7 @@
          "elType": "widget"
         },
         {
-         "id": "610cd7c6",
+         "id": "610d85d5",
          "settings": {
           "title": "Our Office Dogs",
           "header_size": "h2",
@@ -1905,7 +2006,7 @@
          "elType": "widget"
         },
         {
-         "id": "610ceb1d",
+         "id": "610d992c",
          "settings": {
           "editor": "Fair warning: if you hear barking while you're on the phone with us, that's just the crew clocking in. Stop by the Urbandale office and say hi.",
           "_css_classes": "section__lead"
@@ -1920,14 +2021,14 @@
        "elType": "container"
       },
       {
-       "id": "610d11cb",
+       "id": "610dbfda",
        "settings": {
         "content_width": "full",
         "css_classes": "people people--3"
        },
        "elements": [
         {
-         "id": "610b2e4c",
+         "id": "610bdc5b",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1935,7 +2036,7 @@
          },
          "elements": [
           {
-           "id": "610ae0f0",
+           "id": "610b8eff",
            "settings": {
             "html": "<span class=\"person__avatar person__avatar--dog\" aria-hidden=\"true\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg></span>"
            },
@@ -1945,7 +2046,7 @@
            "elType": "widget"
           },
           {
-           "id": "610af447",
+           "id": "610ba256",
            "settings": {
             "title": "Keystone",
             "header_size": "h3",
@@ -1957,7 +2058,7 @@
            "elType": "widget"
           },
           {
-           "id": "610b079e",
+           "id": "610bb5ad",
            "settings": {
             "editor": "Office Dog",
             "_css_classes": "person__role"
@@ -1968,7 +2069,7 @@
            "elType": "widget"
           },
           {
-           "id": "610b1af5",
+           "id": "610bc904",
            "settings": {
             "editor": "<p>Named after the town in Colorado and born in June 2019, Keystone is a whip-smart Mini Australian Shepherd who'd make a natural herding dog given the chance. If you hear barking in the background on a call, that's usually Keystone greeting a visitor. After a long day at the office, he's doing zoomies around the backyard or cuddled up with Sierra in front of the TV — happiest with a belly scratch, a trick that earns a treat, or a toy to shred.</p>",
             "_css_classes": "person__bio"
@@ -1983,7 +2084,7 @@
          "elType": "container"
         },
         {
-         "id": "610b8eff",
+         "id": "610c3d0e",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1991,7 +2092,7 @@
          },
          "elements": [
           {
-           "id": "610b41a3",
+           "id": "610befb2",
            "settings": {
             "html": "<span class=\"person__avatar person__avatar--dog\" aria-hidden=\"true\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg></span>"
            },
@@ -2001,7 +2102,7 @@
            "elType": "widget"
           },
           {
-           "id": "610b54fa",
+           "id": "610c0309",
            "settings": {
             "title": "Max",
             "header_size": "h3",
@@ -2013,7 +2114,7 @@
            "elType": "widget"
           },
           {
-           "id": "610b6851",
+           "id": "610c1660",
            "settings": {
             "editor": "Office Dog",
             "_css_classes": "person__role"
@@ -2024,7 +2125,7 @@
            "elType": "widget"
           },
           {
-           "id": "610b7ba8",
+           "id": "610c29b7",
            "settings": {
             "editor": "<p>Born in April 2014, Max is a one-of-a-kind mix — the protective streak comes from his Rottweiler side, the endless affection from his American Shepherd side. He's a champion cuddle buddy who lives for ear scratches, belly rubs, and long walks (which he insists on leading). He belongs to Al and Jenny, sits faithfully at Al's feet every morning for the last bites of breakfast, and is the best greeter in the house at the end of a long workday.</p>",
             "_css_classes": "person__bio"
@@ -2039,7 +2140,7 @@
          "elType": "container"
         },
         {
-         "id": "610befb2",
+         "id": "610c9dc1",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -2047,7 +2148,7 @@
          },
          "elements": [
           {
-           "id": "610ba256",
+           "id": "610c5065",
            "settings": {
             "html": "<span class=\"person__avatar person__avatar--dog\" aria-hidden=\"true\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg></span>"
            },
@@ -2057,7 +2158,7 @@
            "elType": "widget"
           },
           {
-           "id": "610bb5ad",
+           "id": "610c63bc",
            "settings": {
             "title": "Oakley",
             "header_size": "h3",
@@ -2069,7 +2170,7 @@
            "elType": "widget"
           },
           {
-           "id": "610bc904",
+           "id": "610c7713",
            "settings": {
             "editor": "Office Dog",
             "_css_classes": "person__role"
@@ -2080,7 +2181,7 @@
            "elType": "widget"
           },
           {
-           "id": "610bdc5b",
+           "id": "610c8a6a",
            "settings": {
             "editor": "<p>Oakley is a five-year-old Golden Retriever with an unshakably chill, happy temperament. He rarely barks, loves greeting visitors at the door, and can usually be found sharpening his teeth on a deer shed or gazing out the window from the sofa. Bring a strong throwing arm — he'll play fetch until you tap out.</p>",
             "_css_classes": "person__bio"
@@ -2095,7 +2196,7 @@
          "elType": "container"
         },
         {
-         "id": "610c5065",
+         "id": "610cfe74",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -2103,7 +2204,7 @@
          },
          "elements": [
           {
-           "id": "610c0309",
+           "id": "610cb118",
            "settings": {
             "html": "<span class=\"person__avatar person__avatar--dog\" aria-hidden=\"true\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg></span>"
            },
@@ -2113,7 +2214,7 @@
            "elType": "widget"
           },
           {
-           "id": "610c1660",
+           "id": "610cc46f",
            "settings": {
             "title": "Doug",
             "header_size": "h3",
@@ -2125,7 +2226,7 @@
            "elType": "widget"
           },
           {
-           "id": "610c29b7",
+           "id": "610cd7c6",
            "settings": {
             "editor": "Office Dog",
             "_css_classes": "person__role"
@@ -2136,7 +2237,7 @@
            "elType": "widget"
           },
           {
-           "id": "610c3d0e",
+           "id": "610ceb1d",
            "settings": {
             "editor": "<p>Born in September 2022, Doug is a Blue Heeler-Corgi mix who tears around the yard with his beloved crinkle toys. He rides shotgun almost everywhere with his mom, Bailey, window down, always on the lookout to protect his home — but once he knows you, he's all love.</p>",
             "_css_classes": "person__bio"
@@ -2151,7 +2252,7 @@
          "elType": "container"
         },
         {
-         "id": "610cb118",
+         "id": "610d5f27",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -2159,7 +2260,7 @@
          },
          "elements": [
           {
-           "id": "610c63bc",
+           "id": "610d11cb",
            "settings": {
             "html": "<span class=\"person__avatar person__avatar--dog\" aria-hidden=\"true\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg></span>"
            },
@@ -2169,7 +2270,7 @@
            "elType": "widget"
           },
           {
-           "id": "610c7713",
+           "id": "610d2522",
            "settings": {
             "title": "Frisco",
             "header_size": "h3",
@@ -2181,7 +2282,7 @@
            "elType": "widget"
           },
           {
-           "id": "610c8a6a",
+           "id": "610d3879",
            "settings": {
             "editor": "Office Dog",
             "_css_classes": "person__role"
@@ -2192,7 +2293,7 @@
            "elType": "widget"
           },
           {
-           "id": "610c9dc1",
+           "id": "610d4bd0",
            "settings": {
             "editor": "<p>Born in June 2019, Frisco is a Black Goldendoodle who loves two things above all: being his mama's shotgun rider, and his tennis balls. He soaks up attention, keeps watch from his favorite spot on the couch, and spends summers living his best life in the pool. If you're in Urbandale on a Tuesday, stop by and say hi to our curly-haired doggo.</p>",
             "_css_classes": "person__bio"
@@ -2219,7 +2320,7 @@
    "elType": "container"
   },
   {
-   "id": "610dbfda",
+   "id": "610e6de9",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -2227,7 +2328,7 @@
    },
    "elements": [
     {
-     "id": "610dac83",
+     "id": "610e5a92",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -2255,21 +2356,21 @@
      },
      "elements": [
       {
-       "id": "610d992c",
+       "id": "610e473b",
        "settings": {
         "content_width": "full",
         "css_classes": "service-help promo"
        },
        "elements": [
         {
-         "id": "610d727e",
+         "id": "610e208d",
          "settings": {
           "content_width": "full",
           "css_classes": "service-help__txt promo__txt"
          },
          "elements": [
           {
-           "id": "610d4bd0",
+           "id": "610df9df",
            "settings": {
             "title": "Want to Join the Team?",
             "header_size": "h2",
@@ -2297,7 +2398,7 @@
            "elType": "widget"
           },
           {
-           "id": "610d5f27",
+           "id": "610e0d36",
            "settings": {
             "editor": "<p>We're always looking for skilled, honest people who take pride in their work. If that sounds like you, we'd love to hear from you.</p>"
            },
@@ -2311,7 +2412,7 @@
          "elType": "container"
         },
         {
-         "id": "610d85d5",
+         "id": "610e33e4",
          "settings": {
           "text": "See Open Positions",
           "link": {
@@ -2340,7 +2441,7 @@
    "elType": "container"
   },
   {
-   "id": "610e8140",
+   "id": "610f2f4f",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -2349,7 +2450,7 @@
    },
    "elements": [
     {
-     "id": "610e6de9",
+     "id": "610f1bf8",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -2377,20 +2478,20 @@
      },
      "elements": [
       {
-       "id": "610e5a92",
+       "id": "610f08a1",
        "settings": {
         "content_width": "full",
         "css_classes": "close-form__inner"
        },
        "elements": [
         {
-         "id": "610e208d",
+         "id": "610ece9c",
          "settings": {
           "content_width": "full"
          },
          "elements": [
           {
-           "id": "610de688",
+           "id": "610e9497",
            "settings": {
             "title": "Ready to Work With a Team You Can Trust?",
             "header_size": "h2",
@@ -2417,7 +2518,7 @@
            "elType": "widget"
           },
           {
-           "id": "610df9df",
+           "id": "610ea7ee",
            "settings": {
             "editor": "<p>The same people you just met are the ones who'll show up at your door — on time, prepared, and respectful of your home.</p>",
             "_css_classes": "close-form__lead"
@@ -2428,7 +2529,7 @@
            "elType": "widget"
           },
           {
-           "id": "610e0d36",
+           "id": "610ebb45",
            "settings": {
             "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
            },
@@ -2442,14 +2543,14 @@
          "elType": "container"
         },
         {
-         "id": "610e473b",
+         "id": "610ef54a",
          "settings": {
           "content_width": "full",
           "css_classes": "form-card"
          },
          "elements": [
           {
-           "id": "610dd331",
+           "id": "610e8140",
            "settings": {
             "form_name": "Estimate request",
             "form_fields": [
@@ -2519,7 +2620,7 @@
            "elType": "widget"
           },
           {
-           "id": "610e33e4",
+           "id": "610ee1f3",
            "settings": {
             "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
            },

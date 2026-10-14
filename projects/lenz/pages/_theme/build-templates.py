@@ -30,7 +30,8 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(os.path.dirname(HERE)))
 import brand as B  # noqa: E402
-from brand import L, PHONE, PHONE_TEL, EMAIL, SERVICES, NAV, svg  # noqa: E402
+from brand import L, PHONE, PHONE_TEL, EMAIL, NAV, svg
+from brand import MENU as SERVICES     # in-scope pages only  # noqa: E402
 
 LOGO_DARK_INK = B.MEDIA["lenz-logo-new-dark"]["url"]   # for light surfaces
 LOGO_REVERSED = B.MEDIA["lenz-logo-new"]["url"]        # for dark surfaces

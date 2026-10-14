@@ -2277,7 +2277,7 @@
    "elType": "container"
   },
   {
-   "id": "450f9002",
+   "id": "450f2f4f",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -2285,7 +2285,7 @@
    },
    "elements": [
     {
-     "id": "450f7cab",
+     "id": "450f1bf8",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -2313,7 +2313,7 @@
      },
      "elements": [
       {
-       "id": "450f6954",
+       "id": "450f08a1",
        "settings": {
         "content_width": "full",
         "html_tag": "section",
@@ -2384,7 +2384,7 @@
          "elType": "container"
         },
         {
-         "id": "450f55fd",
+         "id": "450ef54a",
          "settings": {
           "content_width": "full",
           "css_classes": "svc-band__grid"
@@ -2516,7 +2516,7 @@
             "content_width": "full",
             "html_tag": "a",
             "link": {
-             "url": "/heating-replacement/",
+             "url": "/maintenance-plan/",
              "is_external": "",
              "nofollow": "",
              "custom_attributes": ""
@@ -2527,7 +2527,7 @@
             {
              "id": "450e9497",
              "settings": {
-              "html": "<span class=\"service-card__icon\" data-cat=\"heating\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
+              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg></span>"
              },
              "elements": [],
              "isInner": true,
@@ -2544,66 +2544,6 @@
               {
                "id": "450ea7ee",
                "settings": {
-                "title": "Heating Replacement",
-                "header_size": "h4"
-               },
-               "elements": [],
-               "isInner": true,
-               "widgetType": "heading",
-               "elType": "widget"
-              },
-              {
-               "id": "450ebb45",
-               "settings": {
-                "editor": "<p>Upgrade an aging or failing furnace.</p>"
-               },
-               "elements": [],
-               "isInner": true,
-               "widgetType": "text-editor",
-               "elType": "widget"
-              }
-             ],
-             "isInner": true,
-             "elType": "container"
-            }
-           ],
-           "isInner": true,
-           "elType": "container"
-          },
-          {
-           "id": "450f42a6",
-           "settings": {
-            "content_width": "full",
-            "html_tag": "a",
-            "link": {
-             "url": "/maintenance-plan/",
-             "is_external": "",
-             "nofollow": "",
-             "custom_attributes": ""
-            },
-            "css_classes": "service-card"
-           },
-           "elements": [
-            {
-             "id": "450ef54a",
-             "settings": {
-              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg></span>"
-             },
-             "elements": [],
-             "isInner": true,
-             "widgetType": "html",
-             "elType": "widget"
-            },
-            {
-             "id": "450f2f4f",
-             "settings": {
-              "content_width": "full",
-              "css_classes": "lz-span"
-             },
-             "elements": [
-              {
-               "id": "450f08a1",
-               "settings": {
                 "title": "Maintenance Plans",
                 "header_size": "h4"
                },
@@ -2613,7 +2553,7 @@
                "elType": "widget"
               },
               {
-               "id": "450f1bf8",
+               "id": "450ebb45",
                "settings": {
                 "editor": "<p>Priority dispatch and 10 to 20% off parts.</p>"
                },
@@ -2647,7 +2587,7 @@
    "elType": "container"
   },
   {
-   "id": "45105168",
+   "id": "450ff0b5",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -2656,7 +2596,7 @@
    },
    "elements": [
     {
-     "id": "45103e11",
+     "id": "450fdd5e",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -2684,20 +2624,20 @@
      },
      "elements": [
       {
-       "id": "45102aba",
+       "id": "450fca07",
        "settings": {
         "content_width": "full",
         "css_classes": "close-form__inner"
        },
        "elements": [
         {
-         "id": "450ff0b5",
+         "id": "450f9002",
          "settings": {
           "content_width": "full"
          },
          "elements": [
           {
-           "id": "450fb6b0",
+           "id": "450f55fd",
            "settings": {
             "title": "Don’t Miss the Heat: Have it Checked!",
             "header_size": "h2",
@@ -2724,7 +2664,7 @@
            "elType": "widget"
           },
           {
-           "id": "450fca07",
+           "id": "450f6954",
            "settings": {
             "editor": "<p>If your furnace is blowing cold air, making noise, cycling too often, giving off unusual odors, or struggling to keep your home comfortable, it is time to have it checked.</p><p>Lenz Heating &amp; Cooling provides heating repair in Des Moines, Urbandale, West Des Moines, Ankeny, Clive, Altoona, Waukee, and surrounding Central Iowa communities. Whether you need routine furnace repair, heat pump repair, or emergency heating repair, our team is ready to help you get your home warm again.</p><p>Call (515) 225-6446 or schedule heating repair online today.</p>",
             "_css_classes": "close-form__lead"
@@ -2735,7 +2675,7 @@
            "elType": "widget"
           },
           {
-           "id": "450fdd5e",
+           "id": "450f7cab",
            "settings": {
             "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
            },
@@ -2749,14 +2689,14 @@
          "elType": "container"
         },
         {
-         "id": "45101763",
+         "id": "450fb6b0",
          "settings": {
           "content_width": "full",
           "css_classes": "form-card"
          },
          "elements": [
           {
-           "id": "450fa359",
+           "id": "450f42a6",
            "settings": {
             "form_name": "Estimate request",
             "form_fields": [
@@ -2827,7 +2767,7 @@
            "elType": "widget"
           },
           {
-           "id": "4510040c",
+           "id": "450fa359",
            "settings": {
             "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
            },

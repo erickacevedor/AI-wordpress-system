@@ -525,7 +525,7 @@
    "elType": "container"
   },
   {
-   "id": "6b053673",
+   "id": "6b05231c",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -534,7 +534,7 @@
    },
    "elements": [
     {
-     "id": "6b05231c",
+     "id": "6b050fc5",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -562,14 +562,14 @@
      },
      "elements": [
       {
-       "id": "6b04fc6e",
+       "id": "6b04e917",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "6b04c269",
+         "id": "6b04af12",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-wrench\"/></svg> Services in Waukee</span>"
          },
@@ -579,7 +579,7 @@
          "elType": "widget"
         },
         {
-         "id": "6b04d5c0",
+         "id": "6b04c269",
          "settings": {
           "title": "Heating, Cooling, and Home Comfort Services in Waukee",
           "header_size": "h2",
@@ -607,7 +607,7 @@
          "elType": "widget"
         },
         {
-         "id": "6b04e917",
+         "id": "6b04d5c0",
          "settings": {
           "editor": "Lenz Heating &amp; Cooling provides the core HVAC and home comfort services Waukee homeowners need through every season. From newer neighborhoods in the western metro to established homes closer to central Waukee, our team helps match service recommendations to your home, budget, and comfort goals.",
           "_css_classes": "section__lead"
@@ -622,7 +622,7 @@
        "elType": "container"
       },
       {
-       "id": "6b050fc5",
+       "id": "6b04fc6e",
        "settings": {
         "content_width": "full",
         "css_classes": "hub-list hub-list--grid"
@@ -791,7 +791,7 @@
          "elType": "container"
         },
         {
-         "id": "6b044e5f",
+         "id": "6b043b08",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -829,23 +829,13 @@
            "isInner": true,
            "widgetType": "text-editor",
            "elType": "widget"
-          },
-          {
-           "id": "6b043b08",
-           "settings": {
-            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/additional-services/\">View Additional Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
-           },
-           "elements": [],
-           "isInner": true,
-           "widgetType": "html",
-           "elType": "widget"
           }
          ],
          "isInner": true,
          "elType": "container"
         },
         {
-         "id": "6b04af12",
+         "id": "6b049bbb",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -853,7 +843,7 @@
          },
          "elements": [
           {
-           "id": "6b0461b6",
+           "id": "6b044e5f",
            "settings": {
             "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span>"
            },
@@ -863,7 +853,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b04750d",
+           "id": "6b0461b6",
            "settings": {
             "title": "Emergency HVAC",
             "header_size": "h3"
@@ -874,7 +864,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b048864",
+           "id": "6b04750d",
            "settings": {
             "editor": "<p>Urgent heating and cooling help for no-heat calls, AC failures, water around the system, burning smells, repeated breaker trips, and comfort problems that cannot wait.</p>",
             "_css_classes": "hub-svc__body"
@@ -885,7 +875,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b049bbb",
+           "id": "6b048864",
            "settings": {
             "html": "<a class=\"svc-band__go hub-svc__go\" href=\"tel:+15152256446\">Request Emergency HVAC Service <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
            },
@@ -911,7 +901,7 @@
    "elType": "container"
   },
   {
-   "id": "6b05bdd4",
+   "id": "6b05aa7d",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -919,7 +909,7 @@
    },
    "elements": [
     {
-     "id": "6b05aa7d",
+     "id": "6b059726",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -947,7 +937,7 @@
      },
      "elements": [
       {
-       "id": "6b0549ca",
+       "id": "6b053673",
        "settings": {
         "html": "<img class=\"cta-band__bg\" src=\"/wp-content/uploads/2026/10/lenz-service-van-wrap.webp\" alt=\"\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" />"
        },
@@ -957,14 +947,14 @@
        "elType": "widget"
       },
       {
-       "id": "6b059726",
+       "id": "6b0583cf",
        "settings": {
         "content_width": "full",
         "css_classes": "cta-band__inner"
        },
        "elements": [
         {
-         "id": "6b055d21",
+         "id": "6b0549ca",
          "settings": {
           "title": "Heat out? AC down? We&apos;re ready right now.",
           "header_size": "h2",
@@ -991,7 +981,7 @@
          "elType": "widget"
         },
         {
-         "id": "6b057078",
+         "id": "6b055d21",
          "settings": {
           "editor": "<p>24/7 emergency service across the Des Moines metro since 2009.</p>"
          },
@@ -1001,7 +991,7 @@
          "elType": "widget"
         },
         {
-         "id": "6b0583cf",
+         "id": "6b057078",
          "settings": {
           "text": "Call (515) 225-6446",
           "link": {
@@ -1030,7 +1020,7 @@
    "elType": "container"
   },
   {
-   "id": "6b077aa5",
+   "id": "6b07674e",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1038,7 +1028,7 @@
    },
    "elements": [
     {
-     "id": "6b07674e",
+     "id": "6b0753f7",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1066,14 +1056,14 @@
      },
      "elements": [
       {
-       "id": "6b0740a0",
+       "id": "6b072d49",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "6b07069b",
+         "id": "6b06f344",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg> Neighborhood needs</span>"
          },
@@ -1083,7 +1073,7 @@
          "elType": "widget"
         },
         {
-         "id": "6b0719f2",
+         "id": "6b07069b",
          "settings": {
           "title": "Waukee Homes Have Different HVAC Needs by Growth Area",
           "header_size": "h2",
@@ -1111,7 +1101,7 @@
          "elType": "widget"
         },
         {
-         "id": "6b072d49",
+         "id": "6b0719f2",
          "settings": {
           "editor": "A good HVAC recommendation should match the home, not just the ZIP code. In Waukee, that can mean different things depending on whether you live in a newer subdivision, an established neighborhood, a multi-level family home, or an area near parks, trails, open development, or active construction.",
           "_css_classes": "section__lead"
@@ -1126,14 +1116,14 @@
        "elType": "container"
       },
       {
-       "id": "6b0753f7",
+       "id": "6b0740a0",
        "settings": {
         "content_width": "full",
         "css_classes": "symptom-grid symptom-grid--2"
        },
        "elements": [
         {
-         "id": "6b060b30",
+         "id": "6b05f7d9",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1141,7 +1131,7 @@
          },
          "elements": [
           {
-           "id": "6b05d12b",
+           "id": "6b05bdd4",
            "settings": {
             "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span>"
            },
@@ -1151,7 +1141,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b05e482",
+           "id": "6b05d12b",
            "settings": {
             "title": "Newer Homes Are Not Always Problem-Free",
             "header_size": "h3"
@@ -1162,7 +1152,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b05f7d9",
+           "id": "6b05e482",
            "settings": {
             "editor": "<p>Many Waukee homeowners live in newer or recently developed neighborhoods, but newer equipment does not always guarantee even comfort. Homeowners may still notice upstairs rooms that run warm, bedrooms that feel stuffy, humidity that lingers in summer, or systems that cycle more often than expected.</p><p>In these cases, the issue may not be the age of the equipment. It may involve airflow balance, duct design, thermostat placement, system sizing, insulation, or how the home is used throughout the day.</p>"
            },
@@ -1176,7 +1166,7 @@
          "elType": "container"
         },
         {
-         "id": "6b06588c",
+         "id": "6b064535",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1184,7 +1174,7 @@
          },
          "elements": [
           {
-           "id": "6b061e87",
+           "id": "6b060b30",
            "settings": {
             "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
            },
@@ -1194,7 +1184,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b0631de",
+           "id": "6b061e87",
            "settings": {
             "title": "Fast Growth Can Mean Changing Comfort Needs",
             "header_size": "h3"
@@ -1205,7 +1195,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b064535",
+           "id": "6b0631de",
            "settings": {
             "editor": "<p>Waukee’s growth has brought more households, more development, and more homes built for busy families. As families grow, basements get finished, rooms become home offices, and living spaces get used differently, HVAC needs can change.</p><p>A system that worked well when the home was first built may need maintenance, airflow adjustments, thermostat upgrades, humidity control, or a closer look at whether it still supports the way your household lives now.</p>"
            },
@@ -1219,7 +1209,7 @@
          "elType": "container"
         },
         {
-         "id": "6b06a5e8",
+         "id": "6b069291",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1227,7 +1217,7 @@
          },
          "elements": [
           {
-           "id": "6b066be3",
+           "id": "6b06588c",
            "settings": {
             "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-calendar\"/></svg></span>"
            },
@@ -1237,7 +1227,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b067f3a",
+           "id": "6b066be3",
            "settings": {
             "title": "Parks, Trails, and Open Areas Can Affect Maintenance Needs",
             "header_size": "h3"
@@ -1248,7 +1238,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b069291",
+           "id": "6b067f3a",
            "settings": {
             "editor": "<p>Waukee’s parks, trails, and green spaces are part of what make the city appealing. Homes near open development, parks, trails, construction zones, or tree-lined areas may notice more dust, pollen, grass clippings, leaves, or cottonwood around outdoor units and filters during certain parts of the year.</p><p>Outdoor AC units need clear airflow to work efficiently. When debris collects around the unit, the system can work harder, run longer, and struggle during hot weather. Indoor filters may also need more attention during heavy pollen, dust, or allergy seasons.</p>"
            },
@@ -1262,7 +1252,7 @@
          "elType": "container"
         },
         {
-         "id": "6b06f344",
+         "id": "6b06dfed",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1270,7 +1260,7 @@
          },
          "elements": [
           {
-           "id": "6b06b93f",
+           "id": "6b06a5e8",
            "settings": {
             "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
            },
@@ -1280,7 +1270,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b06cc96",
+           "id": "6b06b93f",
            "settings": {
             "title": "Multi-Level and Family Homes Need Balanced Comfort",
             "header_size": "h3"
@@ -1291,7 +1281,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b06dfed",
+           "id": "6b06cc96",
            "settings": {
             "editor": "<p>Many Waukee homes are designed around active, everyday use. In multi-level homes, comfort problems can become noticeable fast. One floor may feel fine while another feels too warm, too cold, too dry, or too humid.</p><p>If different parts of your home feel different throughout the day, Lenz Heating &amp; Cooling can help evaluate airflow, equipment performance, ductwork, humidity, and system controls to identify what is causing the issue.</p>"
            },
@@ -1317,7 +1307,7 @@
    "elType": "container"
   },
   {
-   "id": "6b093776",
+   "id": "6b09241f",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1325,7 +1315,7 @@
    },
    "elements": [
     {
-     "id": "6b09241f",
+     "id": "6b0910c8",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1353,14 +1343,14 @@
      },
      "elements": [
       {
-       "id": "6b08fd71",
+       "id": "6b08ea1a",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "6b08c36c",
+         "id": "6b08b015",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Why Lenz</span>"
          },
@@ -1370,7 +1360,7 @@
          "elType": "widget"
         },
         {
-         "id": "6b08d6c3",
+         "id": "6b08c36c",
          "settings": {
           "title": "Why Waukee Homeowners Call Lenz Heating &amp; Cooling",
           "header_size": "h2",
@@ -1398,7 +1388,7 @@
          "elType": "widget"
         },
         {
-         "id": "6b08ea1a",
+         "id": "6b08d6c3",
          "settings": {
           "editor": "Choosing an HVAC company is not only about finding someone who serves Waukee. It is about finding a team that explains what is happening and helps you choose the right next step for your home.",
           "_css_classes": "section__lead"
@@ -1413,14 +1403,14 @@
        "elType": "container"
       },
       {
-       "id": "6b0910c8",
+       "id": "6b08fd71",
        "settings": {
         "content_width": "full",
         "css_classes": "creds__grid creds__grid--4"
        },
        "elements": [
         {
-         "id": "6b07c801",
+         "id": "6b07b4aa",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1428,7 +1418,7 @@
          },
          "elements": [
           {
-           "id": "6b078dfc",
+           "id": "6b077aa5",
            "settings": {
             "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg></span>"
            },
@@ -1438,7 +1428,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b07a153",
+           "id": "6b078dfc",
            "settings": {
             "title": "“My Home Is Newer, So Why Am I Still Having Comfort Problems?”",
             "header_size": "h3"
@@ -1449,7 +1439,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b07b4aa",
+           "id": "6b07a153",
            "settings": {
             "editor": "Newer homes can still have hot rooms, humidity issues, short cycling, weak airflow, or thermostat problems. We evaluate the system and the home together so you are not left guessing whether the issue is equipment, airflow, ductwork, controls, or maintenance.",
             "_css_classes": "creds__text"
@@ -1464,7 +1454,7 @@
          "elType": "container"
         },
         {
-         "id": "6b08155d",
+         "id": "6b080206",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1472,7 +1462,7 @@
          },
          "elements": [
           {
-           "id": "6b07db58",
+           "id": "6b07c801",
            "settings": {
             "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-card\"/></svg></span>"
            },
@@ -1482,7 +1472,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b07eeaf",
+           "id": "6b07db58",
            "settings": {
             "title": "“I Do Not Want to Replace a System That Can Be Fixed.”",
             "header_size": "h3"
@@ -1493,7 +1483,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b080206",
+           "id": "6b07eeaf",
            "settings": {
             "editor": "We understand. Not every HVAC problem means replacement. Our technicians inspect the system, explain what they find, and help you compare repair, maintenance, or replacement options based on system condition, comfort concerns, repair history, and budget.",
             "_css_classes": "creds__text"
@@ -1508,7 +1498,7 @@
          "elType": "container"
         },
         {
-         "id": "6b0862b9",
+         "id": "6b084f62",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1516,7 +1506,7 @@
          },
          "elements": [
           {
-           "id": "6b0828b4",
+           "id": "6b08155d",
            "settings": {
             "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span>"
            },
@@ -1526,7 +1516,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b083c0b",
+           "id": "6b0828b4",
            "settings": {
             "title": "“I Want Clear Pricing Before I Approve the Work.”",
             "header_size": "h3"
@@ -1537,7 +1527,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b084f62",
+           "id": "6b083c0b",
            "settings": {
             "editor": "With our “To the Penny” Pricing Guarantee, you know the cost before work begins. That means no unclear pricing, no guessing, and no surprise fees after the job is done.",
             "_css_classes": "creds__text"
@@ -1552,7 +1542,7 @@
          "elType": "container"
         },
         {
-         "id": "6b08b015",
+         "id": "6b089cbe",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1560,7 +1550,7 @@
          },
          "elements": [
           {
-           "id": "6b087610",
+           "id": "6b0862b9",
            "settings": {
             "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
            },
@@ -1570,7 +1560,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b088967",
+           "id": "6b087610",
            "settings": {
             "title": "“I Need a Company That Can Handle More Than One Comfort Issue.”",
             "header_size": "h3"
@@ -1581,7 +1571,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b089cbe",
+           "id": "6b088967",
            "settings": {
             "editor": "Many Waukee homeowners are not dealing with just one problem. You may have AC concerns, dry winter air, a smart thermostat question, a water heater need, or airflow issues in certain rooms. Lenz Heating &amp; Cooling can look at the full home comfort picture and recommend practical next steps.",
             "_css_classes": "creds__text"
@@ -1608,7 +1598,7 @@
    "elType": "container"
   },
   {
-   "id": "6b0b41a3",
+   "id": "6b0b2e4c",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1616,7 +1606,7 @@
    },
    "elements": [
     {
-     "id": "6b0b2e4c",
+     "id": "6b0b1af5",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1644,14 +1634,14 @@
      },
      "elements": [
       {
-       "id": "6b0b079e",
+       "id": "6b0af447",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head section__head--center"
        },
        "elements": [
         {
-         "id": "6b0acd99",
+         "id": "6b0aba42",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg> What to expect</span>"
          },
@@ -1661,7 +1651,7 @@
          "elType": "widget"
         },
         {
-         "id": "6b0ae0f0",
+         "id": "6b0acd99",
          "settings": {
           "title": "What Happens After You Schedule HVAC Service",
           "header_size": "h2",
@@ -1689,7 +1679,7 @@
          "elType": "widget"
         },
         {
-         "id": "6b0af447",
+         "id": "6b0ae0f0",
          "settings": {
           "editor": "Scheduling HVAC service should feel simple. Whether you live near Kettlestone, Sugar Creek, Triumph Park, the Raccoon River Valley Trail, newer western neighborhoods, or established areas closer to central Waukee, our process is built around clear communication.",
           "_css_classes": "section__lead"
@@ -1704,14 +1694,14 @@
        "elType": "container"
       },
       {
-       "id": "6b0b1af5",
+       "id": "6b0b079e",
        "settings": {
         "content_width": "full",
         "css_classes": "steps steps--5"
        },
        "elements": [
         {
-         "id": "6b0984d2",
+         "id": "6b09717b",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1719,7 +1709,7 @@
          },
          "elements": [
           {
-           "id": "6b094acd",
+           "id": "6b093776",
            "settings": {
             "html": "<span class=\"step__num\">1</span>"
            },
@@ -1729,7 +1719,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b095e24",
+           "id": "6b094acd",
            "settings": {
             "title": "Tell us what is happening in your home.",
             "header_size": "h3",
@@ -1741,7 +1731,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b09717b",
+           "id": "6b095e24",
            "settings": {
             "editor": "<p>Let us know whether you are dealing with no heat, no cooling, a leak, strange noises, weak airflow, comfort issues, or a system that needs maintenance.</p>",
             "_css_classes": "step__body"
@@ -1756,7 +1746,7 @@
          "elType": "container"
         },
         {
-         "id": "6b09d22e",
+         "id": "6b09bed7",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1764,7 +1754,7 @@
          },
          "elements": [
           {
-           "id": "6b099829",
+           "id": "6b0984d2",
            "settings": {
             "html": "<span class=\"step__num\">2</span>"
            },
@@ -1774,7 +1764,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b09ab80",
+           "id": "6b099829",
            "settings": {
             "title": "We confirm your service needs and scheduling options.",
             "header_size": "h3",
@@ -1786,7 +1776,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b09bed7",
+           "id": "6b09ab80",
            "settings": {
             "editor": "<p>Our team will help determine the type of service you need and the available appointment options.</p>",
             "_css_classes": "step__body"
@@ -1801,7 +1791,7 @@
          "elType": "container"
         },
         {
-         "id": "6b0a1f8a",
+         "id": "6b0a0c33",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1809,7 +1799,7 @@
          },
          "elements": [
           {
-           "id": "6b09e585",
+           "id": "6b09d22e",
            "settings": {
             "html": "<span class=\"step__num\">3</span>"
            },
@@ -1819,7 +1809,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b09f8dc",
+           "id": "6b09e585",
            "settings": {
             "title": "A technician inspects your HVAC system.",
             "header_size": "h3",
@@ -1831,7 +1821,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b0a0c33",
+           "id": "6b09f8dc",
            "settings": {
             "editor": "<p>We evaluate the equipment, airflow, visible components, and the symptoms you are noticing.</p>",
             "_css_classes": "step__body"
@@ -1846,7 +1836,7 @@
          "elType": "container"
         },
         {
-         "id": "6b0a6ce6",
+         "id": "6b0a598f",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1854,7 +1844,7 @@
          },
          "elements": [
           {
-           "id": "6b0a32e1",
+           "id": "6b0a1f8a",
            "settings": {
             "html": "<span class=\"step__num\">4</span>"
            },
@@ -1864,7 +1854,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b0a4638",
+           "id": "6b0a32e1",
            "settings": {
             "title": "You get a clear explanation before work begins.",
             "header_size": "h3",
@@ -1876,7 +1866,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b0a598f",
+           "id": "6b0a4638",
            "settings": {
             "editor": "<p>We explain what we found, what it means, and what options are available.</p>",
             "_css_classes": "step__body"
@@ -1891,7 +1881,7 @@
          "elType": "container"
         },
         {
-         "id": "6b0aba42",
+         "id": "6b0aa6eb",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1899,7 +1889,7 @@
          },
          "elements": [
           {
-           "id": "6b0a803d",
+           "id": "6b0a6ce6",
            "settings": {
             "html": "<span class=\"step__num\">5</span>"
            },
@@ -1909,7 +1899,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b0a9394",
+           "id": "6b0a803d",
            "settings": {
             "title": "You choose the next step that fits your home.",
             "header_size": "h3",
@@ -1921,7 +1911,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b0aa6eb",
+           "id": "6b0a9394",
            "settings": {
             "editor": "<p>Whether the answer is a repair, maintenance, replacement estimate, or additional comfort recommendation, you stay in control of the decision.</p>",
             "_css_classes": "step__body"
@@ -1948,7 +1938,7 @@
    "elType": "container"
   },
   {
-   "id": "6b0bb5ad",
+   "id": "6b0ba256",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1957,7 +1947,7 @@
    },
    "elements": [
     {
-     "id": "6b0ba256",
+     "id": "6b0b8eff",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1985,14 +1975,14 @@
      },
      "elements": [
       {
-       "id": "6b0b7ba8",
+       "id": "6b0b6851",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head section__head--center"
        },
        "elements": [
         {
-         "id": "6b0b54fa",
+         "id": "6b0b41a3",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-info\"/></svg> FAQs</span>"
          },
@@ -2002,7 +1992,7 @@
          "elType": "widget"
         },
         {
-         "id": "6b0b6851",
+         "id": "6b0b54fa",
          "settings": {
           "title": "Helpful HVAC Questions Waukee Homeowners Ask",
           "header_size": "h2",
@@ -2034,7 +2024,7 @@
        "elType": "container"
       },
       {
-       "id": "6b0b8eff",
+       "id": "6b0b7ba8",
        "settings": {
         "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">Why does my newer Waukee home still have hot or cold rooms? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p>Newer homes can still have comfort problems if airflow is not balanced, ductwork is not designed well for the layout, the thermostat is not placed effectively, or the system is not sized for how the home is used. A technician can evaluate the full comfort picture, not just the age of the equipment.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">Should I change my air filter more often in Waukee? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p>You may need to change your filter more often if you have pets, allergies, nearby construction, a busy household, or an HVAC system that runs heavily during summer or winter. Homes near open development, parks, trails, or dusty areas may also notice filters collecting debris faster.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Can a smart thermostat help with comfort in a Waukee home? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p>A smart thermostat can help manage schedules, reduce unnecessary run time, and improve temperature control, especially for busy households. However, if the home has airflow, ductwork, humidity, or system sizing issues, a thermostat alone may not solve the comfort problem.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">Why does my upstairs feel warmer during Waukee summers? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p>Warm upstairs rooms can be caused by heat rising, sun exposure, ductwork design, weak airflow, poor insulation, or an AC system that is struggling during long cooling cycles. This is common in multi-level homes and should be evaluated if the temperature difference is noticeable.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Is HVAC maintenance still necessary if my system is only a few years old? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p>Yes. Newer systems still need routine maintenance to stay efficient, reliable, and properly adjusted. Regular service can help catch drainage, airflow, electrical, filter, and performance issues before they lead to repairs or comfort problems.</p></div></div></div>"
        },
@@ -2052,7 +2042,7 @@
    "elType": "container"
   },
   {
-   "id": "6b0c7713",
+   "id": "6b0c63bc",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -2061,7 +2051,7 @@
    },
    "elements": [
     {
-     "id": "6b0c63bc",
+     "id": "6b0c5065",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -2089,20 +2079,20 @@
      },
      "elements": [
       {
-       "id": "6b0c5065",
+       "id": "6b0c3d0e",
        "settings": {
         "content_width": "full",
         "css_classes": "close-form__inner"
        },
        "elements": [
         {
-         "id": "6b0c1660",
+         "id": "6b0c0309",
          "settings": {
           "content_width": "full"
          },
          "elements": [
           {
-           "id": "6b0bdc5b",
+           "id": "6b0bc904",
            "settings": {
             "title": "Live Comfortably, Right Here in Waukee",
             "header_size": "h2",
@@ -2129,7 +2119,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b0befb2",
+           "id": "6b0bdc5b",
            "settings": {
             "editor": "<p>Whether you live near Kettlestone, Sugar Creek, Triumph Park, the Raccoon River Valley Trail, a newer western neighborhood, or an established area closer to the heart of Waukee, Lenz Heating &amp; Cooling is ready to help with heating, cooling, indoor air quality, emergency HVAC, and additional home comfort services.</p><p>Our team can inspect your system, explain what is happening, and help you choose the right next step for your home without pressure.</p><p>Call (515) 225-6446 or schedule HVAC service online today.</p>",
             "_css_classes": "close-form__lead"
@@ -2140,7 +2130,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b0c0309",
+           "id": "6b0befb2",
            "settings": {
             "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
            },
@@ -2154,14 +2144,14 @@
          "elType": "container"
         },
         {
-         "id": "6b0c3d0e",
+         "id": "6b0c29b7",
          "settings": {
           "content_width": "full",
           "css_classes": "form-card"
          },
          "elements": [
           {
-           "id": "6b0bc904",
+           "id": "6b0bb5ad",
            "settings": {
             "form_name": "Estimate request",
             "form_fields": [
@@ -2231,7 +2221,7 @@
            "elType": "widget"
           },
           {
-           "id": "6b0c29b7",
+           "id": "6b0c1660",
            "settings": {
             "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
            },

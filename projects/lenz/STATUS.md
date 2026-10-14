@@ -39,6 +39,13 @@ build-all.sh [--import]   one command for all of it (import = LOCAL installs onl
   About 75, Community Outreach 76, Contact 77, Financing 78, Hello Iowa 79, Careers 80, Maintenance Plans 81,
   Meet the Team 82, Service Areas 83, Specials 84, Urbandale 85, Waukee 86. Blog: posts archive, not built.
 
+## Scope
+
+The signed scope is 26 pages (PandaDoc SOW; ClickUp list "New Website Creation"). Pages outside it
+(Heating Replacement, Duct Cleaning, Additional Services and its five children) are listed in
+`brand.OUT_OF_SCOPE`: not in menus, never linked; their cards on the home stay as static cards.
+AC Replacement is built but not in the SOW: confirm.
+
 ## Not built yet
 
 - Service pages with no doc yet (Heating Replacement, Duct Cleaning, Additional Services children); the blog archive (Theme Builder).

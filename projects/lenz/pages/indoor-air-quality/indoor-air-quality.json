@@ -388,7 +388,7 @@
    "elType": "container"
   },
   {
-   "id": "52049bbb",
+   "id": "5204750d",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -397,7 +397,7 @@
    },
    "elements": [
     {
-     "id": "52048864",
+     "id": "520461b6",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -425,14 +425,14 @@
      },
      "elements": [
       {
-       "id": "520461b6",
+       "id": "52043b08",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "520427b1",
+         "id": "52040103",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg> Air quality solutions</span>"
          },
@@ -442,7 +442,7 @@
          "elType": "widget"
         },
         {
-         "id": "52043b08",
+         "id": "5204145a",
          "settings": {
           "title": "Breathe Cleaner, Healthier Air with Complete IAQ Solutions",
           "header_size": "h2",
@@ -470,7 +470,7 @@
          "elType": "widget"
         },
         {
-         "id": "52044e5f",
+         "id": "520427b1",
          "settings": {
           "editor": "Truly clean indoor air takes more than just a standard air filter. We focus on four core air quality solutions to clean, balance, and optimize the air your family breathes:",
           "_css_classes": "section__lead"
@@ -485,7 +485,7 @@
        "elType": "container"
       },
       {
-       "id": "5204750d",
+       "id": "52044e5f",
        "settings": {
         "content_width": "full",
         "css_classes": "hub-list hub-list--grid"
@@ -664,7 +664,7 @@
          "elType": "container"
         },
         {
-         "id": "5203b3a7",
+         "id": "5203a050",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -702,23 +702,13 @@
            "isInner": true,
            "widgetType": "text-editor",
            "elType": "widget"
-          },
-          {
-           "id": "5203a050",
-           "settings": {
-            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/duct-cleaning/\">Learn More About Air Duct Cleaning <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
-           },
-           "elements": [],
-           "isInner": true,
-           "widgetType": "html",
-           "elType": "widget"
           }
          ],
          "isInner": true,
          "elType": "container"
         },
         {
-         "id": "5204145a",
+         "id": "5203edac",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -726,7 +716,7 @@
          },
          "elements": [
           {
-           "id": "5203c6fe",
+           "id": "5203b3a7",
            "settings": {
             "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-wrench\"/></svg></span>"
            },
@@ -736,7 +726,7 @@
            "elType": "widget"
           },
           {
-           "id": "5203da55",
+           "id": "5203c6fe",
            "settings": {
             "title": "5. Ductwork Repair, Sealing &amp; Replacement",
             "header_size": "h3"
@@ -747,7 +737,7 @@
            "elType": "widget"
           },
           {
-           "id": "5203edac",
+           "id": "5203da55",
            "settings": {
             "editor": "<p>You can buy the most expensive furnace or AC unit on the market, but if your ductwork is cracked, crushed, or disconnected, you're wasting money. Leaky air ducts can allow up to 30% of your heated or cooled air to escape behind walls, while pulling dirty, dusty air directly out of attics or crawlspaces. We inspect, seal, repair, and replace home ductwork to eliminate uneven hot/cold spots, boost airflow, and lower your monthly energy bills.</p>",
             "_css_classes": "hub-svc__body"
@@ -755,16 +745,6 @@
            "elements": [],
            "isInner": true,
            "widgetType": "text-editor",
-           "elType": "widget"
-          },
-          {
-           "id": "52040103",
-           "settings": {
-            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/ductwork/\">View Duct Repair &amp; Installation Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
-           },
-           "elements": [],
-           "isInner": true,
-           "widgetType": "html",
            "elType": "widget"
           }
          ],
@@ -784,7 +764,7 @@
    "elType": "container"
   },
   {
-   "id": "5205231c",
+   "id": "5204fc6e",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -792,7 +772,7 @@
    },
    "elements": [
     {
-     "id": "52050fc5",
+     "id": "5204e917",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -820,7 +800,7 @@
      },
      "elements": [
       {
-       "id": "5204af12",
+       "id": "52048864",
        "settings": {
         "html": "<img class=\"cta-band__bg\" src=\"/wp-content/uploads/2026/10/lenz-service-van-wrap.webp\" alt=\"\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" />"
        },
@@ -830,14 +810,14 @@
        "elType": "widget"
       },
       {
-       "id": "5204fc6e",
+       "id": "5204d5c0",
        "settings": {
         "content_width": "full",
         "css_classes": "cta-band__inner"
        },
        "elements": [
         {
-         "id": "5204c269",
+         "id": "52049bbb",
          "settings": {
           "title": "Questions about your air? We&apos;re here 24/7.",
           "header_size": "h2",
@@ -864,7 +844,7 @@
          "elType": "widget"
         },
         {
-         "id": "5204d5c0",
+         "id": "5204af12",
          "settings": {
           "editor": "<p>Local team, real people, across the Des Moines metro since 2009.</p>"
          },
@@ -874,7 +854,7 @@
          "elType": "widget"
         },
         {
-         "id": "5204e917",
+         "id": "5204c269",
          "settings": {
           "text": "Call (515) 225-6446",
           "link": {
@@ -903,7 +883,7 @@
    "elType": "container"
   },
   {
-   "id": "5205aa7d",
+   "id": "520583cf",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -911,7 +891,7 @@
    },
    "elements": [
     {
-     "id": "52059726",
+     "id": "52057078",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -939,14 +919,14 @@
      },
      "elements": [
       {
-       "id": "52057078",
+       "id": "520549ca",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "52053673",
+         "id": "52050fc5",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg> Warning signs</span>"
          },
@@ -956,7 +936,7 @@
          "elType": "widget"
         },
         {
-         "id": "520549ca",
+         "id": "5205231c",
          "settings": {
           "title": "Signs Your Des Moines Home Has Poor Indoor Air Quality",
           "header_size": "h2",
@@ -984,7 +964,7 @@
          "elType": "widget"
         },
         {
-         "id": "52055d21",
+         "id": "52053673",
          "settings": {
           "editor": "Indoor air pollution often builds up gradually. Call our indoor air quality specialists if you notice any of these common warning signs in your home:",
           "_css_classes": "section__lead"
@@ -999,7 +979,7 @@
        "elType": "container"
       },
       {
-       "id": "520583cf",
+       "id": "52055d21",
        "settings": {
         "editor": "<div class=\"compare\"><table><thead><tr><th scope=\"col\">Common Indoor Air Symptom</th><th scope=\"col\">Primary Underlying Cause</th><th scope=\"col\">Recommended IAQ Solution</th></tr></thead><tbody><tr><th scope=\"row\">Rapid Dust Buildup on Furniture</th><td data-label=\"Primary Underlying Cause\">Accumulated debris inside supply/return ducts</td><td data-label=\"Recommended IAQ Solution\">Professional Air Duct Cleaning</td></tr><tr><th scope=\"row\">Frequent Allergy/Asthma Flares</th><td data-label=\"Primary Underlying Cause\">Airborne pollen, pet dander, mold spores, dust mites</td><td data-label=\"Recommended IAQ Solution\">Whole-Home Air Purifier / UV System</td></tr><tr><th scope=\"row\">Musty Odors or Muggy Summer Air</th><td data-label=\"Primary Underlying Cause\">High indoor humidity creating mold/bacteria growth</td><td data-label=\"Recommended IAQ Solution\">Whole-Home Dehumidifier Installation</td></tr><tr><th scope=\"row\">Dry Skin, Static Shocks &amp; Bloody Noses</th><td data-label=\"Primary Underlying Cause\">Extremely low humidity during Iowa winter heating</td><td data-label=\"Recommended IAQ Solution\">Whole-Home Humidifier Installation</td></tr><tr><th scope=\"row\">Hot/Cold Spots or Weak Air Vents</th><td data-label=\"Primary Underlying Cause\">Leaky, disconnected, or crushed ductwork</td><td data-label=\"Recommended IAQ Solution\">Duct Repair &amp; Airflow Balancing</td></tr></tbody></table></div>",
         "_css_classes": "compare-wrap"
@@ -1018,7 +998,7 @@
    "elType": "container"
   },
   {
-   "id": "520631de",
+   "id": "52060b30",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1026,7 +1006,7 @@
    },
    "elements": [
     {
-     "id": "52061e87",
+     "id": "5205f7d9",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1054,21 +1034,21 @@
      },
      "elements": [
       {
-       "id": "52060b30",
+       "id": "5205e482",
        "settings": {
         "content_width": "full",
         "css_classes": "service-help promo"
        },
        "elements": [
         {
-         "id": "5205e482",
+         "id": "5205bdd4",
          "settings": {
           "content_width": "full",
           "css_classes": "service-help__txt promo__txt"
          },
          "elements": [
           {
-           "id": "5205bdd4",
+           "id": "52059726",
            "settings": {
             "title": "Flexible Payment Plans for Air Quality &amp; HVAC Upgrades",
             "header_size": "h2",
@@ -1096,7 +1076,7 @@
            "elType": "widget"
           },
           {
-           "id": "5205d12b",
+           "id": "5205aa7d",
            "settings": {
             "editor": "<p>Don't delay your home's air health over upfront costs. Lenz Heating &amp; Cooling offers flexible HVAC financing options through Synchrony Bank for homeowners across Des Moines, Urbandale, Waukee, and Central Iowa. With quick online applications and promotional monthly rates, upgrading to a whole-home air purifier, humidifier, or duct system has never been more affordable.</p>"
            },
@@ -1110,7 +1090,7 @@
          "elType": "container"
         },
         {
-         "id": "5205f7d9",
+         "id": "5205d12b",
          "settings": {
           "text": "Apply for Financing via Synchrony",
           "link": {
@@ -1139,7 +1119,7 @@
    "elType": "container"
   },
   {
-   "id": "5206a5e8",
+   "id": "52067f3a",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1148,7 +1128,7 @@
    },
    "elements": [
     {
-     "id": "52069291",
+     "id": "52066be3",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1176,14 +1156,14 @@
      },
      "elements": [
       {
-       "id": "52066be3",
+       "id": "52064535",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head section__head--center"
        },
        "elements": [
         {
-         "id": "52064535",
+         "id": "52061e87",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-info\"/></svg> FAQs</span>"
          },
@@ -1193,7 +1173,7 @@
          "elType": "widget"
         },
         {
-         "id": "5206588c",
+         "id": "520631de",
          "settings": {
           "title": "Frequently Asked Questions About Indoor Air Quality",
           "header_size": "h2",
@@ -1225,7 +1205,7 @@
        "elType": "container"
       },
       {
-       "id": "52067f3a",
+       "id": "5206588c",
        "settings": {
         "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">Why is indoor air quality (IAQ) important for my home? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p><b>Indoor air quality directly impacts respiratory health, allergy severity, sleep quality, and home comfort.</b> The EPA estimates indoor air can be 2 to 5 times more polluted than outdoor air because modern, energy-efficient homes trap dust, pet dander, mold spores, and household chemicals inside. Improving IAQ protects your family and keeps your HVAC system running efficiently.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">How do I know if I need a whole-home air purifier vs. duct cleaning? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p><b>Air duct cleaning removes accumulated debris trapped inside your vents, while a whole-home air purifier sanitizes the air circulating through your home every day.</b> Duct cleaning is recommended every 3 to 5 years to clear heavy dust and buildup. An air purifier (or UV light system) works continuously to kill microscopic airborne viruses, bacteria, mold spores, and odors before you breathe them in.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Are whole-home humidifiers and dehumidifiers better than portable units? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p><b>Yes, whole-home humidity control systems are significantly more effective, quiet, and convenient than single-room portable units.</b> Installed directly into your furnace and ductwork, whole-home humidifiers and dehumidifiers treat the entire house automatically using a direct water line, meaning no noisy fans, daily water tank refilling, or uneven room temperatures.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">How often should home air ducts be cleaned in Iowa? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p><b>Home air ducts should be professionally cleaned every 3 to 5 years.</b> However, homes in Central Iowa with indoor pets, recent remodeling or construction, or family members with severe seasonal allergies or asthma should consider scheduling duct cleaning every 2 to 3 years.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Can indoor air quality equipment help lower my monthly energy bills? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p><b>Yes, improving your indoor air quality directly boosts your HVAC system's efficiency.</b> Clean air ducts allow unrestricted airflow so your blower motor doesn't overwork, while proper humidity control lets you feel comfortable at lower thermostat settings in winter and higher settings in summer.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-6\" id=\"faq-6-t\">What cities and areas in Central Iowa do you service for air quality solutions? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-6\" role=\"region\" aria-labelledby=\"faq-6-t\"><p><b>Lenz Heating &amp; Cooling provides complete indoor air quality, duct cleaning, and HVAC services across the Greater Des Moines metro area.</b> Our primary service locations include Des Moines, Urbandale, Waukee, West Des Moines, Ankeny, Johnston, Clive, Grimes, Norwalk, and surrounding Polk and Dallas County communities. Call <b>(515) 225-6446</b> to schedule a local indoor air quality evaluation in your neighborhood.</p></div></div></div>"
        },
@@ -1243,7 +1223,7 @@
    "elType": "container"
   },
   {
-   "id": "5207674e",
+   "id": "520740a0",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1252,7 +1232,7 @@
    },
    "elements": [
     {
-     "id": "520753f7",
+     "id": "52072d49",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1280,20 +1260,20 @@
      },
      "elements": [
       {
-       "id": "520740a0",
+       "id": "520719f2",
        "settings": {
         "content_width": "full",
         "css_classes": "close-form__inner"
        },
        "elements": [
         {
-         "id": "5207069b",
+         "id": "5206dfed",
          "settings": {
           "content_width": "full"
          },
          "elements": [
           {
-           "id": "5206cc96",
+           "id": "5206a5e8",
            "settings": {
             "title": "Ready for Cleaner, Fresher Air in Your Des Moines Home?",
             "header_size": "h2",
@@ -1320,7 +1300,7 @@
            "elType": "widget"
           },
           {
-           "id": "5206dfed",
+           "id": "5206b93f",
            "settings": {
             "editor": "<p>Don't settle for dusty, stale, or muggy indoor air. Let Central Iowa’s trusted family-owned team design a custom indoor air quality solution for your home!</p>",
             "_css_classes": "close-form__lead"
@@ -1331,7 +1311,7 @@
            "elType": "widget"
           },
           {
-           "id": "5206f344",
+           "id": "5206cc96",
            "settings": {
             "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
            },
@@ -1345,14 +1325,14 @@
          "elType": "container"
         },
         {
-         "id": "52072d49",
+         "id": "5207069b",
          "settings": {
           "content_width": "full",
           "css_classes": "form-card"
          },
          "elements": [
           {
-           "id": "5206b93f",
+           "id": "52069291",
            "settings": {
             "form_name": "Estimate request",
             "form_fields": [
@@ -1423,7 +1403,7 @@
            "elType": "widget"
           },
           {
-           "id": "520719f2",
+           "id": "5206f344",
            "settings": {
             "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
            },

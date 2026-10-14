@@ -141,7 +141,7 @@
           {
            "id": "3000ae0f",
            "settings": {
-            "editor": "<ul><li><a href=\"/heating-installation/\">Heating Installation</a></li><li><a href=\"/heating-repair/\">Heating Repair</a></li><li><a href=\"/heating-maintenance/\">Heating Maintenance</a></li><li><a href=\"/heating-replacement/\">Heating Replacement</a></li></ul>"
+            "editor": "<ul><li><a href=\"/heating-installation/\">Heating Installation</a></li><li><a href=\"/heating-repair/\">Heating Repair</a></li><li><a href=\"/heating-maintenance/\">Heating Maintenance</a></li></ul>"
            },
            "elements": [],
            "isInner": true,

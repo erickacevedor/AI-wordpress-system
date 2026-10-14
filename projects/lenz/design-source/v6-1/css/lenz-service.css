@@ -495,3 +495,7 @@
 
 .section-cta--center { justify-content: center; }
 .area__label { font-family: var(--font-heading); font-weight: var(--font-bold); font-size: var(--text-sm); color: var(--neutral-900); margin-bottom: var(--space-3); }
+
+/* Cards for services outside the current scope: same look, not clickable. */
+.service-card--static { cursor: default; }
+.service-card--static:hover { transform: none; box-shadow: none; }

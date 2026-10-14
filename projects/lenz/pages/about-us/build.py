@@ -31,6 +31,8 @@ PAGE = {
               ("Woman-Owned &amp; Operated", "Co-owned with Jenny Lenz, keeping the business family-first, communicative, and detail-obsessed."),
               ("Serving Central Iowa Since 2009", "More than 15 years of local HVAC experience across the greater Des Moines metro."),
               ("Licensed, Bonded &amp; Insured", "Iowa Master License #50871-CL. Fully insured and a certified Drug-Free Workplace.")],
+    # Added after the doc: ClickUp 86bbja6rr (Sierra, 8/21/2026): Will (Installation Expert), Songwa (Service Technician).
+    "doc_patches": [("Camdon, Joe — Service Technicians", "Camdon, Joe, Will, Songwa — Service Technicians")],
     # One entry per doc section, in doc order ("+x" adds a block without a doc section).
     "plan": [
         ("multi", {"parts": [("prose", {"eyebrow": ("i-award", "Our story")}),

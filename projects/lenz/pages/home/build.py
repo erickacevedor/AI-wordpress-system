@@ -107,7 +107,7 @@ for key, icon, title, hub, cta, blurb, cards in BANDS:
         B.box("svc-band__head", [
             B.raw('<span class="svc-band__icon">%s</span>' % svg(icon)),
             B.box("svc-band__txt", [B.heading(title, "h3"), B.text("<p>%s</p>" % blurb)]),
-            arrow_link("svc-band__go", cta, L[hub]),
+            *([arrow_link("svc-band__go", cta, B.href(hub))] if B.href(hub) else []),
         ]),
         B.box("svc-band__grid", [service_card(*c) for c in cards]),
     ], tag="section"))

@@ -103,8 +103,26 @@ L = {
     "who13-video": "https://www.youtube-nocookie.com/embed/8jsNz6yxry0",
 }
 
+# Pages NOT in the signed 26-page scope (PandaDoc SOW, ClickUp list "New Website
+# Creation"); no copy exists for them. They stay out of menus and are never linked:
+# href() returns None and cards render without a link. Add a key back here once the
+# page is in scope and built. (Erick, 2026-10-14.)
+OUT_OF_SCOPE = {"heating-replacement", "duct-cleaning", "additional-services", "thermostat-services",
+                "water-heater-services", "ductwork", "gas-lines", "heat-pumps"}
+
+
+def href(key):
+    """Link for a site key, or None when the page is out of scope."""
+    return None if key in OUT_OF_SCOPE else L[key]
+
+
+def in_scope(items):
+    """Menu items [(label, key)] without the out-of-scope pages."""
+    return [(n, k) for n, k in items if k not in OUT_OF_SCOPE]
+
+
 # Mega menu, mobile menu, footer and the home services block all read this, so
-# adding a service is one edit here.
+# adding a service is one edit here. Menus show only in-scope pages (MENU).
 SERVICES = [
     ("Air Conditioning", "air-conditioning", [
         ("AC Installation", "ac-installation"), ("AC Repair", "ac-repair"),
@@ -119,6 +137,8 @@ SERVICES = [
         ("Thermostat Services", "thermostat-services"), ("Water Heater Services", "water-heater-services"),
         ("Ductwork", "ductwork"), ("Gas Lines", "gas-lines"), ("Heat Pumps", "heat-pumps")]),
 ]
+
+MENU = [(t, hub, in_scope(items)) for t, hub, items in SERVICES if hub not in OUT_OF_SCOPE]
 
 NAV = [("Maintenance Plans", "maintenance-plans"), ("Specials", "specials"),
        ("Financing", "financing"), ("Service Areas", "service-areas"),
@@ -282,10 +302,12 @@ def arrow_link(cls, label, href, icon="i-arrow", icon_cls="icon-sm", attrs=""):
 
 
 def service_card(cat, icon, name, blurb, key):
-    return box("service-card", [
+    """A linked card; out-of-scope services render the same card without a link."""
+    url = href(key)
+    return box("service-card" + ("" if url else " service-card--static"), [
         raw('<span class="service-card__icon" data-cat="%s">%s</span>' % (cat, svg(icon, "icon-sm"))),
         box("", [heading(name, "h4"), text("<p>%s</p>" % blurb)], tag="span"),
-    ], tag="a", link=L[key])
+    ], tag="a" if url else "div", link=url)
 
 
 # Hardcoded fallback quotes, as the prototype ships them until a Places proxy

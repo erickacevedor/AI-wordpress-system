@@ -388,7 +388,7 @@
    "elType": "container"
   },
   {
-   "id": "510427b1",
+   "id": "5104145a",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -397,7 +397,7 @@
    },
    "elements": [
     {
-     "id": "5104145a",
+     "id": "51040103",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -425,14 +425,14 @@
      },
      "elements": [
       {
-       "id": "5103edac",
+       "id": "5103da55",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "5103b3a7",
+         "id": "5103a050",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg> Heating services</span>"
          },
@@ -442,7 +442,7 @@
          "elType": "widget"
         },
         {
-         "id": "5103c6fe",
+         "id": "5103b3a7",
          "settings": {
           "title": "Dependable Heating &amp; Furnace Services Built for Iowa Winters",
           "header_size": "h2",
@@ -470,7 +470,7 @@
          "elType": "widget"
         },
         {
-         "id": "5103da55",
+         "id": "5103c6fe",
          "settings": {
           "editor": "From minor heater tune-ups to full furnace system overhauls, Lenz provides complete home heating solutions built on honesty and military-grade precision.",
           "_css_classes": "section__lead"
@@ -485,7 +485,7 @@
        "elType": "container"
       },
       {
-       "id": "51040103",
+       "id": "5103edac",
        "settings": {
         "content_width": "full",
         "css_classes": "hub-list hub-list--grid"
@@ -546,7 +546,7 @@
          "elType": "container"
         },
         {
-         "id": "5102deea",
+         "id": "5102cb93",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -584,23 +584,13 @@
            "isInner": true,
            "widgetType": "text-editor",
            "elType": "widget"
-          },
-          {
-           "id": "5102cb93",
-           "settings": {
-            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/heating-replacement/\">Learn More About Furnace Replacement <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
-           },
-           "elements": [],
-           "isInner": true,
-           "widgetType": "html",
-           "elType": "widget"
           }
          ],
          "isInner": true,
          "elType": "container"
         },
         {
-         "id": "51033f9d",
+         "id": "51032c46",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -608,7 +598,7 @@
          },
          "elements": [
           {
-           "id": "5102f241",
+           "id": "5102deea",
            "settings": {
             "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
            },
@@ -618,7 +608,7 @@
            "elType": "widget"
           },
           {
-           "id": "51030598",
+           "id": "5102f241",
            "settings": {
             "title": "New Heating Installation ",
             "header_size": "h3"
@@ -629,7 +619,7 @@
            "elType": "widget"
           },
           {
-           "id": "510318ef",
+           "id": "51030598",
            "settings": {
             "editor": "<p>Building a new home, remodeling, or adding supplementary heat to a room? We design and install custom furnace and heater setups designed specifically for your home's square footage and airflow requirements, ensuring quiet, balanced warmth in every room.</p>",
             "_css_classes": "hub-svc__body"
@@ -640,7 +630,7 @@
            "elType": "widget"
           },
           {
-           "id": "51032c46",
+           "id": "510318ef",
            "settings": {
             "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/heating-installation/\">Discover Heating Installation Solutions <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
            },
@@ -654,7 +644,7 @@
          "elType": "container"
         },
         {
-         "id": "5103a050",
+         "id": "51038cf9",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -662,7 +652,7 @@
          },
          "elements": [
           {
-           "id": "510352f4",
+           "id": "51033f9d",
            "settings": {
             "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-calendar\"/></svg></span>"
            },
@@ -672,7 +662,7 @@
            "elType": "widget"
           },
           {
-           "id": "5103664b",
+           "id": "510352f4",
            "settings": {
             "title": "Annual Furnace Maintenance &amp; Heater Tune-Ups ",
             "header_size": "h3"
@@ -683,7 +673,7 @@
            "elType": "widget"
           },
           {
-           "id": "510379a2",
+           "id": "5103664b",
            "settings": {
             "editor": "<p>Regular tune-ups prevent emergency breakdowns, extend your heater’s operating lifespan, and keep fuel consumption low. Our thorough multi-point furnace safety inspection includes heat exchanger checks, burner cleaning, airflow calibration, and carbon monoxide testing.</p>",
             "_css_classes": "hub-svc__body"
@@ -694,7 +684,7 @@
            "elType": "widget"
           },
           {
-           "id": "51038cf9",
+           "id": "510379a2",
            "settings": {
             "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/heating-maintenance/\">View Furnace Maintenance Details <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
            },
@@ -720,7 +710,7 @@
    "elType": "container"
   },
   {
-   "id": "5104af12",
+   "id": "51049bbb",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -728,7 +718,7 @@
    },
    "elements": [
     {
-     "id": "51049bbb",
+     "id": "51048864",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -756,7 +746,7 @@
      },
      "elements": [
       {
-       "id": "51043b08",
+       "id": "510427b1",
        "settings": {
         "html": "<img class=\"cta-band__bg\" src=\"/wp-content/uploads/2026/10/lenz-service-van-wrap.webp\" alt=\"\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" />"
        },
@@ -766,14 +756,14 @@
        "elType": "widget"
       },
       {
-       "id": "51048864",
+       "id": "5104750d",
        "settings": {
         "content_width": "full",
         "css_classes": "cta-band__inner"
        },
        "elements": [
         {
-         "id": "51044e5f",
+         "id": "51043b08",
          "settings": {
           "title": "No heat? We&apos;re ready right now.",
           "header_size": "h2",
@@ -800,7 +790,7 @@
          "elType": "widget"
         },
         {
-         "id": "510461b6",
+         "id": "51044e5f",
          "settings": {
           "editor": "<p>24/7 emergency heating service across the Des Moines metro since 2009.</p>"
          },
@@ -810,7 +800,7 @@
          "elType": "widget"
         },
         {
-         "id": "5104750d",
+         "id": "510461b6",
          "settings": {
           "text": "Call (515) 225-6446",
           "link": {
@@ -839,7 +829,7 @@
    "elType": "container"
   },
   {
-   "id": "51053673",
+   "id": "5105231c",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -847,7 +837,7 @@
    },
    "elements": [
     {
-     "id": "5105231c",
+     "id": "51050fc5",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -875,14 +865,14 @@
      },
      "elements": [
       {
-       "id": "5104fc6e",
+       "id": "5104e917",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "5104c269",
+         "id": "5104af12",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg> Warning signs</span>"
          },
@@ -892,7 +882,7 @@
          "elType": "widget"
         },
         {
-         "id": "5104d5c0",
+         "id": "5104c269",
          "settings": {
           "title": "How to Tell When Your Furnace Needs Professional Attention",
           "header_size": "h2",
@@ -920,7 +910,7 @@
          "elType": "widget"
         },
         {
-         "id": "5104e917",
+         "id": "5104d5c0",
          "settings": {
           "editor": "Catching minor heater problems early prevents total system failures on sub-zero winter days. Call our team right away if you notice any of these common warning signs:",
           "_css_classes": "section__lead"
@@ -935,7 +925,7 @@
        "elType": "container"
       },
       {
-       "id": "51050fc5",
+       "id": "5104fc6e",
        "settings": {
         "editor": "<div class=\"compare\"><table><thead><tr><th scope=\"col\">Common Heating Warning Sign</th><th scope=\"col\">What It Usually Means</th><th scope=\"col\">Recommended Action</th></tr></thead><tbody><tr><th scope=\"row\">Blowing Cold Air</th><td data-label=\"What It Usually Means\">Flame sensor issue, pilot light failure, or broken igniter</td><td data-label=\"Recommended Action\">Professional diagnostic &amp; sensor repair</td></tr><tr><th scope=\"row\">Squealing, Scraping, or Banging</th><td data-label=\"What It Usually Means\">Worn blower belt, loose part, or failing motor bearings</td><td data-label=\"Recommended Action\">Shut down system &amp; request immediate repair</td></tr><tr><th scope=\"row\">Uneven Heat / Constant Adjustments</th><td data-label=\"What It Usually Means\">Clogged air filter, failing heat exchanger, or bad sensor</td><td data-label=\"Recommended Action\">Airflow check &amp; thermostat calibration</td></tr><tr><th scope=\"row\">Unusually High Gas or Electric Bills</th><td data-label=\"What It Usually Means\">System working overtime due to severe loss of efficiency</td><td data-label=\"Recommended Action\">Comprehensive heater tune-up or system evaluation</td></tr><tr><th scope=\"row\">Frequent On/Off Cycling (Short-Cycling)</th><td data-label=\"What It Usually Means\">Overheating components, airflow restriction, or cracked heat exchanger</td><td data-label=\"Recommended Action\">Emergency safety &amp; limit switch inspection</td></tr></tbody></table></div>",
         "_css_classes": "compare-wrap"
@@ -954,7 +944,7 @@
    "elType": "container"
   },
   {
-   "id": "5105bdd4",
+   "id": "5105aa7d",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -962,7 +952,7 @@
    },
    "elements": [
     {
-     "id": "5105aa7d",
+     "id": "51059726",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -990,21 +980,21 @@
      },
      "elements": [
       {
-       "id": "51059726",
+       "id": "510583cf",
        "settings": {
         "content_width": "full",
         "css_classes": "service-help promo"
        },
        "elements": [
         {
-         "id": "51057078",
+         "id": "51055d21",
          "settings": {
           "content_width": "full",
           "css_classes": "service-help__txt promo__txt"
          },
          "elements": [
           {
-           "id": "510549ca",
+           "id": "51053673",
            "settings": {
             "title": "Flexible Heating &amp; Furnace Financing Options ",
             "header_size": "h2",
@@ -1032,7 +1022,7 @@
            "elType": "widget"
           },
           {
-           "id": "51055d21",
+           "id": "510549ca",
            "settings": {
             "editor": "<p>Replacing your furnace or home heater shouldn't strain your wallet. Partnered with <b>Synchrony Bank</b>, we offer flexible monthly payment options, including promotional <b>0% deferred interest financing</b> for qualified buyers across Greater Des Moines. Applying takes just a few minutes online or directly with your technician during your free in-home estimate.</p>"
            },
@@ -1046,7 +1036,7 @@
          "elType": "container"
         },
         {
-         "id": "510583cf",
+         "id": "51057078",
          "settings": {
           "text": "Apply for Heating Financing via Synchrony",
           "link": {
@@ -1075,7 +1065,7 @@
    "elType": "container"
   },
   {
-   "id": "510631de",
+   "id": "51061e87",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1084,7 +1074,7 @@
    },
    "elements": [
     {
-     "id": "51061e87",
+     "id": "51060b30",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1112,14 +1102,14 @@
      },
      "elements": [
       {
-       "id": "5105f7d9",
+       "id": "5105e482",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head section__head--center"
        },
        "elements": [
         {
-         "id": "5105d12b",
+         "id": "5105bdd4",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-info\"/></svg> FAQs</span>"
          },
@@ -1129,7 +1119,7 @@
          "elType": "widget"
         },
         {
-         "id": "5105e482",
+         "id": "5105d12b",
          "settings": {
           "title": "Frequently Asked Questions About Heating &amp; Furnace Services ",
           "header_size": "h2",
@@ -1161,7 +1151,7 @@
        "elType": "container"
       },
       {
-       "id": "51060b30",
+       "id": "5105f7d9",
        "settings": {
         "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">What cities and areas in Central Iowa do you service for heating repair? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p><b>Lenz Heating &amp; Cooling provides 24/7 heating, furnace, and heater services across the Greater Des Moines metro area.</b> Our primary service locations include Des Moines, Urbandale, Waukee, West Des Moines, Ankeny, Johnston, Clive, Grimes, Norwalk, and surrounding Polk and Dallas County communities. Call <b>(515) 225-6446</b> to schedule fast heating service in your neighborhood.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">Why is my furnace or heater blowing cold air? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p><b>A furnace blowing cold air is typically caused by a dirty air filter restricting airflow, a tripped limit switch, an extinguished pilot light, or a faulty flame sensor.</b> Check that your thermostat is set to \"AUTO\" rather than \"ON\" so the fan doesn't run continuously when heat isn't actively generating.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">How much does furnace or heating repair cost in Des Moines? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p><b>Heating repair in Des Moines typically costs between $150 and $600 for common issues like igniter, flame sensor, or pressure switch replacements.</b> Complex motor or heat exchanger repairs can cost $800 or more. Lenz Heating &amp; Cooling provides flat-rate diagnostic pricing before work begins.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">What should I do if my heating stops working in the middle of the night? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p><b>If your heating stops working in the middle of the night, follow these steps before calling for emergency repair:</b></p><ul><li>Verify your thermostat switch is set to \"HEAT\" with working batteries.</li><li>Ensure your furnace power switch and electrical circuit breaker are turned on.</li><li>Check for a completely clogged air filter restricting airflow.</li><li>If heat doesn't return, call <b>Lenz Heating &amp; Cooling at (515) 225-6446</b> for 24/7 dispatch.</li></ul></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">How long does a gas furnace or home heater usually last in Iowa? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p><b>A gas furnace or home heater typically lasts 15 to 20 years in Central Iowa.</b> Severe Midwest winter weather places heavy demands on heating systems. Annual furnace tune-ups, regular filter changes every 1 to 3 months, and clean ductwork are required to reach the 20-year lifespan.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-6\" id=\"faq-6-t\">Should I repair or replace my aging furnace or heater? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-6\" role=\"region\" aria-labelledby=\"faq-6-t\"><p><b>You should replace your furnace if the system is over 15 years old and repair costs equal 50% or more of a new unit's price.</b> Additionally, if winter heating bills are steadily climbing despite regular maintenance, installing a high-efficiency 96%+ AFUE furnace provides long-term energy savings.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-7\" id=\"faq-7-t\">How often should I schedule furnace maintenance or a heater tune-up? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-7\" role=\"region\" aria-labelledby=\"faq-7-t\"><p><b>You should schedule furnace maintenance once per year, ideally in early autumn before cold weather begins.</b> Annual tune-ups clean burners, inspect heat exchangers for dangerous carbon monoxide leaks, optimize fuel efficiency, and prevent emergency winter breakdowns.</p></div></div></div>"
        },
@@ -1179,7 +1169,7 @@
    "elType": "container"
   },
   {
-   "id": "5106f344",
+   "id": "5106dfed",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1188,7 +1178,7 @@
    },
    "elements": [
     {
-     "id": "5106dfed",
+     "id": "5106cc96",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1216,20 +1206,20 @@
      },
      "elements": [
       {
-       "id": "5106cc96",
+       "id": "5106b93f",
        "settings": {
         "content_width": "full",
         "css_classes": "close-form__inner"
        },
        "elements": [
         {
-         "id": "51069291",
+         "id": "51067f3a",
          "settings": {
           "content_width": "full"
          },
          "elements": [
           {
-           "id": "5106588c",
+           "id": "51064535",
            "settings": {
             "title": "Keep Your Des Moines Home Warm All Winter Long",
             "header_size": "h2",
@@ -1256,7 +1246,7 @@
            "elType": "widget"
           },
           {
-           "id": "51066be3",
+           "id": "5106588c",
            "settings": {
             "editor": "<p>Get fast, friendly furnace repair, maintenance, or replacement from Central Iowa’s trusted family-owned team. Whether it’s an urgent breakdown or a free replacement estimate, we’re ready to help!</p>",
             "_css_classes": "close-form__lead"
@@ -1267,7 +1257,7 @@
            "elType": "widget"
           },
           {
-           "id": "51067f3a",
+           "id": "51066be3",
            "settings": {
             "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
            },
@@ -1281,14 +1271,14 @@
          "elType": "container"
         },
         {
-         "id": "5106b93f",
+         "id": "5106a5e8",
          "settings": {
           "content_width": "full",
           "css_classes": "form-card"
          },
          "elements": [
           {
-           "id": "51064535",
+           "id": "510631de",
            "settings": {
             "form_name": "Estimate request",
             "form_fields": [
@@ -1359,7 +1349,7 @@
            "elType": "widget"
           },
           {
-           "id": "5106a5e8",
+           "id": "51069291",
            "settings": {
             "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
            },

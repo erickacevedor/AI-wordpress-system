@@ -1519,7 +1519,7 @@
    "elType": "container"
   },
   {
-   "id": "470a32e1",
+   "id": "4709d22e",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1527,7 +1527,7 @@
    },
    "elements": [
     {
-     "id": "470a1f8a",
+     "id": "4709bed7",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1555,7 +1555,7 @@
      },
      "elements": [
       {
-       "id": "470a0c33",
+       "id": "4709ab80",
        "settings": {
         "content_width": "full",
         "html_tag": "section",
@@ -1626,7 +1626,7 @@
          "elType": "container"
         },
         {
-         "id": "4709f8dc",
+         "id": "47099829",
          "settings": {
           "content_width": "full",
           "css_classes": "svc-band__grid"
@@ -1758,7 +1758,7 @@
             "content_width": "full",
             "html_tag": "a",
             "link": {
-             "url": "/duct-cleaning/",
+             "url": "/maintenance-plan/",
              "is_external": "",
              "nofollow": "",
              "custom_attributes": ""
@@ -1769,7 +1769,7 @@
             {
              "id": "47093776",
              "settings": {
-              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-wind\"/></svg></span>"
+              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg></span>"
              },
              "elements": [],
              "isInner": true,
@@ -1786,66 +1786,6 @@
               {
                "id": "47094acd",
                "settings": {
-                "title": "Duct Cleaning",
-                "header_size": "h4"
-               },
-               "elements": [],
-               "isInner": true,
-               "widgetType": "heading",
-               "elType": "widget"
-              },
-              {
-               "id": "47095e24",
-               "settings": {
-                "editor": "<p>Clear out built-up dust and debris.</p>"
-               },
-               "elements": [],
-               "isInner": true,
-               "widgetType": "text-editor",
-               "elType": "widget"
-              }
-             ],
-             "isInner": true,
-             "elType": "container"
-            }
-           ],
-           "isInner": true,
-           "elType": "container"
-          },
-          {
-           "id": "4709e585",
-           "settings": {
-            "content_width": "full",
-            "html_tag": "a",
-            "link": {
-             "url": "/maintenance-plan/",
-             "is_external": "",
-             "nofollow": "",
-             "custom_attributes": ""
-            },
-            "css_classes": "service-card"
-           },
-           "elements": [
-            {
-             "id": "47099829",
-             "settings": {
-              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg></span>"
-             },
-             "elements": [],
-             "isInner": true,
-             "widgetType": "html",
-             "elType": "widget"
-            },
-            {
-             "id": "4709d22e",
-             "settings": {
-              "content_width": "full",
-              "css_classes": "lz-span"
-             },
-             "elements": [
-              {
-               "id": "4709ab80",
-               "settings": {
                 "title": "Maintenance Plans",
                 "header_size": "h4"
                },
@@ -1855,7 +1795,7 @@
                "elType": "widget"
               },
               {
-               "id": "4709bed7",
+               "id": "47095e24",
                "settings": {
                 "editor": "<p>Priority dispatch and 10 to 20% off parts.</p>"
                },
@@ -1889,7 +1829,7 @@
    "elType": "container"
   },
   {
-   "id": "470af447",
+   "id": "470a9394",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1898,7 +1838,7 @@
    },
    "elements": [
     {
-     "id": "470ae0f0",
+     "id": "470a803d",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1926,20 +1866,20 @@
      },
      "elements": [
       {
-       "id": "470acd99",
+       "id": "470a6ce6",
        "settings": {
         "content_width": "full",
         "css_classes": "close-form__inner"
        },
        "elements": [
         {
-         "id": "470a9394",
+         "id": "470a32e1",
          "settings": {
           "content_width": "full"
          },
          "elements": [
           {
-           "id": "470a598f",
+           "id": "4709f8dc",
            "settings": {
             "title": "Ready to Feel Comfortable in Every Season?",
             "header_size": "h2",
@@ -1966,7 +1906,7 @@
            "elType": "widget"
           },
           {
-           "id": "470a6ce6",
+           "id": "470a0c33",
            "settings": {
             "editor": "<p>Stop fighting static in the winter and mugginess in the summer. Let Lenz balance your home's humidity for cleaner air, better comfort, and a home that's protected year-round.</p>",
             "_css_classes": "close-form__lead"
@@ -1977,7 +1917,7 @@
            "elType": "widget"
           },
           {
-           "id": "470a803d",
+           "id": "470a1f8a",
            "settings": {
             "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
            },
@@ -1991,14 +1931,14 @@
          "elType": "container"
         },
         {
-         "id": "470aba42",
+         "id": "470a598f",
          "settings": {
           "content_width": "full",
           "css_classes": "form-card"
          },
          "elements": [
           {
-           "id": "470a4638",
+           "id": "4709e585",
            "settings": {
             "form_name": "Estimate request",
             "form_fields": [
@@ -2069,7 +2009,7 @@
            "elType": "widget"
           },
           {
-           "id": "470aa6eb",
+           "id": "470a4638",
            "settings": {
             "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
            },

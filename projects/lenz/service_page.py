@@ -314,7 +314,8 @@ def _arrow(li):
     links = []
     for t in targets.split("·"):
         t = re.sub(r"<[^>]+>", "", t).strip()
-        links.append('<a href="%s">%s</a>' % (L[ARROW_LINKS[t]], t) if t in ARROW_LINKS else t)
+        u = B.href(ARROW_LINKS[t]) if t in ARROW_LINKS else None
+        links.append('<a href="%s">%s</a>' % (u, t) if u else t)
     return '%s <span class="checklist__links">%s</span>' % (label.strip(), " · ".join(links))
 
 
@@ -384,7 +385,7 @@ def block_promo(page, sec, opt, fix):
     btn = re.sub(r"\s*→\s*$", "", bnode["labels"][0]) if bnode else opt.get("button", page["cta"])
     href = _btn_href(btn, bnode.get("hint", "") if bnode else "", opt.get("links", {}))
     if "link" in opt:
-        href = B.PHONE_TEL if opt["link"] == "tel" else L[opt["link"]]
+        href = B.PHONE_TEL if opt["link"] == "tel" else (B.href(opt["link"]) or L["form"])
     body = "".join("<p>%s</p>" % p for p in paras)
     if lis:
         body += '<ul class="checklist checklist--on-dark">%s</ul>' % "".join(
@@ -493,13 +494,14 @@ def block_services(page, sec, opt, fix):
     for i, it in enumerate(items):
         title = it["title"]
         key = opt["links"][i]
-        href = B.PHONE_TEL if key == "tel" else L[key]
+        href = B.PHONE_TEL if key == "tel" else B.href(key)
         label = it["btn"] or ("Call " + B.PHONE if key == "tel" else "Explore " + title)
         icon = (opt.get("icons") or [None] * 99)[i] or icon_for(title, i)
         main = [B.raw('<span class="symptom__icon">%s</span>' % svg(icon, "icon")),
                 B.heading(title, "h3"),
-                B.text("".join("<p>%s</p>" % p for p in it["ps"]), "hub-svc__body"),
-                B.arrow_link("svc-band__go hub-svc__go", label, href)]
+                B.text("".join("<p>%s</p>" % p for p in it["ps"]), "hub-svc__body")]
+        if href:                       # no link for pages outside the signed scope
+            main.append(B.arrow_link("svc-band__go hub-svc__go", label, href))
         lst = ('<ul class="checklist">%s</ul>' % "".join(
             "<li>%s<span>%s</span></li>" % (svg("i-check", "icon-sm"), li) for li in it["lis"])) if it["lis"] else ""
         if rows and lst:
@@ -523,7 +525,7 @@ def _btn_href(label, hint, links):
     lab = re.sub(r"<[^>]+>|\s*→\s*$", "", label).strip()
     if lab in links:
         v = links[lab]
-        return B.PHONE_TEL if v == "tel" else (v if v.startswith(("http", "#", "/")) else L[v])
+        return B.PHONE_TEL if v == "tel" else (v if v.startswith(("http", "#", "/")) else (B.href(v) or L["form"]))
     if hint and hint.startswith("/"):
         return hint
     if re.search(r"\(515\)|\bcall\b", lab, re.I):
@@ -575,14 +577,14 @@ def _initials(name):
     return "".join(w[0] for w in re.sub(r"[^A-Za-z ]", "", name).split()[:2]).upper()
 
 
-def _person(name, role, bio=None, dog=False):
+def _person(name, role, bio=None, dog=False, full=False):
     kids = [B.raw('<span class="person__avatar%s" aria-hidden="true">%s</span>'
                   % (" person__avatar--dog" if dog else "", svg("i-heat" if False else "i-star", "icon") if dog else _initials(name))),
             B.heading(name, "h3", "person__name"),
             B.text(role, "person__role")]
     if bio:
         kids.append(B.text("<p>%s</p>" % bio, "person__bio"))
-    return B.box("person" + (" person--compact" if not bio else ""), kids, tag="article")
+    return B.box("person" + (" person--compact" if not (bio or full) else ""), kids, tag="article")
 
 
 def block_people(page, sec, opt, fix):
@@ -591,7 +593,7 @@ def block_people(page, sec, opt, fix):
     cards = []
     for t, ps, _l in items:
         name, _, role = re.sub(r"<[^>]+>", "", t).partition(" — ")
-        cards.append(_person(name.strip(), role.strip(), " ".join(ps), dog=opt.get("dogs", False)))
+        cards.append(_person(name.strip(), role.strip(), " ".join(ps), dog=opt.get("dogs", False), full=True))
     hp = _paras(head, fix)
     return B.section("section people-section %s %s" % (opt.get("bg", ""), page["_cat"]), [
         _head(page, opt["eyebrow"], fix(sec["title"]), " ".join(hp) if hp else None),
@@ -931,7 +933,7 @@ BLURBS = {
 
 
 def _related(page):
-    title, hub, kids = next(s for s in B.SERVICES if s[1] == page["hub"][1])
+    title, hub, kids = next(s for s in B.MENU if s[1] == page["hub"][1])
     cards = [(CAT[page["cat"]]["card"], icon_for(n, i), n, BLURBS.get(k, ""), k)
              for i, (n, k) in enumerate(kids) if L[k] != "/%s/" % page["slug"]]
     cards = cards[:3] + [("both", "i-award", "Maintenance Plans", "Priority dispatch and 10 to 20% off parts.",
@@ -952,6 +954,17 @@ def _related(page):
 def build(page):
     """Return (sections, meta, fixes_applied) for one service page."""
     doc = docx_outline.read(page["source"])
+    # Content that arrived after the doc (e.g. ClickUp requests): text patches and
+    # extra `h` + `p` items appended to a section, each documented in the page build.
+    for old, new in page.get("doc_patches", []):
+        for n in doc["hero"] + [x for sec in doc["sections"] for x in sec["nodes"]]:
+            if n.get("text") and old in n["text"]:
+                n["text"] = n["text"].replace(old, new)
+    for match, head, body in page.get("add_items", []):
+        sec = next(x for x in doc["sections"] if match in x["title"])
+        sec["nodes"].append({"t": "h", "text": head})
+        if body:
+            sec["nodes"].append({"t": "p", "text": body})
     fix = Copy()
     c = CAT[page["cat"]]
     if "cat_label" in page:          # a company page, not a service family: the home's band
