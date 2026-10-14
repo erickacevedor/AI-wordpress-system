@@ -113,6 +113,15 @@ function hvia_core_schema_members( $data ) {
 	}
 	$data['publisher']['member'] = $members;
 
+	// The logo URL is stored as a plain string in Rank Math's options, so a push from the
+	// http Local site to the https server keeps `http://` (search-replace swaps only the
+	// host). Serve it with the site's own scheme.
+	foreach ( array( 'url', 'contentUrl' ) as $k ) {
+		if ( ! empty( $data['publisher']['logo'][ $k ] ) ) {
+			$data['publisher']['logo'][ $k ] = set_url_scheme( $data['publisher']['logo'][ $k ] );
+		}
+	}
+
 	// Rank Math's organization builder never adds `telephone`; take it from its own setting.
 	$phone = class_exists( '\RankMath\Helper' ) ? \RankMath\Helper::get_settings( 'titles.phone' ) : '';
 	if ( $phone && empty( $data['publisher']['telephone'] ) ) {
