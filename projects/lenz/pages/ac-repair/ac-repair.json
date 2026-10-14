@@ -566,7 +566,7 @@
           {
            "id": "4002f241",
            "settings": {
-            "html": "<ul class=\"checklist\"><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg>Restore comfort before the next hot day</li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg>Prevent minor issues from turning into major repairs</li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg>Reduce unnecessary wear on your cooling system</li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg>Improve efficiency and help control energy costs</li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg>Avoid a complete breakdown during peak summer demand</li></ul>"
+            "html": "<ul class=\"checklist\"><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Restore comfort before the next hot day</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Prevent minor issues from turning into major repairs</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Reduce unnecessary wear on your cooling system</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Improve efficiency and help control energy costs</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Avoid a complete breakdown during peak summer demand</span></li></ul>"
            },
            "elements": [],
            "isInner": true,
@@ -607,16 +607,15 @@
    "elType": "container"
   },
   {
-   "id": "4006588c",
+   "id": "40064535",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
-    "_element_id": "problems",
     "css_classes": "section symptoms svc-page svc-page--cool e-no-lazyload"
    },
    "elements": [
     {
-     "id": "40064535",
+     "id": "400631de",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -644,7 +643,7 @@
      },
      "elements": [
       {
-       "id": "40061e87",
+       "id": "40060b30",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
@@ -687,27 +686,16 @@
          "isInner": true,
          "widgetType": "heading",
          "elType": "widget"
-        },
-        {
-         "id": "40060b30",
-         "settings": {
-          "editor": "Our technicians inspect the full cooling system, find the cause, and explain the repair clearly before any work begins.",
-          "_css_classes": "section__lead"
-         },
-         "elements": [],
-         "isInner": true,
-         "widgetType": "text-editor",
-         "elType": "widget"
         }
        ],
        "isInner": true,
        "elType": "container"
       },
       {
-       "id": "400631de",
+       "id": "40061e87",
        "settings": {
         "content_width": "full",
-        "css_classes": "symptom-grid"
+        "css_classes": "symptom-grid symptom-grid--3"
        },
        "elements": [
         {
@@ -1077,7 +1065,7 @@
    "elType": "container"
   },
   {
-   "id": "4006dfed",
+   "id": "4006cc96",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1085,7 +1073,7 @@
    },
    "elements": [
     {
-     "id": "4006cc96",
+     "id": "4006b93f",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1113,7 +1101,7 @@
      },
      "elements": [
       {
-       "id": "40066be3",
+       "id": "4006588c",
        "settings": {
         "html": "<img class=\"cta-band__bg\" src=\"/wp-content/uploads/2026/10/lenz-service-van-wrap.webp\" alt=\"\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" />"
        },
@@ -1123,14 +1111,14 @@
        "elType": "widget"
       },
       {
-       "id": "4006b93f",
+       "id": "4006a5e8",
        "settings": {
         "content_width": "full",
         "css_classes": "cta-band__inner"
        },
        "elements": [
         {
-         "id": "40067f3a",
+         "id": "40066be3",
          "settings": {
           "title": "AC not cooling? We&apos;re ready right now.",
           "header_size": "h2",
@@ -1157,9 +1145,9 @@
          "elType": "widget"
         },
         {
-         "id": "40069291",
+         "id": "40067f3a",
          "settings": {
-          "editor": "<p>24/7 emergency AC repair across the Des Moines metro since 2009.</p>"
+          "editor": "<p>24/7 emergency AC service across the Des Moines metro since 2009.</p>"
          },
          "elements": [],
          "isInner": true,
@@ -1167,7 +1155,7 @@
          "elType": "widget"
         },
         {
-         "id": "4006a5e8",
+         "id": "40069291",
          "settings": {
           "text": "Call (515) 225-6446",
           "link": {
@@ -1196,7 +1184,7 @@
    "elType": "container"
   },
   {
-   "id": "400984d2",
+   "id": "4009717b",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1204,7 +1192,7 @@
    },
    "elements": [
     {
-     "id": "4009717b",
+     "id": "40095e24",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1232,14 +1220,14 @@
      },
      "elements": [
       {
-       "id": "40072d49",
+       "id": "400719f2",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "4006f344",
+         "id": "4006dfed",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg> Why it matters</span>"
          },
@@ -1249,7 +1237,7 @@
          "elType": "widget"
         },
         {
-         "id": "4007069b",
+         "id": "4006f344",
          "settings": {
           "title": "Why Timely AC Repair Matters",
           "header_size": "h2",
@@ -1277,7 +1265,7 @@
          "elType": "widget"
         },
         {
-         "id": "400719f2",
+         "id": "4007069b",
          "settings": {
           "editor": "Small AC problems rarely stay small for long. If your system is struggling, running longer, or showing warning signs, waiting can lead to higher repair costs and more stress during peak summer heat. Investing in timely air conditioning repair can help improve:",
           "_css_classes": "section__lead"
@@ -1292,21 +1280,21 @@
        "elType": "container"
       },
       {
-       "id": "40095e24",
+       "id": "40094acd",
        "settings": {
         "content_width": "full",
         "css_classes": "valueprops__layout"
        },
        "elements": [
         {
-         "id": "400753f7",
+         "id": "400740a0",
          "settings": {
           "content_width": "full",
           "css_classes": "valueprops__media lz-figure"
          },
          "elements": [
           {
-           "id": "400740a0",
+           "id": "40072d49",
            "settings": {
             "image": {
              "url": "/wp-content/uploads/2026/10/lenz-comfort.webp",
@@ -1327,21 +1315,21 @@
          "elType": "container"
         },
         {
-         "id": "40094acd",
+         "id": "40093776",
          "settings": {
           "content_width": "full",
           "css_classes": "valueprops__grid"
          },
          "elements": [
           {
-           "id": "4007b4aa",
+           "id": "4007a153",
            "settings": {
             "content_width": "full",
             "css_classes": "vprop"
            },
            "elements": [
             {
-             "id": "4007674e",
+             "id": "400753f7",
              "settings": {
               "editor": "01",
               "_css_classes": "vprop__num"
@@ -1352,14 +1340,14 @@
              "elType": "widget"
             },
             {
-             "id": "4007a153",
+             "id": "40078dfc",
              "settings": {
               "content_width": "full",
               "css_classes": "vprop__text"
              },
              "elements": [
               {
-               "id": "40077aa5",
+               "id": "4007674e",
                "settings": {
                 "title": "Comfort",
                 "header_size": "h3"
@@ -1370,7 +1358,7 @@
                "elType": "widget"
               },
               {
-               "id": "40078dfc",
+               "id": "40077aa5",
                "settings": {
                 "editor": "<p>A properly repaired AC cools more consistently and helps reduce hot spots throughout the home.</p>"
                },
@@ -1388,14 +1376,14 @@
            "elType": "container"
           },
           {
-           "id": "4008155d",
+           "id": "40080206",
            "settings": {
             "content_width": "full",
             "css_classes": "vprop"
            },
            "elements": [
             {
-             "id": "4007c801",
+             "id": "4007b4aa",
              "settings": {
               "editor": "02",
               "_css_classes": "vprop__num"
@@ -1406,14 +1394,14 @@
              "elType": "widget"
             },
             {
-             "id": "40080206",
+             "id": "4007eeaf",
              "settings": {
               "content_width": "full",
               "css_classes": "vprop__text"
              },
              "elements": [
               {
-               "id": "4007db58",
+               "id": "4007c801",
                "settings": {
                 "title": "Efficiency",
                 "header_size": "h3"
@@ -1424,7 +1412,7 @@
                "elType": "widget"
               },
               {
-               "id": "4007eeaf",
+               "id": "4007db58",
                "settings": {
                 "editor": "<p>Fixing airflow, refrigerant, or electrical issues helps your system run more efficiently and use less energy.</p>"
                },
@@ -1442,14 +1430,14 @@
            "elType": "container"
           },
           {
-           "id": "40087610",
+           "id": "400862b9",
            "settings": {
             "content_width": "full",
             "css_classes": "vprop"
            },
            "elements": [
             {
-             "id": "400828b4",
+             "id": "4008155d",
              "settings": {
               "editor": "03",
               "_css_classes": "vprop__num"
@@ -1460,16 +1448,16 @@
              "elType": "widget"
             },
             {
-             "id": "400862b9",
+             "id": "40084f62",
              "settings": {
               "content_width": "full",
               "css_classes": "vprop__text"
              },
              "elements": [
               {
-               "id": "40083c0b",
+               "id": "400828b4",
                "settings": {
-                "title": "System lifespan",
+                "title": "System Lifespan",
                 "header_size": "h3"
                },
                "elements": [],
@@ -1478,7 +1466,7 @@
                "elType": "widget"
               },
               {
-               "id": "40084f62",
+               "id": "40083c0b",
                "settings": {
                 "editor": "<p>When problems are repaired early, your AC does not have to work as hard, which can reduce wear on major components.</p>"
                },
@@ -1496,14 +1484,14 @@
            "elType": "container"
           },
           {
-           "id": "4008d6c3",
+           "id": "4008c36c",
            "settings": {
             "content_width": "full",
             "css_classes": "vprop"
            },
            "elements": [
             {
-             "id": "40088967",
+             "id": "40087610",
              "settings": {
               "editor": "04",
               "_css_classes": "vprop__num"
@@ -1514,16 +1502,16 @@
              "elType": "widget"
             },
             {
-             "id": "4008c36c",
+             "id": "4008b015",
              "settings": {
               "content_width": "full",
               "css_classes": "vprop__text"
              },
              "elements": [
               {
-               "id": "40089cbe",
+               "id": "40088967",
                "settings": {
-                "title": "Indoor air quality",
+                "title": "Indoor Air Quality",
                 "header_size": "h3"
                },
                "elements": [],
@@ -1532,7 +1520,7 @@
                "elType": "widget"
               },
               {
-               "id": "4008b015",
+               "id": "40089cbe",
                "settings": {
                 "editor": "<p>A clean, properly operating system helps manage humidity, airflow, and filtration more effectively.</p>"
                },
@@ -1550,14 +1538,14 @@
            "elType": "container"
           },
           {
-           "id": "40093776",
+           "id": "4009241f",
            "settings": {
             "content_width": "full",
             "css_classes": "vprop"
            },
            "elements": [
             {
-             "id": "4008ea1a",
+             "id": "4008d6c3",
              "settings": {
               "editor": "05",
               "_css_classes": "vprop__num"
@@ -1568,16 +1556,16 @@
              "elType": "widget"
             },
             {
-             "id": "4009241f",
+             "id": "400910c8",
              "settings": {
               "content_width": "full",
               "css_classes": "vprop__text"
              },
              "elements": [
               {
-               "id": "4008fd71",
+               "id": "4008ea1a",
                "settings": {
-                "title": "Peace of mind",
+                "title": "Peace of Mind",
                 "header_size": "h3"
                },
                "elements": [],
@@ -1586,7 +1574,7 @@
                "elType": "widget"
               },
               {
-               "id": "400910c8",
+               "id": "4008fd71",
                "settings": {
                 "editor": "<p>Knowing what is wrong with your AC and how it can be fixed helps you make confident decisions without unnecessary pressure.</p>"
                },
@@ -1620,7 +1608,7 @@
    "elType": "container"
   },
   {
-   "id": "400af447",
+   "id": "400ae0f0",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1628,7 +1616,7 @@
    },
    "elements": [
     {
-     "id": "400ae0f0",
+     "id": "400acd99",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1656,14 +1644,14 @@
      },
      "elements": [
       {
-       "id": "4009d22e",
+       "id": "400aa6eb",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "40099829",
+         "id": "400a6ce6",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Why Lenz</span>"
          },
@@ -1673,7 +1661,7 @@
          "elType": "widget"
         },
         {
-         "id": "4009ab80",
+         "id": "400a803d",
          "settings": {
           "title": "Why Central Iowa Homeowners Choose Lenz Heating &amp; Cooling",
           "header_size": "h2",
@@ -1701,7 +1689,7 @@
          "elType": "widget"
         },
         {
-         "id": "4009bed7",
+         "id": "400a9394",
          "settings": {
           "editor": "At Lenz Heating &amp; Cooling, we believe AC repair should be honest, clear, and stress-free. Our team helps homeowners across Urbandale, Des Moines, West Des Moines, Ankeny, Clive, Altoona, Waukee, and nearby communities restore comfort with practical cooling solutions.",
           "_css_classes": "section__lead"
@@ -1716,14 +1704,14 @@
        "elType": "container"
       },
       {
-       "id": "400acd99",
+       "id": "400aba42",
        "settings": {
         "content_width": "full",
         "css_classes": "creds__grid"
        },
        "elements": [
         {
-         "id": "400a1f8a",
+         "id": "4009bed7",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1731,7 +1719,7 @@
          },
          "elements": [
           {
-           "id": "4009e585",
+           "id": "400984d2",
            "settings": {
             "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-card\"/></svg></span>"
            },
@@ -1741,9 +1729,9 @@
            "elType": "widget"
           },
           {
-           "id": "4009f8dc",
+           "id": "40099829",
            "settings": {
-            "title": "Quality, affordable AC repair in Des Moines",
+            "title": "Quality, Affordable AC Repair in Des Moines",
             "header_size": "h3"
            },
            "elements": [],
@@ -1752,9 +1740,9 @@
            "elType": "widget"
           },
           {
-           "id": "400a0c33",
+           "id": "4009ab80",
            "settings": {
-            "editor": "We help homeowners get their cooling systems back on track with honest diagnostics and dependable repair options. With our &ldquo;To the Penny&rdquo; Pricing Guarantee, you will know the cost upfront with no hidden fees or surprises.",
+            "editor": "At Lenz Heating &amp; Cooling, we help homeowners get their cooling systems back on track with honest diagnostics and dependable repair options. With our “To the Penny” Pricing Guarantee, you will know the cost upfront with no hidden fees or surprises.",
             "_css_classes": "creds__text"
            },
            "elements": [],
@@ -1767,7 +1755,7 @@
          "elType": "container"
         },
         {
-         "id": "400a6ce6",
+         "id": "400a0c33",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1775,7 +1763,7 @@
          },
          "elements": [
           {
-           "id": "400a32e1",
+           "id": "4009d22e",
            "settings": {
             "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span>"
            },
@@ -1785,9 +1773,9 @@
            "elType": "widget"
           },
           {
-           "id": "400a4638",
+           "id": "4009e585",
            "settings": {
-            "title": "24/7 emergency AC repair",
+            "title": "24/7 Emergency AC Repair",
             "header_size": "h3"
            },
            "elements": [],
@@ -1796,7 +1784,7 @@
            "elType": "widget"
           },
           {
-           "id": "400a598f",
+           "id": "4009f8dc",
            "settings": {
             "editor": "AC problems do not always happen during business hours. If your air conditioner stops working during extreme heat or your home becomes uncomfortable fast, Lenz Heating &amp; Cooling provides emergency HVAC service to help restore comfort when you need it most.",
             "_css_classes": "creds__text"
@@ -1811,7 +1799,7 @@
          "elType": "container"
         },
         {
-         "id": "400aba42",
+         "id": "400a598f",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1819,7 +1807,7 @@
          },
          "elements": [
           {
-           "id": "400a803d",
+           "id": "400a1f8a",
            "settings": {
             "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
            },
@@ -1829,9 +1817,9 @@
            "elType": "widget"
           },
           {
-           "id": "400a9394",
+           "id": "400a32e1",
            "settings": {
-            "title": "Superior customer service",
+            "title": "Superior Customer Service",
             "header_size": "h3"
            },
            "elements": [],
@@ -1840,7 +1828,7 @@
            "elType": "widget"
           },
           {
-           "id": "400aa6eb",
+           "id": "400a4638",
            "settings": {
             "editor": "We believe AC repair should be clear, honest, and pressure-free. If another company has recommended a major repair or system replacement, our experienced technicians can take a second look and help you understand whether repair or replacement makes the most sense for your home.",
             "_css_classes": "creds__text"
@@ -1867,270 +1855,7 @@
    "elType": "container"
   },
   {
-   "id": "400c8a6a",
-   "settings": {
-    "content_width": "full",
-    "html_tag": "section",
-    "_element_id": "reviews",
-    "css_classes": "reviews section svc-page svc-page--cool e-no-lazyload"
-   },
-   "elements": [
-    {
-     "id": "400c7713",
-     "settings": {
-      "content_width": "boxed",
-      "boxed_width": {
-       "unit": "px",
-       "size": 1140,
-       "sizes": []
-      },
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": true
-      },
-      "padding_mobile": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": true
-      },
-      "css_classes": "container"
-     },
-     "elements": [
-      {
-       "id": "400b41a3",
-       "settings": {
-        "content_width": "full",
-        "css_classes": "section__head"
-       },
-       "elements": [
-        {
-         "id": "400b079e",
-         "settings": {
-          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg> Reviews</span>"
-         },
-         "elements": [],
-         "isInner": true,
-         "widgetType": "html",
-         "elType": "widget"
-        },
-        {
-         "id": "400b1af5",
-         "settings": {
-          "title": "Cool Customers Across Central Iowa",
-          "header_size": "h2",
-          "typography_font_size": {
-           "unit": "custom",
-           "size": "var(--text-2xl)",
-           "sizes": []
-          },
-          "typography_font_size_tablet": {
-           "unit": "custom",
-           "size": "var(--text-2xl)",
-           "sizes": []
-          },
-          "typography_font_size_mobile": {
-           "unit": "custom",
-           "size": "var(--text-2xl)",
-           "sizes": []
-          },
-          "typography_typography": "custom",
-          "_css_classes": "section__title"
-         },
-         "elements": [],
-         "isInner": true,
-         "widgetType": "heading",
-         "elType": "widget"
-        },
-        {
-         "id": "400b2e4c",
-         "settings": {
-          "editor": "Homeowners throughout Central Iowa trust Lenz Heating &amp; Cooling for clear communication, honest recommendations, and dependable service.",
-          "_css_classes": "section__lead"
-         },
-         "elements": [],
-         "isInner": true,
-         "widgetType": "text-editor",
-         "elType": "widget"
-        }
-       ],
-       "isInner": true,
-       "elType": "container"
-      },
-      {
-       "id": "400c5065",
-       "settings": {
-        "content_width": "full",
-        "css_classes": "reviews__grid"
-       },
-       "elements": [
-        {
-         "id": "400b8eff",
-         "settings": {
-          "content_width": "full",
-          "css_classes": "review-feature lz-figure"
-         },
-         "elements": [
-          {
-           "id": "400b54fa",
-           "settings": {
-            "html": "<span class=\"stars\" role=\"img\" aria-label=\"5 out of 5 stars\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg></span>"
-           },
-           "elements": [],
-           "isInner": true,
-           "widgetType": "html",
-           "elType": "widget"
-          },
-          {
-           "id": "400b6851",
-           "settings": {
-            "editor": "<blockquote>LENZ did a phenomenal job on my evaporator coil replacement. I&apos;ve never seen techs work so hard on a relatively small job — and they came back the next day to make sure it was done right. Great follow-through and price, and a commitment to honest work. LENZ has my business for life now.</blockquote>"
-           },
-           "elements": [],
-           "isInner": true,
-           "widgetType": "text-editor",
-           "elType": "widget"
-          },
-          {
-           "id": "400b7ba8",
-           "settings": {
-            "editor": "— Curtis Taylor",
-            "_css_classes": "review-name"
-           },
-           "elements": [],
-           "isInner": true,
-           "widgetType": "text-editor",
-           "elType": "widget"
-          }
-         ],
-         "isInner": true,
-         "elType": "container"
-        },
-        {
-         "id": "400c3d0e",
-         "settings": {
-          "content_width": "full",
-          "css_classes": "review-side"
-         },
-         "elements": [
-          {
-           "id": "400bdc5b",
-           "settings": {
-            "content_width": "full",
-            "css_classes": "review-card lz-figure"
-           },
-           "elements": [
-            {
-             "id": "400ba256",
-             "settings": {
-              "html": "<span class=\"stars\" role=\"img\" aria-label=\"5 out of 5 stars\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg></span>"
-             },
-             "elements": [],
-             "isInner": true,
-             "widgetType": "html",
-             "elType": "widget"
-            },
-            {
-             "id": "400bb5ad",
-             "settings": {
-              "editor": "<blockquote>Puia was great. Great attitude and service. As always, I appreciate the work you all do and happy to be a customer.</blockquote>"
-             },
-             "elements": [],
-             "isInner": true,
-             "widgetType": "text-editor",
-             "elType": "widget"
-            },
-            {
-             "id": "400bc904",
-             "settings": {
-              "editor": "— Dave Olsen",
-              "_css_classes": "review-name"
-             },
-             "elements": [],
-             "isInner": true,
-             "widgetType": "text-editor",
-             "elType": "widget"
-            }
-           ],
-           "isInner": true,
-           "elType": "container"
-          },
-          {
-           "id": "400c29b7",
-           "settings": {
-            "content_width": "full",
-            "css_classes": "review-card lz-figure"
-           },
-           "elements": [
-            {
-             "id": "400befb2",
-             "settings": {
-              "html": "<span class=\"stars\" role=\"img\" aria-label=\"5 out of 5 stars\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg></span>"
-             },
-             "elements": [],
-             "isInner": true,
-             "widgetType": "html",
-             "elType": "widget"
-            },
-            {
-             "id": "400c0309",
-             "settings": {
-              "editor": "<blockquote>Your service man did a great job, very courteous young man. Lenz is the best and we appreciate all you do for us.</blockquote>"
-             },
-             "elements": [],
-             "isInner": true,
-             "widgetType": "text-editor",
-             "elType": "widget"
-            },
-            {
-             "id": "400c1660",
-             "settings": {
-              "editor": "— Ron &amp; Janet Hester",
-              "_css_classes": "review-name"
-             },
-             "elements": [],
-             "isInner": true,
-             "widgetType": "text-editor",
-             "elType": "widget"
-            }
-           ],
-           "isInner": true,
-           "elType": "container"
-          }
-         ],
-         "isInner": true,
-         "elType": "container"
-        }
-       ],
-       "isInner": true,
-       "elType": "container"
-      },
-      {
-       "id": "400c63bc",
-       "settings": {
-        "html": "<p class=\"reviews__micro\"><a href=\"#contact\">Ready for service like this? Schedule AC Repair <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></p>"
-       },
-       "elements": [],
-       "isInner": true,
-       "widgetType": "html",
-       "elType": "widget"
-      }
-     ],
-     "isInner": true,
-     "elType": "container"
-    }
-   ],
-   "isInner": false,
-   "elType": "container"
-  },
-  {
-   "id": "400cfe74",
+   "id": "400b54fa",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -2139,7 +1864,7 @@
    },
    "elements": [
     {
-     "id": "400ceb1d",
+     "id": "400b41a3",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -2167,14 +1892,14 @@
      },
      "elements": [
       {
-       "id": "400cc46f",
+       "id": "400b1af5",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head section__head--center"
        },
        "elements": [
         {
-         "id": "400c9dc1",
+         "id": "400af447",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-info\"/></svg> FAQs</span>"
          },
@@ -2184,7 +1909,7 @@
          "elType": "widget"
         },
         {
-         "id": "400cb118",
+         "id": "400b079e",
          "settings": {
           "title": "AC Repair FAQs",
           "header_size": "h2",
@@ -2216,9 +1941,9 @@
        "elType": "container"
       },
       {
-       "id": "400cd7c6",
+       "id": "400b2e4c",
        "settings": {
-        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">How quickly should I schedule AC repair if my system is still running? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p>If your AC is still running but not performing normally, it is best to schedule service sooner rather than later. Small issues often become more expensive when the system keeps running under strain, especially during hot Central Iowa weather.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">What should I do before calling for AC repair? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p>Before calling, check your thermostat settings, replace the air filter if it is dirty, make sure vents are open, and confirm the outdoor unit has power. If those simple steps do not solve the problem, a technician can inspect the system safely.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Will I know the repair cost before the work begins? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p>A reputable HVAC company should explain the problem, review your repair options, and provide clear pricing before completing the work. At Lenz Heating &amp; Cooling, the &ldquo;To the Penny&rdquo; Pricing Guarantee helps homeowners understand the cost upfront.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">How long does an AC repair usually take? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p>Many common AC repairs can be completed during the same visit, depending on the issue and whether parts are available. More complex repairs, such as major component replacement or refrigerant leak repair, may take longer.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Can regular maintenance help me avoid future AC repairs? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p>Yes. Routine maintenance helps catch worn parts, airflow issues, dirty components, and performance problems before they lead to breakdowns. It is one of the best ways to reduce surprise AC repair calls during peak summer weather.</p></div></div></div>"
+        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">How quickly should I schedule AC repair if my system is still running? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p>If your AC is still running but not performing normally, it is best to schedule service sooner rather than later. Small issues often become more expensive when the system keeps running under strain, especially during hot Central Iowa weather.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">What should I do before calling for AC repair? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p>Before calling, check your thermostat settings, replace the air filter if it is dirty, make sure vents are open, and confirm the outdoor unit has power. If those simple steps do not solve the problem, a technician can inspect the system safely.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Will I know the repair cost before the work begins? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p>A reputable HVAC company should explain the problem, review your repair options, and provide clear pricing before completing the work. At Lenz Heating &amp; Cooling, the “To the Penny” Pricing Guarantee helps homeowners understand the cost upfront.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">How long does an AC repair usually take? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p>Many common AC repairs can be completed during the same visit, depending on the issue and whether parts are available. More complex repairs, such as major component replacement or refrigerant leak repair, may take longer.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Can regular maintenance help me avoid future AC repairs? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p>Yes. Routine maintenance helps catch worn parts, airflow issues, dirty components, and performance problems before they lead to breakdowns. It is one of the best ways to reduce surprise AC repair calls during peak summer weather.</p></div></div></div>"
        },
        "elements": [],
        "isInner": true,
@@ -2234,15 +1959,16 @@
    "elType": "container"
   },
   {
-   "id": "400f42a6",
+   "id": "400ceb1d",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
-    "css_classes": "section section--mist related svc-page svc-page--cool e-no-lazyload"
+    "_element_id": "reviews",
+    "css_classes": "reviews section svc-page svc-page--cool e-no-lazyload"
    },
    "elements": [
     {
-     "id": "400f2f4f",
+     "id": "400cd7c6",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -2270,24 +1996,83 @@
      },
      "elements": [
       {
-       "id": "400f1bf8",
+       "id": "400ba256",
        "settings": {
         "content_width": "full",
-        "html_tag": "section",
-        "css_classes": "svc-band svc-band--cool"
+        "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "400d727e",
+         "id": "400b6851",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg> Reviews</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "400b7ba8",
+         "settings": {
+          "title": "Cool Customers Across Central Iowa",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "400b8eff",
+         "settings": {
+          "editor": "Homeowners throughout Central Iowa trust Lenz Heating &amp; Cooling for clear communication, honest recommendations, and dependable service.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "400cb118",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "reviews__grid"
+       },
+       "elements": [
+        {
+         "id": "400befb2",
          "settings": {
           "content_width": "full",
-          "css_classes": "svc-band__head"
+          "css_classes": "review-feature lz-figure"
          },
          "elements": [
           {
-           "id": "400d11cb",
+           "id": "400bb5ad",
            "settings": {
-            "html": "<span class=\"svc-band__icon\"><svg aria-hidden=\"true\"><use href=\"#i-snow\"/></svg></span>"
+            "html": "<span class=\"stars\" role=\"img\" aria-label=\"5 out of 5 stars\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg></span>"
            },
            "elements": [],
            "isInner": true,
@@ -2295,27 +2080,69 @@
            "elType": "widget"
           },
           {
-           "id": "400d4bd0",
+           "id": "400bc904",
+           "settings": {
+            "editor": "<blockquote>LENZ did a phenomenal job on my evaporator coil replacement. I&apos;ve never seen techs work so hard on a relatively small job — and they came back the next day to make sure it was done right. Great follow-through and price, and a commitment to honest work. LENZ has my business for life now.</blockquote>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "400bdc5b",
+           "settings": {
+            "editor": "— Curtis Taylor",
+            "_css_classes": "review-name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "400c9dc1",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "review-side"
+         },
+         "elements": [
+          {
+           "id": "400c3d0e",
            "settings": {
             "content_width": "full",
-            "css_classes": "svc-band__txt"
+            "css_classes": "review-card lz-figure"
            },
            "elements": [
             {
-             "id": "400d2522",
+             "id": "400c0309",
              "settings": {
-              "title": "More Cooling Services",
-              "header_size": "h3"
+              "html": "<span class=\"stars\" role=\"img\" aria-label=\"5 out of 5 stars\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg></span>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "heading",
+             "widgetType": "html",
              "elType": "widget"
             },
             {
-             "id": "400d3879",
+             "id": "400c1660",
              "settings": {
-              "editor": "<p>Installation, maintenance, and replacement from the same local team, so your AC is covered from the first day to the last.</p>"
+              "editor": "<blockquote>Puia was great. Great attitude and service. As always, I appreciate the work you all do and happy to be a customer.</blockquote>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "400c29b7",
+             "settings": {
+              "editor": "— Dave Olsen",
+              "_css_classes": "review-name"
              },
              "elements": [],
              "isInner": true,
@@ -2327,9 +2154,170 @@
            "elType": "container"
           },
           {
-           "id": "400d5f27",
+           "id": "400c8a6a",
            "settings": {
-            "html": "<a class=\"svc-band__go\" href=\"/air-conditioning/\">All AC Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+            "content_width": "full",
+            "css_classes": "review-card lz-figure"
+           },
+           "elements": [
+            {
+             "id": "400c5065",
+             "settings": {
+              "html": "<span class=\"stars\" role=\"img\" aria-label=\"5 out of 5 stars\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "400c63bc",
+             "settings": {
+              "editor": "<blockquote>Your service man did a great job, very courteous young man. Lenz is the best and we appreciate all you do for us.</blockquote>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "400c7713",
+             "settings": {
+              "editor": "— Ron &amp; Janet Hester",
+              "_css_classes": "review-name"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "400cc46f",
+       "settings": {
+        "html": "<p class=\"reviews__micro\"><a href=\"#contact\">Ready for service like this? Schedule AC Repair <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></p>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "400f2f4f",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section section--mist related svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "400f1bf8",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "400f08a1",
+       "settings": {
+        "content_width": "full",
+        "html_tag": "section",
+        "css_classes": "svc-band svc-band--cool"
+       },
+       "elements": [
+        {
+         "id": "400d5f27",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "svc-band__head"
+         },
+         "elements": [
+          {
+           "id": "400cfe74",
+           "settings": {
+            "html": "<span class=\"svc-band__icon\"><svg aria-hidden=\"true\"><use href=\"#i-snow\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "400d3879",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "svc-band__txt"
+           },
+           "elements": [
+            {
+             "id": "400d11cb",
+             "settings": {
+              "title": "More Air Conditioning Services",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "400d2522",
+             "settings": {
+              "editor": "<p>The same local team for every part of your home comfort, from the first visit to the last.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "400d4bd0",
+           "settings": {
+            "html": "<a class=\"svc-band__go\" href=\"/air-conditioning/\">All Air Conditioning Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
            },
            "elements": [],
            "isInner": true,
@@ -2341,14 +2329,14 @@
          "elType": "container"
         },
         {
-         "id": "400f08a1",
+         "id": "400ef54a",
          "settings": {
           "content_width": "full",
           "css_classes": "svc-band__grid"
          },
          "elements": [
           {
-           "id": "400dd331",
+           "id": "400dbfda",
            "settings": {
             "content_width": "full",
             "html_tag": "a",
@@ -2362,7 +2350,7 @@
            },
            "elements": [
             {
-             "id": "400d85d5",
+             "id": "400d727e",
              "settings": {
               "html": "<span class=\"service-card__icon\" data-cat=\"cooling\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-snow\"/></svg></span>"
              },
@@ -2372,14 +2360,14 @@
              "elType": "widget"
             },
             {
-             "id": "400dbfda",
+             "id": "400dac83",
              "settings": {
               "content_width": "full",
               "css_classes": "lz-span"
              },
              "elements": [
               {
-               "id": "400d992c",
+               "id": "400d85d5",
                "settings": {
                 "title": "AC Installation",
                 "header_size": "h4"
@@ -2390,7 +2378,7 @@
                "elType": "widget"
               },
               {
-               "id": "400dac83",
+               "id": "400d992c",
                "settings": {
                 "editor": "<p>Right-sized systems, installed properly.</p>"
                },
@@ -2408,7 +2396,7 @@
            "elType": "container"
           },
           {
-           "id": "400e33e4",
+           "id": "400e208d",
            "settings": {
             "content_width": "full",
             "html_tag": "a",
@@ -2422,9 +2410,9 @@
            },
            "elements": [
             {
-             "id": "400de688",
+             "id": "400dd331",
              "settings": {
-              "html": "<span class=\"service-card__icon\" data-cat=\"cooling\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-calendar\"/></svg></span>"
+              "html": "<span class=\"service-card__icon\" data-cat=\"cooling\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-snow\"/></svg></span>"
              },
              "elements": [],
              "isInner": true,
@@ -2432,14 +2420,14 @@
              "elType": "widget"
             },
             {
-             "id": "400e208d",
+             "id": "400e0d36",
              "settings": {
               "content_width": "full",
               "css_classes": "lz-span"
              },
              "elements": [
               {
-               "id": "400df9df",
+               "id": "400de688",
                "settings": {
                 "title": "AC Maintenance",
                 "header_size": "h4"
@@ -2450,7 +2438,7 @@
                "elType": "widget"
               },
               {
-               "id": "400e0d36",
+               "id": "400df9df",
                "settings": {
                 "editor": "<p>Seasonal tune-ups that prevent breakdowns.</p>"
                },
@@ -2468,7 +2456,7 @@
            "elType": "container"
           },
           {
-           "id": "400e9497",
+           "id": "400e8140",
            "settings": {
             "content_width": "full",
             "html_tag": "a",
@@ -2482,7 +2470,7 @@
            },
            "elements": [
             {
-             "id": "400e473b",
+             "id": "400e33e4",
              "settings": {
               "html": "<span class=\"service-card__icon\" data-cat=\"cooling\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-snow\"/></svg></span>"
              },
@@ -2492,14 +2480,14 @@
              "elType": "widget"
             },
             {
-             "id": "400e8140",
+             "id": "400e6de9",
              "settings": {
               "content_width": "full",
               "css_classes": "lz-span"
              },
              "elements": [
               {
-               "id": "400e5a92",
+               "id": "400e473b",
                "settings": {
                 "title": "AC Replacement",
                 "header_size": "h4"
@@ -2510,7 +2498,7 @@
                "elType": "widget"
               },
               {
-               "id": "400e6de9",
+               "id": "400e5a92",
                "settings": {
                 "editor": "<p>Efficient upgrades sized to your home.</p>"
                },
@@ -2528,7 +2516,7 @@
            "elType": "container"
           },
           {
-           "id": "400ef54a",
+           "id": "400ee1f3",
            "settings": {
             "content_width": "full",
             "html_tag": "a",
@@ -2542,7 +2530,7 @@
            },
            "elements": [
             {
-             "id": "400ea7ee",
+             "id": "400e9497",
              "settings": {
               "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg></span>"
              },
@@ -2552,14 +2540,14 @@
              "elType": "widget"
             },
             {
-             "id": "400ee1f3",
+             "id": "400ece9c",
              "settings": {
               "content_width": "full",
               "css_classes": "lz-span"
              },
              "elements": [
               {
-               "id": "400ebb45",
+               "id": "400ea7ee",
                "settings": {
                 "title": "Maintenance Plans",
                 "header_size": "h4"
@@ -2570,7 +2558,7 @@
                "elType": "widget"
               },
               {
-               "id": "400ece9c",
+               "id": "400ebb45",
                "settings": {
                 "editor": "<p>Priority dispatch and 10 to 20% off parts.</p>"
                },
@@ -2604,7 +2592,7 @@
    "elType": "container"
   },
   {
-   "id": "4010040c",
+   "id": "400ff0b5",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -2613,7 +2601,7 @@
    },
    "elements": [
     {
-     "id": "400ff0b5",
+     "id": "400fdd5e",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -2641,20 +2629,20 @@
      },
      "elements": [
       {
-       "id": "400fdd5e",
+       "id": "400fca07",
        "settings": {
         "content_width": "full",
         "css_classes": "close-form__inner"
        },
        "elements": [
         {
-         "id": "400fa359",
+         "id": "400f9002",
          "settings": {
           "content_width": "full"
          },
          "elements": [
           {
-           "id": "400f6954",
+           "id": "400f55fd",
            "settings": {
             "title": "Ready to Get Your Cool Air Back?",
             "header_size": "h2",
@@ -2681,7 +2669,7 @@
            "elType": "widget"
           },
           {
-           "id": "400f7cab",
+           "id": "400f6954",
            "settings": {
             "editor": "<p>If your AC is blowing warm air, leaking, freezing up, making noise, or struggling to keep your home comfortable, it is time to have it checked.</p><p>Lenz Heating &amp; Cooling provides AC repair in Des Moines, Urbandale, West Des Moines, Ankeny, Clive, Altoona, Waukee, and surrounding Central Iowa communities. Whether you need routine air conditioning repair or emergency AC service, our team is ready to help you get your cooling system back on track.</p><p>Call (515) 225-6446 or schedule AC repair online today.</p>",
             "_css_classes": "close-form__lead"
@@ -2692,7 +2680,7 @@
            "elType": "widget"
           },
           {
-           "id": "400f9002",
+           "id": "400f7cab",
            "settings": {
             "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
            },
@@ -2706,14 +2694,14 @@
          "elType": "container"
         },
         {
-         "id": "400fca07",
+         "id": "400fb6b0",
          "settings": {
           "content_width": "full",
           "css_classes": "form-card"
          },
          "elements": [
           {
-           "id": "400f55fd",
+           "id": "400f42a6",
            "settings": {
             "form_name": "Estimate request",
             "form_fields": [
@@ -2784,7 +2772,7 @@
            "elType": "widget"
           },
           {
-           "id": "400fb6b0",
+           "id": "400fa359",
            "settings": {
             "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
            },

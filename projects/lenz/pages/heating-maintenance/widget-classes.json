@@ -1,0 +1,20 @@
+{
+  "btn": "button",
+  "btn-gold": "button",
+  "btn-outline": "button",
+  "btn-outline-light": "button",
+  "btn-primary": "button",
+  "checklist-card__heading": "heading",
+  "close-form__lead": "text",
+  "creds__text": "text",
+  "hero__kicker": "text",
+  "hero__sub": "text",
+  "plan__meta": "text",
+  "plan__name": "text",
+  "plan__price": "text",
+  "plans__note": "text",
+  "section__lead": "text",
+  "section__title": "heading",
+  "trustbar__label": "text",
+  "trustbar__value": "text"
+}

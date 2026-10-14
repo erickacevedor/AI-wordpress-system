@@ -1,0 +1,2860 @@
+{
+ "version": "0.4",
+ "title": "Heating Repair",
+ "type": "page",
+ "content": [
+  {
+   "id": "45010ec2",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "hero hero--service svc-page svc-page--warm e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "4500fb6b",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container hero__inner"
+     },
+     "elements": [
+      {
+       "id": "4500ae0f",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__copy"
+       },
+       "elements": [
+        {
+         "id": "45001357",
+         "settings": {
+          "html": "<nav class=\"crumbs\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li><a href=\"/heating/\">Heating</a></li><li aria-current=\"page\">Heating Repair</li></ol></nav>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "450026ae",
+         "settings": {
+          "html": "<span class=\"hero__eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg> Heating</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "45003a05",
+         "settings": {
+          "title": "<span class=\"accent\">Heating Repair</span> in Des Moines &amp; Central Iowa",
+          "header_size": "h1",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "45004d5c",
+         "settings": {
+          "editor": "When your heat stops working, starts making unusual noises, or cannot keep your home comfortable during a Central Iowa cold snap, you need more than a quick guess. You need clear answers, honest recommendations, and reliable heating repair from a team that understands Iowa winters.",
+          "_css_classes": "hero__sub"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "450060b3",
+         "settings": {
+          "html": "<p class=\"hero__areas\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Serving Des Moines, Urbandale, West Des Moines, Ankeny, Altoona, Clive, Waukee, and surrounding Central Iowa communities.</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "45009ab8",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hero__cta"
+         },
+         "elements": [
+          {
+           "id": "4500740a",
+           "settings": {
+            "text": "Schedule Heating Repair",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-gold"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "45008761",
+           "settings": {
+            "text": "Call (515) 225-6446",
+            "link": {
+             "url": "tel:+15152256446",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-outline-light lz-ico lz-ico-phone"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "4500e814",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__media"
+       },
+       "elements": [
+        {
+         "id": "4500c166",
+         "settings": {
+          "image": {
+           "url": "/wp-content/uploads/2026/10/lenz-technician-service-call.webp",
+           "id": 32,
+           "size": "",
+           "alt": "A Lenz technician repairing a gas furnace in a Des Moines basement",
+           "source": "library"
+          },
+          "image_size": "full"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "image",
+         "elType": "widget"
+        },
+        {
+         "id": "4500d4bd",
+         "settings": {
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>24/7 emergency heating repair</b>Local team, real people, day or night.</span></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "45026ae0",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_attributes": "aria-label|At a glance",
+    "css_classes": "trustbar svc-page svc-page--warm e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "45025789",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "45024432",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "trustbar__grid"
+       },
+       "elements": [
+        {
+         "id": "450148c7",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "45012219",
+           "settings": {
+            "editor": "Since 2009",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "45013570",
+           "settings": {
+            "editor": "Serving Central Iowa",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "450182cc",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "45015c1e",
+           "settings": {
+            "editor": "24/7/365",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "45016f75",
+           "settings": {
+            "editor": "Emergency service",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4501bcd1",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "45019623",
+           "settings": {
+            "editor": "#50871-CL",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "4501a97a",
+           "settings": {
+            "editor": "Iowa Master Licensed",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4501f6d6",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "4501d028",
+           "settings": {
+            "editor": "Veteran &amp; Woman-Owned",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "4501e37f",
+           "settings": {
+            "editor": "Family operated",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "450230db",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "45020a2d",
+           "settings": {
+            "editor": "Upfront Pricing",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "45021d84",
+           "settings": {
+            "editor": "Before any work begins",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "450352f4",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section section--mist svc-intro svc-page svc-page--warm e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "45033f9d",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "45032c46",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "svc-intro__layout"
+       },
+       "elements": [
+        {
+         "id": "4502cb93",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "svc-intro__copy"
+         },
+         "elements": [
+          {
+           "id": "45027e37",
+           "settings": {
+            "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg> Don&apos;t wait for a no-heat night</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "4502918e",
+           "settings": {
+            "title": "Do Not Wait for a No-Heat Emergency",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom",
+            "_css_classes": "section__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4502a4e5",
+           "settings": {
+            "editor": "Heating problems rarely get better on their own. A furnace that cycles too often, a heat pump that cannot keep up, or a system that makes new noises may already be working under extra strain.",
+            "_css_classes": "section__lead"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "4502b83c",
+           "settings": {
+            "editor": "<p>At Lenz Heating &amp; Cooling, we provide professional heating repair in Des Moines and across the Central Iowa area. Whether your furnace will not turn on, your heat pump is struggling, your system is blowing cool air, or certain rooms never seem warm enough, our technicians can inspect the system, explain what is happening, and recommend the repair that makes the most sense for your home.</p><p>If repair is the right call, we will tell you. If replacement is worth comparing because of system age, safety concerns, repeated repairs, or poor performance, we will explain why clearly so you can make a confident decision.</p><p>Our team at Lenz helps Des Moines homeowners get clear answers quickly. Our technicians inspect your heating system, explain what is causing the issue, and recommend practical repair options without pressure.</p>",
+            "_css_classes": "svc-intro__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "450318ef",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "aside",
+          "css_classes": "checklist-card"
+         },
+         "elements": [
+          {
+           "id": "4502deea",
+           "settings": {
+            "editor": "During sub-zero nights, early morning no-heat calls, and long cold stretches in Des Moines and Central Iowa, small heating issues can become urgent quickly. Scheduling heating repair early can help you:",
+            "_css_classes": "checklist-card__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "4502f241",
+           "settings": {
+            "html": "<ul class=\"checklist\"><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Restore comfort before the next cold night</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Prevent minor issues from becoming major repairs</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Reduce unnecessary wear on your furnace or heat pump</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Improve efficiency and help control energy costs</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Lower the risk of a no-heat emergency during peak winter demand</span></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "45030598",
+           "settings": {
+            "text": "Schedule Heating Repair",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-primary"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "4506588c",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section symptoms svc-page svc-page--warm e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "45064535",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "45061e87",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "4505e482",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg> What we fix</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "4505f7d9",
+         "settings": {
+          "title": "Types of Heating Problems We Repair",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "45060b30",
+         "settings": {
+          "editor": "Different heating systems fail in different ways. A gas furnace may have ignition, burner, flame sensor, or combustion-related concerns, while a heat pump may struggle with airflow, defrost, auxiliary heat, or outdoor unit performance. Lenz Heating &amp; Cooling repairs heating problems in <b>gas furnaces</b>, <b>heat pumps</b>, <b>hybrid dual-fuel systems</b>, and <b>ductless mini-splits used for heating</b>. Whether your system is older, newly installed, or part of a more customized comfort setup, our technicians can inspect the equipment, explain the issue, and help you understand the most practical repair option.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "450631de",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "symptom-grid symptom-grid--3"
+       },
+       "elements": [
+        {
+         "id": "4503a050",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "4503664b",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "450379a2",
+           "settings": {
+            "title": "No Heat or System Will Not Turn On",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "45038cf9",
+           "settings": {
+            "editor": "<p>If your heating system will not start, the issue may involve the thermostat, ignition system, control board, gas supply, safety switch, blower motor, heat pump components, or electrical connections.</p><p>Our technicians check the system carefully so you are not left guessing. Once we identify the cause, we explain the repair clearly and help you understand the safest next step.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4503edac",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "4503b3a7",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "4503c6fe",
+           "settings": {
+            "title": "Cold or Lukewarm Air From the Vents",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4503da55",
+           "settings": {
+            "editor": "<p>A heating system that runs but does not produce enough warm air can make your home uncomfortable fast. For a gas furnace, the issue may be tied to ignition, burners, flame sensors, gas supply, airflow, or dirty components. For a heat pump, the air may feel different than furnace heat, but the system should still be able to keep your home comfortable when operating properly.</p><p>If your vents are blowing cold air, lukewarm air, or air that never seems to warm the home, professional heating repair can help identify whether the problem is simple, such as a dirty filter, or more serious, such as a failing component or system performance issue.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "45043b08",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "45040103",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "4504145a",
+           "settings": {
+            "title": "Cold Rooms and Uneven Heating",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "450427b1",
+           "settings": {
+            "editor": "<p>If some rooms feel warm while others stay cold, the problem may not be the heating equipment alone. Uneven heating can be caused by blocked vents, dirty filters, ductwork issues, weak airflow, thermostat location, zoning concerns, or a system that is struggling to distribute heat evenly.</p><p>This is common in Central Iowa homes with finished basements that never warm up, upstairs bedrooms, additions, older ductwork, or rooms far from the main system. Newer homes in areas like Waukee, Ankeny, and West Des Moines can also have comfort issues if airflow is not balanced well for the layout. Our technicians look at the full comfort picture so the repair recommendation fits your home, not just the equipment.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "45048864",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "45044e5f",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "450461b6",
+           "settings": {
+            "title": "Frequent Cycling or Short Heating Runs",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4504750d",
+           "settings": {
+            "editor": "<p>Short cycling happens when your furnace, heat pump, or heating system turns on and off too often without completing a full heating cycle. This can increase energy use, reduce comfort, and place extra wear on major components.</p><p>Common causes include restricted airflow, thermostat problems, overheating, dirty burners, flame sensor issues, heat pump performance concerns, or equipment that is not operating properly. Addressing short cycling early can help prevent larger heating system repairs.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4504d5c0",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "45049bbb",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "4504af12",
+           "settings": {
+            "title": "Loud Furnace or Heat Pump Noises",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4504c269",
+           "settings": {
+            "editor": "<p>Your furnace or heat pump should not bang, rattle, grind, squeal, buzz loudly, or make new sounds that continue during operation. These noises may point to loose parts, blower motor trouble, belt issues, ignition concerns, electrical problems, or worn components.</p><p>If the sound is sudden, loud, or paired with reduced heating performance, it is best to have the system inspected before running it heavily again. A small mechanical issue can become more expensive when the system keeps operating through freezing weather.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4505231c",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "4504e917",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-droplet\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "4504fc6e",
+           "settings": {
+            "title": "Burning, Electrical, Musty, or Gas Odors",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "45050fc5",
+           "settings": {
+            "editor": "<p>A light dusty smell can happen when the heat first turns on for the season. But persistent burning odors, electrical smells, gas odors, or musty smells should not be ignored.</p><p>If you smell gas, leave the home and contact your gas utility or emergency services before calling for HVAC service. If you notice an electrical burning smell, shut the system off if it is safe to do so and schedule service right away.</p><p>Our technicians can inspect the heating system and help determine whether the issue is dust buildup, electrical trouble, combustion concerns, moisture, or another problem that needs repair.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "45057078",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "45053673",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "450549ca",
+           "settings": {
+            "title": "Heating System Runs Constantly",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "45055d21",
+           "settings": {
+            "editor": "<p>If your heating system runs constantly but your home still does not feel comfortable, it may be working harder than it should. Causes can include airflow restrictions, thermostat issues, ductwork problems, dirty components, poor insulation, heat pump performance issues, or aging equipment.</p><p>During long cold stretches in Des Moines and Central Iowa, a struggling heating system can drive up energy use and still leave certain rooms uncomfortable. A professional inspection can help determine whether repair, maintenance, or another solution is the right next step.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4505d12b",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "service-help symptom-help"
+         },
+         "elements": [
+          {
+           "id": "4505aa7d",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "service-help__txt"
+           },
+           "elements": [
+            {
+             "id": "450583cf",
+             "settings": {
+              "title": "Not sure what&apos;s wrong?",
+              "header_size": "h4"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "45059726",
+             "settings": {
+              "editor": "<p>Tell us what you&apos;re hearing or feeling and we&apos;ll work it out.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "4505bdd4",
+           "settings": {
+            "html": "<a class=\"phone-link\" href=\"tel:+15152256446\">(515) 225-6446 <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "4506dfed",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "cta-band section--tight svc-page svc-page--warm e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "4506cc96",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "45066be3",
+       "settings": {
+        "html": "<img class=\"cta-band__bg\" src=\"/wp-content/uploads/2026/10/lenz-service-van-wrap.webp\" alt=\"\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" />"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      },
+      {
+       "id": "4506b93f",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "cta-band__inner"
+       },
+       "elements": [
+        {
+         "id": "45067f3a",
+         "settings": {
+          "title": "No heat? We&apos;re ready right now.",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "45069291",
+         "settings": {
+          "editor": "<p>24/7 emergency heating service across the Des Moines metro since 2009.</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "4506a5e8",
+         "settings": {
+          "text": "Call (515) 225-6446",
+          "link": {
+           "url": "tel:+15152256446",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "btn btn-gold lz-ico lz-ico-phone"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "button",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "450984d2",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "valueprops section svc-page svc-page--warm e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "4509717b",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "45072d49",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "4506f344",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg> Why it matters</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "4507069b",
+         "settings": {
+          "title": "Why Timely Heating Repair Matters",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "450719f2",
+         "settings": {
+          "editor": "Small heating problems can become expensive or stressful when ignored. If your system is struggling, running longer than usual, or showing warning signs, waiting can lead to more wear, higher utility costs, and a greater chance of losing heat when you need it most. Investing in timely heating repair can help improve:",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "45095e24",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "valueprops__layout"
+       },
+       "elements": [
+        {
+         "id": "450753f7",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "valueprops__media lz-figure"
+         },
+         "elements": [
+          {
+           "id": "450740a0",
+           "settings": {
+            "image": {
+             "url": "/wp-content/uploads/2026/10/lenz-comfort.webp",
+             "id": 30,
+             "size": "",
+             "alt": "A family relaxing in a comfortable Des Moines home",
+             "source": "library"
+            },
+            "image_size": "full"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "image",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "45094acd",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "valueprops__grid"
+         },
+         "elements": [
+          {
+           "id": "4507b4aa",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "vprop"
+           },
+           "elements": [
+            {
+             "id": "4507674e",
+             "settings": {
+              "editor": "01",
+              "_css_classes": "vprop__num"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "4507a153",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "vprop__text"
+             },
+             "elements": [
+              {
+               "id": "45077aa5",
+               "settings": {
+                "title": "Comfort",
+                "header_size": "h3"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "45078dfc",
+               "settings": {
+                "editor": "<p>A properly repaired heating system can deliver more consistent warmth and help reduce cold spots throughout the home.</p>"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "text-editor",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "4508155d",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "vprop"
+           },
+           "elements": [
+            {
+             "id": "4507c801",
+             "settings": {
+              "editor": "02",
+              "_css_classes": "vprop__num"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "45080206",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "vprop__text"
+             },
+             "elements": [
+              {
+               "id": "4507db58",
+               "settings": {
+                "title": "Efficiency",
+                "header_size": "h3"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "4507eeaf",
+               "settings": {
+                "editor": "<p>Fixing airflow, ignition, blower, thermostat, or electrical issues can help your heating system run more efficiently and use less energy.</p>"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "text-editor",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "45087610",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "vprop"
+           },
+           "elements": [
+            {
+             "id": "450828b4",
+             "settings": {
+              "editor": "03",
+              "_css_classes": "vprop__num"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "450862b9",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "vprop__text"
+             },
+             "elements": [
+              {
+               "id": "45083c0b",
+               "settings": {
+                "title": "System Lifespan",
+                "header_size": "h3"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "45084f62",
+               "settings": {
+                "editor": "<p>When problems are repaired early, your furnace or heat pump does not have to work as hard, which can reduce strain on major components.</p>"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "text-editor",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "4508d6c3",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "vprop"
+           },
+           "elements": [
+            {
+             "id": "45088967",
+             "settings": {
+              "editor": "04",
+              "_css_classes": "vprop__num"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "4508c36c",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "vprop__text"
+             },
+             "elements": [
+              {
+               "id": "45089cbe",
+               "settings": {
+                "title": "Safety",
+                "header_size": "h3"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "4508b015",
+               "settings": {
+                "editor": "<p>Heating repair is not only about comfort. Gas furnaces, ignition systems, electrical components, burners, venting, and airflow all need to operate safely. If you notice gas odors, electrical smells, repeated shutdowns, or unusual combustion-related concerns, the system should be inspected before it is used heavily again.</p>"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "text-editor",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "45093776",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "vprop"
+           },
+           "elements": [
+            {
+             "id": "4508ea1a",
+             "settings": {
+              "editor": "05",
+              "_css_classes": "vprop__num"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "4509241f",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "vprop__text"
+             },
+             "elements": [
+              {
+               "id": "4508fd71",
+               "settings": {
+                "title": "Peace of Mind",
+                "header_size": "h3"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "450910c8",
+               "settings": {
+                "editor": "<p>Knowing what is wrong with your heating system and how it can be fixed helps you make confident decisions without unnecessary pressure.</p>"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "text-editor",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "450b41a3",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "creds section svc-page svc-page--warm e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "450b2e4c",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "450b079e",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "450acd99",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Why Lenz</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "450ae0f0",
+         "settings": {
+          "title": "Why Central Iowa Homeowners Choose Lenz Heating &amp; Cooling",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "450af447",
+         "settings": {
+          "editor": "At Lenz Heating &amp; Cooling, we believe heating repair should be honest, clear, and stress-free. Our team helps homeowners across Urbandale, Des Moines, West Des Moines, Ankeny, Clive, Altoona, Waukee, and nearby communities restore warmth with practical heating solutions.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "450b1af5",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "creds__grid creds__grid--4"
+       },
+       "elements": [
+        {
+         "id": "4509d22e",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "creds__card"
+         },
+         "elements": [
+          {
+           "id": "45099829",
+           "settings": {
+            "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-card\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "4509ab80",
+           "settings": {
+            "title": "Quality, Affordable Heating Repair in Des Moines",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4509bed7",
+           "settings": {
+            "editor": "We help homeowners get their heating systems back on track with honest diagnostics and dependable repair options. With our “To the Penny” Pricing Guarantee, you will know the cost upfront with no hidden fees or surprises.",
+            "_css_classes": "creds__text"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "450a1f8a",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "creds__card"
+         },
+         "elements": [
+          {
+           "id": "4509e585",
+           "settings": {
+            "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "4509f8dc",
+           "settings": {
+            "title": "24/7 Emergency Heating Repair",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "450a0c33",
+           "settings": {
+            "editor": "Heating problems do not always happen during business hours. If your furnace stops working during freezing weather or your home becomes uncomfortable fast, Lenz Heating &amp; Cooling provides emergency HVAC service to help restore comfort when you need it most.",
+            "_css_classes": "creds__text"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "450a6ce6",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "creds__card"
+         },
+         "elements": [
+          {
+           "id": "450a32e1",
+           "settings": {
+            "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "450a4638",
+           "settings": {
+            "title": "Clear Repair vs. Replacement Guidance",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "450a598f",
+           "settings": {
+            "editor": "We do not believe every heating problem should turn into a replacement conversation. If a repair is the practical choice, we will tell you. If replacement may be the better long-term option because of age, repeated repairs, safety concerns, or poor performance, we will explain why clearly so you can make an informed decision.",
+            "_css_classes": "creds__text"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "450aba42",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "creds__card"
+         },
+         "elements": [
+          {
+           "id": "450a803d",
+           "settings": {
+            "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "450a9394",
+           "settings": {
+            "title": "Veteran-Led, Family-Owned Service",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "450aa6eb",
+           "settings": {
+            "editor": "Lenz Heating &amp; Cooling brings careful workmanship, honest advice, and respectful service into every home. Our technicians take the time to explain what they find in plain English, answer your questions, and recommend the next step that fits your comfort needs and budget.",
+            "_css_classes": "creds__text"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "450bb5ad",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "faqs",
+    "css_classes": "faqs section svc-page svc-page--warm e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "450ba256",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "450b7ba8",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head section__head--center"
+       },
+       "elements": [
+        {
+         "id": "450b54fa",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-info\"/></svg> FAQs</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "450b6851",
+         "settings": {
+          "title": "Heating Repair FAQs",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "450b8eff",
+       "settings": {
+        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">How quickly should I schedule heating repair if my system is still running? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p>If your heating system is running but not performing normally, it is best to schedule service sooner rather than later. Small issues can become more expensive when the system keeps operating under strain, especially during cold Central Iowa weather.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">What should I check before calling for furnace repair? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p>Before calling, check your thermostat settings, replace the air filter if it is dirty, make sure vents are open, and confirm the system has power. If you smell gas, notice burning electrical odors, or the system still does not work after basic checks, turn it off and call a professional.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Will I know the heating repair cost before work begins? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p>Yes. At Lenz Heating &amp; Cooling, we explain the problem, review your repair options, and provide clear pricing before completing the work. Our “To the Penny” Pricing Guarantee helps you understand the cost upfront.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">Do you repair heat pumps as well as furnaces? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p>Yes. Lenz Heating &amp; Cooling repairs gas furnaces, heat pumps, hybrid dual-fuel systems, and ductless mini-splits used for heating. The right repair depends on the system type, symptoms, equipment condition, and what the technician finds during inspection.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Can maintenance help prevent future heating repairs? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p>Yes. Routine heating maintenance helps catch worn parts, airflow restrictions, dirty components, ignition problems, and performance issues before they lead to breakdowns. It is one of the best ways to reduce surprise repair calls during peak winter weather.</p></div></div></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "450d4bd0",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "reviews",
+    "css_classes": "reviews section svc-page svc-page--warm e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "450d3879",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "450c0309",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "450bc904",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg> Reviews</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "450bdc5b",
+         "settings": {
+          "title": "Warm Customers Across Central Iowa",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "450befb2",
+         "settings": {
+          "editor": "Homeowners throughout Central Iowa trust Lenz Heating &amp; Cooling for clear communication, honest recommendations, and dependable service.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "450d11cb",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "reviews__grid"
+       },
+       "elements": [
+        {
+         "id": "450c5065",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "review-feature lz-figure"
+         },
+         "elements": [
+          {
+           "id": "450c1660",
+           "settings": {
+            "html": "<span class=\"stars\" role=\"img\" aria-label=\"5 out of 5 stars\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "450c29b7",
+           "settings": {
+            "editor": "<blockquote>LENZ did a phenomenal job on my evaporator coil replacement. I&apos;ve never seen techs work so hard on a relatively small job — and they came back the next day to make sure it was done right. Great follow-through and price, and a commitment to honest work. LENZ has my business for life now.</blockquote>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "450c3d0e",
+           "settings": {
+            "editor": "— Curtis Taylor",
+            "_css_classes": "review-name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "450cfe74",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "review-side"
+         },
+         "elements": [
+          {
+           "id": "450c9dc1",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "review-card lz-figure"
+           },
+           "elements": [
+            {
+             "id": "450c63bc",
+             "settings": {
+              "html": "<span class=\"stars\" role=\"img\" aria-label=\"5 out of 5 stars\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "450c7713",
+             "settings": {
+              "editor": "<blockquote>Puia was great. Great attitude and service. As always, I appreciate the work you all do and happy to be a customer.</blockquote>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "450c8a6a",
+             "settings": {
+              "editor": "— Dave Olsen",
+              "_css_classes": "review-name"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "450ceb1d",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "review-card lz-figure"
+           },
+           "elements": [
+            {
+             "id": "450cb118",
+             "settings": {
+              "html": "<span class=\"stars\" role=\"img\" aria-label=\"5 out of 5 stars\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"fill:var(--color-star);stroke:var(--color-star-edge);stroke-width:1\"><use href=\"#i-star\"/></svg></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "450cc46f",
+             "settings": {
+              "editor": "<blockquote>Your service man did a great job, very courteous young man. Lenz is the best and we appreciate all you do for us.</blockquote>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "450cd7c6",
+             "settings": {
+              "editor": "— Ron &amp; Janet Hester",
+              "_css_classes": "review-name"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "450d2522",
+       "settings": {
+        "html": "<p class=\"reviews__micro\"><a href=\"#contact\">Ready for service like this? Schedule Heating Repair <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></p>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "450f9002",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section section--mist related svc-page svc-page--warm e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "450f7cab",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "450f6954",
+       "settings": {
+        "content_width": "full",
+        "html_tag": "section",
+        "css_classes": "svc-band svc-band--warm"
+       },
+       "elements": [
+        {
+         "id": "450dbfda",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "svc-band__head"
+         },
+         "elements": [
+          {
+           "id": "450d5f27",
+           "settings": {
+            "html": "<span class=\"svc-band__icon\"><svg aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "450d992c",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "svc-band__txt"
+           },
+           "elements": [
+            {
+             "id": "450d727e",
+             "settings": {
+              "title": "More Heating Services",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "450d85d5",
+             "settings": {
+              "editor": "<p>The same local team for every part of your home comfort, from the first visit to the last.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "450dac83",
+           "settings": {
+            "html": "<a class=\"svc-band__go\" href=\"/heating/\">All Heating Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "450f55fd",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "svc-band__grid"
+         },
+         "elements": [
+          {
+           "id": "450e208d",
+           "settings": {
+            "content_width": "full",
+            "html_tag": "a",
+            "link": {
+             "url": "/heating-installation/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "css_classes": "service-card"
+           },
+           "elements": [
+            {
+             "id": "450dd331",
+             "settings": {
+              "html": "<span class=\"service-card__icon\" data-cat=\"heating\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "450e0d36",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "lz-span"
+             },
+             "elements": [
+              {
+               "id": "450de688",
+               "settings": {
+                "title": "Heating Installation",
+                "header_size": "h4"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "450df9df",
+               "settings": {
+                "editor": "<p>High-efficiency gas and electric furnaces.</p>"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "text-editor",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "450e8140",
+           "settings": {
+            "content_width": "full",
+            "html_tag": "a",
+            "link": {
+             "url": "/heating-maintenance/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "css_classes": "service-card"
+           },
+           "elements": [
+            {
+             "id": "450e33e4",
+             "settings": {
+              "html": "<span class=\"service-card__icon\" data-cat=\"heating\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "450e6de9",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "lz-span"
+             },
+             "elements": [
+              {
+               "id": "450e473b",
+               "settings": {
+                "title": "Heating Maintenance",
+                "header_size": "h4"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "450e5a92",
+               "settings": {
+                "editor": "<p>Safety inspections before the first freeze.</p>"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "text-editor",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "450ee1f3",
+           "settings": {
+            "content_width": "full",
+            "html_tag": "a",
+            "link": {
+             "url": "/heating-replacement/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "css_classes": "service-card"
+           },
+           "elements": [
+            {
+             "id": "450e9497",
+             "settings": {
+              "html": "<span class=\"service-card__icon\" data-cat=\"heating\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "450ece9c",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "lz-span"
+             },
+             "elements": [
+              {
+               "id": "450ea7ee",
+               "settings": {
+                "title": "Heating Replacement",
+                "header_size": "h4"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "450ebb45",
+               "settings": {
+                "editor": "<p>Upgrade an aging or failing furnace.</p>"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "text-editor",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "450f42a6",
+           "settings": {
+            "content_width": "full",
+            "html_tag": "a",
+            "link": {
+             "url": "/maintenance-plan/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "css_classes": "service-card"
+           },
+           "elements": [
+            {
+             "id": "450ef54a",
+             "settings": {
+              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "450f2f4f",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "lz-span"
+             },
+             "elements": [
+              {
+               "id": "450f08a1",
+               "settings": {
+                "title": "Maintenance Plans",
+                "header_size": "h4"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "450f1bf8",
+               "settings": {
+                "editor": "<p>Priority dispatch and 10 to 20% off parts.</p>"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "text-editor",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "45105168",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "contact",
+    "css_classes": "close-form section svc-page svc-page--warm e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "45103e11",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "45102aba",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "close-form__inner"
+       },
+       "elements": [
+        {
+         "id": "450ff0b5",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "450fb6b0",
+           "settings": {
+            "title": "Don’t Miss the Heat: Have it Checked!",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "450fca07",
+           "settings": {
+            "editor": "<p>If your furnace is blowing cold air, making noise, cycling too often, giving off unusual odors, or struggling to keep your home comfortable, it is time to have it checked.</p><p>Lenz Heating &amp; Cooling provides heating repair in Des Moines, Urbandale, West Des Moines, Ankeny, Clive, Altoona, Waukee, and surrounding Central Iowa communities. Whether you need routine furnace repair, heat pump repair, or emergency heating repair, our team is ready to help you get your home warm again.</p><p>Call (515) 225-6446 or schedule heating repair online today.</p>",
+            "_css_classes": "close-form__lead"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "450fdd5e",
+           "settings": {
+            "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "45101763",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "form-card"
+         },
+         "elements": [
+          {
+           "id": "450fa359",
+           "settings": {
+            "form_name": "Estimate request",
+            "form_fields": [
+             {
+              "_id": "name",
+              "custom_id": "name",
+              "field_type": "text",
+              "field_label": "Name",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "phone",
+              "custom_id": "phone",
+              "field_type": "tel",
+              "field_label": "Phone",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "service",
+              "custom_id": "service",
+              "field_type": "select",
+              "field_label": "Service",
+              "required": "true",
+              "width": "100",
+              "placeholder": "",
+              "field_options": "Choose a service…|\nAir Conditioning\nAC Installation\nAC Repair\nAC Replacement\nFurnace & Heating\nHeat Pumps\nDuctwork\nDuct Cleaning\nIndoor Air Quality\nWater Heater Installation\nMaintenance",
+              "field_value": "Furnace & Heating"
+             }
+            ],
+            "show_labels": "yes",
+            "mark_required": "yes",
+            "button_text": "Schedule Heating Repair",
+            "button_width": "100",
+            "button_text_color": "#121212",
+            "button_hover_color": "#121212",
+            "button_background_color": "#FFC600",
+            "button_background_hover_color": "#FFCF29",
+            "field_background_color": "#FFFFFF",
+            "column_gap": {
+             "unit": "px",
+             "size": 0,
+             "sizes": []
+            },
+            "row_gap": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "submit_actions": [
+             "email"
+            ],
+            "email_to": "Sierra@LenzHeatingandCooling.com",
+            "email_subject": "New estimate request from the website",
+            "email_content": "[all-fields]",
+            "email_from_name": "Lenz website",
+            "success_message": "Thanks — your request was received. We'll call you back within 2 hours during business hours. Need help now? Call (515) 225-6446.",
+            "required_field_message": "This field is required.",
+            "invalid_message": "Please check the highlighted fields.",
+            "_css_classes": "lz-form"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "form",
+           "elType": "widget"
+          },
+          {
+           "id": "4510040c",
+           "settings": {
+            "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

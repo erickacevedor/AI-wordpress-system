@@ -1,0 +1,2102 @@
+{
+ "version": "0.4",
+ "title": "Humidity Control",
+ "type": "page",
+ "content": [
+  {
+   "id": "47010ec2",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "hero hero--service svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "4700fb6b",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container hero__inner"
+     },
+     "elements": [
+      {
+       "id": "4700ae0f",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__copy"
+       },
+       "elements": [
+        {
+         "id": "47001357",
+         "settings": {
+          "html": "<nav class=\"crumbs\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li><a href=\"/indoor-air-quality/\">Indoor Air Quality</a></li><li aria-current=\"page\">Humidity Control</li></ol></nav>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "470026ae",
+         "settings": {
+          "html": "<span class=\"hero__eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg> Indoor air quality</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "47003a05",
+         "settings": {
+          "title": "Whole-Home <span class=\"accent\">Humidity Control</span> in Des Moines &amp; Central Iowa",
+          "header_size": "h1",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "47004d5c",
+         "settings": {
+          "editor": "Too Dry in Winter, Too Muggy in Summer? We Balance Both.",
+          "_css_classes": "hero__kicker"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "470060b3",
+         "settings": {
+          "editor": "Iowa homes get hit from both directions. All winter, your forced-air furnace dries the air out until you're dealing with static shocks, cracked lips, bloody noses, and gaps opening up in your hardwood floors. Then summer flips it—muggy, sticky air and a damp, musty basement that never quite feels fresh.",
+          "_css_classes": "hero__sub"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "47009ab8",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hero__cta"
+         },
+         "elements": [
+          {
+           "id": "4700740a",
+           "settings": {
+            "text": "Schedule a Humidity Consultation",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-gold"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "47008761",
+           "settings": {
+            "text": "Call (515) 225-6446",
+            "link": {
+             "url": "tel:+15152256446",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-outline-light lz-ico lz-ico-phone"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "4700e814",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__media"
+       },
+       "elements": [
+        {
+         "id": "4700c166",
+         "settings": {
+          "image": {
+           "url": "/wp-content/uploads/2026/10/lenz-comfort.webp",
+           "id": 30,
+           "size": "",
+           "alt": "A family relaxing together in a bright, comfortable Des Moines living room",
+           "source": "library"
+          },
+          "image_size": "full"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "image",
+         "elType": "widget"
+        },
+        {
+         "id": "4700d4bd",
+         "settings": {
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Whole-home humidity control</b>Upfront, To-the-Penny pricing.</span></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "470230db",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_attributes": "aria-label|At a glance",
+    "css_classes": "trustbar svc-page svc-page--air trustbar--long trustbar--4 e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "47021d84",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "47020a2d",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "trustbar__grid"
+       },
+       "elements": [
+        {
+         "id": "470148c7",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "47012219",
+           "settings": {
+            "editor": "Year-Round Balance",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "47013570",
+           "settings": {
+            "editor": "Humidifiers for dry winters, dehumidifiers for muggy summers—one integrated system",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "470182cc",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "47015c1e",
+           "settings": {
+            "editor": "Whole-Home Coverage",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "47016f75",
+           "settings": {
+            "editor": "Installed in your ductwork to treat every room, not just one",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4701bcd1",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "47019623",
+           "settings": {
+            "editor": "\"To The Penny\" Pricing Guarantee",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "4701a97a",
+           "settings": {
+            "editor": "Upfront quotes with zero hidden fees or surprise charges",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4701f6d6",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "4701d028",
+           "settings": {
+            "editor": "Veteran-Led Local Service",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "4701e37f",
+           "settings": {
+            "editor": "Background-checked technicians focused on your family's comfort and health",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "470352f4",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section section--mist pair svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "47033f9d",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "470318ef",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "4702deea",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-droplet\"/></svg> 30% to 50% is the sweet spot</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "4702f241",
+         "settings": {
+          "title": "The Right Humidity Level Changes Everything",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "47030598",
+         "settings": {
+          "editor": "Health and comfort experts agree that indoor relative humidity should sit <b>between 30% and 50%</b>. Drift too far in either direction and your home—and your family—feels it.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "47032c46",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "checklist-pair"
+       },
+       "elements": [
+        {
+         "id": "47027e37",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "checklist-card"
+         },
+         "elements": [
+          {
+           "id": "47024432",
+           "settings": {
+            "title": "Too Dry (Winter)",
+            "header_size": "h3",
+            "_css_classes": "checklist-card__heading"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "47025789",
+           "settings": {
+            "editor": "<p>When humidity drops below 30%, your forced-air heat pulls moisture out of everything:</p>",
+            "_css_classes": "checklist-card__sub"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "47026ae0",
+           "settings": {
+            "html": "<ul class=\"checklist\"><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Static shocks and frizzy, unmanageable hair</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Dry skin, chapped lips, and bloody noses</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Scratchy throats and worsened cold and flu symptoms</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Gaps and cracks in hardwood floors, trim, and furniture</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Air that feels colder than it is, so you crank the heat higher</span></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4702cb93",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "checklist-card"
+         },
+         "elements": [
+          {
+           "id": "4702918e",
+           "settings": {
+            "title": "Too Damp (Summer &amp; Basements)",
+            "header_size": "h3",
+            "_css_classes": "checklist-card__heading"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4702a4e5",
+           "settings": {
+            "editor": "<p>When humidity climbs above 50%, moisture has nowhere to go:</p>",
+            "_css_classes": "checklist-card__sub"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "4702b83c",
+           "settings": {
+            "html": "<ul class=\"checklist\"><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>A sticky, clammy feeling even with the AC running</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Musty odors, especially in basements</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Mold and mildew growth on walls and in corners</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>Dust mites and allergens that thrive in damp air</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span>An AC that runs constantly trying to keep up</span></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "47043b08",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section section--mist svc-intro svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "470427b1",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "4704145a",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "svc-intro__layout"
+       },
+       "elements": [
+        {
+         "id": "4703b3a7",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "svc-intro__copy"
+         },
+         "elements": [
+          {
+           "id": "4703664b",
+           "settings": {
+            "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-droplet\"/></svg> Dry winter air</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "470379a2",
+           "settings": {
+            "title": "Whole-Home Humidifiers: Beat the Dry Winter Air",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom",
+            "_css_classes": "section__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "47038cf9",
+           "settings": {
+            "editor": "A whole-home humidifier installs directly into your furnace and adds precise moisture to the warm air moving through your ducts. You set your target level once, and it maintains it automatically all winter.",
+            "_css_classes": "section__lead"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "4703a050",
+           "settings": {
+            "editor": "<p>The problem isn't your thermostat. It's your home's humidity. At Lenz Heating &amp; Cooling, we install whole-home humidifiers and dehumidifiers that connect right into your central HVAC system to hold your home in the healthy, comfortable range all year—automatically, and without a single portable unit cluttering your floor.</p>",
+            "_css_classes": "svc-intro__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "47040103",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "aside",
+          "css_classes": "checklist-card"
+         },
+         "elements": [
+          {
+           "id": "4703c6fe",
+           "settings": {
+            "editor": "Why homeowners love them:",
+            "_css_classes": "checklist-card__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "4703da55",
+           "settings": {
+            "html": "<ul class=\"checklist\"><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Healthier air:</b> Fewer sinus problems, less dry skin, and relief during cold and flu season</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Protects your home:</b> Stops hardwood floors, doors, trim, and wood furniture from cracking and shrinking</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Feels warmer for less:</b> Properly humidified air feels warmer, so you can lower the thermostat a couple degrees and cut your heating bill</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Zero hassle:</b> No tanks to refill like a portable unit—it draws water and drains automatically</span></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "4703edac",
+           "settings": {
+            "text": "Explore Humidifier Installation",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-primary"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "47050fc5",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section section--cream svc-intro svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "4704fc6e",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "4704e917",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "svc-intro__layout"
+       },
+       "elements": [
+        {
+         "id": "47048864",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "svc-intro__copy"
+         },
+         "elements": [
+          {
+           "id": "47044e5f",
+           "settings": {
+            "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-droplet\"/></svg> Muggy summers</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "470461b6",
+           "settings": {
+            "title": "Whole-Home Dehumidifiers: Dry Out the Muggy Season",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom",
+            "_css_classes": "section__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4704750d",
+           "settings": {
+            "editor": "A whole-home dehumidifier pulls excess moisture out of your entire home—not just one room—working alongside your AC to keep summer air crisp and your basement fresh.",
+            "_css_classes": "section__lead"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4704d5c0",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "aside",
+          "css_classes": "checklist-card"
+         },
+         "elements": [
+          {
+           "id": "47049bbb",
+           "settings": {
+            "editor": "Why homeowners love them:",
+            "_css_classes": "checklist-card__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "4704af12",
+           "settings": {
+            "html": "<ul class=\"checklist\"><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Kills the mustiness:</b> Finally makes damp basements usable and odor-free</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Stops mold before it starts:</b> Cuts the moisture mold and mildew need to grow</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Feels cooler for less:</b> Dry air feels cooler, so you can raise the thermostat and ease the load on your AC</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Protects your home:</b> Prevents moisture damage to walls, framing, and stored belongings</span></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "4704c269",
+           "settings": {
+            "text": "Explore Dehumidifier Installation",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-primary"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "47059726",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section compare-section section--mist svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "470583cf",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "47055d21",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "4705231c",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-info\"/></svg> Compare your options</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "47053673",
+         "settings": {
+          "title": "Whole-Home Systems vs. Portable Units",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "470549ca",
+         "settings": {
+          "editor": "Many homeowners start with a portable humidifier or a basement dehumidifier from the hardware store. Here's why a whole-home system is the better long-term fix:",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "47057078",
+       "settings": {
+        "editor": "<div class=\"compare\"><table><thead><tr><th scope=\"col\">Feature</th><th scope=\"col\">Portable Units</th><th scope=\"col\">Whole-Home System</th></tr></thead><tbody><tr><th scope=\"row\">Coverage</th><td data-label=\"Portable Units\">One room only</td><td data-label=\"Whole-Home System\">Every room, through your ductwork</td></tr><tr><th scope=\"row\">Maintenance</th><td data-label=\"Portable Units\">Refill tanks / empty buckets constantly</td><td data-label=\"Whole-Home System\">Automatic water supply and drainage</td></tr><tr><th scope=\"row\">Noise</th><td data-label=\"Portable Units\">Fan and motor noise in the room</td><td data-label=\"Whole-Home System\">Silent—operates at the furnace</td></tr><tr><th scope=\"row\">Floor space</th><td data-label=\"Portable Units\">Takes up floor space and an outlet</td><td data-label=\"Whole-Home System\">Hidden out of sight near your HVAC</td></tr><tr><th scope=\"row\">Control</th><td data-label=\"Portable Units\">Manual, guess-and-check</td><td data-label=\"Whole-Home System\">Set-and-forget with a humidistat</td></tr></tbody></table></div>",
+        "_css_classes": "compare-wrap"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "text-editor",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "47061e87",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section promo-section svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "47060b30",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "4705f7d9",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "service-help promo"
+       },
+       "elements": [
+        {
+         "id": "4705d12b",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "service-help__txt promo__txt"
+         },
+         "elements": [
+          {
+           "id": "4705aa7d",
+           "settings": {
+            "title": "Complete the Picture: The \"Breathe Easy\" Package",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom",
+            "_css_classes": "promo__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4705bdd4",
+           "settings": {
+            "editor": "<p>Humidity control pairs perfectly with clean air. For the healthiest home possible, combine your humidity system with whole-home air purification and professional duct cleaning—so the air moving through your home is both clean and properly balanced.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4705e482",
+         "settings": {
+          "text": "Learn About Our Breathe Easy Package",
+          "link": {
+           "url": "#contact",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "btn btn-gold"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "button",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "47077aa5",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "creds section svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "4707674e",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "470740a0",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "470719f2",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Why Lenz</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "47072d49",
+         "settings": {
+          "title": "Why Central Iowa Homeowners Choose Lenz",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "470753f7",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "creds__grid"
+       },
+       "elements": [
+        {
+         "id": "47066be3",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "creds__card"
+         },
+         "elements": [
+          {
+           "id": "470631de",
+           "settings": {
+            "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-card\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "47064535",
+           "settings": {
+            "title": "\"To The Penny\" Pricing Guarantee",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4706588c",
+           "settings": {
+            "editor": "The quote we give you upfront is the exact price on your final bill—no hidden fees, no surprise hourly charges.",
+            "_css_classes": "creds__text"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4706b93f",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "creds__card"
+         },
+         "elements": [
+          {
+           "id": "47067f3a",
+           "settings": {
+            "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "47069291",
+           "settings": {
+            "title": "Veteran-Owned &amp; Woman-Owned",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4706a5e8",
+           "settings": {
+            "editor": "We run on military-grade precision and honest, zero-pressure recommendations. We'll help you figure out what your home actually needs.",
+            "_css_classes": "creds__text"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4707069b",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "creds__card"
+         },
+         "elements": [
+          {
+           "id": "4706cc96",
+           "settings": {
+            "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "4706dfed",
+           "settings": {
+            "title": "Local Roots Since 2009",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4706f344",
+           "settings": {
+            "editor": "Deep experience with Central Iowa homes and the exact humidity swings our Midwest climate throws at them.",
+            "_css_classes": "creds__text"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "4707eeaf",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "faqs",
+    "css_classes": "faqs section svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "4707db58",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "4707b4aa",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head section__head--center"
+       },
+       "elements": [
+        {
+         "id": "47078dfc",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-info\"/></svg> FAQs</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "4707a153",
+         "settings": {
+          "title": "Humidity Control FAQ",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "4707c801",
+       "settings": {
+        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">What should indoor humidity be in an Iowa home? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p><b>Aim for 30% to 50% relative humidity year-round.</b> In winter you'll likely need to add moisture; in the humid summer and in basements, you'll need to remove it.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">Do I need a humidifier or a dehumidifier? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p><b>Most Central Iowa homes benefit from both</b>—a humidifier for the dry winter and a dehumidifier for the muggy summer or a damp basement. During your consultation we'll measure your home's levels and recommend what fits.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Can a whole-home humidifier or dehumidifier work with my existing furnace? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p><b>Yes. Both systems are designed to integrate with almost any existing forced-air furnace, air handler, or heat pump.</b> We'll confirm compatibility during your visit.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">Will balancing my humidity lower my energy bills? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p><b>Often, yes.</b> Humidified air feels warmer and dry summer air feels cooler, so you can adjust your thermostat a few degrees in either season and reduce the runtime on your heating and cooling equipment.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Are whole-home systems better than portable ones? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p><b>For whole-house comfort, yes.</b> Portable units treat one room, need constant refilling or emptying, and add noise. A whole-home system treats every room automatically and stays out of sight.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-6\" id=\"faq-6-t\">What areas do you serve? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-6\" role=\"region\" aria-labelledby=\"faq-6-t\"><p><b>We install humidity control systems across the Greater Des Moines metro</b>, including Des Moines, Urbandale, West Des Moines, Ankeny, Altoona, Clive, Waukee, Johnston, and surrounding Polk and Dallas County communities.</p></div></div></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "470a32e1",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section section--mist related svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "470a1f8a",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "470a0c33",
+       "settings": {
+        "content_width": "full",
+        "html_tag": "section",
+        "css_classes": "svc-band svc-band--air"
+       },
+       "elements": [
+        {
+         "id": "470862b9",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "svc-band__head"
+         },
+         "elements": [
+          {
+           "id": "47080206",
+           "settings": {
+            "html": "<span class=\"svc-band__icon\"><svg aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "47083c0b",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "svc-band__txt"
+           },
+           "elements": [
+            {
+             "id": "4708155d",
+             "settings": {
+              "title": "More Indoor Air Quality Services",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "470828b4",
+             "settings": {
+              "editor": "<p>The same local team for every part of your home comfort, from the first visit to the last.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "47084f62",
+           "settings": {
+            "html": "<a class=\"svc-band__go\" href=\"/indoor-air-quality/\">All Indoor Air Quality Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4709f8dc",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "svc-band__grid"
+         },
+         "elements": [
+          {
+           "id": "4708c36c",
+           "settings": {
+            "content_width": "full",
+            "html_tag": "a",
+            "link": {
+             "url": "/uv-light-purification/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "css_classes": "service-card"
+           },
+           "elements": [
+            {
+             "id": "47087610",
+             "settings": {
+              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "4708b015",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "lz-span"
+             },
+             "elements": [
+              {
+               "id": "47088967",
+               "settings": {
+                "title": "UV Light Purification",
+                "header_size": "h4"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "47089cbe",
+               "settings": {
+                "editor": "<p>Treat air as it moves through the system.</p>"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "text-editor",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "4709241f",
+           "settings": {
+            "content_width": "full",
+            "html_tag": "a",
+            "link": {
+             "url": "/air-purification/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "css_classes": "service-card"
+           },
+           "elements": [
+            {
+             "id": "4708d6c3",
+             "settings": {
+              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "470910c8",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "lz-span"
+             },
+             "elements": [
+              {
+               "id": "4708ea1a",
+               "settings": {
+                "title": "Indoor Purification",
+                "header_size": "h4"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "4708fd71",
+               "settings": {
+                "editor": "<p>Filtration for dust, dander and allergens.</p>"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "text-editor",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "470984d2",
+           "settings": {
+            "content_width": "full",
+            "html_tag": "a",
+            "link": {
+             "url": "/duct-cleaning/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "css_classes": "service-card"
+           },
+           "elements": [
+            {
+             "id": "47093776",
+             "settings": {
+              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-wind\"/></svg></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "4709717b",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "lz-span"
+             },
+             "elements": [
+              {
+               "id": "47094acd",
+               "settings": {
+                "title": "Duct Cleaning",
+                "header_size": "h4"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "47095e24",
+               "settings": {
+                "editor": "<p>Clear out built-up dust and debris.</p>"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "text-editor",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "4709e585",
+           "settings": {
+            "content_width": "full",
+            "html_tag": "a",
+            "link": {
+             "url": "/maintenance-plan/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "css_classes": "service-card"
+           },
+           "elements": [
+            {
+             "id": "47099829",
+             "settings": {
+              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "4709d22e",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "lz-span"
+             },
+             "elements": [
+              {
+               "id": "4709ab80",
+               "settings": {
+                "title": "Maintenance Plans",
+                "header_size": "h4"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "4709bed7",
+               "settings": {
+                "editor": "<p>Priority dispatch and 10 to 20% off parts.</p>"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "text-editor",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "470af447",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "contact",
+    "css_classes": "close-form section svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "470ae0f0",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "470acd99",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "close-form__inner"
+       },
+       "elements": [
+        {
+         "id": "470a9394",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "470a598f",
+           "settings": {
+            "title": "Ready to Feel Comfortable in Every Season?",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "470a6ce6",
+           "settings": {
+            "editor": "<p>Stop fighting static in the winter and mugginess in the summer. Let Lenz balance your home's humidity for cleaner air, better comfort, and a home that's protected year-round.</p>",
+            "_css_classes": "close-form__lead"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "470a803d",
+           "settings": {
+            "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "470aba42",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "form-card"
+         },
+         "elements": [
+          {
+           "id": "470a4638",
+           "settings": {
+            "form_name": "Estimate request",
+            "form_fields": [
+             {
+              "_id": "name",
+              "custom_id": "name",
+              "field_type": "text",
+              "field_label": "Name",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "phone",
+              "custom_id": "phone",
+              "field_type": "tel",
+              "field_label": "Phone",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "service",
+              "custom_id": "service",
+              "field_type": "select",
+              "field_label": "Service",
+              "required": "true",
+              "width": "100",
+              "placeholder": "",
+              "field_options": "Choose a service…|\nAir Conditioning\nAC Installation\nAC Repair\nAC Replacement\nFurnace & Heating\nHeat Pumps\nDuctwork\nDuct Cleaning\nIndoor Air Quality\nWater Heater Installation\nMaintenance",
+              "field_value": "Indoor Air Quality"
+             }
+            ],
+            "show_labels": "yes",
+            "mark_required": "yes",
+            "button_text": "Schedule a Humidity Consultation",
+            "button_width": "100",
+            "button_text_color": "#121212",
+            "button_hover_color": "#121212",
+            "button_background_color": "#FFC600",
+            "button_background_hover_color": "#FFCF29",
+            "field_background_color": "#FFFFFF",
+            "column_gap": {
+             "unit": "px",
+             "size": 0,
+             "sizes": []
+            },
+            "row_gap": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "submit_actions": [
+             "email"
+            ],
+            "email_to": "Sierra@LenzHeatingandCooling.com",
+            "email_subject": "New estimate request from the website",
+            "email_content": "[all-fields]",
+            "email_from_name": "Lenz website",
+            "success_message": "Thanks — your request was received. We'll call you back within 2 hours during business hours. Need help now? Call (515) 225-6446.",
+            "required_field_message": "This field is required.",
+            "invalid_message": "Please check the highlighted fields.",
+            "_css_classes": "lz-form"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "form",
+           "elType": "widget"
+          },
+          {
+           "id": "470aa6eb",
+           "settings": {
+            "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

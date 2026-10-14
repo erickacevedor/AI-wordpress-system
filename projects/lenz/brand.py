@@ -403,3 +403,41 @@ def trustbar(items, extra=""):
             box("trustbar__item", [text(v, "trustbar__value"), text(l, "trustbar__label")]) for v, l in items
         ]),
     ], label="At a glance")
+
+
+# ClickUp 09/10 items 7 to 9: discount on parts only, "year" spelled out, the
+# loyalty wording reworked.
+PLANS = [
+    ("red", "RED", "$120", "1 year term", ["<b>2</b> maintenance checks", "<b>72-hour</b> emergency response",
+     "<b>10%</b> off parts", "<b>$50</b> loyalty credit banked every year you renew"], "btn btn-outline", False),
+    ("white", "WHITE", "$160", "1½ year term", ["<b>3</b> maintenance checks", "<b>48-hour</b> emergency response",
+     "<b>15%</b> off parts", "<b>$100</b> loyalty credit banked every year you renew"], "btn btn-outline", False),
+    ("blue", "BLUE", "$220", "2 year term", ["<b>4</b> maintenance checks", "<b>24-hour</b> emergency response",
+     "<b>20%</b> off parts", "<b>$150</b> loyalty credit banked every year you renew"], "btn btn-primary", True),
+]
+PLANS_LEAD = ("Keep your heating and cooling systems running smoothly year-round with a Lenz Service Agreement. "
+              "Enjoy priority emergency dispatch, routine maintenance checks, exclusive discounts on repair parts, "
+              "and banked loyalty rewards all managed automatically by our team.")
+
+
+def plans_section(title="Save Money &amp; Prevent Sudden HVAC Breakdowns", lead=PLANS_LEAD, extra="",
+                  eb=("i-award", "Service agreements")):
+    """The home's RED / WHITE / BLUE service agreements block."""
+    cards = []
+    for key, name, price, term, items, btn_cls, rec in PLANS:
+        top = '<span class="plan__badge">Recommended</span>' if rec else ""
+        cards.append(box("plan plan--" + key, [
+            raw(top + '<span class="plan__stripe" aria-hidden="true"></span>'),
+            text(name, "plan__name"),
+            text("%s <small>+ tax / year</small>" % price, "plan__price"),
+            text(term, "plan__meta"),
+            raw('<ul class="plan__list">%s</ul>' % "".join(
+                "<li>%s<span>%s</span></li>" % (svg("i-check", "icon-sm"), i) for i in items)),
+            button("Choose " + name, L["form"], btn_cls),
+        ]))
+    return section(("plans section " + extra).strip(), [
+        head(*eb, title, lead, extra="section__head--center"),
+        box("plans__grid", cards),
+        text("We call you to schedule the appointments — no reminder notes on your fridge. Loyalty bonus "
+             "transfers to a new homeowner who continues the agreement.", "plans__note"),
+    ], el_id="plans")

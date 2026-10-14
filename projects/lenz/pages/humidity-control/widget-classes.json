@@ -1,0 +1,20 @@
+{
+  "btn": "button",
+  "btn-gold": "button",
+  "btn-outline-light": "button",
+  "btn-primary": "button",
+  "checklist-card__heading": "heading",
+  "checklist-card__sub": "text",
+  "checklist-card__title": "text",
+  "close-form__lead": "text",
+  "compare-wrap": "text",
+  "creds__text": "text",
+  "hero__kicker": "text",
+  "hero__sub": "text",
+  "promo__title": "heading",
+  "section__lead": "text",
+  "section__title": "heading",
+  "svc-intro__body": "text",
+  "trustbar__label": "text",
+  "trustbar__value": "text"
+}
