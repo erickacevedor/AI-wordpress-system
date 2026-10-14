@@ -1,0 +1,129 @@
+/* ============================================================================
+   tokens.css — Lenz Heating & Cooling design system (standalone)
+   Elementor Global import target. ZERO hardcoded hex outside this file.
+   Every other file references these custom properties only.
+   Color values are the AUDITED set from the prompt §5.1 — used as-is, the four
+   contrast corrections (§10.1) are already baked in.
+   ============================================================================ */
+
+:root {
+  /* ---- Brand Blue ------------------------------------------------------- */
+  --blue-50:#F1F4FD; --blue-100:#DFE4FB; --blue-200:#BBC6F6; --blue-300:#8095EF;
+  --blue-400:#4160E7;  /*  5.18:1 on white  AA */
+  --blue-500:#1A3BCC;  /*  8.26:1 on white  AA  <- brand base */
+  --blue-600:#1837BE;  /*  9.02:1 on white  AA  <- CTA background */
+  --blue-700:#122A91;  /* 11.89:1 on white  AA */
+  --blue-800:#0D1D64;  /* 15.25:1 on white  AA */
+  --blue-900:#07113B;  /* 18.22:1 on white  AA  <- Deep Navy */
+
+  /* ---- Heat Orange ------------------------------------------------------ */
+  --orange-50:#FEF4F1; --orange-100:#FDE5DE; --orange-200:#FAC8B7; --orange-300:#F6997A;
+  --orange-400:#F16537; /* 3.15:1 — LARGE TEXT / UI ONLY */
+  --orange-500:#F05A28; /* 3.39:1 — LARGE TEXT / GRADIENTS ONLY <- brand base */
+  --orange-600:#C83D0E; /* 5.09:1 — AA for body text */
+  --orange-700:#992E0B; --orange-800:#692007; --orange-900:#3E1304;
+
+  /* ---- Flame Gold — inherently light; NEVER carries white text ---------- */
+  --gold-50:#FFFCF0;   /* <- the cream page surface */
+  --gold-100:#FFF7DB; --gold-200:#FFEEB2; --gold-300:#FFDF70; --gold-400:#FFCF29;
+  --gold-500:#FFC600;  /* 11.89:1 against #121212 <- brand base */
+  --gold-600:#D6A600; --gold-700:#A37F00; /* 3.75:1 on white */
+  --gold-800:#705700; --gold-900:#423300;
+
+  /* ---- Cool Purple ------------------------------------------------------ */
+  --purple-50:#FAF3FB; --purple-100:#F3E4F6; --purple-200:#E6C5EC; --purple-300:#D093DC;
+  --purple-400:#B85DCB;
+  --purple-500:#7B2D8B; /* 8.11:1 on white <- brand base */
+  --purple-600:#8F34A2; /* 6.60:1 on white */
+  --purple-700:#6D287B; --purple-800:#4B1B55; --purple-900:#2C1032;
+
+  /* ---- Neutrals — fixed ------------------------------------------------- */
+  --neutral-0:#FFFFFF;   --neutral-50:#F8F8F8;  --neutral-100:#F0F0F0;
+  --neutral-200:#E0E0E0; --neutral-300:#BDBDBD; --neutral-400:#9E9E9E;
+  --neutral-500:#757575; --neutral-600:#616161; --neutral-700:#424242;
+  --neutral-800:#212121; --neutral-900:#121212;
+
+  /* ---- Gradients — the brand's signature element ------------------------ */
+  --gradient-warm:        linear-gradient(135deg, #FFC600 0%, #F05A28 100%);
+  --gradient-temperature: linear-gradient(135deg, #F05A28 0%, #7B2D8B 100%);
+  --gradient-cool:        linear-gradient(135deg, #1A3BCC 0%, #07113B 100%);
+  --gradient-wordmark:    linear-gradient(170deg, #FFC600 0%, #F05A28 38%, #D62828 62%, #7B2D8B 100%);
+  /* Heading gradient — uses the -600 stops so clipped text passes AA <18px. */
+  --gradient-heading:     linear-gradient(96deg, var(--orange-600) 0%, var(--purple-600) 100%);
+
+  /* ---- Semantic roles --------------------------------------------------- */
+  --color-bg-primary:#FFFFFF;
+  --color-bg-secondary:var(--neutral-50);
+  --color-border:var(--neutral-200);
+  --color-border-strong:var(--neutral-300);
+  --color-text-primary:var(--neutral-900);
+  --color-text-secondary:var(--neutral-600);
+
+  --color-cta-bg:var(--blue-600); --color-cta-bg-hover:var(--blue-700);
+  --color-cta-bg-active:var(--blue-800); --color-cta-text:#FFFFFF;
+
+  --color-accent:#D6410F;                     /* CORRECTED — 4.54:1 on white */
+  --color-accent-display:var(--orange-500);   /* large display type + gradients only */
+  --color-gold-bg:var(--gold-500); --color-gold-text:var(--neutral-900);
+
+  --color-dark-bg:var(--blue-900); --color-dark-bg-raised:#0D1A4E;
+  --color-dark-text:#FFFFFF; --color-dark-text-mute:var(--blue-200);
+  --color-dark-border:#1B2A6B;
+
+  --color-star:#F59E0B; --color-star-edge:var(--gold-700);
+  --color-error:#B3261E; --color-success:#1B6E3C;
+
+  /* ---- Seasonal offer-bar sets — all pass AA for large text ------------- */
+  --season-summer-bg:var(--orange-800); --season-summer-txt:#FFFFFF; --season-summer-cta:var(--gold-500);
+  --season-winter-bg:var(--blue-900);   --season-winter-txt:#FFFFFF; --season-winter-cta:var(--orange-400);
+  --season-spring-bg:var(--purple-800); --season-spring-txt:#FFFFFF; --season-spring-cta:var(--gold-500);
+  --season-fall-bg:var(--orange-900);   --season-fall-txt:#FFFFFF;   --season-fall-cta:var(--gold-500);
+
+  /* ---- Typography — Major Third (1.250), 16px base --------------------- */
+  --font-heading:'Montserrat', system-ui, sans-serif;
+  --font-body:'Open Sans', system-ui, sans-serif;
+
+  --text-2xs:10px;  --text-xs:13px;  --text-sm:16px;  --text-md:20px;
+  --text-lg:25px;   --text-xl:31px;  --text-2xl:39px; --text-3xl:49px;  --text-4xl:61px;
+  --text-hero:clamp(39px, 4.6vw + 12px, 61px);
+
+  --font-regular:400; --font-medium:500; --font-semibold:600;
+  --font-bold:700;    --font-extrabold:800;
+
+  --measure-max:62ch;
+
+  /* ---- Spacing — 4px ladder, named by px/4 ----------------------------- */
+  --space-1:4px;  --space-2:8px;   --space-3:12px;  --space-4:16px;
+  --space-5:20px; --space-6:24px;  --space-8:32px;  --space-10:40px;
+  --space-12:48px; --space-16:64px; --space-20:80px; --space-24:96px;
+  --space-32:128px; --space-40:160px; --space-48:192px;
+
+  /* ---- Layout — locked -------------------------------------------------- */
+  --content-max:1140px;   /* Elementor default — LOCKED */
+  /* Was 44px and marked LOCKED. Raised deliberately: the 47px logo plus 12px of
+     block padding needs 71px, and a 29px mark in a 44px bar read as too small.
+     Treat this as a MIN-height now — the bar is sized by its padding + content, so
+     `height:` on .nav would clip the padding under border-box. */
+  --navbar-height:72px;
+  --offer-bar-height:28px;/* LOCKED */
+
+  /* ---- Radii — OURS (direction D: generous but not app-round) ---------- */
+  --radius-xs:4px; --radius-sm:8px; --radius-md:12px; --radius-lg:18px;
+  --radius-xl:28px; --radius-pill:999px;
+
+  /* ---- Elevation — navy-tinted (direction D) --------------------------- */
+  --shadow-1:0 1px 2px rgba(7,17,59,0.08), 0 1px 3px rgba(7,17,59,0.10);
+  --shadow-2:0 4px 10px rgba(7,17,59,0.10), 0 2px 4px rgba(7,17,59,0.08);
+  --shadow-3:0 12px 28px rgba(7,17,59,0.16), 0 6px 12px rgba(7,17,59,0.10);
+  --shadow-4:0 28px 60px rgba(7,17,59,0.28), 0 12px 24px rgba(7,17,59,0.18);
+  --shadow-glow:0 0 0 1px rgba(255,198,0,0.18), 0 18px 50px rgba(240,90,40,0.22);
+
+  /* ---- Motion ----------------------------------------------------------- */
+  --transition-fast:150ms ease;
+  --transition-base:200ms ease;
+  --transition-slow:300ms cubic-bezier(0.22,1,0.36,1);
+
+  /* ---- Focus ring ------------------------------------------------------- */
+  --focus-ring:0 0 0 3px var(--gold-500), 0 0 0 5px var(--blue-900);
+  --focus-ring-dark:0 0 0 3px var(--gold-500), 0 0 0 5px #FFFFFF;
+}

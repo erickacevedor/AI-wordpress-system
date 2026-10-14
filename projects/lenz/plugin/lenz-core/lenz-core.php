@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Lenz Core
  * Description:       Design system, icon sprite, service CPT and custom widgets for Lenz Heating & Cooling. Everything the Elementor kit cannot carry on its own.
- * Version:           0.1.0
+ * Version:           0.2.0
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            Lenz
@@ -23,7 +23,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'LENZ_CORE_VERSION', '0.1.0' );
+define( 'LENZ_CORE_VERSION', '0.2.0' );
 define( 'LENZ_CORE_FILE', __FILE__ );
 define( 'LENZ_CORE_PATH', plugin_dir_path( __FILE__ ) );
 define( 'LENZ_CORE_URL', plugin_dir_url( __FILE__ ) );
@@ -42,6 +42,15 @@ define( 'LENZ_CORE_URL', plugin_dir_url( __FILE__ ) );
 function lenz_core_enqueue_assets() {
 	$css = LENZ_CORE_PATH . 'assets/css/lenz-core.css';
 
+	// The prototype's exact font request. Only these weights exist, so text set
+	// at 600 in Montserrat renders the way the approved design shows it.
+	wp_enqueue_style(
+		'lenz-fonts',
+		'https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600;700&display=swap',
+		array(),
+		null
+	);
+
 	wp_enqueue_style(
 		'lenz-core',
 		LENZ_CORE_URL . 'assets/css/lenz-core.css',
@@ -52,28 +61,36 @@ function lenz_core_enqueue_assets() {
 add_action( 'wp_enqueue_scripts', 'lenz_core_enqueue_assets', 20 );
 
 /**
- * Header behaviour: offer-bar seasonality, sticky-nav state, and the mega-menu
- * keyboard shim.
- *
- * Front end only — inside the Elementor editor the shim would fight the canvas's
- * own click handling, and a seasonal copy swap would look like unsaved changes.
- * Deferred, because none of it needs to run before paint.
+ * Elementor would otherwise request every weight of the kit's fonts (Montserrat
+ * 100 to 900), which both costs a round of downloads and renders the design's
+ * 600-weight labels lighter than the approved prototype. lenz-core owns fonts.
  */
-function lenz_core_enqueue_header_js() {
-	$js = LENZ_CORE_PATH . 'assets/js/lenz-header.js';
+add_filter( 'elementor/frontend/print_google_fonts', '__return_false' );
+
+/**
+ * Front-end behaviour, ported from the v6-1 prototype's lenz.js: sticky-nav
+ * state, the Services mega menu, the mobile menu and its accordion, the FAQ
+ * disclosure and the brand marquee loop. See assets/js/lenz-site.js.
+ *
+ * Front end only: inside the Elementor editor these handlers would fight the
+ * canvas's own click handling. Deferred, because none of it is needed before
+ * paint.
+ */
+function lenz_core_enqueue_site_js() {
+	$js = LENZ_CORE_PATH . 'assets/js/lenz-site.js';
 	if ( ! file_exists( $js ) ) {
 		return;
 	}
 
 	wp_enqueue_script(
-		'lenz-header',
-		LENZ_CORE_URL . 'assets/js/lenz-header.js',
+		'lenz-site',
+		LENZ_CORE_URL . 'assets/js/lenz-site.js',
 		array(),
 		filemtime( $js ),
 		array( 'strategy' => 'defer', 'in_footer' => true )
 	);
 }
-add_action( 'wp_enqueue_scripts', 'lenz_core_enqueue_header_js', 20 );
+add_action( 'wp_enqueue_scripts', 'lenz_core_enqueue_site_js', 20 );
 
 /**
  * Inject the Lucide-geometry icon sprite once per page.

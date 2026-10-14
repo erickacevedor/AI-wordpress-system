@@ -1,0 +1,1 @@
+Snapshot of erickacevedor/lenz @ 12259d2 (2026-10-11): v6-1.html, tokens.css, css/lenz-v6-1.css, js/. Images live in the lenz repo (assets/img) and in WordPress media; waves SVGs ship in plugin/lenz-core/assets/img/waves.

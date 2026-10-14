@@ -1,93 +1,83 @@
-# Lenz — Home (v4) · handoff
+# Lenz: Home (v6-1) handoff
 
-**Status:** all 15 homepage sections built, imported and verified on `lenz-2026`
-(page #23, set as the front page). Header and footer are done as Theme Builder parts —
-see `../_theme/HANDOFF-notes.md`.
+**Status (2026-10-13):** built from the approved prototype v6-1 and imported on the
+Mac Local copy `lenz-2026` (page 23, front page). Not on lenz.mysites.io yet.
+Verified against the prototype with headless Chromium at 1440, 1024, 768 and 390:
+every section has the same height as the prototype at all four widths, and an
+element-by-element position diff shows no difference above 3px except the
+deliberate fixes listed below.
 
-hero · trust bar · services · CTA band · financing · value props · plans · reviews ·
-brands · about · WHO 13 · credentials · service area · FAQs · close + form
+## SEO (set in the SEO plugin; Elementor JSON cannot carry these)
 
-## Rebuild / reimport loop
+- **Meta title:** `Des Moines HVAC Repair and Install | Lenz Heating & Cooling`
+- **Meta description:** `Des Moines HVAC repair and replacement. Veteran and woman-owned, 24/7 service, upfront pricing, free estimates on new systems.`
+  (Changed from the doc and v6-1, which said "no trip or diagnostic fees": that
+  contradicts the client's 09/10 ClickUp decision that only estimates are free.
+  Approved by Erick 2026-10-13.)
+- Slug: `/` (front page, page 23 `home`)
+- Canonical: https://www.lenzheatingandcooling.com/
+- Schema: the prototype hand-writes HVACBusiness + FAQPage JSON-LD in its <head>.
+  Not ported yet: decide whether the SEO plugin or lenz-core owns it, so it is
+  not emitted twice. No aggregateRating until verified Google data exists.
+
+## How it is built
+
+`brand.py` mirrors the prototype DOM and class names; `tools/port-css.py` ports
+the prototype stylesheet into `lenz-core`; the Elementor adapter at the top of
+`lenz-core.css` makes Elementor's wrappers transparent. Rebuild everything with:
 
 ```bash
-python projects/lenz/pages/home/build.py
-python scripts/validate-page.py projects/lenz/pages/home/home.json     # must exit 0
-wp eval-file projects/lenz/tools/import-page.php \
-   projects/lenz/pages/home/home.json home "Home"                      # idempotent
+projects/lenz/build-all.sh                      # build + gate + port
+LENZ_WP_CLI=<wp wrapper> LENZ_WP=<app/public> projects/lenz/build-all.sh --import   # LOCAL only
 ```
 
-The plugin is deployed separately — **it is not carried by the page JSON**:
+Band order and backgrounds are CSS-owned (`section`, `section--mist`,
+`.dark-section` classes), so the gate's "same background" rhythm warnings are
+expected and not findings.
 
-```bash
-projects/lenz/deploy-plugin.sh      # repo -> wp-content/plugins/lenz-core
-```
+## Dependencies on the target install
 
-Re-run the deploy after *any* stylesheet edit. The repo is the source of truth;
-editing the plugin inside `wp-content/plugins/` is overwritten on the next deploy.
+- **lenz-core 0.2.0 active** (CSS, icon sprite, fonts, `lenz-site.js`). Without
+  it the page is structurally intact and visually broken.
+- Elementor + PRO Elements (Pro Form widget for the estimate form).
+- Site setting: **Elementor > Settings: Disable Default Colors and Disable Default
+  Fonts** (`elementor_disable_color_schemes` / `elementor_disable_typography_schemes`
+  = yes). Otherwise the kit paints every heading in the global primary blue.
+- Google Fonts are loaded by lenz-core (the prototype's exact weights);
+  Elementor's own font loading is switched off by lenz-core.
 
-## Verified on the live render
+## Deliberate differences from v6-1
 
-| | |
+| What | Why |
 |---|---|
-| Page | HTTP 200, 0 PHP errors |
-| Headings | 1 × H1, 1 × H2, 5 × H3, 17 × H4 |
-| Icon sprite | 24 symbols injected, 33 `<use>` references |
-| Container classes | all present with correct counts (5 trust items, 4 lead cards, 17 service cards) |
-| Native gradients | 4, all emitted as `linear-gradient(135deg, var(--e-global-color-…))` |
-| CSS-owned effects | hero radials, lead-card sheen, clipped text, trust-bar borders, button variants, 5 reduced-motion blocks |
+| Meta description wording | see SEO above |
+| Brands section below 904px: column min-width 0 | v6-1 clips the heading, lead and chips off the right edge on phones (marquee sets the column's minimum width) |
+| Estimate form is an Elementor Pro form | the prototype form posts nowhere |
+| Internal links point to the planned page slugs | the prototype links to `#` |
+| "Explore financing" goes to `/financing/` | the prototype pointed at `#contact`; a Financing page now exists in the sitemap |
+| "Watch Our Latest News Segments" goes to `/hello-iowa/` | the prototype had `#contact`; the Hello Iowa page doc exists |
 
-## Three things learned the hard way (already fixed)
+## After import: confirm or wire up
 
-1. **Containers use `css_classes`; widgets use `_css_classes`.** Using the widget key
-   on a container fails *silently* — the class sits in the JSON, imports without a
-   complaint, and never reaches the markup. Cost a full debug cycle. Now handled in
-   `_apply_classes()`.
-2. **Gradient stops bind to Global Colors via `__globals__`,** not by putting the
-   `globals/colors?id=…` string in the colour value. The wrong form renders nothing.
-3. **`.lead-card--warm` uses `--gradient-temperature`, not `--gradient-warm`.** The
-   class name and the gradient name disagree in the source; collapsing them silently
-   swaps two brand gradients. The heating card shipped gold→orange for one build
-   before this was caught.
+- **Form recipient:** the email action sends to Sierra@LenzHeatingandCooling.com
+  (the contact email ClickUp settled on). Confirm the recipient, add SMTP and spam
+  protection before launch. On Local, mail goes to Mailpit.
+- **Page slugs with no doc yet** (links already point at them): heating-replacement,
+  duct-cleaning, additional-services and its five children, privacy-policy, terms.
+  "Indoor Purification" links to `/air-purification/` (the doc's page name).
+- **Reviews** are the hardcoded quotes; "Real reviews" links to a Google Maps
+  search until the GBP Place ID is known.
+- **Map** shows the Urbandale office only (the doc asks for both offices plus a
+  service radius).
+- **Media:** attachments 30 to 43 on the Local install (`media.json`). Moving to
+  mysites needs the same files and an id remap in `media.json`.
 
-## Known gaps in what is built
+## Editing notes for whoever maintains it
 
-- **The form sends nowhere yet.** Pro Forms is wired with an email action to
-  `jenny@lenzheatingandcooling.com`, but Local has no SMTP — nothing will actually
-  deliver until an SMTP plugin is configured. It also has **no spam protection** and
-  **no lead storage**; both are required before this goes near production.
-- **The About media bleed is partial.** The row is a grid so the negative margin does
-  widen the cell, but it does not reach the full −72px. Decorative only; `overflow:hidden`
-  prevents any horizontal scrollbar.
-- **Reviews are the hardcoded fallback quotes.** The skeleton/live states and the
-  Places REST proxy are not built. No `aggregateRating` is emitted, correctly.
-- **Brand logos are text wordmarks.** The marquee widget renders an image the moment a
-  repeater row gets one.
-
-## Deliberately deferred
-
-- **Elementor icon-picker library.** The sprite works via `<use>`, but the icons are
-  not pickable in widget icon controls. `additional_tabs` is built for icon *fonts*,
-  so this needs a generated `mask-image` CSS layer plus a JSON manifest.
-- **Services as a CPT.** Hand-assembled per the revised decision. Adding a service is
-  currently a three-place edit (grid, mega menu, footer). Card shape is unchanged, so
-  migration stays a contents swap.
-- **The 13 remaining sections.**
-
-(Header and footer are **done** — see `../_theme/HANDOFF-notes.md`. Read its width-budget
-note before adding a nav item.)
-
-## Publish-time wiring (not stored in Elementor JSON)
-
-- SEO title (< 60), meta description (< 155), slug — via Rank Math / Yoast.
-- Decide schema ownership: the static build hand-wrote `HVACBusiness` + `FAQPage`
-  JSON-LD. An SEO plugin will duplicate it unless one owner is chosen.
-- **No `aggregateRating`** until verified Google data exists.
-- Image URLs are root-relative (`/wp-content/uploads/…`), so the page is not welded
-  to `http://localhost:10010`. Attachment ids are recorded in `../../media.json`.
-
-## Still blocked on assets
-
-Carried from `js/lenz-config.js` — these block launch, not the build: logo SVGs,
-approved hero photography (current image is a stand-in with no technician and no Lenz
-branding), the nine manufacturer logos, the WHO 13 segment URL, the GBP Place ID +
-reviews proxy, the real financing application URL, and the 18 live service page URLs.
+- Style lives in lenz-core: changing a colour or size in the Elementor panel does
+  nothing where the prototype CSS sets it. Text, links, images and order are
+  editable in Elementor.
+- The FAQ, the marquee, the map and the WHO 13 video are html widgets (verbatim
+  prototype markup). Edit them in `build.py` and rebuild.
+- In the Elementor editor canvas the html widgets keep their wrapper box, so the
+  editor view is slightly looser than the front end.

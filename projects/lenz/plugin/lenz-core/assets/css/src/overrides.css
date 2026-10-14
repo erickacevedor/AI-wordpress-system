@@ -1,0 +1,124 @@
+/* ============================================================================
+   HAND-WRITTEN OVERRIDES (come last in lenz-core.css)
+
+   Only what the porter cannot derive from the prototype: the button icon masks
+   (button text is kses-filtered, so no inline SVG) and the Elementor Pro form,
+   whose markup differs from the prototype's static form. Values are copied from
+   the prototype rules named in each comment.
+   ============================================================================ */
+
+/* ---- Button icons --------------------------------------------------------- */
+.elementor .lz-ico .elementor-button::before {
+  content: "";
+  flex: none;
+  width: 20px;            /* .btn svg */
+  height: 20px;
+  background: currentColor;
+  -webkit-mask: var(--lz-ico) center / contain no-repeat;
+  mask: var(--lz-ico) center / contain no-repeat;
+}
+.elementor .lz-ico-phone { --lz-ico: url(../icons/i-phone.svg); }
+.elementor .lz-ico-arrow { --lz-ico: url(../icons/i-arrow.svg); }
+.elementor .lz-ico-check { --lz-ico: url(../icons/i-check.svg); }
+
+/* ---- Estimate form (prototype: .form-field, .form-card .btn, .form-note) --- */
+/* Selectors carry .elementor-widget-form so they match the widget's own element
+   CSS (0,4,0) and win by load order. Gaps: 20px under each field (.form-field),
+   none under the button, no negative gutter on the wrapper. */
+.elementor .lz-form.elementor-widget-form .elementor-form-fields-wrapper { margin: 0; }
+.elementor .lz-form.elementor-widget-form .elementor-field-group {
+  padding: 0;
+  margin: 0 0 var(--space-5);
+}
+.elementor .lz-form.elementor-widget-form .elementor-field-group > .elementor-field-label {
+  display: block;
+  padding: 0;
+  margin: 0 0 var(--space-2);
+  font-family: var(--font-heading);
+  font-weight: var(--font-bold);
+  font-size: var(--text-xs);
+  line-height: 1.7;
+  color: var(--color-text-primary);
+}
+.elementor .lz-form.elementor-widget-form .elementor-mark-required .elementor-field-label::after {
+  content: "*";
+  color: var(--color-error);
+  padding-left: 0.25em;
+}
+.elementor .lz-form.elementor-widget-form .elementor-field-group .elementor-field:not(.elementor-select-wrapper),
+.elementor .lz-form.elementor-widget-form .elementor-field-group .elementor-select-wrapper select {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 var(--space-4);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  line-height: 1.7;
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  box-shadow: none;
+}
+.elementor .lz-form.elementor-widget-form .elementor-field-group .elementor-select-wrapper select {
+  padding-right: var(--space-3);
+  -webkit-appearance: auto;
+  appearance: auto;        /* the prototype keeps the native select arrow */
+}
+.elementor .lz-form.elementor-widget-form .elementor-select-wrapper::before,
+.elementor .lz-form.elementor-widget-form .elementor-select-wrapper .select-caret-down-wrapper { display: none; }
+.elementor .lz-form.elementor-widget-form .elementor-field-group .elementor-field:not(.elementor-select-wrapper):focus,
+.elementor .lz-form.elementor-widget-form .elementor-field-group .elementor-select-wrapper select:focus {
+  outline: none;
+  border-color: var(--blue-600);
+  box-shadow: var(--focus-ring);
+}
+.elementor .lz-form.elementor-widget-form .elementor-field-group .elementor-field[aria-invalid="true"] { border-color: var(--color-error); }
+.elementor .lz-form.elementor-widget-form .elementor-message-danger,
+.elementor .lz-form.elementor-widget-form .elementor-error .elementor-message { color: var(--color-error); }
+.elementor .lz-form.elementor-widget-form .elementor-field-group.elementor-field-type-submit { margin: 0; }
+/* Submit = .btn.btn-gold, full width, 52px (.form-card .btn). */
+.elementor .lz-form.elementor-widget-form .elementor-button[type="submit"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 52px;
+  padding: 0 var(--space-6);
+  font-family: var(--font-heading);
+  font-weight: var(--font-bold);
+  font-size: var(--text-sm);
+  line-height: 1;
+  border: 2px solid transparent;
+  border-radius: var(--radius-pill);
+  background: var(--color-gold-bg);
+  color: var(--color-gold-text);
+}
+.elementor .lz-form.elementor-widget-form .elementor-button[type="submit"]:hover { background: var(--gold-400); }
+.elementor .lz-form.elementor-widget-form .elementor-button[type="submit"]:active { background: var(--gold-600); }
+.elementor .lz-form.elementor-widget-form .elementor-message-success {
+  display: flex;
+  border: 1px solid var(--color-success);
+  color: var(--neutral-900);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  font-size: var(--text-sm);
+}
+
+/* ---- Theme Builder header --------------------------------------------------
+   header.nav is position:sticky. Its containing block must be the page, not the
+   Theme Builder wrapper (which is only as tall as the header), so the wrapper
+   gives up its box. The mobile-menu host is a zero-size carrier for the fixed
+   overlay. */
+.elementor-location-header { display: contents; }
+.elementor .lz-mobile-menu-host,
+.elementor .lz-mobile-menu-box { display: contents; }
+
+/* ---- Fixes to the prototype (deliberate deviations from v6-1) -------------
+   Below 904px the brands column is a plain `1fr` track, whose minimum is the
+   marquee's full width, so on phones the heading, lead and chips run off the
+   right edge and are clipped (verified on v6-1 at 390px). A zero minimum keeps
+   the column on screen; nothing changes at 904px and up. */
+@media (max-width: 903px) {
+  .elementor .brands__split { grid-template-columns: minmax(0, 1fr); }
+  .elementor .brands__aside { min-width: 0; }
+}

@@ -1,55 +1,138 @@
-
 {
-    "lenz-comfort": {
-        "id": 10,
-        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-comfort.png"
-    },
-    "lenz-cooling": {
-        "id": 11,
-        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-cooling.png"
-    },
-    "lenz-emergency": {
-        "id": 12,
-        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-emergency.png"
-    },
-    "lenz-heating": {
-        "id": 14,
-        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-heating.png"
-    },
-    "lenz-heating-cooling-og": {
-        "id": 13,
-        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-heating-cooling-og.png"
-    },
-    "lenz-logo": {
-        "id": 17,
-        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-logo.png"
-    },
-    "lenz-logo-new": {
-        "id": 16,
-        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-logo-new.png"
-    },
-    "lenz-logo-new-dark": {
-        "id": 15,
-        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-logo-new-dark.png"
-    },
-    "lenz-service-area": {
-        "id": 18,
-        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-service-area.png"
-    },
-    "lenz-service-van-wrap": {
-        "id": 19,
-        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-service-van-wrap.png"
-    },
-    "lenz-team": {
-        "id": 20,
-        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-team.png"
-    },
-    "lenz-technician-service-call": {
-        "id": 21,
-        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-technician-service-call.png"
-    },
-    "lenz-thermostat": {
-        "id": 22,
-        "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-thermostat.png"
-    }
+  "lenz-comfort": {
+    "id": 10,
+    "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-comfort.png"
+  },
+  "lenz-cooling": {
+    "id": 11,
+    "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-cooling.png"
+  },
+  "lenz-emergency": {
+    "id": 12,
+    "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-emergency.png"
+  },
+  "lenz-heating": {
+    "id": 14,
+    "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-heating.png"
+  },
+  "lenz-heating-cooling-og": {
+    "id": 13,
+    "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-heating-cooling-og.png"
+  },
+  "lenz-logo": {
+    "id": 17,
+    "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-logo.png"
+  },
+  "lenz-logo-new": {
+    "id": 16,
+    "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-logo-new.png"
+  },
+  "lenz-logo-new-dark": {
+    "id": 15,
+    "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-logo-new-dark.png"
+  },
+  "lenz-service-area": {
+    "id": 18,
+    "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-service-area.png"
+  },
+  "lenz-service-van-wrap": {
+    "id": 19,
+    "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-service-van-wrap.png"
+  },
+  "lenz-team": {
+    "id": 20,
+    "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-team.png"
+  },
+  "lenz-technician-service-call": {
+    "id": 21,
+    "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-technician-service-call.png"
+  },
+  "lenz-thermostat": {
+    "id": 22,
+    "url": "http://localhost:10010/wp-content/uploads/2026/08/lenz-thermostat.png"
+  },
+  "lenz-comfort-webp": {
+    "id": 30,
+    "url": "/wp-content/uploads/2026/10/lenz-comfort.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "lenz-thermostat-ecobee": {
+    "id": 31,
+    "url": "/wp-content/uploads/2026/10/lenz-thermostat-ecobee.webp",
+    "width": 1200,
+    "height": 1500
+  },
+  "lenz-technician-service-call-webp": {
+    "id": 32,
+    "url": "/wp-content/uploads/2026/10/lenz-technician-service-call.webp",
+    "width": 1000,
+    "height": 1000
+  },
+  "lenz-team-webp": {
+    "id": 33,
+    "url": "/wp-content/uploads/2026/10/lenz-team.webp",
+    "width": 1200,
+    "height": 1200
+  },
+  "lenz-service-van-wrap-webp": {
+    "id": 34,
+    "url": "/wp-content/uploads/2026/10/lenz-service-van-wrap.webp",
+    "width": 1400,
+    "height": 1400
+  },
+  "brand-carrier": {
+    "id": 35,
+    "url": "/wp-content/uploads/2026/10/carrier.webp",
+    "width": 213,
+    "height": 88
+  },
+  "brand-goodman": {
+    "id": 36,
+    "url": "/wp-content/uploads/2026/10/goodman.webp",
+    "width": 258,
+    "height": 88
+  },
+  "brand-lennox": {
+    "id": 37,
+    "url": "/wp-content/uploads/2026/10/lennox.webp",
+    "width": 301,
+    "height": 88
+  },
+  "brand-rheem": {
+    "id": 38,
+    "url": "/wp-content/uploads/2026/10/rheem.webp",
+    "width": 129,
+    "height": 88
+  },
+  "brand-trane": {
+    "id": 39,
+    "url": "/wp-content/uploads/2026/10/trane.webp",
+    "width": 191,
+    "height": 88
+  },
+  "brand-ruud": {
+    "id": 40,
+    "url": "/wp-content/uploads/2026/10/ruud.webp",
+    "width": 137,
+    "height": 88
+  },
+  "brand-american-pride": {
+    "id": 41,
+    "url": "/wp-content/uploads/2026/10/american-pride.webp",
+    "width": 163,
+    "height": 88
+  },
+  "brand-amana": {
+    "id": 42,
+    "url": "/wp-content/uploads/2026/10/amana.webp",
+    "width": 339,
+    "height": 88
+  },
+  "brand-bryant": {
+    "id": 43,
+    "url": "/wp-content/uploads/2026/10/bryant.webp",
+    "width": 166,
+    "height": 88
+  }
 }
