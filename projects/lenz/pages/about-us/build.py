@@ -26,10 +26,11 @@ PAGE = {
     "hero_image": ("lenz-team-webp", "The Lenz Heating &amp; Cooling team standing in front of their service vans"),
     "badge": ("Family-owned since 2009", "Veteran-owned and woman-owned."),
     "hero_paras": 1,
-    "trust": [("Veteran-Owned &amp; Led", "Founded by U.S. Marine Corps veteran Al Lenz"),
-              ("Woman-Owned &amp; Operated", "Co-owned with Jenny Lenz"),
-              ("Serving Central Iowa Since 2009", "Across the greater Des Moines metro"),
-              ("Licensed, Bonded &amp; Insured", "Iowa Master License #50871-CL")],
+    # Trust items: the doc's four hero bullets, verbatim (the doc runs them together with the buttons).
+    "trust": [("Veteran-Owned &amp; Led", "Founded by U.S. Marine Corps veteran Al Lenz, who brings military discipline and straight-talk transparency to every job."),
+              ("Woman-Owned &amp; Operated", "Co-owned with Jenny Lenz, keeping the business family-first, communicative, and detail-obsessed."),
+              ("Serving Central Iowa Since 2009", "More than 15 years of local HVAC experience across the greater Des Moines metro."),
+              ("Licensed, Bonded &amp; Insured", "Iowa Master License #50871-CL. Fully insured and a certified Drug-Free Workplace.")],
     # One entry per doc section, in doc order ("+x" adds a block without a doc section).
     "plan": [
         ("multi", {"parts": [("prose", {"eyebrow": ("i-award", "Our story")}),

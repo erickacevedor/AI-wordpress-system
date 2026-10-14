@@ -492,3 +492,6 @@
 .checklist__links a { color: var(--blue-700); font-weight: var(--font-semibold); }
 
 .creds__card .creds__text { padding-bottom: var(--space-8); }
+
+.section-cta--center { justify-content: center; }
+.area__label { font-family: var(--font-heading); font-weight: var(--font-bold); font-size: var(--text-sm); color: var(--neutral-900); margin-bottom: var(--space-3); }

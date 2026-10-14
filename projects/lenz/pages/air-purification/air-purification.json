@@ -96,7 +96,7 @@
         {
          "id": "49004d5c",
          "settings": {
-          "editor": "Ever clean your house top-to-bottom, only to see a layer of fine gray dust settle back onto your furniture a day later? Or wake up with stuffy sinuses despite changing your air filter every month? You aren't dealing with a messy house—you're watching a basic air filter fail in real time.",
+          "editor": "<p>Ever clean your house top-to-bottom, only to see a layer of fine gray dust settle back onto your furniture a day later? Or wake up with stuffy sinuses despite changing your air filter every month? You aren't dealing with a messy house—you're watching a basic air filter fail in real time.</p><p>At Lenz Heating &amp; Cooling, we install advanced whole-home air purification systems and high-efficiency media air cleaners directly into your central HVAC system. Working silently around the clock, these systems scrub the air circulating through every room in your home, giving your family cleaner air, better sleep, and lasting peace of mind.</p>",
           "_css_classes": "hero__sub"
          },
          "elements": [],
@@ -124,7 +124,7 @@
           {
            "id": "4900740a",
            "settings": {
-            "text": "Schedule Air Purification",
+            "text": "Schedule Air Purification Service",
             "link": {
              "url": "#contact",
              "is_external": "",
@@ -2146,7 +2146,7 @@
             ],
             "show_labels": "yes",
             "mark_required": "yes",
-            "button_text": "Schedule Air Purification",
+            "button_text": "Schedule Air Quality Evaluation Online",
             "button_width": "100",
             "button_text_color": "#121212",
             "button_hover_color": "#121212",

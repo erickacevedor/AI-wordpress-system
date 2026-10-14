@@ -1324,7 +1324,7 @@
             ],
             "show_labels": "yes",
             "mark_required": "yes",
-            "button_text": "Schedule Heating Service",
+            "button_text": "Schedule Heating Service Online",
             "button_width": "100",
             "button_text_color": "#121212",
             "button_hover_color": "#121212",

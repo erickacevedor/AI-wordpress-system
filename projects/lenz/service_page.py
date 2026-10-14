@@ -401,8 +401,14 @@ def block_promo(page, sec, opt, fix):
 
 def block_plans(page, sec, opt, fix):
     paras = _paras(sec["nodes"], fix)
-    return B.plans_section(fix(sec["title"]), " ".join(paras), extra=page["_cat"],
-                           eb=opt.get("eyebrow", ("i-award", "Service agreements")))
+    out = B.plans_section(fix(sec["title"]), " ".join(paras), extra=page["_cat"],
+                          eb=opt.get("eyebrow", ("i-award", "Service agreements")))
+    links = dict({"View Service Agreement Plans": "maintenance-plans", "Compare Maintenance Plans": "maintenance-plans"},
+                 **opt.get("links", {}))
+    btns = _doc_buttons(sec["nodes"], dict(opt, links=links))
+    if btns:
+        out["elements"][0]["elements"].append(B.box("section-cta section-cta--center", btns))
+    return out
 
 
 def block_why(page, sec, opt, fix):
@@ -485,7 +491,7 @@ def block_services(page, sec, opt, fix):
     rows = opt.get("layout") == "rows"
     cards = []
     for i, it in enumerate(items):
-        num, title = _strip_num(it["title"])
+        title = it["title"]
         key = opt["links"][i]
         href = B.PHONE_TEL if key == "tel" else L[key]
         label = it["btn"] or ("Call " + B.PHONE if key == "tel" else "Explore " + title)
@@ -726,8 +732,16 @@ def block_locations(page, sec, opt, fix):
     `h` items when present (Service Areas), else just the address (Contact)."""
     head, items = _items(sec["nodes"], fix)
     hp = [p for p in _paras(head, fix)]
+    office_btns, cur = [], -1                       # doc buttons that follow each office heading
+    for n in sec["nodes"]:
+        if n["t"] == "h":
+            cur += 1
+            office_btns.append([])
+        elif n["t"] == "button" and cur >= 0:
+            office_btns[cur].append(n)
     cards = []
     for i, (city, label, addr, q) in enumerate(OFFICES):
+        label = opt.get("labels", [label, label])[i]
         body = []
         if i < len(items):
             t, ps, _l = items[i]
@@ -740,8 +754,10 @@ def block_locations(page, sec, opt, fix):
                     B.heading(label, "h3", "office__title"),
                     B.raw('<p class="office__addr">%s%s</p>' % (svg("i-pin", "icon-sm"), addr)),
                     B.text("".join("<p>%s</p>" % p for p in body), "office__text"),
-                    B.box("office__cta", [
-                        B.button("Call " + B.PHONE, B.PHONE_TEL, "btn btn-primary", icon="phone"),
+                    B.box("office__cta", (_doc_buttons(office_btns[i], opt) if i < len(office_btns) else []) + [
+                        B.button("Call " + B.PHONE, B.PHONE_TEL,
+                                 "btn btn-outline" if i < len(office_btns) and office_btns[i] else "btn btn-primary",
+                                 icon="phone"),
                         B.button("Get Directions", "https://www.google.com/maps/dir/?api=1&destination=" + q,
                                  "btn btn-outline", external=True),
                     ]),
@@ -760,7 +776,9 @@ def block_area(page, sec, opt, fix):
         ["Urbandale", "Des Moines", "West Des Moines", "Waukee", "Ankeny", "Johnston", "Clive", "Grimes",
          "Altoona", "Norwalk", "Windsor Heights"]
     lead, rest = (paras[0], paras[1:]) if paras else (None, [])
-    copy = [B.raw('<div class="area__cities">%s</div>' % "".join(
+    label = next((re.sub(r"</?b>", "", p) for p in _paras(sec["nodes"], fix)
+                  if re.sub(r"<[^>]+>", "", p).strip().endswith(":")), None)
+    copy = ([B.text(label, "area__label")] if label else []) + [B.raw('<div class="area__cities">%s</div>' % "".join(
         '<span class="area-chip">%s%s</span>' % (svg("i-pin", "icon-xs"), c) for c in cities))]
     for p in rest:
         copy.append(B.raw('<p class="area__note">%s%s</p>' % (svg("i-info", "icon-sm"), p)))
@@ -854,7 +872,8 @@ def _hero(page, doc, fix):
             if len(items) >= 3:
                 trust = items
                 paras.remove(p)
-    if page.get("is_hub"):
+    takes_extra = any(sp[0] == "checklist" for sp in page["plan"])
+    if page.get("is_hub") or not takes_extra:
         paras = ["".join("<p>%s</p>" % p for p in paras)] if paras else []
     lead, extra = (paras[0], paras[1:]) if paras else ("", [])
     page["_hero_extra"] = extra
@@ -873,8 +892,10 @@ def _hero(page, doc, fix):
     if areas:
         copy.append(B.raw('<p class="hero__areas">%s%s</p>' % (svg("i-pin", "icon-sm"),
                                                                re.sub(r"</?b>", "", areas))))
+    doc_btn = next((re.sub(r"\s*→\s*$", "", l) for n in nodes if n["t"] == "button" for l in n["labels"]
+                    if not re.search(r"\(515\)|^call", l, re.I)), None)
     copy.append(B.box("hero__cta", [
-        B.button(page["cta"], page.get("cta_href", L["form"]), "btn btn-gold"),
+        B.button(doc_btn or page["cta"], page.get("cta_href", L["form"]), "btn btn-gold"),
         B.button("Call " + B.PHONE, B.PHONE_TEL, "btn btn-outline-light", icon="phone"),
     ]))
     badge_t, badge_s = page["badge"]
@@ -961,8 +982,10 @@ def build(page):
             paras = _paras(sec["nodes"], fix)
             if not page.get("is_hub"):
                 S.append(_related(page))
+            label = next((re.sub(r"\s*→\s*$", "", l) for n in sec["nodes"] if n["t"] == "button" for l in n["labels"]
+                          if not re.search(r"\(515\)|^call|widget|slider", l, re.I)), page["cta"])
             S.append(B.close_form(fix(sec["title"]), "".join("<p>%s</p>" % p for p in paras),
-                                  button_text=page["cta"], preselect=page.get("form_preselect"),
+                                  button_text=label, preselect=page.get("form_preselect"),
                                   extra=page["_cat"]))
             continue
         opt = dict(opt)

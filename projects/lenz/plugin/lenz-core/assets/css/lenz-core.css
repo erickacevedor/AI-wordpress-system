@@ -2923,6 +2923,12 @@ body.menu-open {
 .elementor .creds__card .creds__text {
   padding-bottom: var(--space-8);
 }
+.elementor .section-cta--center {
+  justify-content: center;
+}
+.elementor .area__label {
+  font-family: var(--font-heading); font-weight: var(--font-bold); font-size: var(--text-sm); color: var(--neutral-900); margin-bottom: var(--space-3);
+}
 
 /* ============================================================================
    HAND-WRITTEN OVERRIDES (come last in lenz-core.css)

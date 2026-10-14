@@ -741,7 +741,7 @@
             ],
             "show_labels": "yes",
             "mark_required": "yes",
-            "button_text": "Book Online",
+            "button_text": "insert form here",
             "button_width": "100",
             "button_text_color": "#121212",
             "button_hover_color": "#121212",
@@ -1208,7 +1208,7 @@
             {
              "id": "6205e482",
              "settings": {
-              "title": "Main office",
+              "title": "Urbandale Location",
               "header_size": "h3",
               "_css_classes": "office__title"
              },
@@ -1319,7 +1319,7 @@
             {
              "id": "62069291",
              "settings": {
-              "title": "Waukee location",
+              "title": "Waukee Location",
               "header_size": "h3",
               "_css_classes": "office__title"
              },

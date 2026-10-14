@@ -124,7 +124,7 @@
           {
            "id": "4800740a",
            "settings": {
-            "text": "Schedule UV Light Purification",
+            "text": "Schedule UV Light Purification Service",
             "link": {
              "url": "#contact",
              "is_external": "",
@@ -2304,7 +2304,7 @@
             ],
             "show_labels": "yes",
             "mark_required": "yes",
-            "button_text": "Schedule UV Light Purification",
+            "button_text": "Schedule Air Quality Evaluation Online",
             "button_width": "100",
             "button_text_color": "#121212",
             "button_hover_color": "#121212",

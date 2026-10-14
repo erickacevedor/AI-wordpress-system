@@ -107,7 +107,7 @@
         {
          "id": "460060b3",
          "settings": {
-          "editor": "Nobody wants to find out their furnace quit on the coldest night of the year—usually right when it's -10°F outside and every HVAC company in town is already booked solid. The good news? Most winter breakdowns don't come out of nowhere. They come from small, fixable problems that a fall tune-up would have caught months earlier.",
+          "editor": "<p>Nobody wants to find out their furnace quit on the coldest night of the year—usually right when it's -10°F outside and every HVAC company in town is already booked solid. The good news? Most winter breakdowns don't come out of nowhere. They come from small, fixable problems that a fall tune-up would have caught months earlier.</p><p>At Lenz Heating &amp; Cooling, our fall heating maintenance gets your system inspected, cleaned, tested, and ready to run hard all winter long. It's the simplest way to lower your energy bills, keep your family safe, and avoid an emergency no-heat call when you need your furnace most.</p>",
           "_css_classes": "hero__sub"
          },
          "elements": [],
@@ -1471,6 +1471,34 @@
        "isInner": true,
        "widgetType": "text-editor",
        "elType": "widget"
+      },
+      {
+       "id": "460862b9",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section-cta section-cta--center"
+       },
+       "elements": [
+        {
+         "id": "46084f62",
+         "settings": {
+          "text": "Compare Maintenance Plans",
+          "link": {
+           "url": "/maintenance-plan/",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "btn btn-primary"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "button",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
       }
      ],
      "isInner": true,
@@ -1481,7 +1509,7 @@
    "elType": "container"
   },
   {
-   "id": "4609ab80",
+   "id": "4609d22e",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1489,7 +1517,7 @@
    },
    "elements": [
     {
-     "id": "46099829",
+     "id": "4609bed7",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1517,14 +1545,14 @@
      },
      "elements": [
       {
-       "id": "4609717b",
+       "id": "46099829",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head"
        },
        "elements": [
         {
-         "id": "46093776",
+         "id": "46095e24",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Why Lenz</span>"
          },
@@ -1534,7 +1562,7 @@
          "elType": "widget"
         },
         {
-         "id": "46094acd",
+         "id": "4609717b",
          "settings": {
           "title": "Why Central Iowa Homeowners Choose Lenz",
           "header_size": "h2",
@@ -1562,7 +1590,7 @@
          "elType": "widget"
         },
         {
-         "id": "46095e24",
+         "id": "460984d2",
          "settings": {
           "editor": "Choosing who works on your heating system isn't just about the wrench—it's about who you trust in your home when it's cold out and something's wrong.",
           "_css_classes": "section__lead"
@@ -1577,14 +1605,14 @@
        "elType": "container"
       },
       {
-       "id": "460984d2",
+       "id": "4609ab80",
        "settings": {
         "content_width": "full",
         "css_classes": "creds__grid"
        },
        "elements": [
         {
-         "id": "46088967",
+         "id": "4608b015",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1592,7 +1620,7 @@
          },
          "elements": [
           {
-           "id": "46084f62",
+           "id": "46087610",
            "settings": {
             "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-card\"/></svg></span>"
            },
@@ -1602,7 +1630,7 @@
            "elType": "widget"
           },
           {
-           "id": "460862b9",
+           "id": "46088967",
            "settings": {
             "title": "\"To The Penny\" Pricing Guarantee",
             "header_size": "h3"
@@ -1613,7 +1641,7 @@
            "elType": "widget"
           },
           {
-           "id": "46087610",
+           "id": "46089cbe",
            "settings": {
             "editor": "No hidden fees, no surprise hourly charges. The quote we give you before we start is the exact number on your final bill.",
             "_css_classes": "creds__text"
@@ -1628,7 +1656,7 @@
          "elType": "container"
         },
         {
-         "id": "4608d6c3",
+         "id": "4608fd71",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1636,7 +1664,7 @@
          },
          "elements": [
           {
-           "id": "46089cbe",
+           "id": "4608c36c",
            "settings": {
             "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
            },
@@ -1646,7 +1674,7 @@
            "elType": "widget"
           },
           {
-           "id": "4608b015",
+           "id": "4608d6c3",
            "settings": {
             "title": "Veteran-Owned &amp; Woman-Owned",
             "header_size": "h3"
@@ -1657,7 +1685,7 @@
            "elType": "widget"
           },
           {
-           "id": "4608c36c",
+           "id": "4608ea1a",
            "settings": {
             "editor": "We run on military-grade precision, honest advice, and zero high-pressure sales. If your system doesn't actually need a repair, we'll tell you.",
             "_css_classes": "creds__text"
@@ -1672,7 +1700,7 @@
          "elType": "container"
         },
         {
-         "id": "4609241f",
+         "id": "46094acd",
          "settings": {
           "content_width": "full",
           "html_tag": "article",
@@ -1680,7 +1708,7 @@
          },
          "elements": [
           {
-           "id": "4608ea1a",
+           "id": "460910c8",
            "settings": {
             "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span>"
            },
@@ -1690,7 +1718,7 @@
            "elType": "widget"
           },
           {
-           "id": "4608fd71",
+           "id": "4609241f",
            "settings": {
             "title": "Free Estimates",
             "header_size": "h3"
@@ -1701,7 +1729,7 @@
            "elType": "widget"
           },
           {
-           "id": "460910c8",
+           "id": "46093776",
            "settings": {
             "editor": "New equipment and full system replacements are quoted free, with no obligation and no pressure. Repairs carry our standard diagnostic fee, with upfront pricing before any work begins.",
             "_css_classes": "creds__text"
@@ -1728,7 +1756,7 @@
    "elType": "container"
   },
   {
-   "id": "460a1f8a",
+   "id": "460a4638",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1737,7 +1765,7 @@
    },
    "elements": [
     {
-     "id": "460a0c33",
+     "id": "460a32e1",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1765,14 +1793,14 @@
      },
      "elements": [
       {
-       "id": "4609e585",
+       "id": "460a0c33",
        "settings": {
         "content_width": "full",
         "css_classes": "section__head section__head--center"
        },
        "elements": [
         {
-         "id": "4609bed7",
+         "id": "4609e585",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-info\"/></svg> FAQs</span>"
          },
@@ -1782,7 +1810,7 @@
          "elType": "widget"
         },
         {
-         "id": "4609d22e",
+         "id": "4609f8dc",
          "settings": {
           "title": "Heating Maintenance FAQ",
           "header_size": "h2",
@@ -1814,7 +1842,7 @@
        "elType": "container"
       },
       {
-       "id": "4609f8dc",
+       "id": "460a1f8a",
        "settings": {
         "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">How often should I have my furnace serviced? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p><b>Once a year, ideally in the fall before heating season begins.</b> If you have a heat pump that both heats and cools, we recommend twice-yearly service—once before winter and once before summer.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">When is the best time to schedule heating maintenance? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p><b>Early fall, before the first cold snap.</b> Booking in September or October gets your system ready ahead of the rush and well before you actually need the heat.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Is a furnace tune-up really worth it? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p><b>Yes. A tune-up typically pays for itself through lower energy bills, fewer breakdowns, and a longer equipment lifespan</b>—and it keeps your manufacturer warranty valid, which can save you far more on a future repair.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">What's the difference between maintenance and repair? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p><b>Maintenance is proactive—inspecting, cleaning, and tuning a working system to prevent problems. Repair fixes something that's already broken.</b> Regular maintenance is what helps you avoid the repair in the first place.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Do you service heat pumps as well as gas furnaces? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p><b>Yes. We maintain gas and electric furnaces, heat pumps, and dual-fuel systems.</b> Heat pump maintenance includes refrigerant, defrost, and reversing-valve checks that a furnace tune-up doesn't cover.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-6\" id=\"faq-6-t\">What areas do you serve? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-6\" role=\"region\" aria-labelledby=\"faq-6-t\"><p><b>We provide heating maintenance across the Greater Des Moines metro</b>, including Des Moines, Urbandale, West Des Moines, Ankeny, Altoona, Clive, Waukee, Johnston, and surrounding Polk and Dallas County communities.</p></div></div></div>"
        },
@@ -1832,7 +1860,7 @@
    "elType": "container"
   },
   {
-   "id": "460c63bc",
+   "id": "460c8a6a",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1840,7 +1868,7 @@
    },
    "elements": [
     {
-     "id": "460c5065",
+     "id": "460c7713",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1868,7 +1896,7 @@
      },
      "elements": [
       {
-       "id": "460c3d0e",
+       "id": "460c63bc",
        "settings": {
         "content_width": "full",
         "html_tag": "section",
@@ -1876,14 +1904,14 @@
        },
        "elements": [
         {
-         "id": "460a9394",
+         "id": "460aba42",
          "settings": {
           "content_width": "full",
           "css_classes": "svc-band__head"
          },
          "elements": [
           {
-           "id": "460a32e1",
+           "id": "460a598f",
            "settings": {
             "html": "<span class=\"svc-band__icon\"><svg aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
            },
@@ -1893,14 +1921,14 @@
            "elType": "widget"
           },
           {
-           "id": "460a6ce6",
+           "id": "460a9394",
            "settings": {
             "content_width": "full",
             "css_classes": "svc-band__txt"
            },
            "elements": [
             {
-             "id": "460a4638",
+             "id": "460a6ce6",
              "settings": {
               "title": "More Heating Services",
               "header_size": "h3"
@@ -1911,7 +1939,7 @@
              "elType": "widget"
             },
             {
-             "id": "460a598f",
+             "id": "460a803d",
              "settings": {
               "editor": "<p>The same local team for every part of your home comfort, from the first visit to the last.</p>"
              },
@@ -1925,7 +1953,7 @@
            "elType": "container"
           },
           {
-           "id": "460a803d",
+           "id": "460aa6eb",
            "settings": {
             "html": "<a class=\"svc-band__go\" href=\"/heating/\">All Heating Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
            },
@@ -1939,14 +1967,14 @@
          "elType": "container"
         },
         {
-         "id": "460c29b7",
+         "id": "460c5065",
          "settings": {
           "content_width": "full",
           "css_classes": "svc-band__grid"
          },
          "elements": [
           {
-           "id": "460af447",
+           "id": "460b1af5",
            "settings": {
             "content_width": "full",
             "html_tag": "a",
@@ -1960,7 +1988,7 @@
            },
            "elements": [
             {
-             "id": "460aa6eb",
+             "id": "460acd99",
              "settings": {
               "html": "<span class=\"service-card__icon\" data-cat=\"heating\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
              },
@@ -1970,14 +1998,14 @@
              "elType": "widget"
             },
             {
-             "id": "460ae0f0",
+             "id": "460b079e",
              "settings": {
               "content_width": "full",
               "css_classes": "lz-span"
              },
              "elements": [
               {
-               "id": "460aba42",
+               "id": "460ae0f0",
                "settings": {
                 "title": "Heating Installation",
                 "header_size": "h4"
@@ -1988,7 +2016,7 @@
                "elType": "widget"
               },
               {
-               "id": "460acd99",
+               "id": "460af447",
                "settings": {
                 "editor": "<p>High-efficiency gas and electric furnaces.</p>"
                },
@@ -2006,7 +2034,7 @@
            "elType": "container"
           },
           {
-           "id": "460b54fa",
+           "id": "460b7ba8",
            "settings": {
             "content_width": "full",
             "html_tag": "a",
@@ -2020,7 +2048,7 @@
            },
            "elements": [
             {
-             "id": "460b079e",
+             "id": "460b2e4c",
              "settings": {
               "html": "<span class=\"service-card__icon\" data-cat=\"heating\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
              },
@@ -2030,14 +2058,14 @@
              "elType": "widget"
             },
             {
-             "id": "460b41a3",
+             "id": "460b6851",
              "settings": {
               "content_width": "full",
               "css_classes": "lz-span"
              },
              "elements": [
               {
-               "id": "460b1af5",
+               "id": "460b41a3",
                "settings": {
                 "title": "Heating Repair",
                 "header_size": "h4"
@@ -2048,7 +2076,7 @@
                "elType": "widget"
               },
               {
-               "id": "460b2e4c",
+               "id": "460b54fa",
                "settings": {
                 "editor": "<p>No heat? We diagnose it fast.</p>"
                },
@@ -2066,7 +2094,7 @@
            "elType": "container"
           },
           {
-           "id": "460bb5ad",
+           "id": "460bdc5b",
            "settings": {
             "content_width": "full",
             "html_tag": "a",
@@ -2080,7 +2108,7 @@
            },
            "elements": [
             {
-             "id": "460b6851",
+             "id": "460b8eff",
              "settings": {
               "html": "<span class=\"service-card__icon\" data-cat=\"heating\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
              },
@@ -2090,14 +2118,14 @@
              "elType": "widget"
             },
             {
-             "id": "460ba256",
+             "id": "460bc904",
              "settings": {
               "content_width": "full",
               "css_classes": "lz-span"
              },
              "elements": [
               {
-               "id": "460b7ba8",
+               "id": "460ba256",
                "settings": {
                 "title": "Heating Replacement",
                 "header_size": "h4"
@@ -2108,7 +2136,7 @@
                "elType": "widget"
               },
               {
-               "id": "460b8eff",
+               "id": "460bb5ad",
                "settings": {
                 "editor": "<p>Upgrade an aging or failing furnace.</p>"
                },
@@ -2126,7 +2154,7 @@
            "elType": "container"
           },
           {
-           "id": "460c1660",
+           "id": "460c3d0e",
            "settings": {
             "content_width": "full",
             "html_tag": "a",
@@ -2140,7 +2168,7 @@
            },
            "elements": [
             {
-             "id": "460bc904",
+             "id": "460befb2",
              "settings": {
               "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg></span>"
              },
@@ -2150,14 +2178,14 @@
              "elType": "widget"
             },
             {
-             "id": "460c0309",
+             "id": "460c29b7",
              "settings": {
               "content_width": "full",
               "css_classes": "lz-span"
              },
              "elements": [
               {
-               "id": "460bdc5b",
+               "id": "460c0309",
                "settings": {
                 "title": "Maintenance Plans",
                 "header_size": "h4"
@@ -2168,7 +2196,7 @@
                "elType": "widget"
               },
               {
-               "id": "460befb2",
+               "id": "460c1660",
                "settings": {
                 "editor": "<p>Priority dispatch and 10 to 20% off parts.</p>"
                },
@@ -2202,7 +2230,7 @@
    "elType": "container"
   },
   {
-   "id": "460d2522",
+   "id": "460d4bd0",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -2211,7 +2239,7 @@
    },
    "elements": [
     {
-     "id": "460d11cb",
+     "id": "460d3879",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -2239,20 +2267,20 @@
      },
      "elements": [
       {
-       "id": "460cfe74",
+       "id": "460d2522",
        "settings": {
         "content_width": "full",
         "css_classes": "close-form__inner"
        },
        "elements": [
         {
-         "id": "460cc46f",
+         "id": "460ceb1d",
          "settings": {
           "content_width": "full"
          },
          "elements": [
           {
-           "id": "460c8a6a",
+           "id": "460cb118",
            "settings": {
             "title": "Beat the Winter Rush—Schedule Your Tune-Up Today",
             "header_size": "h2",
@@ -2279,7 +2307,7 @@
            "elType": "widget"
           },
           {
-           "id": "460c9dc1",
+           "id": "460cc46f",
            "settings": {
             "editor": "<p>Don't wait for the first freeze to find out something's wrong. Get your furnace or heat pump inspected, cleaned, and winter-ready with a team Central Iowa has trusted since 2009.</p>",
             "_css_classes": "close-form__lead"
@@ -2290,7 +2318,7 @@
            "elType": "widget"
           },
           {
-           "id": "460cb118",
+           "id": "460cd7c6",
            "settings": {
             "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
            },
@@ -2304,14 +2332,14 @@
          "elType": "container"
         },
         {
-         "id": "460ceb1d",
+         "id": "460d11cb",
          "settings": {
           "content_width": "full",
           "css_classes": "form-card"
          },
          "elements": [
           {
-           "id": "460c7713",
+           "id": "460c9dc1",
            "settings": {
             "form_name": "Estimate request",
             "form_fields": [
@@ -2347,7 +2375,7 @@
             ],
             "show_labels": "yes",
             "mark_required": "yes",
-            "button_text": "Schedule Heating Maintenance",
+            "button_text": "Schedule Heating Maintenance Online",
             "button_width": "100",
             "button_text_color": "#121212",
             "button_hover_color": "#121212",
@@ -2382,7 +2410,7 @@
            "elType": "widget"
           },
           {
-           "id": "460cd7c6",
+           "id": "460cfe74",
            "settings": {
             "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
            },

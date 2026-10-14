@@ -31,7 +31,7 @@ PAGE = {
         ("checklist", {"eyebrow": ("i-clock", "Urgent? Call us"), "tel": True, "drop": [r"^For immediate help", r"\[button\]"]}),
         ("close",),
         ("cards", {"eyebrow": ("i-check", "What to expect"), "cols": 2, "numbered": True, "help": None}),
-        ("locations", {"eyebrow": ("i-pin", "Our offices")}),
+        ("locations", {"eyebrow": ("i-pin", "Our offices"), "labels": ["Urbandale Location", "Waukee Location"]}),
         ("reviews",),
         ("faq",),
         ("cta", {"links": {"Book Online": "#contact"}}),
