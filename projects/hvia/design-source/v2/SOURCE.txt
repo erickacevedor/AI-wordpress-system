@@ -1,0 +1,6 @@
+Snapshot of the HVIA prototype, option 2 (Editorial), the client's pick.
+Source: ~/exploremedia (Explore Media task repo), clients/hvia/design/ at commit 94ec4f3 (2026-10-14).
+Files: v2.html, css/v2.css (standalone, does not load styles.css), js/main.js.
+Client (Melissa Brown, email 2026-10-12, shared in ClickUp 2026-10-14): "We like the colors on option 2";
+building picture in place of the group photo, individual surgeon photos below. Location shows a map
+(Erick, 2026-10-14) so the building is not shown twice. Option 3 was built first and replaced the same day.

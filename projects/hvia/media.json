@@ -1,0 +1,34 @@
+{
+    "dr-irwin-white-gittens": {
+        "id": 11,
+        "url": "http://localhost:10022/wp-content/uploads/2026/10/dr-irwin-white-gittens.jpg"
+    },
+    "dr-ralph-redd": {
+        "id": 12,
+        "url": "http://localhost:10022/wp-content/uploads/2026/10/dr-ralph-redd.jpg"
+    },
+    "dr-richard-tan": {
+        "id": 13,
+        "url": "http://localhost:10022/wp-content/uploads/2026/10/dr-richard-tan.jpg"
+    },
+    "hvia-mark": {
+        "id": 17,
+        "url": "http://localhost:10022/wp-content/uploads/2026/10/hvia-mark.png"
+    },
+    "hvia-mark-light": {
+        "id": 16,
+        "url": "http://localhost:10022/wp-content/uploads/2026/10/hvia-mark-light.png"
+    },
+    "hvia-new-building": {
+        "id": 14,
+        "url": "http://localhost:10022/wp-content/uploads/2026/10/hvia-new-building.jpg"
+    },
+    "hvia-site-icon": {
+        "id": 24,
+        "url": "http://localhost:10022/wp-content/uploads/2026/10/hvia-site-icon.png"
+    },
+    "hvia-team-surgeons": {
+        "id": 15,
+        "url": "http://localhost:10022/wp-content/uploads/2026/10/hvia-team-surgeons.jpg"
+    }
+}

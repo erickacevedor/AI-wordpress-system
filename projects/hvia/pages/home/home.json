@@ -1,0 +1,988 @@
+{
+ "version": "0.4",
+ "title": "Home",
+ "type": "page",
+ "content": [
+  {
+   "id": "30015c1e",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "_element_id": "main",
+    "_attributes": "aria-label|Introducing HVIA",
+    "css_classes": "hero e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "300148c7",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "30010ec2",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap hero-grid"
+       },
+       "elements": [
+        {
+         "id": "30009ab8",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hero-copy"
+         },
+         "elements": [
+          {
+           "id": "30001357",
+           "settings": {
+            "title": "<span class=\"dot\" aria-hidden=\"true\"></span>Introducing HVIA",
+            "header_size": "p",
+            "_css_classes": "kicker reveal-load d-0"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "300026ae",
+           "settings": {
+            "title": "<span class=\"line\">Heart and</span> <span class=\"line\">Vascular <em>Institute</em></span> <span class=\"line red\"><em>of</em> Alabama</span>",
+            "header_size": "h1",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(3.4rem, 8.4vw, 7.6rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(3.4rem, 8.4vw, 7.6rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(3.4rem, 8.4vw, 7.6rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom",
+            "_css_classes": "reveal-load d-100"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "30004d5c",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "hero-sub reveal-load d-380"
+           },
+           "elements": [
+            {
+             "id": "30003a05",
+             "settings": {
+              "title": "Board-certified vascular and endovascular surgeons in Montgomery, Alabama.",
+              "header_size": "p",
+              "_css_classes": "lede"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "30008761",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "hero-ctas reveal-load d-480"
+           },
+           "elements": [
+            {
+             "id": "300060b3",
+             "settings": {
+              "text": "Call (334) 801-9952",
+              "link": {
+               "url": "tel:+13348019952",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-red btn-lg"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            },
+            {
+             "id": "3000740a",
+             "settings": {
+              "text": "Find Us",
+              "link": {
+               "url": "#locations",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-line btn-lg"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "3000fb6b",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hero-media reveal-load d-200 lz-figure"
+         },
+         "elements": [
+          {
+           "id": "3000c166",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "hero-photo hero-photo--building"
+           },
+           "elements": [
+            {
+             "id": "3000ae0f",
+             "settings": {
+              "image": {
+               "url": "/wp-content/uploads/2026/10/hvia-new-building.jpg",
+               "id": 14,
+               "size": "",
+               "alt": "Rendering of the new HVIA building at 4791 Woodmere Blvd, Montgomery",
+               "source": "library"
+              },
+              "image_size": "full"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "image",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "3000e814",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "lz-figcaption"
+           },
+           "elements": [
+            {
+             "id": "3000d4bd",
+             "settings": {
+              "title": "Our new facility at 4791 Woodmere Blvd, Montgomery.",
+              "header_size": "span",
+              "_css_classes": "cap"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "30013570",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "30012219",
+         "settings": {
+          "html": "<ul class=\"ledger ledger--contact reveal-load\" style=\"--d:650ms\" aria-label=\"Contact\"><li><strong>Visit</strong><span>4791 Woodmere Blvd, Montgomery, AL 36106</span></li><li><strong>Call</strong><span><a href=\"tel:+13348019952\">(334) 801-9952</a></span></li></ul>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "30032c46",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "_element_id": "physicians",
+    "_attributes": "aria-label|Our Surgeons",
+    "css_classes": "physicians paper section e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "300318ef",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "30030598",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "3001bcd1",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "header",
+          "css_classes": "sec-head reveal"
+         },
+         "elements": [
+          {
+           "id": "30016f75",
+           "settings": {
+            "title": "01",
+            "header_size": "div",
+            "_css_classes": "sec-num"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "3001a97a",
+           "settings": {
+            "content_width": "full"
+           },
+           "elements": [
+            {
+             "id": "300182cc",
+             "settings": {
+              "title": "Our Surgeons",
+              "header_size": "p",
+              "_css_classes": "kicker"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "30019623",
+             "settings": {
+              "title": "Expert care, <em>experienced hands</em>",
+              "header_size": "h2",
+              "typography_font_size": {
+               "unit": "custom",
+               "size": "clamp(2.6rem, 5.6vw, 4.8rem)",
+               "sizes": []
+              },
+              "typography_font_size_tablet": {
+               "unit": "custom",
+               "size": "clamp(2.6rem, 5.6vw, 4.8rem)",
+               "sizes": []
+              },
+              "typography_font_size_mobile": {
+               "unit": "custom",
+               "size": "clamp(2.6rem, 5.6vw, 4.8rem)",
+               "sizes": []
+              },
+              "typography_typography": "custom"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "3002f241",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "surgeons lz-ul"
+         },
+         "elements": [
+          {
+           "id": "30021d84",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "surgeon reveal d-0 lz-li"
+           },
+           "elements": [
+            {
+             "id": "3001e37f",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "doc-photo"
+             },
+             "elements": [
+              {
+               "id": "3001d028",
+               "settings": {
+                "image": {
+                 "url": "/wp-content/uploads/2026/10/dr-ralph-redd.jpg",
+                 "id": 12,
+                 "size": "",
+                 "alt": "Dr. Ralph Redd, MD",
+                 "source": "library"
+                },
+                "image_size": "full"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "image",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            },
+            {
+             "id": "3001f6d6",
+             "settings": {
+              "title": "<span>No. 1</span>Vascular and Endovascular Surgeon",
+              "header_size": "p",
+              "_css_classes": "doc-role"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "30020a2d",
+             "settings": {
+              "title": "Dr. Ralph Redd, <span>MD</span>",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "30027e37",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "surgeon reveal d-100 lz-li"
+           },
+           "elements": [
+            {
+             "id": "30024432",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "doc-photo"
+             },
+             "elements": [
+              {
+               "id": "300230db",
+               "settings": {
+                "image": {
+                 "url": "/wp-content/uploads/2026/10/dr-richard-tan.jpg",
+                 "id": 13,
+                 "size": "",
+                 "alt": "Dr. Richard Tan, MD",
+                 "source": "library"
+                },
+                "image_size": "full"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "image",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            },
+            {
+             "id": "30025789",
+             "settings": {
+              "title": "<span>No. 2</span>Vascular Surgeon",
+              "header_size": "p",
+              "_css_classes": "doc-role"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "30026ae0",
+             "settings": {
+              "title": "Dr. Richard Tan, <span>MD</span>",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "3002deea",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "surgeon reveal d-200 lz-li"
+           },
+           "elements": [
+            {
+             "id": "3002a4e5",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "doc-photo"
+             },
+             "elements": [
+              {
+               "id": "3002918e",
+               "settings": {
+                "image": {
+                 "url": "/wp-content/uploads/2026/10/dr-irwin-white-gittens.jpg",
+                 "id": 11,
+                 "size": "",
+                 "alt": "Dr. Irwin White-Gittens, MD",
+                 "source": "library"
+                },
+                "image_size": "full"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "image",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            },
+            {
+             "id": "3002b83c",
+             "settings": {
+              "title": "<span>No. 3</span>Vascular Surgeon",
+              "header_size": "p",
+              "_css_classes": "doc-role"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "3002cb93",
+             "settings": {
+              "title": "Dr. Irwin White-Gittens, <span>MD</span>",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "30043b08",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "_element_id": "locations",
+    "_attributes": "aria-label|Location",
+    "css_classes": "locations section e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "300427b1",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "3004145a",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "30038cf9",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "header",
+          "css_classes": "sec-head reveal"
+         },
+         "elements": [
+          {
+           "id": "30033f9d",
+           "settings": {
+            "title": "02",
+            "header_size": "div",
+            "_css_classes": "sec-num"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "300379a2",
+           "settings": {
+            "content_width": "full"
+           },
+           "elements": [
+            {
+             "id": "300352f4",
+             "settings": {
+              "title": "Location",
+              "header_size": "p",
+              "_css_classes": "kicker"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "3003664b",
+             "settings": {
+              "title": "Visit our <em>new facility</em>",
+              "header_size": "h2",
+              "typography_font_size": {
+               "unit": "custom",
+               "size": "clamp(2.6rem, 5.6vw, 4.8rem)",
+               "sizes": []
+              },
+              "typography_font_size_tablet": {
+               "unit": "custom",
+               "size": "clamp(2.6rem, 5.6vw, 4.8rem)",
+               "sizes": []
+              },
+              "typography_font_size_mobile": {
+               "unit": "custom",
+               "size": "clamp(2.6rem, 5.6vw, 4.8rem)",
+               "sizes": []
+              },
+              "typography_typography": "custom"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "30040103",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "loc-grid"
+         },
+         "elements": [
+          {
+           "id": "3003b3a7",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "building-photo loc-map reveal d-0 lz-figure"
+           },
+           "elements": [
+            {
+             "id": "3003a050",
+             "settings": {
+              "html": "<iframe src=\"https://www.google.com/maps?q=4791+Woodmere+Blvd,+Montgomery,+AL+36106&amp;output=embed\" title=\"Map: 4791 Woodmere Blvd, Montgomery, AL 36106\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "3003edac",
+           "settings": {
+            "content_width": "full",
+            "html_tag": "article",
+            "css_classes": "loc reveal d-120"
+           },
+           "elements": [
+            {
+             "id": "3003c6fe",
+             "settings": {
+              "title": "Montgomery",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "3003da55",
+             "settings": {
+              "html": "<address>4791 Woodmere Blvd<br>Montgomery, AL 36106</address><dl><div><dt>Phone</dt><dd><a href=\"tel:+13348019952\">(334) 801-9952</a></dd></div></dl><a class=\"link\" href=\"https://www.google.com/maps/search/?api=1&amp;query=4791+Woodmere+Blvd+Montgomery+AL+36106\" target=\"_blank\" rel=\"noopener\">Get directions</a>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "3004af12",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "_attributes": "aria-label|Call HVIA",
+    "css_classes": "final-cta e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "30049bbb",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "30048864",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap final-inner reveal"
+       },
+       "elements": [
+        {
+         "id": "30044e5f",
+         "settings": {
+          "title": "Questions?",
+          "header_size": "p",
+          "_css_classes": "kicker kicker--light"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "300461b6",
+         "settings": {
+          "title": "Give our team <em>a call</em>",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 5vw, 4.4rem)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 5vw, 4.4rem)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 5vw, 4.4rem)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "3004750d",
+         "settings": {
+          "html": "<a class=\"big-phone\" href=\"tel:+13348019952\"><span>(334)</span> 801-9952</a>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer"
+ }
+}

@@ -1,0 +1,208 @@
+{
+ "version": "0.4",
+ "title": "HVIA Header",
+ "type": "header",
+ "content": [
+  {
+   "id": "200060b3",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "div",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "_attributes": "aria-label|Address and phone",
+    "css_classes": "utility e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "20004d5c",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "20003a05",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap utility-inner"
+       },
+       "elements": [
+        {
+         "id": "20001357",
+         "settings": {
+          "html": "<a class=\"skip\" href=\"#main\">Skip to content</a><span>4791 Woodmere Blvd, Montgomery, AL</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "200026ae",
+         "settings": {
+          "html": "<a href=\"tel:+13348019952\">(334) 801-9952</a>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "2000c166",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "header",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "_element_id": "top",
+    "css_classes": "site-header e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "2000ae0f",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "20009ab8",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap header-inner"
+       },
+       "elements": [
+        {
+         "id": "2000740a",
+         "settings": {
+          "html": "<a class=\"brand\" href=\"#top\" aria-label=\"Heart and Vascular Institute of Alabama, home\"><img class=\"brand-mark\" src=\"/wp-content/uploads/2026/10/hvia-mark-light.png\" alt=\"\" width=\"48\" height=\"47\"><span class=\"brand-name\"><span>Heart and Vascular</span><span>Institute of Alabama</span></span></a>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "20008761",
+         "settings": {
+          "html": "<nav class=\"main-nav\" aria-label=\"Main\"><button class=\"nav-toggle\" aria-expanded=\"false\" aria-controls=\"nav-list\"><span></span><span></span><span></span><span class=\"sr\">Menu</span></button><ul id=\"nav-list\"><li><a href=\"#physicians\"><i>01</i> Surgeons</a></li><li><a href=\"#locations\"><i>02</i> Location</a></li><li class=\"nav-cta\"><a class=\"btn btn-red\" href=\"tel:+13348019952\">Call us</a></li></ul></nav>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "default"
+ }
+}

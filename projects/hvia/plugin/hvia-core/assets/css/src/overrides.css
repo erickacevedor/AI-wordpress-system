@@ -1,0 +1,66 @@
+/* ============================================================================
+   HAND-WRITTEN OVERRIDES (come last in hvia-core.css)
+
+   Only what the porter cannot derive from the prototype (option 2). Values are
+   copied from the prototype rules named in each comment.
+   ============================================================================ */
+
+/* ---- Reveal delays ----------------------------------------------------------
+   The prototype sets `style="--d:100ms"` per element; Elementor widgets cannot
+   carry inline style, so the delay is a class. Custom properties inherit, so a
+   class on a widget wrapper reaches the heading inside it. */
+.elementor .d-0   { --d: 0ms; }
+.elementor .d-100 { --d: 100ms; }
+.elementor .d-120 { --d: 120ms; }
+.elementor .d-200 { --d: 200ms; }
+.elementor .d-380 { --d: 380ms; }
+.elementor .d-480 { --d: 480ms; }
+
+/* Inside the Elementor editor the reveal script does not run: show everything. */
+.elementor-editor-active .elementor .reveal,
+.elementor-editor-active .elementor .reveal-load,
+.elementor-editor-active .elementor .reveal-load .elementor-heading-title {
+  opacity: 1; transform: none; animation: none;
+}
+
+/* ---- Widget wrappers that are flex items ------------------------------------
+   .hero-ctas .btn { width: 100% } at 640px: the button fills its wrapper, so the
+   wrapper must fill the row. */
+@media (max-width: 640px) {
+  .elementor .hero-ctas > .elementor-widget-button { width: 100%; }
+}
+
+/* .doc-photo img { height: 100% } fills the 4:5 frame in the prototype. Here the
+   image widget wrapper sits between frame and img, so it must take the frame's
+   height for the percentage to resolve (otherwise the square photo leaves a band). */
+.elementor .doc-photo > .elementor-widget-image { height: 100%; }
+
+/* ---- Native buttons ------------------------------------------------------------
+   Elementor paints every button grey (#69727d). The prototype's .btn has no fill
+   of its own; .btn-red sets one, .btn-line stays transparent. This sits below the
+   ported button rules in weight, so their backgrounds still win. */
+.elementor :where(.elementor-widget-button) .elementor-button { background-color: transparent; }
+
+/* ---- Heading widgets used for short styled lines -----------------------------
+   Elementor sets line-height:1 on .elementor-heading-title. The prototype's p and
+   span lines inherit the body's 1.7 unless a class says otherwise (class rules are
+   heavier than this and still win). h1 to h3 keep their own ported line-height. */
+.elementor :is(p, span, div).elementor-heading-title { line-height: inherit; }
+
+/* Footer wordmark: in the prototype `.site-footer p { margin: 0 }` (0,1,1) beats
+   `.footer-wordmark` (0,1,0), so its -.12em bottom margin never applies.
+   Re-targeting flips that order; restate the prototype's result. */
+.elementor .site-footer .footer-wordmark .elementor-heading-title { margin: 0; }
+
+/* ---- Hello Elementor ---------------------------------------------------------
+   Hello's theme.css pads `.site-header` / `.site-footer` 10px inline on small
+   screens (meant for its own header and footer). The prototype bands have no
+   inline padding: the .wrap inside them has the gutter. */
+.elementor header.site-header,
+.elementor footer.site-footer { padding-inline: 0; }
+
+/* ---- Theme Builder header ----------------------------------------------------
+   .site-header is position:sticky. Its containing block must be the page, not the
+   Theme Builder wrapper (only as tall as the header), so the wrapper gives up its
+   box (same as lenz-core). */
+.elementor-location-header { display: contents; }

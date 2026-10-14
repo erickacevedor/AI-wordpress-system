@@ -1,0 +1,15 @@
+{
+  "btn": "button",
+  "btn-lg": "button",
+  "btn-line": "button",
+  "btn-red": "button",
+  "cap": "heading",
+  "d-0": "heading",
+  "d-100": "heading",
+  "doc-role": "heading",
+  "kicker": "heading",
+  "kicker--light": "heading",
+  "lede": "heading",
+  "reveal-load": "heading",
+  "sec-num": "heading"
+}

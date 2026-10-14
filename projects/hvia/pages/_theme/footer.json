@@ -1,0 +1,214 @@
+{
+ "version": "0.4",
+ "title": "HVIA Footer",
+ "type": "footer",
+ "content": [
+  {
+   "id": "40012219",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "footer",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "site-footer e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "40010ec2",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "4000fb6b",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "40001357",
+         "settings": {
+          "title": "HVIA",
+          "header_size": "p",
+          "_css_classes": "footer-wordmark"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "4000ae0f",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "footer-grid footer-grid--3"
+         },
+         "elements": [
+          {
+           "id": "400026ae",
+           "settings": {
+            "html": "<div class=\"footer-brand\"><img src=\"/wp-content/uploads/2026/10/hvia-mark-light.png\" alt=\"\" width=\"56\" height=\"55\" loading=\"lazy\"><p class=\"brand-name\"><span>Heart and Vascular</span><span>Institute of Alabama</span></p></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "400060b3",
+           "settings": {
+            "content_width": "full"
+           },
+           "elements": [
+            {
+             "id": "40003a05",
+             "settings": {
+              "title": "Montgomery",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "40004d5c",
+             "settings": {
+              "html": "<p>4791 Woodmere Blvd<br>Montgomery, AL 36106</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "40009ab8",
+           "settings": {
+            "content_width": "full"
+           },
+           "elements": [
+            {
+             "id": "4000740a",
+             "settings": {
+              "title": "Contact",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "40008761",
+             "settings": {
+              "html": "<p><a href=\"tel:+13348019952\">(334) 801-9952</a><br><a href=\"https://hviahealth.com\">hviahealth.com</a></p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4000e814",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "footer-bottom"
+         },
+         "elements": [
+          {
+           "id": "4000c166",
+           "settings": {
+            "html": "<p>&copy; <span id=\"year\">2026</span> Heart and Vascular Institute of Alabama. All rights reserved.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "4000d4bd",
+           "settings": {
+            "html": "<p><a href=\"https://exploremedia.com/\" target=\"_blank\" rel=\"noopener\">Powered by exploreMedia</a></p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "default"
+ }
+}
