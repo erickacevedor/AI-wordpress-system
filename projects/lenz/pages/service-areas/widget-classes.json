@@ -1,0 +1,18 @@
+{
+  "btn": "button",
+  "btn-gold": "button",
+  "btn-outline": "button",
+  "btn-outline-light": "button",
+  "btn-primary": "button",
+  "close-form__lead": "text",
+  "hero__sub": "text",
+  "hub-svc__body": "text",
+  "office__text": "text",
+  "office__title": "heading",
+  "promo__title": "heading",
+  "prose__body": "text",
+  "section__lead": "text",
+  "section__title": "heading",
+  "trustbar__label": "text",
+  "trustbar__value": "text"
+}

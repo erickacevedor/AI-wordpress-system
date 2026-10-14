@@ -1,0 +1,11 @@
+{
+  "btn": "button",
+  "btn-gold": "button",
+  "btn-outline-light": "button",
+  "hero__kicker": "text",
+  "hero__sub": "text",
+  "section__lead": "text",
+  "section__title": "heading",
+  "trustbar__label": "text",
+  "trustbar__value": "text"
+}

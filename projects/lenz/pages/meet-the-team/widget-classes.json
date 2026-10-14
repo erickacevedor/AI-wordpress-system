@@ -1,0 +1,14 @@
+{
+  "btn": "button",
+  "btn-gold": "button",
+  "btn-outline-light": "button",
+  "close-form__lead": "text",
+  "hero__sub": "text",
+  "person__bio": "text",
+  "person__name": "heading",
+  "person__role": "text",
+  "promo__title": "heading",
+  "section__lead": "text",
+  "section__title": "heading",
+  "trustbar__value": "text"
+}

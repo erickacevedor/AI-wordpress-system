@@ -403,7 +403,7 @@
    "settings": {
     "content_width": "full",
     "html_tag": "section",
-    "css_classes": "section symptoms svc-page svc-page--warm e-no-lazyload"
+    "css_classes": "section symptoms  svc-page svc-page--warm e-no-lazyload"
    },
    "elements": [
     {
@@ -1195,7 +1195,7 @@
         {
          "id": "4607db58",
          "settings": {
-          "editor": "A one-time tune-up is a great start. But if you'd rather stop thinking about it altogether, our <b>HVAC Maintenance Plans</b> bundle your fall heating check and your spring AC check into one simple membership—plus priority emergency service and discounts on repair parts during the year.",
+          "editor": "A one-time tune-up is a great start. But if you'd rather stop thinking about it altogether, our <b>HVAC Maintenance Plans</b> bundle your fall heating check and your spring AC check into one simple membership—plus priority emergency service, no trip fees, and discounts on repair parts during the year.",
           "_css_classes": "section__lead"
          },
          "elements": [],

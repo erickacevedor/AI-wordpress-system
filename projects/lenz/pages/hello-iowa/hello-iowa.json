@@ -1,0 +1,1045 @@
+{
+ "version": "0.4",
+ "title": "Hello Iowa!",
+ "type": "page",
+ "content": [
+  {
+   "id": "66010ec2",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "hero hero--service svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6600fb6b",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container hero__inner"
+     },
+     "elements": [
+      {
+       "id": "6600ae0f",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__copy"
+       },
+       "elements": [
+        {
+         "id": "66001357",
+         "settings": {
+          "html": "<nav class=\"crumbs\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li aria-current=\"page\">Hello Iowa!</li></ol></nav>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "660026ae",
+         "settings": {
+          "html": "<span class=\"hero__eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-tv\"/></svg> As seen on TV</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "66003a05",
+         "settings": {
+          "title": "Featured on WHO 13 News’ <span class=\"accent\">Hello Iowa!</span>",
+          "header_size": "h1",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "66004d5c",
+         "settings": {
+          "editor": "Real Local Experts. Honest Heating &amp; Cooling Advice.",
+          "_css_classes": "hero__kicker"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "660060b3",
+         "settings": {
+          "editor": "<p>At <b>Lenz Heating &amp; Cooling</b>, we love giving back to Central Iowa by helping our neighbors stay comfortable, save energy, and protect their homes. That’s why we regularly join the team on <b>WHO 13 News' Hello Iowa!</b> to break down complex HVAC topics into plain, simple advice you can use at home.</p><p>Whether we're breaking down how to prepare your furnace for winter, sharing energy-saving hacks, or talking about what sets our family-owned business apart, our goal is always to make home comfort simple and stress-free.</p>",
+          "_css_classes": "hero__sub"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "66009ab8",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hero__cta"
+         },
+         "elements": [
+          {
+           "id": "6600740a",
+           "settings": {
+            "text": "Schedule Service Online",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-gold"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "66008761",
+           "settings": {
+            "text": "Call (515) 225-6446",
+            "link": {
+             "url": "tel:+15152256446",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-outline-light lz-ico lz-ico-phone"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6600e814",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__media"
+       },
+       "elements": [
+        {
+         "id": "6600c166",
+         "settings": {
+          "image": {
+           "url": "/wp-content/uploads/2026/10/lenz-technician-service-call.webp",
+           "id": 32,
+           "size": "",
+           "alt": "A Lenz technician on a service call",
+           "source": "library"
+          },
+          "image_size": "full"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "image",
+         "elType": "widget"
+        },
+        {
+         "id": "6600d4bd",
+         "settings": {
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>As seen on WHO 13</b>Seasonal HVAC tips for Central Iowa.</span></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "66026ae0",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_attributes": "aria-label|At a glance",
+    "css_classes": "trustbar svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "66025789",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "66024432",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "trustbar__grid"
+       },
+       "elements": [
+        {
+         "id": "660148c7",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "66012219",
+           "settings": {
+            "editor": "Since 2009",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "66013570",
+           "settings": {
+            "editor": "Serving Central Iowa",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "660182cc",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "66015c1e",
+           "settings": {
+            "editor": "24/7/365",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "66016f75",
+           "settings": {
+            "editor": "Emergency service",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6601bcd1",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "66019623",
+           "settings": {
+            "editor": "#50871-CL",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6601a97a",
+           "settings": {
+            "editor": "Iowa Master Licensed",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6601f6d6",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "6601d028",
+           "settings": {
+            "editor": "Veteran &amp; Woman-Owned",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6601e37f",
+           "settings": {
+            "editor": "Family operated",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "660230db",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "66020a2d",
+           "settings": {
+            "editor": "Upfront Pricing",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "66021d84",
+           "settings": {
+            "editor": "Before any work begins",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "66033f9d",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section video-section section--mist svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "66032c46",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6602b83c",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "66027e37",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-tv\"/></svg> As seen on TV</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6602918e",
+         "settings": {
+          "title": "Watch Our Latest Segment",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6602a4e5",
+         "settings": {
+          "editor": "Catch our most recent broadcast on Hello Iowa! Below:",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6602cb93",
+       "settings": {
+        "html": "<div class=\"video\"><iframe src=\"https://www.youtube-nocookie.com/embed/8jsNz6yxry0\" title=\"Lenz Heating &amp; Cooling on WHO 13 News Hello Iowa!\" loading=\"lazy\" allow=\"accelerometer; clipboard-write; encrypted-media; picture-in-picture\" allowfullscreen></iframe></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      },
+      {
+       "id": "66030598",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "video-lib__head"
+       },
+       "elements": [
+        {
+         "id": "6602deea",
+         "settings": {
+          "title": "Want to Explore Our Full Video Library?",
+          "header_size": "h3",
+          "_css_classes": "video-lib__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6602f241",
+         "settings": {
+          "editor": "<p>Looking for more seasonal tips, furnace maintenance walk-throughs, and home comfort guides? Check out our complete video collection right here on our website!</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "660318ef",
+       "settings": {
+        "html": "<div class=\"video-grid\"><div class=\"video\"><iframe src=\"https://www.youtube-nocookie.com/embed/YYaD8i_nDLY\" title=\"Lenz Heating &amp; Cooling Hello Iowa! segment 2\" loading=\"lazy\" allow=\"accelerometer; clipboard-write; encrypted-media; picture-in-picture\" allowfullscreen></iframe></div><div class=\"video\"><iframe src=\"https://www.youtube-nocookie.com/embed/eStd5NEOYxw\" title=\"Lenz Heating &amp; Cooling Hello Iowa! segment 3\" loading=\"lazy\" allow=\"accelerometer; clipboard-write; encrypted-media; picture-in-picture\" allowfullscreen></iframe></div><div class=\"video\"><iframe src=\"https://www.youtube-nocookie.com/embed/kO2JzDZUnWc\" title=\"Lenz Heating &amp; Cooling Hello Iowa! segment 4\" loading=\"lazy\" allow=\"accelerometer; clipboard-write; encrypted-media; picture-in-picture\" allowfullscreen></iframe></div><div class=\"video\"><iframe src=\"https://www.youtube-nocookie.com/embed/pkeMxmt_gZI\" title=\"Lenz Heating &amp; Cooling Hello Iowa! segment 5\" loading=\"lazy\" allow=\"accelerometer; clipboard-write; encrypted-media; picture-in-picture\" allowfullscreen></iframe></div></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6604af12",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section symptoms  svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "66049bbb",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6604750d",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "66043b08",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Why Lenz</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "66044e5f",
+         "settings": {
+          "title": "Why Central Iowa Homeowners Trust Lenz",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "660461b6",
+         "settings": {
+          "editor": "When you see us on television, you’re seeing the exact same local team that shows up at your front door:",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "66048864",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "symptom-grid symptom-grid--3"
+       },
+       "elements": [
+        {
+         "id": "66038cf9",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "660352f4",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6603664b",
+           "settings": {
+            "title": "Veteran-Owned &amp; Woman-Owned",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "660379a2",
+           "settings": {
+            "editor": "<p>Built on military-grade precision, integrity, and strong local family values.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6603da55",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "6603a050",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-card\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6603b3a7",
+           "settings": {
+            "title": "\"To The Penny\" Pricing Guarantee",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6603c6fe",
+           "settings": {
+            "editor": "<p>No surprise hourly fees or hidden costs. The price we quote upfront is the exact price you pay—period.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "660427b1",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "6603edac",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "66040103",
+           "settings": {
+            "title": "Rooted in Central Iowa Since 2009",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6604145a",
+           "settings": {
+            "editor": "<p>Proudly serving Des Moines, Urbandale, West Des Moines, Ankeny, Waukee, Clive, Altoona, and surrounding communities.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "66057078",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "contact",
+    "css_classes": "close-form section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "66055d21",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "660549ca",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "close-form__inner"
+       },
+       "elements": [
+        {
+         "id": "66050fc5",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "6604d5c0",
+           "settings": {
+            "title": "Ready to Put Our TV-Featured Advice to Work in Your Home?",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6604e917",
+           "settings": {
+            "editor": "<p>Get the same trusted, expert care you see on TV! Whether you need a seasonal maintenance tune-up, an emergency repair, or an equipment inspection, our local team is here to help.</p><p>Call <b>(515) 225-6446</b> or schedule your appointment online today!</p>",
+            "_css_classes": "close-form__lead"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6604fc6e",
+           "settings": {
+            "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "66053673",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "form-card"
+         },
+         "elements": [
+          {
+           "id": "6604c269",
+           "settings": {
+            "form_name": "Estimate request",
+            "form_fields": [
+             {
+              "_id": "name",
+              "custom_id": "name",
+              "field_type": "text",
+              "field_label": "Name",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "phone",
+              "custom_id": "phone",
+              "field_type": "tel",
+              "field_label": "Phone",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "service",
+              "custom_id": "service",
+              "field_type": "select",
+              "field_label": "Service",
+              "required": "true",
+              "width": "100",
+              "placeholder": "",
+              "field_options": "Choose a service…|\nAir Conditioning\nAC Installation\nAC Repair\nAC Replacement\nFurnace & Heating\nHeat Pumps\nDuctwork\nDuct Cleaning\nIndoor Air Quality\nWater Heater Installation\nMaintenance"
+             }
+            ],
+            "show_labels": "yes",
+            "mark_required": "yes",
+            "button_text": "Schedule Service Online",
+            "button_width": "100",
+            "button_text_color": "#121212",
+            "button_hover_color": "#121212",
+            "button_background_color": "#FFC600",
+            "button_background_hover_color": "#FFCF29",
+            "field_background_color": "#FFFFFF",
+            "column_gap": {
+             "unit": "px",
+             "size": 0,
+             "sizes": []
+            },
+            "row_gap": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "submit_actions": [
+             "email"
+            ],
+            "email_to": "Sierra@LenzHeatingandCooling.com",
+            "email_subject": "New estimate request from the website",
+            "email_content": "[all-fields]",
+            "email_from_name": "Lenz website",
+            "success_message": "Thanks — your request was received. We'll call you back within 2 hours during business hours. Need help now? Call (515) 225-6446.",
+            "required_field_message": "This field is required.",
+            "invalid_message": "Please check the highlighted fields.",
+            "_css_classes": "lz-form"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "form",
+           "elType": "widget"
+          },
+          {
+           "id": "6605231c",
+           "settings": {
+            "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

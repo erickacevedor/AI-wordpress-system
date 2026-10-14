@@ -134,5 +134,23 @@
     "url": "/wp-content/uploads/2026/10/bryant.webp",
     "width": 166,
     "height": 88
+  },
+  "coupon-beatheeasy": {
+    "id": 72,
+    "url": "/wp-content/uploads/2026/10/Lenz_WebsiteSpecials_Jan26_BeatheEasy.png",
+    "width": 1024,
+    "height": 858
+  },
+  "coupon-ductcleaning": {
+    "id": 73,
+    "url": "/wp-content/uploads/2026/10/Lenz_WebsiteSpecials_Jan26_DuctCleaning.png",
+    "width": 1024,
+    "height": 858
+  },
+  "coupon-firstservice": {
+    "id": 74,
+    "url": "/wp-content/uploads/2026/10/Lenz_WebsiteSpecials_Jan26_FirstService.png",
+    "width": 1024,
+    "height": 858
   }
 }

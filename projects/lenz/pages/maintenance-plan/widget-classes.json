@@ -1,0 +1,21 @@
+{
+  "btn": "button",
+  "btn-gold": "button",
+  "btn-outline": "button",
+  "btn-outline-light": "button",
+  "btn-primary": "button",
+  "close-form__lead": "text",
+  "hero__kicker": "text",
+  "hero__sub": "text",
+  "plan__meta": "text",
+  "plan__name": "text",
+  "plan__price": "text",
+  "plans__note": "text",
+  "promo__title": "heading",
+  "section__lead": "text",
+  "section__title": "heading",
+  "step__body": "text",
+  "step__title": "heading",
+  "trustbar__label": "text",
+  "trustbar__value": "text"
+}

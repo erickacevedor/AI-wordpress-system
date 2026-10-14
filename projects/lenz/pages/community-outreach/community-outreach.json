@@ -1,0 +1,1347 @@
+{
+ "version": "0.4",
+ "title": "Community Outreach",
+ "type": "page",
+ "content": [
+  {
+   "id": "6700fb6b",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "hero hero--service svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6700e814",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container hero__inner"
+     },
+     "elements": [
+      {
+       "id": "67009ab8",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__copy"
+       },
+       "elements": [
+        {
+         "id": "67001357",
+         "settings": {
+          "html": "<nav class=\"crumbs\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li aria-current=\"page\">Community Outreach</li></ol></nav>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "670026ae",
+         "settings": {
+          "html": "<span class=\"hero__eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Community</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "67003a05",
+         "settings": {
+          "title": "<span class=\"accent\">Giving Back</span> to the Communities We Call Home",
+          "header_size": "h1",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "67004d5c",
+         "settings": {
+          "editor": "<p>Lenz Heating &amp; Cooling is proud to serve the same Central Iowa communities we call home. Our work starts with heating, cooling, and indoor air quality, but our commitment does not stop there.</p><p>From Des Moines and Urbandale to Creston, Winterset, Madison County, and surrounding communities, we believe local businesses should help strengthen the neighborhoods, schools, families, and organizations that support them. Whether we are helping a family through Operation Lenz a Helping Hand, supporting youth sports, partnering with local small businesses, or contributing to school programs, our goal is simple: show up, give back, and help make Central Iowa a better place to live.</p>",
+          "_css_classes": "hero__sub"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "67008761",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hero__cta"
+         },
+         "elements": [
+          {
+           "id": "670060b3",
+           "settings": {
+            "text": "Contact Our Team",
+            "link": {
+             "url": "/contact/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-gold"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "6700740a",
+           "settings": {
+            "text": "Call (515) 225-6446",
+            "link": {
+             "url": "tel:+15152256446",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-outline-light lz-ico lz-ico-phone"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6700d4bd",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__media"
+       },
+       "elements": [
+        {
+         "id": "6700ae0f",
+         "settings": {
+          "image": {
+           "url": "/wp-content/uploads/2026/10/lenz-team.webp",
+           "id": 33,
+           "size": "",
+           "alt": "The Lenz Heating &amp; Cooling team standing in front of their service vans",
+           "source": "library"
+          },
+          "image_size": "full"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "image",
+         "elType": "widget"
+        },
+        {
+         "id": "6700c166",
+         "settings": {
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Operation Lenz a Helping Hand</b>Helping neighbors stay safe and comfortable.</span></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "67025789",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_attributes": "aria-label|At a glance",
+    "css_classes": "trustbar svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "67024432",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "670230db",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "trustbar__grid"
+       },
+       "elements": [
+        {
+         "id": "67013570",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "67010ec2",
+           "settings": {
+            "editor": "Since 2009",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "67012219",
+           "settings": {
+            "editor": "Serving Central Iowa",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "67016f75",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "670148c7",
+           "settings": {
+            "editor": "24/7/365",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "67015c1e",
+           "settings": {
+            "editor": "Emergency service",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6701a97a",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "670182cc",
+           "settings": {
+            "editor": "#50871-CL",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "67019623",
+           "settings": {
+            "editor": "Iowa Master Licensed",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6701e37f",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "6701bcd1",
+           "settings": {
+            "editor": "Veteran &amp; Woman-Owned",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6701d028",
+           "settings": {
+            "editor": "Family operated",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "67021d84",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "6701f6d6",
+           "settings": {
+            "editor": "Upfront Pricing",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "67020a2d",
+           "settings": {
+            "editor": "Before any work begins",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6702cb93",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section prose  svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6702b83c",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6702a4e5",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "prose__inner"
+       },
+       "elements": [
+        {
+         "id": "67026ae0",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Rooted in service</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "67027e37",
+         "settings": {
+          "title": "Rooted in Service, Built on Relationships",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6702918e",
+         "settings": {
+          "editor": "<p>As a local heating and cooling company, we spend a lot of time inside homes across Central Iowa. We see how important comfort, safety, and trust are for families, seniors, schools, small businesses, and local neighborhoods.</p><p>That same mindset guides our community outreach. Lenz Heating &amp; Cooling believes in doing honest work, supporting local relationships, and finding practical ways to give back to the communities that have supported us over the years.</p>",
+          "_css_classes": "prose__body"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "670352f4",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section promo-section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "67033f9d",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "67032c46",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "service-help promo"
+       },
+       "elements": [
+        {
+         "id": "67030598",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "service-help__txt promo__txt"
+         },
+         "elements": [
+          {
+           "id": "6702deea",
+           "settings": {
+            "title": "Operation Lenz a Helping Hand",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom",
+            "_css_classes": "promo__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6702f241",
+           "settings": {
+            "editor": "<p><b>Helping Neighbors Stay Safe and Comfortable</b> </p><p>Operation Lenz a Helping Hand was created to help individuals or families who do not have the means to purchase the heating and cooling systems they need.</p><p>For many households, a working furnace or air conditioner is not just about comfort. It can affect safety, health, and peace of mind. Through this program, Lenz Heating &amp; Cooling works with suppliers to find ways to install new heating and cooling systems at no cost to the client when support is available.</p><p>This program reflects the heart of our community outreach: using the work we do every day to help a neighbor stay warm in winter, cool in summer, and safe at home.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "670318ef",
+         "settings": {
+          "text": "Ask About Operation Lenz a Helping Hand",
+          "link": {
+           "url": "tel:+15152256446",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "btn btn-gold lz-ico lz-ico-phone"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "button",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6703c6fe",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section prose section--mist svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6703b3a7",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6703a050",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "prose__inner"
+       },
+       "elements": [
+        {
+         "id": "6703664b",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg> Students, teams &amp; families</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "670379a2",
+         "settings": {
+          "title": "Showing Up for Students, Teams, and Families",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "67038cf9",
+         "settings": {
+          "editor": "<p>Lenz Heating &amp; Cooling values opportunities to support young people, school programs, and family-centered activities throughout the communities we serve.</p><p>We are proud to sponsor local youth sports programs, including <b>UGRA 12U J-Hawks Softball</b> and <b>DCG Youth Flag Football</b>. Supporting youth teams gives us a chance to encourage teamwork, community pride, and family involvement beyond the work we do in homes.</p><p>We also support the <b>Creston Booster Club</b> through direct donations and fun halftime giveaways at Creston High School Basketball games.</p><p>Lenz Heating &amp; Cooling also works closely with the <b>Saint Malachy SCRIP Program</b>, which helps raise money for Saint Malachy School through gift card donations. The program also works with individual Creston residents to help cover HVAC costs, with a percentage of those costs going back to the school, specifically toward student tuition accounts. Lenz also participates in the annual Saint Malachy SCRIP Auction.</p><p><b>Web Dev Design note:</b> Use this section for a clean partner-card or logo layout. Each card should include the organization name, a short description, and a link if available.</p>",
+          "_css_classes": "prose__body"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "67043b08",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section prose  svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "670427b1",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6704145a",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "prose__inner"
+       },
+       "elements": [
+        {
+         "id": "6703da55",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg> Local partnerships</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6703edac",
+         "settings": {
+          "title": "Growing Stronger Through Local Partnerships",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "67040103",
+         "settings": {
+          "editor": "<p>Strong communities are built through local relationships. Lenz Heating &amp; Cooling is proud to stay connected with organizations, businesses, and community groups that help Central Iowa grow.</p><p>We are proud members of the <b>Urbandale Chamber of Commerce</b> and the <b>Creston Chamber of Commerce</b>. These relationships help us stay involved with local business owners, community leaders, and the people who make our service areas feel like home.</p><p><b>Web Dev Design note:</b> Use this section for a clean partner-card or logo layout. Each card should include the organization name, a short description, and a link if available.</p>",
+          "_css_classes": "prose__body"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6704d5c0",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section prose section--mist svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6704c269",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6704af12",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "prose__inner"
+       },
+       "elements": [
+        {
+         "id": "67044e5f",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Local businesses</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "670461b6",
+         "settings": {
+          "title": "Celebrating Local Businesses and Neighbors",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6704750d",
+         "settings": {
+          "editor": "<p>Central Iowa has given Lenz Heating &amp; Cooling an incredible amount of support, and #WinningWednesday is one way we give back.</p><p>Through these weekly giveaways, we provide opportunities for community members to win special prizes while also helping promote local small businesses. When possible, we partner with business owners who donate toward the giveaway, and in return, we help spotlight their business through our Facebook page.</p><p>It is a simple way to celebrate local support, introduce neighbors to small businesses, and keep community connection fun.</p>",
+          "_css_classes": "prose__body"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "67049bbb",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "section-cta"
+         },
+         "elements": [
+          {
+           "id": "67048864",
+           "settings": {
+            "text": "Follow Lenz on Facebook",
+            "link": {
+             "url": "https://www.facebook.com/lenzheatingandcooling/",
+             "is_external": "on",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-primary"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "670583cf",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section prose  svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "67057078",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "67055d21",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "prose__inner"
+       },
+       "elements": [
+        {
+         "id": "6704e917",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg> Our values</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6704fc6e",
+         "settings": {
+          "title": "The Values We Bring Into Every Home",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "67050fc5",
+         "settings": {
+          "editor": "<p>Community outreach and HVAC service may look different, but they are built on the same values: honesty, care, follow-through, and respect for the people we serve.</p><p>When homeowners call Lenz Heating &amp; Cooling, they can expect clear communication, practical recommendations, and service focused on doing the right thing.</p>",
+          "_css_classes": "prose__body"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "670549ca",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "section-cta"
+         },
+         "elements": [
+          {
+           "id": "6705231c",
+           "settings": {
+            "text": "Explore HVAC Services",
+            "link": {
+             "url": "/#services",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-primary"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "67053673",
+           "settings": {
+            "text": "Schedule Service Online",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-outline"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "67064535",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "contact",
+    "css_classes": "close-form section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "670631de",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "67061e87",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "close-form__inner"
+       },
+       "elements": [
+        {
+         "id": "6705e482",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "6705aa7d",
+           "settings": {
+            "title": "Let’s Stay Connected",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6705bdd4",
+           "settings": {
+            "editor": "<p>Whether you are a local organization interested in connecting, a homeowner looking for help, or a neighbor who wants to follow along with our latest community programs, Lenz Heating &amp; Cooling would be glad to hear from you.</p><p>We are proud to serve Central Iowa, and we are grateful for the chance to give back to the communities that have supported us.</p>",
+            "_css_classes": "close-form__lead"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6705d12b",
+           "settings": {
+            "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "67060b30",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "form-card"
+         },
+         "elements": [
+          {
+           "id": "67059726",
+           "settings": {
+            "form_name": "Estimate request",
+            "form_fields": [
+             {
+              "_id": "name",
+              "custom_id": "name",
+              "field_type": "text",
+              "field_label": "Name",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "phone",
+              "custom_id": "phone",
+              "field_type": "tel",
+              "field_label": "Phone",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "service",
+              "custom_id": "service",
+              "field_type": "select",
+              "field_label": "Service",
+              "required": "true",
+              "width": "100",
+              "placeholder": "",
+              "field_options": "Choose a service…|\nAir Conditioning\nAC Installation\nAC Repair\nAC Replacement\nFurnace & Heating\nHeat Pumps\nDuctwork\nDuct Cleaning\nIndoor Air Quality\nWater Heater Installation\nMaintenance"
+             }
+            ],
+            "show_labels": "yes",
+            "mark_required": "yes",
+            "button_text": "Contact Our Team",
+            "button_width": "100",
+            "button_text_color": "#121212",
+            "button_hover_color": "#121212",
+            "button_background_color": "#FFC600",
+            "button_background_hover_color": "#FFCF29",
+            "field_background_color": "#FFFFFF",
+            "column_gap": {
+             "unit": "px",
+             "size": 0,
+             "sizes": []
+            },
+            "row_gap": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "submit_actions": [
+             "email"
+            ],
+            "email_to": "Sierra@LenzHeatingandCooling.com",
+            "email_subject": "New estimate request from the website",
+            "email_content": "[all-fields]",
+            "email_from_name": "Lenz website",
+            "success_message": "Thanks — your request was received. We'll call you back within 2 hours during business hours. Need help now? Call (515) 225-6446.",
+            "required_field_message": "This field is required.",
+            "invalid_message": "Please check the highlighted fields.",
+            "_css_classes": "lz-form"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "form",
+           "elType": "widget"
+          },
+          {
+           "id": "6705f7d9",
+           "settings": {
+            "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

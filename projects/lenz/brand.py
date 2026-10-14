@@ -90,6 +90,14 @@ L = {
     "contact": "/contact/",
     "privacy": "/privacy-policy/",                           # planned
     "terms": "/terms/",                                      # planned
+    "meet-the-team": "/meet-the-team/",
+    "hvac-jobs": "/hvac-jobs/",
+    "hello-iowa": "/hello-iowa/",
+    "community-outreach": "/community-outreach/",
+    "urbandale": "/urbandale/",
+    "waukee": "/waukee/",
+    "blog": "/blog/",
+    "facebook": "https://www.facebook.com/lenzheatingandcooling/",
     "form": "#contact",            # ClickUp 09/10 item 13: CTAs anchor to the form
     "reviews": "https://www.google.com/maps/search/?api=1&query=Lenz+Heating+and+Cooling+Urbandale+IA",
     "who13-video": "https://www.youtube-nocookie.com/embed/8jsNz6yxry0",
@@ -400,7 +408,8 @@ def cta_band(title, sub, extra=""):
 def trustbar(items, extra=""):
     return section(("trustbar " + extra).strip(), [
         box("trustbar__grid", [
-            box("trustbar__item", [text(v, "trustbar__value"), text(l, "trustbar__label")]) for v, l in items
+            box("trustbar__item", [text(v, "trustbar__value")] + ([text(l, "trustbar__label")] if l else []))
+            for v, l in items
         ]),
     ], label="At a glance")
 

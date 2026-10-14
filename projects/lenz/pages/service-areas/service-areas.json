@@ -1,0 +1,1982 @@
+{
+ "version": "0.4",
+ "title": "Service Areas",
+ "type": "page",
+ "content": [
+  {
+   "id": "6900fb6b",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "hero hero--service svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6900e814",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container hero__inner"
+     },
+     "elements": [
+      {
+       "id": "69009ab8",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__copy"
+       },
+       "elements": [
+        {
+         "id": "69001357",
+         "settings": {
+          "html": "<nav class=\"crumbs\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li aria-current=\"page\">Service Areas</li></ol></nav>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "690026ae",
+         "settings": {
+          "html": "<span class=\"hero__eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg> Service areas</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "69003a05",
+         "settings": {
+          "title": "<span class=\"accent\">HVAC Service Areas</span> in Des Moines &amp; Central Iowa",
+          "header_size": "h1",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "69004d5c",
+         "settings": {
+          "editor": "<p>When you need heating, cooling, or indoor comfort service, location matters. You want a local HVAC team that understands Central Iowa homes, knows the weather, and can tell you clearly whether your area is covered.</p><p>Lenz Heating &amp; Cooling provides HVAC repair, replacement, maintenance, indoor air quality, ductwork, water heater, and related home comfort services throughout the Des Moines metro and surrounding Central Iowa communities. With our Urbandale main office and Waukee location, our team is positioned to serve homeowners across established neighborhoods, growing suburbs, and nearby communities with dependable service and clear communication.</p><p>Whether you need AC repair in Des Moines, furnace service in Urbandale, HVAC maintenance in Waukee, or indoor air quality help in a surrounding community, our local team is here to help you get comfortable again.</p>",
+          "_css_classes": "hero__sub"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "69008761",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hero__cta"
+         },
+         "elements": [
+          {
+           "id": "690060b3",
+           "settings": {
+            "text": "Schedule Service Online",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-gold"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "6900740a",
+           "settings": {
+            "text": "Call (515) 225-6446",
+            "link": {
+             "url": "tel:+15152256446",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-outline-light lz-ico lz-ico-phone"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6900d4bd",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__media"
+       },
+       "elements": [
+        {
+         "id": "6900ae0f",
+         "settings": {
+          "image": {
+           "url": "/wp-content/uploads/2026/10/lenz-service-van-wrap.webp",
+           "id": 34,
+           "size": "",
+           "alt": "A Lenz Heating &amp; Cooling wrapped service van",
+           "source": "library"
+          },
+          "image_size": "full"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "image",
+         "elType": "widget"
+        },
+        {
+         "id": "6900c166",
+         "settings": {
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Two local offices</b>Urbandale and Waukee.</span></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "69025789",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_attributes": "aria-label|At a glance",
+    "css_classes": "trustbar svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "69024432",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "690230db",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "trustbar__grid"
+       },
+       "elements": [
+        {
+         "id": "69013570",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "69010ec2",
+           "settings": {
+            "editor": "Since 2009",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "69012219",
+           "settings": {
+            "editor": "Serving Central Iowa",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "69016f75",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "690148c7",
+           "settings": {
+            "editor": "24/7/365",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "69015c1e",
+           "settings": {
+            "editor": "Emergency service",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6901a97a",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "690182cc",
+           "settings": {
+            "editor": "#50871-CL",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "69019623",
+           "settings": {
+            "editor": "Iowa Master Licensed",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6901e37f",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "6901bcd1",
+           "settings": {
+            "editor": "Veteran &amp; Woman-Owned",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6901d028",
+           "settings": {
+            "editor": "Family operated",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "69021d84",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "6901f6d6",
+           "settings": {
+            "editor": "Upfront Pricing",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "69020a2d",
+           "settings": {
+            "editor": "Before any work begins",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "69043b08",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section offices-section  svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "690427b1",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "69040103",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "6903c6fe",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg> Two local offices</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6903da55",
+         "settings": {
+          "title": "Two Local HVAC Locations Serving the Des Moines Metro",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6903edac",
+         "settings": {
+          "editor": "Lenz Heating &amp; Cooling is rooted in Central Iowa. Our two local locations help us support homeowners across the metro area, from long-established neighborhoods to fast-growing communities west of Des Moines.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6904145a",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "offices"
+       },
+       "elements": [
+        {
+         "id": "69030598",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "office"
+         },
+         "elements": [
+          {
+           "id": "69026ae0",
+           "settings": {
+            "html": "<div class=\"office__map\"><iframe src=\"https://www.google.com/maps?q=7641+Douglas+Avenue,+Urbandale,+IA+50322&amp;output=embed\" title=\"Map of the Lenz Urbandale office\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6902f241",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "office__body"
+           },
+           "elements": [
+            {
+             "id": "69027e37",
+             "settings": {
+              "title": "Urbandale Main Office",
+              "header_size": "h3",
+              "_css_classes": "office__title"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "6902918e",
+             "settings": {
+              "html": "<p class=\"office__addr\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>7641 Douglas Ave, Urbandale, IA 50322</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "6902a4e5",
+             "settings": {
+              "editor": "<p>From our Urbandale main office, Lenz Heating &amp; Cooling serves homeowners throughout Urbandale, Des Moines, West Des Moines, Clive, Johnston, Windsor Heights, Ankeny, Altoona, and surrounding areas. This location keeps our team close to many of the homes and neighborhoods we serve every day.</p><p>Whether you are dealing with an AC that will not keep up, a furnace that needs attention, uneven airflow, or indoor air quality concerns, our Urbandale-based team is ready to help.</p>",
+              "_css_classes": "office__text"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "6902deea",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "office__cta"
+             },
+             "elements": [
+              {
+               "id": "6902b83c",
+               "settings": {
+                "text": "Call (515) 225-6446",
+                "link": {
+                 "url": "tel:+15152256446",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "_css_classes": "btn btn-primary lz-ico lz-ico-phone"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "button",
+               "elType": "widget"
+              },
+              {
+               "id": "6902cb93",
+               "settings": {
+                "text": "Get Directions",
+                "link": {
+                 "url": "https://www.google.com/maps/dir/?api=1&destination=7641+Douglas+Avenue,+Urbandale,+IA+50322",
+                 "is_external": "on",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "_css_classes": "btn btn-outline"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "button",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6903b3a7",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "office"
+         },
+         "elements": [
+          {
+           "id": "690318ef",
+           "settings": {
+            "html": "<div class=\"office__map\"><iframe src=\"https://www.google.com/maps?q=810+Interstate+Pkwy+Suite+141,+Waukee,+IA+50263&amp;output=embed\" title=\"Map of the Lenz Waukee office\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6903a050",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "office__body"
+           },
+           "elements": [
+            {
+             "id": "69032c46",
+             "settings": {
+              "title": "Waukee Location",
+              "header_size": "h3",
+              "_css_classes": "office__title"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "69033f9d",
+             "settings": {
+              "html": "<p class=\"office__addr\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>810 Interstate Pkwy, Suite 141, Waukee, IA 50263</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "690352f4",
+             "settings": {
+              "editor": "<p>Our Waukee location helps support service across the western Des Moines metro, including Waukee, West Des Moines and nearby communities. As this area continues to grow, homeowners often need HVAC support for newer homes, system upgrades, AC installation, furnace maintenance, heat pumps, ductwork adjustments, and indoor comfort improvements.</p><p>If you live in Waukee or one of the surrounding western metro communities, Lenz Heating &amp; Cooling can help confirm service availability and recommend the right solution for your home.</p>",
+              "_css_classes": "office__text"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "69038cf9",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "office__cta"
+             },
+             "elements": [
+              {
+               "id": "6903664b",
+               "settings": {
+                "text": "Call (515) 225-6446",
+                "link": {
+                 "url": "tel:+15152256446",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "_css_classes": "btn btn-primary lz-ico lz-ico-phone"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "button",
+               "elType": "widget"
+              },
+              {
+               "id": "690379a2",
+               "settings": {
+                "text": "Get Directions",
+                "link": {
+                 "url": "https://www.google.com/maps/dir/?api=1&destination=810+Interstate+Pkwy+Suite+141,+Waukee,+IA+50263",
+                 "is_external": "on",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "_css_classes": "btn btn-outline"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "button",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "69053673",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "area",
+    "css_classes": "area section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6905231c",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6904c269",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head section__head--center"
+       },
+       "elements": [
+        {
+         "id": "69048864",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg> Service area</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "69049bbb",
+         "settings": {
+          "title": "Explore the Lenz Heating &amp; Cooling Service Map",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6904af12",
+         "settings": {
+          "editor": "See the communities Lenz Heating &amp; Cooling serves throughout Greater Des Moines and Central Iowa. Our service area includes many of the neighborhoods and cities surrounding our Urbandale main office and Waukee location.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "69050fc5",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "area__layout"
+       },
+       "elements": [
+        {
+         "id": "6904d5c0",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "area__copy"
+         },
+         "elements": [
+          {
+           "id": "69044e5f",
+           "settings": {
+            "html": "<div class=\"area__cities\"><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Urbandale</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Waukee</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Des Moines</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>West Des Moines</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Ankeny</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Johnston</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Clive</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Grimes</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Altoona</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Norwalk</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Windsor Heights</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Surrounding Central Iowa communities</span></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "690461b6",
+           "settings": {
+            "html": "<p class=\"area__note\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-info\"/></svg>If your city is listed, we likely serve your area. If you do not see your city listed, call our local office and we will be happy to confirm availability for your address.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6904750d",
+           "settings": {
+            "html": "<p class=\"area__address\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg><a href=\"https://www.google.com/maps/dir/?api=1&amp;destination=7641+Douglas+Avenue,+Urbandale,+IA+50322\" target=\"_blank\" rel=\"noopener noreferrer\">Main office: 7641 Douglas Ave, Urbandale, IA 50322</a><span class=\"sep\">·</span><a href=\"https://www.google.com/maps/dir/?api=1&amp;destination=810+Interstate+Pkwy+Suite+141,+Waukee,+IA\" target=\"_blank\" rel=\"noopener noreferrer\">Waukee: 810 Interstate Pkwy, Suite 141</a></p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6904fc6e",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "area__map"
+         },
+         "elements": [
+          {
+           "id": "6904e917",
+           "settings": {
+            "html": "<iframe src=\"https://www.google.com/maps?q=7641+Douglas+Avenue,+Urbandale,+IA+50322&amp;output=embed\" title=\"Lenz Heating &amp; Cooling location and service area map\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\" allowfullscreen></iframe>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6907a153",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "services",
+    "css_classes": "section section--mist hub-services svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "69078dfc",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6907674e",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "69072d49",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-wrench\"/></svg> Services near you</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "690740a0",
+         "settings": {
+          "title": "Reliable HVAC Services Available Where You Live",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "690753f7",
+         "settings": {
+          "editor": "No matter which part of the Des Moines metro you call home, Lenz Heating &amp; Cooling provides a full range of HVAC and home comfort services designed for Central Iowa weather. From humid summer afternoons to freezing winter nights, our team helps homeowners keep their systems safe, efficient, and reliable.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "69077aa5",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hub-list hub-list--grid"
+       },
+       "elements": [
+        {
+         "id": "69059726",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "690549ca",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-snow\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "69055d21",
+           "settings": {
+            "title": "Air Conditioning Services",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "69057078",
+           "settings": {
+            "editor": "<p>Central Iowa summers can put your cooling system under serious strain. Lenz Heating &amp; Cooling provides AC repair, AC maintenance, AC replacement, and AC installation for homes throughout the Des Moines metro and nearby communities.</p><p>Whether your air conditioner is leaking water, blowing warm air, freezing up, running constantly, or no longer keeping your home comfortable, our team can inspect the system and explain your options clearly.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "690583cf",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/air-conditioning/\">Explore Air Conditioning Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6905f7d9",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "6905aa7d",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6905bdd4",
+           "settings": {
+            "title": "Heating and Furnace Services",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6905d12b",
+           "settings": {
+            "editor": "<p>Iowa winters are hard on heating systems. Lenz Heating &amp; Cooling provides furnace repair, heating maintenance, furnace replacement, and seasonal service for gas and electric heating systems across our service area.</p><p>If your furnace will not turn on, makes unusual noises, struggles to heat evenly, or is getting older and less efficient, our technicians can help you decide what makes sense for your home.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6905e482",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/heating/\">Explore Heating Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6906588c",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "69060b30",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "69061e87",
+           "settings": {
+            "title": "Indoor Air Quality Services",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "690631de",
+           "settings": {
+            "editor": "<p>Comfort is not only about temperature. Dust, dry air, high humidity, allergens, stale air, and poor filtration can all affect how your home feels. Lenz Heating &amp; Cooling provides indoor air quality solutions for homeowners across Central Iowa, including filtration, humidity control, air purifiers, and comfort-focused recommendations.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "69064535",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/indoor-air-quality/\">Improve Indoor Air Quality <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6906b93f",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "69066be3",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-wrench\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "69067f3a",
+           "settings": {
+            "title": "Additional Home Comfort Services",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "69069291",
+           "settings": {
+            "editor": "<p>Beyond heating, cooling, and indoor air quality, Lenz Heating &amp; Cooling provides additional home comfort services across Des Moines and Central Iowa. Our team installs and services smart thermostats, heat pumps, tank and tankless water heaters, gas lines, and ductwork solutions that support comfort, efficiency, and everyday convenience.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6906a5e8",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/additional-services/\">View Additional Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "690719f2",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "6906cc96",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6906dfed",
+           "settings": {
+            "title": "Emergency HVAC Service",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6906f344",
+           "settings": {
+            "editor": "<p>Heating and cooling problems do not always happen during regular business hours. Lenz Heating &amp; Cooling offers emergency HVAC service for urgent breakdowns across the Greater Des Moines service area.</p><p>If your AC fails during extreme heat or your furnace stops working during freezing weather, call our local team so we can help confirm availability and next steps.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6907069b",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"tel:+15152256446\">Request Emergency HVAC Service <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "690828b4",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "cta-band section--tight svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6908155d",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6907b4aa",
+       "settings": {
+        "html": "<img class=\"cta-band__bg\" src=\"/wp-content/uploads/2026/10/lenz-service-van-wrap.webp\" alt=\"\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" />"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      },
+      {
+       "id": "69080206",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "cta-band__inner"
+       },
+       "elements": [
+        {
+         "id": "6907c801",
+         "settings": {
+          "title": "Heat out? AC down? We&apos;re ready right now.",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6907db58",
+         "settings": {
+          "editor": "<p>24/7 emergency service across the Des Moines metro since 2009.</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "6907eeaf",
+         "settings": {
+          "text": "Call (515) 225-6446",
+          "link": {
+           "url": "tel:+15152256446",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "btn btn-gold lz-ico lz-ico-phone"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "button",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "69089cbe",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section prose section--mist svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "69088967",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "69087610",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "prose__inner"
+       },
+       "elements": [
+        {
+         "id": "69083c0b",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg> Built for Central Iowa</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "69084f62",
+         "settings": {
+          "title": "Local HVAC Service Built for Central Iowa Homes",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "690862b9",
+         "settings": {
+          "editor": "<p>Every home has its own comfort challenges. That is especially true across Central Iowa, where older homes, newer construction, changing neighborhoods, and extreme seasonal weather can all affect HVAC performance.</p><p>In established Des Moines-area neighborhoods, homes may have older ductwork, aging equipment, airflow concerns, or heating and cooling systems that no longer match the way the home is used. In newer communities around Waukee, Grimes, Ankeny, and West Des Moines, homeowners may need help with system sizing, humidity control, smart thermostats, indoor air quality, or routine maintenance to keep newer equipment running well.</p><p>Central Iowa weather adds another layer. Hot, humid summers can make an undersized or poorly maintained AC struggle. Cold winter nights can expose furnace issues quickly. Dust, pollen, cottonwood, and seasonal humidity can also affect airflow and indoor air quality.</p><p>That is why Lenz Heating &amp; Cooling looks at more than the equipment alone. Our technicians consider your system, home layout, airflow, comfort concerns, and budget before recommending the next step.</p>",
+          "_css_classes": "prose__body"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6909241f",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section promo-section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "690910c8",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6908fd71",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "service-help promo"
+       },
+       "elements": [
+        {
+         "id": "6908d6c3",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "service-help__txt promo__txt"
+         },
+         "elements": [
+          {
+           "id": "6908b015",
+           "settings": {
+            "title": "Just Outside the Map? Let’s Check Your Address",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom",
+            "_css_classes": "promo__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6908c36c",
+           "settings": {
+            "editor": "<p>Do not worry if your city is not shown on the map or listed above. Lenz Heating &amp; Cooling may still be able to help depending on your location, scheduling, and the type of HVAC service you need.</p><p>The easiest way to confirm service availability is to call our local office. Our team can check your address, answer questions, and let you know whether we can provide service in your area.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6908ea1a",
+         "settings": {
+          "text": "Call (515) 225-6446",
+          "link": {
+           "url": "tel:+15152256446",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "btn btn-gold lz-ico lz-ico-phone"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "button",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "69099829",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "faqs",
+    "css_classes": "faqs section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "690984d2",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "69095e24",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head section__head--center"
+       },
+       "elements": [
+        {
+         "id": "69093776",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-info\"/></svg> FAQs</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "69094acd",
+         "settings": {
+          "title": "Service Area Questions Homeowners Ask Before Scheduling",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6909717b",
+       "settings": {
+        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">Do you provide the same HVAC services in every city you serve? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p>Yes. Lenz Heating &amp; Cooling provides heating, cooling, indoor air quality, ductwork, maintenance, and related home comfort services across the Greater Des Moines area and surrounding Central Iowa communities. Availability may depend on the type of service needed and your exact location, so our team can confirm details when you call or schedule online.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">Can I schedule emergency HVAC service if I live outside Des Moines? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p>Yes. Lenz Heating &amp; Cooling offers emergency HVAC service throughout the Greater Des Moines service area. If your furnace stops working in the winter or your AC fails during a summer heat wave, our local team can help confirm availability for your address and get you on the schedule as quickly as possible.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">How do I know if my home is within your service area? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p>The easiest way is to check the service area map or city list on this page. If your city is not listed, you can still call Lenz Heating &amp; Cooling to confirm. Service availability may depend on your address, the type of HVAC service needed, and technician scheduling.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">How quickly can Lenz Heating &amp; Cooling schedule service in my area? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p>Scheduling depends on your location, the type of HVAC service needed, technician availability, and whether the issue is urgent. Lenz Heating &amp; Cooling serves homeowners across the Greater Des Moines area and Central Iowa, and our team can confirm the soonest available appointment when you call or schedule online.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Do you work on older homes and newer homes across Central Iowa? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p>Yes. Lenz Heating &amp; Cooling works with a wide range of homes across the area, from older homes in established Des Moines neighborhoods to newer homes in communities like Waukee, Grimes, Ankeny, and West Des Moines. Our technicians evaluate the system, layout, airflow, and comfort concerns before recommending next steps.</p></div></div></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "690a598f",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "contact",
+    "css_classes": "close-form section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "690a4638",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "690a32e1",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "close-form__inner"
+       },
+       "elements": [
+        {
+         "id": "6909f8dc",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "6909bed7",
+           "settings": {
+            "title": "Ready to Help You Get Your Comfort",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6909d22e",
+           "settings": {
+            "editor": "<p>Whether you need AC repair in Des Moines, furnace service in Urbandale, HVAC maintenance in Waukee, or indoor air quality help anywhere across our Central Iowa service area, Lenz Heating &amp; Cooling is ready to help.</p><p>Our team can confirm your service area, answer your questions, and help you schedule the right heating, cooling, or home comfort service for your needs.</p><p>Call (515) 225-6446 or schedule service online today.</p>",
+            "_css_classes": "close-form__lead"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6909e585",
+           "settings": {
+            "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "690a1f8a",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "form-card"
+         },
+         "elements": [
+          {
+           "id": "6909ab80",
+           "settings": {
+            "form_name": "Estimate request",
+            "form_fields": [
+             {
+              "_id": "name",
+              "custom_id": "name",
+              "field_type": "text",
+              "field_label": "Name",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "phone",
+              "custom_id": "phone",
+              "field_type": "tel",
+              "field_label": "Phone",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "service",
+              "custom_id": "service",
+              "field_type": "select",
+              "field_label": "Service",
+              "required": "true",
+              "width": "100",
+              "placeholder": "",
+              "field_options": "Choose a service…|\nAir Conditioning\nAC Installation\nAC Repair\nAC Replacement\nFurnace & Heating\nHeat Pumps\nDuctwork\nDuct Cleaning\nIndoor Air Quality\nWater Heater Installation\nMaintenance"
+             }
+            ],
+            "show_labels": "yes",
+            "mark_required": "yes",
+            "button_text": "Schedule Service Online",
+            "button_width": "100",
+            "button_text_color": "#121212",
+            "button_hover_color": "#121212",
+            "button_background_color": "#FFC600",
+            "button_background_hover_color": "#FFCF29",
+            "field_background_color": "#FFFFFF",
+            "column_gap": {
+             "unit": "px",
+             "size": 0,
+             "sizes": []
+            },
+            "row_gap": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "submit_actions": [
+             "email"
+            ],
+            "email_to": "Sierra@LenzHeatingandCooling.com",
+            "email_subject": "New estimate request from the website",
+            "email_content": "[all-fields]",
+            "email_from_name": "Lenz website",
+            "success_message": "Thanks — your request was received. We'll call you back within 2 hours during business hours. Need help now? Call (515) 225-6446.",
+            "required_field_message": "This field is required.",
+            "invalid_message": "Please check the highlighted fields.",
+            "_css_classes": "lz-form"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "form",
+           "elType": "widget"
+          },
+          {
+           "id": "690a0c33",
+           "settings": {
+            "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

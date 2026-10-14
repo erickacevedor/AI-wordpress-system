@@ -1,0 +1,2552 @@
+{
+ "version": "0.4",
+ "title": "Meet the Team",
+ "type": "page",
+ "content": [
+  {
+   "id": "6100fb6b",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "hero hero--service svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6100e814",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container hero__inner"
+     },
+     "elements": [
+      {
+       "id": "61009ab8",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__copy"
+       },
+       "elements": [
+        {
+         "id": "61001357",
+         "settings": {
+          "html": "<nav class=\"crumbs\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li aria-current=\"page\">Meet the Team</li></ol></nav>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "610026ae",
+         "settings": {
+          "html": "<span class=\"hero__eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Our people</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "61003a05",
+         "settings": {
+          "title": "<span class=\"accent\">Meet the Team</span> Behind Lenz Heating &amp; Cooling",
+          "header_size": "h1",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "61004d5c",
+         "settings": {
+          "editor": "<p>When you invite an HVAC company into your home, you're trusting the people who show up. That's why every Lenz technician is background-checked, drug-tested, and professionally trained before they ever knock on your door. We're a veteran-owned and woman-owned family business, and we treat your home the way we'd treat our own.</p><p>Get to know the people keeping Central Iowa comfortable.</p>",
+          "_css_classes": "hero__sub"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "61008761",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hero__cta"
+         },
+         "elements": [
+          {
+           "id": "610060b3",
+           "settings": {
+            "text": "Schedule Service Online",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-gold"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "6100740a",
+           "settings": {
+            "text": "Call (515) 225-6446",
+            "link": {
+             "url": "tel:+15152256446",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-outline-light lz-ico lz-ico-phone"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6100d4bd",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__media"
+       },
+       "elements": [
+        {
+         "id": "6100ae0f",
+         "settings": {
+          "image": {
+           "url": "/wp-content/uploads/2026/10/lenz-team.webp",
+           "id": 33,
+           "size": "",
+           "alt": "The Lenz Heating &amp; Cooling team standing in front of their service vans",
+           "source": "library"
+          },
+          "image_size": "full"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "image",
+         "elType": "widget"
+        },
+        {
+         "id": "6100c166",
+         "settings": {
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Background-checked &amp; drug-tested</b>The same people who show up at your door.</span></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6101d028",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_attributes": "aria-label|At a glance",
+    "css_classes": "trustbar svc-page svc-page--cool trustbar--long trustbar--4 e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6101bcd1",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6101a97a",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "trustbar__grid"
+       },
+       "elements": [
+        {
+         "id": "61012219",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "61010ec2",
+           "settings": {
+            "editor": "Background-Checked &amp; Drug-Tested",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "610148c7",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "61013570",
+           "settings": {
+            "editor": "Licensed, Bonded &amp; Insured",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "61016f75",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "61015c1e",
+           "settings": {
+            "editor": "Veteran-Owned &amp; Woman-Owned",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "61019623",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "610182cc",
+           "settings": {
+            "editor": "Serving Central Iowa Since 2009",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "61030598",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section people-section  svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6102f241",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6102cb93",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "6102a4e5",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Ownership</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6102b83c",
+         "settings": {
+          "title": "Ownership",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6102deea",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "people people--2"
+       },
+       "elements": [
+        {
+         "id": "610230db",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "6101e37f",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">AL</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6101f6d6",
+           "settings": {
+            "title": "Al Lenz",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "61020a2d",
+           "settings": {
+            "editor": "Founder &amp; Owner",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "61021d84",
+           "settings": {
+            "editor": "<p>An Iowa native and U.S. Marine Corps veteran, Al has worked in the Des Moines heating and cooling industry for 26 years. After four years of service, he studied plumbing, electrical, and boiler systems at DMACC, then heating, cooling, and refrigeration at Vatterott College, where he graduated at the top of his class. He worked his way up from service technician to general manager before founding Lenz in 2009 with a single goal: to own and operate the best residential HVAC company in Iowa. Al holds an Iowa Master License in HVAC, heating and cooling, refrigeration, and hydronics. His philosophy is simple — earn your trust before earning your business, and build lifelong client relationships along the way.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6102918e",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "61024432",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">JL</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "61025789",
+           "settings": {
+            "title": "Jenny Lenz",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "61026ae0",
+           "settings": {
+            "editor": "Co-Owner",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "61027e37",
+           "settings": {
+            "editor": "<p>Jenny joined Lenz in 2016 and co-owns and operates the business alongside Al. A Creston High School graduate with a finance degree from Iowa State University, she came to Lenz after a career as a licensed insurance agent, training specialist, and restaurant general manager. That mix of customer service and financial know-how keeps the office running smoothly — and keeps a cool head during an Iowa heat wave or cold snap. Jenny values every client relationship and treats customers like family. Outside of work, she enjoys cooking, gardening, painting, and the occasional home-flipping project.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "61055d21",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section people-section section--mist svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "610549ca",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6105231c",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "6104fc6e",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Leadership</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "61050fc5",
+         "settings": {
+          "title": "Leadership Team",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "61053673",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "people people--3"
+       },
+       "elements": [
+        {
+         "id": "6103664b",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "610318ef",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">S</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "61032c46",
+           "settings": {
+            "title": "Sierra",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "61033f9d",
+           "settings": {
+            "editor": "General Manager",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "610352f4",
+           "settings": {
+            "editor": "<p>A Des Moines native and Dowling Catholic graduate, Sierra earned her degree in communications and event planning while playing collegiate softball, finishing at Virginia Tech in 2019. She's involved in every side of the business — office, marketing, installations, and service calls. She first worked summers for Lenz during college and jumped at the chance to return full-time to help grow a family-owned company. Off the clock, she's cheering on the Cyclones and hanging out with her dogs.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6103c6fe",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "610379a2",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">O</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "61038cf9",
+           "settings": {
+            "title": "Olivia",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6103a050",
+           "settings": {
+            "editor": "Operations Manager",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6103b3a7",
+           "settings": {
+            "editor": "<p>Olivia has been with Lenz since 2017 and has worn just about every hat here — install crew, office staff, delivery driver, and now operations and marketing. A Winterset High School graduate, she loves being part of the family business and knows the company inside and out. She's also mom to her black goldendoodle, Frisco.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "610427b1",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "6103da55",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">C</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6103edac",
+           "settings": {
+            "title": "Curtis",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "61040103",
+           "settings": {
+            "editor": "Installation Manager",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6104145a",
+           "settings": {
+            "editor": "<p>Born and raised in Des Moines, Curtis is a Southeast Polk graduate and a U.S. Navy veteran who served from 1996 to 2000. He's been in the HVAC industry since 2005 and leads our installation projects. When he's not on a job site, he's grilling and smoking meats or cheering on the Pittsburgh Steelers.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "61048864",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "61043b08",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">F</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "61044e5f",
+           "settings": {
+            "title": "Freddie",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "610461b6",
+           "settings": {
+            "editor": "Service Manager",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6104750d",
+           "settings": {
+            "editor": "<p>Freddie grew up around Lenz and joined the team he's known his whole life. A 2024 Winterset High School graduate, he's taken a genuine interest in the business and hopes to become an owner one day. Outside of work, he's into cars, fishing, and spending time with friends.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6104e917",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "61049bbb",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">B</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6104af12",
+           "settings": {
+            "title": "Bailey",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6104c269",
+           "settings": {
+            "editor": "Office Manager",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6104d5c0",
+           "settings": {
+            "editor": "<p>Bailey joined Lenz in 2023 and keeps the office organized and running. Born and raised in Winterset, she's a 2021 Winterset High School graduate. When she's not at work, you'll find her at the lake, out shopping, or spending time with family, friends, and her Cowboy Corgi, Doug.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "61099829",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section people-section  svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "610984d2",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "61095e24",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "61093776",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-wrench\"/></svg> In the field</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "61094acd",
+         "settings": {
+          "title": "Service &amp; Installation Team",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6109717b",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "people people--3"
+       },
+       "elements": [
+        {
+         "id": "6105bdd4",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "61057078",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">G</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "610583cf",
+           "settings": {
+            "title": "Gavin",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "61059726",
+           "settings": {
+            "editor": "Lead Installation Expert",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6105aa7d",
+           "settings": {
+            "editor": "<p>Gavin joined Lenz in March 2022 and has grown into a lead installer. A 2020 Waukee High School graduate, he got into the HVAC trade with encouragement from his father and quickly made it his own.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "61061e87",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "6105d12b",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">M</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6105e482",
+           "settings": {
+            "title": "Michael",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6105f7d9",
+           "settings": {
+            "editor": "Service Technician",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "61060b30",
+           "settings": {
+            "editor": "<p>Michael joined Lenz in spring 2024, bringing prior HVAC experience with him. An Adel High School graduate, he chose Lenz to grow his career with a company that values its people and a real work-life balance. He's a musician who plays guitar, ukulele, and piano.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "61067f3a",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "610631de",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">D</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "61064535",
+           "settings": {
+            "title": "Daniel",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6106588c",
+           "settings": {
+            "editor": "Installation Expert",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "61066be3",
+           "settings": {
+            "editor": "<p>Daniel joined Lenz in 2024 with five years of HVAC experience and his journeyman's license. A 2015 Saydel High School graduate, he came to Lenz for the chance to sharpen his skills and keep growing. Away from work, he's into cars, bladesmithing, drawing, and fishing.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6106dfed",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "61069291",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">M</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6106a5e8",
+           "settings": {
+            "title": "Matthew",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6106b93f",
+           "settings": {
+            "editor": "Installation Expert",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6106cc96",
+           "settings": {
+            "editor": "<p>Matthew joined Lenz in December 2025 and is in his third year in the HVAC trade. Originally from Grand Junction, Iowa, and a 2020 Greene County graduate, he chose Lenz to keep building his skills and a long-term career. He's a proud dad who enjoys fishing and basketball.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "610740a0",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "6106f344",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">J</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6107069b",
+           "settings": {
+            "title": "Joe",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "610719f2",
+           "settings": {
+            "editor": "Installation Expert",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "61072d49",
+           "settings": {
+            "editor": "<p>Joe joined Lenz in February 2026 with deep trade experience — four years of HVAC schooling, four years in the field, and six years in ammonia refrigeration. Originally from Texas, he's called Iowa home since age 12. He's a proud dad who enjoys hiking, movies, and time with family.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6107a153",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "610753f7",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">L</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6107674e",
+           "settings": {
+            "title": "Landon",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "61077aa5",
+           "settings": {
+            "editor": "Installation Expert",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "61078dfc",
+           "settings": {
+            "editor": "<p>Landon joined Lenz in spring 2024, drawn to the trades and hands-on work. An Adel High School graduate who now calls Adel home, he spends his free time working on his car and enjoying the outdoors.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "61080206",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "6107b4aa",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">LC</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6107c801",
+           "settings": {
+            "title": "Logan C",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6107db58",
+           "settings": {
+            "editor": "Installation Expert",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6107eeaf",
+           "settings": {
+            "editor": "<p>Logan joined Lenz in March 2026. Born in Clive and a longtime Winterset resident, he graduated from Winterset High School in early 2026. He chose Lenz after hearing it's run by people who genuinely take care of their team. He loves anything outdoors.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "610862b9",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "6108155d",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">T</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "610828b4",
+           "settings": {
+            "title": "Taidyn",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "61083c0b",
+           "settings": {
+            "editor": "Installation Expert",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "61084f62",
+           "settings": {
+            "editor": "<p>Taidyn joined Lenz in May 2026. Born in Des Moines and raised in Clive, he's proud to call Central Iowa home. He was looking for a family-owned company that shared his commitment to great customer service. Outside work, he stays active playing basketball.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6108c36c",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "61087610",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">W</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "61088967",
+           "settings": {
+            "title": "Wyatt",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "61089cbe",
+           "settings": {
+            "editor": "Installation Expert",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6108b015",
+           "settings": {
+            "editor": "<p>Wyatt joined Lenz in June 2026. Originally from Winterset and a Winterset High School graduate, he was ready for a new challenge in a hands-on trade. In his free time, he's usually working on his project car.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6109241f",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "6108d6c3",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">C</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6108ea1a",
+           "settings": {
+            "title": "Camdon",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6108fd71",
+           "settings": {
+            "editor": "Installation Expert",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "610910c8",
+           "settings": {
+            "editor": "<p>Camdon joined Lenz in June 2026. Born and raised in Adel and a 2026 ADM graduate, he chose the trades to build hands-on skills and a rewarding career. Off the clock, he enjoys fishing, UFC, and football.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "610acd99",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section people-section section--mist svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "610aba42",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "610a9394",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "610a6ce6",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-calendar\"/></svg> In the office</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "610a803d",
+         "settings": {
+          "title": "Office Team",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "610aa6eb",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "people people--2"
+       },
+       "elements": [
+        {
+         "id": "6109f8dc",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "6109ab80",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">H</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6109bed7",
+           "settings": {
+            "title": "Haley",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6109d22e",
+           "settings": {
+            "editor": "Office Assistant",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6109e585",
+           "settings": {
+            "editor": "<p>Haley joined Lenz in February 2026. Originally from Indianola and now enjoying country living in Milo, she's often the friendly voice on the phone. She chose Lenz for its family-owned, supportive atmosphere. She loves thrifting and spending time outdoors.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "610a598f",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "610a0c33",
+           "settings": {
+            "html": "<span class=\"person__avatar\" aria-hidden=\"true\">S</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "610a1f8a",
+           "settings": {
+            "title": "Sam",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "610a32e1",
+           "settings": {
+            "editor": "Office Assistant",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "610a4638",
+           "settings": {
+            "editor": "<p>Sam joined Lenz in March 2026. Originally from Ankeny, she studied in Minnesota and Pennsylvania before finishing at DMACC. She thrives in Lenz's small, family-business environment. In her free time, she's into creative projects, crafts, and a good book.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "610d3879",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section people-section  svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "610d2522",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "610cfe74",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "610cc46f",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg> Office dogs</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "610cd7c6",
+         "settings": {
+          "title": "Our Office Dogs",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "610ceb1d",
+         "settings": {
+          "editor": "Fair warning: if you hear barking while you're on the phone with us, that's just the crew clocking in. Stop by the Urbandale office and say hi.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "610d11cb",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "people people--3"
+       },
+       "elements": [
+        {
+         "id": "610b2e4c",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "610ae0f0",
+           "settings": {
+            "html": "<span class=\"person__avatar person__avatar--dog\" aria-hidden=\"true\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "610af447",
+           "settings": {
+            "title": "Keystone",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "610b079e",
+           "settings": {
+            "editor": "Office Dog",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "610b1af5",
+           "settings": {
+            "editor": "<p>Named after the town in Colorado and born in June 2019, Keystone is a whip-smart Mini Australian Shepherd who'd make a natural herding dog given the chance. If you hear barking in the background on a call, that's usually Keystone greeting a visitor. After a long day at the office, he's doing zoomies around the backyard or cuddled up with Sierra in front of the TV — happiest with a belly scratch, a trick that earns a treat, or a toy to shred.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "610b8eff",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "610b41a3",
+           "settings": {
+            "html": "<span class=\"person__avatar person__avatar--dog\" aria-hidden=\"true\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "610b54fa",
+           "settings": {
+            "title": "Max",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "610b6851",
+           "settings": {
+            "editor": "Office Dog",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "610b7ba8",
+           "settings": {
+            "editor": "<p>Born in April 2014, Max is a one-of-a-kind mix — the protective streak comes from his Rottweiler side, the endless affection from his American Shepherd side. He's a champion cuddle buddy who lives for ear scratches, belly rubs, and long walks (which he insists on leading). He belongs to Al and Jenny, sits faithfully at Al's feet every morning for the last bites of breakfast, and is the best greeter in the house at the end of a long workday.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "610befb2",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "610ba256",
+           "settings": {
+            "html": "<span class=\"person__avatar person__avatar--dog\" aria-hidden=\"true\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "610bb5ad",
+           "settings": {
+            "title": "Oakley",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "610bc904",
+           "settings": {
+            "editor": "Office Dog",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "610bdc5b",
+           "settings": {
+            "editor": "<p>Oakley is a five-year-old Golden Retriever with an unshakably chill, happy temperament. He rarely barks, loves greeting visitors at the door, and can usually be found sharpening his teeth on a deer shed or gazing out the window from the sofa. Bring a strong throwing arm — he'll play fetch until you tap out.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "610c5065",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "610c0309",
+           "settings": {
+            "html": "<span class=\"person__avatar person__avatar--dog\" aria-hidden=\"true\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "610c1660",
+           "settings": {
+            "title": "Doug",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "610c29b7",
+           "settings": {
+            "editor": "Office Dog",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "610c3d0e",
+           "settings": {
+            "editor": "<p>Born in September 2022, Doug is a Blue Heeler-Corgi mix who tears around the yard with his beloved crinkle toys. He rides shotgun almost everywhere with his mom, Bailey, window down, always on the lookout to protect his home — but once he knows you, he's all love.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "610cb118",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "person"
+         },
+         "elements": [
+          {
+           "id": "610c63bc",
+           "settings": {
+            "html": "<span class=\"person__avatar person__avatar--dog\" aria-hidden=\"true\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "610c7713",
+           "settings": {
+            "title": "Frisco",
+            "header_size": "h3",
+            "_css_classes": "person__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "610c8a6a",
+           "settings": {
+            "editor": "Office Dog",
+            "_css_classes": "person__role"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "610c9dc1",
+           "settings": {
+            "editor": "<p>Born in June 2019, Frisco is a Black Goldendoodle who loves two things above all: being his mama's shotgun rider, and his tennis balls. He soaks up attention, keeps watch from his favorite spot on the couch, and spends summers living his best life in the pool. If you're in Urbandale on a Tuesday, stop by and say hi to our curly-haired doggo.</p>",
+            "_css_classes": "person__bio"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "610dbfda",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section promo-section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "610dac83",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "610d992c",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "service-help promo"
+       },
+       "elements": [
+        {
+         "id": "610d727e",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "service-help__txt promo__txt"
+         },
+         "elements": [
+          {
+           "id": "610d4bd0",
+           "settings": {
+            "title": "Want to Join the Team?",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom",
+            "_css_classes": "promo__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "610d5f27",
+           "settings": {
+            "editor": "<p>We're always looking for skilled, honest people who take pride in their work. If that sounds like you, we'd love to hear from you.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "610d85d5",
+         "settings": {
+          "text": "See Open Positions",
+          "link": {
+           "url": "/hvac-jobs/",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "btn btn-gold"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "button",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "610e8140",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "contact",
+    "css_classes": "close-form section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "610e6de9",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "610e5a92",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "close-form__inner"
+       },
+       "elements": [
+        {
+         "id": "610e208d",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "610de688",
+           "settings": {
+            "title": "Ready to Work With a Team You Can Trust?",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "610df9df",
+           "settings": {
+            "editor": "<p>The same people you just met are the ones who'll show up at your door — on time, prepared, and respectful of your home.</p>",
+            "_css_classes": "close-form__lead"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "610e0d36",
+           "settings": {
+            "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "610e473b",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "form-card"
+         },
+         "elements": [
+          {
+           "id": "610dd331",
+           "settings": {
+            "form_name": "Estimate request",
+            "form_fields": [
+             {
+              "_id": "name",
+              "custom_id": "name",
+              "field_type": "text",
+              "field_label": "Name",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "phone",
+              "custom_id": "phone",
+              "field_type": "tel",
+              "field_label": "Phone",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "service",
+              "custom_id": "service",
+              "field_type": "select",
+              "field_label": "Service",
+              "required": "true",
+              "width": "100",
+              "placeholder": "",
+              "field_options": "Choose a service…|\nAir Conditioning\nAC Installation\nAC Repair\nAC Replacement\nFurnace & Heating\nHeat Pumps\nDuctwork\nDuct Cleaning\nIndoor Air Quality\nWater Heater Installation\nMaintenance"
+             }
+            ],
+            "show_labels": "yes",
+            "mark_required": "yes",
+            "button_text": "Schedule Service Online",
+            "button_width": "100",
+            "button_text_color": "#121212",
+            "button_hover_color": "#121212",
+            "button_background_color": "#FFC600",
+            "button_background_hover_color": "#FFCF29",
+            "field_background_color": "#FFFFFF",
+            "column_gap": {
+             "unit": "px",
+             "size": 0,
+             "sizes": []
+            },
+            "row_gap": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "submit_actions": [
+             "email"
+            ],
+            "email_to": "Sierra@LenzHeatingandCooling.com",
+            "email_subject": "New estimate request from the website",
+            "email_content": "[all-fields]",
+            "email_from_name": "Lenz website",
+            "success_message": "Thanks — your request was received. We'll call you back within 2 hours during business hours. Need help now? Call (515) 225-6446.",
+            "required_field_message": "This field is required.",
+            "invalid_message": "Please check the highlighted fields.",
+            "_css_classes": "lz-form"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "form",
+           "elType": "widget"
+          },
+          {
+           "id": "610e33e4",
+           "settings": {
+            "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

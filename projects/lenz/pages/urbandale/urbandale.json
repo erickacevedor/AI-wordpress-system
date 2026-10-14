@@ -1,0 +1,2264 @@
+{
+ "version": "0.4",
+ "title": "Urbandale",
+ "type": "page",
+ "content": [
+  {
+   "id": "6a00fb6b",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "hero hero--service svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6a00e814",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container hero__inner"
+     },
+     "elements": [
+      {
+       "id": "6a009ab8",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__copy"
+       },
+       "elements": [
+        {
+         "id": "6a001357",
+         "settings": {
+          "html": "<nav class=\"crumbs\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li aria-current=\"page\">Urbandale</li></ol></nav>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6a0026ae",
+         "settings": {
+          "html": "<span class=\"hero__eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg> Urbandale, IA</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6a003a05",
+         "settings": {
+          "title": "<span class=\"accent\">HVAC Services</span> in Urbandale, IA",
+          "header_size": "h1",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6a004d5c",
+         "settings": {
+          "editor": "<p>When your heating or cooling system needs attention, it helps to call a team that knows Urbandale because they work here every day. Lenz Heating &amp; Cooling is based right here in Urbandale, serving homeowners throughout the city with heating, cooling, indoor air quality, emergency HVAC, and additional home comfort services.</p><p>Urbandale is not one-size-fits-all. Homes near long-established areas around Douglas Avenue and 86th Street may have different comfort challenges than newer homes farther west toward Dallas County. Some homeowners deal with older ductwork, uneven airflow, or aging equipment, while others need help keeping newer systems maintained, balanced, and efficient.</p><p>Whether your AC is struggling during a humid summer afternoon, your furnace is acting up during an Iowa cold snap, or your home never feels quite even from room to room, Lenz Heating &amp; Cooling is here to help with clear answers and practical recommendations.</p>",
+          "_css_classes": "hero__sub"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "6a008761",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hero__cta"
+         },
+         "elements": [
+          {
+           "id": "6a0060b3",
+           "settings": {
+            "text": "Schedule Service Online",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-gold"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "6a00740a",
+           "settings": {
+            "text": "Call (515) 225-6446",
+            "link": {
+             "url": "tel:+15152256446",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-outline-light lz-ico lz-ico-phone"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6a00d4bd",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__media"
+       },
+       "elements": [
+        {
+         "id": "6a00ae0f",
+         "settings": {
+          "image": {
+           "url": "/wp-content/uploads/2026/10/lenz-service-van-wrap.webp",
+           "id": 34,
+           "size": "",
+           "alt": "A Lenz Heating &amp; Cooling wrapped service van",
+           "source": "library"
+          },
+          "image_size": "full"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "image",
+         "elType": "widget"
+        },
+        {
+         "id": "6a00c166",
+         "settings": {
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Local Urbandale team</b>24/7 emergency service.</span></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6a025789",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_attributes": "aria-label|At a glance",
+    "css_classes": "trustbar svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6a024432",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6a0230db",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "trustbar__grid"
+       },
+       "elements": [
+        {
+         "id": "6a013570",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "6a010ec2",
+           "settings": {
+            "editor": "Since 2009",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6a012219",
+           "settings": {
+            "editor": "Serving Central Iowa",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a016f75",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "6a0148c7",
+           "settings": {
+            "editor": "24/7/365",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6a015c1e",
+           "settings": {
+            "editor": "Emergency service",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a01a97a",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "6a0182cc",
+           "settings": {
+            "editor": "#50871-CL",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6a019623",
+           "settings": {
+            "editor": "Iowa Master Licensed",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a01e37f",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "6a01bcd1",
+           "settings": {
+            "editor": "Veteran &amp; Woman-Owned",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6a01d028",
+           "settings": {
+            "editor": "Family operated",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a021d84",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "6a01f6d6",
+           "settings": {
+            "editor": "Upfront Pricing",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6a020a2d",
+           "settings": {
+            "editor": "Before any work begins",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6a02cb93",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section prose  svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6a02b83c",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6a02a4e5",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "prose__inner"
+       },
+       "elements": [
+        {
+         "id": "6a026ae0",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg> Local service</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6a027e37",
+         "settings": {
+          "title": "Local HVAC Service From Our Urbandale Main Office",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6a02918e",
+         "settings": {
+          "editor": "<p>Lenz Heating &amp; Cooling is headquartered at:</p><p><b>7641 Douglas Ave, Urbandale, IA 50322</b></p><p>That local presence matters. Our Urbandale location keeps our team connected to the homes, neighborhoods, and everyday comfort needs of the community. From the Douglas Avenue corridor to neighborhoods near 86th Street, 100th Street, Walnut Creek, Walker Johnston Park, and western Urbandale, local homeowners face a wide range of HVAC concerns.</p><p>Urbandale spans both Polk and Dallas counties, covers more than 22 square miles, and has continued to grow in recent years. That growth means Lenz serves a mix of established homes, newer developments, family households, townhomes, multi-level layouts, and homes with finished basements or additions.</p><p>Our technicians look at the full comfort picture, including the equipment, airflow, system age, home layout, maintenance history, and what you are actually experiencing inside the home.</p>",
+          "_css_classes": "prose__body"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6a053673",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "services",
+    "css_classes": "section section--mist hub-services svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6a05231c",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6a04fc6e",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "6a04c269",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-wrench\"/></svg> Services in Urbandale</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6a04d5c0",
+         "settings": {
+          "title": "Heating, Cooling, and Home Comfort Services in Urbandale",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6a04e917",
+         "settings": {
+          "editor": "Lenz Heating &amp; Cooling provides the core HVAC and home comfort services Urbandale homeowners need through every season. From older homes near established neighborhoods to newer homes in western Urbandale, our team helps match service recommendations to the way your home actually feels and functions.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6a050fc5",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hub-list hub-list--grid"
+       },
+       "elements": [
+        {
+         "id": "6a032c46",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "6a02deea",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-snow\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a02f241",
+           "settings": {
+            "title": "Cooling Services",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a030598",
+           "settings": {
+            "editor": "<p>AC repair, maintenance, installation, and replacement for humid Urbandale summers, long cooling cycles, weak airflow, water leaks, warm air, and systems that struggle to keep up.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6a0318ef",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/air-conditioning/\">Explore Cooling Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a038cf9",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "6a033f9d",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a0352f4",
+           "settings": {
+            "title": "Heating Services",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a03664b",
+           "settings": {
+            "editor": "<p>Furnace repair, maintenance, installation, and replacement for cold Iowa winters, uneven heating, unusual noises, aging equipment, and homes that need dependable warmth.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6a0379a2",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/heating/\">Explore Heating Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a03edac",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "6a03a050",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a03b3a7",
+           "settings": {
+            "title": "Indoor Air Quality",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a03c6fe",
+           "settings": {
+            "editor": "<p>Filtration, humidity control, air purification, and comfort recommendations for dust, dry winter air, sticky summer humidity, allergens, and stale indoor air.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6a03da55",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/indoor-air-quality/\">Improve Indoor Air Quality <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a044e5f",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "6a040103",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-wrench\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a04145a",
+           "settings": {
+            "title": "Additional Services",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a0427b1",
+           "settings": {
+            "editor": "<p>Smart thermostats, heat pumps, tank and tankless water heaters, gas lines, and ductwork solutions that support comfort, efficiency, and everyday convenience.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6a043b08",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/additional-services/\">View Additional Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a04af12",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "6a0461b6",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a04750d",
+           "settings": {
+            "title": "Emergency HVAC",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a048864",
+           "settings": {
+            "editor": "<p>Urgent heating and cooling help for no-heat calls, AC failures, water around the system, burning smells, repeated breaker trips, and comfort problems that cannot wait.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6a049bbb",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"tel:+15152256446\">Request Emergency HVAC Service <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6a05bdd4",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "cta-band section--tight svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6a05aa7d",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6a0549ca",
+       "settings": {
+        "html": "<img class=\"cta-band__bg\" src=\"/wp-content/uploads/2026/10/lenz-service-van-wrap.webp\" alt=\"\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" />"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      },
+      {
+       "id": "6a059726",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "cta-band__inner"
+       },
+       "elements": [
+        {
+         "id": "6a055d21",
+         "settings": {
+          "title": "Heat out? AC down? We&apos;re ready right now.",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6a057078",
+         "settings": {
+          "editor": "<p>24/7 emergency service across the Des Moines metro since 2009.</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "6a0583cf",
+         "settings": {
+          "text": "Call (515) 225-6446",
+          "link": {
+           "url": "tel:+15152256446",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "btn btn-gold lz-ico lz-ico-phone"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "button",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6a077aa5",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section symptoms svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6a07674e",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6a0740a0",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "6a07069b",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg> Neighborhood needs</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6a0719f2",
+         "settings": {
+          "title": "Urbandale Homes Have Different HVAC Needs by Neighborhood",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6a072d49",
+         "settings": {
+          "editor": "A good HVAC recommendation should fit the home, not just the equipment. In Urbandale, that can mean very different things depending on the neighborhood, age of the home, and how the space is used.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6a0753f7",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "symptom-grid symptom-grid--2"
+       },
+       "elements": [
+        {
+         "id": "6a060b30",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "6a05d12b",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a05e482",
+           "settings": {
+            "title": "Established Urbandale Homes",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a05f7d9",
+           "settings": {
+            "editor": "<p>In established parts of Urbandale, homeowners may be dealing with older furnaces, aging air conditioners, older ductwork, remodeled rooms, additions, or finished basements that never heat or cool quite the same as the rest of the house.</p><p>These homes often need more than a quick look at the thermostat. Uneven temperatures, weak airflow, rising energy bills, and rooms that are always too warm or too cold may point to ductwork concerns, equipment age, airflow restrictions, or a system that no longer matches the home’s needs.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a06588c",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "6a061e87",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a0631de",
+           "settings": {
+            "title": "Growing Western Urbandale",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a064535",
+           "settings": {
+            "editor": "<p>Western Urbandale continues to see growth, and newer homes can still have comfort issues. A newer HVAC system is not always a guarantee of even temperatures, proper humidity control, or efficient operation.</p><p>Homeowners in newer areas may call because upstairs rooms get too warm, the AC runs longer than expected, the furnace cycles often, or the system does not seem to match how the household uses the home. In these cases, system sizing, airflow balance, thermostat settings, duct design, and maintenance history all matter.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a06a5e8",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "6a066be3",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a067f3a",
+           "settings": {
+            "title": "Tree-Lined Lots, Trails, and Outdoor Units",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a069291",
+           "settings": {
+            "editor": "<p>Urbandale has plenty of mature trees, parks, trails, and green spaces. That is one of the things homeowners love about the area, but it can also affect HVAC performance.</p><p>Leaves, grass clippings, cottonwood, pollen, and yard debris can collect around outdoor AC units and restrict airflow. During cooling season, that can make the system work harder than it should. Regular maintenance, filter changes, and keeping the outdoor unit clear can help protect performance.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a06f344",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "6a06b93f",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a06cc96",
+           "settings": {
+            "title": "Multi-Level Homes and Busy Households",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a06dfed",
+           "settings": {
+            "editor": "<p>Urbandale has a high share of owner-occupied homes, which means many residents are investing in long-term comfort, efficiency, and home upkeep. In family homes, multi-level layouts, and houses with finished basements, comfort issues can become especially noticeable when different rooms are used throughout the day.</p><p>If one floor feels comfortable while another feels too hot, too cold, dry, humid, or stuffy, Lenz Heating &amp; Cooling can help evaluate whether the issue is tied to airflow, equipment performance, ductwork, humidity, or system controls.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6a093776",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "creds section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6a09241f",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6a08fd71",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "6a08c36c",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Why Lenz</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6a08d6c3",
+         "settings": {
+          "title": "Why Urbandale Homeowners Call Lenz Heating &amp; Cooling",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6a08ea1a",
+         "settings": {
+          "editor": "Choosing an HVAC company is not just about finding someone nearby. It is about finding someone who explains the issue clearly and helps you make a confident decision.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6a0910c8",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "creds__grid creds__grid--4"
+       },
+       "elements": [
+        {
+         "id": "6a07c801",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "creds__card"
+         },
+         "elements": [
+          {
+           "id": "6a078dfc",
+           "settings": {
+            "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a07a153",
+           "settings": {
+            "title": "“I Do Not Want to Be Pushed Into Replacement.”",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a07b4aa",
+           "settings": {
+            "editor": "We understand. Not every repair call needs to turn into a replacement conversation. Our technicians evaluate the system, explain what they find, and help you understand whether repair, maintenance, or replacement makes the most sense based on your equipment, comfort concerns, repair history, and budget.",
+            "_css_classes": "creds__text"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a08155d",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "creds__card"
+         },
+         "elements": [
+          {
+           "id": "6a07db58",
+           "settings": {
+            "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-card\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a07eeaf",
+           "settings": {
+            "title": "“I Want Someone Who Understands Urbandale Homes.”",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a080206",
+           "settings": {
+            "editor": "Urbandale includes older homes, newer neighborhoods, two-story homes, finished basements, additions, townhomes, and growing residential areas. Our recommendations are based on the home in front of us, not a one-size-fits-all checklist.",
+            "_css_classes": "creds__text"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a0862b9",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "creds__card"
+         },
+         "elements": [
+          {
+           "id": "6a0828b4",
+           "settings": {
+            "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a083c0b",
+           "settings": {
+            "title": "“I Need Clear Pricing Before I Approve the Work.”",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a084f62",
+           "settings": {
+            "editor": "With our “To the Penny” Pricing Guarantee, you know the cost before work begins. That means no guessing, no unclear pricing, and no surprise fees after the job is done.",
+            "_css_classes": "creds__text"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a08b015",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "creds__card"
+         },
+         "elements": [
+          {
+           "id": "6a087610",
+           "settings": {
+            "html": "<span class=\"creds__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a088967",
+           "settings": {
+            "title": "“I Want to Know What Is Actually Wrong.”",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a089cbe",
+           "settings": {
+            "editor": "A good service visit should leave you with answers. Whether you are dealing with weak airflow, no heat, no cooling, indoor humidity, frequent cycling, water near your AC, or rising energy bills, our team explains the problem in plain language and reviews your options before moving forward.",
+            "_css_classes": "creds__text"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6a0b41a3",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section steps-section  svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6a0b2e4c",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6a0b079e",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head section__head--center"
+       },
+       "elements": [
+        {
+         "id": "6a0acd99",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg> What to expect</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6a0ae0f0",
+         "settings": {
+          "title": "What Happens After You Schedule HVAC Service",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "6a0af447",
+         "settings": {
+          "editor": "Scheduling HVAC service should feel simple. Whether you call from a home near Douglas Avenue, a neighborhood near 100th Street, or a newer area on the west side of Urbandale, our process is built around clear communication.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6a0b1af5",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "steps steps--5"
+       },
+       "elements": [
+        {
+         "id": "6a0984d2",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "step"
+         },
+         "elements": [
+          {
+           "id": "6a094acd",
+           "settings": {
+            "html": "<span class=\"step__num\">1</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a095e24",
+           "settings": {
+            "title": "Tell us what is happening in your home.",
+            "header_size": "h3",
+            "_css_classes": "step__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a09717b",
+           "settings": {
+            "editor": "<p>Let us know whether you are dealing with no heat, no cooling, a leak, strange noises, weak airflow, comfort issues, or a system that needs maintenance.</p>",
+            "_css_classes": "step__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a09d22e",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "step"
+         },
+         "elements": [
+          {
+           "id": "6a099829",
+           "settings": {
+            "html": "<span class=\"step__num\">2</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a09ab80",
+           "settings": {
+            "title": "We confirm your service needs and scheduling options.",
+            "header_size": "h3",
+            "_css_classes": "step__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a09bed7",
+           "settings": {
+            "editor": "<p>Our team will help determine the type of service you need and the available appointment options.</p>",
+            "_css_classes": "step__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a0a1f8a",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "step"
+         },
+         "elements": [
+          {
+           "id": "6a09e585",
+           "settings": {
+            "html": "<span class=\"step__num\">3</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a09f8dc",
+           "settings": {
+            "title": "A technician inspects your HVAC system.",
+            "header_size": "h3",
+            "_css_classes": "step__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a0a0c33",
+           "settings": {
+            "editor": "<p>We evaluate the equipment, airflow, visible components, and the symptoms you are noticing.</p>",
+            "_css_classes": "step__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a0a6ce6",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "step"
+         },
+         "elements": [
+          {
+           "id": "6a0a32e1",
+           "settings": {
+            "html": "<span class=\"step__num\">4</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a0a4638",
+           "settings": {
+            "title": "You get a clear explanation before work begins.",
+            "header_size": "h3",
+            "_css_classes": "step__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a0a598f",
+           "settings": {
+            "editor": "<p>We explain what we found, what it means, and what options are available.</p>",
+            "_css_classes": "step__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a0aba42",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "step"
+         },
+         "elements": [
+          {
+           "id": "6a0a803d",
+           "settings": {
+            "html": "<span class=\"step__num\">5</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6a0a9394",
+           "settings": {
+            "title": "You choose the next step that fits your home.",
+            "header_size": "h3",
+            "_css_classes": "step__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a0aa6eb",
+           "settings": {
+            "editor": "<p>Whether the answer is a repair, maintenance, replacement estimate, or additional comfort recommendation, you stay in control of the decision.</p>",
+            "_css_classes": "step__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6a0bb5ad",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "faqs",
+    "css_classes": "faqs section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6a0ba256",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6a0b7ba8",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head section__head--center"
+       },
+       "elements": [
+        {
+         "id": "6a0b54fa",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-info\"/></svg> FAQs</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6a0b6851",
+         "settings": {
+          "title": "Helpful HVAC Questions Urbandale Homeowners Ask",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6a0b8eff",
+       "settings": {
+        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">Why does my Urbandale home have uneven temperatures between floors? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p>Uneven temperatures can come from ductwork design, restricted airflow, insulation levels, thermostat placement, or an HVAC system that is not sized or balanced well for the home. This can show up in both older Urbandale homes and newer multi-level homes, especially during peak heating or cooling seasons.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">Should I schedule HVAC maintenance before summer or winter in Urbandale? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p>Yes. Spring maintenance helps prepare your AC for humid summer weather, while fall maintenance helps prepare your furnace for cold Iowa nights. Seasonal maintenance can also help catch airflow, drainage, electrical, and safety issues before your system is under heavy demand.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Can tree coverage and yard debris affect my AC in Urbandale? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p>Yes. Leaves, grass clippings, cottonwood, and debris around the outdoor unit can restrict airflow and make your AC work harder. Homes near mature trees, trails, or wooded areas may need to keep the outdoor unit clear during cooling season.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">Why does my home feel dry in the winter but humid in the summer? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p>Urbandale’s seasonal swings can affect indoor comfort. Cold winter air often feels dry indoors, while humid summer weather can make homes feel sticky if the AC is not removing enough moisture. Filtration, humidity control, airflow, and system performance all play a role.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Is a newer HVAC system enough for comfort in a newer Urbandale home? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p>Not always. Even newer systems can struggle if airflow is poorly balanced, the thermostat is not placed well, ductwork is not designed properly, or the system was not sized for how the home is used. A technician can evaluate the full comfort picture, not just the equipment age.</p></div></div></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6a0c7713",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "contact",
+    "css_classes": "close-form section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6a0c63bc",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6a0c5065",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "close-form__inner"
+       },
+       "elements": [
+        {
+         "id": "6a0c1660",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "6a0bdc5b",
+           "settings": {
+            "title": "Schedule HVAC Service in Urbandale, IA",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6a0befb2",
+           "settings": {
+            "editor": "<p>Whether you live near Douglas Avenue, 86th Street, Walnut Creek, a newer western Urbandale neighborhood, or an established area closer to Des Moines, Lenz Heating &amp; Cooling is ready to help with heating, cooling, indoor air quality, emergency HVAC, and additional home comfort services.</p><p>Our team can inspect your system, explain what is happening, and help you choose the right next step for your home without pressure.</p><p>Call (515) 225-6446 or schedule HVAC service online today.</p>",
+            "_css_classes": "close-form__lead"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6a0c0309",
+           "settings": {
+            "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6a0c3d0e",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "form-card"
+         },
+         "elements": [
+          {
+           "id": "6a0bc904",
+           "settings": {
+            "form_name": "Estimate request",
+            "form_fields": [
+             {
+              "_id": "name",
+              "custom_id": "name",
+              "field_type": "text",
+              "field_label": "Name",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "phone",
+              "custom_id": "phone",
+              "field_type": "tel",
+              "field_label": "Phone",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "service",
+              "custom_id": "service",
+              "field_type": "select",
+              "field_label": "Service",
+              "required": "true",
+              "width": "100",
+              "placeholder": "",
+              "field_options": "Choose a service…|\nAir Conditioning\nAC Installation\nAC Repair\nAC Replacement\nFurnace & Heating\nHeat Pumps\nDuctwork\nDuct Cleaning\nIndoor Air Quality\nWater Heater Installation\nMaintenance"
+             }
+            ],
+            "show_labels": "yes",
+            "mark_required": "yes",
+            "button_text": "Schedule Service Online",
+            "button_width": "100",
+            "button_text_color": "#121212",
+            "button_hover_color": "#121212",
+            "button_background_color": "#FFC600",
+            "button_background_hover_color": "#FFCF29",
+            "field_background_color": "#FFFFFF",
+            "column_gap": {
+             "unit": "px",
+             "size": 0,
+             "sizes": []
+            },
+            "row_gap": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "submit_actions": [
+             "email"
+            ],
+            "email_to": "Sierra@LenzHeatingandCooling.com",
+            "email_subject": "New estimate request from the website",
+            "email_content": "[all-fields]",
+            "email_from_name": "Lenz website",
+            "success_message": "Thanks — your request was received. We'll call you back within 2 hours during business hours. Need help now? Call (515) 225-6446.",
+            "required_field_message": "This field is required.",
+            "invalid_message": "Please check the highlighted fields.",
+            "_css_classes": "lz-form"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "form",
+           "elType": "widget"
+          },
+          {
+           "id": "6a0c29b7",
+           "settings": {
+            "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

@@ -1,0 +1,2236 @@
+{
+ "version": "0.4",
+ "title": "Maintenance Plans",
+ "type": "page",
+ "content": [
+  {
+   "id": "64010ec2",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "hero hero--service svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6400fb6b",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container hero__inner"
+     },
+     "elements": [
+      {
+       "id": "6400ae0f",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__copy"
+       },
+       "elements": [
+        {
+         "id": "64001357",
+         "settings": {
+          "html": "<nav class=\"crumbs\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li aria-current=\"page\">Maintenance Plans</li></ol></nav>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "640026ae",
+         "settings": {
+          "html": "<span class=\"hero__eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-calendar\"/></svg> Service agreements</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "64003a05",
+         "settings": {
+          "title": "Des Moines HVAC <span class=\"accent\">Maintenance Plans</span>",
+          "header_size": "h1",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "64004d5c",
+         "settings": {
+          "editor": "Year-Round Comfort, Zero Surprises",
+          "_css_classes": "hero__kicker"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "640060b3",
+         "settings": {
+          "editor": "<p>Regular tune-ups keep your furnace and air conditioner running efficiently, prevent costly breakdowns, and extend the life of your system. With a Lenz HVAC Service Agreement, you get scheduled seasonal maintenance, priority emergency service, and exclusive repair discounts — and we handle the reminders, so you never miss a tune-up.</p>",
+          "_css_classes": "hero__sub"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "64009ab8",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hero__cta"
+         },
+         "elements": [
+          {
+           "id": "6400740a",
+           "settings": {
+            "text": "Enroll Now",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-gold"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "64008761",
+           "settings": {
+            "text": "Call (515) 225-6446",
+            "link": {
+             "url": "tel:+15152256446",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-outline-light lz-ico lz-ico-phone"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6400e814",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__media"
+       },
+       "elements": [
+        {
+         "id": "6400c166",
+         "settings": {
+          "image": {
+           "url": "/wp-content/uploads/2026/10/lenz-thermostat-ecobee.webp",
+           "id": 31,
+           "size": "",
+           "alt": "An ecobee smart thermostat installed on a living room wall",
+           "source": "library"
+          },
+          "image_size": "full"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "image",
+         "elType": "widget"
+        },
+        {
+         "id": "6400d4bd",
+         "settings": {
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Plans from $120 a year</b>Priority dispatch and 10 to 20% off parts.</span></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "64026ae0",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_attributes": "aria-label|At a glance",
+    "css_classes": "trustbar svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "64025789",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "64024432",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "trustbar__grid"
+       },
+       "elements": [
+        {
+         "id": "640148c7",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "64012219",
+           "settings": {
+            "editor": "Since 2009",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "64013570",
+           "settings": {
+            "editor": "Serving Central Iowa",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "640182cc",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "64015c1e",
+           "settings": {
+            "editor": "24/7/365",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "64016f75",
+           "settings": {
+            "editor": "Emergency service",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6401bcd1",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "64019623",
+           "settings": {
+            "editor": "#50871-CL",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6401a97a",
+           "settings": {
+            "editor": "Iowa Master Licensed",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6401f6d6",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "6401d028",
+           "settings": {
+            "editor": "Veteran &amp; Woman-Owned",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6401e37f",
+           "settings": {
+            "editor": "Family operated",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "640230db",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "64020a2d",
+           "settings": {
+            "editor": "Upfront Pricing",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "64021d84",
+           "settings": {
+            "editor": "Before any work begins",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6404145a",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section symptoms  svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "64040103",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6403da55",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "6403b3a7",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-calendar\"/></svg> Why a plan</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6403c6fe",
+         "settings": {
+          "title": "Why an HVAC Maintenance Plan Pays for Itself",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6403edac",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "symptom-grid symptom-grid--4"
+       },
+       "elements": [
+        {
+         "id": "6402b83c",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "64027e37",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6402918e",
+           "settings": {
+            "title": "Prevent Costly Breakdowns",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6402a4e5",
+           "settings": {
+            "editor": "<p>Catch small issues at a spring or fall visit before they become emergency repairs in July or January.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "64030598",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "6402cb93",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-card\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6402deea",
+           "settings": {
+            "title": "Lower Energy Bills",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6402f241",
+           "settings": {
+            "editor": "<p>A tuned system runs more efficiently, which means lower monthly heating and cooling costs.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "640352f4",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "640318ef",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "64032c46",
+           "settings": {
+            "title": "Extend System Lifespan",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "64033f9d",
+           "settings": {
+            "editor": "<p>Consistent maintenance helps your furnace and AC last years longer, delaying a big replacement.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6403a050",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "6403664b",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "640379a2",
+           "settings": {
+            "title": "Protect Your Warranty",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "64038cf9",
+           "settings": {
+            "editor": "<p>Most manufacturers require documented annual maintenance to keep your equipment warranty valid.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "64049bbb",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "cta-band section--tight svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "64048864",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "640427b1",
+       "settings": {
+        "html": "<img class=\"cta-band__bg\" src=\"/wp-content/uploads/2026/10/lenz-service-van-wrap.webp\" alt=\"\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" />"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      },
+      {
+       "id": "6404750d",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "cta-band__inner"
+       },
+       "elements": [
+        {
+         "id": "64043b08",
+         "settings": {
+          "title": "Heat out? AC down? We&apos;re ready right now.",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "64044e5f",
+         "settings": {
+          "editor": "<p>24/7 emergency service across the Des Moines metro since 2009.</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "640461b6",
+         "settings": {
+          "text": "Call (515) 225-6446",
+          "link": {
+           "url": "tel:+15152256446",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "btn btn-gold lz-ico lz-ico-phone"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "button",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6406cc96",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "plans",
+    "css_classes": "plans section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6406b93f",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "64067f3a",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head section__head--center"
+       },
+       "elements": [
+        {
+         "id": "64064535",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Service agreements</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6406588c",
+         "settings": {
+          "title": "Choose Your Plan",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "64066be3",
+         "settings": {
+          "editor": "Every plan includes our full 28-point inspection with no hidden fees. The difference is how many visits, how fast your emergency response, and how much you save.",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "64069291",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "plans__grid"
+       },
+       "elements": [
+        {
+         "id": "6405231c",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "plan plan--red"
+         },
+         "elements": [
+          {
+           "id": "6404af12",
+           "settings": {
+            "html": "<span class=\"plan__stripe\" aria-hidden=\"true\"></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6404c269",
+           "settings": {
+            "editor": "RED",
+            "_css_classes": "plan__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6404d5c0",
+           "settings": {
+            "editor": "$120 <small>+ tax / year</small>",
+            "_css_classes": "plan__price"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6404e917",
+           "settings": {
+            "editor": "1 year term",
+            "_css_classes": "plan__meta"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6404fc6e",
+           "settings": {
+            "html": "<ul class=\"plan__list\"><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>2</b> maintenance checks</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>72-hour</b> emergency response</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>10%</b> off parts</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>$50</b> loyalty credit banked every year you renew</span></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "64050fc5",
+           "settings": {
+            "text": "Choose RED",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-outline"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6405aa7d",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "plan plan--white"
+         },
+         "elements": [
+          {
+           "id": "64053673",
+           "settings": {
+            "html": "<span class=\"plan__stripe\" aria-hidden=\"true\"></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "640549ca",
+           "settings": {
+            "editor": "WHITE",
+            "_css_classes": "plan__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "64055d21",
+           "settings": {
+            "editor": "$160 <small>+ tax / year</small>",
+            "_css_classes": "plan__price"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "64057078",
+           "settings": {
+            "editor": "1½ year term",
+            "_css_classes": "plan__meta"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "640583cf",
+           "settings": {
+            "html": "<ul class=\"plan__list\"><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>3</b> maintenance checks</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>48-hour</b> emergency response</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>15%</b> off parts</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>$100</b> loyalty credit banked every year you renew</span></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "64059726",
+           "settings": {
+            "text": "Choose WHITE",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-outline"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "640631de",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "plan plan--blue"
+         },
+         "elements": [
+          {
+           "id": "6405bdd4",
+           "settings": {
+            "html": "<span class=\"plan__badge\">Recommended</span><span class=\"plan__stripe\" aria-hidden=\"true\"></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6405d12b",
+           "settings": {
+            "editor": "BLUE",
+            "_css_classes": "plan__name"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6405e482",
+           "settings": {
+            "editor": "$220 <small>+ tax / year</small>",
+            "_css_classes": "plan__price"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "6405f7d9",
+           "settings": {
+            "editor": "2 year term",
+            "_css_classes": "plan__meta"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "64060b30",
+           "settings": {
+            "html": "<ul class=\"plan__list\"><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>4</b> maintenance checks</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>24-hour</b> emergency response</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>20%</b> off parts</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>$150</b> loyalty credit banked every year you renew</span></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "64061e87",
+           "settings": {
+            "text": "Choose BLUE",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-primary"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6406a5e8",
+       "settings": {
+        "editor": "We call you to schedule the appointments — no reminder notes on your fridge. Loyalty bonus transfers to a new homeowner who continues the agreement.",
+        "_css_classes": "plans__note"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "text-editor",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "640910c8",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section symptoms section--mist svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6408fd71",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6408d6c3",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "6408b015",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg> Included in every plan</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6408c36c",
+         "settings": {
+          "title": "What Every Plan Includes",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "6408ea1a",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "symptom-grid symptom-grid--3"
+       },
+       "elements": [
+        {
+         "id": "640719f2",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "6406dfed",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6406f344",
+           "settings": {
+            "title": "28-Point System Inspection",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6407069b",
+           "settings": {
+            "editor": "<p>A detailed inspection of every major component each visit, so problems get caught early.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6407674e",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "64072d49",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-card\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "640740a0",
+           "settings": {
+            "title": "Zero Hidden Fees",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "640753f7",
+           "settings": {
+            "editor": "<p>No diagnostic charges, no trip fees, and no overtime, night, or weekend charges — ever.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6407b4aa",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "64077aa5",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-calendar\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "64078dfc",
+           "settings": {
+            "title": "Spring A/C &amp; Fall Furnace Checks",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6407a153",
+           "settings": {
+            "editor": "<p>Seasonal tune-ups timed to prep your system for Iowa summers and winters.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "64080206",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "6407c801",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6407db58",
+           "settings": {
+            "title": "We Schedule It for You",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6407eeaf",
+           "settings": {
+            "editor": "<p>No sticky notes needed. We send automated email and text reminders and call to book your visits each spring and fall.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "64084f62",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "6408155d",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "640828b4",
+           "settings": {
+            "title": "Priority Emergency Service",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "64083c0b",
+           "settings": {
+            "editor": "<p>Guaranteed priority dispatch for no-heat and no-cooling emergencies (response speed varies by plan).</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "64089cbe",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "640862b9",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "64087610",
+           "settings": {
+            "title": "Parts Discounts",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "64088967",
+           "settings": {
+            "editor": "<p>Save on parts all year long (10–20% depending on your plan).</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "64099829",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section promo-section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "640984d2",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6409717b",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "service-help promo"
+       },
+       "elements": [
+        {
+         "id": "64094acd",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "service-help__txt promo__txt"
+         },
+         "elements": [
+          {
+           "id": "6409241f",
+           "settings": {
+            "title": "Loyalty That Rewards You",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom",
+            "_css_classes": "promo__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "64093776",
+           "settings": {
+            "editor": "<p>Our plans don't just protect your system — they reward you for staying. Every year you renew, you bank a loyalty bonus: <b>$50 with Red, $100 with White, or $150 with Blue.</b> The longer you stay enrolled, the more you earn.</p><p>Even better, your bonus is <b>transferable</b> — if you sell your home and the new owner continues the agreement, the banked reward goes with the house. It's a smart investment in your comfort and your home's resale value.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "64095e24",
+         "settings": {
+          "text": "Enroll &amp; Start Earning",
+          "link": {
+           "url": "#contact",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "btn btn-gold"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "button",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "640af447",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section steps-section  svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "640ae0f0",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "640aba42",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head section__head--center"
+       },
+       "elements": [
+        {
+         "id": "640a9394",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg> How it works</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "640aa6eb",
+         "settings": {
+          "title": "How It Works",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "640acd99",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "steps steps--3"
+       },
+       "elements": [
+        {
+         "id": "6409e585",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "step"
+         },
+         "elements": [
+          {
+           "id": "6409ab80",
+           "settings": {
+            "html": "<span class=\"step__num\">1</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6409bed7",
+           "settings": {
+            "title": "Pick your plan",
+            "header_size": "h3",
+            "_css_classes": "step__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6409d22e",
+           "settings": {
+            "editor": "<p>Enroll online or by phone in a couple of minutes.</p>",
+            "_css_classes": "step__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "640a32e1",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "step"
+         },
+         "elements": [
+          {
+           "id": "6409f8dc",
+           "settings": {
+            "html": "<span class=\"step__num\">2</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "640a0c33",
+           "settings": {
+            "title": "We schedule your visits",
+            "header_size": "h3",
+            "_css_classes": "step__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "640a1f8a",
+           "settings": {
+            "editor": "<p>We reach out each spring and fall to book your seasonal tune-ups.</p>",
+            "_css_classes": "step__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "640a803d",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "step"
+         },
+         "elements": [
+          {
+           "id": "640a4638",
+           "settings": {
+            "html": "<span class=\"step__num\">3</span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "640a598f",
+           "settings": {
+            "title": "Relax",
+            "header_size": "h3",
+            "_css_classes": "step__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "640a6ce6",
+           "settings": {
+            "editor": "<p>Your system stays efficient, your repairs are discounted, and your loyalty bonus grows.</p>",
+            "_css_classes": "step__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "640b6851",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "faqs",
+    "css_classes": "faqs section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "640b54fa",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "640b2e4c",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head section__head--center"
+       },
+       "elements": [
+        {
+         "id": "640b079e",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-info\"/></svg> FAQs</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "640b1af5",
+         "settings": {
+          "title": "HVAC Maintenance Plan FAQ",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "640b41a3",
+       "settings": {
+        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">How much does an HVAC maintenance plan cost? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p>Lenz maintenance plans start at $120/year for the Red plan, with White at $160 and Blue at $220 (plus tax). Each step up adds more visits, faster emergency response, bigger repair discounts, and a larger loyalty bonus.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">What is the 28-point inspection? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p>It's a full check of all major heating and cooling components performed at each maintenance visit to catch wear and small issues before they cause a breakdown. There are no diagnostic or trip fees for plan members.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">How often will you service my system? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p>Between two and four visits per year, depending on your plan — always including a spring air conditioner check and a fall furnace check. We contact you to schedule each one.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">What if my system breaks down at night or on a weekend? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p>Plan members get guaranteed priority emergency service with no overtime, night, or weekend fees. Response time is within 72, 48, or 24 hours depending on your plan.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Can I transfer my plan if I sell my home? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p>Yes. Your banked loyalty bonus is transferable to the new homeowner if they continue the service agreement — a nice bonus when you're selling.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-6\" id=\"faq-6-t\">What if my system is too old to maintain? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-6\" role=\"region\" aria-labelledby=\"faq-6-t\"><p>If a repair no longer makes sense, we'll walk you through your replacement options and financing. Learn about AC replacement →</p></div></div></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "640c29b7",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "contact",
+    "css_classes": "close-form section svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "640c1660",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "640c0309",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "close-form__inner"
+       },
+       "elements": [
+        {
+         "id": "640bc904",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "640b8eff",
+           "settings": {
+            "title": "Sign Up for Your Maintenance Plan",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "640ba256",
+           "settings": {
+            "editor": "<p>Fill out the form and our team will confirm your plan and schedule your first visit. Prefer to talk it through? Call (515) 225-6446.</p>",
+            "_css_classes": "close-form__lead"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "640bb5ad",
+           "settings": {
+            "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "640befb2",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "form-card"
+         },
+         "elements": [
+          {
+           "id": "640b7ba8",
+           "settings": {
+            "form_name": "Estimate request",
+            "form_fields": [
+             {
+              "_id": "name",
+              "custom_id": "name",
+              "field_type": "text",
+              "field_label": "Name",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "phone",
+              "custom_id": "phone",
+              "field_type": "tel",
+              "field_label": "Phone",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "service",
+              "custom_id": "service",
+              "field_type": "select",
+              "field_label": "Service",
+              "required": "true",
+              "width": "100",
+              "placeholder": "",
+              "field_options": "Choose a service…|\nAir Conditioning\nAC Installation\nAC Repair\nAC Replacement\nFurnace & Heating\nHeat Pumps\nDuctwork\nDuct Cleaning\nIndoor Air Quality\nWater Heater Installation\nMaintenance",
+              "field_value": "Maintenance"
+             }
+            ],
+            "show_labels": "yes",
+            "mark_required": "yes",
+            "button_text": "Enroll Now",
+            "button_width": "100",
+            "button_text_color": "#121212",
+            "button_hover_color": "#121212",
+            "button_background_color": "#FFC600",
+            "button_background_hover_color": "#FFCF29",
+            "field_background_color": "#FFFFFF",
+            "column_gap": {
+             "unit": "px",
+             "size": 0,
+             "sizes": []
+            },
+            "row_gap": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "submit_actions": [
+             "email"
+            ],
+            "email_to": "Sierra@LenzHeatingandCooling.com",
+            "email_subject": "New estimate request from the website",
+            "email_content": "[all-fields]",
+            "email_from_name": "Lenz website",
+            "success_message": "Thanks — your request was received. We'll call you back within 2 hours during business hours. Need help now? Call (515) 225-6446.",
+            "required_field_message": "This field is required.",
+            "invalid_message": "Please check the highlighted fields.",
+            "_css_classes": "lz-form"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "form",
+           "elType": "widget"
+          },
+          {
+           "id": "640bdc5b",
+           "settings": {
+            "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

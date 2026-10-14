@@ -1,0 +1,18 @@
+{
+  "btn": "button",
+  "btn-gold": "button",
+  "btn-outline": "button",
+  "btn-outline-light": "button",
+  "btn-primary": "button",
+  "checklist-card__title": "text",
+  "close-form__lead": "text",
+  "hero__sub": "text",
+  "office__text": "text",
+  "office__title": "heading",
+  "review-name": "text",
+  "section__lead": "text",
+  "section__title": "heading",
+  "svc-intro__body": "text",
+  "trustbar__label": "text",
+  "trustbar__value": "text"
+}

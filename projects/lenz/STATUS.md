@@ -35,15 +35,20 @@ build-all.sh [--import]   one command for all of it (import = LOCAL installs onl
   AC Installation 48, AC Maintenance 49, AC Replacement 50, Air Purification 51, Heating Installation 52,
   Heating Maintenance 53, Heating Repair 54, Humidity Control 55, UV Light Purification 56.
 - Hubs on the same template (`is_hub`, `services` block): Air Conditioning 66, Heating 67, Indoor Air Quality 68.
+- Company pages from their docs (people, roster, steps, video, locations, area, coupons, embed blocks):
+  About 75, Community Outreach 76, Contact 77, Financing 78, Hello Iowa 79, Careers 80, Maintenance Plans 81,
+  Meet the Team 82, Service Areas 83, Specials 84, Urbandale 85, Waukee 86. Blog: posts archive, not built.
 
 ## Not built yet
 
-- Service pages with no doc yet (Heating Replacement, Duct Cleaning, Additional Services children); the
-  company pages (About, Contact, Financing, Specials, Service Areas, ...).
+- Service pages with no doc yet (Heating Replacement, Duct Cleaning, Additional Services children); the blog archive (Theme Builder).
 - Pages with no doc: heating-replacement, duct-cleaning, additional-services and
   its five children, privacy-policy, terms.
 
 ## Open before launch
+
+- Forms: the current site sends every form (contact, plans, jobs) to LeadConnector form qqIhBpp3Uvkj3zopUtRg; the new
+  site uses an Elementor Pro email form except Careers (LeadConnector embed). Decide one.
 
 - Form recipient, SMTP, spam protection.
 - Schema ownership (prototype JSON-LD not ported).

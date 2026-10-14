@@ -47,9 +47,22 @@ FIXES = [
      "ClickUp 09/10 item 6: only estimates are free; repairs carry a diagnostic fee"),
     ("no trip or diagnostic fees", "upfront pricing before any work begins",
      "ClickUp 09/10 item 6: only estimates are free; repairs carry a diagnostic fee"),
-    ("plus priority emergency service, no trip fees, and discounts on any repairs you need during the year.",
-     "plus priority emergency service and discounts on repair parts during the year.",
-     "ClickUp 09/10 item 7: the plan discount applies to parts only; no trip-fee promise in the plans"),
+    ("discounts on any repairs you need during the year.", "discounts on repair parts during the year.",
+     "ClickUp 09/10 item 7: the service agreement discount applies to parts only"),
+    ("Save on parts and repairs all year long", "Save on parts all year long",
+     "ClickUp 09/10 item 7: the service agreement discount applies to parts only"),
+    ("Parts &amp; Repair Discounts", "Parts Discounts",
+     "ClickUp 09/10 item 7: the service agreement discount applies to parts only"),
+    ("We provide free estimates on every request because",
+     "We provide free estimates on new equipment and full system replacements because",
+     "ClickUp 09/10 item 6: only estimates on new equipment and replacements are free"),
+    ("Over 1,800+ 5-star reviews", "Over 2,000 5-star reviews",
+     "ClickUp 08/17: the client asked for 2,000, not 1,800"),
+]
+# (regex, replacement, why): case-aware word swaps.
+REGEX_FIXES = [
+    (r"\bHeadquarters\b", "Main Office", "ClickUp 08/17: \"Main office\", not \"Headquarters\""),
+    (r"\bheadquarters\b", "main office", "ClickUp 08/17: \"Main office\", not \"Headquarters\""),
 ]
 # Section-level replacements: a whole "why" card the client ruled out.
 CARD_FIXES = {
@@ -117,7 +130,11 @@ class Copy:
             if old in s:
                 s = s.replace(old, new)
                 self.applied.append((old, new, why))
-        return s
+        for pat, new, why in REGEX_FIXES:
+            if re.search(pat, s):
+                s = re.sub(pat, new, s)
+                self.applied.append((pat.strip("\\b"), new, why))
+        return s.replace("main main office", "main office").replace("Main Main Office", "Main Office")
 
 
 def _items(nodes, fix):
@@ -174,7 +191,11 @@ DEFAULT_EB = {"checklist": ("i-wrench", "Why act now"), "cards": ("i-info", "Wha
               "bullets": ("i-info", "Know the signs"), "values": ("i-shield", "Why it matters"),
               "table": ("i-info", "Compare your options"), "prose": ("i-info", "Good to know"),
               "plans": ("i-award", "Service agreements"), "why": ("i-award", "Why Lenz"),
-              "services": ("i-wrench", "Our services"), "promo": ("i-card", "")}
+              "services": ("i-wrench", "Our services"), "promo": ("i-card", ""),
+              "people": ("i-award", "Our people"), "roster": ("i-award", "Our team"),
+              "steps": ("i-check", "How it works"), "video": ("i-tv", "As seen on TV"),
+              "locations": ("i-pin", "Our locations"), "area": ("i-pin", "Service area"),
+              "embed": ("i-check", "Apply online"), "coupons": ("i-card", "Current specials")}
 
 
 def _head(page, eb, title, lead=None, center=False):
@@ -183,7 +204,8 @@ def _head(page, eb, title, lead=None, center=False):
 
 
 def block_checklist(page, sec, opt, fix):
-    paras = _paras(sec["nodes"], fix)
+    paras = [p for p in _paras(sec["nodes"], fix)
+             if not any(re.search(d, re.sub(r"<[^>]+>", "", p)) for d in opt.get("drop", []))]
     lis = _lis(sec["nodes"], fix)
     title_i = next((i for i, p in enumerate(paras) if re.sub(r"<[^>]+>", "", p).rstrip().endswith(":")), None)
     ck_title = re.sub(r"</?b>", "", paras[title_i]) if title_i is not None else opt.get("checklist_title", "")
@@ -205,7 +227,8 @@ def block_checklist(page, sec, opt, fix):
                 B.text(ck_title, "checklist-card__title"),
                 B.raw('<ul class="checklist">%s</ul>' % "".join(
                     "<li>%s<span>%s</span></li>" % (svg("i-check", "icon-sm"), li) for li in lis)),
-                B.button(btn, L["form"], "btn btn-primary"),
+                (B.button("Call " + B.PHONE, B.PHONE_TEL, "btn btn-primary", icon="phone") if opt.get("tel")
+                 else B.button(btn, L["form"], "btn btn-primary")),
             ], tag="aside"),
         ]),
     ])
@@ -245,16 +268,18 @@ def block_cards(page, sec, opt, fix):
 
 
 def block_boldcards(page, sec, opt, fix):
-    paras = _paras(sec["nodes"], fix)
+    paras = _paras(sec["nodes"], fix) + _lis(sec["nodes"], fix)
     lead = [p for p in paras if not _bold_split(p)]
     items = [_bold_split(p) for p in paras if _bold_split(p)]
     cards = [_card((opt.get("icons") or [None] * 99)[i] or icon_for(t, i), None, t, [d])
              for i, (t, d) in enumerate(items)]
     cols = opt.get("cols", 4 if len(items) == 4 else 3)
-    return B.section("section symptoms " + page["_cat"], [
-        _head(page, opt["eyebrow"], fix(sec["title"]), " ".join(lead) if lead else None),
-        B.box("symptom-grid symptom-grid--%d" % cols, cards),
-    ])
+    kids = [_head(page, opt["eyebrow"], fix(sec["title"]), " ".join(lead) if lead else None),
+            B.box("symptom-grid symptom-grid--%d" % cols, cards)]
+    btns = _doc_buttons(sec["nodes"], opt)
+    if btns:
+        kids.append(B.box("section-cta", btns))
+    return B.section("section symptoms %s %s" % (opt.get("bg", ""), page["_cat"]), kids, el_id=opt.get("id"))
 
 
 def _checklist_card(title, lis, sub=None):
@@ -276,9 +301,26 @@ def block_pair(page, sec, opt, fix):
     ])
 
 
+ARROW_LINKS = {"Furnace": "heating", "AC Installation": "ac-installation", "AC Replacement": "ac-replacement",
+               "Heat Pumps": "heat-pumps", "Water Heater Installation": "water-heater-services",
+               "Indoor Air Quality": "indoor-air-quality"}
+
+
+def _arrow(li):
+    """'<b>Label</b> → Page · Page' (doc link notes) -> label plus real links."""
+    if "→" not in li:
+        return li
+    label, _, targets = li.partition("→")
+    links = []
+    for t in targets.split("·"):
+        t = re.sub(r"<[^>]+>", "", t).strip()
+        links.append('<a href="%s">%s</a>' % (L[ARROW_LINKS[t]], t) if t in ARROW_LINKS else t)
+    return '%s <span class="checklist__links">%s</span>' % (label.strip(), " · ".join(links))
+
+
 def block_bullets(page, sec, opt, fix):
     paras = _paras(sec["nodes"], fix)
-    lis = _lis(sec["nodes"], fix)
+    lis = [_arrow(li) for li in _lis(sec["nodes"], fix)]
     return B.section("section bullets " + page["_cat"], [
         _head(page, opt["eyebrow"], fix(sec["title"]), " ".join(paras) if paras else None),
         B.box("bullets-card", [B.raw('<ul class="checklist checklist--2col">%s</ul>' % "".join(
@@ -328,14 +370,21 @@ def block_prose(page, sec, opt, fix):
     if lis:
         kids.append(B.raw('<ul class="checklist checklist--2col">%s</ul>' % "".join(
             "<li>%s<span>%s</span></li>" % (svg("i-check", "icon-sm"), li) for li in lis)))
-    return B.section("section prose " + opt.get("bg", "") + " " + page["_cat"], [B.box("prose__inner", kids)])
+    btns = _doc_buttons(sec["nodes"], opt)
+    if btns:
+        kids.append(B.box("section-cta", btns))
+    return B.section("section prose " + opt.get("bg", "") + " " + page["_cat"], [B.box("prose__inner", kids)],
+                     el_id=opt.get("id"))
 
 
 def block_promo(page, sec, opt, fix):
     paras = _paras(sec["nodes"], fix)
     lis = _lis(sec["nodes"], fix)
-    btn = next((n["labels"][0] for n in sec["nodes"] if n["t"] == "button"), page["cta"])
-    btn = re.sub(r"\s*→\s*$", "", btn)
+    bnode = next((n for n in sec["nodes"] if n["t"] == "button"), None)
+    btn = re.sub(r"\s*→\s*$", "", bnode["labels"][0]) if bnode else opt.get("button", page["cta"])
+    href = _btn_href(btn, bnode.get("hint", "") if bnode else "", opt.get("links", {}))
+    if "link" in opt:
+        href = B.PHONE_TEL if opt["link"] == "tel" else L[opt["link"]]
     body = "".join("<p>%s</p>" % p for p in paras)
     if lis:
         body += '<ul class="checklist checklist--on-dark">%s</ul>' % "".join(
@@ -344,9 +393,10 @@ def block_promo(page, sec, opt, fix):
         B.box("service-help promo", [
             B.box("service-help__txt promo__txt", [B.heading(fix(sec["title"]), "h2", "promo__title",
                                                              size="var(--text-xl)"), B.text(body)]),
-            B.button(btn, L[opt.get("link", "form")], "btn btn-gold"),
+            B.button(btn, href, "btn btn-gold", icon="phone" if href.startswith("tel:") else None,
+                     external=href.startswith("http")),
         ]),
-    ])
+    ], el_id=opt.get("id"))
 
 
 def block_plans(page, sec, opt, fix):
@@ -366,16 +416,19 @@ def block_why(page, sec, opt, fix):
             fix.applied.append((t, nt, why))
             t, ps = nt, [body]
         icon = (opt.get("icons") or [None] * 99)[i] or ["i-card", "i-shield", "i-clock", "i-award"][i % 4]
+        body = " ".join(ps)
+        if _l:
+            body += '<ul class="creds__list">%s</ul>' % "".join("<li>%s</li>" % li for li in _l)
         cards.append(B.box("creds__card", [
             B.raw('<span class="creds__icon">%s</span>' % svg(icon, "icon")),
             B.heading(fix(t), "h3"),
-            B.text(" ".join(ps), "creds__text"),
+            B.text(body, "creds__text"),
         ], tag="article"))
     grid = "creds__grid" + (" creds__grid--4" if len(cards) == 4 else "")
     return B.section("creds section " + page["_cat"], [
         _head(page, opt.get("eyebrow", ("i-award", "Why Lenz")), fix(sec["title"]), " ".join(hp) if hp else None),
         B.box(grid, cards),
-    ])
+    ] + ([B.box("section-cta", _doc_buttons(sec["nodes"], opt))] if _doc_buttons(sec["nodes"], opt) else []))
 
 
 def block_reviews(page, sec, opt, fix):
@@ -390,16 +443,24 @@ def block_reviews(page, sec, opt, fix):
 
 def block_faq(page, sec, opt, fix):
     _h, items = _items(sec["nodes"], fix)
+    tail = None
+    if opt.get("last_as_cta"):
+        tail = items.pop()
 
     def answer(ps, lis):
         if not lis:
             return " ".join(ps)
         return "<p>%s</p><ul>%s</ul>" % (ps[0], "".join("<li>%s</li>" % li for li in lis)) + \
             "".join("<p>%s</p>" % p for p in ps[1:])
-    return B.section("faqs section " + page["_cat"], [
+    out = B.section("faqs section " + page["_cat"], [
         B.head("i-info", "FAQs", fix(sec["title"]), extra="section__head--center"),
         B.faq_list([(fix(q), answer(ps, lis)) for q, ps, lis in items]),
     ], el_id="faqs")
+    if tail:
+        t, ps, _l = tail
+        return [out, block_cta(page, {"title": t, "nodes": [{"t": "p", "text": p} for p in ps] +
+                                       [n for n in sec["nodes"] if n["t"] == "button"]}, opt, fix)]
+    return out
 
 
 def block_services(page, sec, opt, fix):
@@ -450,10 +511,308 @@ def block_services(page, sec, opt, fix):
     ], el_id="services")
 
 
+# ------------------------------------------------------- company blocks ----
+def _btn_href(label, hint, links):
+    """Where a doc button goes: page override, the doc's own link hint, or a guess."""
+    lab = re.sub(r"<[^>]+>|\s*→\s*$", "", label).strip()
+    if lab in links:
+        v = links[lab]
+        return B.PHONE_TEL if v == "tel" else (v if v.startswith(("http", "#", "/")) else L[v])
+    if hint and hint.startswith("/"):
+        return hint
+    if re.search(r"\(515\)|\bcall\b", lab, re.I):
+        return B.PHONE_TEL
+    return L["form"]
+
+
+def _doc_buttons(nodes, opt, primary="btn btn-primary", secondary="btn btn-outline"):
+    out = []
+    for n in nodes:
+        if n["t"] != "button":
+            continue
+        for i, lab in enumerate(n["labels"]):
+            if re.search(r"(?i)^insert |widget|slider|placeholder", lab):
+                continue
+            href = _btn_href(lab, n.get("hint", ""), opt.get("links", {}))
+            text = re.sub(r"\s*→\s*$", "", lab)
+            cls = primary if i == 0 else secondary
+            ext = href.startswith("http")
+            out.append(B.button(text, href, cls, icon="phone" if href.startswith("tel:") else None, external=ext))
+    return out
+
+
+def _split(sec, fix):
+    """Split a section at short bold-only paragraphs (sub-headings in the doc)."""
+    parts, cur = [], {"title": sec["title"], "nodes": []}
+    for n in sec["nodes"]:
+        raw = re.sub(r"<[^>]+>", "", n.get("text", "")).strip()
+        if (n["t"] == "p" and re.fullmatch(r"\s*<b>[^<]+</b>\s*", n["text"]) and len(raw) < 60
+                and not raw.endswith((".", "!", "?"))):
+            parts.append(cur)
+            cur = {"title": raw.rstrip(":"), "nodes": []}
+        else:
+            cur["nodes"].append(n)
+    parts.append(cur)
+    return [p for p in parts if p["nodes"]]
+
+
+def block_multi(page, sec, opt, fix):
+    out = []
+    for spec, sub in zip(opt["parts"], _split(sec, fix)):
+        o = dict(spec[1]) if len(spec) > 1 else {}
+        o.setdefault("eyebrow", DEFAULT_EB.get(spec[0], ("i-info", "")))
+        out.append(BLOCKS[spec[0]](page, sub, o, fix))
+    return out
+
+
+def _initials(name):
+    return "".join(w[0] for w in re.sub(r"[^A-Za-z ]", "", name).split()[:2]).upper()
+
+
+def _person(name, role, bio=None, dog=False):
+    kids = [B.raw('<span class="person__avatar%s" aria-hidden="true">%s</span>'
+                  % (" person__avatar--dog" if dog else "", svg("i-heat" if False else "i-star", "icon") if dog else _initials(name))),
+            B.heading(name, "h3", "person__name"),
+            B.text(role, "person__role")]
+    if bio:
+        kids.append(B.text("<p>%s</p>" % bio, "person__bio"))
+    return B.box("person" + (" person--compact" if not bio else ""), kids, tag="article")
+
+
+def block_people(page, sec, opt, fix):
+    """Cards from `Name — Role` headings, each with its bio paragraph(s)."""
+    head, items = _items(sec["nodes"], fix)
+    cards = []
+    for t, ps, _l in items:
+        name, _, role = re.sub(r"<[^>]+>", "", t).partition(" — ")
+        cards.append(_person(name.strip(), role.strip(), " ".join(ps), dog=opt.get("dogs", False)))
+    hp = _paras(head, fix)
+    return B.section("section people-section %s %s" % (opt.get("bg", ""), page["_cat"]), [
+        _head(page, opt["eyebrow"], fix(sec["title"]), " ".join(hp) if hp else None),
+        B.box("people people--%d" % opt.get("cols", 3), cards),
+    ], el_id=opt.get("id"))
+
+
+def block_roster(page, sec, opt, fix):
+    """Name lists (`Name — Role · Name — Role`, `A, B, C — Role`) as one card per person."""
+    intro, groups, cur = [], [], None
+    for n in sec["nodes"]:
+        if n["t"] != "p":
+            continue
+        t = fix(n["text"])
+        m = re.match(r"\s*<b>([^<]+)</b>\s*(.*)$", t)
+        if m and len(m.group(1)) < 50:
+            cur = [m.group(1).strip(), []]
+            groups.append(cur)
+            t = m.group(2)
+            if not t:
+                continue
+        plain = re.sub(r"<[^>]+>", "", t)
+        names_only = (opt.get("role") and "," in plain and not plain.rstrip().endswith((".", "!", "?"))
+                      and all(len(x.split()) <= 3 for x in plain.split(",")))
+        if " — " in plain or (cur is None and names_only):
+            if cur is None:
+                cur = [None, []]
+                groups.append(cur)
+            for chunk in plain.split(" · "):
+                names, _, role = chunk.partition(" — ")
+                role = role.strip() or opt.get("role", "")
+                for nm in names.split(","):
+                    if nm.strip():
+                        cur[1].append((nm.strip(), role))
+        else:
+            intro.append(t)
+    kids = [_head(page, opt["eyebrow"], fix(sec["title"]), " ".join(intro) if intro else None)]
+    for title, people in groups:
+        if title:
+            kids.append(B.heading(title, "h3", "roster__title"))
+        kids.append(B.box("people people--roster", [_person(n, r, dog=opt.get("dogs", False)) for n, r in people]))
+    btns = _doc_buttons(sec["nodes"], opt)
+    if btns:
+        kids.append(B.box("section-cta", btns))
+    return B.section("section roster %s %s" % (opt.get("bg", ""), page["_cat"]), kids, el_id=opt.get("id"))
+
+
+def block_steps(page, sec, opt, fix):
+    """Numbered steps from `<b>1. Title.</b> text` paragraphs, numbered list items,
+    one paragraph with 1. 2. 3. inside, or `1. Title` headings."""
+    steps, lead = [], []
+    head, items = _items(sec["nodes"], fix)
+    if items:
+        steps = [(_strip_num(t)[1], " ".join(ps)) for t, ps, _l in items]
+        lead = _paras(head, fix)
+    else:
+        for n in sec["nodes"]:
+            if n["t"] not in ("p", "li"):
+                continue
+            t = fix(n["text"])
+            plain = re.sub(r"<[^>]+>", "", t)
+            found = re.findall(r"(?:^|\s)(\d)\.\s+(.*?)(?=\s\d\.\s|$)", plain)
+            if len(found) > 1 and n["t"] == "p":
+                for _, chunk in found:
+                    ttl, _, rest = chunk.partition(". ")
+                    steps.append((ttl.strip().rstrip("."), rest.strip()))
+                continue
+            m = re.match(r"\s*(?:<b>)?\s*(\d)\.\s*(.+?)(?:</b>)\s*(.*)$", t)
+            if m:
+                steps.append((re.sub(r"</?b>", "", m.group(2)).strip().rstrip(".:"), m.group(3).strip()))
+            elif n["t"] == "li":
+                bs = _bold_split(t)
+                steps.append(bs if bs else (plain, ""))
+            else:
+                lead.append(t)
+    cards = [B.box("step", [B.raw('<span class="step__num">%d</span>' % i), B.heading(ttl, "h3", "step__title"),
+                            B.text("<p>%s</p>" % body if body else "", "step__body")], tag="article")
+             for i, (ttl, body) in enumerate(steps, 1)]
+    return B.section("section steps-section %s %s" % (opt.get("bg", ""), page["_cat"]), [
+        _head(page, opt["eyebrow"], fix(sec["title"]), " ".join(lead) if lead else None,
+              center=opt.get("center", True)),
+        B.box("steps steps--%d" % len(cards), cards),
+    ])
+
+
+def block_cta(page, sec, opt, fix):
+    """Navy closing band with the doc's buttons and no form."""
+    paras = _paras(sec["nodes"], fix)
+    btns = _doc_buttons(sec["nodes"], opt, primary="btn btn-gold", secondary="btn btn-outline-light")
+    return B.section("cta-band cta-band--final section--tight " + page["_cat"], [
+        B.raw('<img class="cta-band__bg" src="%s" alt="" aria-hidden="true" decoding="async" loading="lazy" />'
+              % B.MEDIA["lenz-service-van-wrap-webp"]["url"]),
+        B.box("cta-band__inner", [
+            B.heading(fix(sec["title"]), "h2", size="var(--text-2xl)"),
+            B.text("".join("<p>%s</p>" % p for p in paras)),
+            B.box("hero__cta", btns),
+        ]),
+    ])
+
+
+VIDEOS = ["8jsNz6yxry0", "YYaD8i_nDLY", "eStd5NEOYxw", "kO2JzDZUnWc", "pkeMxmt_gZI"]   # lenzmechanical.com/hello-iowa/
+
+
+def _yt(vid, title):
+    return ('<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/%s" title="%s" loading="lazy" '
+            'allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>'
+            % (vid, title))
+
+
+def block_video(page, sec, opt, fix):
+    """Featured WHO 13 segment; with `library`, the other segments in a grid under a sub-heading."""
+    head, items = _items(sec["nodes"], fix)
+    hp = _paras(head, fix)
+    kids = [_head(page, opt["eyebrow"], fix(sec["title"]), " ".join(hp) if hp else None),
+            B.raw(_yt(VIDEOS[0], "Lenz Heating &amp; Cooling on WHO 13 News Hello Iowa!"))]
+    if opt.get("library"):
+        for t, ps, _l in items:
+            ps = [re.sub(r"\s*(?:<b>)?\[[^\]]*\](?:</b>)?", "", p).strip() for p in ps]
+            kids.append(B.box("video-lib__head", [B.heading(t, "h3", "video-lib__title"),
+                                                  B.text("".join("<p>%s</p>" % p for p in ps))]))
+        kids.append(B.raw('<div class="video-grid">%s</div>' % "".join(
+            _yt(v, "Lenz Heating &amp; Cooling Hello Iowa! segment %d" % i) for i, v in enumerate(VIDEOS[1:], 2))))
+    btns = _doc_buttons(sec["nodes"], opt)
+    if btns:
+        kids.append(B.box("section-cta", btns))
+    return B.section("section video-section %s %s" % (opt.get("bg", "section--mist"), page["_cat"]), kids,
+                     el_id=opt.get("id"))
+
+
+OFFICES = [
+    ("Urbandale", "Main office", "7641 Douglas Ave, Urbandale, IA 50322", "7641+Douglas+Avenue,+Urbandale,+IA+50322"),
+    ("Waukee", "Waukee location", "810 Interstate Pkwy, Suite 141, Waukee, IA 50263", "810+Interstate+Pkwy+Suite+141,+Waukee,+IA+50263"),
+]
+
+
+def block_locations(page, sec, opt, fix):
+    """Two office cards: map, address, directions. Text per office from the doc's
+    `h` items when present (Service Areas), else just the address (Contact)."""
+    head, items = _items(sec["nodes"], fix)
+    hp = [p for p in _paras(head, fix)]
+    cards = []
+    for i, (city, label, addr, q) in enumerate(OFFICES):
+        body = []
+        if i < len(items):
+            t, ps, _l = items[i]
+            label = fix(re.sub(r"<[^>]+>", "", t))
+            body = [p for p in ps if not re.sub(r"<[^>]+>", "", p).strip().endswith(":") and addr.split(",")[0] not in p]
+        kids = [B.raw('<div class="office__map"><iframe src="https://www.google.com/maps?q=%s&amp;output=embed" '
+                      'title="Map of the Lenz %s office" loading="lazy" referrerpolicy="no-referrer-when-downgrade">'
+                      '</iframe></div>' % (q, city)),
+                B.box("office__body", [
+                    B.heading(label, "h3", "office__title"),
+                    B.raw('<p class="office__addr">%s%s</p>' % (svg("i-pin", "icon-sm"), addr)),
+                    B.text("".join("<p>%s</p>" % p for p in body), "office__text"),
+                    B.box("office__cta", [
+                        B.button("Call " + B.PHONE, B.PHONE_TEL, "btn btn-primary", icon="phone"),
+                        B.button("Get Directions", "https://www.google.com/maps/dir/?api=1&destination=" + q,
+                                 "btn btn-outline", external=True),
+                    ]),
+                ])]
+        cards.append(B.box("office", kids, tag="article"))
+    return B.section("section offices-section %s %s" % (opt.get("bg", ""), page["_cat"]), [
+        _head(page, opt["eyebrow"], fix(sec["title"]), " ".join(hp) if hp else None),
+        B.box("offices", cards),
+    ], el_id=opt.get("id"))
+
+
+def block_area(page, sec, opt, fix):
+    """The home's service-area block (city chips, note, offices, map) with the doc's copy."""
+    paras = [p for p in _paras(sec["nodes"], fix) if not re.sub(r"<[^>]+>", "", p).strip().endswith(":")]
+    cities = [re.sub(r",\s*IA$", "", re.sub(r"<[^>]+>", "", li)) for li in _lis(sec["nodes"], fix)] or \
+        ["Urbandale", "Des Moines", "West Des Moines", "Waukee", "Ankeny", "Johnston", "Clive", "Grimes",
+         "Altoona", "Norwalk", "Windsor Heights"]
+    lead, rest = (paras[0], paras[1:]) if paras else (None, [])
+    copy = [B.raw('<div class="area__cities">%s</div>' % "".join(
+        '<span class="area-chip">%s%s</span>' % (svg("i-pin", "icon-xs"), c) for c in cities))]
+    for p in rest:
+        copy.append(B.raw('<p class="area__note">%s%s</p>' % (svg("i-info", "icon-sm"), p)))
+    copy.append(B.raw('<p class="area__address">%s<a href="https://www.google.com/maps/dir/?api=1&amp;destination='
+                      '7641+Douglas+Avenue,+Urbandale,+IA+50322" target="_blank" rel="noopener noreferrer">Main '
+                      'office: 7641 Douglas Ave, Urbandale, IA 50322</a><span class="sep">·</span><a href="https://'
+                      'www.google.com/maps/dir/?api=1&amp;destination=810+Interstate+Pkwy+Suite+141,+Waukee,+IA" '
+                      'target="_blank" rel="noopener noreferrer">Waukee: 810 Interstate Pkwy, Suite 141</a></p>'
+                      % svg("i-pin", "icon-sm")))
+    btns = _doc_buttons(sec["nodes"], opt)
+    if btns:
+        copy.append(B.box("section-cta", btns))
+    return B.section("area section " + page["_cat"], [
+        _head(page, opt["eyebrow"], fix(sec["title"]), lead, center=True),
+        B.box("area__layout", [
+            B.box("area__copy", copy),
+            B.box("area__map", [B.raw(
+                '<iframe src="https://www.google.com/maps?q=7641+Douglas+Avenue,+Urbandale,+IA+50322&amp;output=embed" '
+                'title="Lenz Heating &amp; Cooling location and service area map" loading="lazy" '
+                'referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>')]),
+        ]),
+    ], el_id="area")
+
+
+def block_coupons(page, sec, opt, fix):
+    imgs = opt["images"]
+    return B.section("section coupons-section section--mist " + page["_cat"], [
+        _head(page, opt.get("eyebrow", ("i-card", "Current specials")), opt.get("title", "Current Specials"),
+              opt.get("lead"), center=True),
+        B.box("coupons", [B.image(k, alt, "coupon") for k, alt in imgs]),
+    ], el_id="specials")
+
+
+def block_embed(page, sec, opt, fix):
+    """A third-party form in an iframe (the client's LeadConnector forms)."""
+    paras = _paras(sec["nodes"], fix)
+    return B.section("section embed-section section--mist " + page["_cat"], [
+        _head(page, opt["eyebrow"], fix(sec["title"]), " ".join(paras) if paras else None, center=True),
+        B.box("embed-card", [B.raw(
+            '<iframe src="%s" id="%s" title="%s" style="width:100%%;height:%dpx;border:none;border-radius:3px" '
+            'loading="lazy"></iframe><script src="https://link.msgsndr.com/js/form_embed.js"></script>'
+            % (opt["src"], opt.get("frame_id", "lenz-embed-form"), opt.get("frame_title", "Form"), opt.get("height", 900)))]),
+    ], el_id=opt.get("id"))
+
+
 BLOCKS = {"checklist": block_checklist, "cards": block_cards, "boldcards": block_boldcards,
           "pair": block_pair, "bullets": block_bullets, "values": block_values, "table": block_table,
           "prose": block_prose, "promo": block_promo, "plans": block_plans, "why": block_why,
-          "reviews": block_reviews, "faq": block_faq, "services": block_services}
+          "reviews": block_reviews, "faq": block_faq, "services": block_services,
+          "multi": block_multi, "people": block_people, "roster": block_roster, "steps": block_steps,
+          "cta": block_cta, "video": block_video, "locations": block_locations, "area": block_area,
+          "coupons": block_coupons, "embed": block_embed}
 BAND_AFTER = ("cards", "boldcards", "services")
 
 
@@ -476,6 +835,15 @@ def _hero(page, doc, fix):
         kicker = fix(s0["title"])
         nodes += s0["nodes"]
     paras = [fix(n["text"]) for n in nodes if n["t"] == "p"]
+    if page.get("kicker_from_first_bold") and paras and re.fullmatch(r"\s*<b>.*</b>\s*", paras[0]):
+        kicker = re.sub(r"</?b>", "", paras.pop(0))
+    # "<b>A</b> · <b>B</b> · ..." mini trust bar
+    dots = next((p for p in paras if p.count(" · ") >= 2 and "<b>" in p), None)
+    if dots:
+        paras.remove(dots)
+        page.setdefault("trust", [(re.sub(r"</?b>", "", x).strip(), "") for x in dots.split(" · ")])
+    if page.get("hero_paras"):
+        paras = paras[:page["hero_paras"]]
     areas = next((p for p in paras if re.sub(r"<[^>]+>", "", p).startswith("Serving ")), None)
     paras = [p for p in paras if p is not areas]
     # trust items written as "<b>Label:</b> text" (list items or one run-on paragraph)
@@ -506,7 +874,7 @@ def _hero(page, doc, fix):
         copy.append(B.raw('<p class="hero__areas">%s%s</p>' % (svg("i-pin", "icon-sm"),
                                                                re.sub(r"</?b>", "", areas))))
     copy.append(B.box("hero__cta", [
-        B.button(page["cta"], L["form"], "btn btn-gold"),
+        B.button(page["cta"], page.get("cta_href", L["form"]), "btn btn-gold"),
         B.button("Call " + B.PHONE, B.PHONE_TEL, "btn btn-outline-light", icon="phone"),
     ]))
     badge_t, badge_s = page["badge"]
@@ -565,6 +933,9 @@ def build(page):
     doc = docx_outline.read(page["source"])
     fix = Copy()
     c = CAT[page["cat"]]
+    if "cat_label" in page:          # a company page, not a service family: the home's band
+        page.setdefault("band", "Heat out? AC down? We&apos;re ready right now.")
+        page.setdefault("band_sub", "24/7 emergency service across the Des Moines metro since 2009.")
     page.setdefault("cat_icon", c["icon"])
     page.setdefault("cat_label", c["label"])
     page.setdefault("hub", c["hub"])
@@ -573,10 +944,17 @@ def build(page):
     trust = page.get("trust") or page["_trust"]
     long_ = " trustbar--long trustbar--%d" % len(trust) if trust else ""
     S.append(B.trustbar(trust or DEFAULT_TRUST, extra=page["_cat"] + long_))
-    banded = False
-    for spec, sec in zip(page["plan"], doc["sections"]):
+    banded = page.get("no_band", False)
+    secs = iter(doc["sections"])
+    consumed = 0
+    for spec in page["plan"]:
         kind = spec[0]
         opt = spec[1] if len(spec) > 1 else {}
+        if kind.startswith("+"):
+            kind, sec = kind[1:], {"title": "", "nodes": []}
+        else:
+            sec = next(secs)
+            consumed += 1
         if kind == "skip":
             continue
         if kind == "close":
@@ -589,14 +967,15 @@ def build(page):
             continue
         opt = dict(opt)
         opt.setdefault("eyebrow", DEFAULT_EB.get(kind, ("i-info", "")))
-        S.append(BLOCKS[kind](page, sec, opt, fix))
+        res = BLOCKS[kind](page, sec, opt, fix)
+        S.extend(res if isinstance(res, list) else [res])
         if kind in BAND_AFTER and not banded:
             S.append(B.cta_band(page.get("band", c["band"]), page.get("band_sub", c["band_sub"]),
                                 extra=page["_cat"]))
             banded = True
-    if len(page["plan"]) != len(doc["sections"]):
-        raise SystemExit("plan has %d entries, doc has %d sections: %s" % (
-            len(page["plan"]), len(doc["sections"]), [s["title"] for s in doc["sections"]]))
+    if consumed != len(doc["sections"]):
+        raise SystemExit("plan uses %d sections, doc has %d: %s" % (
+            consumed, len(doc["sections"]), [s["title"] for s in doc["sections"]]))
     meta = {k: fix(v) for k, v in doc["meta"].items()}
     return S, meta, fix.applied
 
