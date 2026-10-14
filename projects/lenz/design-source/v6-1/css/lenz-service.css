@@ -328,3 +328,35 @@
 @media (min-width: 600px) { .trustbar--long .trustbar__grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1024px) { .trustbar--long .trustbar__grid { grid-template-columns: repeat(var(--trust-n, 4), minmax(0, 1fr)); } }
 .trustbar--5 { --trust-n: 5; }
+
+/* ===== Hub pages (Cooling, Heating, Indoor Air Quality) ===== */
+.hero__sub p + p { margin-top: var(--space-3); }
+.hub-list { display: grid; grid-template-columns: 1fr; gap: var(--space-5); }
+@media (min-width: 904px) {
+  .hub-list--grid { grid-template-columns: repeat(2, 1fr); }
+  .hub-list--grid > :last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
+.hub-svc {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-1);
+  border-top: 3px solid var(--cat);
+  padding: var(--space-8);
+}
+.hub-svc h3 { font-size: var(--text-lg); color: var(--neutral-900); }
+.hub-svc__body { margin-top: var(--space-3); color: var(--color-text-secondary); font-size: var(--text-sm); line-height: 1.7; }
+.hub-svc__body p + p { margin-top: var(--space-3); }
+.hub-svc .checklist { margin: var(--space-4) 0 0; }
+.hub-svc__go { margin-top: auto; padding-top: var(--space-6); align-self: flex-start; }
+.hub-svc--row { display: grid; grid-template-columns: 1fr; gap: var(--space-8); }
+@media (min-width: 904px) { .hub-svc--row { grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr); } }
+.hub-svc__main { display: flex; flex-direction: column; }
+.hub-svc__aside { align-self: start; background: var(--cat-soft); border-radius: var(--radius-md); padding: var(--space-6); }
+.hub-svc__list-title { font-family: var(--font-heading); font-weight: var(--font-bold); font-size: var(--text-sm); color: var(--neutral-900); }
+.hub-svc__aside .checklist { margin-top: var(--space-3); }
+
+@media (max-width: 903px) { .hub-list { grid-template-columns: minmax(0, 1fr); } }
+.hub-svc, .hub-svc__main { min-width: 0; }
+.hub-svc__go { white-space: normal; }

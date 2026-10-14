@@ -116,9 +116,11 @@ def read(path):
             # buttons: [ Label ] possibly several on one line, maybe with a trailing note
             notes = re.findall(r"\((?:Note|note)[^)]*\)", raw)
             rest = re.sub(r"\((?:Note|note)[^)]*\)", "", raw).strip()
+            hint = re.search(r"\((?:link|Link) to ([^)]*)\)", rest)
+            rest = re.sub(r"\s*\((?:link|Link) to [^)]*\)", "", rest).strip()
             btns = re.findall(r"\[\s*([^\]]+?)\s*\]", rest)
             if btns and not re.sub(r"\[[^\]]*\]", "", rest).strip():
-                clean.append({"t": "button", "labels": btns})
+                clean.append({"t": "button", "labels": btns, "hint": hint.group(1) if hint else ""})
                 for nt in notes:
                     clean.append({"t": "note", "text": nt})
                 continue

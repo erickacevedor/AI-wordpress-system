@@ -173,7 +173,8 @@ DEFAULT_EB = {"checklist": ("i-wrench", "Why act now"), "cards": ("i-info", "Wha
               "boldcards": ("i-shield", "Why it matters"), "pair": ("i-check", "What&apos;s included"),
               "bullets": ("i-info", "Know the signs"), "values": ("i-shield", "Why it matters"),
               "table": ("i-info", "Compare your options"), "prose": ("i-info", "Good to know"),
-              "plans": ("i-award", "Service agreements"), "why": ("i-award", "Why Lenz")}
+              "plans": ("i-award", "Service agreements"), "why": ("i-award", "Why Lenz"),
+              "services": ("i-wrench", "Our services"), "promo": ("i-card", "")}
 
 
 def _head(page, eb, title, lead=None, center=False):
@@ -389,21 +390,78 @@ def block_reviews(page, sec, opt, fix):
 
 def block_faq(page, sec, opt, fix):
     _h, items = _items(sec["nodes"], fix)
+
+    def answer(ps, lis):
+        if not lis:
+            return " ".join(ps)
+        return "<p>%s</p><ul>%s</ul>" % (ps[0], "".join("<li>%s</li>" % li for li in lis)) + \
+            "".join("<p>%s</p>" % p for p in ps[1:])
     return B.section("faqs section " + page["_cat"], [
         B.head("i-info", "FAQs", fix(sec["title"]), extra="section__head--center"),
-        B.faq_list([(fix(q), " ".join(ps)) for q, ps, _l in items]),
+        B.faq_list([(fix(q), answer(ps, lis)) for q, ps, lis in items]),
     ], el_id="faqs")
+
+
+def block_services(page, sec, opt, fix):
+    """Hub list: one card per child service, its summary, an optional check list
+    and an "Explore ... ->" link to the child page."""
+    head, items, cur = [], [], None
+    for n in sec["nodes"]:
+        if n["t"] == "h":
+            cur = {"title": fix(n["text"]), "ps": [], "lis": [], "list_title": None, "btn": None}
+            items.append(cur)
+        elif cur is None:
+            head.append(n)
+        elif n["t"] == "button":
+            cur["btn"] = re.sub(r"\s*→\s*$", "", n["labels"][0])
+        elif n["t"] == "li":
+            cur["lis"].append(fix(n["text"]))
+        elif n["t"] == "p":
+            if not cur["lis"] and re.sub(r"<[^>]+>", "", n["text"]).rstrip().endswith(":"):
+                cur["list_title"] = fix(n["text"])
+            else:
+                cur["ps"].append(fix(n["text"]))
+    rows = opt.get("layout") == "rows"
+    cards = []
+    for i, it in enumerate(items):
+        num, title = _strip_num(it["title"])
+        key = opt["links"][i]
+        href = B.PHONE_TEL if key == "tel" else L[key]
+        label = it["btn"] or ("Call " + B.PHONE if key == "tel" else "Explore " + title)
+        icon = (opt.get("icons") or [None] * 99)[i] or icon_for(title, i)
+        main = [B.raw('<span class="symptom__icon">%s</span>' % svg(icon, "icon")),
+                B.heading(title, "h3"),
+                B.text("".join("<p>%s</p>" % p for p in it["ps"]), "hub-svc__body"),
+                B.arrow_link("svc-band__go hub-svc__go", label, href)]
+        lst = ('<ul class="checklist">%s</ul>' % "".join(
+            "<li>%s<span>%s</span></li>" % (svg("i-check", "icon-sm"), li) for li in it["lis"])) if it["lis"] else ""
+        if rows and lst:
+            aside = [B.text(it["list_title"] or "", "hub-svc__list-title"), B.raw(lst)]
+            cards.append(B.box("hub-svc hub-svc--row", [B.box("hub-svc__main", main),
+                                                        B.box("hub-svc__aside", aside)], tag="article"))
+        else:
+            if lst:
+                main.insert(3, B.raw(lst))
+            cards.append(B.box("hub-svc", main, tag="article"))
+    hp = _paras(head, fix)
+    return B.section("section section--mist hub-services " + page["_cat"], [
+        _head(page, opt["eyebrow"], fix(sec["title"]), " ".join(hp) if hp else None),
+        B.box("hub-list " + ("hub-list--rows" if rows else "hub-list--grid"), cards),
+    ], el_id="services")
 
 
 BLOCKS = {"checklist": block_checklist, "cards": block_cards, "boldcards": block_boldcards,
           "pair": block_pair, "bullets": block_bullets, "values": block_values, "table": block_table,
           "prose": block_prose, "promo": block_promo, "plans": block_plans, "why": block_why,
-          "reviews": block_reviews, "faq": block_faq}
-BAND_AFTER = ("cards", "boldcards")
+          "reviews": block_reviews, "faq": block_faq, "services": block_services}
+BAND_AFTER = ("cards", "boldcards", "services")
 
 
 # ------------------------------------------------------------- page build ----
 def _crumbs(page):
+    if page.get("is_hub"):
+        return B.raw('<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li>'
+                     '<li aria-current="page">%s</li></ol></nav>' % page["title"])
     hub_label, hub_key = page["hub"]
     return B.raw('<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li>'
                  '<li><a href="%s">%s</a></li><li aria-current="page">%s</li></ol></nav>'
@@ -428,6 +486,8 @@ def _hero(page, doc, fix):
             if len(items) >= 3:
                 trust = items
                 paras.remove(p)
+    if page.get("is_hub"):
+        paras = ["".join("<p>%s</p>" % p for p in paras)] if paras else []
     lead, extra = (paras[0], paras[1:]) if paras else ("", [])
     page["_hero_extra"] = extra
     page["_trust"] = [(fix(a), fix(b)) for a, b in trust] if trust else None
@@ -521,7 +581,8 @@ def build(page):
             continue
         if kind == "close":
             paras = _paras(sec["nodes"], fix)
-            S.append(_related(page))
+            if not page.get("is_hub"):
+                S.append(_related(page))
             S.append(B.close_form(fix(sec["title"]), "".join("<p>%s</p>" % p for p in paras),
                                   button_text=page["cta"], preselect=page.get("form_preselect"),
                                   extra=page["_cat"]))

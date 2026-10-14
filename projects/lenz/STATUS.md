@@ -34,11 +34,11 @@ build-all.sh [--import]   one command for all of it (import = LOCAL installs onl
   `tools/docx_outline.py`, ClickUp overrides in `FIXES`) and 10 service pages on Local: AC Repair 46,
   AC Installation 48, AC Maintenance 49, AC Replacement 50, Air Purification 51, Heating Installation 52,
   Heating Maintenance 53, Heating Repair 54, Humidity Control 55, UV Light Purification 56.
+- Hubs on the same template (`is_hub`, `services` block): Air Conditioning 66, Heating 67, Indoor Air Quality 68.
 
 ## Not built yet
 
-- Service pages with no doc yet (Heating Replacement, Duct Cleaning, Additional Services children), the three hubs
-  (Cooling, Heating, IAQ: different structure, need their own template), and the
+- Service pages with no doc yet (Heating Replacement, Duct Cleaning, Additional Services children); the
   company pages (About, Contact, Financing, Specials, Service Areas, ...).
 - Pages with no doc: heating-replacement, duct-cleaning, additional-services and
   its five children, privacy-policy, terms.

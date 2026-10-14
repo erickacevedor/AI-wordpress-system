@@ -1,0 +1,1456 @@
+{
+ "version": "0.4",
+ "title": "Indoor Air Quality",
+ "type": "page",
+ "content": [
+  {
+   "id": "5200fb6b",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "hero hero--service svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "5200e814",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container hero__inner"
+     },
+     "elements": [
+      {
+       "id": "52009ab8",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__copy"
+       },
+       "elements": [
+        {
+         "id": "52001357",
+         "settings": {
+          "html": "<nav class=\"crumbs\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li aria-current=\"page\">Indoor Air Quality</li></ol></nav>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "520026ae",
+         "settings": {
+          "html": "<span class=\"hero__eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg> Indoor air quality</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "52003a05",
+         "settings": {
+          "title": "<span class=\"accent\">Indoor Air Quality</span> Services in Des Moines &amp; Central Iowa",
+          "header_size": "h1",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-hero)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "52004d5c",
+         "settings": {
+          "editor": "<p>Did you know your home’s air can be 5 times more polluted than the air outdoors? From dust and allergens to sticky Midwest humidity, circulating air impacts your family’s health, sleep, and comfort every day.</p><p>Since 2009, <b>Lenz Heating &amp; Cooling</b> has helped Central Iowa homeowners breathe cleaner, fresher air. Backed by veteran-led precision and upfront flat-rate pricing, our local team is ready to help you tackle any indoor air quality challenge.</p>",
+          "_css_classes": "hero__sub"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "52008761",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "hero__cta"
+         },
+         "elements": [
+          {
+           "id": "520060b3",
+           "settings": {
+            "text": "Schedule Your Air Quality Evaluation",
+            "link": {
+             "url": "#contact",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-gold"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "5200740a",
+           "settings": {
+            "text": "Call (515) 225-6446",
+            "link": {
+             "url": "tel:+15152256446",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-outline-light lz-ico lz-ico-phone"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "5200d4bd",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hero__media"
+       },
+       "elements": [
+        {
+         "id": "5200ae0f",
+         "settings": {
+          "image": {
+           "url": "/wp-content/uploads/2026/10/lenz-comfort.webp",
+           "id": 30,
+           "size": "",
+           "alt": "A family relaxing together in a bright, comfortable Des Moines living room",
+           "source": "library"
+          },
+          "image_size": "full"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "image",
+         "elType": "widget"
+        },
+        {
+         "id": "5200c166",
+         "settings": {
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Indoor air quality evaluations</b>Upfront, flat-rate pricing.</span></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "52021d84",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_attributes": "aria-label|At a glance",
+    "css_classes": "trustbar svc-page svc-page--air trustbar--long trustbar--4 e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "52020a2d",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "5201f6d6",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "trustbar__grid"
+       },
+       "elements": [
+        {
+         "id": "52013570",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "52010ec2",
+           "settings": {
+            "editor": "Whole-Home Protection",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "52012219",
+           "settings": {
+            "editor": "Advanced air scrubbers, UV purifiers &amp; filtration upgrades",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "52016f75",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "520148c7",
+           "settings": {
+            "editor": "Year-Round Humidity Control",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "52015c1e",
+           "settings": {
+            "editor": "Whole-home humidifiers &amp; heavy-duty dehumidifiers",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "5201a97a",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "520182cc",
+           "settings": {
+            "editor": "Deep Air Hygiene",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "52019623",
+           "settings": {
+            "editor": "Professional rotary vacuum duct cleaning &amp; antimicrobial treatments",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "5201e37f",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "trustbar__item"
+         },
+         "elements": [
+          {
+           "id": "5201bcd1",
+           "settings": {
+            "editor": "Upfront Flat-Rate Pricing",
+            "_css_classes": "trustbar__value"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "5201d028",
+           "settings": {
+            "editor": "Know your exact investment before any work begins",
+            "_css_classes": "trustbar__label"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "52049bbb",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "services",
+    "css_classes": "section section--mist hub-services svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "52048864",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "520461b6",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "520427b1",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg> Air quality solutions</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "52043b08",
+         "settings": {
+          "title": "Breathe Cleaner, Healthier Air with Complete IAQ Solutions",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "52044e5f",
+         "settings": {
+          "editor": "Truly clean indoor air takes more than just a standard air filter. We focus on four core air quality solutions to clean, balance, and optimize the air your family breathes:",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "5204750d",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "hub-list hub-list--grid"
+       },
+       "elements": [
+        {
+         "id": "52027e37",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "520230db",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "52024432",
+           "settings": {
+            "title": "Whole-Home Air Purification &amp; Filtration",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "52025789",
+           "settings": {
+            "editor": "<p>Standard HVAC air filters only trap large dust clumps—they let tiny allergens, dust mites, pet dander, and airborne debris blow right through into your rooms. Whole-home air purifiers and media air cleaners are installed directly into your central HVAC ductwork. Working continuously, they capture microscopic particulates and scrub the air circulating through every room in your house before you breathe it in.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "52026ae0",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/air-purification/\">Explore Whole-Home Air Purification <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "5202deea",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "5202918e",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "5202a4e5",
+           "settings": {
+            "title": "Germicidal UV Light Air Purification",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "5202b83c",
+           "settings": {
+            "editor": "<p>Standard air filters cannot kill microscopic germs. Installed directly near your AC coil and main ductwork, germicidal UV lights (like the <b>Patriot UV Air Purifier</b>) use powerful UV-C light technology to sanitize the air inside your system. They actively destroy airborne viruses, bacteria, mold spores, and harsh chemical odors, preventing growth on your cooling coils and keeping your system clean.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "5202cb93",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/uv-light-purification/\">Explore UV Light Purification Systems <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "520352f4",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "5202f241",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-droplet\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "52030598",
+           "settings": {
+            "title": "Whole-Home Humidity Control: Humidifiers &amp; Dehumidifiers",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "520318ef",
+           "settings": {
+            "editor": "<p>Central Iowa winters are bone-dry, while summers bring sticky, muggy heat. Imbalanced indoor humidity ruins your home's air and damages your property.</p><p>Installed seamlessly onto your furnace, our whole-home bypass and power steam humidifiers maintain ideal 30–50% indoor humidity levels automatically year-round.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "52033f9d",
+           "settings": {
+            "html": "<ul class=\"checklist\"><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Summer Dehumidifiers:</b> Pull excess moisture out of your air to prevent basement mold growth, clammy living spaces, and musty smells.</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Winter Humidifiers:</b> Inject clean moisture into dry winter air to eliminate static shocks, dry skin, bloody noses, and cracking hardwood floors.</span></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "52032c46",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/humidity-control/\">Explore Whole-Home Humidity Control <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "5203b3a7",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "5203664b",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-wind\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "520379a2",
+           "settings": {
+            "title": "Professional Air Duct Cleaning &amp; Vent Sanitation",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "52038cf9",
+           "settings": {
+            "editor": "<p>Your air ducts act as the \"lungs\" of your home. Over time, supply and return vents build up thick layers of dust, pollen, pet hair, dead skin cells, and construction debris. Every time your heater or AC turns on, those allergens blow directly into your living room and bedrooms. Our certified technicians use high-powered rotary brushes and negative-pressure vacuum trucks to scrub your duct walls clean, finishing with a hospital-grade antimicrobial spray to sanitize against mold spores and bacteria.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "5203a050",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/duct-cleaning/\">Learn More About Air Duct Cleaning <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "5204145a",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "hub-svc"
+         },
+         "elements": [
+          {
+           "id": "5203c6fe",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-wrench\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "5203da55",
+           "settings": {
+            "title": "Ductwork Repair, Sealing &amp; Replacement",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "5203edac",
+           "settings": {
+            "editor": "<p>You can buy the most expensive furnace or AC unit on the market, but if your ductwork is cracked, crushed, or disconnected, you're wasting money. Leaky air ducts can allow up to 30% of your heated or cooled air to escape behind walls, while pulling dirty, dusty air directly out of attics or crawlspaces. We inspect, seal, repair, and replace home ductwork to eliminate uneven hot/cold spots, boost airflow, and lower your monthly energy bills.</p>",
+            "_css_classes": "hub-svc__body"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "52040103",
+           "settings": {
+            "html": "<a class=\"svc-band__go hub-svc__go\" href=\"/ductwork/\">View Duct Repair &amp; Installation Services <svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "5205231c",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "cta-band section--tight svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "52050fc5",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "5204af12",
+       "settings": {
+        "html": "<img class=\"cta-band__bg\" src=\"/wp-content/uploads/2026/10/lenz-service-van-wrap.webp\" alt=\"\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" />"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      },
+      {
+       "id": "5204fc6e",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "cta-band__inner"
+       },
+       "elements": [
+        {
+         "id": "5204c269",
+         "settings": {
+          "title": "Questions about your air? We&apos;re here 24/7.",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "5204d5c0",
+         "settings": {
+          "editor": "<p>Local team, real people, across the Des Moines metro since 2009.</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "5204e917",
+         "settings": {
+          "text": "Call (515) 225-6446",
+          "link": {
+           "url": "tel:+15152256446",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "btn btn-gold lz-ico lz-ico-phone"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "button",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "5205aa7d",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section compare-section section--mist svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "52059726",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "52057078",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head"
+       },
+       "elements": [
+        {
+         "id": "52053673",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg> Warning signs</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "520549ca",
+         "settings": {
+          "title": "Signs Your Des Moines Home Has Poor Indoor Air Quality",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "52055d21",
+         "settings": {
+          "editor": "Indoor air pollution often builds up gradually. Call our indoor air quality specialists if you notice any of these common warning signs in your home:",
+          "_css_classes": "section__lead"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "520583cf",
+       "settings": {
+        "editor": "<div class=\"compare\"><table><thead><tr><th scope=\"col\">Common Indoor Air Symptom</th><th scope=\"col\">Primary Underlying Cause</th><th scope=\"col\">Recommended IAQ Solution</th></tr></thead><tbody><tr><th scope=\"row\">Rapid Dust Buildup on Furniture</th><td data-label=\"Primary Underlying Cause\">Accumulated debris inside supply/return ducts</td><td data-label=\"Recommended IAQ Solution\">Professional Air Duct Cleaning</td></tr><tr><th scope=\"row\">Frequent Allergy/Asthma Flares</th><td data-label=\"Primary Underlying Cause\">Airborne pollen, pet dander, mold spores, dust mites</td><td data-label=\"Recommended IAQ Solution\">Whole-Home Air Purifier / UV System</td></tr><tr><th scope=\"row\">Musty Odors or Muggy Summer Air</th><td data-label=\"Primary Underlying Cause\">High indoor humidity creating mold/bacteria growth</td><td data-label=\"Recommended IAQ Solution\">Whole-Home Dehumidifier Installation</td></tr><tr><th scope=\"row\">Dry Skin, Static Shocks &amp; Bloody Noses</th><td data-label=\"Primary Underlying Cause\">Extremely low humidity during Iowa winter heating</td><td data-label=\"Recommended IAQ Solution\">Whole-Home Humidifier Installation</td></tr><tr><th scope=\"row\">Hot/Cold Spots or Weak Air Vents</th><td data-label=\"Primary Underlying Cause\">Leaky, disconnected, or crushed ductwork</td><td data-label=\"Recommended IAQ Solution\">Duct Repair &amp; Airflow Balancing</td></tr></tbody></table></div>",
+        "_css_classes": "compare-wrap"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "text-editor",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "520631de",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section promo-section svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "52061e87",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "52060b30",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "service-help promo"
+       },
+       "elements": [
+        {
+         "id": "5205e482",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "service-help__txt promo__txt"
+         },
+         "elements": [
+          {
+           "id": "5205bdd4",
+           "settings": {
+            "title": "Flexible Payment Plans for Air Quality &amp; HVAC Upgrades",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom",
+            "_css_classes": "promo__title"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "5205d12b",
+           "settings": {
+            "editor": "<p>Don't delay your home's air health over upfront costs. Lenz Heating &amp; Cooling offers flexible HVAC financing options through Synchrony Bank for homeowners across Des Moines, Urbandale, Waukee, and Central Iowa. With quick online applications and promotional monthly rates, upgrading to a whole-home air purifier, humidifier, or duct system has never been more affordable.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "5205f7d9",
+         "settings": {
+          "text": "Apply for Financing via Synchrony",
+          "link": {
+           "url": "/financing/",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "btn btn-gold"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "button",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "5206a5e8",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "faqs",
+    "css_classes": "faqs section svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "52069291",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "52066be3",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "section__head section__head--center"
+       },
+       "elements": [
+        {
+         "id": "52064535",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-info\"/></svg> FAQs</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "5206588c",
+         "settings": {
+          "title": "Frequently Asked Questions About Indoor Air Quality",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "52067f3a",
+       "settings": {
+        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">Why is indoor air quality (IAQ) important for my home? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p><b>Indoor air quality directly impacts respiratory health, allergy severity, sleep quality, and home comfort.</b> The EPA estimates indoor air can be 2 to 5 times more polluted than outdoor air because modern, energy-efficient homes trap dust, pet dander, mold spores, and household chemicals inside. Improving IAQ protects your family and keeps your HVAC system running efficiently.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">How do I know if I need a whole-home air purifier vs. duct cleaning? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p><b>Air duct cleaning removes accumulated debris trapped inside your vents, while a whole-home air purifier sanitizes the air circulating through your home every day.</b> Duct cleaning is recommended every 3 to 5 years to clear heavy dust and buildup. An air purifier (or UV light system) works continuously to kill microscopic airborne viruses, bacteria, mold spores, and odors before you breathe them in.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Are whole-home humidifiers and dehumidifiers better than portable units? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p><b>Yes, whole-home humidity control systems are significantly more effective, quiet, and convenient than single-room portable units.</b> Installed directly into your furnace and ductwork, whole-home humidifiers and dehumidifiers treat the entire house automatically using a direct water line, meaning no noisy fans, daily water tank refilling, or uneven room temperatures.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">How often should home air ducts be cleaned in Iowa? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p><b>Home air ducts should be professionally cleaned every 3 to 5 years.</b> However, homes in Central Iowa with indoor pets, recent remodeling or construction, or family members with severe seasonal allergies or asthma should consider scheduling duct cleaning every 2 to 3 years.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Can indoor air quality equipment help lower my monthly energy bills? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p><b>Yes, improving your indoor air quality directly boosts your HVAC system's efficiency.</b> Clean air ducts allow unrestricted airflow so your blower motor doesn't overwork, while proper humidity control lets you feel comfortable at lower thermostat settings in winter and higher settings in summer.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-6\" id=\"faq-6-t\">What cities and areas in Central Iowa do you service for air quality solutions? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-6\" role=\"region\" aria-labelledby=\"faq-6-t\"><p><b>Lenz Heating &amp; Cooling provides complete indoor air quality, duct cleaning, and HVAC services across the Greater Des Moines metro area.</b> Our primary service locations include Des Moines, Urbandale, Waukee, West Des Moines, Ankeny, Johnston, Clive, Grimes, Norwalk, and surrounding Polk and Dallas County communities. Call <b>(515) 225-6446</b> to schedule a local indoor air quality evaluation in your neighborhood.</p></div></div></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "5207674e",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "contact",
+    "css_classes": "close-form section svc-page svc-page--air e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "520753f7",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "520740a0",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "close-form__inner"
+       },
+       "elements": [
+        {
+         "id": "5207069b",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "5206cc96",
+           "settings": {
+            "title": "Ready for Cleaner, Fresher Air in Your Des Moines Home?",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "var(--text-2xl)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "5206dfed",
+           "settings": {
+            "editor": "<p>Don't settle for dusty, stale, or muggy indoor air. Let Central Iowa’s trusted family-owned team design a custom indoor air quality solution for your home!</p>",
+            "_css_classes": "close-form__lead"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "5206f344",
+           "settings": {
+            "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "52072d49",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "form-card"
+         },
+         "elements": [
+          {
+           "id": "5206b93f",
+           "settings": {
+            "form_name": "Estimate request",
+            "form_fields": [
+             {
+              "_id": "name",
+              "custom_id": "name",
+              "field_type": "text",
+              "field_label": "Name",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "phone",
+              "custom_id": "phone",
+              "field_type": "tel",
+              "field_label": "Phone",
+              "required": "true",
+              "width": "100",
+              "placeholder": ""
+             },
+             {
+              "_id": "service",
+              "custom_id": "service",
+              "field_type": "select",
+              "field_label": "Service",
+              "required": "true",
+              "width": "100",
+              "placeholder": "",
+              "field_options": "Choose a service…|\nAir Conditioning\nAC Installation\nAC Repair\nAC Replacement\nFurnace & Heating\nHeat Pumps\nDuctwork\nDuct Cleaning\nIndoor Air Quality\nWater Heater Installation\nMaintenance",
+              "field_value": "Indoor Air Quality"
+             }
+            ],
+            "show_labels": "yes",
+            "mark_required": "yes",
+            "button_text": "Schedule Your Air Quality Evaluation",
+            "button_width": "100",
+            "button_text_color": "#121212",
+            "button_hover_color": "#121212",
+            "button_background_color": "#FFC600",
+            "button_background_hover_color": "#FFCF29",
+            "field_background_color": "#FFFFFF",
+            "column_gap": {
+             "unit": "px",
+             "size": 0,
+             "sizes": []
+            },
+            "row_gap": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "submit_actions": [
+             "email"
+            ],
+            "email_to": "Sierra@LenzHeatingandCooling.com",
+            "email_subject": "New estimate request from the website",
+            "email_content": "[all-fields]",
+            "email_from_name": "Lenz website",
+            "success_message": "Thanks — your request was received. We'll call you back within 2 hours during business hours. Need help now? Call (515) 225-6446.",
+            "required_field_message": "This field is required.",
+            "invalid_message": "Please check the highlighted fields.",
+            "_css_classes": "lz-form"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "form",
+           "elType": "widget"
+          },
+          {
+           "id": "520719f2",
+           "settings": {
+            "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

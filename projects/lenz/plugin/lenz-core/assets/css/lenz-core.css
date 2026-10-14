@@ -2658,6 +2658,70 @@ body.menu-open {
 .elementor .trustbar--5 {
   --trust-n: 5;
 }
+.elementor .hero__sub p + p {
+  margin-top: var(--space-3);
+}
+.elementor .hub-list {
+  display: grid; grid-template-columns: 1fr; gap: var(--space-5);
+}
+@media (min-width: 904px) {
+.elementor .hub-list--grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+.elementor .hub-list--grid > :last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+}
+.elementor .hub-svc {
+  display: flex; flex-direction: column; background: #FFFFFF; border-radius: var(--radius-lg); box-shadow: var(--shadow-1); border-top: 3px solid var(--cat); padding: var(--space-8);
+}
+.elementor .hub-svc h3 {
+  font-size: var(--text-lg); color: var(--neutral-900);
+}
+.elementor .hub-svc__body {
+  margin-top: var(--space-3); color: var(--color-text-secondary); font-size: var(--text-sm); line-height: 1.7;
+}
+.elementor .hub-svc__body p + p {
+  margin-top: var(--space-3);
+}
+.elementor .hub-svc .checklist {
+  margin: var(--space-4) 0 0;
+}
+.elementor .hub-svc__go {
+  margin-top: auto; padding-top: var(--space-6); align-self: flex-start;
+}
+.elementor .hub-svc--row {
+  display: grid; grid-template-columns: 1fr; gap: var(--space-8);
+}
+@media (min-width: 904px) {
+.elementor .hub-svc--row {
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+}
+}
+.elementor .hub-svc__main {
+  display: flex; flex-direction: column;
+}
+.elementor .hub-svc__aside {
+  align-self: start; background: var(--cat-soft); border-radius: var(--radius-md); padding: var(--space-6);
+}
+.elementor .hub-svc__list-title {
+  font-family: var(--font-heading); font-weight: var(--font-bold); font-size: var(--text-sm); color: var(--neutral-900);
+}
+.elementor .hub-svc__aside .checklist {
+  margin-top: var(--space-3);
+}
+@media (max-width: 903px) {
+.elementor .hub-list {
+  grid-template-columns: minmax(0, 1fr);
+}
+}
+.elementor .hub-svc,
+.elementor .hub-svc__main {
+  min-width: 0;
+}
+.elementor .hub-svc__go {
+  white-space: normal;
+}
 
 /* ============================================================================
    HAND-WRITTEN OVERRIDES (come last in lenz-core.css)
