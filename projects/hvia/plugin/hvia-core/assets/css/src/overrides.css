@@ -64,3 +64,12 @@
    Theme Builder wrapper (only as tall as the header), so the wrapper gives up its
    box (same as lenz-core). */
 .elementor-location-header { display: contents; }
+
+/* ---- Hero H1 size from 901px (2026-10-16, option C) ---------------------------
+   The H1 size is the widget's typography setting, printed by Elementor as
+   `.elementor-18 .elementor-element.elementor-element-<id> .elementor-heading-title` (0,4,0).
+   This selector is (0,4,1), so it wins without !important. Tablet below 901 and mobile
+   keep the widget's clamp(3.4rem, 8.4vw, 7.6rem). */
+@media (min-width: 901px) {
+  .elementor .hero .elementor-widget-heading h1.elementor-heading-title { font-size: clamp(3.2rem, 5.4vw, 5rem); }
+}

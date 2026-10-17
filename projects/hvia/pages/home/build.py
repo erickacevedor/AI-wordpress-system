@@ -52,9 +52,10 @@ hero = section("hero", [
 ], el_id="main", label="Introducing HVIA")
 
 # ------------------------------------------------------------- surgeons ----
-# Names and photos only, no bios (client, 2026-10-08).
+# Names and photos only, no bios (client, 2026-10-08). All three "Vascular Surgeon" and a
+# non-breaking space before MD so it never wraps alone (client, 2026-10-16).
 DOCTORS = [
-    ("dr-ralph-redd", "No. 1", "Vascular and Endovascular Surgeon", "Dr. Ralph Redd", "d-0"),
+    ("dr-ralph-redd", "No. 1", "Vascular Surgeon", "Dr. Ralph Redd", "d-0"),
     ("dr-richard-tan", "No. 2", "Vascular Surgeon", "Dr. Richard Tan", "d-100"),
     ("dr-irwin-white-gittens", "No. 3", "Vascular Surgeon", "Dr. Irwin White-Gittens", "d-200"),
 ]
@@ -64,7 +65,7 @@ def surgeon(key, no, role, name, delay):
     return box("surgeon reveal " + delay, [
         box("doc-photo", [image(key, name + ", MD")]),
         heading("<span>%s</span>%s" % (no, role), "p", "doc-role"),
-        heading("%s, <span>MD</span>" % name, "h3"),
+        heading("%s,&nbsp;<span>MD</span>" % name, "h3"),
     ], tag="li")
 
 

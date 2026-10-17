@@ -91,7 +91,7 @@ function hvia_core_schema_members( $data ) {
 		return $data;
 	}
 	$surgeons = array(
-		array( 'Ralph Redd', 'Vascular and Endovascular Surgeon', 'dr-ralph-redd' ),
+		array( 'Ralph Redd', 'Vascular Surgeon', 'dr-ralph-redd' ),
 		array( 'Richard Tan', 'Vascular Surgeon', 'dr-richard-tan' ),
 		array( 'Irwin White-Gittens', 'Vascular Surgeon', 'dr-irwin-white-gittens' ),
 	);

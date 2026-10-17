@@ -361,3 +361,16 @@ body.hide-notes .photo-pending { background: rgba(255, 255, 255, .06); }
    as Location now: section padding top and bottom, only the heading's margin before the content. */
 .physicians { padding-top: clamp(80px, 11vw, 150px); }
 .surgeons { padding-top: 0; }
+
+/* 2026-10-16 client feedback (ClickUp 86bcc5579, via Nicolas): the whole building, not a square
+   crop, so the hero photo keeps the rendering's own ratio. Surgeon names stay on one line in the
+   3-column layout ("Dr. Irwin White-Gittens, MD" wrapped at 1366px+ and 901-1010px); measured to
+   fit from 901 to 1920. Below 901 the cards are wider and the size is unchanged. */
+.hero-photo--building img { aspect-ratio: 1400 / 844; object-position: 50% 50%; }
+@media (min-width: 901px) { .surgeon h3 { font-size: clamp(1.7rem, 2.8vw, 2.3rem); } }
+
+/* 2026-10-16 hero proportion (Erick, option C of 3 rendered): with the whole building at its own
+   ratio the photo looked small next to the H1. From 901px the photo column is wider than the copy
+   and centered on it; the smaller H1 is in overrides.css (Elementor's widget setting outranks
+   this file). At 1440: photo 429x258 -> 607x366. Below 901 nothing changes. */
+@media (min-width: 901px) { .hero-grid { grid-template-columns: minmax(360px, 5fr) 7fr; align-items: center; } } /* 360px keeps both CTAs on one row at 901-1000 */

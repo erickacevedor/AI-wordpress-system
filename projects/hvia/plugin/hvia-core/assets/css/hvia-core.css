@@ -800,6 +800,19 @@ body {
 .elementor .surgeons {
   padding-top: 0;
 }
+.elementor .hero-photo--building img {
+  aspect-ratio: 1400 / 844; object-position: 50% 50%;
+}
+@media (min-width: 901px) {
+.elementor .surgeon h3 {
+  font-size: clamp(1.7rem, 2.8vw, 2.3rem);
+}
+}
+@media (min-width: 901px) {
+.elementor .hero-grid {
+  grid-template-columns: minmax(360px, 5fr) 7fr; align-items: center;
+}
+}
 
 /* ============================================================================
    HAND-WRITTEN OVERRIDES (come last in hvia-core.css)
@@ -867,3 +880,12 @@ body {
    Theme Builder wrapper (only as tall as the header), so the wrapper gives up its
    box (same as lenz-core). */
 .elementor-location-header { display: contents; }
+
+/* ---- Hero H1 size from 901px (2026-10-16, option C) ---------------------------
+   The H1 size is the widget's typography setting, printed by Elementor as
+   `.elementor-18 .elementor-element.elementor-element-<id> .elementor-heading-title` (0,4,0).
+   This selector is (0,4,1), so it wins without !important. Tablet below 901 and mobile
+   keep the widget's clamp(3.4rem, 8.4vw, 7.6rem). */
+@media (min-width: 901px) {
+  .elementor .hero .elementor-widget-heading h1.elementor-heading-title { font-size: clamp(3.2rem, 5.4vw, 5rem); }
+}

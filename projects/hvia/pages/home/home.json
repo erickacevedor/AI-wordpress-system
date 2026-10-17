@@ -471,7 +471,7 @@
             {
              "id": "3001f6d6",
              "settings": {
-              "title": "<span>No. 1</span>Vascular and Endovascular Surgeon",
+              "title": "<span>No. 1</span>Vascular Surgeon",
               "header_size": "p",
               "_css_classes": "doc-role"
              },
@@ -483,7 +483,7 @@
             {
              "id": "30020a2d",
              "settings": {
-              "title": "Dr. Ralph Redd, <span>MD</span>",
+              "title": "Dr. Ralph Redd,&nbsp;<span>MD</span>",
               "header_size": "h3"
              },
              "elements": [],
@@ -545,7 +545,7 @@
             {
              "id": "30026ae0",
              "settings": {
-              "title": "Dr. Richard Tan, <span>MD</span>",
+              "title": "Dr. Richard Tan,&nbsp;<span>MD</span>",
               "header_size": "h3"
              },
              "elements": [],
@@ -607,7 +607,7 @@
             {
              "id": "3002cb93",
              "settings": {
-              "title": "Dr. Irwin White-Gittens, <span>MD</span>",
+              "title": "Dr. Irwin White-Gittens,&nbsp;<span>MD</span>",
               "header_size": "h3"
              },
              "elements": [],
