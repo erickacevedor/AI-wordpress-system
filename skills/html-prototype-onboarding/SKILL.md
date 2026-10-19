@@ -21,12 +21,10 @@ use `elementor-kit-onboarding` — it reads what the site actually does in Eleme
 which is always better evidence than a prototype's intent.
 
 > **Why this skill exists.** `projects/lenz/` was onboarded from HTML by hand, the
-> skill-generation step got skipped as "not applicable", and for two months it was
-> the only site in the repo with no `<site>-*` skills — so there was no recorded
-> voice for its next page to build from, and its brand vocabulary ended up inline in
-> an 871-line `build.py`. That is the failure this skill prevents. (Lenz got its
-> skills on 2026-10-18, written after the fact from the finished v6-1 build:
-> `projects/lenz/skills/`.)
+> skill-generation step got skipped as "not applicable", and it became the only site
+> in the repo with no `<site>-*` skills — so there is no recorded voice for its next
+> page to build from, and its brand vocabulary ended up inline in an 871-line
+> `build.py`. That is the failure this skill prevents.
 
 ## Inputs & output
 

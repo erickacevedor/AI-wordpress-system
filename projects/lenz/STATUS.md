@@ -10,12 +10,6 @@
 - Decisions: the ClickUp task 86bbfgdhr (comments and threads). Where a copy doc
   disagrees with ClickUp, ClickUp wins.
 
-## Skills (read these before building anything)
-
-`skills/lenz-design-read`, `lenz-ui-design`, `lenz-content-style`, `lenz-page-builder`,
-`lenz-page-audit` (2026-10-18). Tested by having a fresh agent rebuild Heating
-Maintenance from its doc using only the skills: same 11 bands and classes as the real page.
-
 ## Pipeline
 
 ```
