@@ -27,6 +27,8 @@ PAGE = {
     "badge": ("As seen on WHO 13", "Seasonal HVAC tips for Central Iowa."),
     "kicker_from_first_bold": True,
     "no_band": True,
+    "doc_patches": [("Catch our most recent broadcast on Hello Iowa! Below:",
+                     "Catch our most recent Hello Iowa! broadcast below.")],   # QA 2026-10-19: doc typo
     # One entry per doc section, in doc order ("+x" adds a block without a doc section).
     "plan": [
         ("video", {"library": True}),

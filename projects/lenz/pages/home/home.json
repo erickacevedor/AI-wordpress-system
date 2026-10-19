@@ -299,7 +299,7 @@
           {
            "id": "10015c1e",
            "settings": {
-            "editor": "#50871-CL",
+            "editor": "#<span class=\"lz-nw\">50871-CL</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -332,7 +332,7 @@
           {
            "id": "10019623",
            "settings": {
-            "editor": "Veteran &amp; Woman-Owned",
+            "editor": "Veteran &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -1381,7 +1381,7 @@
                 {
                  "id": "1007c801",
                  "settings": {
-                  "title": "Indoor Purification",
+                  "title": "Air Purification",
                   "header_size": "h4"
                  },
                  "elements": [],
@@ -2124,7 +2124,7 @@
             {
              "id": "100cd7c6",
              "settings": {
-              "title": "Fast online pre-approval",
+              "title": "Fast online <span class=\"lz-nw\">pre-approval</span>",
               "header_size": "h3"
              },
              "elements": [],
@@ -2446,7 +2446,7 @@
               {
                "id": "100ea7ee",
                "settings": {
-                "title": "Veteran-owned &amp; led",
+                "title": "<span class=\"lz-nw\">Veteran-owned</span> &amp; led",
                 "header_size": "h3"
                },
                "elements": [],
@@ -2500,7 +2500,7 @@
               {
                "id": "100f08a1",
                "settings": {
-                "title": "Woman-owned &amp; operated",
+                "title": "<span class=\"lz-nw\">Woman-owned</span> &amp; operated",
                 "header_size": "h3"
                },
                "elements": [],
@@ -3077,7 +3077,7 @@
         {
          "id": "1012a8f1",
          "settings": {
-          "title": "Over 2,000 5-Star Reviews Across Central Iowa",
+          "title": "Over 2,000 <span class=\"lz-nw\">5-Star</span> Reviews Across Central Iowa",
           "header_size": "h2",
           "typography_font_size": {
            "unit": "custom",
@@ -3503,7 +3503,7 @@
         {
          "id": "101513d1",
          "settings": {
-          "title": "Meet Lenz Heating &amp; Cooling: Des Moines&apos; Family-Owned HVAC Team",
+          "title": "Meet Lenz Heating &amp; Cooling: Des Moines&apos; <span class=\"lz-nw\">Family-Owned</span> HVAC Team",
           "header_size": "h2",
           "typography_font_size": {
            "unit": "custom",
@@ -4373,7 +4373,7 @@
       {
        "id": "1019c2e3",
        "settings": {
-        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">What happens if my heating or AC breaks down after hours or on a weekend? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p>Lenz Heating &amp; Cooling offers 24/7/365 emergency HVAC service across Greater Des Moines. When you call (515) 225-6446, you speak directly with our local team, not a third-party call center. Our certified technicians are on call day and night to diagnose and repair your heating or cooling system.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">How do I know if my repair or quote qualifies for a free estimate? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p>We provide free, no-obligation estimates on all new equipment installations and full system replacements. For repairs and troubleshooting, we charge a flat diagnostic fee that covers a full system inspection, followed by upfront pricing before any repair work begins.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Do I have to sit around all day waiting for my technician to show up? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p>No, we provide clear arrival windows and real-time text tracking updates. You will receive an automated text notification when your technician is en route, eliminating long waiting windows and allowing you to plan your day.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">What can I expect during a home visit from a Lenz technician? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p>You can expect a professional, clean, and transparent service visit from a direct Lenz employee. Every home visit includes real-time arrival notifications when your technician is on the way, uniformed technicians wearing protective shoe covers, and thorough system diagnostics with clear, flat-rate pricing explained before any work starts.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">How do I apply for financing for a new furnace or AC installation? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p>You can apply for HVAC financing through Synchrony Bank online or in person during your estimate. We offer flexible payment plans, including promotional 0% deferred interest financing for qualified buyers. Pre-approval takes only a few minutes.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-6\" id=\"faq-6-t\">What equipment brands do you service? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-6\" role=\"region\" aria-labelledby=\"faq-6-t\"><p>Carrier, Goodman, Lennox, Rheem, Ruud, Trane, American Pride, Amana, and Bryant. We&apos;re a Rheem Pro Partner.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-7\" id=\"faq-7-t\">Are your technicians background-checked? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-7\" role=\"region\" aria-labelledby=\"faq-7-t\"><p>Yes. Every technician completes extensive training and a background check before entering a home.</p></div></div></div>"
+        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">What happens if my heating or AC breaks down after hours or on a weekend? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p>Lenz Heating &amp; Cooling offers 24/7/365 emergency HVAC service across Greater Des Moines. When you call (515) 225-6446, you speak directly with our local team, not a third-party call center. Our certified technicians are on call day and night to diagnose and repair your heating or cooling system.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">How do I know if my repair or quote qualifies for a free estimate? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p>We provide free, no-obligation estimates on all new equipment installations and full system replacements. For repairs and troubleshooting, we charge a flat diagnostic fee that covers a full system inspection, followed by upfront pricing before any repair work begins.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Do I have to sit around all day waiting for my technician to show up? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p>No, we provide clear arrival windows and real-time text tracking updates. You will receive an automated text notification when your technician is en route, eliminating long waiting windows and allowing you to plan your day.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">What can I expect during a home visit from a Lenz technician? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p>You can expect a professional, clean, and transparent service visit from a direct Lenz employee. Every home visit includes real-time arrival notifications when your technician is on the way, uniformed technicians wearing protective shoe covers, and thorough system diagnostics with clear, flat-rate pricing explained before any work starts.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">How do I apply for financing for a new furnace or AC installation? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p>You can apply for HVAC financing through Synchrony Bank online or in person during your estimate. We offer flexible payment plans, including promotional 0% deferred interest financing for qualified buyers. Pre-approval takes only a few minutes.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-6\" id=\"faq-6-t\">What equipment brands do you service? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-6\" role=\"region\" aria-labelledby=\"faq-6-t\"><p>Carrier, Goodman, Lennox, Rheem, Ruud, Trane, American Pride, Amana, and Bryant. We&apos;re a Rheem Pro Partner.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-7\" id=\"faq-7-t\">Are your technicians <span class=\"lz-nw\">background-checked</span>? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-7\" role=\"region\" aria-labelledby=\"faq-7-t\"><p>Yes. Every technician completes extensive training and a background check before entering a home.</p></div></div></div>"
        },
        "elements": [],
        "isInner": true,

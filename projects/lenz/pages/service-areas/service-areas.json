@@ -319,7 +319,7 @@
           {
            "id": "690182cc",
            "settings": {
-            "editor": "#50871-CL",
+            "editor": "#<span class=\"lz-nw\">50871-CL</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -352,7 +352,7 @@
           {
            "id": "6901bcd1",
            "settings": {
-            "editor": "Veteran &amp; Woman-Owned",
+            "editor": "Veteran &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -593,7 +593,7 @@
                "settings": {
                 "text": "Get HVAC Service From Our Urbandale Team",
                 "link": {
-                 "url": "#contact",
+                 "url": "/urbandale/",
                  "is_external": "",
                  "nofollow": "",
                  "custom_attributes": ""
@@ -721,7 +721,7 @@
                "settings": {
                 "text": "Get HVAC Service From Our Waukee Team",
                 "link": {
-                 "url": "#contact",
+                 "url": "/waukee/",
                  "is_external": "",
                  "nofollow": "",
                  "custom_attributes": ""
@@ -916,7 +916,7 @@
           {
            "id": "69048864",
            "settings": {
-            "html": "<div class=\"area__cities\"><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Urbandale</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Waukee</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Des Moines</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>West Des Moines</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Ankeny</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Johnston</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Clive</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Grimes</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Altoona</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Norwalk</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Windsor Heights</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Surrounding Central Iowa communities</span></div>"
+            "html": "<div class=\"area__cities\"><a class=\"area-chip area-chip--link\" href=\"/urbandale/\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Urbandale</a><a class=\"area-chip area-chip--link\" href=\"/waukee/\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Waukee</a><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Des Moines</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>West Des Moines</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Ankeny</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Johnston</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Clive</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Grimes</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Altoona</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Norwalk</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Windsor Heights</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Surrounding Central Iowa communities</span></div>"
            },
            "elements": [],
            "isInner": true,

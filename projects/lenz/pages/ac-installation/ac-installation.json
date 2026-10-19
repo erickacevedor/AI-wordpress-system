@@ -329,7 +329,7 @@
           {
            "id": "41019623",
            "settings": {
-            "editor": "#50871-CL",
+            "editor": "#<span class=\"lz-nw\">50871-CL</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -362,7 +362,7 @@
           {
            "id": "4101d028",
            "settings": {
-            "editor": "Veteran &amp; Woman-Owned",
+            "editor": "Veteran &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -917,7 +917,7 @@
          "id": "41053673",
          "settings": {
           "content_width": "full",
-          "css_classes": "service-help symptom-help"
+          "css_classes": "service-help symptom-help symptom-help--one"
          },
          "elements": [
           {
@@ -1479,7 +1479,7 @@
               {
                "id": "41084f62",
                "settings": {
-                "title": "Long-Term Value",
+                "title": "<span class=\"lz-nw\">Long-Term</span> Value",
                 "header_size": "h3"
                },
                "elements": [],

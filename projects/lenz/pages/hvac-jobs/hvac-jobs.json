@@ -191,7 +191,7 @@
         {
          "id": "6800d4bd",
          "settings": {
-          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Year-round work</b>Veteran-led, family-owned team.</span></div>"
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b><span class=\"lz-nw\">Year-round</span> work</b><span class=\"lz-nw\">Veteran-led</span>, <span class=\"lz-nw\">family-owned</span> team.</span></div>"
          },
          "elements": [],
          "isInner": true,
@@ -330,7 +330,7 @@
           {
            "id": "68019623",
            "settings": {
-            "editor": "#50871-CL",
+            "editor": "#<span class=\"lz-nw\">50871-CL</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -363,7 +363,7 @@
           {
            "id": "6801d028",
            "settings": {
-            "editor": "Veteran &amp; Woman-Owned",
+            "editor": "Veteran &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -670,7 +670,7 @@
           {
            "id": "680318ef",
            "settings": {
-            "title": "Competitive Top-Market Pay",
+            "title": "Competitive <span class=\"lz-nw\">Top-Market</span> Pay",
             "header_size": "h3"
            },
            "elements": [],
@@ -713,7 +713,7 @@
           {
            "id": "6803664b",
            "settings": {
-            "title": "Year-Round Stability",
+            "title": "<span class=\"lz-nw\">Year-Round</span> Stability",
             "header_size": "h3"
            },
            "elements": [],
@@ -756,7 +756,7 @@
           {
            "id": "6803b3a7",
            "settings": {
-            "title": "Veteran &amp; Family-Led Values",
+            "title": "Veteran &amp; <span class=\"lz-nw\">Family-Led</span> Values",
             "header_size": "h3"
            },
            "elements": [],
@@ -1252,7 +1252,7 @@
       {
        "id": "6807069b",
        "settings": {
-        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">Where is Lenz Heating &amp; Cooling located? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p>Our main office is located in Urbandale, IA. Our technicians service residential properties throughout Greater Des Moines, including West Des Moines, Ankeny, Waukee, Johnston, Clive, Altoona, and surrounding Polk &amp; Dallas County communities.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">Does Lenz offer year-round work for HVAC technicians? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p><b>Yes.</b> Because we provide comprehensive heating, air conditioning, and indoor air quality services across Central Iowa, our technicians enjoy steady, year-round schedules without seasonal cutbacks.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">What happens after I submit my application? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p>Once you fill out the application form above and upload your resume, our hiring management team reviews your experience. If your skills match an open position, we’ll contact you directly by phone or email to schedule an initial interview.</p></div></div></div>"
+        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">Where is Lenz Heating &amp; Cooling located? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p>Our main office is located in Urbandale, IA. Our technicians service residential properties throughout Greater Des Moines, including West Des Moines, Ankeny, Waukee, Johnston, Clive, Altoona, and surrounding Polk &amp; Dallas County communities.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">Does Lenz offer <span class=\"lz-nw\">year-round</span> work for HVAC technicians? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p><b>Yes.</b> Because we provide comprehensive heating, air conditioning, and indoor air quality services across Central Iowa, our technicians enjoy steady, year-round schedules without seasonal cutbacks.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">What happens after I submit my application? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p>Once you fill out the application form above and upload your resume, our hiring management team reviews your experience. If your skills match an open position, we’ll contact you directly by phone or email to schedule an initial interview.</p></div></div></div>"
        },
        "elements": [],
        "isInner": true,

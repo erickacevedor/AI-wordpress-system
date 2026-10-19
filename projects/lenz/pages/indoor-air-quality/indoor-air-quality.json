@@ -180,7 +180,7 @@
         {
          "id": "5200c166",
          "settings": {
-          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Indoor air quality evaluations</b>Upfront, flat-rate pricing.</span></div>"
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Indoor air quality evaluations</b>Upfront, <span class=\"lz-nw\">flat-rate</span> pricing.</span></div>"
          },
          "elements": [],
          "isInner": true,
@@ -253,7 +253,7 @@
           {
            "id": "52010ec2",
            "settings": {
-            "editor": "Whole-Home Protection",
+            "editor": "<span class=\"lz-nw\">Whole-Home</span> Protection",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -286,7 +286,7 @@
           {
            "id": "520148c7",
            "settings": {
-            "editor": "Year-Round Humidity Control",
+            "editor": "<span class=\"lz-nw\">Year-Round</span> Humidity Control",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -352,7 +352,7 @@
           {
            "id": "5201bcd1",
            "settings": {
-            "editor": "Upfront Flat-Rate Pricing",
+            "editor": "Upfront <span class=\"lz-nw\">Flat-Rate</span> Pricing",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -512,7 +512,7 @@
           {
            "id": "52024432",
            "settings": {
-            "title": "1. Whole-Home Air Purification &amp; Filtration",
+            "title": "1. <span class=\"lz-nw\">Whole-Home</span> Air Purification &amp; Filtration",
             "header_size": "h3"
            },
            "elements": [],
@@ -620,7 +620,7 @@
           {
            "id": "52030598",
            "settings": {
-            "title": "3. Whole-Home Humidity Control: Humidifiers &amp; Dehumidifiers",
+            "title": "3. <span class=\"lz-nw\">Whole-Home</span> Humidity Control: Humidifiers &amp; Dehumidifiers",
             "header_size": "h3"
            },
            "elements": [],
@@ -1207,7 +1207,7 @@
       {
        "id": "5206588c",
        "settings": {
-        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">Why is indoor air quality (IAQ) important for my home? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p><b>Indoor air quality directly impacts respiratory health, allergy severity, sleep quality, and home comfort.</b> The EPA estimates indoor air can be 2 to 5 times more polluted than outdoor air because modern, energy-efficient homes trap dust, pet dander, mold spores, and household chemicals inside. Improving IAQ protects your family and keeps your HVAC system running efficiently.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">How do I know if I need a whole-home air purifier vs. duct cleaning? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p><b>Air duct cleaning removes accumulated debris trapped inside your vents, while a whole-home air purifier sanitizes the air circulating through your home every day.</b> Duct cleaning is recommended every 3 to 5 years to clear heavy dust and buildup. An air purifier (or UV light system) works continuously to kill microscopic airborne viruses, bacteria, mold spores, and odors before you breathe them in.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Are whole-home humidifiers and dehumidifiers better than portable units? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p><b>Yes, whole-home humidity control systems are significantly more effective, quiet, and convenient than single-room portable units.</b> Installed directly into your furnace and ductwork, whole-home humidifiers and dehumidifiers treat the entire house automatically using a direct water line, meaning no noisy fans, daily water tank refilling, or uneven room temperatures.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">How often should home air ducts be cleaned in Iowa? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p><b>Home air ducts should be professionally cleaned every 3 to 5 years.</b> However, homes in Central Iowa with indoor pets, recent remodeling or construction, or family members with severe seasonal allergies or asthma should consider scheduling duct cleaning every 2 to 3 years.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Can indoor air quality equipment help lower my monthly energy bills? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p><b>Yes, improving your indoor air quality directly boosts your HVAC system's efficiency.</b> Clean air ducts allow unrestricted airflow so your blower motor doesn't overwork, while proper humidity control lets you feel comfortable at lower thermostat settings in winter and higher settings in summer.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-6\" id=\"faq-6-t\">What cities and areas in Central Iowa do you service for air quality solutions? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-6\" role=\"region\" aria-labelledby=\"faq-6-t\"><p><b>Lenz Heating &amp; Cooling provides complete indoor air quality, duct cleaning, and HVAC services across the Greater Des Moines metro area.</b> Our primary service locations include Des Moines, Urbandale, Waukee, West Des Moines, Ankeny, Johnston, Clive, Grimes, Norwalk, and surrounding Polk and Dallas County communities. Call <b>(515) 225-6446</b> to schedule a local indoor air quality evaluation in your neighborhood.</p></div></div></div>"
+        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">Why is indoor air quality (IAQ) important for my home? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p><b>Indoor air quality directly impacts respiratory health, allergy severity, sleep quality, and home comfort.</b> The EPA estimates indoor air can be 2 to 5 times more polluted than outdoor air because modern, energy-efficient homes trap dust, pet dander, mold spores, and household chemicals inside. Improving IAQ protects your family and keeps your HVAC system running efficiently.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">How do I know if I need a <span class=\"lz-nw\">whole-home</span> air purifier vs. duct cleaning? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p><b>Air duct cleaning removes accumulated debris trapped inside your vents, while a whole-home air purifier sanitizes the air circulating through your home every day.</b> Duct cleaning is recommended every 3 to 5 years to clear heavy dust and buildup. An air purifier (or UV light system) works continuously to kill microscopic airborne viruses, bacteria, mold spores, and odors before you breathe them in.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Are <span class=\"lz-nw\">whole-home</span> humidifiers and dehumidifiers better than portable units? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p><b>Yes, whole-home humidity control systems are significantly more effective, quiet, and convenient than single-room portable units.</b> Installed directly into your furnace and ductwork, whole-home humidifiers and dehumidifiers treat the entire house automatically using a direct water line, meaning no noisy fans, daily water tank refilling, or uneven room temperatures.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">How often should home air ducts be cleaned in Iowa? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p><b>Home air ducts should be professionally cleaned every 3 to 5 years.</b> However, homes in Central Iowa with indoor pets, recent remodeling or construction, or family members with severe seasonal allergies or asthma should consider scheduling duct cleaning every 2 to 3 years.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Can indoor air quality equipment help lower my monthly energy bills? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p><b>Yes, improving your indoor air quality directly boosts your HVAC system's efficiency.</b> Clean air ducts allow unrestricted airflow so your blower motor doesn't overwork, while proper humidity control lets you feel comfortable at lower thermostat settings in winter and higher settings in summer.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-6\" id=\"faq-6-t\">What cities and areas in Central Iowa do you service for air quality solutions? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-6\" role=\"region\" aria-labelledby=\"faq-6-t\"><p><b>Lenz Heating &amp; Cooling provides complete indoor air quality, duct cleaning, and HVAC services across the Greater Des Moines metro area.</b> Our primary service locations include Des Moines, Urbandale, Waukee, West Des Moines, Ankeny, Johnston, Clive, Grimes, Norwalk, and surrounding Polk and Dallas County communities. Call <b>(515) 225-6446</b> to schedule a local indoor air quality evaluation in your neighborhood.</p></div></div></div>"
        },
        "elements": [],
        "isInner": true,

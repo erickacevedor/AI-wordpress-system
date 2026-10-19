@@ -36,7 +36,7 @@ PAGE = {
         ("faq",),
         ("close",),
     ],
-    "notes": ['Menu label is "Indoor Purification"; the page and doc are "Air Purification" (/air-purification/).'],
+    "notes": ['Menu and card label "Air Purification" (was "Indoor Purification" until the 2026-10-19 QA), same as the page and doc.'],
 }
 
 service_page.write(PAGE, HERE)

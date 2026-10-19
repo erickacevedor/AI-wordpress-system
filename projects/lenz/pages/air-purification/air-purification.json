@@ -69,7 +69,7 @@
         {
          "id": "49003a05",
          "settings": {
-          "title": "Whole-Home <span class=\"accent\">Air Purification</span> in Des Moines &amp; Central Iowa",
+          "title": "<span class=\"lz-nw\">Whole-Home</span> <span class=\"accent\">Air Purification</span> in Des Moines &amp; Central Iowa",
           "header_size": "h1",
           "typography_font_size": {
            "unit": "custom",
@@ -190,7 +190,7 @@
         {
          "id": "4900d4bd",
          "settings": {
-          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Whole-home air purification</b>Upfront, To-the-Penny pricing.</span></div>"
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b><span class=\"lz-nw\">Whole-home</span> air purification</b>Upfront, <span class=\"lz-nw\">To-the-Penny</span> pricing.</span></div>"
          },
          "elements": [],
          "isInner": true,
@@ -263,7 +263,7 @@
           {
            "id": "49012219",
            "settings": {
-            "editor": "Whole-Home Filtration",
+            "editor": "<span class=\"lz-nw\">Whole-Home</span> Filtration",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -296,7 +296,7 @@
           {
            "id": "49015c1e",
            "settings": {
-            "editor": "High-Efficiency Media Filters",
+            "editor": "<span class=\"lz-nw\">High-Efficiency</span> Media Filters",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -362,7 +362,7 @@
           {
            "id": "4901d028",
            "settings": {
-            "editor": "Veteran-Led Local Service",
+            "editor": "<span class=\"lz-nw\">Veteran-Led</span> Local Service",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -453,7 +453,7 @@
         {
          "id": "49025789",
          "settings": {
-          "title": "Standard 1-Inch Filters vs. Whole-Home Media Purifiers",
+          "title": "Standard <span class=\"lz-nw\">1-Inch</span> Filters vs. <span class=\"lz-nw\">Whole-Home</span> Media Purifiers",
           "header_size": "h2",
           "typography_font_size": {
            "unit": "custom",
@@ -568,7 +568,7 @@
         {
          "id": "4902deea",
          "settings": {
-          "title": "What a Whole-Home Air Purifier Removes From Your Home",
+          "title": "What a <span class=\"lz-nw\">Whole-Home</span> Air Purifier Removes From Your Home",
           "header_size": "h2",
           "typography_font_size": {
            "unit": "custom",
@@ -693,7 +693,7 @@
         {
          "id": "4904af12",
          "settings": {
-          "title": "Is a Whole-Home Air Purifier Right for Your Family?",
+          "title": "Is a <span class=\"lz-nw\">Whole-Home</span> Air Purifier Right for Your Family?",
           "header_size": "h2",
           "typography_font_size": {
            "unit": "custom",
@@ -761,7 +761,7 @@
           {
            "id": "490379a2",
            "settings": {
-            "title": "You Struggle with Year-Round Allergies or Asthma",
+            "title": "You Struggle with <span class=\"lz-nw\">Year-Round</span> Allergies or Asthma",
             "header_size": "h3"
            },
            "elements": [],
@@ -1099,7 +1099,7 @@
         {
          "id": "4905bdd4",
          "settings": {
-          "title": "Whole-Home Purifiers vs. Portable Room Units",
+          "title": "<span class=\"lz-nw\">Whole-Home</span> Purifiers vs. Portable Room Units",
           "header_size": "h2",
           "typography_font_size": {
            "unit": "custom",
@@ -1403,7 +1403,7 @@
           {
            "id": "4906cc96",
            "settings": {
-            "title": "Upfront Flat-Rate Pricing",
+            "title": "Upfront <span class=\"lz-nw\">Flat-Rate</span> Pricing",
             "header_size": "h3"
            },
            "elements": [],
@@ -1447,7 +1447,7 @@
           {
            "id": "490719f2",
            "settings": {
-            "title": "Veteran &amp; Family-Led Values",
+            "title": "Veteran &amp; <span class=\"lz-nw\">Family-Led</span> Values",
             "header_size": "h3"
            },
            "elements": [],
@@ -1615,7 +1615,7 @@
       {
        "id": "490862b9",
        "settings": {
-        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">How is an air purifier different from a standard furnace air filter? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p><b>Standard 1-inch filters</b> are thin mesh screens designed primarily to block large debris from damaging your furnace motor. <b>Whole-home air purifiers</b> use thick, deep-pleated media (like 4-inch Air Bear filters) with airtight seals to trap microscopic allergens, pet dander, and fine dust down to sub-micron sizes without choking your system's airflow.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">How often do 4-inch media air filters need to be changed? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p>Deep 4-inch media filters typically last <b>3 to 6 months</b>, depending on household pet activity, seasonal allergies, and system usage. This is a major convenience upgrade over thin 1-inch filters that require monthly replacement.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Will a whole-home air purifier reduce the amount of dusting I have to do? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p><b>Yes.</b> Because a central purifier continuously pulls air through your return ducts and traps fine dust before it can recirculate, you will notice significantly less dust settling on tables, shelves, and electronics.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">Can a central air purifier be installed on my existing furnace? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p><b>Yes.</b> Whole-home media purifiers and upgraded filter cabinets are designed to retrofit seamlessly onto almost any existing residential gas furnace, electric handler, or heat pump system.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">What areas in Central Iowa do you service for air quality installations? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p><b>Lenz Heating &amp; Cooling provides complete IAQ and HVAC services across the Greater Des Moines metro.</b> Our service area includes Des Moines, Urbandale, West Des Moines, Waukee, Ankeny, Johnston, Clive, Altoona, Winterset, and surrounding communities in Polk, Dallas, and Madison counties.</p></div></div></div>"
+        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">How is an air purifier different from a standard furnace air filter? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p><b>Standard 1-inch filters</b> are thin mesh screens designed primarily to block large debris from damaging your furnace motor. <b>Whole-home air purifiers</b> use thick, deep-pleated media (like 4-inch Air Bear filters) with airtight seals to trap microscopic allergens, pet dander, and fine dust down to sub-micron sizes without choking your system's airflow.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">How often do <span class=\"lz-nw\">4-inch</span> media air filters need to be changed? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p>Deep 4-inch media filters typically last <b>3 to 6 months</b>, depending on household pet activity, seasonal allergies, and system usage. This is a major convenience upgrade over thin 1-inch filters that require monthly replacement.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Will a <span class=\"lz-nw\">whole-home</span> air purifier reduce the amount of dusting I have to do? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p><b>Yes.</b> Because a central purifier continuously pulls air through your return ducts and traps fine dust before it can recirculate, you will notice significantly less dust settling on tables, shelves, and electronics.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">Can a central air purifier be installed on my existing furnace? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p><b>Yes.</b> Whole-home media purifiers and upgraded filter cabinets are designed to retrofit seamlessly onto almost any existing residential gas furnace, electric handler, or heat pump system.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">What areas in Central Iowa do you service for air quality installations? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p><b>Lenz Heating &amp; Cooling provides complete IAQ and HVAC services across the Greater Des Moines metro.</b> Our service area includes Des Moines, Urbandale, West Des Moines, Waukee, Ankeny, Johnston, Clive, Altoona, Winterset, and surrounding communities in Polk, Dallas, and Madison counties.</p></div></div></div>"
        },
        "elements": [],
        "isInner": true,
@@ -1761,7 +1761,7 @@
             {
              "id": "490910c8",
              "settings": {
-              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-droplet\"/></svg></span>"
+              "html": "<span class=\"service-card__icon\" data-cat=\"air\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-droplet\"/></svg></span>"
              },
              "elements": [],
              "isInner": true,
@@ -1821,7 +1821,7 @@
             {
              "id": "4909717b",
              "settings": {
-              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
+              "html": "<span class=\"service-card__icon\" data-cat=\"air\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
              },
              "elements": [],
              "isInner": true,

@@ -30,6 +30,7 @@ porter rewrites the element selector to `:is(<tag>, .lz-<tag>)`.
 import html as _html
 import json
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -132,7 +133,7 @@ SERVICES = [
         ("Heating Maintenance", "heating-maintenance"), ("Heating Replacement", "heating-replacement")]),
     ("Indoor Air Quality", "indoor-air-quality", [
         ("Humidity Control", "humidity-control"), ("UV Light Purification", "uv-light-purification"),
-        ("Indoor Purification", "indoor-purification"), ("Duct Cleaning", "duct-cleaning")]),
+        ("Air Purification", "indoor-purification"), ("Duct Cleaning", "duct-cleaning")]),
     ("Additional Services", "additional-services", [
         ("Thermostat Services", "thermostat-services"), ("Water Heater Services", "water-heater-services"),
         ("Ductwork", "ductwork"), ("Gas Lines", "gas-lines"), ("Heat Pumps", "heat-pumps")]),
@@ -221,11 +222,21 @@ def section(classes, children, box_classes="container", tag="section", el_id=Non
     return E.container(s, [inner], inner=False, classes=(classes + " e-no-lazyload").strip())
 
 
+_HYPHENATED = re.compile(r"(?<![\w-])([\w$%½]+(?:-[\w$%½]+)+)")
+
+
+def nw(markup):
+    """Keep hyphenated words whole ("Flat-Rate", "No-Heat"): the browser breaks a
+    narrow heading at the hyphen otherwise. Text outside tags only."""
+    return "".join(part if part.startswith("<") else _HYPHENATED.sub(r'<span class="lz-nw">\1</span>', part)
+                   for part in re.split(r"(<[^>]+>)", markup))
+
+
 def heading(text, tag="h2", classes=None, size=None):
     """Native heading. `size` (a CSS length, may be clamp()) is emitted for every
     breakpoint only where the gate needs it (h1/h2) and must equal the
     prototype's value, because element settings outrank the stylesheet."""
-    s = {"title": text, "header_size": tag}
+    s = {"title": nw(text), "header_size": tag}
     if size:
         for bp in ("", "_tablet", "_mobile"):
             s["typography_font_size" + bp] = {"unit": "custom", "size": size, "sizes": []}
@@ -342,7 +353,7 @@ def faq_list(items):
         '<div class="faq"><h3 style="margin:0"><button class="faq__trigger" aria-expanded="false" '
         'aria-controls="faq-%d" id="faq-%d-t">%s %s</button></h3><div class="faq__panel" id="faq-%d" '
         'role="region" aria-labelledby="faq-%d-t">%s</div></div>'
-        % (i, i, q, svg("i-plus", "faq__icon icon-sm"), i, i, a if a.startswith("<p>") else "<p>%s</p>" % a)
+        % (i, i, nw(q), svg("i-plus", "faq__icon icon-sm"), i, i, a if a.startswith("<p>") else "<p>%s</p>" % a)
         for i, (q, a) in enumerate(items, 1)) + "</div>")
 
 
@@ -364,8 +375,8 @@ def estimate_form(button_text="Schedule Your Service Online", preselect=None):
     14); confirm before launch. Local routes mail to Mailpit."""
     service = _field("service", "select", "Service",
                      field_options="Choose a service…|\n" + "\n".join(FORM_SERVICES))
-    if preselect:
-        service["field_value"] = preselect
+    if preselect:     # compared with the esc_attr()'d option value, so "&" must arrive as "&amp;"
+        service["field_value"] = preselect.replace("&", "&amp;")
     return E.widget("form", {
         "form_name": "Estimate request",
         "form_fields": [_field("name", "text", "Name"), _field("phone", "tel", "Phone"), service],
@@ -430,7 +441,7 @@ def cta_band(title, sub, extra=""):
 def trustbar(items, extra=""):
     return section(("trustbar " + extra).strip(), [
         box("trustbar__grid", [
-            box("trustbar__item", [text(v, "trustbar__value")] + ([text(l, "trustbar__label")] if l else []))
+            box("trustbar__item", [text(nw(v), "trustbar__value")] + ([text(l, "trustbar__label")] if l else []))
             for v, l in items
         ]),
     ], label="At a glance")

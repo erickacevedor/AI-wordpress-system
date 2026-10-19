@@ -319,7 +319,7 @@
           {
            "id": "650182cc",
            "settings": {
-            "editor": "#50871-CL",
+            "editor": "#<span class=\"lz-nw\">50871-CL</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -352,7 +352,7 @@
           {
            "id": "6501bcd1",
            "settings": {
-            "editor": "Veteran &amp; Woman-Owned",
+            "editor": "Veteran &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -942,7 +942,7 @@
           {
            "id": "65049bbb",
            "settings": {
-            "title": "Upfront Flat-Rate Pricing",
+            "title": "Upfront <span class=\"lz-nw\">Flat-Rate</span> Pricing",
             "header_size": "h3"
            },
            "elements": [],
@@ -985,7 +985,7 @@
           {
            "id": "6504e917",
            "settings": {
-            "title": "Veteran &amp; Family-Led",
+            "title": "Veteran &amp; <span class=\"lz-nw\">Family-Led</span>",
             "header_size": "h3"
            },
            "elements": [],
@@ -1071,7 +1071,7 @@
           {
            "id": "650583cf",
            "settings": {
-            "title": "Budget-Friendly Financing",
+            "title": "<span class=\"lz-nw\">Budget-Friendly</span> Financing",
             "header_size": "h3"
            },
            "elements": [],

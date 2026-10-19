@@ -2935,6 +2935,88 @@ body.menu-open {
 .elementor .service-card--static:hover {
   transform: none; box-shadow: none;
 }
+.elementor .lz-nw {
+  white-space: nowrap;
+}
+@media (min-width: 904px) {
+.elementor .symptom-help--one.service-help {
+  grid-column: auto;
+}
+}
+@media (min-width: 600px) and (max-width: 903px) {
+.elementor .symptom-help--wide2.service-help {
+  grid-column: 1 / -1;
+}
+}
+.elementor .service-card__icon[data-cat="air"] {
+  background: var(--purple-50); color: var(--purple-600);
+}
+.elementor .plans__grid .plan {
+  padding-bottom: 84px;
+}
+@media (max-width: 480px) {
+.elementor .btn:not(.elementor-widget),
+.elementor .btn .elementor-button {
+  line-height: 1.25; padding-block: var(--space-2);
+}
+}
+@media (max-width: 767px) {
+.elementor .reviews__micro a,
+.elementor .hub-svc__go {
+  display: inline; text-wrap: balance;
+}
+.elementor .reviews__micro a svg,
+.elementor .hub-svc__go svg {
+  display: inline-block; vertical-align: middle; margin-left: 4px;
+}
+}
+.elementor .area__address {
+  display: grid; grid-template-columns: auto 1fr; column-gap: var(--space-2); row-gap: var(--space-1); align-items: center;
+}
+.elementor .area__address a {
+  grid-column: 2;
+}
+.elementor .area__address .sep {
+  display: none;
+}
+.elementor .area-chip--link {
+  color: inherit; text-decoration: none;
+}
+.elementor .area-chip--link:hover {
+  border-color: var(--blue-600); color: var(--blue-700);
+}
+.elementor .mega__col-title a,
+.elementor .footer__col h3 a {
+  color: inherit; text-decoration: none;
+}
+.elementor .mega__col-title a:hover,
+.elementor .footer__col h3 a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 599px) {
+.elementor .footer__bottom {
+  flex-direction: column; gap: var(--space-1);
+}
+.elementor .footer__bottom .sep {
+  display: none;
+}
+}
+@media (max-width: 599px) {
+.elementor .people--roster {
+  grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3);
+}
+}
+.elementor .person--nobio {
+  align-self: start;
+}
+@media (min-width: 904px) and (max-width: 1099px) {
+.elementor .steps--5 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+}
+.elementor .partners {
+  margin-top: var(--space-8);
+}
 
 /* ============================================================================
    HAND-WRITTEN OVERRIDES (come last in lenz-core.css)
@@ -3067,3 +3149,16 @@ body.menu-open {
 @media (min-width: 1024px) and (max-width: 1099px) {
   .elementor .nav__inner { gap: var(--space-3); }
 }
+
+/* ---- Hello Elementor table styles (QA 2026-10-19) --------------------------
+   The theme's reset gives every td/th a grey border and zebra rows; the
+   prototype's comparison tables have neither, and on phones (stacked cells,
+   no padding) the borders boxed every label and value. */
+.elementor .compare table,
+.elementor .compare th,
+.elementor .compare td { border: 0; }
+.elementor .compare tbody > tr > td,
+.elementor .compare tbody > tr > th { background-color: transparent; }
+
+/* Footer columns with two groups (QA 2026-10-19): space before the second title. */
+.elementor .footer__col .elementor-widget-text-editor + .elementor-widget-heading { margin-top: var(--space-8); }

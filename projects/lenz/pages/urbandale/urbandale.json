@@ -319,7 +319,7 @@
           {
            "id": "6a0182cc",
            "settings": {
-            "editor": "#50871-CL",
+            "editor": "#<span class=\"lz-nw\">50871-CL</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -352,7 +352,7 @@
           {
            "id": "6a01bcd1",
            "settings": {
-            "editor": "Veteran &amp; Woman-Owned",
+            "editor": "Veteran &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -1229,7 +1229,7 @@
           {
            "id": "6a066be3",
            "settings": {
-            "title": "Tree-Lined Lots, Trails, and Outdoor Units",
+            "title": "<span class=\"lz-nw\">Tree-Lined</span> Lots, Trails, and Outdoor Units",
             "header_size": "h3"
            },
            "elements": [],
@@ -1272,7 +1272,7 @@
           {
            "id": "6a06b93f",
            "settings": {
-            "title": "Multi-Level Homes and Busy Households",
+            "title": "<span class=\"lz-nw\">Multi-Level</span> Homes and Busy Households",
             "header_size": "h3"
            },
            "elements": [],

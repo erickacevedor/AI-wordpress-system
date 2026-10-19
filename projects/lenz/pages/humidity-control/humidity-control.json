@@ -69,7 +69,7 @@
         {
          "id": "47003a05",
          "settings": {
-          "title": "Whole-Home <span class=\"accent\">Humidity Control</span> in Des Moines &amp; Central Iowa",
+          "title": "<span class=\"lz-nw\">Whole-Home</span> <span class=\"accent\">Humidity Control</span> in Des Moines &amp; Central Iowa",
           "header_size": "h1",
           "typography_font_size": {
            "unit": "custom",
@@ -191,7 +191,7 @@
         {
          "id": "4700d4bd",
          "settings": {
-          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Whole-home humidity control</b>Upfront, To-the-Penny pricing.</span></div>"
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b><span class=\"lz-nw\">Whole-home</span> humidity control</b>Upfront, <span class=\"lz-nw\">To-the-Penny</span> pricing.</span></div>"
          },
          "elements": [],
          "isInner": true,
@@ -264,7 +264,7 @@
           {
            "id": "47012219",
            "settings": {
-            "editor": "Year-Round Balance",
+            "editor": "<span class=\"lz-nw\">Year-Round</span> Balance",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -297,7 +297,7 @@
           {
            "id": "47015c1e",
            "settings": {
-            "editor": "Whole-Home Coverage",
+            "editor": "<span class=\"lz-nw\">Whole-Home</span> Coverage",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -363,7 +363,7 @@
           {
            "id": "4701d028",
            "settings": {
-            "editor": "Veteran-Led Local Service",
+            "editor": "<span class=\"lz-nw\">Veteran-Led</span> Local Service",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -664,7 +664,7 @@
           {
            "id": "470379a2",
            "settings": {
-            "title": "Whole-Home Humidifiers: Beat the Dry Winter Air",
+            "title": "<span class=\"lz-nw\">Whole-Home</span> Humidifiers: Beat the Dry Winter Air",
             "header_size": "h2",
             "typography_font_size": {
              "unit": "custom",
@@ -840,7 +840,7 @@
           {
            "id": "470461b6",
            "settings": {
-            "title": "Whole-Home Dehumidifiers: Dry Out the Muggy Season",
+            "title": "<span class=\"lz-nw\">Whole-Home</span> Dehumidifiers: Dry Out the Muggy Season",
             "header_size": "h2",
             "typography_font_size": {
              "unit": "custom",
@@ -998,7 +998,7 @@
         {
          "id": "47053673",
          "settings": {
-          "title": "Whole-Home Systems vs. Portable Units",
+          "title": "<span class=\"lz-nw\">Whole-Home</span> Systems vs. Portable Units",
           "header_size": "h2",
           "typography_font_size": {
            "unit": "custom",
@@ -1335,7 +1335,7 @@
           {
            "id": "47069291",
            "settings": {
-            "title": "Veteran-Owned &amp; Woman-Owned",
+            "title": "<span class=\"lz-nw\">Veteran-Owned</span> &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "header_size": "h3"
            },
            "elements": [],
@@ -1503,7 +1503,7 @@
       {
        "id": "4707c801",
        "settings": {
-        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">What should indoor humidity be in an Iowa home? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p><b>Aim for 30% to 50% relative humidity year-round.</b> In winter you'll likely need to add moisture; in the humid summer and in basements, you'll need to remove it.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">Do I need a humidifier or a dehumidifier? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p><b>Most Central Iowa homes benefit from both</b>—a humidifier for the dry winter and a dehumidifier for the muggy summer or a damp basement. During your consultation we'll measure your home's levels and recommend what fits.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Can a whole-home humidifier or dehumidifier work with my existing furnace? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p><b>Yes. Both systems are designed to integrate with almost any existing forced-air furnace, air handler, or heat pump.</b> We'll confirm compatibility during your visit.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">Will balancing my humidity lower my energy bills? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p><b>Often, yes.</b> Humidified air feels warmer and dry summer air feels cooler, so you can adjust your thermostat a few degrees in either season and reduce the runtime on your heating and cooling equipment.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Are whole-home systems better than portable ones? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p><b>For whole-house comfort, yes.</b> Portable units treat one room, need constant refilling or emptying, and add noise. A whole-home system treats every room automatically and stays out of sight.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-6\" id=\"faq-6-t\">What areas do you serve? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-6\" role=\"region\" aria-labelledby=\"faq-6-t\"><p><b>We install humidity control systems across the Greater Des Moines metro</b>, including Des Moines, Urbandale, West Des Moines, Ankeny, Altoona, Clive, Waukee, Johnston, and surrounding Polk and Dallas County communities.</p></div></div></div>"
+        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">What should indoor humidity be in an Iowa home? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p><b>Aim for 30% to 50% relative humidity year-round.</b> In winter you'll likely need to add moisture; in the humid summer and in basements, you'll need to remove it.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">Do I need a humidifier or a dehumidifier? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p><b>Most Central Iowa homes benefit from both</b>—a humidifier for the dry winter and a dehumidifier for the muggy summer or a damp basement. During your consultation we'll measure your home's levels and recommend what fits.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">Can a <span class=\"lz-nw\">whole-home</span> humidifier or dehumidifier work with my existing furnace? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p><b>Yes. Both systems are designed to integrate with almost any existing forced-air furnace, air handler, or heat pump.</b> We'll confirm compatibility during your visit.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">Will balancing my humidity lower my energy bills? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p><b>Often, yes.</b> Humidified air feels warmer and dry summer air feels cooler, so you can adjust your thermostat a few degrees in either season and reduce the runtime on your heating and cooling equipment.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">Are <span class=\"lz-nw\">whole-home</span> systems better than portable ones? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p><b>For whole-house comfort, yes.</b> Portable units treat one room, need constant refilling or emptying, and add noise. A whole-home system treats every room automatically and stays out of sight.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-6\" id=\"faq-6-t\">What areas do you serve? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-6\" role=\"region\" aria-labelledby=\"faq-6-t\"><p><b>We install humidity control systems across the Greater Des Moines metro</b>, including Des Moines, Urbandale, West Des Moines, Ankeny, Altoona, Clive, Waukee, Johnston, and surrounding Polk and Dallas County communities.</p></div></div></div>"
        },
        "elements": [],
        "isInner": true,
@@ -1649,7 +1649,7 @@
             {
              "id": "47087610",
              "settings": {
-              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
+              "html": "<span class=\"service-card__icon\" data-cat=\"air\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
              },
              "elements": [],
              "isInner": true,
@@ -1709,7 +1709,7 @@
             {
              "id": "4708d6c3",
              "settings": {
-              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
+              "html": "<span class=\"service-card__icon\" data-cat=\"air\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
              },
              "elements": [],
              "isInner": true,
@@ -1726,7 +1726,7 @@
               {
                "id": "4708ea1a",
                "settings": {
-                "title": "Indoor Purification",
+                "title": "Air Purification",
                 "header_size": "h4"
                },
                "elements": [],

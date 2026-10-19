@@ -319,7 +319,7 @@
           {
            "id": "6b0182cc",
            "settings": {
-            "editor": "#50871-CL",
+            "editor": "#<span class=\"lz-nw\">50871-CL</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -352,7 +352,7 @@
           {
            "id": "6b01bcd1",
            "settings": {
-            "editor": "Veteran &amp; Woman-Owned",
+            "editor": "Veteran &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -504,7 +504,7 @@
         {
          "id": "6b02918e",
          "settings": {
-          "editor": "<p>Lenz Heating &amp; Cooling serves Waukee from our local location at:</p><p><b>810 Interstate Pkwy Suite 141, Waukee, IA</b></p><p>That local presence matters in a city growing as quickly as Waukee. As new neighborhoods, schools, parks, trails, and commercial areas continue to shape the community, homeowners need HVAC support that fits how Waukee homes are actually built and lived in.</p><p>Waukee has added thousands of residents and households in recent years, and the city continues planning for future growth. That growth brings a wide range of HVAC needs, from maintaining newer high-efficiency systems to correcting airflow, humidity, and comfort problems that can show up even in homes built within the last several years.</p><p>Our technicians look beyond the equipment alone. We consider your home’s layout, system age, ductwork, airflow, maintenance history, indoor comfort concerns, and how your household actually uses the space.</p>",
+          "editor": "<p>Lenz Heating &amp; Cooling serves Waukee from our local location at:</p><p><b>810 Interstate Pkwy, Suite 141, Waukee, IA</b></p><p>That local presence matters in a city growing as quickly as Waukee. As new neighborhoods, schools, parks, trails, and commercial areas continue to shape the community, homeowners need HVAC support that fits how Waukee homes are actually built and lived in.</p><p>Waukee has added thousands of residents and households in recent years, and the city continues planning for future growth. That growth brings a wide range of HVAC needs, from maintaining newer high-efficiency systems to correcting airflow, humidity, and comfort problems that can show up even in homes built within the last several years.</p><p>Our technicians look beyond the equipment alone. We consider your home’s layout, system age, ductwork, airflow, maintenance history, indoor comfort concerns, and how your household actually uses the space.</p>",
           "_css_classes": "prose__body"
          },
          "elements": [],
@@ -1143,7 +1143,7 @@
           {
            "id": "6b05d12b",
            "settings": {
-            "title": "Newer Homes Are Not Always Problem-Free",
+            "title": "Newer Homes Are Not Always <span class=\"lz-nw\">Problem-Free</span>",
             "header_size": "h3"
            },
            "elements": [],
@@ -1272,7 +1272,7 @@
           {
            "id": "6b06b93f",
            "settings": {
-            "title": "Multi-Level and Family Homes Need Balanced Comfort",
+            "title": "<span class=\"lz-nw\">Multi-Level</span> and Family Homes Need Balanced Comfort",
             "header_size": "h3"
            },
            "elements": [],

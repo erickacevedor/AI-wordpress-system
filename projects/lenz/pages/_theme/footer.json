@@ -4,7 +4,7 @@
  "type": "footer",
  "content": [
   {
-   "id": "300148c7",
+   "id": "30019623",
    "settings": {
     "content_width": "full",
     "html_tag": "footer",
@@ -13,7 +13,7 @@
    },
    "elements": [
     {
-     "id": "30013570",
+     "id": "300182cc",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -41,7 +41,7 @@
      },
      "elements": [
       {
-       "id": "30010ec2",
+       "id": "30015c1e",
        "settings": {
         "content_width": "full",
         "css_classes": "footer__grid"
@@ -89,7 +89,7 @@
          "elType": "container"
         },
         {
-         "id": "30008761",
+         "id": "3000ae0f",
          "settings": {
           "content_width": "full",
           "css_classes": "footer__col"
@@ -98,7 +98,7 @@
           {
            "id": "300060b3",
            "settings": {
-            "title": "Air Conditioning",
+            "title": "<a href=\"/air-conditioning/\">Air Conditioning</a>",
             "header_size": "h3"
            },
            "elements": [],
@@ -115,22 +115,11 @@
            "isInner": true,
            "widgetType": "text-editor",
            "elType": "widget"
-          }
-         ],
-         "isInner": true,
-         "elType": "container"
-        },
-        {
-         "id": "3000c166",
-         "settings": {
-          "content_width": "full",
-          "css_classes": "footer__col"
-         },
-         "elements": [
+          },
           {
-           "id": "30009ab8",
+           "id": "30008761",
            "settings": {
-            "title": "Heating",
+            "title": "<a href=\"/indoor-air-quality/\">Indoor Air Quality</a>",
             "header_size": "h3"
            },
            "elements": [],
@@ -139,9 +128,9 @@
            "elType": "widget"
           },
           {
-           "id": "3000ae0f",
+           "id": "30009ab8",
            "settings": {
-            "editor": "<ul><li><a href=\"/heating-installation/\">Heating Installation</a></li><li><a href=\"/heating-repair/\">Heating Repair</a></li><li><a href=\"/heating-maintenance/\">Heating Maintenance</a></li></ul>"
+            "editor": "<ul><li><a href=\"/humidity-control/\">Humidity Control</a></li><li><a href=\"/uv-light-purification/\">UV Light Purification</a></li><li><a href=\"/air-purification/\">Air Purification</a></li></ul>"
            },
            "elements": [],
            "isInner": true,
@@ -153,14 +142,67 @@
          "elType": "container"
         },
         {
-         "id": "3000fb6b",
+         "id": "30010ec2",
          "settings": {
           "content_width": "full",
           "css_classes": "footer__col"
          },
          "elements": [
           {
+           "id": "3000c166",
+           "settings": {
+            "title": "<a href=\"/heating/\">Heating</a>",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
            "id": "3000d4bd",
+           "settings": {
+            "editor": "<ul><li><a href=\"/heating-installation/\">Heating Installation</a></li><li><a href=\"/heating-repair/\">Heating Repair</a></li><li><a href=\"/heating-maintenance/\">Heating Maintenance</a></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "3000e814",
+           "settings": {
+            "title": "Plans &amp; Savings",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "3000fb6b",
+           "settings": {
+            "editor": "<ul><li><a href=\"/maintenance-plan/\">Maintenance Plans</a></li><li><a href=\"/specials/\">Specials</a></li><li><a href=\"/financing/\">Financing</a></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "300148c7",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "footer__col"
+         },
+         "elements": [
+          {
+           "id": "30012219",
            "settings": {
             "title": "Company",
             "header_size": "h3"
@@ -171,9 +213,9 @@
            "elType": "widget"
           },
           {
-           "id": "3000e814",
+           "id": "30013570",
            "settings": {
-            "editor": "<ul><li><a href=\"/maintenance-plan/\">Maintenance Plans</a></li><li><a href=\"/specials/\">Specials</a></li><li><a href=\"/financing/\">Financing</a></li><li><a href=\"/service-areas/\">Service Areas</a></li><li><a href=\"/about-us/\">About Us</a></li><li><a href=\"/contact/\">Contact Us</a></li></ul>"
+            "editor": "<ul><li><a href=\"/about-us/\">About Us</a></li><li><a href=\"/meet-the-team/\">Meet the Team</a></li><li><a href=\"/hvac-jobs/\">Careers</a></li><li><a href=\"/community-outreach/\">Community Outreach</a></li><li><a href=\"/hello-iowa/\">Hello Iowa!</a></li><li><a href=\"/service-areas/\">Service Areas</a></li><li><a href=\"/urbandale/\">Urbandale</a></li><li><a href=\"/waukee/\">Waukee</a></li><li><a href=\"/contact/\">Contact Us</a></li></ul>"
            },
            "elements": [],
            "isInner": true,
@@ -189,9 +231,9 @@
        "elType": "container"
       },
       {
-       "id": "30012219",
+       "id": "30016f75",
        "settings": {
-        "html": "<div class=\"footer__bottom\"><span>© 2026 Lenz Heating &amp; Cooling</span><span class=\"sep\">·</span><span>BBB Accredited Business</span><span class=\"sep\">·</span><span>License #50871-CL</span><span class=\"sep\">·</span><a href=\"/privacy-policy/\">Privacy Policy</a><span class=\"sep\">·</span><a href=\"/terms/\">Terms &amp; Services</a></div>"
+        "html": "<div class=\"footer__bottom\"><span>© 2026 Lenz Heating &amp; Cooling</span><span class=\"sep\">·</span><span>BBB Accredited Business</span><span class=\"sep\">·</span><span>License #50871-CL</span></div>"
        },
        "elements": [],
        "isInner": true,

@@ -69,7 +69,7 @@
         {
          "id": "60003a05",
          "settings": {
-          "title": "<span class=\"accent\">About Lenz Heating &amp; Cooling</span>: Des Moines' Family-Owned HVAC Team",
+          "title": "<span class=\"accent\">About Lenz Heating &amp; Cooling</span>: Des Moines' <span class=\"lz-nw\">Family-Owned</span> HVAC Team",
           "header_size": "h1",
           "typography_font_size": {
            "unit": "custom",
@@ -180,7 +180,7 @@
         {
          "id": "6000c166",
          "settings": {
-          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Family-owned since 2009</b>Veteran-owned and woman-owned.</span></div>"
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b><span class=\"lz-nw\">Family-owned</span> since 2009</b><span class=\"lz-nw\">Veteran-owned</span> and <span class=\"lz-nw\">woman-owned</span>.</span></div>"
          },
          "elements": [],
          "isInner": true,
@@ -253,7 +253,7 @@
           {
            "id": "60010ec2",
            "settings": {
-            "editor": "Veteran-Owned &amp; Led",
+            "editor": "<span class=\"lz-nw\">Veteran-Owned</span> &amp; Led",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -286,7 +286,7 @@
           {
            "id": "600148c7",
            "settings": {
-            "editor": "Woman-Owned &amp; Operated",
+            "editor": "<span class=\"lz-nw\">Woman-Owned</span> &amp; Operated",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -647,7 +647,7 @@
           {
            "id": "60030598",
            "settings": {
-            "title": "To-the-Penny Pricing",
+            "title": "<span class=\"lz-nw\">To-the-Penny</span> Pricing",
             "header_size": "h3"
            },
            "elements": [],
@@ -1379,7 +1379,7 @@
           {
            "id": "6007b4aa",
            "settings": {
-            "editor": "Service Technicians &amp; Installation Experts",
+            "editor": "Lead Installation Expert",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -1424,7 +1424,7 @@
           {
            "id": "60080206",
            "settings": {
-            "editor": "Service Technicians &amp; Installation Experts",
+            "editor": "Service Technician",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -1469,7 +1469,7 @@
           {
            "id": "60084f62",
            "settings": {
-            "editor": "Service Technicians &amp; Installation Experts",
+            "editor": "Installation Expert",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -1514,7 +1514,7 @@
           {
            "id": "60089cbe",
            "settings": {
-            "editor": "Service Technicians &amp; Installation Experts",
+            "editor": "Installation Expert",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -1559,7 +1559,7 @@
           {
            "id": "6008ea1a",
            "settings": {
-            "editor": "Service Technicians &amp; Installation Experts",
+            "editor": "Installation Expert",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -1604,7 +1604,7 @@
           {
            "id": "60093776",
            "settings": {
-            "editor": "Service Technicians &amp; Installation Experts",
+            "editor": "Installation Expert",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -1649,7 +1649,7 @@
           {
            "id": "600984d2",
            "settings": {
-            "editor": "Service Technicians &amp; Installation Experts",
+            "editor": "Installation Expert",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -1694,7 +1694,7 @@
           {
            "id": "6009d22e",
            "settings": {
-            "editor": "Service Technicians &amp; Installation Experts",
+            "editor": "Installation Expert",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -1739,7 +1739,7 @@
           {
            "id": "600a1f8a",
            "settings": {
-            "editor": "Service Technicians &amp; Installation Experts",
+            "editor": "Installation Expert",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -1784,7 +1784,7 @@
           {
            "id": "600a6ce6",
            "settings": {
-            "editor": "Service Technicians &amp; Installation Experts",
+            "editor": "Installation Expert",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -1829,7 +1829,7 @@
           {
            "id": "600aba42",
            "settings": {
-            "editor": "Service Technicians &amp; Installation Experts",
+            "editor": "Installation Expert",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -1874,7 +1874,7 @@
           {
            "id": "600b079e",
            "settings": {
-            "editor": "Service Technicians &amp; Installation Experts",
+            "editor": "Service Technician",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -1942,7 +1942,7 @@
           {
            "id": "600b7ba8",
            "settings": {
-            "editor": "Office Assistants",
+            "editor": "Office Assistant / Marketing Specialist",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -1987,7 +1987,7 @@
           {
            "id": "600bc904",
            "settings": {
-            "editor": "Office Assistants",
+            "editor": "Office Assistant",
             "_css_classes": "person__role"
            },
            "elements": [],
@@ -2509,7 +2509,7 @@
           {
            "id": "600e8140",
            "settings": {
-            "title": "To-the-Penny Pricing &amp; Free Estimates",
+            "title": "<span class=\"lz-nw\">To-the-Penny</span> Pricing &amp; Free Estimates",
             "header_size": "h3"
            },
            "elements": [],
@@ -3508,7 +3508,7 @@
           {
            "id": "6013f1b8",
            "settings": {
-            "html": "<div class=\"area__cities\"><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Urbandale</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Des Moines</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>West Des Moines</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Waukee</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Ankeny</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Johnston</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Clive</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Grimes</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Altoona</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Norwalk</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Windsor Heights</span></div>"
+            "html": "<div class=\"area__cities\"><a class=\"area-chip area-chip--link\" href=\"/urbandale/\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Urbandale</a><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Des Moines</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>West Des Moines</span><a class=\"area-chip area-chip--link\" href=\"/waukee/\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Waukee</a><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Ankeny</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Johnston</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Clive</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Grimes</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Altoona</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Norwalk</span><span class=\"area-chip\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Windsor Heights</span></div>"
            },
            "elements": [],
            "isInner": true,
@@ -3679,7 +3679,7 @@
       {
        "id": "60153a7f",
        "settings": {
-        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">Is Lenz Heating &amp; Cooling licensed and insured? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p>Yes. Lenz Heating &amp; Cooling is fully licensed, bonded, and insured, operating under Iowa Master License #50871-CL. Founder Al Lenz holds his master license in HVAC, refrigeration, and hydronics.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">Who owns Lenz Heating &amp; Cooling? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p>Lenz is family-owned and operated by Al and Jenny Lenz. Al, a Marine Corps veteran, founded the company in 2009; Jenny co-owns and runs operations. It's veteran-owned and woman-owned.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">How long has Lenz been in business? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p>Since 2009 — more than 15 years serving the greater Des Moines metro. Founder Al Lenz brings over 26 years of hands-on HVAC experience.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">Are your technicians background-checked? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p>Yes. Every Lenz technician is background-checked and drug-tested, and we're a certified Drug-Free Workplace. Your safety and peace of mind come first.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">What areas does Lenz serve? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p>We serve Des Moines, West Des Moines, Urbandale, Clive, Ankeny, Altoona, Waukee, and surrounding Central Iowa communities from our Urbandale main office and Waukee location.</p></div></div></div>"
+        "html": "<div class=\"faq-list\"><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-1\" id=\"faq-1-t\">Is Lenz Heating &amp; Cooling licensed and insured? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-1\" role=\"region\" aria-labelledby=\"faq-1-t\"><p>Yes. Lenz Heating &amp; Cooling is fully licensed, bonded, and insured, operating under Iowa Master License #50871-CL. Founder Al Lenz holds his master license in HVAC, refrigeration, and hydronics.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-2\" id=\"faq-2-t\">Who owns Lenz Heating &amp; Cooling? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-2\" role=\"region\" aria-labelledby=\"faq-2-t\"><p>Lenz is family-owned and operated by Al and Jenny Lenz. Al, a Marine Corps veteran, founded the company in 2009; Jenny co-owns and runs operations. It's veteran-owned and woman-owned.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-3\" id=\"faq-3-t\">How long has Lenz been in business? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-3\" role=\"region\" aria-labelledby=\"faq-3-t\"><p>Since 2009 — more than 15 years serving the greater Des Moines metro. Founder Al Lenz brings over 26 years of hands-on HVAC experience.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-4\" id=\"faq-4-t\">Are your technicians <span class=\"lz-nw\">background-checked</span>? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-4\" role=\"region\" aria-labelledby=\"faq-4-t\"><p>Yes. Every Lenz technician is background-checked and drug-tested, and we're a certified Drug-Free Workplace. Your safety and peace of mind come first.</p></div></div><div class=\"faq\"><h3 style=\"margin:0\"><button class=\"faq__trigger\" aria-expanded=\"false\" aria-controls=\"faq-5\" id=\"faq-5-t\">What areas does Lenz serve? <svg class=\"faq__icon icon-sm\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></button></h3><div class=\"faq__panel\" id=\"faq-5\" role=\"region\" aria-labelledby=\"faq-5-t\"><p>We serve Des Moines, West Des Moines, Urbandale, Clive, Ankeny, Altoona, Waukee, and surrounding Central Iowa communities from our Urbandale main office and Waukee location.</p></div></div></div>"
        },
        "elements": [],
        "isInner": true,

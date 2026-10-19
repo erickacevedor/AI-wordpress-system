@@ -85,7 +85,7 @@ CAT = {
              "band": "No heat? We&apos;re ready right now.",
              "band_sub": "24/7 emergency heating service across the Des Moines metro since 2009."},
     "air": {"icon": "i-air", "label": "Indoor air quality", "hub": ("Indoor Air Quality", "indoor-air-quality"),
-            "card": "both", "band": "Questions about your air? We&apos;re here 24/7.",
+            "card": "air", "band": "Questions about your air? We&apos;re here 24/7.",
             "band_sub": "Local team, real people, across the Des Moines metro since 2009."},
     "extra": {"icon": "i-wrench", "label": "Additional services",
               "hub": ("Additional Services", "additional-services"), "card": "both",
@@ -255,7 +255,11 @@ def block_cards(page, sec, opt, fix):
     help_ = opt.get("help", ("Not sure what&apos;s wrong?",
                              "Tell us what you&apos;re hearing or feeling and we&apos;ll work it out."))
     if help_:
-        full = " symptom-help--full" if len(cards) % opt.get("cols", 3) == 0 else ""
+        cols = opt.get("cols", 3)
+        rem = len(cards) % cols                 # the tile fills what the last row leaves free
+        full = " symptom-help--full" if rem == 0 else (" symptom-help--one" if cols - rem == 1 else "")
+        if len(cards) % 2 == 0:                 # two-column band (600 to 903px): a row of its own
+            full += " symptom-help--wide2"
         cards.append(B.box("service-help symptom-help" + full, [
             B.box("service-help__txt", [B.heading(help_[0], "h4"), B.text("<p>%s</p>" % help_[1])]),
             B.raw('<a class="phone-link" href="%s">%s %s</a>' % (B.PHONE_TEL, B.PHONE, svg("i-arrow", "icon-sm"))),
@@ -374,7 +378,12 @@ def block_prose(page, sec, opt, fix):
     btns = _doc_buttons(sec["nodes"], opt)
     if btns:
         kids.append(B.box("section-cta", btns))
-    return B.section("section prose " + opt.get("bg", "") + " " + page["_cat"], [B.box("prose__inner", kids)],
+    inner = [B.box("prose__inner", kids)]
+    if opt.get("partners"):            # name + one line from the doc's own copy, as the doc note asks
+        cols = 2 if len(opt["partners"]) in (2, 4) else 3
+        inner.append(B.box("symptom-grid symptom-grid--%d partners" % cols, [
+            _card(ic, None, n, [d]) for ic, n, d in opt["partners"]]))
+    return B.section("section prose " + opt.get("bg", "") + " " + page["_cat"], inner,
                      el_id=opt.get("id"))
 
 
@@ -386,10 +395,17 @@ def block_promo(page, sec, opt, fix):
     href = _btn_href(btn, bnode.get("hint", "") if bnode else "", opt.get("links", {}))
     if "link" in opt:
         href = B.PHONE_TEL if opt["link"] == "tel" else (B.href(opt["link"]) or L["form"])
-    body = "".join("<p>%s</p>" % p for p in paras)
-    if lis:
-        body += '<ul class="checklist checklist--on-dark">%s</ul>' % "".join(
-            "<li>%s<span>%s</span></li>" % (svg("i-check", "icon-sm"), li) for li in lis)
+    body, run = "", []                 # doc order: list items grouped into one <ul> where they sit
+    for n in sec["nodes"] + [{"t": "end"}]:
+        if n["t"] == "li":
+            run.append(fix(n["text"]))
+            continue
+        if run:
+            body += '<ul class="checklist checklist--on-dark">%s</ul>' % "".join(
+                "<li>%s<span>%s</span></li>" % (svg("i-check", "icon-sm"), li) for li in run)
+            run = []
+        if n["t"] == "p":
+            body += "<p>%s</p>" % fix(n["text"])
     return B.section("section promo-section " + page["_cat"], [
         B.box("service-help promo", [
             B.box("service-help__txt promo__txt", [B.heading(fix(sec["title"]), "h2", "promo__title",
@@ -533,13 +549,17 @@ def _btn_href(label, hint, links):
     return L["form"]
 
 
+# Doc "buttons" that are really notes to the web team ("insert form here", "Review Slider").
+NOT_A_BUTTON = r"(?i)^insert |widget|slider|placeholder"
+
+
 def _doc_buttons(nodes, opt, primary="btn btn-primary", secondary="btn btn-outline"):
     out = []
     for n in nodes:
         if n["t"] != "button":
             continue
         for i, lab in enumerate(n["labels"]):
-            if re.search(r"(?i)^insert |widget|slider|placeholder", lab):
+            if re.search(NOT_A_BUTTON, lab):
                 continue
             href = _btn_href(lab, n.get("hint", ""), opt.get("links", {}))
             text = re.sub(r"\s*→\s*$", "", lab)
@@ -584,7 +604,8 @@ def _person(name, role, bio=None, dog=False, full=False):
             B.text(role, "person__role")]
     if bio:
         kids.append(B.text("<p>%s</p>" % bio, "person__bio"))
-    return B.box("person" + (" person--compact" if not (bio or full) else ""), kids, tag="article")
+    return B.box("person" + (" person--compact" if not (bio or full) else "")
+                 + (" person--nobio" if full and not bio else ""), kids, tag="article")
 
 
 def block_people(page, sec, opt, fix):
@@ -634,7 +655,9 @@ def block_roster(page, sec, opt, fix):
     for title, people in groups:
         if title:
             kids.append(B.heading(title, "h3", "roster__title"))
-        kids.append(B.box("people people--roster", [_person(n, r, dog=opt.get("dogs", False)) for n, r in people]))
+        roles = opt.get("roles", {})
+        kids.append(B.box("people people--roster", [_person(n, roles.get(n, r), dog=opt.get("dogs", False))
+                                                     for n, r in people]))
     btns = _doc_buttons(sec["nodes"], opt)
     if btns:
         kids.append(B.box("section-cta", btns))
@@ -780,8 +803,13 @@ def block_area(page, sec, opt, fix):
     lead, rest = (paras[0], paras[1:]) if paras else (None, [])
     label = next((re.sub(r"</?b>", "", p) for p in _paras(sec["nodes"], fix)
                   if re.sub(r"<[^>]+>", "", p).strip().endswith(":")), None)
+    def chip(c):
+        key = c.strip().lower().replace(" ", "-")
+        if key in ("urbandale", "waukee"):          # the two city pages
+            return '<a class="area-chip area-chip--link" href="%s">%s%s</a>' % (L[key], svg("i-pin", "icon-xs"), c)
+        return '<span class="area-chip">%s%s</span>' % (svg("i-pin", "icon-xs"), c)
     copy = ([B.text(label, "area__label")] if label else []) + [B.raw('<div class="area__cities">%s</div>' % "".join(
-        '<span class="area-chip">%s%s</span>' % (svg("i-pin", "icon-xs"), c) for c in cities))]
+        chip(c) for c in cities))]
     for p in rest:
         copy.append(B.raw('<p class="area__note">%s%s</p>' % (svg("i-info", "icon-sm"), p)))
     copy.append(B.raw('<p class="area__address">%s<a href="https://www.google.com/maps/dir/?api=1&amp;destination='
@@ -906,7 +934,7 @@ def _hero(page, doc, fix):
         B.box("hero__media", [
             B.image(img_key, img_alt),
             B.raw('<div class="hero__badge"><span class="hero__badge-icon">%s</span><span><b>%s</b>%s</span></div>'
-                  % (svg("i-clock", "icon"), badge_t, badge_s)),
+                  % (svg("i-clock", "icon"), B.nw(badge_t), B.nw(badge_s))),
         ]),
     ], box_classes="container hero__inner")
 
@@ -965,6 +993,9 @@ def build(page):
         sec["nodes"].append({"t": "h", "text": head})
         if body:
             sec["nodes"].append({"t": "p", "text": body})
+    for n in doc["hero"] + [x for sec in doc["sections"] for x in sec["nodes"]]:
+        if n["t"] == "p" and re.match(r"(?i)\s*(<b>)?\s*(web dev )?design note", n.get("text", "")):
+            n["t"] = "note"
     fix = Copy()
     c = CAT[page["cat"]]
     if "cat_label" in page:          # a company page, not a service family: the home's band
@@ -996,7 +1027,8 @@ def build(page):
             if not page.get("is_hub"):
                 S.append(_related(page))
             label = next((re.sub(r"\s*→\s*$", "", l) for n in sec["nodes"] if n["t"] == "button" for l in n["labels"]
-                          if not re.search(r"\(515\)|^call|widget|slider", l, re.I)), page["cta"])
+                          if not re.search(r"\(515\)|^call", l, re.I) and not re.search(NOT_A_BUTTON, l)),
+                         page["cta"])
             S.append(B.close_form(fix(sec["title"]), "".join("<p>%s</p>" % p for p in paras),
                                   button_text=label, preselect=page.get("form_preselect"),
                                   extra=page["_cat"]))

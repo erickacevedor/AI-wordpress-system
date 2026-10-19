@@ -129,3 +129,16 @@
 @media (min-width: 1024px) and (max-width: 1099px) {
   .elementor .nav__inner { gap: var(--space-3); }
 }
+
+/* ---- Hello Elementor table styles (QA 2026-10-19) --------------------------
+   The theme's reset gives every td/th a grey border and zebra rows; the
+   prototype's comparison tables have neither, and on phones (stacked cells,
+   no padding) the borders boxed every label and value. */
+.elementor .compare table,
+.elementor .compare th,
+.elementor .compare td { border: 0; }
+.elementor .compare tbody > tr > td,
+.elementor .compare tbody > tr > th { background-color: transparent; }
+
+/* Footer columns with two groups (QA 2026-10-19): space before the second title. */
+.elementor .footer__col .elementor-widget-text-editor + .elementor-widget-heading { margin-top: var(--space-8); }

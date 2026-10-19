@@ -190,7 +190,7 @@
         {
          "id": "4800d4bd",
          "settings": {
-          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Cleaner coils, fresher air</b>Upfront, To-the-Penny pricing.</span></div>"
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Cleaner coils, fresher air</b>Upfront, <span class=\"lz-nw\">To-the-Penny</span> pricing.</span></div>"
          },
          "elements": [],
          "isInner": true,
@@ -263,7 +263,7 @@
           {
            "id": "48012219",
            "settings": {
-            "editor": "HVAC-Mounted UV-C Protection",
+            "editor": "<span class=\"lz-nw\">HVAC-Mounted</span> <span class=\"lz-nw\">UV-C</span> Protection",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -296,7 +296,7 @@
           {
            "id": "48015c1e",
            "settings": {
-            "editor": "Targets Moisture-Prone Surfaces",
+            "editor": "Targets <span class=\"lz-nw\">Moisture-Prone</span> Surfaces",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -395,7 +395,7 @@
           {
            "id": "48020a2d",
            "settings": {
-            "editor": "Veteran-Led Local Service",
+            "editor": "<span class=\"lz-nw\">Veteran-Led</span> Local Service",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -902,7 +902,7 @@
           {
            "id": "4804af12",
            "settings": {
-            "title": "Whole-Home Comfort Goals",
+            "title": "<span class=\"lz-nw\">Whole-Home</span> Comfort Goals",
             "header_size": "h3"
            },
            "elements": [],
@@ -928,7 +928,7 @@
          "id": "48053673",
          "settings": {
           "content_width": "full",
-          "css_classes": "service-help symptom-help"
+          "css_classes": "service-help symptom-help symptom-help--one"
          },
          "elements": [
           {
@@ -1369,7 +1369,7 @@
           {
            "id": "480740a0",
            "settings": {
-            "title": "Build a Cleaner-Air Plan Around the Real Problem",
+            "title": "Build a <span class=\"lz-nw\">Cleaner-Air</span> Plan Around the Real Problem",
             "header_size": "h2",
             "typography_font_size": {
              "unit": "custom",
@@ -1397,7 +1397,7 @@
           {
            "id": "480753f7",
            "settings": {
-            "editor": "<p>Indoor air quality is rarely solved by one product alone. Dust, humidity, odors, allergens, and microbial concerns can come from different sources, so the right solution depends on the actual problem.</p><p>Lenz’s Breathe Easy Package includes:</p><p>Our team will not recommend UV light purification just because it is available. If another solution makes more sense, we will explain why. If UV light purification fits your concern, we will show you where it would be installed and how it supports your overall indoor air quality plan.</p><ul class=\"checklist checklist--on-dark\"><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Air Bear Complete filter system:</b> Helps capture dust, pollen, pet dander, and fine airborne particles before they recirculate.</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Patriot UV Light Purification:</b> Helps target certain biological pollutants on coils, drain pans, and moisture-prone HVAC surfaces.</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Professional Duct Cleaning:</b> Helps remove built-up dust and debris from ductwork when cleaning is appropriate.</span></li></ul>"
+            "editor": "<p>Indoor air quality is rarely solved by one product alone. Dust, humidity, odors, allergens, and microbial concerns can come from different sources, so the right solution depends on the actual problem.</p><p>Lenz’s Breathe Easy Package includes:</p><ul class=\"checklist checklist--on-dark\"><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Air Bear Complete filter system:</b> Helps capture dust, pollen, pet dander, and fine airborne particles before they recirculate.</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Patriot UV Light Purification:</b> Helps target certain biological pollutants on coils, drain pans, and moisture-prone HVAC surfaces.</span></li><li><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg><span><b>Professional Duct Cleaning:</b> Helps remove built-up dust and debris from ductwork when cleaning is appropriate.</span></li></ul><p>Our team will not recommend UV light purification just because it is available. If another solution makes more sense, we will explain why. If UV light purification fits your concern, we will show you where it would be installed and how it supports your overall indoor air quality plan.</p>"
            },
            "elements": [],
            "isInner": true,
@@ -1561,7 +1561,7 @@
           {
            "id": "4807db58",
            "settings": {
-            "title": "Upfront Flat-Rate Pricing",
+            "title": "Upfront <span class=\"lz-nw\">Flat-Rate</span> Pricing",
             "header_size": "h3"
            },
            "elements": [],
@@ -1605,7 +1605,7 @@
           {
            "id": "480828b4",
            "settings": {
-            "title": "Veteran &amp; Family-Led Values",
+            "title": "Veteran &amp; <span class=\"lz-nw\">Family-Led</span> Values",
             "header_size": "h3"
            },
            "elements": [],
@@ -1919,7 +1919,7 @@
             {
              "id": "480a1f8a",
              "settings": {
-              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-droplet\"/></svg></span>"
+              "html": "<span class=\"service-card__icon\" data-cat=\"air\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-droplet\"/></svg></span>"
              },
              "elements": [],
              "isInner": true,
@@ -1979,7 +1979,7 @@
             {
              "id": "480a803d",
              "settings": {
-              "html": "<span class=\"service-card__icon\" data-cat=\"both\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
+              "html": "<span class=\"service-card__icon\" data-cat=\"air\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg></span>"
              },
              "elements": [],
              "isInner": true,
@@ -1996,7 +1996,7 @@
               {
                "id": "480a9394",
                "settings": {
-                "title": "Indoor Purification",
+                "title": "Air Purification",
                 "header_size": "h4"
                },
                "elements": [],

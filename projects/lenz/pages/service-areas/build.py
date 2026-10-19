@@ -26,9 +26,12 @@ PAGE = {
     "hero_image": ("lenz-service-van-wrap-webp", "A Lenz Heating &amp; Cooling wrapped service van"),
     "badge": ("Two local offices", "Urbandale and Waukee."),
     
+    "doc_patches": [("810 Interstate Pkwy Suite 141", "810 Interstate Pkwy, Suite 141")],   # QA 2026-10-19
     # One entry per doc section, in doc order ("+x" adds a block without a doc section).
     "plan": [
-        ("locations", {"eyebrow": ("i-pin", "Two local offices")}),
+        ("locations", {"eyebrow": ("i-pin", "Two local offices"),
+                       "links": {"Get HVAC Service From Our Urbandale Team": "urbandale",
+                                 "Get HVAC Service From Our Waukee Team": "waukee"}}),
         ("area",),
         ("services", {"eyebrow": ("i-wrench", "Services near you"),
                       "links": ["air-conditioning", "heating", "indoor-air-quality", "additional-services", "tel"],

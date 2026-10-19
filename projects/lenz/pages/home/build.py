@@ -87,7 +87,7 @@ BANDS = [
      "advanced whole-home air purifiers to remove dust, allergens, and hot or cold spots.",
      [("both", "i-droplet", "Humidity Control", "Whole-home humidifiers and dehumidifiers.", "humidity-control"),
       ("both", "i-shield", "UV Light Purification", "Treat air as it moves through the system.", "uv-light-purification"),
-      ("both", "i-air", "Indoor Purification", "Filtration for dust, dander and allergens.", "indoor-purification"),
+      ("both", "i-air", "Air Purification", "Filtration for dust, dander and allergens.", "indoor-purification"),
       ("both", "i-wind", "Duct Cleaning", "Clear out built-up dust and debris.", "duct-cleaning")]),
     ("extra", "i-wrench", "Additional Services", "additional-services", "View All Additional Services",
      "Specialized home utility solutions that optimize your system&apos;s overall efficiency and "

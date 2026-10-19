@@ -13,6 +13,15 @@ import service_page  # noqa: E402
 
 B.reset(0x60000000)
 
+# The doc groups people under plural labels ("Service Technicians &amp; Installation Experts");
+# each card shows the person's own title, as Meet the Team does (its doc, plus ClickUp 86bbja6rr
+# for Will and Songwa and ClickUp 09/10 item 15 for Haley). QA 2026-10-19.
+ROLES = {"Gavin": "Lead Installation Expert", "Michael": "Service Technician", "Daniel": "Installation Expert",
+         "Matthew": "Installation Expert", "Joe": "Installation Expert", "Landon": "Installation Expert",
+         "Logan C": "Installation Expert", "Taidyn": "Installation Expert", "Wyatt": "Installation Expert",
+         "Camdon": "Installation Expert", "Will": "Installation Expert", "Songwa": "Service Technician",
+         "Haley": "Office Assistant / Marketing Specialist", "Sam": "Office Assistant"}
+
 PAGE = {
     "slug": "about-us",
     "source": os.path.join(HERE, "source.docx"),
@@ -39,7 +48,7 @@ PAGE = {
                              ("boldcards", {"eyebrow": ("i-shield", "Our values"), "cols": 4,
                                             "icons": ["i-shield", "i-card", "i-award", "i-check"]}),
                              ("people", {"eyebrow": ("i-award", "The owners"), "cols": 2})]}),
-        ("roster", {"eyebrow": ("i-award", "Our team"), "bg": "section--mist"}),
+        ("roster", {"eyebrow": ("i-award", "Our team"), "bg": "section--mist", "roles": ROLES}),
         ("roster", {"eyebrow": ("i-star", "Office dogs"), "role": "Office Dog", "dogs": True,
                     "links": {"Meet Our Team": "meet-the-team", "Join Our Team": "hvac-jobs"}}),
         ("why", {"icons": ["i-card", "i-clock", "i-shield"]}),

@@ -26,6 +26,7 @@ PAGE = {
     "hero_image": ("lenz-team-webp", "The Lenz Heating &amp; Cooling team standing in front of their service vans"),
     "badge": ("Local Waukee team", "24/7 emergency service."),
     
+    "doc_patches": [("810 Interstate Pkwy Suite 141", "810 Interstate Pkwy, Suite 141")],   # QA 2026-10-19
     # One entry per doc section, in doc order ("+x" adds a block without a doc section).
     "plan": [
         ("prose", {"eyebrow": ("i-pin", "Local service")}),

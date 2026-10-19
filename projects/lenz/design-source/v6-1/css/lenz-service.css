@@ -503,3 +503,66 @@
 /* Cards for services outside the current scope: same look, not clickable. */
 .service-card--static { cursor: default; }
 .service-card--static:hover { transform: none; box-shadow: none; }
+
+/* ===========================================================================
+   QA pass 2026-10-19 (lenz.mysites.io, 1440 / 1024 / 390). Fixes on top of the
+   approved design; each one names what it fixes.
+   =========================================================================== */
+
+/* Hyphenated words in headings, FAQ questions and badges stay whole
+   ("Flat-Rate", "No-Heat"), built as <span class="lz-nw"> by brand.nw(). */
+.lz-nw { white-space: nowrap; }
+
+/* "Not sure" tile: one column when two cards already share its row (5 cards on
+   three columns left the third column empty), and a row of its own on two
+   columns when the card count is even. */
+@media (min-width: 904px) { .symptom-help--one.service-help { grid-column: auto; } }
+@media (min-width: 600px) and (max-width: 903px) { .symptom-help--wide2.service-help { grid-column: 1 / -1; } }
+
+/* Indoor Air Quality family: related-service icons in the category purple (were gold). */
+.service-card__icon[data-cat="air"] { background: var(--purple-50); color: var(--purple-600); }
+
+/* Plan cards: the bottom swoop ran into the "Choose ..." buttons. */
+.plans__grid .plan { padding-bottom: 84px; }
+
+/* Buttons that wrap on phones: room between the two lines. */
+@media (max-width: 480px) {
+  .btn { line-height: 1.25; padding-block: var(--space-2); }
+}
+
+/* Arrow links that wrap: the arrow stays after the last word instead of
+   floating at the far edge. */
+@media (max-width: 767px) {
+  .reviews__micro a, .hub-svc__go { display: inline; text-wrap: balance; }
+  .reviews__micro a svg, .hub-svc__go svg { display: inline-block; vertical-align: middle; margin-left: 4px; }
+}
+
+/* Office addresses under the area map: one per line, pin on the first. */
+.area__address { display: grid; grid-template-columns: auto 1fr; column-gap: var(--space-2); row-gap: var(--space-1); align-items: center; }
+.area__address a { grid-column: 2; }
+.area__address .sep { display: none; }
+
+/* City chips that have their own page. */
+.area-chip--link { color: inherit; text-decoration: none; }
+.area-chip--link:hover { border-color: var(--blue-600); color: var(--blue-700); }
+
+/* Menu and footer group titles now link to the hub pages. */
+.mega__col-title a, .footer__col h3 a { color: inherit; text-decoration: none; }
+.mega__col-title a:hover, .footer__col h3 a:hover { text-decoration: underline; }
+
+/* Footer legal line on phones: stacked, no stray separators. */
+@media (max-width: 599px) {
+  .footer__bottom { flex-direction: column; gap: var(--space-1); }
+  .footer__bottom .sep { display: none; }
+}
+
+/* Team cards: two per row on phones (About had 23 cards in one column), and a
+   card with no bio keeps its own height instead of stretching to its neighbour. */
+@media (max-width: 599px) { .people--roster { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3); } }
+.person--nobio { align-self: start; }
+
+/* Five steps between 904 and 1099px were too narrow ("in" alone on a line). */
+@media (min-width: 904px) and (max-width: 1099px) { .steps--5 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+/* Partner cards under a prose section (Community Outreach). */
+.partners { margin-top: var(--space-8); }

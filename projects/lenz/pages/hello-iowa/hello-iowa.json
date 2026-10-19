@@ -330,7 +330,7 @@
           {
            "id": "66019623",
            "settings": {
-            "editor": "#50871-CL",
+            "editor": "#<span class=\"lz-nw\">50871-CL</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -363,7 +363,7 @@
           {
            "id": "6601d028",
            "settings": {
-            "editor": "Veteran &amp; Woman-Owned",
+            "editor": "Veteran &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -515,7 +515,7 @@
         {
          "id": "6602a4e5",
          "settings": {
-          "editor": "Catch our most recent broadcast on Hello Iowa! Below:",
+          "editor": "Catch our most recent Hello Iowa! broadcast below.",
           "_css_classes": "section__lead"
          },
          "elements": [],
@@ -712,7 +712,7 @@
           {
            "id": "6603664b",
            "settings": {
-            "title": "Veteran-Owned &amp; Woman-Owned",
+            "title": "<span class=\"lz-nw\">Veteran-Owned</span> &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "header_size": "h3"
            },
            "elements": [],
@@ -885,7 +885,7 @@
           {
            "id": "6604d5c0",
            "settings": {
-            "title": "Ready to Put Our TV-Featured Advice to Work in Your Home?",
+            "title": "Ready to Put Our <span class=\"lz-nw\">TV-Featured</span> Advice to Work in Your Home?",
             "header_size": "h2",
             "typography_font_size": {
              "unit": "custom",

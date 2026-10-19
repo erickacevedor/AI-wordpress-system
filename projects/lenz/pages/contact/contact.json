@@ -180,7 +180,7 @@
         {
          "id": "6200c166",
          "settings": {
-          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Open 24 hours</b>Call (515) 225-6446 for urgent help.</span></div>"
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Open 24 hours</b>Call (515) <span class=\"lz-nw\">225-6446</span> for urgent help.</span></div>"
          },
          "elements": [],
          "isInner": true,
@@ -319,7 +319,7 @@
           {
            "id": "620182cc",
            "settings": {
-            "editor": "#50871-CL",
+            "editor": "#<span class=\"lz-nw\">50871-CL</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -352,7 +352,7 @@
           {
            "id": "6201bcd1",
            "settings": {
-            "editor": "Veteran &amp; Woman-Owned",
+            "editor": "Veteran &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -741,7 +741,7 @@
             ],
             "show_labels": "yes",
             "mark_required": "yes",
-            "button_text": "insert form here",
+            "button_text": "Book Online",
             "button_width": "100",
             "button_text_color": "#121212",
             "button_hover_color": "#121212",

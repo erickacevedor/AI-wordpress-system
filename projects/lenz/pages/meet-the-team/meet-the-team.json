@@ -180,7 +180,7 @@
         {
          "id": "6100c166",
          "settings": {
-          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b>Background-checked &amp; drug-tested</b>The same people who show up at your door.</span></div>"
+          "html": "<div class=\"hero__badge\"><span class=\"hero__badge-icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-clock\"/></svg></span><span><b><span class=\"lz-nw\">Background-checked</span> &amp; <span class=\"lz-nw\">drug-tested</span></b>The same people who show up at your door.</span></div>"
          },
          "elements": [],
          "isInner": true,
@@ -253,7 +253,7 @@
           {
            "id": "61010ec2",
            "settings": {
-            "editor": "Background-Checked &amp; Drug-Tested",
+            "editor": "<span class=\"lz-nw\">Background-Checked</span> &amp; <span class=\"lz-nw\">Drug-Tested</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -297,7 +297,7 @@
           {
            "id": "61015c1e",
            "settings": {
-            "editor": "Veteran-Owned &amp; Woman-Owned",
+            "editor": "<span class=\"lz-nw\">Veteran-Owned</span> &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -1656,7 +1656,7 @@
          "settings": {
           "content_width": "full",
           "html_tag": "article",
-          "css_classes": "person"
+          "css_classes": "person person--nobio"
          },
          "elements": [
           {
@@ -1833,7 +1833,7 @@
           {
            "id": "610a803d",
            "settings": {
-            "editor": "Office Assistant",
+            "editor": "Office Assistant / Marketing Specialist",
             "_css_classes": "person__role"
            },
            "elements": [],

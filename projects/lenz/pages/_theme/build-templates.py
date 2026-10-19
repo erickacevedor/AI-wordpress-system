@@ -54,11 +54,12 @@ offer = B.section("offer-bar", [
 ], box_classes="offer-bar__inner", tag="div", el_id="offer-bar", label="Financing options")
 offer["settings"]["_attributes"] = "aria-label|Financing options\ndata-season|financing"
 
+# Column titles link to the hub pages (QA 2026-10-19: the hubs had no way in from the menu).
 mega_cols = "".join(
-    '<div class="mega__col"><p class="mega__col-title" id="mega-c%d">%s</p>'
+    '<div class="mega__col"><p class="mega__col-title" id="mega-c%d"><a href="%s">%s</a></p>'
     '<ul class="mega__list" aria-labelledby="mega-c%d">%s</ul></div>'
-    % (i, title, i, "".join('<li><a href="%s">%s</a></li>' % (L[k], n) for n, k in items))
-    for i, (title, _hub, items) in enumerate(SERVICES, 1))
+    % (i, L[hub], title, i, "".join('<li><a href="%s">%s</a></li>' % (L[k], n) for n, k in items))
+    for i, (title, hub, items) in enumerate(SERVICES, 1))
 
 nav_links = (
     '<nav class="nav__links" aria-label="Primary"><div class="nav__item nav__item--mega">'
@@ -86,8 +87,9 @@ m_groups = "".join(
     '<div class="m-acc__head"><button class="m-acc__trigger" aria-expanded="false" aria-controls="m-acc-%d">'
     '%s %s</button></div><div class="m-group__sub" id="m-acc-%d" hidden>%s</div>'
     % (i, title, svg("i-plus", "icon-sm m-acc__icon"), i,
+       '<a href="%s">All %s Services</a>' % (L[hub], title) +
        "".join('<a href="%s">%s</a>' % (L[k], n) for n, k in items))
-    for i, (title, _hub, items) in enumerate(SERVICES, 1))
+    for i, (title, hub, items) in enumerate(SERVICES, 1))
 mobile = B.section("lz-mobile-menu-host", [
     B.raw('<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu">'
           '<div class="container"><div class="mobile-menu__head"><span class="nav__logo-mark">'
@@ -117,6 +119,25 @@ def links_list(items):
     return "<ul>%s</ul>" % "".join('<li><a href="%s">%s</a></li>' % (L[k], n) for n, k in items)
 
 
+def col(*groups):
+    """A footer column with one or more (title, hub, links) groups; the title links to the hub."""
+    kids = []
+    for title, hub, items in groups:
+        kids += [B.heading('<a href="%s">%s</a>' % (L[hub], title) if hub else title, "h3"),
+                 B.text(links_list(items))]
+    return B.box("footer__col", kids)
+
+
+# QA 2026-10-19: Indoor Air Quality and the company pages (Meet the Team, Careers, Community
+# Outreach, Hello Iowa, the two city pages) had no link in the footer; Privacy Policy and Terms
+# are out until their pages exist (Erick).
+PLANS_NAV = [("Maintenance Plans", "maintenance-plans"), ("Specials", "specials"), ("Financing", "financing")]
+COMPANY_NAV = [("About Us", "about"), ("Meet the Team", "meet-the-team"), ("Careers", "hvac-jobs"),
+               ("Community Outreach", "community-outreach"), ("Hello Iowa!", "hello-iowa"),
+               ("Service Areas", "service-areas"), ("Urbandale", "urbandale"), ("Waukee", "waukee"),
+               ("Contact Us", "contact")]
+
+
 footer = B.section("footer", [
     B.box("footer__grid", [
         B.box("", [
@@ -128,14 +149,12 @@ footer = B.section("footer", [
                   % (svg("i-pin", "icon-sm"), svg("i-phone", "icon-sm"), PHONE_TEL, PHONE,
                      svg("i-mail", "icon-sm"), EMAIL, EMAIL, svg("i-clock", "icon-sm"))),
         ]),
-        B.box("footer__col", [B.heading("Air Conditioning", "h3"), B.text(links_list(SERVICES[0][2]))]),
-        B.box("footer__col", [B.heading("Heating", "h3"), B.text(links_list(SERVICES[1][2]))]),
-        B.box("footer__col", [B.heading("Company", "h3"), B.text(links_list(NAV))]),
+        col(SERVICES[0], SERVICES[2]),
+        col(SERVICES[1], ("Plans &amp; Savings", None, PLANS_NAV)),
+        col(("Company", None, COMPANY_NAV)),
     ]),
     B.raw('<div class="footer__bottom"><span>© 2026 Lenz Heating &amp; Cooling</span><span class="sep">·</span>'
-          '<span>BBB Accredited Business</span><span class="sep">·</span><span>License #50871-CL</span>'
-          '<span class="sep">·</span><a href="%s">Privacy Policy</a><span class="sep">·</span>'
-          '<a href="%s">Terms &amp; Services</a></div>' % (L["privacy"], L["terms"])),
+          '<span>BBB Accredited Business</span><span class="sep">·</span><span>License #50871-CL</span></div>'),
 ], tag="footer", label="Site footer")
 
 write("footer", [footer], "Lenz Footer (v6-1)")

@@ -329,7 +329,7 @@
           {
            "id": "43019623",
            "settings": {
-            "editor": "#50871-CL",
+            "editor": "#<span class=\"lz-nw\">50871-CL</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -362,7 +362,7 @@
           {
            "id": "4301d028",
            "settings": {
-            "editor": "Veteran &amp; Woman-Owned",
+            "editor": "Veteran &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -960,7 +960,7 @@
          "id": "430583cf",
          "settings": {
           "content_width": "full",
-          "css_classes": "service-help symptom-help symptom-help--full"
+          "css_classes": "service-help symptom-help symptom-help--full symptom-help--wide2"
          },
          "elements": [
           {

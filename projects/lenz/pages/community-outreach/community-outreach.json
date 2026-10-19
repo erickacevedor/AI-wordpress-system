@@ -319,7 +319,7 @@
           {
            "id": "670182cc",
            "settings": {
-            "editor": "#50871-CL",
+            "editor": "#<span class=\"lz-nw\">50871-CL</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -352,7 +352,7 @@
           {
            "id": "6701bcd1",
            "settings": {
-            "editor": "Veteran &amp; Woman-Owned",
+            "editor": "Veteran &amp; <span class=\"lz-nw\">Woman-Owned</span>",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -646,7 +646,7 @@
    "elType": "container"
   },
   {
-   "id": "6703c6fe",
+   "id": "67050fc5",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -654,7 +654,7 @@
    },
    "elements": [
     {
-     "id": "6703b3a7",
+     "id": "6704fc6e",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -729,7 +729,7 @@
         {
          "id": "67038cf9",
          "settings": {
-          "editor": "<p>Lenz Heating &amp; Cooling values opportunities to support young people, school programs, and family-centered activities throughout the communities we serve.</p><p>We are proud to sponsor local youth sports programs, including <b>UGRA 12U J-Hawks Softball</b> and <b>DCG Youth Flag Football</b>. Supporting youth teams gives us a chance to encourage teamwork, community pride, and family involvement beyond the work we do in homes.</p><p>We also support the <b>Creston Booster Club</b> through direct donations and fun halftime giveaways at Creston High School Basketball games.</p><p>Lenz Heating &amp; Cooling also works closely with the <b>Saint Malachy SCRIP Program</b>, which helps raise money for Saint Malachy School through gift card donations. The program also works with individual Creston residents to help cover HVAC costs, with a percentage of those costs going back to the school, specifically toward student tuition accounts. Lenz also participates in the annual Saint Malachy SCRIP Auction.</p><p><b>Web Dev Design note:</b> Use this section for a clean partner-card or logo layout. Each card should include the organization name, a short description, and a link if available.</p>",
+          "editor": "<p>Lenz Heating &amp; Cooling values opportunities to support young people, school programs, and family-centered activities throughout the communities we serve.</p><p>We are proud to sponsor local youth sports programs, including <b>UGRA 12U J-Hawks Softball</b> and <b>DCG Youth Flag Football</b>. Supporting youth teams gives us a chance to encourage teamwork, community pride, and family involvement beyond the work we do in homes.</p><p>We also support the <b>Creston Booster Club</b> through direct donations and fun halftime giveaways at Creston High School Basketball games.</p><p>Lenz Heating &amp; Cooling also works closely with the <b>Saint Malachy SCRIP Program</b>, which helps raise money for Saint Malachy School through gift card donations. The program also works with individual Creston residents to help cover HVAC costs, with a percentage of those costs going back to the school, specifically toward student tuition accounts. Lenz also participates in the annual Saint Malachy SCRIP Auction.</p>",
           "_css_classes": "prose__body"
          },
          "elements": [],
@@ -740,233 +740,180 @@
        ],
        "isInner": true,
        "elType": "container"
-      }
-     ],
-     "isInner": true,
-     "elType": "container"
-    }
-   ],
-   "isInner": false,
-   "elType": "container"
-  },
-  {
-   "id": "67043b08",
-   "settings": {
-    "content_width": "full",
-    "html_tag": "section",
-    "css_classes": "section prose  svc-page svc-page--cool e-no-lazyload"
-   },
-   "elements": [
-    {
-     "id": "670427b1",
-     "settings": {
-      "content_width": "boxed",
-      "boxed_width": {
-       "unit": "px",
-       "size": 1140,
-       "sizes": []
       },
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": true
-      },
-      "padding_mobile": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": true
-      },
-      "css_classes": "container"
-     },
-     "elements": [
       {
-       "id": "6704145a",
+       "id": "6704e917",
        "settings": {
         "content_width": "full",
-        "css_classes": "prose__inner"
+        "css_classes": "symptom-grid symptom-grid--2 partners"
        },
        "elements": [
-        {
-         "id": "6703da55",
-         "settings": {
-          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg> Local partnerships</span>"
-         },
-         "elements": [],
-         "isInner": true,
-         "widgetType": "html",
-         "elType": "widget"
-        },
         {
          "id": "6703edac",
          "settings": {
-          "title": "Growing Stronger Through Local Partnerships",
-          "header_size": "h2",
-          "typography_font_size": {
-           "unit": "custom",
-           "size": "var(--text-2xl)",
-           "sizes": []
-          },
-          "typography_font_size_tablet": {
-           "unit": "custom",
-           "size": "var(--text-2xl)",
-           "sizes": []
-          },
-          "typography_font_size_mobile": {
-           "unit": "custom",
-           "size": "var(--text-2xl)",
-           "sizes": []
-          },
-          "typography_typography": "custom",
-          "_css_classes": "section__title"
-         },
-         "elements": [],
-         "isInner": true,
-         "widgetType": "heading",
-         "elType": "widget"
-        },
-        {
-         "id": "67040103",
-         "settings": {
-          "editor": "<p>Strong communities are built through local relationships. Lenz Heating &amp; Cooling is proud to stay connected with organizations, businesses, and community groups that help Central Iowa grow.</p><p>We are proud members of the <b>Urbandale Chamber of Commerce</b> and the <b>Creston Chamber of Commerce</b>. These relationships help us stay involved with local business owners, community leaders, and the people who make our service areas feel like home.</p><p><b>Web Dev Design note:</b> Use this section for a clean partner-card or logo layout. Each card should include the organization name, a short description, and a link if available.</p>",
-          "_css_classes": "prose__body"
-         },
-         "elements": [],
-         "isInner": true,
-         "widgetType": "text-editor",
-         "elType": "widget"
-        }
-       ],
-       "isInner": true,
-       "elType": "container"
-      }
-     ],
-     "isInner": true,
-     "elType": "container"
-    }
-   ],
-   "isInner": false,
-   "elType": "container"
-  },
-  {
-   "id": "6704d5c0",
-   "settings": {
-    "content_width": "full",
-    "html_tag": "section",
-    "css_classes": "section prose section--mist svc-page svc-page--cool e-no-lazyload"
-   },
-   "elements": [
-    {
-     "id": "6704c269",
-     "settings": {
-      "content_width": "boxed",
-      "boxed_width": {
-       "unit": "px",
-       "size": 1140,
-       "sizes": []
-      },
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": true
-      },
-      "padding_mobile": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": true
-      },
-      "css_classes": "container"
-     },
-     "elements": [
-      {
-       "id": "6704af12",
-       "settings": {
-        "content_width": "full",
-        "css_classes": "prose__inner"
-       },
-       "elements": [
-        {
-         "id": "67044e5f",
-         "settings": {
-          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Local businesses</span>"
-         },
-         "elements": [],
-         "isInner": true,
-         "widgetType": "html",
-         "elType": "widget"
-        },
-        {
-         "id": "670461b6",
-         "settings": {
-          "title": "Celebrating Local Businesses and Neighbors",
-          "header_size": "h2",
-          "typography_font_size": {
-           "unit": "custom",
-           "size": "var(--text-2xl)",
-           "sizes": []
-          },
-          "typography_font_size_tablet": {
-           "unit": "custom",
-           "size": "var(--text-2xl)",
-           "sizes": []
-          },
-          "typography_font_size_mobile": {
-           "unit": "custom",
-           "size": "var(--text-2xl)",
-           "sizes": []
-          },
-          "typography_typography": "custom",
-          "_css_classes": "section__title"
-         },
-         "elements": [],
-         "isInner": true,
-         "widgetType": "heading",
-         "elType": "widget"
-        },
-        {
-         "id": "6704750d",
-         "settings": {
-          "editor": "<p>Central Iowa has given Lenz Heating &amp; Cooling an incredible amount of support, and #WinningWednesday is one way we give back.</p><p>Through these weekly giveaways, we provide opportunities for community members to win special prizes while also helping promote local small businesses. When possible, we partner with business owners who donate toward the giveaway, and in return, we help spotlight their business through our Facebook page.</p><p>It is a simple way to celebrate local support, introduce neighbors to small businesses, and keep community connection fun.</p>",
-          "_css_classes": "prose__body"
-         },
-         "elements": [],
-         "isInner": true,
-         "widgetType": "text-editor",
-         "elType": "widget"
-        },
-        {
-         "id": "67049bbb",
-         "settings": {
           "content_width": "full",
-          "css_classes": "section-cta"
+          "html_tag": "article",
+          "css_classes": "symptom"
          },
          "elements": [
           {
-           "id": "67048864",
+           "id": "6703b3a7",
            "settings": {
-            "text": "Follow Lenz on Facebook",
-            "link": {
-             "url": "https://www.facebook.com/lenzheatingandcooling/",
-             "is_external": "on",
-             "nofollow": "",
-             "custom_attributes": ""
-            },
-            "_css_classes": "btn btn-primary"
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg></span>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "button",
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6703c6fe",
+           "settings": {
+            "title": "UGRA 12U <span class=\"lz-nw\">J-Hawks</span> Softball",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6703da55",
+           "settings": {
+            "editor": "<p>Local youth softball we are proud to sponsor.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "67043b08",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "67040103",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-star\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6704145a",
+           "settings": {
+            "title": "DCG Youth Flag Football",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "670427b1",
+           "settings": {
+            "editor": "<p>Local youth flag football we are proud to sponsor.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "67048864",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "67044e5f",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "670461b6",
+           "settings": {
+            "title": "Creston Booster Club",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6704750d",
+           "settings": {
+            "editor": "<p>Direct donations and halftime giveaways at Creston High School Basketball games.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6704d5c0",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "67049bbb",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6704af12",
+           "settings": {
+            "title": "Saint Malachy SCRIP Program",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6704c269",
+           "settings": {
+            "editor": "<p>Gift card donations that raise money for Saint Malachy School, plus the annual SCRIP Auction.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -986,7 +933,7 @@
    "elType": "container"
   },
   {
-   "id": "670583cf",
+   "id": "670631de",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -994,7 +941,7 @@
    },
    "elements": [
     {
-     "id": "67057078",
+     "id": "67061e87",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1029,7 +976,340 @@
        },
        "elements": [
         {
-         "id": "6704e917",
+         "id": "6705231c",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg> Local partnerships</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "67053673",
+         "settings": {
+          "title": "Growing Stronger Through Local Partnerships",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "670549ca",
+         "settings": {
+          "editor": "<p>Strong communities are built through local relationships. Lenz Heating &amp; Cooling is proud to stay connected with organizations, businesses, and community groups that help Central Iowa grow.</p><p>We are proud members of the <b>Urbandale Chamber of Commerce</b> and the <b>Creston Chamber of Commerce</b>. These relationships help us stay involved with local business owners, community leaders, and the people who make our service areas feel like home.</p>",
+          "_css_classes": "prose__body"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "67060b30",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "symptom-grid symptom-grid--2 partners"
+       },
+       "elements": [
+        {
+         "id": "6705aa7d",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "67057078",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "670583cf",
+           "settings": {
+            "title": "Urbandale Chamber of Commerce",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "67059726",
+           "settings": {
+            "editor": "<p>Proud members, connected with local business owners and community leaders.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "6705f7d9",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "article",
+          "css_classes": "symptom"
+         },
+         "elements": [
+          {
+           "id": "6705bdd4",
+           "settings": {
+            "html": "<span class=\"symptom__icon\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-shield\"/></svg></span>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "6705d12b",
+           "settings": {
+            "title": "Creston Chamber of Commerce",
+            "header_size": "h3"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "6705e482",
+           "settings": {
+            "editor": "<p>Proud members, connected with local business owners and community leaders.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "6706cc96",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section prose section--mist svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6706b93f",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "6706a5e8",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "prose__inner"
+       },
+       "elements": [
+        {
+         "id": "67064535",
+         "settings": {
+          "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-award\"/></svg> Local businesses</span>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "6706588c",
+         "settings": {
+          "title": "Celebrating Local Businesses and Neighbors",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "var(--text-2xl)",
+           "sizes": []
+          },
+          "typography_typography": "custom",
+          "_css_classes": "section__title"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "67066be3",
+         "settings": {
+          "editor": "<p>Central Iowa has given Lenz Heating &amp; Cooling an incredible amount of support, and #WinningWednesday is one way we give back.</p><p>Through these weekly giveaways, we provide opportunities for community members to win special prizes while also helping promote local small businesses. When possible, we partner with business owners who donate toward the giveaway, and in return, we help spotlight their business through our Facebook page.</p><p>It is a simple way to celebrate local support, introduce neighbors to small businesses, and keep community connection fun.</p>",
+          "_css_classes": "prose__body"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "67069291",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "section-cta"
+         },
+         "elements": [
+          {
+           "id": "67067f3a",
+           "settings": {
+            "text": "Follow Lenz on Facebook",
+            "link": {
+             "url": "https://www.facebook.com/lenzheatingandcooling/",
+             "is_external": "on",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-primary"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "67077aa5",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "section prose  svc-page svc-page--cool e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "6707674e",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1140,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "container"
+     },
+     "elements": [
+      {
+       "id": "670753f7",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "prose__inner"
+       },
+       "elements": [
+        {
+         "id": "6706dfed",
          "settings": {
           "html": "<span class=\"eyebrow\"><svg class=\"icon-xs\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg> Our values</span>"
          },
@@ -1039,7 +1319,7 @@
          "elType": "widget"
         },
         {
-         "id": "6704fc6e",
+         "id": "6706f344",
          "settings": {
           "title": "The Values We Bring Into Every Home",
           "header_size": "h2",
@@ -1067,7 +1347,7 @@
          "elType": "widget"
         },
         {
-         "id": "67050fc5",
+         "id": "6707069b",
          "settings": {
           "editor": "<p>Community outreach and HVAC service may look different, but they are built on the same values: honesty, care, follow-through, and respect for the people we serve.</p><p>When homeowners call Lenz Heating &amp; Cooling, they can expect clear communication, practical recommendations, and service focused on doing the right thing.</p>",
           "_css_classes": "prose__body"
@@ -1078,14 +1358,14 @@
          "elType": "widget"
         },
         {
-         "id": "670549ca",
+         "id": "670740a0",
          "settings": {
           "content_width": "full",
           "css_classes": "section-cta"
          },
          "elements": [
           {
-           "id": "6705231c",
+           "id": "670719f2",
            "settings": {
             "text": "Explore HVAC Services",
             "link": {
@@ -1102,7 +1382,7 @@
            "elType": "widget"
           },
           {
-           "id": "67053673",
+           "id": "67072d49",
            "settings": {
             "text": "Schedule Service Online",
             "link": {
@@ -1135,7 +1415,7 @@
    "elType": "container"
   },
   {
-   "id": "67064535",
+   "id": "67083c0b",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1144,7 +1424,7 @@
    },
    "elements": [
     {
-     "id": "670631de",
+     "id": "670828b4",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1172,20 +1452,20 @@
      },
      "elements": [
       {
-       "id": "67061e87",
+       "id": "6708155d",
        "settings": {
         "content_width": "full",
         "css_classes": "close-form__inner"
        },
        "elements": [
         {
-         "id": "6705e482",
+         "id": "6707db58",
          "settings": {
           "content_width": "full"
          },
          "elements": [
           {
-           "id": "6705aa7d",
+           "id": "6707a153",
            "settings": {
             "title": "Let’s Stay Connected",
             "header_size": "h2",
@@ -1212,7 +1492,7 @@
            "elType": "widget"
           },
           {
-           "id": "6705bdd4",
+           "id": "6707b4aa",
            "settings": {
             "editor": "<p>Whether you are a local organization interested in connecting, a homeowner looking for help, or a neighbor who wants to follow along with our latest community programs, Lenz Heating &amp; Cooling would be glad to hear from you.</p><p>We are proud to serve Central Iowa, and we are grateful for the chance to give back to the communities that have supported us.</p>",
             "_css_classes": "close-form__lead"
@@ -1223,7 +1503,7 @@
            "elType": "widget"
           },
           {
-           "id": "6705d12b",
+           "id": "6707c801",
            "settings": {
             "html": "<div class=\"close-form__alt\"><a class=\"phone-link\" href=\"tel:+15152256446\"><svg class=\"icon-sm\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(515) 225-6446</a><small>Open 24 hours · Serving the Des Moines metro</small></div>"
            },
@@ -1237,14 +1517,14 @@
          "elType": "container"
         },
         {
-         "id": "67060b30",
+         "id": "67080206",
          "settings": {
           "content_width": "full",
           "css_classes": "form-card"
          },
          "elements": [
           {
-           "id": "67059726",
+           "id": "67078dfc",
            "settings": {
             "form_name": "Estimate request",
             "form_fields": [
@@ -1314,7 +1594,7 @@
            "elType": "widget"
           },
           {
-           "id": "6705f7d9",
+           "id": "6707eeaf",
            "settings": {
             "html": "<p class=\"form-note\">We&apos;ll call you back within 2 hours during business hours.</p><div class=\"form-status\" role=\"status\" aria-live=\"polite\"></div>"
            },

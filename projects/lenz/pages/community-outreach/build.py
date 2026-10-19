@@ -31,8 +31,16 @@ PAGE = {
     "plan": [
         ("prose", {"eyebrow": ("i-award", "Rooted in service")}),
         ("promo", {"link": "tel", "button": "Ask About Operation Lenz a Helping Hand"}),
-        ("prose", {"eyebrow": ("i-star", "Students, teams &amp; families"), "bg": "section--mist"}),
-        ("prose", {"eyebrow": ("i-shield", "Local partnerships")}),
+        # The doc's "Web Dev Design note" asks for partner cards (name, short description, link if
+        # available). Names and lines come from the section's own copy; no links were supplied.
+        ("prose", {"eyebrow": ("i-star", "Students, teams &amp; families"), "bg": "section--mist", "partners": [
+            ("i-star", "UGRA 12U J-Hawks Softball", "Local youth softball we are proud to sponsor."),
+            ("i-star", "DCG Youth Flag Football", "Local youth flag football we are proud to sponsor."),
+            ("i-award", "Creston Booster Club", "Direct donations and halftime giveaways at Creston High School Basketball games."),
+            ("i-check", "Saint Malachy SCRIP Program", "Gift card donations that raise money for Saint Malachy School, plus the annual SCRIP Auction.")]}),
+        ("prose", {"eyebrow": ("i-shield", "Local partnerships"), "partners": [
+            ("i-shield", "Urbandale Chamber of Commerce", "Proud members, connected with local business owners and community leaders."),
+            ("i-shield", "Creston Chamber of Commerce", "Proud members, connected with local business owners and community leaders.")]}),
         ("prose", {"eyebrow": ("i-award", "Local businesses"), "bg": "section--mist", "links": {"Follow Lenz on Facebook": "facebook"}}),
         ("prose", {"eyebrow": ("i-check", "Our values"), "links": {"Explore HVAC Services": "/#services"}}),
         ("close",),

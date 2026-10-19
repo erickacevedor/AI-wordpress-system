@@ -30,6 +30,8 @@ PAGE = {
     # Songwa has no bio yet (Sierra did not send one): the card shows name and title only.
     "add_items": [("Service &amp; Installation Team", "Will — Installation Expert", "Will is originally from Adel, he grew up in the community and continues to call Adel home today. He attended ADM High School. He joined the Lenz team in July of 2026. Will comes from a family of four, his mom, dad, and a sister. When Will isn't working, you can usually find him staying active at the gym, spending time outdoors fishing, or enjoying one of his favorite hobbies, riding his motorcycle. He chose to work for Lenz because of the great things he had heard about the company, the team, and the reputation Lenz has built in the community."),
                   ("Service &amp; Installation Team", "Songwa — Service Technician", "")],
+    # ClickUp 09/10 item 15: Haley's title is "Office Assistant / Marketing Specialist".
+    "doc_patches": [("Haley — Office Assistant", "Haley — Office Assistant / Marketing Specialist")],
     # One entry per doc section, in doc order ("+x" adds a block without a doc section).
     "plan": [
         ("people", {"eyebrow": ("i-award", "Ownership"), "cols": 2}),

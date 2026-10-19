@@ -296,7 +296,7 @@
           {
            "id": "44015c1e",
            "settings": {
-            "editor": "Right-Sized Comfort",
+            "editor": "<span class=\"lz-nw\">Right-Sized</span> Comfort",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -362,7 +362,7 @@
           {
            "id": "4401d028",
            "settings": {
-            "editor": "Veteran-Led Local Team",
+            "editor": "<span class=\"lz-nw\">Veteran-Led</span> Local Team",
             "_css_classes": "trustbar__value"
            },
            "elements": [],
@@ -1387,7 +1387,7 @@
           {
            "id": "4406f344",
            "settings": {
-            "title": "Veteran-Led &amp; Family-Owned",
+            "title": "<span class=\"lz-nw\">Veteran-Led</span> &amp; <span class=\"lz-nw\">Family-Owned</span>",
             "header_size": "h3"
            },
            "elements": [],
@@ -2284,7 +2284,7 @@
               "width": "100",
               "placeholder": "",
               "field_options": "Choose a service…|\nAir Conditioning\nAC Installation\nAC Repair\nAC Replacement\nFurnace & Heating\nHeat Pumps\nDuctwork\nDuct Cleaning\nIndoor Air Quality\nWater Heater Installation\nMaintenance",
-              "field_value": "Furnace & Heating"
+              "field_value": "Furnace &amp; Heating"
              }
             ],
             "show_labels": "yes",
