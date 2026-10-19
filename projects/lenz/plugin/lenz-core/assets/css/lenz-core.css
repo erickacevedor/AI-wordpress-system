@@ -3022,6 +3022,11 @@ body.menu-open {
   padding-bottom: 150px;
 }
 }
+@media (min-width: 600px) {
+.elementor .financing__panel {
+  padding-bottom: 170px;
+}
+}
 
 /* ============================================================================
    HAND-WRITTEN OVERRIDES (come last in lenz-core.css)
