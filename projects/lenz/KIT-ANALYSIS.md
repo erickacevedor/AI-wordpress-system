@@ -2,6 +2,12 @@
 
 Companion to `tokens.json` and the generated `lenz-*` skills.
 
+> **Read with care (2026-10-18):** this analysis was written for the **v4** build.
+> Tokens, contrast rules and the reasoning still hold; the component and section
+> descriptions (cream surfaces, lead cards, mega menu widget, services as hand-built
+> containers) were superseded by v6-1. For anything current, `skills/lenz-ui-design`
+> wins.
+
 > **This was not produced by `elementor-kit-onboarding`.** `lenz-2026` is a clean
 > WordPress install — there was no kit to mine. Instead the design system was read
 > directly from the source project at `d:/laragon/www/lenz`, which ships a fully
