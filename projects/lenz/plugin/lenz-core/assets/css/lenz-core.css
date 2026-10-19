@@ -2445,7 +2445,7 @@ body.menu-open {
   margin-top: var(--space-2); font-size: var(--text-sm); line-height: 1.6; color: var(--color-text-secondary);
 }
 .elementor .symptom-help.service-help {
-  grid-column: auto; padding-bottom: 110px;
+  grid-column: auto; padding-bottom: 110px; align-content: center;
 }
 @media (min-width: 600px) and (max-width: 903px) {
 .elementor .symptom-help.service-help {
@@ -2607,10 +2607,10 @@ body.menu-open {
   margin-top: var(--space-5);
 }
 .elementor .promo.service-help {
-  padding: var(--space-10) var(--space-8) 140px; align-items: flex-start;
+  padding: var(--space-10) var(--space-8) 140px; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; justify-content: flex-start; gap: var(--space-6);
 }
 .elementor .promo__txt {
-  max-width: 640px;
+  max-width: 860px;
 }
 .elementor .promo__title:not(.elementor-widget),
 .elementor .promo__title .elementor-heading-title {

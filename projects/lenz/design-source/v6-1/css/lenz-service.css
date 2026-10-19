@@ -182,7 +182,9 @@
   color: var(--color-text-secondary);
 }
 /* The help tile closes the grid; on three columns it fills the last row. */
-.symptom-help.service-help { grid-column: auto; padding-bottom: 110px; }
+/* align-content keeps the phone under the copy (centred as one block) when a
+   taller row stretches the tile. */
+.symptom-help.service-help { grid-column: auto; padding-bottom: 110px; align-content: center; }
 @media (min-width: 600px) and (max-width: 903px) { .symptom-help.service-help { grid-column: 2; } }
 @media (min-width: 904px) { .symptom-help.service-help { grid-column: span 2; } }
 
@@ -308,9 +310,11 @@
 .prose__body p + p { margin-top: var(--space-3); }
 .prose .checklist { margin-top: var(--space-5); }
 
-/* Promo: navy box with copy and one button (Breathe Easy, plans). */
-.promo.service-help { padding: var(--space-10) var(--space-8) 140px; align-items: flex-start; }
-.promo__txt { max-width: 640px; }
+/* Promo: navy box with copy and one button (Breathe Easy, plans). The button
+   always sits under the copy: side by side it floated in the top corner or
+   wrapped, depending on its label length (Manuel, 2026-10-14). */
+.promo.service-help { padding: var(--space-10) var(--space-8) 140px; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; justify-content: flex-start; gap: var(--space-6); }
+.promo__txt { max-width: 860px; }
 .promo__title { color: #FFFFFF; font-size: var(--text-xl); line-height: 1.2; }
 .promo__txt p { margin-top: var(--space-3); color: var(--blue-100); font-size: var(--text-sm); line-height: 1.7; }
 .checklist--on-dark { margin: var(--space-4) 0 0; }
