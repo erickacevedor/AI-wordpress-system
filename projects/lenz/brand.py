@@ -353,7 +353,7 @@ def faq_list(items):
         '<div class="faq"><h3 style="margin:0"><button class="faq__trigger" aria-expanded="false" '
         'aria-controls="faq-%d" id="faq-%d-t">%s %s</button></h3><div class="faq__panel" id="faq-%d" '
         'role="region" aria-labelledby="faq-%d-t">%s</div></div>'
-        % (i, i, nw(q), svg("i-plus", "faq__icon icon-sm"), i, i, a if a.startswith("<p>") else "<p>%s</p>" % a)
+        % (i, i, q, svg("i-plus", "faq__icon icon-sm"), i, i, a if a.startswith("<p>") else "<p>%s</p>" % a)
         for i, (q, a) in enumerate(items, 1)) + "</div>")
 
 

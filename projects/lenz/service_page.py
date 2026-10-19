@@ -358,7 +358,7 @@ def block_table(page, sec, opt, fix):
     html = '<div class="compare"><table><thead><tr>%s</tr></thead><tbody>%s</tbody></table></div>' % (
         "".join("<th scope=\"col\">%s</th>" % fix(c) for c in head),
         "".join("<tr>%s</tr>" % "".join(
-            ('<th scope="row">%s</th>' % fix(c)) if i == 0 else ('<td data-label="%s">%s</td>' % (
+            ('<th scope="row">%s</th>' % B.nw(fix(c))) if i == 0 else ('<td data-label="%s">%s</td>' % (
                 re.sub(r"<[^>]+>|\"", "", head[i]), fix(c))) for i, c in enumerate(r)) for r in rows))
     return B.section("section compare-section " + opt.get("bg", "section--mist") + " " + page["_cat"], [
         _head(page, opt["eyebrow"], fix(sec["title"]), " ".join(paras) if paras else None),
