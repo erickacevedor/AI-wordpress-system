@@ -3017,6 +3017,11 @@ body.menu-open {
 .elementor .partners {
   margin-top: var(--space-8);
 }
+@media (max-width: 599px) {
+.elementor .financing__panel {
+  padding-bottom: 150px;
+}
+}
 
 /* ============================================================================
    HAND-WRITTEN OVERRIDES (come last in lenz-core.css)
@@ -3162,3 +3167,15 @@ body.menu-open {
 
 /* Footer columns with two groups (QA 2026-10-19): space before the second title. */
 .elementor .footer__col .elementor-widget-text-editor + .elementor-widget-heading { margin-top: var(--space-8); }
+
+/* ---- Home about: van inset photo (QA 2026-10-19) ---------------------------
+   The frame (5px border, shadow) landed on the image widget wrapper with square
+   corners while the <img> kept its own radius, shadow and 4:3 ratio, so a white
+   square frame showed around a rounded photo. The wrapper is the frame now. On
+   phones the inset overlaps the team photo's corner, as it does on desktop,
+   instead of sitting alone under it. */
+.elementor .about__media .about__img--inset { border-radius: var(--radius-xl); overflow: hidden; }
+.elementor .about__media .about__img--inset img { border-radius: 0; box-shadow: none; aspect-ratio: 16 / 11; height: 100%; }
+@media (max-width: 903px) {
+  .elementor .about__media .about__img--inset { position: relative; width: 56%; margin: -48px 0 0 auto; }
+}

@@ -566,3 +566,7 @@
 
 /* Partner cards under a prose section (Community Outreach). */
 .partners { margin-top: var(--space-8); }
+
+/* Home financing panel on phones: the bottom swoop sat under the "Give us a
+   call" button (white text over the orange wave). */
+@media (max-width: 599px) { .financing__panel { padding-bottom: 150px; } }
