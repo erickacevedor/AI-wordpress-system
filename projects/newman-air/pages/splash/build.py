@@ -31,7 +31,11 @@ F, TS, PH = T["fonts"], T["type_scale"], T["phone"]
 
 # Where the logo is fetched from on import (Elementor sideloads it into the Media
 # Library). Upload pages/splash/newman-air-logo-horiz.png there before importing.
-LOGO_URL = "https://explorehvac.com/web/newmanair/assets/newman-air-logo-horiz.png"
+# On a site where the logo is already in the Media Library, point at it instead:
+#   NEWMAN_LOGO_URL=<attachment url> NEWMAN_LOGO_ID=<attachment id> python build.py
+LOGO_URL = os.environ.get("NEWMAN_LOGO_URL",
+                          "https://explorehvac.com/web/newmanair/assets/newman-air-logo-horiz.png")
+LOGO_ID = os.environ.get("NEWMAN_LOGO_ID", "")
 
 E.reset_ids(0x4E000000)
 
@@ -40,7 +44,7 @@ def eyebrow(txt, color):
     s = TS["eyebrow"]
     return E.heading(txt, "p", color=color, font=F["heading"], size=s["size"],
                      weight=s["weight"], mobile=13, transform=s["transform"],
-                     ls=s["ls"], align="center")
+                     ls=s["ls"], lh=1.4, align="center")
 
 
 def body(html, color, size, mobile=None, lh=1.6, align="center"):
@@ -50,7 +54,7 @@ def body(html, color, size, mobile=None, lh=1.6, align="center"):
 
 def logo():
     return E.widget("image", {
-        "image": {"url": LOGO_URL, "id": "", "size": "", "alt": "Newman Air",
+        "image": {"url": LOGO_URL, "id": LOGO_ID, "size": "", "alt": "Newman Air",
                   "source": "library"},
         "image_size": "full",
         "align": "center",

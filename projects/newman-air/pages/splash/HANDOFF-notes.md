@@ -29,7 +29,10 @@ grid of cream contact cards (1 column on mobile), small print.
 - **Phone and email are plain text** because the brief says no links. iOS and Android usually auto-detect the number as tappable anyway. If DJ wants click-to-call, it is a one-line change (heading link to `tel:+14237537788`).
 - **Colours from the final logo SVGs**, not the V2 prototype: Tennessee orange `#FF8900`, navy `#003E51`, cream `#F7F2E4`, deep teal `#0F5B6D`.
 
-## Before import
+## Local site (2026-10-20)
+Imported and rendering on Erick's Local install (<http://localhost:10028>, page 15, front page, logo media 13, Site Icon 14). Checked at 1440, 768 and 390px. Recipe in `../../ENVIRONMENT.md`. If that Local site is what gets pushed to Flywheel, the import steps below are already done there.
+
+## Before import (any other install)
 1. Upload `newman-air-logo-horiz.png` to `https://explorehvac.com/web/newmanair/assets/newman-air-logo-horiz.png`. Elementor copies it into the Media Library on import. If the URL is not reachable, upload the PNG to Media after import and pick it in the Image widget.
 
 ## After import, wire up

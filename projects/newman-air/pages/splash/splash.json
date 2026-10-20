@@ -131,6 +131,11 @@
          "sizes": []
         },
         "typography_font_weight": "700",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.4,
+         "sizes": []
+        },
         "typography_text_transform": "uppercase",
         "typography_letter_spacing": {
          "unit": "em",
@@ -295,6 +300,11 @@
              "sizes": []
             },
             "typography_font_weight": "700",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.4,
+             "sizes": []
+            },
             "typography_text_transform": "uppercase",
             "typography_letter_spacing": {
              "unit": "em",
@@ -393,6 +403,11 @@
              "sizes": []
             },
             "typography_font_weight": "700",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.4,
+             "sizes": []
+            },
             "typography_text_transform": "uppercase",
             "typography_letter_spacing": {
              "unit": "em",
