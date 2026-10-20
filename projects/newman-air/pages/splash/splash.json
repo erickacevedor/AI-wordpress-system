@@ -1,0 +1,491 @@
+{
+ "version": "0.4",
+ "title": "Newman Air",
+ "type": "page",
+ "content": [
+  {
+   "id": "4e010ec2",
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "background_background": "gradient",
+    "background_color": "#003E51",
+    "background_color_stop": {
+     "unit": "%",
+     "size": 0,
+     "sizes": []
+    },
+    "background_color_b": "#002A38",
+    "background_color_b_stop": {
+     "unit": "%",
+     "size": 100,
+     "sizes": []
+    },
+    "background_gradient_type": "linear",
+    "background_gradient_angle": {
+     "unit": "deg",
+     "size": 160,
+     "sizes": []
+    },
+    "min_height": {
+     "unit": "vh",
+     "size": 100,
+     "sizes": []
+    },
+    "flex_justify_content": "center",
+    "border_border": "solid",
+    "border_width": {
+     "unit": "px",
+     "top": "6",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "border_color": "#FF8900"
+   },
+   "elements": [
+    {
+     "id": "4e00fb6b",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 960,
+       "sizes": []
+      },
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 20,
+       "column": "20",
+       "row": "20"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "56",
+       "right": "20",
+       "bottom": "56",
+       "left": "20",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "44",
+       "right": "16",
+       "bottom": "44",
+       "left": "16",
+       "isLinked": false
+      },
+      "flex_align_items": "center"
+     },
+     "elements": [
+      {
+       "id": "4e001357",
+       "settings": {
+        "image": {
+         "url": "https://explorehvac.com/web/newmanair/assets/newman-air-logo-horiz.png",
+         "id": "",
+         "size": "",
+         "alt": "Newman Air",
+         "source": "library"
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "px",
+         "size": 460,
+         "sizes": []
+        },
+        "width_tablet": {
+         "unit": "px",
+         "size": 380,
+         "sizes": []
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "image",
+       "elType": "widget"
+      },
+      {
+       "id": "4e0026ae",
+       "settings": {
+        "title": "Formerly Best in Show Heating &amp; Cooling",
+        "header_size": "p",
+        "typography_typography": "custom",
+        "typography_font_family": "Oxanium",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 13,
+         "sizes": []
+        },
+        "typography_font_weight": "700",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "em",
+         "size": 0.14,
+         "sizes": []
+        },
+        "title_color": "#FF8900",
+        "align": "center"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "heading",
+       "elType": "widget"
+      },
+      {
+       "id": "4e003a05",
+       "settings": {
+        "title": "Our New Website Is on the Way",
+        "header_size": "h1",
+        "typography_typography": "custom",
+        "typography_font_family": "Oxanium",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 56,
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "px",
+         "size": 46,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 34,
+         "sizes": []
+        },
+        "typography_font_weight": "800",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.08,
+         "sizes": []
+        },
+        "title_color": "#F7F2E4",
+        "align": "center"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "heading",
+       "elType": "widget"
+      },
+      {
+       "id": "4e004d5c",
+       "settings": {
+        "editor": "<p>Best in Show Heating &amp; Cooling is now Newman Air. Same locally owned, family-operated team, same heating and air conditioning service across the Tri-Cities, TN since 1994. While we finish our new website, give us a call and we&rsquo;ll take care of you.</p>",
+        "typography_typography": "custom",
+        "typography_font_family": "Roboto",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 19,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 17,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.6,
+         "sizes": []
+        },
+        "text_color": "#F7F2E4",
+        "align": "center"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "text-editor",
+       "elType": "widget"
+      },
+      {
+       "id": "4e00d4bd",
+       "settings": {
+        "content_width": "full",
+        "container_type": "grid",
+        "grid_columns_grid": {
+         "unit": "fr",
+         "size": 2,
+         "sizes": []
+        },
+        "grid_columns_grid_tablet": {
+         "unit": "fr",
+         "size": 2,
+         "sizes": []
+        },
+        "grid_columns_grid_mobile": {
+         "unit": "fr",
+         "size": 1,
+         "sizes": []
+        },
+        "grid_rows_grid": {
+         "unit": "fr",
+         "size": 0,
+         "sizes": []
+        },
+        "grid_gaps": {
+         "column": "20",
+         "row": "20",
+         "isLinked": true,
+         "unit": "px"
+        },
+        "grid_align_items": "stretch",
+        "presetTitle": "Grid",
+        "presetIcon": "eicon-container-grid"
+       },
+       "elements": [
+        {
+         "id": "4e008761",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "border_radius": {
+           "unit": "px",
+           "top": "18",
+           "right": "18",
+           "bottom": "18",
+           "left": "18",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "26",
+           "right": "26",
+           "bottom": "26",
+           "left": "26",
+           "isLinked": false
+          },
+          "flex_gap": {
+           "unit": "px",
+           "size": 6,
+           "column": "6",
+           "row": "6"
+          },
+          "background_background": "classic",
+          "background_color": "#F7F2E4"
+         },
+         "elements": [
+          {
+           "id": "4e0060b3",
+           "settings": {
+            "title": "Call us",
+            "header_size": "p",
+            "typography_typography": "custom",
+            "typography_font_family": "Oxanium",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 13,
+             "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+             "unit": "em",
+             "size": 0.14,
+             "sizes": []
+            },
+            "title_color": "#0F5B6D",
+            "align": "center"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4e00740a",
+           "settings": {
+            "title": "(423) 753-7788",
+            "header_size": "p",
+            "typography_typography": "custom",
+            "typography_font_family": "Oxanium",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 32,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 26,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.15,
+             "sizes": []
+            },
+            "title_color": "#003E51",
+            "align": "center"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "4e00c166",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "border_radius": {
+           "unit": "px",
+           "top": "18",
+           "right": "18",
+           "bottom": "18",
+           "left": "18",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "26",
+           "right": "26",
+           "bottom": "26",
+           "left": "26",
+           "isLinked": false
+          },
+          "flex_gap": {
+           "unit": "px",
+           "size": 6,
+           "column": "6",
+           "row": "6"
+          },
+          "background_background": "classic",
+          "background_color": "#F7F2E4"
+         },
+         "elements": [
+          {
+           "id": "4e009ab8",
+           "settings": {
+            "title": "Email us",
+            "header_size": "p",
+            "typography_typography": "custom",
+            "typography_font_family": "Oxanium",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 13,
+             "sizes": []
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+             "unit": "em",
+             "size": 0.14,
+             "sizes": []
+            },
+            "title_color": "#0F5B6D",
+            "align": "center"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "4e00ae0f",
+           "settings": {
+            "title": "dispatch@newmanair.com",
+            "header_size": "p",
+            "typography_typography": "custom",
+            "typography_font_family": "Oxanium",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 21,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 18,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.15,
+             "sizes": []
+            },
+            "title_color": "#003E51",
+            "align": "center"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "4e00e814",
+       "settings": {
+        "editor": "<p>Licensed, bonded &amp; insured &middot; &copy; 2026 Newman Air</p>",
+        "typography_typography": "custom",
+        "typography_font_family": "Roboto",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 13,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.6,
+         "sizes": []
+        },
+        "text_color": "#C6CDD1",
+        "align": "center"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "text-editor",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_canvas",
+  "hide_title": "yes"
+ }
+}

@@ -303,19 +303,32 @@ class Renderer(object):
 
         if wt == "image":
             img = s.get("image") or {}
-            decls = ["display:block", "max-width:100%", "width:100%", "object-fit:%s"
-                     % (s.get("object-fit") or "cover")]
+            # Elementor's image `width` control sizes the <img>; `align` places it.
+            w = _unit(s.get("width"))
+            decls = ["display:block", "max-width:100%", "width:%s" % (w or "100%"),
+                     "object-fit:%s" % (s.get("object-fit") or "cover")]
+            if w and s.get("align") in ("center", "right"):
+                decls.append("margin-left:auto")
+                if s.get("align") == "center":
+                    decls.append("margin-right:auto")
             h = _unit(s.get("height"))
             if h:
                 decls.append("height:%s" % h)
             r = _box(s.get("image_border_radius"))
             if r:
                 decls.append("border-radius:%s" % r)
+            tab = []
+            wt_ = _unit(s.get("width_tablet"))
+            if wt_:
+                tab.append("width:%s" % wt_)
             mob = []
+            wm = _unit(s.get("width_mobile"))
+            if wm:
+                mob.append("width:%s" % wm)
             hm = _unit(s.get("height_mobile"))
             if hm:
                 mob.append("height:%s" % hm)
-            self.add(cn.split()[0], decls, mobile=mob)
+            self.add(cn.split()[0], decls, mobile=mob, tablet=tab)
             return ("<img class=\"%s\" src=\"%s\" alt=\"%s\" loading=\"lazy\">"
                     % (esc(cn), esc(img.get("url") or ""), esc(img.get("alt") or "")))
 
