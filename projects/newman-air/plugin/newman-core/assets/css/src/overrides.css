@@ -1,0 +1,107 @@
+/* ============================================================================
+   HAND-WRITTEN OVERRIDES (come last in newman-core.css)
+
+   Only what the porter cannot derive from the prototype. Values are copied from
+   the prototype rules named in each comment.
+   ============================================================================ */
+
+/* ---- Button icons ----------------------------------------------------------
+   Button text is kses-filtered (no inline SVG), so the prototype's
+   `<svg class="icon">` inside .btn becomes a CSS mask: phone before the label,
+   arrow after it (and nudged on hover, as `.btn:hover .arrow`). */
+.nw-site .elementor .nw-ico .elementor-button::before,
+.nw-site .elementor .nw-ico-after .elementor-button::after {
+  content: "";
+  flex: none;
+  width: 1.2em;            /* .icon */
+  height: 1.2em;
+  background: currentColor;
+  -webkit-mask: var(--nw-ico) center / contain no-repeat;
+  mask: var(--nw-ico) center / contain no-repeat;
+  transition: transform .25s var(--ease);
+}
+.nw-site .elementor .nw-ico-after .elementor-button::before { content: none; }
+.nw-site .elementor .nw-ico-after .elementor-button:hover::after { transform: translateX(4px); }
+.nw-site .elementor .nw-ico-phone { --nw-ico: url(../icons/i-phone.svg); }
+.nw-site .elementor .nw-ico-arrow { --nw-ico: url(../icons/i-arrow.svg); }
+
+/* ---- Hero H1 underline -----------------------------------------------------
+   The prototype draws it with an inline <svg> inside `.hl`; the heading title is
+   kses-filtered, so the same path is a mask on ::after, revealed left to right
+   in the same 1s from 1.1s (`.hero h1 .hl svg path`). */
+.nw-site .elementor .hero h1 .hl::after {
+  content: "";
+  position: absolute; left: 0; right: 0; bottom: -.12em; height: .3em;
+  background: var(--c-accent);
+  -webkit-mask: url(../icons/underline.svg) center / 100% 100% no-repeat;
+  mask: url(../icons/underline.svg) center / 100% 100% no-repeat;
+  clip-path: inset(0 100% 0 0);
+  animation: nw-draw 1s var(--ease) 1.1s forwards;
+}
+@keyframes nw-draw { to { clip-path: inset(0 0 0 0); } }
+@media (prefers-reduced-motion: reduce) { .nw-site .elementor .hero h1 .hl::after { clip-path: none; animation: none; } }
+
+/* ---- Native buttons start from the prototype's bare <a> --------------------
+   Elementor and the kit paint .elementor-button (grey/green background, kit
+   font); the prototype's .btn has neither. Lower weight than the ported
+   .btn-accent rules, so those still win. */
+.nw-site .elementor .elementor-button { background: transparent; font-family: var(--font-body); }   /* (0,3,0): under .btn-accent's (0,4,0) */
+
+/* ---- Child-combinator rules the port turned into descendants ---------------
+   `.trust-item > span:not(.num)` also reaches the count-up span inside `.num`. */
+.nw-site .elementor .trust-item .num span { font: inherit; line-height: inherit; opacity: 1; }
+
+/* `.svc p { flex: 1 }` pushed the card link to the bottom; the text widget
+   wrapper is the flex item now. */
+.nw-site .elementor .svc > .elementor-widget-text-editor { flex: 1; position: relative; z-index: 1; }
+
+/* ---- Request form (prototype: .field, .field-row, .form-card .btn) ---------
+   Elementor Pro form markup instead of the prototype's static form. Selectors
+   carry .elementor-widget-form to meet the widget's own element CSS. */
+.nw-site .elementor .nw-form.elementor-widget-form .elementor-form-fields-wrapper { margin-bottom: 0; }   /* Elementor pulls it up by the row gap */
+.nw-site .elementor .nw-form.elementor-widget-form .elementor-field-group { margin-bottom: 12px; }
+.nw-site .elementor .nw-form.elementor-widget-form .elementor-field-group > .elementor-field-label {
+  display: block; padding: 0 0 4px; margin: 0;
+  font: 700 .82rem/1.65 var(--font-body); color: var(--c-base);
+}
+.nw-site .elementor .nw-form.elementor-widget-form .elementor-mark-required .elementor-field-label::after { content: "*"; color: inherit; padding: 0; padding-inline-start: 0; }
+.nw-site .elementor .nw-form.elementor-widget-form .elementor-field-group .elementor-field {
+  font: inherit; font-size: .98rem; line-height: 1.65; padding: .75rem .85rem; min-height: 0;
+  border: 1.5px solid var(--c-line); border-radius: var(--radius-sm);
+  background: var(--c-base-soft); color: var(--c-ink); width: 100%;
+  transition: border-color .2s, background .2s, box-shadow .2s;
+}
+.nw-site .elementor .nw-form.elementor-widget-form .elementor-field-group .elementor-field:focus {
+  outline: none; border-color: var(--c-highlight); background: #fff;
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--c-highlight) 22%, transparent);
+}
+.nw-site .elementor .nw-form.elementor-widget-form .elementor-field-group.elementor-field-type-submit { margin: 4px 0 0; }
+/* Submit = .btn.btn-accent, full width (.form-card .btn) */
+.nw-site .elementor .nw-form.elementor-widget-form .elementor-button[type="submit"] {
+  display: inline-flex; align-items: center; justify-content: center; gap: .6rem; width: 100%;
+  font: 700 1.02rem/1 var(--font-body); padding: 1rem 1.7rem; border-radius: 999px; border: 2px solid transparent;
+  background: var(--c-accent); color: var(--c-on-accent);
+  box-shadow: 0 10px 24px -10px color-mix(in srgb, var(--c-accent) 80%, transparent);
+  transition: transform .25s var(--ease), box-shadow .25s var(--ease), background .2s;
+}
+.nw-site .elementor .nw-form.elementor-widget-form .elementor-button[type="submit"]::after {
+  content: ""; width: 1.2em; height: 1.2em; background: currentColor;
+  -webkit-mask: url(../icons/i-arrow.svg) center / contain no-repeat; mask: url(../icons/i-arrow.svg) center / contain no-repeat;
+}
+.nw-site .elementor .nw-form.elementor-widget-form .elementor-button[type="submit"]:hover {
+  transform: translateY(-2px); background: var(--c-accent-hover);
+}
+@media (max-width: 520px) {   /* .field-row stacks: row gap (12) + field margin (12) between the pair */
+  .nw-site .elementor .nw-form.elementor-widget-form .elementor-field-group { width: 100%; }
+  .nw-site .elementor .nw-form.elementor-widget-form :is(.elementor-field-group-name, .elementor-field-group-email) { margin-bottom: 24px; }
+}
+
+/* The trust-item title and caption sit in a text widget <div>: as inline elements they took
+   the div's 17px/1.65 line box; in the prototype they are grid items (block). */
+.nw-site .elementor .trust-item .elementor-widget-text-editor > :not(.num) { display: block; }
+
+/* The prototype never resets <figure>, so its polaroids keep the browser's
+   default margin (1em 40px) on top of left:0 / right:0; the adapter's margin
+   reset (and Elementor's `.elementor .elementor-widget:not(..):not(..) figure`,
+   0,4,1) would move them 40px out and 17px up. */
+.nw-site .elementor .elementor-widget .polaroid-stack figure.polaroid { margin: 1em 40px; }

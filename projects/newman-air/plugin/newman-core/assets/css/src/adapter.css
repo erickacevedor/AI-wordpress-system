@@ -1,0 +1,82 @@
+/* ============================================================================
+   ELEMENTOR ADAPTER (hand-written, comes first in newman-core.css)
+
+   Same adapter as Lenz (projects/lenz/plugin/lenz-core/assets/css/src/adapter.css),
+   scoped to `.nw-site` so the splash and the promo pages on this install are
+   untouched. The ported prototype CSS assumes plain block markup; Elementor wraps
+   every element in containers and widget wrappers with their own padding, gap,
+   width and position. This block makes those wrappers transparent so the
+   prototype rules decide layout and look.
+   ============================================================================ */
+
+.nw-site .elementor .elementor-element.e-con.e-flex {
+  --display: block; --flex-direction: row;
+  --flex-wrap: nowrap; --flex-wrap-mobile: nowrap;
+}
+.nw-site .elementor .e-con-boxed { flex-direction: row; }
+
+.nw-site .elementor {
+  --container-default-padding-top: 0px;
+  --container-default-padding-right: 0px;
+  --container-default-padding-bottom: 0px;
+  --container-default-padding-left: 0px;
+}
+.nw-site .elementor .elementor-element {
+  --widgets-spacing: 0px;
+  --widgets-spacing-row: 0px;
+  --widgets-spacing-column: 0px;
+  --kit-widget-spacing: 0px;
+}
+.nw-site .elementor .e-con {
+  min-width: auto;
+  --gap: 0px;
+  --row-gap: 0px;
+  --column-gap: 0px;
+  --width: auto;
+  --container-widget-width: auto;
+}
+:where(body.nw-site:not(.elementor-editor-active)) .elementor .e-con { --position: static; }
+:where(body.nw-site:not(.elementor-editor-active)) .elementor .elementor-widget { position: static; }
+
+/* A band's boxed container only satisfies the gate's band structure: it gives up
+   its box, so the band's children sit directly in the <section> as in the
+   prototype (`.wrap` plus full-bleed siblings such as the ridges or the slider). */
+.nw-site .elementor .e-con.nw-pass,
+.nw-site .elementor .e-con.nw-pass > .e-con-inner { display: contents; }
+.nw-site .elementor .e-con-boxed > .e-con-inner { display: contents; }
+
+.nw-site .e-con::before {
+  position: static; display: inline;
+  top: auto; left: auto; width: auto; height: auto;
+  opacity: 1; mix-blend-mode: normal; border-radius: 0; border-style: none;
+  transition: none;
+}
+
+.nw-site .elementor :is(h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+.nw-site .elementor :is(h1, h2, h3, h4, h5, h6) { font-size: revert; }
+
+.nw-site .elementor :where(button:not(.elementor-button)),
+.nw-site .elementor :where(button:not(.elementor-button)):is(:hover, :focus) { all: revert; }
+
+.nw-site .elementor .elementor-widget-image { min-height: 0; }
+.nw-site .elementor .elementor-widget-image img {
+  display: block; width: 100%; height: 100%; max-width: none;
+  object-fit: inherit; object-position: inherit; border-radius: inherit;
+}
+
+:where(body.nw-site:not(.elementor-editor-active)) .elementor .elementor-widget-html { display: contents; }
+
+/* Text and headings take type from the prototype rules, not from the kit's
+   default schemes (Elementor > Settings keeps them on for the splash). */
+.nw-site .elementor .elementor-widget-text-editor { color: inherit; font-family: inherit; font-size: inherit; font-weight: inherit; line-height: inherit; }
+.nw-site .elementor .elementor-widget-heading .elementor-heading-title { font-family: var(--font-display); }
+
+.nw-site .elementor .elementor-button .elementor-button-content-wrapper { display: contents; }
+.nw-site .elementor .elementor-button .elementor-button-text { display: contents; }
+
+/* Theme Builder parts: the fixed header and the footer give up their wrapper. */
+.nw-site .elementor-location-header { display: contents; }
+
+/* In the editor nothing waits for the scroll observer. */
+.elementor-editor-active.nw-site :is(.reveal, .fade-up),
+.elementor-editor-active.nw-site .hero h1 .w { opacity: 1; transform: none; animation: none; }

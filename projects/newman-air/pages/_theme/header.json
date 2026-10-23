@@ -1,0 +1,156 @@
+{
+ "version": "0.4",
+ "title": "Newman Air Header (V2.1)",
+ "type": "header",
+ "content": [
+  {
+   "id": "4200d4bd",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "div",
+    "_element_id": "siteHead",
+    "css_classes": "site-head e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "4200c166",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "42001357",
+       "settings": {
+        "html": "<div class=\"utility\"><div class=\"wrap\"><span class=\"hide-sm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Locally owned &amp; family operated in the Tri-Cities since 1994</span><span style=\"gap:18px\"><a href=\"mailto:dispatch@newmanair.com\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-mail\"/></svg>dispatch@newmanair.com</a><a href=\"tel:+14237537788\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(423) 753-7788</a></span></div></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      },
+      {
+       "id": "4200ae0f",
+       "settings": {
+        "content_width": "full",
+        "html_tag": "header",
+        "css_classes": "bar"
+       },
+       "elements": [
+        {
+         "id": "42008761",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "wrap"
+         },
+         "elements": [
+          {
+           "id": "420026ae",
+           "settings": {
+            "html": "<a class=\"logo\" href=\"/\" aria-label=\"Newman Air home\"><img src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Horiz.svg\" alt=\"Newman Air\" width=\"143\" height=\"60\"></a>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "42003a05",
+           "settings": {
+            "html": "<nav class=\"main\" aria-label=\"Main\"><div class=\"nav-item has-mega\"><a href=\"/#services\" class=\"nav-link\" aria-haspopup=\"true\">Services <svg class=\"icon chev\" aria-hidden=\"true\"><use href=\"#i-down\"/></svg></a><div class=\"mega\"><div class=\"mega-col\"><p class=\"mega-title\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-snow\"/></svg>Air Conditioning</p><a href=\"/services/ac-installation/\">AC Installation</a><a href=\"/services/ac-repair/\">AC Repair</a><a href=\"/services/maintenance/\">AC Maintenance</a></div><div class=\"mega-col\"><p class=\"mega-title\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-flame\"/></svg>Heating</p><a href=\"/services/heating-installation/\">Heating Installation</a><a href=\"/services/heating-repair/\">Heating Repair</a><a href=\"/services/maintenance/\">Heating Maintenance</a></div><div class=\"mega-col\"><p class=\"mega-title\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-air\"/></svg>Indoor Air Quality</p><a href=\"/services/air-cleaners/\">Air Cleaners</a><a href=\"/services/air-handlers/\">Air Handlers</a><a href=\"/services/germicidal-lights/\">Germicidal Lights</a></div><div class=\"mega-col\"><p class=\"mega-title\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg>Additional Services</p><a href=\"/services/heat-pumps/\">Heat Pumps</a><a href=\"/services/ductless/\">Ductless Mini Splits</a><a href=\"/services/ductwork/\">Ductwork</a><a href=\"/services/thermostats/\">Thermostats</a><a href=\"/services/commercial/\">Commercial HVAC</a></div><a class=\"mega-cta\" href=\"/contact-us/\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><span><strong>Not sure what you need?</strong>Upfront $75 diagnostic. Call (423) 753-7788</span></a></div></div><div class=\"nav-item has-drop\"><a href=\"/#area\" class=\"nav-link\" aria-haspopup=\"true\">Service Areas <svg class=\"icon chev\" aria-hidden=\"true\"><use href=\"#i-down\"/></svg></a><div class=\"drop\"><a href=\"/service-area/bristol/\">Bristol</a><a href=\"/service-area/elizabethton/\">Elizabethton</a><a href=\"/service-area/gray/\">Gray</a><a href=\"/service-area/greeneville/\">Greeneville</a><a href=\"/service-area/jonesborough/\">Jonesborough</a><a href=\"/service-area/kingsport/\">Kingsport</a></div></div><div class=\"nav-item\"><a class=\"nav-link\" href=\"/maintenance-plan/\">Maintenance Plan</a></div><div class=\"nav-item\"><a class=\"nav-link\" href=\"/financing/\">Financing</a></div><div class=\"nav-item\"><a class=\"nav-link\" href=\"/blog/\">Blog</a></div><div class=\"nav-item\"><a class=\"nav-link\" href=\"/about-us/\">About Us</a></div><div class=\"nav-item\"><a class=\"nav-link\" href=\"/contact-us/\">Contact Us</a></div></nav>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "420060b3",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "head-cta"
+           },
+           "elements": [
+            {
+             "id": "42004d5c",
+             "settings": {
+              "text": "Schedule Online",
+              "link": {
+               "url": "/contact-us/",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-accent"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "4200740a",
+           "settings": {
+            "html": "<button class=\"menu-btn\" id=\"menuBtn\" aria-label=\"Open menu\" aria-expanded=\"false\"><svg class=\"icon\" aria-hidden=\"true\" style=\"width:30px;height:30px\"><use href=\"#i-menu\"/></svg></button>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "42009ab8",
+         "settings": {
+          "html": "<div class=\"drawer\" id=\"drawer\"><details><summary>Services</summary><div class=\"drawer-group\"><p>Air Conditioning</p><a href=\"/services/ac-installation/\">AC Installation</a><a href=\"/services/ac-repair/\">AC Repair</a><a href=\"/services/maintenance/\">AC Maintenance</a></div><div class=\"drawer-group\"><p>Heating</p><a href=\"/services/heating-installation/\">Heating Installation</a><a href=\"/services/heating-repair/\">Heating Repair</a><a href=\"/services/maintenance/\">Heating Maintenance</a></div><div class=\"drawer-group\"><p>Indoor Air Quality</p><a href=\"/services/air-cleaners/\">Air Cleaners</a><a href=\"/services/air-handlers/\">Air Handlers</a><a href=\"/services/germicidal-lights/\">Germicidal Lights</a></div><div class=\"drawer-group\"><p>Additional Services</p><a href=\"/services/heat-pumps/\">Heat Pumps</a><a href=\"/services/ductless/\">Ductless Mini Splits</a><a href=\"/services/ductwork/\">Ductwork</a><a href=\"/services/thermostats/\">Thermostats</a><a href=\"/services/commercial/\">Commercial HVAC</a></div></details><details><summary>Service Areas</summary><div class=\"drawer-group\"><a href=\"/service-area/bristol/\">Bristol</a><a href=\"/service-area/elizabethton/\">Elizabethton</a><a href=\"/service-area/gray/\">Gray</a><a href=\"/service-area/greeneville/\">Greeneville</a><a href=\"/service-area/jonesborough/\">Jonesborough</a><a href=\"/service-area/kingsport/\">Kingsport</a></div></details><a class=\"drawer-link\" href=\"/maintenance-plan/\">Maintenance Plan</a><a class=\"drawer-link\" href=\"/financing/\">Financing</a><a class=\"drawer-link\" href=\"/blog/\">Blog</a><a class=\"drawer-link\" href=\"/about-us/\">About Us</a><a class=\"drawer-link\" href=\"/contact-us/\">Contact Us</a><div class=\"btn-row\" style=\"margin-top:16px\"><a class=\"btn btn-accent\" href=\"/contact-us/\">Schedule Online</a><a class=\"btn btn-ghost\" href=\"tel:+14237537788\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(423) 753-7788</a></div></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "default"
+ }
+}
