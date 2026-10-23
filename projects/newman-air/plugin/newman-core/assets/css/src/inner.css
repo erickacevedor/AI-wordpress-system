@@ -339,6 +339,8 @@
 }
 .nw-site .site-head.scrolled .nw-nav .elementor-nav-menu--main .elementor-item { color: var(--c-base); padding: 22px 0 19px; }
 .nw-site .elementor .nw-nav .elementor-nav-menu--main > .elementor-nav-menu > li:is(:hover, :focus-within) > .elementor-item { border-bottom-color: var(--c-accent); }
+/* Items with a dropdown: no underline, the panel's orange top border already marks them (Erick: it showed twice) */
+.nw-site .elementor .nw-nav .elementor-nav-menu--main > .elementor-nav-menu > li.menu-item-has-children:is(:hover, :focus-within) > .elementor-item { border-bottom-color: transparent; }
 .nw-site .elementor .nw-nav .elementor-item .sub-arrow { display: inline-flex; padding: 0 0 0 3px; }
 .nw-site .elementor .nw-nav .elementor-item .sub-arrow svg { width: 11px; height: 11px; fill: currentColor; transition: transform .25s var(--ease); }
 .nw-site .elementor .nw-nav li:is(:hover, :focus-within) > .elementor-item .sub-arrow svg { transform: rotate(180deg); }
