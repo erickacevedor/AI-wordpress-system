@@ -56,21 +56,24 @@
           {
            "id": "520b1357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Ductless</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Ductless</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "520b26ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+            "title": "Our Services",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -312,11 +315,11 @@
           {
            "id": "520c0ec2",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -581,7 +584,7 @@
    "elType": "container"
   },
   {
-   "id": "521049ca",
+   "id": "52116be3",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -589,7 +592,7 @@
    },
    "elements": [
     {
-     "id": "52103673",
+     "id": "5211588c",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -617,28 +620,28 @@
      },
      "elements": [
       {
-       "id": "5210231c",
+       "id": "52114535",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "52100fc5",
+         "id": "521131de",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "520f9bbb",
+           "id": "5210bdd4",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "520f0103",
+             "id": "5210231c",
              "settings": {
               "title": "Ductless Comfort Built for Tri-Cities Homes",
               "header_size": "h2",
@@ -665,7 +668,7 @@
              "elType": "widget"
             },
             {
-             "id": "520f145a",
+             "id": "52103673",
              "settings": {
               "editor": "<p>Ductless mini-splits are designed to heat and cool specific rooms or zones without relying on traditional ductwork. Instead of forcing your <a href=\"https://newmanair.com/services/cooling/\">central HVAC system</a> to work harder for one uncomfortable area, a ductless system delivers comfort directly where it is needed.</p><p>That can be especially helpful in Tri-Cities homes with bonus rooms over garages, upstairs bedrooms, sunrooms, additions, older layouts, or spaces where extending ductwork would be difficult or expensive. During long Johnson City summers, these rooms can feel warmer because of attic heat, afternoon sun exposure, weak airflow, or limited duct access.</p><p>A ductless mini-split may be a smart fit if most of your home feels comfortable but one space never seems to keep up. If the whole home is uncomfortable, the better answer may be AC repair, ductwork improvements, insulation upgrades, or central system replacement. Our team helps you understand what is causing the comfort problem so you can choose the next step with confidence.</p>"
              },
@@ -675,7 +678,7 @@
              "elType": "widget"
             },
             {
-             "id": "520f27b1",
+             "id": "521049ca",
              "settings": {
               "title": "Ductless Mini-Split Installation",
               "header_size": "h3"
@@ -686,7 +689,7 @@
              "elType": "widget"
             },
             {
-             "id": "520f3b08",
+             "id": "52105d21",
              "settings": {
               "editor": "<p>A ductless mini-split installation should be matched to the room, not guessed into place. Proper sizing, placement, and installation all affect how well the mini-split system performs.</p><p>If the unit is too small, it may struggle during hot weather. If it is too large, it may short cycle or fail to manage humidity well. The indoor air handler should also be placed where it can move air effectively without creating uncomfortable drafts over beds, desks, or seating areas.</p><p>Ductless mini-split installation may be a good fit for bonus rooms, home offices, finished garages, sunrooms, room additions, upstairs bedrooms, older homes without strong duct access, and spaces that are too hot or too cold compared to the rest of the house.</p><p>Newman Air helps Tri-Cities homeowners evaluate the space, compare options, and choose a ductless setup that supports reliable room-by-room comfort without unnecessary guesswork.</p>"
              },
@@ -696,7 +699,7 @@
              "elType": "widget"
             },
             {
-             "id": "520f4e5f",
+             "id": "52107078",
              "settings": {
               "title": "Ductless Mini-Split Repair",
               "header_size": "h3"
@@ -707,7 +710,7 @@
              "elType": "widget"
             },
             {
-             "id": "520f61b6",
+             "id": "521083cf",
              "settings": {
               "editor": "<p>If your ductless mini-split used to keep a room comfortable but now struggles to cool, heat, or move air properly, it may be time for professional ductless mini-split repair.</p><p>Common warning signs include weak airflow, warm air, water leaks, musty odors, unusual noises, frequent shutoffs, or a system that does not respond correctly to the remote or thermostat. These issues may come from dirty filters, clogged drains, electrical problems, sensor issues, refrigerant concerns, or lack of maintenance.</p><p>A timely repair can help restore comfort before the issue gets worse. If the unit is older, inefficient, or breaking down often, we can also help you compare repair and replacement options clearly.</p>"
              },
@@ -717,7 +720,7 @@
              "elType": "widget"
             },
             {
-             "id": "520f750d",
+             "id": "52109726",
              "settings": {
               "title": "Ductless Mini-Split Maintenance",
               "header_size": "h3"
@@ -728,7 +731,7 @@
              "elType": "widget"
             },
             {
-             "id": "520f8864",
+             "id": "5210aa7d",
              "settings": {
               "editor": "<p>Ductless mini-split maintenance helps keep your system clean, efficient, and ready for regular use. Because the indoor air handler serves a specific room, dirty filters, coil buildup, drainage problems, or blocked airflow can quickly affect comfort in that space.</p><p>Regular maintenance can help keep airflow strong, reduce odors, support efficient operation, protect system components, and catch small issues early. It is especially important for systems that run heavily through late summer or provide year-round heating and cooling.</p><p>If your ductless system serves a home office, bedroom, bonus room, or finished garage, routine service helps keep that space comfortable when you rely on it most.</p>"
              },
@@ -742,14 +745,14 @@
            "elType": "container"
           },
           {
-           "id": "520ffc6e",
+           "id": "52111e87",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "520faf12",
+             "id": "5210d12b",
              "settings": {
               "title": "Why Newman Air Leads the Pack",
               "header_size": "h2",
@@ -776,7 +779,7 @@
              "elType": "widget"
             },
             {
-             "id": "520fc269",
+             "id": "5210e482",
              "settings": {
               "editor": "<p>Choosing a ductless mini-split is not just about picking equipment. It is about understanding whether ductless is truly the right solution for your room, your comfort goals, and your budget.</p><p>Newman Air brings practical HVAC experience, clear communication, and local knowledge to every ductless service call. Homeowners across Johnson City and the Tri-Cities choose our team for honest recommendations, respectful service, and comfort solutions designed around long-term value.</p><ul><li>Trusted Comfort Since 1994: Newman Air has served the Tri-Cities for more than 30 years as a family-operated company built on honesty, reliability, and skilled craftsmanship.</li><li>Honest work at a fair price: We explain your options clearly and recommend solutions that make sense for your home, not a one-size-fits-all answer.</li><li>Targeted comfort guidance: From installation and repair to maintenance and replacement conversations, we help you understand whether ductless is the right fit or whether another HVAC solution would serve you better.</li></ul>"
              },
@@ -786,14 +789,14 @@
              "elType": "widget"
             },
             {
-             "id": "520fe917",
+             "id": "52110b30",
              "settings": {
               "content_width": "full",
               "css_classes": "btn-row"
              },
              "elements": [
               {
-               "id": "520fd5c0",
+               "id": "5210f7d9",
                "settings": {
                 "text": "Know More About Newman Air",
                 "link": {
@@ -822,7 +825,7 @@
          "elType": "container"
         },
         {
-         "id": "520eedac",
+         "id": "52100fc5",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -850,11 +853,11 @@
             {
              "id": "520e18ef",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -877,11 +880,11 @@
             {
              "id": "520e3f9d",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -938,7 +941,7 @@
            "elType": "container"
           },
           {
-           "id": "520eda55",
+           "id": "520ffc6e",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -956,13 +959,225 @@
              "elType": "widget"
             },
             {
-             "id": "520ec6fe",
+             "id": "520fe917",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\" aria-current=\"page\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "20ec6fe",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20eda55",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20eedac",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20f0103",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20f145a",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20f27b1",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20f3b08",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20f4e5f",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": "aria-current|page"
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20f61b6",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20f750d",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20f8864",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20f9bbb",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20faf12",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20fc269",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20fd5c0",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -986,7 +1201,7 @@
    "elType": "container"
   },
   {
-   "id": "5210f7d9",
+   "id": "52133c0b",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -995,7 +1210,7 @@
    },
    "elements": [
     {
-     "id": "5210e482",
+     "id": "521328b4",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1023,31 +1238,33 @@
      },
      "elements": [
       {
-       "id": "5210d12b",
+       "id": "5213155d",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5210aa7d",
+         "id": "52130206",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
          },
          "elements": [
           {
-           "id": "52105d21",
+           "id": "52117f3a",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "52107078",
+           "id": "52119291",
            "settings": {
             "title": "Frequently Asked Questions About Ductless Mini-Splits",
             "header_size": "h2",
@@ -1074,7 +1291,7 @@
            "elType": "widget"
           },
           {
-           "id": "521083cf",
+           "id": "5211a5e8",
            "settings": {
             "editor": "<p class=\"lead\">Choosing a ductless system can feel overwhelming if you are comparing it to central AC, window units, added ductwork, or full system replacement. These answers can help you decide whether ductless mini-splits are worth considering for your home.</p>"
            },
@@ -1084,13 +1301,13 @@
            "elType": "widget"
           },
           {
-           "id": "52109726",
+           "id": "5211b93f",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -1098,13 +1315,153 @@
          "elType": "container"
         },
         {
-         "id": "5210bdd4",
+         "id": "5212eeaf",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>Is a ductless mini-split worth it for one room?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>It can be. If one room is consistently uncomfortable while the rest of the home feels fine, a ductless mini-split may be a practical way to add targeted heating and cooling without changing the entire central HVAC system.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Can a ductless mini-split replace central AC?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Sometimes, but not always. Central AC is usually better for whole-home cooling when ductwork is in good condition. Ductless mini-splits are often better for specific rooms, additions, garages, bonus rooms, or homes where traditional ductwork is limited.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Is ductless better than adding ductwork?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>It depends on the home. If extending ductwork would be expensive, disruptive, or difficult, ductless may be a cleaner solution. If the existing duct system can be improved effectively, ductwork repairs or modifications may be worth considering.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>How many rooms can a ductless mini-split cool?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>A single-zone ductless mini-split is typically used for one room or area. A multi-zone system can serve multiple rooms with separate indoor units connected to one outdoor unit. The best setup depends on the layout and comfort goals.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Do ductless mini-splits need maintenance?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes. Ductless mini-splits need <a href=\"https://newmanair.com/services/maintenance/\">regular maintenance</a> to keep filters, coils, drains, electrical components, and airflow in good condition. Routine care helps protect comfort, performance, and system life.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "211cc96",
+            "item_title": "Is a ductless mini-split worth it for one room?"
+           },
+           {
+            "_id": "211dfed",
+            "item_title": "Can a ductless mini-split replace central AC?"
+           },
+           {
+            "_id": "211f344",
+            "item_title": "Is ductless better than adding ductwork?"
+           },
+           {
+            "_id": "212069b",
+            "item_title": "How many rooms can a ductless mini-split cool?"
+           },
+           {
+            "_id": "21219f2",
+            "item_title": "Do ductless mini-splits need maintenance?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "521240a0",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52122d49",
+             "settings": {
+              "editor": "<p>It can be. If one room is consistently uncomfortable while the rest of the home feels fine, a ductless mini-split may be a practical way to add targeted heating and cooling without changing the entire central HVAC system.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5212674e",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521253f7",
+             "settings": {
+              "editor": "<p>Sometimes, but not always. Central AC is usually better for whole-home cooling when ductwork is in good condition. Ductless mini-splits are often better for specific rooms, additions, garages, bonus rooms, or homes where traditional ductwork is limited.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52128dfc",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52127aa5",
+             "settings": {
+              "editor": "<p>It depends on the home. If extending ductwork would be expensive, disruptive, or difficult, ductless may be a cleaner solution. If the existing duct system can be improved effectively, ductwork repairs or modifications may be worth considering.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5212b4aa",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5212a153",
+             "settings": {
+              "editor": "<p>A single-zone ductless mini-split is typically used for one room or area. A multi-zone system can serve multiple rooms with separate indoor units connected to one outdoor unit. The best setup depends on the layout and comfort goals.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5212db58",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5212c801",
+             "settings": {
+              "editor": "<p>Yes. Ductless mini-splits need <a href=\"https://newmanair.com/services/maintenance/\">regular maintenance</a> to keep filters, coils, drains, electrical components, and airflow in good condition. Routine care helps protect comfort, performance, and system life.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -1120,7 +1477,7 @@
    "elType": "container"
   },
   {
-   "id": "5211cc96",
+   "id": "521410c8",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1129,7 +1486,7 @@
    },
    "elements": [
     {
-     "id": "5211b93f",
+     "id": "5213fd71",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1157,21 +1514,21 @@
      },
      "elements": [
       {
-       "id": "5211a5e8",
+       "id": "5213ea1a",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "52111e87",
+         "id": "521362b9",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "52110b30",
+           "id": "52134f62",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -1185,7 +1542,7 @@
          "elType": "container"
         },
         {
-         "id": "52119291",
+         "id": "5213d6c3",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -1193,17 +1550,19 @@
          },
          "elements": [
           {
-           "id": "521131de",
+           "id": "52137610",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "52114535",
+           "id": "52138967",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -1230,7 +1589,7 @@
            "elType": "widget"
           },
           {
-           "id": "5211588c",
+           "id": "52139cbe",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -1240,7 +1599,7 @@
            "elType": "widget"
           },
           {
-           "id": "52116be3",
+           "id": "5213b015",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -1250,7 +1609,7 @@
            "elType": "widget"
           },
           {
-           "id": "52117f3a",
+           "id": "5213c36c",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -1283,7 +1642,7 @@
    "elType": "container"
   },
   {
-   "id": "5212b4aa",
+   "id": "5214f8dc",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1291,7 +1650,7 @@
    },
    "elements": [
     {
-     "id": "5212a153",
+     "id": "5214e585",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1319,24 +1678,26 @@
      },
      "elements": [
       {
-       "id": "5212674e",
+       "id": "5214ab80",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "5211dfed",
+         "id": "5214241f",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "5211f344",
+         "id": "52143776",
          "settings": {
           "title": "Ready for Better Ductless Comfort?",
           "header_size": "h2",
@@ -1363,7 +1724,7 @@
          "elType": "widget"
         },
         {
-         "id": "5212069b",
+         "id": "52144acd",
          "settings": {
           "editor": "<p class=\"lead\">Do not let one uncomfortable room make your whole home harder to enjoy. If your central HVAC system handles most of the house but one area still feels too hot, too cold, or inconsistent, a ductless mini-split may be the focused solution you need.</p>"
          },
@@ -1373,7 +1734,7 @@
          "elType": "widget"
         },
         {
-         "id": "521219f2",
+         "id": "52145e24",
          "settings": {
           "editor": "<p class=\"lead\">For dependable ductless mini-split services in Johnson City and the Tri-Cities, TN, schedule service with Newman Air and find out whether ductless, ductwork improvements, or another HVAC solution is the right fit for your space.</p>"
          },
@@ -1383,14 +1744,14 @@
          "elType": "widget"
         },
         {
-         "id": "521253f7",
+         "id": "52149829",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "52122d49",
+           "id": "5214717b",
            "settings": {
             "text": "Get Your Ductless Mini-Split Today!",
             "link": {
@@ -1407,7 +1768,7 @@
            "elType": "widget"
           },
           {
-           "id": "521240a0",
+           "id": "521484d2",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -1432,7 +1793,7 @@
        "elType": "container"
       },
       {
-       "id": "52127aa5",
+       "id": "5214bed7",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -1442,7 +1803,7 @@
        "elType": "widget"
       },
       {
-       "id": "52128dfc",
+       "id": "5214d22e",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

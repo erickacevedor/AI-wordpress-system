@@ -24,7 +24,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, SITE)
 import brand as B  # noqa: E402
-from brand import PHONE, PHONE_TEL, svg, eyebrow, STARS  # noqa: E402,F401
+from brand import PHONE, PHONE_TEL, svg, STARS  # noqa: E402,F401
 
 CONTENT = os.path.join(SITE, "content", "pages")
 OUT = os.path.join(HERE, "out")
@@ -86,6 +86,15 @@ TRUST = [('<span class="num" data-count="30" data-suffix="+">30+</span>', "Years
           "Fast online application through GoodLeap, Synchrony &amp; Hearth.")]
 
 
+# Inner pages use native widgets wherever the content is text an editor may change
+# (Erick 2026-10-23: raw HTML widgets were hard to edit). Raw html stays only for
+# decoration: badge ring, ridges, member card, partner logos, bear image.
+def eyebrow(label, extra=""):
+    """Eyebrow as a native heading rendered as <p> (never a heading tag, Alexis); paw via CSS."""
+    return B.E.widget("heading", {"title": label, "header_size": "p"},
+                      classes=("nw-eyebrow " + extra).strip())
+
+
 def lead(markup, cls="lead"):
     return B.text('<p class="%s">%s</p>' % (cls, markup))
 
@@ -97,7 +106,7 @@ def crumbs(trail):
             items.append('<li><span aria-current="page">%s</span></li>' % label)
         else:
             items.append('<li><a href="%s">%s</a></li>' % (url, label))
-    return B.raw('<nav aria-label="Breadcrumb"><ol class="crumbs">%s</ol></nav>' % "".join(items))
+    return B.text('<ol class="crumbs">%s</ol>' % "".join(items), classes="nw-crumbs")
 
 
 def form_card(title="Request Service", sub="Tell us what's going on and our team will reach out to confirm your visit.",
@@ -107,14 +116,14 @@ def form_card(title="Request Service", sub="Tell us what's going on and our team
         B.heading(title, "h2", size="1.7rem"),
         B.text('<p class="form-sub">%s</p>' % sub),
         form or B.request_form(),
-        B.raw('<p class="form-foot">%s%s</p>' % (svg("i-lock"), foot)),
+        B.text('<p class="form-foot nw-lock">%s</p>' % foot),
     ], style="--delay:.4s")
 
 
 def hero(trail, eb, h1, paras, buttons=None, card=True, extra_cls="", card_el=None):
     left = [crumbs(trail)]
     if eb:
-        left.append(eyebrow(eb, 'fade-up" style="--delay:.05s'))
+        left.append(eyebrow(eb, "fade-up"))
     left.append(B.heading(h1, "h1", size=H1))
     left += [lead(p, "lead fade-up") for p in paras]
     if buttons is None:
@@ -162,16 +171,17 @@ def faq_band(faq, eb="Got Questions?"):
     side = [eyebrow(eb), B.heading(faq["h2"], "h2", size=H2)]
     if faq.get("intro"):
         side.append(lead(faq["intro"]))
-    side.append(B.raw('<div class="ask"><img class="mascot" src="%s" alt=""><div><strong>Still wondering about '
-                      'something?</strong><a href="%s">Call %s</a></div></div>' % (B.LOGO_BEAR, PHONE_TEL, PHONE)))
-    qa = "".join('<details class="qa reveal" style="--d:%d"%s><summary>%s<span class="pm">%s</span></summary>'
-                 '<div class="ans">%s</div></details>'
-                 % (i % 4, " open" if i == 0 else "", html.escape(it["q"], quote=False), svg("i-plus"),
-                    "".join("<p>%s</p>" % a for a in it["a"]))
-                 for i, it in enumerate(faq["items"]))
+    side.append(B.text('<div class="ask"><img class="mascot" src="%s" alt=""><div><strong>Still wondering about '
+                       'something?</strong><a href="%s">Call %s</a></div></div>' % (B.LOGO_BEAR, PHONE_TEL, PHONE)))
+    plus = {"value": "fas fa-plus", "library": "fa-solid"}
+    acc = B.E.widget("nested-accordion", {
+        "items": [{"_id": B.E.nid()[-7:], "item_title": html.escape(it["q"], quote=False)} for it in faq["items"]],
+        "title_tag": "h3", "faq_schema": "yes", "default_state": "expanded", "max_items_expended": "one",
+        "accordion_item_title_icon": plus, "accordion_item_title_icon_active": plus,
+    }, elements=[B.box("faq-ans", [B.text("".join("<p>%s</p>" % a for a in it["a"]))]) for it in faq["items"]],
+        classes="faq-acc")
     # Tinted band (Erick 2026-10-23): inner pages are white from the article down, the FAQ needs separation.
-    return B.section("faq topo light faq-alt", [B.box("wrap", [B.box("faq-side reveal", side), B.raw('<div class="faq-list">%s</div>' % qa)])],
-                     el_id="faq")
+    return B.section("faq topo light faq-alt", [B.box("wrap", [B.box("faq-side reveal", side), acc])], el_id="faq")
 
 
 def final(h2, paras, button=None, eb="Trust the bear to fix your air"):
@@ -248,12 +258,22 @@ def prose(blocks):
     return B.box("prose", kids)
 
 
+def side_menu(links, current):
+    """Native icon list (editable labels and links); the current page carries aria-current."""
+    items = []
+    for n, u in links:
+        link = {"url": u, "is_external": "", "nofollow": "",
+                "custom_attributes": "aria-current|page" if u == current else ""}
+        items.append({"_id": B.E.nid()[-7:], "text": n, "link": link, "selected_icon": {"value": "", "library": ""}})
+    return B.E.widget("icon-list", {"icon_list": items}, classes="side-nav")
+
+
 def sidebar(current=None, kind="service", nxt=None):
     cards = [B.box("side-card dark", [
         B.heading("Talk to Our Team", "h3"),
-        B.raw('<a class="big-phone" href="%s">%s</a>' % (PHONE_TEL, PHONE)),
+        B.text('<p><a class="big-phone" href="%s">%s</a></p>' % (PHONE_TEL, PHONE)),
         B.button("Schedule Online", "#contact", "btn btn-accent", icon="arrow", icon_after=True),
-        B.raw('<p class="fee">%s$75 diagnostic fee, upfront pricing.</p>' % svg("i-lock")),
+        B.text('<p class="fee nw-lock">$75 diagnostic fee, upfront pricing.</p>'),
     ])]
     if nxt and nxt.get("h2"):
         cards.append(B.box("side-card", [B.heading(nxt["h2"], "h3"), B.text("<p>%s</p>" % nxt["text"]),
@@ -264,9 +284,7 @@ def sidebar(current=None, kind="service", nxt=None):
     else:
         links = SERVICE_NAV
         title = "Our Services"
-    nav = "".join('<li><a href="%s"%s>%s%s</a></li>' % (u, ' aria-current="page"' if u == current else "", n, ARROW)
-                  for n, u in links)
-    cards.append(B.box("side-card", [B.heading(title, "h3"), B.raw('<ul class="side-nav">%s</ul>' % nav)]))
+    cards.append(B.box("side-card", [B.heading(title, "h3"), side_menu(links, current)]))
     return B.box("aside", cards, tag="aside")
 
 
@@ -544,13 +562,14 @@ def contact():
         buttons=[("Call Us Today", PHONE_TEL, "btn btn-accent btn-xl", "phone", False)], card_el=card)]
     info = B.box("aside", [B.box("side-card dark", [
         B.heading("Newman Air", "h3"),
-        B.raw('<ul class="contact-list">'
-              '<li><span class="ic">%s</span><span><strong>Address</strong>%s</span></li>'
-              '<li><span class="ic">%s</span><span><strong>Phone</strong><a href="%s">%s</a></span></li>'
-              '<li><span class="ic">%s</span><span><strong>Email</strong><a href="mailto:%s">%s</a></span></li>'
-              '<li><span class="ic">%s</span><span><strong>Business Hours</strong>%s</span></li></ul>'
-              % (svg("i-pin"), ADDRESS, svg("i-phone"), PHONE_TEL, PHONE, svg("i-mail"), B.EMAIL, B.EMAIL,
-                 svg("i-calendar"), HOURS)),
+        B.E.widget("icon-list", {"icon_list": [
+            {"_id": "nwct01", "text": ADDRESS, "selected_icon": {"value": "fas fa-map-marker-alt", "library": "fa-solid"}},
+            {"_id": "nwct02", "text": PHONE, "link": {"url": PHONE_TEL, "is_external": "", "nofollow": ""},
+             "selected_icon": {"value": "fas fa-phone-alt", "library": "fa-solid"}},
+            {"_id": "nwct03", "text": B.EMAIL, "link": {"url": "mailto:" + B.EMAIL, "is_external": "", "nofollow": ""},
+             "selected_icon": {"value": "fas fa-envelope", "library": "fa-solid"}},
+            {"_id": "nwct04", "text": HOURS, "selected_icon": {"value": "far fa-clock", "library": "fa-regular"}},
+        ]}, classes="contact-list"),
     ])], tag="aside")
     areas = [{"title": "%s, TN" % n, "html": "", "link": B.area(s)} for n, s in AREA_NAV]
     S.append(B.section("article", [B.box("wrap", [B.box("prose", [

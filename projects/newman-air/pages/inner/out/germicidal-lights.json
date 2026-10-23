@@ -56,21 +56,24 @@
           {
            "id": "520e1357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Germicidal Lights</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Germicidal Lights</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "520e26ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+            "title": "Our Services",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -302,11 +305,11 @@
           {
            "id": "520efb6b",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -571,7 +574,7 @@
    "elType": "container"
   },
   {
-   "id": "52130fc5",
+   "id": "521431de",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -579,7 +582,7 @@
    },
    "elements": [
     {
-     "id": "5212fc6e",
+     "id": "52141e87",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -607,28 +610,28 @@
      },
      "elements": [
       {
-       "id": "5212e917",
+       "id": "52140b30",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5212d5c0",
+         "id": "5213f7d9",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "5212145a",
+           "id": "52133673",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "5211a050",
+             "id": "5212c269",
              "settings": {
               "title": "When Indoor Air Becomes a Concern",
               "header_size": "h2",
@@ -655,7 +658,7 @@
              "elType": "widget"
             },
             {
-             "id": "5211b3a7",
+             "id": "5212d5c0",
              "settings": {
               "editor": "<p>Many homes have air quality issues that go unnoticed. Germs, allergens, and mold can spread through your HVAC system and impact the health of everyone indoors. Here are signs that it may be time to consider a solution like germicidal lights:</p><ul><li>Frequent allergy or asthma flare-ups</li><li>Musty odors near vents or inside living spaces</li><li>Mold growth in damp areas</li><li>Illnesses that seem to linger or return</li></ul>"
              },
@@ -665,7 +668,7 @@
              "elType": "widget"
             },
             {
-             "id": "5211c6fe",
+             "id": "5212e917",
              "settings": {
               "title": "Reasons to Choose Us",
               "header_size": "h3"
@@ -676,7 +679,7 @@
              "elType": "widget"
             },
             {
-             "id": "5211da55",
+             "id": "5212fc6e",
              "settings": {
               "editor": "<p>Indoor air quality affects your health, and germicidal lights are a smart way to improve it. We’ll install and service your system so it’s working effectively from day one. With decades of experience and a dedication to reliable service, our team has been here since 1984 to help you breathe easier. Here’s why our customers trust us:</p><ul><li>Transparent pricing with no surprise costs</li><li>Our “Done Right” guarantee on every service</li><li>Courteous technicians who keep your home clean</li><li>A local company committed to serving our neighbors</li></ul>"
              },
@@ -686,7 +689,7 @@
              "elType": "widget"
             },
             {
-             "id": "5211edac",
+             "id": "52130fc5",
              "settings": {
               "title": "Making Air Purification Affordable",
               "header_size": "h3"
@@ -697,7 +700,7 @@
              "elType": "widget"
             },
             {
-             "id": "52120103",
+             "id": "5213231c",
              "settings": {
               "editor": "<p>Upgrading your home with germicidal lights is an investment in long-term health and comfort. That’s why we offer financing options through GoodLeap, Synchrony and Hearth. These plans make it easier to move forward now instead of putting it off. We’ll walk you through the choices so you can pick what works best for your household.</p>"
              },
@@ -711,14 +714,14 @@
            "elType": "container"
           },
           {
-           "id": "52124e5f",
+           "id": "52137078",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "521227b1",
+             "id": "521349ca",
              "settings": {
               "title": "How Germicidal Light Installation Works",
               "header_size": "h2",
@@ -745,7 +748,7 @@
              "elType": "widget"
             },
             {
-             "id": "52123b08",
+             "id": "52135d21",
              "settings": {
               "editor": "<p>Our technicians install germicidal UV lights inside your HVAC system, where air passes before circulating through your home. These lights target mold spores, bacteria, and viruses, breaking them down at the source. We’ll carefully place and set up the system for maximum effectiveness without impacting your system’s performance. If you already have UV lights, we also service and replace bulbs to keep them working at full strength. With proper installation and maintenance, you’ll have cleaner air moving throughout your entire home all the time.</p>"
              },
@@ -759,14 +762,14 @@
            "elType": "container"
           },
           {
-           "id": "52128864",
+           "id": "5213aa7d",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "521261b6",
+             "id": "521383cf",
              "settings": {
               "title": "Risks of Skipping Germicidal Protection",
               "header_size": "h2",
@@ -793,7 +796,7 @@
              "elType": "widget"
             },
             {
-             "id": "5212750d",
+             "id": "52139726",
              "settings": {
               "editor": "<p>Ignoring your indoor air quality problems can affect more than comfort. Without treatment, airborne contaminants continue to spread every time your HVAC system runs. This can create long-term health issues and strain your system. Here are some possible risks:</p><ul><li>Increased allergies and respiratory symptoms</li><li>Persistent mold growth inside ducts and coils</li><li>Lower system efficiency from excessive buildup</li><li>Higher medical costs due to ongoing illness</li></ul>"
              },
@@ -807,14 +810,14 @@
            "elType": "container"
           },
           {
-           "id": "5212c269",
+           "id": "5213e482",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "52129bbb",
+             "id": "5213bdd4",
              "settings": {
               "title": "The Benefits of Germicidal Lights",
               "header_size": "h2",
@@ -841,7 +844,7 @@
              "elType": "widget"
             },
             {
-             "id": "5212af12",
+             "id": "5213d12b",
              "settings": {
               "editor": "<p>Installing germicidal lights offers lasting improvements for your home and your health. These systems work silently in the background, treating your indoor air around the clock. You’ll notice fresher air and a cleaner living environment, along with fewer worries about hidden contaminants. Benefits include:</p><ul><li>Reduced bacteria, mold, and viruses in circulated air</li><li>Fresher-smelling indoor spaces without chemical sprays</li><li>Improved HVAC performance with less buildup on coils</li><li>Healthier living conditions for the whole family</li></ul>"
              },
@@ -859,7 +862,7 @@
          "elType": "container"
         },
         {
-         "id": "52118cf9",
+         "id": "5212af12",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -887,11 +890,11 @@
             {
              "id": "52110598",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -914,11 +917,11 @@
             {
              "id": "52112c46",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -926,7 +929,7 @@
            "elType": "container"
           },
           {
-           "id": "521179a2",
+           "id": "52129bbb",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -944,13 +947,225 @@
              "elType": "widget"
             },
             {
-             "id": "5211664b",
+             "id": "52128864",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\" aria-current=\"page\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "211664b",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21179a2",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2118cf9",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "211a050",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "211b3a7",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "211c6fe",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "211da55",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "211edac",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2120103",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "212145a",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21227b1",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2123b08",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": "aria-current|page"
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2124e5f",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21261b6",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "212750d",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -974,7 +1189,7 @@
    "elType": "container"
   },
   {
-   "id": "5213bdd4",
+   "id": "5216ea1a",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -983,7 +1198,7 @@
    },
    "elements": [
     {
-     "id": "5213aa7d",
+     "id": "5216d6c3",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1011,31 +1226,33 @@
      },
      "elements": [
       {
-       "id": "52139726",
+       "id": "5216c36c",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "52137078",
+         "id": "5216b015",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
          },
          "elements": [
           {
-           "id": "5213231c",
+           "id": "52144535",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "52133673",
+           "id": "5214588c",
            "settings": {
             "title": "Frequently Asked Questions",
             "header_size": "h2",
@@ -1062,7 +1279,7 @@
            "elType": "widget"
           },
           {
-           "id": "521349ca",
+           "id": "52146be3",
            "settings": {
             "editor": "<p class=\"lead\">Here are some of the most common questions about germicidal lights. If you don’t see your question here, reach out, and we’ll be happy to give you an answer.</p>"
            },
@@ -1072,13 +1289,13 @@
            "elType": "widget"
           },
           {
-           "id": "52135d21",
+           "id": "52147f3a",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -1086,13 +1303,253 @@
          "elType": "container"
         },
         {
-         "id": "521383cf",
+         "id": "52169cbe",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>What are germicidal lights?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Germicidal lights, often called UV-C lights, are devices that emit ultraviolet light to neutralize bacteria, viruses, and mold spores. They’re typically installed inside HVAC systems, so they treat the air as it circulates. This creates a healthier indoor environment for your home.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>How do germicidal lights work in HVAC systems?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>These lights are placed near coils or within ducts where they shine on passing air. The UV light damages the DNA of microorganisms, stopping them from multiplying. As a result, germs and mold are neutralized before reaching your living spaces.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Are germicidal lights safe for my home?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, when installed by trained technicians, UV-C lights are completely safe. They’re contained within your HVAC system, so the light doesn’t reach your living space. The only thing you’ll notice is cleaner, fresher air.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>How often do germicidal lights need maintenance?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most UV bulbs last about a year before they need to be replaced. We recommend adding the replacement to your routine HVAC maintenance schedule. Regular service keeps the system working at full strength.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Can germicidal lights help with allergies?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, by reducing mold spores and bacteria, germicidal lights can ease symptoms for those with allergies or asthma. Cleaner air makes a noticeable difference in comfort. Many homeowners report fewer flare-ups after installation.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Do germicidal lights eliminate all indoor air problems?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>While they’re highly effective against germs and mold, they don’t remove dust, pet dander, or chemical pollutants. For full indoor air quality improvement, they’re often combined with filters or air purifiers. Together, these systems offer complete protection.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Will UV lights affect my HVAC system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Germicidal lights actually help your system by keeping coils cleaner and reducing microbial buildup. This improves airflow and efficiency. Over time, it can also extend the lifespan of your equipment.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Can I install germicidal lights myself?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Installation should be done by a trained technician because placement and safety are critical for effectiveness. DIY setups can lead to poor performance or even damage to your system. Professional installation guarantees the lights do their job properly.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>How long does installation take?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most germicidal light installations can be completed in a single visit, often within a couple of hours. The exact time depends on your system’s layout. We’ll let you know what to expect before starting.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "2149291",
+            "item_title": "What are germicidal lights?"
+           },
+           {
+            "_id": "214a5e8",
+            "item_title": "How do germicidal lights work in HVAC systems?"
+           },
+           {
+            "_id": "214b93f",
+            "item_title": "Are germicidal lights safe for my home?"
+           },
+           {
+            "_id": "214cc96",
+            "item_title": "How often do germicidal lights need maintenance?"
+           },
+           {
+            "_id": "214dfed",
+            "item_title": "Can germicidal lights help with allergies?"
+           },
+           {
+            "_id": "214f344",
+            "item_title": "Do germicidal lights eliminate all indoor air problems?"
+           },
+           {
+            "_id": "215069b",
+            "item_title": "Will UV lights affect my HVAC system?"
+           },
+           {
+            "_id": "21519f2",
+            "item_title": "Can I install germicidal lights myself?"
+           },
+           {
+            "_id": "2152d49",
+            "item_title": "How long does installation take?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "521553f7",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521540a0",
+             "settings": {
+              "editor": "<p>Germicidal lights, often called UV-C lights, are devices that emit ultraviolet light to neutralize bacteria, viruses, and mold spores. They’re typically installed inside HVAC systems, so they treat the air as it circulates. This creates a healthier indoor environment for your home.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52157aa5",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5215674e",
+             "settings": {
+              "editor": "<p>These lights are placed near coils or within ducts where they shine on passing air. The UV light damages the DNA of microorganisms, stopping them from multiplying. As a result, germs and mold are neutralized before reaching your living spaces.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5215a153",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52158dfc",
+             "settings": {
+              "editor": "<p>Yes, when installed by trained technicians, UV-C lights are completely safe. They’re contained within your HVAC system, so the light doesn’t reach your living space. The only thing you’ll notice is cleaner, fresher air.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5215c801",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5215b4aa",
+             "settings": {
+              "editor": "<p>Most UV bulbs last about a year before they need to be replaced. We recommend adding the replacement to your routine HVAC maintenance schedule. Regular service keeps the system working at full strength.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5215eeaf",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5215db58",
+             "settings": {
+              "editor": "<p>Yes, by reducing mold spores and bacteria, germicidal lights can ease symptoms for those with allergies or asthma. Cleaner air makes a noticeable difference in comfort. Many homeowners report fewer flare-ups after installation.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5216155d",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52160206",
+             "settings": {
+              "editor": "<p>While they’re highly effective against germs and mold, they don’t remove dust, pet dander, or chemical pollutants. For full indoor air quality improvement, they’re often combined with filters or air purifiers. Together, these systems offer complete protection.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52163c0b",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521628b4",
+             "settings": {
+              "editor": "<p>Germicidal lights actually help your system by keeping coils cleaner and reducing microbial buildup. This improves airflow and efficiency. Over time, it can also extend the lifespan of your equipment.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521662b9",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52164f62",
+             "settings": {
+              "editor": "<p>Installation should be done by a trained technician because placement and safety are critical for effectiveness. DIY setups can lead to poor performance or even damage to your system. Professional installation guarantees the lights do their job properly.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52168967",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52167610",
+             "settings": {
+              "editor": "<p>Most germicidal light installations can be completed in a single visit, often within a couple of hours. The exact time depends on your system’s layout. We’ll let you know what to expect before starting.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -1108,7 +1565,7 @@
    "elType": "container"
   },
   {
-   "id": "52149291",
+   "id": "5217bed7",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1117,7 +1574,7 @@
    },
    "elements": [
     {
-     "id": "52147f3a",
+     "id": "5217ab80",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1145,21 +1602,21 @@
      },
      "elements": [
       {
-       "id": "52146be3",
+       "id": "52179829",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5213e482",
+         "id": "521710c8",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "5213d12b",
+           "id": "5216fd71",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -1173,7 +1630,7 @@
          "elType": "container"
         },
         {
-         "id": "5214588c",
+         "id": "521784d2",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -1181,17 +1638,19 @@
          },
          "elements": [
           {
-           "id": "5213f7d9",
+           "id": "5217241f",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "52140b30",
+           "id": "52173776",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -1218,7 +1677,7 @@
            "elType": "widget"
           },
           {
-           "id": "52141e87",
+           "id": "52174acd",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -1228,7 +1687,7 @@
            "elType": "widget"
           },
           {
-           "id": "521431de",
+           "id": "52175e24",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -1238,7 +1697,7 @@
            "elType": "widget"
           },
           {
-           "id": "52144535",
+           "id": "5217717b",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -1271,7 +1730,7 @@
    "elType": "container"
   },
   {
-   "id": "5215674e",
+   "id": "52189394",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1279,7 +1738,7 @@
    },
    "elements": [
     {
-     "id": "521553f7",
+     "id": "5218803d",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1307,24 +1766,26 @@
      },
      "elements": [
       {
-       "id": "521519f2",
+       "id": "52184638",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "5214a5e8",
+         "id": "5217d22e",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "5214b93f",
+         "id": "5217e585",
          "settings": {
           "title": "Take the Next Step",
           "header_size": "h2",
@@ -1351,7 +1812,7 @@
          "elType": "widget"
         },
         {
-         "id": "5214cc96",
+         "id": "5217f8dc",
          "settings": {
           "editor": "<p class=\"lead\">At Newman Air, we provide germicidal light installation in Johnson City, TN for homeowners who want cleaner, healthier air. Our technicians will handle the setup with precision so you can breathe easier and have the peace of mind you deserve. Call us today to schedule your appointment and take the next step toward better air quality.</p>"
          },
@@ -1361,14 +1822,14 @@
          "elType": "widget"
         },
         {
-         "id": "5215069b",
+         "id": "521832e1",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "5214dfed",
+           "id": "52180c33",
            "settings": {
             "text": "Schedule Service",
             "link": {
@@ -1385,7 +1846,7 @@
            "elType": "widget"
           },
           {
-           "id": "5214f344",
+           "id": "52181f8a",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -1410,7 +1871,7 @@
        "elType": "container"
       },
       {
-       "id": "52152d49",
+       "id": "5218598f",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -1420,7 +1881,7 @@
        "elType": "widget"
       },
       {
-       "id": "521540a0",
+       "id": "52186ce6",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

@@ -1540,3 +1540,88 @@ body.elementor-editor-active.nw-site .elementor .hero h1 .hl::after { clip-path:
 .nw-site .elementor .blog-grid .page-numbers.current { background: var(--c-base); color: #fff; border-color: transparent; }
 @media (max-width: 960px) { .nw-site .elementor .blog-grid .elementor-posts-container { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .nw-site .elementor .blog-grid .elementor-posts-container { grid-template-columns: minmax(0, 1fr); } }
+
+/* ---- Native widgets in place of raw HTML (Erick 2026-10-23: editable in Elementor) ------- */
+/* Eyebrow: heading widget rendered as <p>; same look as the prototype .eyebrow, paw as a mask */
+.nw-site .elementor .nw-eyebrow .elementor-heading-title {
+  display: inline-flex; align-items: center; gap: .6rem; margin: 0 0 1rem;
+  font: 700 .8rem/1 var(--font-body); letter-spacing: .18em; text-transform: uppercase; color: var(--c-highlight-2);
+}
+.nw-site .elementor .nw-eyebrow .elementor-heading-title::before {
+  content: ""; flex: none; width: 18px; height: 18px; background: var(--c-accent);
+  -webkit-mask: url(../icons/i-paw.svg) center / contain no-repeat; mask: url(../icons/i-paw.svg) center / contain no-repeat;
+}
+.nw-site .elementor .on-dark .nw-eyebrow .elementor-heading-title { color: var(--c-highlight); }
+
+/* Breadcrumb in a text widget */
+.nw-site .elementor .nw-crumbs .crumbs { margin: 0 0 1.1rem; }
+
+/* Lock line (form card foot, sidebar fee) */
+.nw-site .elementor .nw-lock { display: flex; gap: .5em; align-items: center; }
+.nw-site .elementor .nw-lock::before {
+  content: ""; flex: none; width: 1.05em; height: 1.05em; background: var(--c-accent);
+  -webkit-mask: url(../icons/i-lock.svg) center / contain no-repeat; mask: url(../icons/i-lock.svg) center / contain no-repeat;
+}
+.nw-site .elementor .form-card .nw-lock::before { background: var(--c-highlight-2); }
+
+/* Sidebar menu: icon-list widget */
+.nw-site .elementor .side-nav .elementor-icon-list-items { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.nw-site .elementor .side-nav .elementor-icon-list-item { margin: 0; padding: 0; }
+.nw-site .elementor .side-nav .elementor-icon-list-item::after { content: none; }
+.nw-site .elementor .side-nav .elementor-icon-list-icon { display: none; }
+.nw-site .elementor .side-nav .elementor-icon-list-item > a {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 9px 12px; border-radius: 10px;
+  text-decoration: none; color: var(--c-base); font-weight: 600; font-size: .97rem; width: 100%;
+}
+.nw-site .elementor .side-nav .elementor-icon-list-text { color: inherit; padding: 0; }
+.nw-site .elementor .side-nav .elementor-icon-list-item > a::after {
+  content: ""; flex: none; width: 1em; height: 1em; background: currentColor; opacity: .6;
+  -webkit-mask: url(../icons/i-arrow.svg) center / contain no-repeat; mask: url(../icons/i-arrow.svg) center / contain no-repeat;
+}
+.nw-site .elementor .side-nav .elementor-icon-list-item > a:hover { background: #fff; }
+.nw-site .elementor .side-nav .elementor-icon-list-item > a[aria-current] { background: var(--c-base); color: #fff; }
+
+/* Contact card: icon-list widget */
+.nw-site .elementor .contact-list .elementor-icon-list-items { list-style: none; margin: 22px 0 0; padding: 0; display: grid; gap: 14px; }
+.nw-site .elementor .contact-list .elementor-icon-list-item { display: flex; gap: 14px; align-items: center; margin: 0; padding: 0; }
+.nw-site .elementor .contact-list .elementor-icon-list-item > a { display: flex; gap: 14px; align-items: center; color: var(--c-on-dark); text-decoration: none; }
+.nw-site .elementor .contact-list .elementor-icon-list-item > a:hover { color: #fff; text-decoration: underline; }
+.nw-site .elementor .contact-list .elementor-icon-list-icon {
+  width: 44px; height: 44px; border-radius: 50%; flex: none; display: grid; place-items: center;
+  background: color-mix(in srgb, #fff 12%, transparent); color: var(--c-accent);
+}
+.nw-site .elementor .contact-list .elementor-icon-list-icon :is(svg, i) { width: 18px; height: 18px; font-size: 18px; fill: var(--c-accent); color: var(--c-accent); }
+.nw-site .elementor .contact-list .elementor-icon-list-text { color: var(--c-on-dark); padding: 0; }
+
+/* FAQ: nested-accordion widget styled as the prototype's details.qa */
+.nw-site .elementor .faq-acc {
+  --n-accordion-title-flex-direction: row; --n-accordion-title-justify-content: space-between;
+  --n-accordion-title-flex-grow: 1; --n-accordion-item-title-space-between: 14px;
+}
+.nw-site .elementor .faq-acc .e-n-accordion { display: grid; gap: 14px; }
+.nw-site .elementor .faq-acc .e-n-accordion-item-title-header { flex: 1; text-align: left; justify-content: flex-start; }
+.nw-site .elementor .faq-acc .e-n-accordion-item {
+  border-radius: var(--radius); background: var(--c-surface); border: 1.5px solid var(--c-line); overflow: hidden;
+  transition: border-color .25s, box-shadow .25s;
+}
+.nw-site .elementor .faq.faq-alt .faq-acc .e-n-accordion-item { border-color: transparent; box-shadow: 0 6px 18px -14px color-mix(in srgb, var(--c-base-deep) 45%, transparent); }
+.nw-site .elementor .faq-acc .e-n-accordion-item:hover { border-color: color-mix(in srgb, var(--c-highlight) 60%, white); }
+.nw-site .elementor .faq-acc .e-n-accordion-item[open] { border-color: transparent; box-shadow: var(--shadow); }
+.nw-site .elementor .faq-acc .e-n-accordion-item-title {
+  list-style: none; cursor: pointer; padding: 22px 24px; display: flex; flex-direction: row; justify-content: space-between;
+  align-items: center; gap: 18px; border: 0; background: transparent; margin: 0;
+}
+.nw-site .elementor .faq-acc .e-n-accordion-item-title::-webkit-details-marker { display: none; }
+.nw-site .elementor .faq-acc .e-n-accordion-item-title-text { font: 800 1.15rem/1.3 var(--font-display); color: var(--c-base); margin: 0; letter-spacing: -.01em; }
+.nw-site .elementor .faq-acc .e-n-accordion-item-title-icon {
+  width: 34px; height: 34px; border-radius: 50%; flex: none; display: grid; place-items: center;
+  background: var(--c-highlight-soft); color: var(--c-base); transition: transform .35s var(--ease), background .25s;
+}
+.nw-site .elementor .faq-acc .e-n-accordion-item-title-icon :is(svg, i) { width: 14px; height: 14px; font-size: 14px; fill: currentColor; }
+.nw-site .elementor .faq-acc .e-n-accordion-item-title-icon { order: 2; }   /* Elementor puts it first (order -1) */
+.nw-site .elementor .faq-acc .e-n-accordion-item { margin: 0; }                 /* the grid gap spaces the items */
+.nw-site .elementor .faq-acc .e-n-accordion-item-title-icon .e-opened { display: none; }
+.nw-site .elementor .faq-acc .e-n-accordion-item-title-icon .e-closed { display: flex; }
+.nw-site .elementor .faq-acc .e-n-accordion-item[open] .e-n-accordion-item-title-icon { transform: rotate(135deg); background: var(--c-accent); color: var(--c-on-accent); }
+.nw-site .elementor .faq-acc .faq-ans { padding: 0 24px 22px; color: var(--c-muted); border: 0; }
+.nw-site .elementor .faq-acc .faq-ans p + p { margin-top: .8em; }

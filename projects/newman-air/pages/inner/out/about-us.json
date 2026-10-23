@@ -56,21 +56,24 @@
           {
            "id": "52031357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">About Us</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">About Us</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "520326ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>About Newman Air</p>"
+            "title": "About Newman Air",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -302,11 +305,11 @@
           {
            "id": "5203fb6b",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -336,7 +339,7 @@
    "elType": "container"
   },
   {
-   "id": "5206664b",
+   "id": "52078864",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -344,7 +347,7 @@
    },
    "elements": [
     {
-     "id": "520652f4",
+     "id": "5207750d",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -372,28 +375,28 @@
      },
      "elements": [
       {
-       "id": "52063f9d",
+       "id": "520761b6",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "52062c46",
+         "id": "52074e5f",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "520618ef",
+           "id": "52073b08",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "52051d84",
+             "id": "52063f9d",
              "settings": {
               "editor": "<p>Our culture is simple: do the right thing for customers, keep our word and make the process easy from the first call to the follow-up. Customers often say that having us in their home feels like “a friend stopped by to help,” and that’s the experience we aim to deliver—personal, respectful and professional.</p>"
              },
@@ -403,7 +406,7 @@
              "elType": "widget"
             },
             {
-             "id": "520530db",
+             "id": "520652f4",
              "settings": {
               "title": "A Team That Puts Customers First",
               "header_size": "h3"
@@ -414,7 +417,7 @@
              "elType": "widget"
             },
             {
-             "id": "52054432",
+             "id": "5206664b",
              "settings": {
               "editor": "<p>You deserve clear answers and work done the right way. That’s why every visit starts with listening. We explain what we find, lay out practical options and help you choose the path that best fits your home or business. No runaround, no pressure, no unnecessary upselling—just straightforward guidance and careful workmanship.</p><p>We’re particular about the details that shape your day. Timely arrivals, tidy work areas and clean wrap-ups aren’t extras to us—they’re part of doing the job properly and leaving your space better than we found it.</p>"
              },
@@ -424,7 +427,7 @@
              "elType": "widget"
             },
             {
-             "id": "52055789",
+             "id": "520679a2",
              "settings": {
               "title": "Rooted in the Tri-Cities",
               "header_size": "h3"
@@ -435,7 +438,7 @@
              "elType": "widget"
             },
             {
-             "id": "52056ae0",
+             "id": "52068cf9",
              "settings": {
               "editor": "<p>This is home. We live here, raise our families here and understand the weather swings and housing quirks that come with the Tri-Cities, TN, area. That local perspective shapes our recommendations and the way we show up for neighbors. Our membership in the Home Builders Association keeps us connected to fellow local professionals and the standards that shape our industry.</p>"
              },
@@ -445,7 +448,7 @@
              "elType": "widget"
             },
             {
-             "id": "52057e37",
+             "id": "5206a050",
              "settings": {
               "title": "More Than Just Service Calls",
               "header_size": "h3"
@@ -456,7 +459,7 @@
              "elType": "widget"
             },
             {
-             "id": "5205918e",
+             "id": "5206b3a7",
              "settings": {
               "editor": "<p>Heating and cooling is what we do, but people are why we do it. A repair or replacement is never just about equipment—it’s about making your space safer, healthier and more comfortable. We take time to answer questions, talk through timelines and costs and keep communication clear so you can move forward with confidence.</p><p>For customers who like a proactive approach, our Bear Necessities Maintenance Plan delivers year-round maintenance, priority scheduling and member-only savings to keep everything running smoothly and efficiently.</p>"
              },
@@ -466,7 +469,7 @@
              "elType": "widget"
             },
             {
-             "id": "5205a4e5",
+             "id": "5206c6fe",
              "settings": {
               "title": "Your Comfort Deserves a Team You Can Trust",
               "header_size": "h3"
@@ -477,7 +480,7 @@
              "elType": "widget"
             },
             {
-             "id": "5205b83c",
+             "id": "5206da55",
              "settings": {
               "editor": "<p>Choosing the right heating and cooling team makes all the difference. With decades of experience, hometown values and technicians who truly care, we bring the kind of service that’s worth recommending to your neighbors. Here’s why families and businesses across the Tri-Cities, TN, area continue to put their trust in us:</p><ul><li>Proven track record—more than 30 years of reliable service</li><li>Family-operated—local roots and a personal touch in every call</li><li>Certified expertise—Daikin® Comfort Pro and certified CCE (Certified Comfort Expert) dealer through YORK® for trusted solutions</li><li>Friendly faces—a caring team that treats your home like their own</li><li>A guarantee you can count on</li><li>Flexible financing—options through GoodLeap, Synchrony Bank and Hearth to keep comfort within reach</li><li>Top brands—reliable systems from Ruud, Daikin, YORK, Mitsubishi and more</li><li>Community loyalty—supporting the same neighborhoods we proudly serve</li></ul>"
              },
@@ -487,7 +490,7 @@
              "elType": "widget"
             },
             {
-             "id": "5205cb93",
+             "id": "5206edac",
              "settings": {
               "title": "Built on Integrity and Quality",
               "header_size": "h3"
@@ -498,7 +501,7 @@
              "elType": "widget"
             },
             {
-             "id": "5205deea",
+             "id": "52070103",
              "settings": {
               "editor": "<p>We believe great service is about more than just technical skill—it’s about how you’re treated along the way. That means transparent pricing, dependable communication and workmanship that’s never rushed or incomplete. From the first conversation to the final handshake, you’ll know you’re working with people who genuinely care about getting it right.</p>"
              },
@@ -508,7 +511,7 @@
              "elType": "widget"
             },
             {
-             "id": "5205f241",
+             "id": "5207145a",
              "settings": {
               "title": "Your Comfort, Our Commitment",
               "header_size": "h3"
@@ -519,7 +522,7 @@
              "elType": "widget"
             },
             {
-             "id": "52060598",
+             "id": "520727b1",
              "settings": {
               "editor": "<p>At Newman Air, we don’t measure success in awards or titles. We measure it in the comfort of your home or business, the trust you place in us and the relationships we’ve built for decades. For us, every service call is a chance to prove why we’re Newman Air—and to make sure you always feel like you’ve got a best friend on your side.</p>"
              },
@@ -537,7 +540,7 @@
          "elType": "container"
         },
         {
-         "id": "52050a2d",
+         "id": "52062c46",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -565,11 +568,11 @@
             {
              "id": "520482cc",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -592,11 +595,11 @@
             {
              "id": "5204a97a",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -604,7 +607,7 @@
            "elType": "container"
           },
           {
-           "id": "5204f6d6",
+           "id": "520618ef",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -622,13 +625,225 @@
              "elType": "widget"
             },
             {
-             "id": "5204e37f",
+             "id": "52060598",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "204e37f",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "204f6d6",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2050a2d",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2051d84",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20530db",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2054432",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2055789",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2056ae0",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2057e37",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "205918e",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "205a4e5",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "205b83c",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "205cb93",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "205deea",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "205f241",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -652,7 +867,7 @@
    "elType": "container"
   },
   {
-   "id": "52073b08",
+   "id": "52085d21",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -661,7 +876,7 @@
    },
    "elements": [
     {
-     "id": "520727b1",
+     "id": "520849ca",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -689,21 +904,21 @@
      },
      "elements": [
       {
-       "id": "5207145a",
+       "id": "52083673",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "52068cf9",
+         "id": "5207af12",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "520679a2",
+           "id": "52079bbb",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -717,7 +932,7 @@
          "elType": "container"
         },
         {
-         "id": "52070103",
+         "id": "5208231c",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -725,17 +940,19 @@
          },
          "elements": [
           {
-           "id": "5206a050",
+           "id": "5207c269",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "5206b3a7",
+           "id": "5207d5c0",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -762,7 +979,7 @@
            "elType": "widget"
           },
           {
-           "id": "5206c6fe",
+           "id": "5207e917",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -772,7 +989,7 @@
            "elType": "widget"
           },
           {
-           "id": "5206da55",
+           "id": "5207fc6e",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -782,7 +999,7 @@
            "elType": "widget"
           },
           {
-           "id": "5206edac",
+           "id": "52080fc5",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -815,7 +1032,7 @@
    "elType": "container"
   },
   {
-   "id": "52080fc5",
+   "id": "520931de",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -823,7 +1040,7 @@
    },
    "elements": [
     {
-     "id": "5207fc6e",
+     "id": "52091e87",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -851,24 +1068,26 @@
      },
      "elements": [
       {
-       "id": "5207c269",
+       "id": "5208e482",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "52074e5f",
+         "id": "52087078",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "520761b6",
+         "id": "520883cf",
          "settings": {
           "title": "Schedule Your Service Today!",
           "header_size": "h2",
@@ -895,7 +1114,7 @@
          "elType": "widget"
         },
         {
-         "id": "5207750d",
+         "id": "52089726",
          "settings": {
           "editor": "<p class=\"lead\">Booking a service with Newman Air is quick and easy. Simply reach out to our team, choose a time that works for you, and let us handle the rest.</p>"
          },
@@ -905,14 +1124,14 @@
          "elType": "widget"
         },
         {
-         "id": "5207af12",
+         "id": "5208d12b",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "52078864",
+           "id": "5208aa7d",
            "settings": {
             "text": "Schedule Service",
             "link": {
@@ -929,7 +1148,7 @@
            "elType": "widget"
           },
           {
-           "id": "52079bbb",
+           "id": "5208bdd4",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -954,7 +1173,7 @@
        "elType": "container"
       },
       {
-       "id": "5207d5c0",
+       "id": "5208f7d9",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -964,7 +1183,7 @@
        "elType": "widget"
       },
       {
-       "id": "5207e917",
+       "id": "52090b30",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

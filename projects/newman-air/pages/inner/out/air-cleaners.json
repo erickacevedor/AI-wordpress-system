@@ -56,21 +56,24 @@
           {
            "id": "52061357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Air Cleaners</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Air Cleaners</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "520626ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+            "title": "Our Services",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -302,11 +305,11 @@
           {
            "id": "5206fb6b",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -571,7 +574,7 @@
    "elType": "container"
   },
   {
-   "id": "520ae917",
+   "id": "520c0b30",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -579,7 +582,7 @@
    },
    "elements": [
     {
-     "id": "520ad5c0",
+     "id": "520bf7d9",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -607,28 +610,28 @@
      },
      "elements": [
       {
-       "id": "520ac269",
+       "id": "520be482",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "520aaf12",
+         "id": "520bd12b",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "520a145a",
+           "id": "520b3673",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "5209a050",
+             "id": "520ac269",
              "settings": {
               "title": "Why Choose Us For Air Cleaner Installation ?",
               "header_size": "h2",
@@ -655,7 +658,7 @@
              "elType": "widget"
             },
             {
-             "id": "5209b3a7",
+             "id": "520ad5c0",
              "settings": {
               "editor": "<p>Choosing us for your air cleaner installation means choosing a team that cares about the air you breathe every day. We’ll take the time to explain your options, recommend the right system, and install it with precision so you notice the difference right away. With decades of experience and a reputation for quality, we know how to bring comfort and clean air to your home. Here’s what you can count on:</p><ul><li>Clear, upfront pricing without hidden costs</li><li>Our “Done Right” commitment</li><li>Respectful technicians who treat your home like their own</li><li>A trusted local company that values community connections</li></ul>"
              },
@@ -665,7 +668,7 @@
              "elType": "widget"
             },
             {
-             "id": "5209c6fe",
+             "id": "520ae917",
              "settings": {
               "title": "Why Indoor Air Quality Matters",
               "header_size": "h3"
@@ -676,7 +679,7 @@
              "elType": "widget"
             },
             {
-             "id": "5209da55",
+             "id": "520afc6e",
              "settings": {
               "editor": "<p>The air inside your home can hold more pollutants than the air outside, which makes it a hidden problem for many families. Dust, mold spores, pet dander, and even cleaning chemicals circulate through your HVAC system. Over time, this buildup can cause:</p><ul><li>Allergy or asthma flare-ups</li><li>Lingering odors that won’t go away</li><li>Excessive dust on surfaces</li><li>Reduced HVAC efficiency</li></ul>"
              },
@@ -686,7 +689,7 @@
              "elType": "widget"
             },
             {
-             "id": "5209edac",
+             "id": "520b0fc5",
              "settings": {
               "title": "Simple Financing Options",
               "header_size": "h3"
@@ -697,7 +700,7 @@
              "elType": "widget"
             },
             {
-             "id": "520a0103",
+             "id": "520b231c",
              "settings": {
               "editor": "<p>Installing an air cleaner is an investment in your family’s health, and financing makes it more accessible. We offer financing through GoodLeap, Synchrony and Hearth so you can spread out the cost. This flexibility helps you act now instead of waiting. We’ll guide you through the process and explain your options clearly.</p>"
              },
@@ -711,14 +714,14 @@
            "elType": "container"
           },
           {
-           "id": "520a9bbb",
+           "id": "520bbdd4",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "520a27b1",
+             "id": "520b49ca",
              "settings": {
               "title": "Our Approach to Air Cleaner Installation",
               "header_size": "h2",
@@ -745,7 +748,7 @@
              "elType": "widget"
             },
             {
-             "id": "520a3b08",
+             "id": "520b5d21",
              "settings": {
               "editor": "<p>We’ll start by reviewing your current HVAC system to determine the best type of air cleaner for your home. Then, we’ll install the unit directly into your system, so it filters the air as it cycles through. These systems capture particles that standard filters miss, removing everything from fine dust to bacteria. With professional installation, you’ll notice cleaner air, fewer odors, and less dust around your home. We’ll make sure your system works seamlessly with your existing HVAC setup, so you can focus on more important things.</p>"
              },
@@ -755,7 +758,7 @@
              "elType": "widget"
             },
             {
-             "id": "520a4e5f",
+             "id": "520b7078",
              "settings": {
               "title": "Why You Shouldn’t Ignore Your Indoor Air",
               "header_size": "h3"
@@ -766,7 +769,7 @@
              "elType": "widget"
             },
             {
-             "id": "520a61b6",
+             "id": "520b83cf",
              "settings": {
               "editor": "<p>Ignoring poor air quality doesn’t make the problem go away, and it will gradually get worse. Without a quality air cleaner, your family may face ongoing health concerns or discomfort that worsens over time. Here are some potential risks:</p><ul><li>Worsening allergies or respiratory problems</li><li>More frequent HVAC breakdowns due to dirty components</li><li>Increased household dust and cleaning needs</li><li>Higher energy bills from a strained system</li></ul>"
              },
@@ -776,7 +779,7 @@
              "elType": "widget"
             },
             {
-             "id": "520a750d",
+             "id": "520b9726",
              "settings": {
               "title": "The Benefits of Cleaner Indoor Air",
               "header_size": "h3"
@@ -787,7 +790,7 @@
              "elType": "widget"
             },
             {
-             "id": "520a8864",
+             "id": "520baa7d",
              "settings": {
               "editor": "<p>Adding an air cleaner to your home comes with lasting benefits for both your health and comfort. You’ll create a fresher environment and improve the performance of your HVAC system, with advantages that include:</p><ul><li>Relief from allergy and asthma symptoms</li><li>Cleaner surfaces and less frequent dusting</li><li>A more efficient heating and cooling system</li><li>Peace of mind knowing your air is cleaner</li></ul>"
              },
@@ -805,7 +808,7 @@
          "elType": "container"
         },
         {
-         "id": "52098cf9",
+         "id": "520aaf12",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -833,11 +836,11 @@
             {
              "id": "52090598",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -860,11 +863,11 @@
             {
              "id": "52092c46",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -872,7 +875,7 @@
            "elType": "container"
           },
           {
-           "id": "520979a2",
+           "id": "520a9bbb",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -890,13 +893,225 @@
              "elType": "widget"
             },
             {
-             "id": "5209664b",
+             "id": "520a8864",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\" aria-current=\"page\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "209664b",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20979a2",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2098cf9",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "209a050",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "209b3a7",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "209c6fe",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "209da55",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "209edac",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20a0103",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20a145a",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20a27b1",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": "aria-current|page"
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20a3b08",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20a4e5f",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20a61b6",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20a750d",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -920,7 +1135,7 @@
    "elType": "container"
   },
   {
-   "id": "520b9726",
+   "id": "520ec36c",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -929,7 +1144,7 @@
    },
    "elements": [
     {
-     "id": "520b83cf",
+     "id": "520eb015",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -957,31 +1172,33 @@
      },
      "elements": [
       {
-       "id": "520b7078",
+       "id": "520e9cbe",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "520b49ca",
+         "id": "520e8967",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
          },
          "elements": [
           {
-           "id": "520afc6e",
+           "id": "520c1e87",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "520b0fc5",
+           "id": "520c31de",
            "settings": {
             "title": "Frequently Asked Questions",
             "header_size": "h2",
@@ -1008,7 +1225,7 @@
            "elType": "widget"
           },
           {
-           "id": "520b231c",
+           "id": "520c4535",
            "settings": {
             "editor": "<p class=\"lead\">Here are some common questions about air cleaners. If you don’t see your question here, get in touch and we’ll be happy to provide an answer.</p>"
            },
@@ -1018,13 +1235,13 @@
            "elType": "widget"
           },
           {
-           "id": "520b3673",
+           "id": "520c588c",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -1032,13 +1249,253 @@
          "elType": "container"
         },
         {
-         "id": "520b5d21",
+         "id": "520e7610",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>How does an air cleaner work?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>An air cleaner is installed within your HVAC system to filter air as it circulates. It captures particles like dust, pollen, pet dander, and smoke that standard filters often miss. The result is cleaner, healthier air throughout your home.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Do air cleaners help with odors?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, many air cleaners reduce odors caused by pets, cooking, or smoke. By filtering out particles that hold odors, your air feels fresher and your home smells cleaner. This can make a noticeable difference in everyday comfort.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>What’s the difference between an air cleaner and an air purifier?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Air cleaners generally filter out larger particles like dust and dander, while purifiers may also target bacteria and viruses. Some systems combine both functions. We’ll help you choose the right solution based on your needs.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>How often do air cleaners need maintenance?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most units require filter changes or cleanings every few months, depending on the system and your home’s air quality. Regular maintenance keeps them working effectively. Our team can guide you on the schedule that works best for your unit.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Are air cleaners safe for people with allergies or asthma?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, in fact, they’re especially beneficial for people with respiratory issues. By removing allergens and fine particles, air cleaners can reduce symptoms and improve daily comfort. Many families notice improvements soon after installation.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Will an air cleaner increase my energy bills?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>No, in many cases, an air cleaner can improve system efficiency by keeping components cleaner. This helps your HVAC system work more smoothly and may even reduce energy costs over time. The long-term benefits outweigh the small energy use of the unit itself.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Can I install an air cleaner myself?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Air cleaners are designed to integrate with your HVAC system, so professional installation is strongly recommended. Incorrect installation can reduce performance and even damage your system. Our technicians make sure it’s installed safely and properly.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>How do I know if I need an air cleaner?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Signs include constant dust buildup, lingering odors, allergy symptoms indoors, or visible particles in the air when sunlight comes through windows. Even if your home seems fine, an air cleaner can still improve health and comfort. A professional evaluation can help confirm your needs.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>How long does installation take?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most air cleaner installations can be completed in a few hours. Our team works efficiently so you can start enjoying cleaner air the same day. We’ll explain the process before beginning so you know exactly what to expect.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "20c6be3",
+            "item_title": "How does an air cleaner work?"
+           },
+           {
+            "_id": "20c7f3a",
+            "item_title": "Do air cleaners help with odors?"
+           },
+           {
+            "_id": "20c9291",
+            "item_title": "What’s the difference between an air cleaner and an air purifier?"
+           },
+           {
+            "_id": "20ca5e8",
+            "item_title": "How often do air cleaners need maintenance?"
+           },
+           {
+            "_id": "20cb93f",
+            "item_title": "Are air cleaners safe for people with allergies or asthma?"
+           },
+           {
+            "_id": "20ccc96",
+            "item_title": "Will an air cleaner increase my energy bills?"
+           },
+           {
+            "_id": "20cdfed",
+            "item_title": "Can I install an air cleaner myself?"
+           },
+           {
+            "_id": "20cf344",
+            "item_title": "How do I know if I need an air cleaner?"
+           },
+           {
+            "_id": "20d069b",
+            "item_title": "How long does installation take?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "520d2d49",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520d19f2",
+             "settings": {
+              "editor": "<p>An air cleaner is installed within your HVAC system to filter air as it circulates. It captures particles like dust, pollen, pet dander, and smoke that standard filters often miss. The result is cleaner, healthier air throughout your home.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520d53f7",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520d40a0",
+             "settings": {
+              "editor": "<p>Yes, many air cleaners reduce odors caused by pets, cooking, or smoke. By filtering out particles that hold odors, your air feels fresher and your home smells cleaner. This can make a noticeable difference in everyday comfort.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520d7aa5",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520d674e",
+             "settings": {
+              "editor": "<p>Air cleaners generally filter out larger particles like dust and dander, while purifiers may also target bacteria and viruses. Some systems combine both functions. We’ll help you choose the right solution based on your needs.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520da153",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520d8dfc",
+             "settings": {
+              "editor": "<p>Most units require filter changes or cleanings every few months, depending on the system and your home’s air quality. Regular maintenance keeps them working effectively. Our team can guide you on the schedule that works best for your unit.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520dc801",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520db4aa",
+             "settings": {
+              "editor": "<p>Yes, in fact, they’re especially beneficial for people with respiratory issues. By removing allergens and fine particles, air cleaners can reduce symptoms and improve daily comfort. Many families notice improvements soon after installation.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520deeaf",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520ddb58",
+             "settings": {
+              "editor": "<p>No, in many cases, an air cleaner can improve system efficiency by keeping components cleaner. This helps your HVAC system work more smoothly and may even reduce energy costs over time. The long-term benefits outweigh the small energy use of the unit itself.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520e155d",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520e0206",
+             "settings": {
+              "editor": "<p>Air cleaners are designed to integrate with your HVAC system, so professional installation is strongly recommended. Incorrect installation can reduce performance and even damage your system. Our technicians make sure it’s installed safely and properly.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520e3c0b",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520e28b4",
+             "settings": {
+              "editor": "<p>Signs include constant dust buildup, lingering odors, allergy symptoms indoors, or visible particles in the air when sunlight comes through windows. Even if your home seems fine, an air cleaner can still improve health and comfort. A professional evaluation can help confirm your needs.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520e62b9",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520e4f62",
+             "settings": {
+              "editor": "<p>Most air cleaner installations can be completed in a few hours. Our team works efficiently so you can start enjoying cleaner air the same day. We’ll explain the process before beginning so you know exactly what to expect.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -1054,7 +1511,7 @@
    "elType": "container"
   },
   {
-   "id": "520c6be3",
+   "id": "520f9829",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1063,7 +1520,7 @@
    },
    "elements": [
     {
-     "id": "520c588c",
+     "id": "520f84d2",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1091,21 +1548,21 @@
      },
      "elements": [
       {
-       "id": "520c4535",
+       "id": "520f717b",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "520bbdd4",
+         "id": "520eea1a",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "520baa7d",
+           "id": "520ed6c3",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -1119,7 +1576,7 @@
          "elType": "container"
         },
         {
-         "id": "520c31de",
+         "id": "520f5e24",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -1127,17 +1584,19 @@
          },
          "elements": [
           {
-           "id": "520bd12b",
+           "id": "520efd71",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "520be482",
+           "id": "520f10c8",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -1164,7 +1623,7 @@
            "elType": "widget"
           },
           {
-           "id": "520bf7d9",
+           "id": "520f241f",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -1174,7 +1633,7 @@
            "elType": "widget"
           },
           {
-           "id": "520c0b30",
+           "id": "520f3776",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -1184,7 +1643,7 @@
            "elType": "widget"
           },
           {
-           "id": "520c1e87",
+           "id": "520f4acd",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -1217,7 +1676,7 @@
    "elType": "container"
   },
   {
-   "id": "520d40a0",
+   "id": "52106ce6",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1225,7 +1684,7 @@
    },
    "elements": [
     {
-     "id": "520d2d49",
+     "id": "5210598f",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1253,24 +1712,26 @@
      },
      "elements": [
       {
-       "id": "520cf344",
+       "id": "52101f8a",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "520c7f3a",
+         "id": "520fab80",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "520c9291",
+         "id": "520fbed7",
          "settings": {
           "title": "Take the Next Step Today",
           "header_size": "h2",
@@ -1297,7 +1758,7 @@
          "elType": "widget"
         },
         {
-         "id": "520ca5e8",
+         "id": "520fd22e",
          "settings": {
           "editor": "<p class=\"lead\">If you’re ready to improve your indoor air quality with air cleaner installation in Johnson City, TN, Newman Air is here to help. Our team will guide you through your options and set up a system that works for your home. Call us today to schedule your appointment and start breathing easier.</p>"
          },
@@ -1307,14 +1768,14 @@
          "elType": "widget"
         },
         {
-         "id": "520cdfed",
+         "id": "52100c33",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "520cb93f",
+           "id": "520fe585",
            "settings": {
             "text": "Schedule Service",
             "link": {
@@ -1331,7 +1792,7 @@
            "elType": "widget"
           },
           {
-           "id": "520ccc96",
+           "id": "520ff8dc",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -1356,7 +1817,7 @@
        "elType": "container"
       },
       {
-       "id": "520d069b",
+       "id": "521032e1",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -1366,7 +1827,7 @@
        "elType": "widget"
       },
       {
-       "id": "520d19f2",
+       "id": "52104638",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

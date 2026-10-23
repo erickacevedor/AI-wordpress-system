@@ -55,21 +55,24 @@
           {
            "id": "52239ab8",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">Confirmed</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">Confirmed</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "5223ae0f",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Confirmed</p>"
+            "title": "Confirmed",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -185,11 +188,13 @@
             {
              "id": "52231357",
              "settings": {
-              "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>About Us</p>"
+              "title": "About Us",
+              "header_size": "p",
+              "_css_classes": "nw-eyebrow"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "heading",
              "elType": "widget"
             },
             {

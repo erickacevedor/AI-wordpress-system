@@ -56,21 +56,24 @@
           {
            "id": "520c1357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Ductwork Repair & Installation</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Ductwork Repair & Installation</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "520c26ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+            "title": "Our Services",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -302,11 +305,11 @@
           {
            "id": "520cfb6b",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -571,7 +574,7 @@
    "elType": "container"
   },
   {
-   "id": "5210e917",
+   "id": "52120b30",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -579,7 +582,7 @@
    },
    "elements": [
     {
-     "id": "5210d5c0",
+     "id": "5211f7d9",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -607,28 +610,28 @@
      },
      "elements": [
       {
-       "id": "5210c269",
+       "id": "5211e482",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5210af12",
+         "id": "5211d12b",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "5210145a",
+           "id": "52113673",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "520fa050",
+             "id": "5210c269",
              "settings": {
               "title": "When Airflow Problems Begin",
               "header_size": "h2",
@@ -655,7 +658,7 @@
              "elType": "widget"
             },
             {
-             "id": "520fb3a7",
+             "id": "5210d5c0",
              "settings": {
               "editor": "<p>Damaged or poorly designed ductwork can create issues throughout your home. Air leaks, blockages, or undersized ducts make your system work harder than it should. Here are some common signs that it’s time to address your ducts:</p><ul><li>Uneven heating and cooling from room to room</li><li>Rising energy costs without a clear reason</li><li>Unusual noises when your system is running</li><li>Weak airflow from vents</li></ul>"
              },
@@ -665,7 +668,7 @@
              "elType": "widget"
             },
             {
-             "id": "520fc6fe",
+             "id": "5210e917",
              "settings": {
               "title": "Reasons to Choose Us",
               "header_size": "h3"
@@ -676,7 +679,7 @@
              "elType": "widget"
             },
             {
-             "id": "520fda55",
+             "id": "5210fc6e",
              "settings": {
               "editor": "<p>Your ductwork is the backbone of your HVAC system, and it deserves expert attention. We’ll repair damaged sections or install new ducts with precision, so your system runs efficiently and your home stays comfortable. Our team brings years of experience and the same level of care we’d expect in our own homes. Here’s what makes us different:</p><ul><li>Honest, upfront pricing without hidden fees</li><li>A “Done Right” guarantee you can count on</li><li>Skilled technicians who respect your time and property</li><li>A trusted local company with deep roots in the community</li></ul>"
              },
@@ -686,7 +689,7 @@
              "elType": "widget"
             },
             {
-             "id": "520fedac",
+             "id": "52110fc5",
              "settings": {
               "title": "Flexible Financing Options",
               "header_size": "h3"
@@ -697,7 +700,7 @@
              "elType": "widget"
             },
             {
-             "id": "52100103",
+             "id": "5211231c",
              "settings": {
               "editor": "<p>Fixing or installing ductwork is an important investment in your home’s comfort and efficiency. To make it more accessible, we offer financing through GoodLeap, Synchrony and Hearth. With flexible options, you can get the work done now without delaying. Our team will walk you through the details, so the process is clear and stress-free.</p>"
              },
@@ -711,14 +714,14 @@
            "elType": "container"
           },
           {
-           "id": "52109bbb",
+           "id": "5211bdd4",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "521027b1",
+             "id": "521149ca",
              "settings": {
               "title": "How Ductwork Repair and Installation Work",
               "header_size": "h2",
@@ -745,7 +748,7 @@
              "elType": "widget"
             },
             {
-             "id": "52103b08",
+             "id": "52115d21",
              "settings": {
               "editor": "<p>Our technicians begin with a full evaluation of your existing duct system. If repairs are possible, we’ll seal leaks, replace damaged sections, and adjust any design flaws that are limiting the performance. For new installations, we’ll design and install ducts that fit your home’s layout for maximum efficiency. Proper ductwork not only improves comfort but also reduces strain on your HVAC system. With precise repair or installation, your system will run smoothly and last longer.</p>"
              },
@@ -755,7 +758,7 @@
              "elType": "widget"
             },
             {
-             "id": "52104e5f",
+             "id": "52117078",
              "settings": {
               "title": "Why Waiting Can Cost You More",
               "header_size": "h3"
@@ -766,7 +769,7 @@
              "elType": "widget"
             },
             {
-             "id": "521061b6",
+             "id": "521183cf",
              "settings": {
               "editor": "<p>Neglecting ductwork issues can drive up the costs and reduce your comfort over time. Leaky or damaged ducts waste energy and leave parts of your home uncomfortable. Ignoring the problem could also shorten the lifespan of your HVAC system. Here’s what you may be facing:</p><ul><li>Higher energy bills month after month</li><li>Hot and cold spots that never improve</li><li>Increased wear and tear on your system</li><li>More expensive repairs in the future</li></ul>"
              },
@@ -776,7 +779,7 @@
              "elType": "widget"
             },
             {
-             "id": "5210750d",
+             "id": "52119726",
              "settings": {
               "title": "The Benefits of Professional Ductwork Service",
               "header_size": "h3"
@@ -787,7 +790,7 @@
              "elType": "widget"
             },
             {
-             "id": "52108864",
+             "id": "5211aa7d",
              "settings": {
               "editor": "<p>When your ductwork is properly designed and sealed, your entire home benefits. You’ll notice consistent comfort, better efficiency, and a healthier HVAC system overall. Investing in professional repair or installation pays off in both comfort and cost savings. Benefits include:</p><ul><li>Balanced heating and cooling throughout your home</li><li>Lower energy use from reduced air leaks</li><li>Longer equipment life because of reduced strain</li><li>Quieter operation with fewer duct noises</li></ul>"
              },
@@ -805,7 +808,7 @@
          "elType": "container"
         },
         {
-         "id": "520f8cf9",
+         "id": "5210af12",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -833,11 +836,11 @@
             {
              "id": "520f0598",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -860,11 +863,11 @@
             {
              "id": "520f2c46",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -872,7 +875,7 @@
            "elType": "container"
           },
           {
-           "id": "520f79a2",
+           "id": "52109bbb",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -890,13 +893,225 @@
              "elType": "widget"
             },
             {
-             "id": "520f664b",
+             "id": "52108864",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\" aria-current=\"page\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "20f664b",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20f79a2",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20f8cf9",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20fa050",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20fb3a7",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20fc6fe",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20fda55",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20fedac",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2100103",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": "aria-current|page"
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "210145a",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21027b1",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2103b08",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2104e5f",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21061b6",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "210750d",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -920,7 +1135,7 @@
    "elType": "container"
   },
   {
-   "id": "52119726",
+   "id": "5214fd71",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -929,7 +1144,7 @@
    },
    "elements": [
     {
-     "id": "521183cf",
+     "id": "5214ea1a",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -957,31 +1172,33 @@
      },
      "elements": [
       {
-       "id": "52117078",
+       "id": "5214d6c3",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "521149ca",
+         "id": "5214c36c",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
          },
          "elements": [
           {
-           "id": "5210fc6e",
+           "id": "52121e87",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "52110fc5",
+           "id": "521231de",
            "settings": {
             "title": "Frequently Asked Questions",
             "header_size": "h2",
@@ -1008,7 +1225,7 @@
            "elType": "widget"
           },
           {
-           "id": "5211231c",
+           "id": "52124535",
            "settings": {
             "editor": "<p class=\"lead\">Here are answers to common questions about ductwork repair and installation. If you don’t see your question, just reach out and we’ll be glad to provide an answer.</p>"
            },
@@ -1018,13 +1235,13 @@
            "elType": "widget"
           },
           {
-           "id": "52113673",
+           "id": "5212588c",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -1032,13 +1249,278 @@
          "elType": "container"
         },
         {
-         "id": "52115d21",
+         "id": "5214b015",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>How much do you charge for a diagnostic visit?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Our standard diagnostic fee is <strong>$75</strong>. A technician will inspect your system, find the issue, and provide a clear, upfront repair estimate before any work starts.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>How do I know if my ductwork needs repair?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Some of the most common signs include uneven temperatures, weak airflow, and higher-than-usual energy bills. You might also hear rattling or whistling noises when the system is on. A professional inspection will confirm if repairs are needed.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>What’s involved in installing new ductwork?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>When we get started, our team will design a layout based on your home’s size and structure, then install ducts that optimize your airflow. We’ll connect them securely to your system and vents to make sure everything is sealed tight. Proper installation is key to comfort and efficiency.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Can damaged ducts affect my energy bills?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, leaks or gaps in your ductwork can waste a significant amount of conditioned air. This forces your system to work harder, leading to higher utility costs. Repairing or replacing ducts often reduces monthly bills.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>How long does ductwork last?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>With proper installation and maintenance, ductwork can last 15 to 25 years. Over time, joints can loosen, and materials can wear down, which reduces its performance. Replacing old ducts can restore efficiency and comfort.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Is duct repair a big project?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Repairs are often less invasive than homeowners expect. Depending on the issue, we may only need to replace sections or seal joints. Our technicians will explain the scope of work before beginning.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>What materials are used for new ducts?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most modern ductwork is made from sheet metal, fiberglass, or flexible materials. The choice depends on your home’s needs and the design of your system. We’ll recommend the best option for long-term performance.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>How does proper ductwork impact my HVAC performance?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Well-installed ducts reduce energy loss, balance airflow, and make your system run more efficiently. That means fewer breakdowns and longer life for your HVAC equipment. It’s one of the most important factors in overall performance.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Will new ductwork improve comfort in every room?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, properly installed ductwork distributes air evenly throughout your home. Hot and cold spots are reduced or eliminated, creating a more comfortable living space. You’ll notice the difference almost immediately.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>How long does ductwork installation take?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>The timeline depends on the size of your home and the complexity of the layout. Many projects can be completed within a few days. We’ll provide a clear estimate before starting the job.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "2126be3",
+            "item_title": "How much do you charge for a diagnostic visit?"
+           },
+           {
+            "_id": "2127f3a",
+            "item_title": "How do I know if my ductwork needs repair?"
+           },
+           {
+            "_id": "2129291",
+            "item_title": "What’s involved in installing new ductwork?"
+           },
+           {
+            "_id": "212a5e8",
+            "item_title": "Can damaged ducts affect my energy bills?"
+           },
+           {
+            "_id": "212b93f",
+            "item_title": "How long does ductwork last?"
+           },
+           {
+            "_id": "212cc96",
+            "item_title": "Is duct repair a big project?"
+           },
+           {
+            "_id": "212dfed",
+            "item_title": "What materials are used for new ducts?"
+           },
+           {
+            "_id": "212f344",
+            "item_title": "How does proper ductwork impact my HVAC performance?"
+           },
+           {
+            "_id": "213069b",
+            "item_title": "Will new ductwork improve comfort in every room?"
+           },
+           {
+            "_id": "21319f2",
+            "item_title": "How long does ductwork installation take?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "521340a0",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52132d49",
+             "settings": {
+              "editor": "<p>Our standard diagnostic fee is <strong>$75</strong>. A technician will inspect your system, find the issue, and provide a clear, upfront repair estimate before any work starts.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5213674e",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521353f7",
+             "settings": {
+              "editor": "<p>Some of the most common signs include uneven temperatures, weak airflow, and higher-than-usual energy bills. You might also hear rattling or whistling noises when the system is on. A professional inspection will confirm if repairs are needed.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52138dfc",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52137aa5",
+             "settings": {
+              "editor": "<p>When we get started, our team will design a layout based on your home’s size and structure, then install ducts that optimize your airflow. We’ll connect them securely to your system and vents to make sure everything is sealed tight. Proper installation is key to comfort and efficiency.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5213b4aa",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5213a153",
+             "settings": {
+              "editor": "<p>Yes, leaks or gaps in your ductwork can waste a significant amount of conditioned air. This forces your system to work harder, leading to higher utility costs. Repairing or replacing ducts often reduces monthly bills.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5213db58",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5213c801",
+             "settings": {
+              "editor": "<p>With proper installation and maintenance, ductwork can last 15 to 25 years. Over time, joints can loosen, and materials can wear down, which reduces its performance. Replacing old ducts can restore efficiency and comfort.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52140206",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5213eeaf",
+             "settings": {
+              "editor": "<p>Repairs are often less invasive than homeowners expect. Depending on the issue, we may only need to replace sections or seal joints. Our technicians will explain the scope of work before beginning.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521428b4",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5214155d",
+             "settings": {
+              "editor": "<p>Most modern ductwork is made from sheet metal, fiberglass, or flexible materials. The choice depends on your home’s needs and the design of your system. We’ll recommend the best option for long-term performance.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52144f62",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52143c0b",
+             "settings": {
+              "editor": "<p>Well-installed ducts reduce energy loss, balance airflow, and make your system run more efficiently. That means fewer breakdowns and longer life for your HVAC equipment. It’s one of the most important factors in overall performance.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52147610",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521462b9",
+             "settings": {
+              "editor": "<p>Yes, properly installed ductwork distributes air evenly throughout your home. Hot and cold spots are reduced or eliminated, creating a more comfortable living space. You’ll notice the difference almost immediately.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52149cbe",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52148967",
+             "settings": {
+              "editor": "<p>The timeline depends on the size of your home and the complexity of the layout. Many projects can be completed within a few days. We’ll provide a clear estimate before starting the job.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -1054,7 +1536,7 @@
    "elType": "container"
   },
   {
-   "id": "52126be3",
+   "id": "5215d22e",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1063,7 +1545,7 @@
    },
    "elements": [
     {
-     "id": "5212588c",
+     "id": "5215bed7",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1091,21 +1573,21 @@
      },
      "elements": [
       {
-       "id": "52124535",
+       "id": "5215ab80",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5211bdd4",
+         "id": "5215241f",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "5211aa7d",
+           "id": "521510c8",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -1119,7 +1601,7 @@
          "elType": "container"
         },
         {
-         "id": "521231de",
+         "id": "52159829",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -1127,17 +1609,19 @@
          },
          "elements": [
           {
-           "id": "5211d12b",
+           "id": "52153776",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "5211e482",
+           "id": "52154acd",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -1164,7 +1648,7 @@
            "elType": "widget"
           },
           {
-           "id": "5211f7d9",
+           "id": "52155e24",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -1174,7 +1658,7 @@
            "elType": "widget"
           },
           {
-           "id": "52120b30",
+           "id": "5215717b",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -1184,7 +1668,7 @@
            "elType": "widget"
           },
           {
-           "id": "52121e87",
+           "id": "521584d2",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -1217,7 +1701,7 @@
    "elType": "container"
   },
   {
-   "id": "521340a0",
+   "id": "5216a6eb",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1225,7 +1709,7 @@
    },
    "elements": [
     {
-     "id": "52132d49",
+     "id": "52169394",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1253,24 +1737,26 @@
      },
      "elements": [
       {
-       "id": "5212f344",
+       "id": "5216598f",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "52127f3a",
+         "id": "5215e585",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "52129291",
+         "id": "5215f8dc",
          "settings": {
           "title": "Take the Next Step",
           "header_size": "h2",
@@ -1297,7 +1783,7 @@
          "elType": "widget"
         },
         {
-         "id": "5212a5e8",
+         "id": "52160c33",
          "settings": {
           "editor": "<p class=\"lead\">If you’re ready to improve your airflow, our team at Newman Air has got you covered. We offer ductwork repair and installation in Johnson City, TN, that will make sure your system delivers comfort where and when you need it. Call us today to schedule an appointment and get started.</p>"
          },
@@ -1307,14 +1793,14 @@
          "elType": "widget"
         },
         {
-         "id": "5212dfed",
+         "id": "52164638",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "5212b93f",
+           "id": "52161f8a",
            "settings": {
             "text": "Schedule Service",
             "link": {
@@ -1331,7 +1817,7 @@
            "elType": "widget"
           },
           {
-           "id": "5212cc96",
+           "id": "521632e1",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -1356,7 +1842,7 @@
        "elType": "container"
       },
       {
-       "id": "5213069b",
+       "id": "52166ce6",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -1366,7 +1852,7 @@
        "elType": "widget"
       },
       {
-       "id": "521319f2",
+       "id": "5216803d",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

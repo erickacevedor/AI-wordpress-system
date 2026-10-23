@@ -56,21 +56,24 @@
           {
            "id": "52111357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Heat Pumps</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Heat Pumps</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "521126ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+            "title": "Our Services",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -302,11 +305,11 @@
           {
            "id": "5211fb6b",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -571,7 +574,7 @@
    "elType": "container"
   },
   {
-   "id": "5215fc6e",
+   "id": "52171e87",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -579,7 +582,7 @@
    },
    "elements": [
     {
-     "id": "5215e917",
+     "id": "52170b30",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -607,28 +610,28 @@
      },
      "elements": [
       {
-       "id": "5215d5c0",
+       "id": "5216f7d9",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5215c269",
+         "id": "5216e482",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "52153b08",
+           "id": "52165d21",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "5214a050",
+             "id": "5215c269",
              "settings": {
               "title": "When Heat Pumps Become a Problem",
               "header_size": "h2",
@@ -655,7 +658,7 @@
              "elType": "widget"
             },
             {
-             "id": "5214b3a7",
+             "id": "5215d5c0",
              "settings": {
               "editor": "<p>Heat pumps work hard all year, so it’s no surprise when they need attention. If your system is struggling, it’s important to catch the signs before the issue gets bigger. Common problems include:</p><ul><li>Uneven heating or cooling throughout your home</li><li>Strange noises or odors coming from the unit</li><li>Rising utility bills without a clear reason</li><li>The system running constantly without reaching the set temperature</li></ul>"
              },
@@ -665,7 +668,7 @@
              "elType": "widget"
             },
             {
-             "id": "5214c6fe",
+             "id": "5215e917",
              "settings": {
               "title": "Why Work with Us?",
               "header_size": "h3"
@@ -676,7 +679,7 @@
              "elType": "widget"
             },
             {
-             "id": "5214da55",
+             "id": "5215fc6e",
              "settings": {
               "editor": "<p>When it comes to heat pumps, you want a team that understands both heating and cooling. We’ll make sure your system is installed or repaired correctly so you get year-round comfort without the hassle. We’ve been providing reliable heating and cooling solutions since 1984, with a reputation for reliable service, and we bring that commitment to every job. Here’s why you’ll be glad you called us:</p><ul><li>Honest pricing with no hidden charges</li><li>Our “Done Right” promise for peace of mind</li><li>Courteous technicians who respect your home and time</li><li>A locally owned company with strong community roots</li></ul>"
              },
@@ -686,7 +689,7 @@
              "elType": "widget"
             },
             {
-             "id": "5214edac",
+             "id": "52160fc5",
              "settings": {
               "title": "Affordable Options with Financing",
               "header_size": "h3"
@@ -697,7 +700,7 @@
              "elType": "widget"
             },
             {
-             "id": "52150103",
+             "id": "5216231c",
              "settings": {
               "editor": "<p>Replacing or repairing a heat pump can feel like a big investment. That’s why we provide financing through GoodLeap, Synchrony and Hearth to make the process easier. With flexible plans, you can get the comfort you need now without waiting. We’ll guide you through your options so you can choose what works best for your budget.</p>"
              },
@@ -707,7 +710,7 @@
              "elType": "widget"
             },
             {
-             "id": "5215145a",
+             "id": "52163673",
              "settings": {
               "title": "How Heat Pump Installation &amp; Repair Works",
               "header_size": "h3"
@@ -718,7 +721,7 @@
              "elType": "widget"
             },
             {
-             "id": "521527b1",
+             "id": "521649ca",
              "settings": {
               "editor": "<p>When you call us, our technicians start with a thorough inspection of your current system. We’ll let you know if a repair is the right choice or if replacement makes more sense for long-term performance. For installations, we’ll size and fit the unit properly to match your home’s needs, so it delivers reliable comfort year-round. Repairs are done quickly and efficiently, using quality parts to extend the life of your system. Either way, you’ll have peace of mind knowing your home is in capable hands.</p>"
              },
@@ -732,14 +735,14 @@
            "elType": "container"
           },
           {
-           "id": "5215750d",
+           "id": "52169726",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "52154e5f",
+             "id": "52167078",
              "settings": {
               "title": "Why You Shouldn’t Put Off Heat Pump Service",
               "header_size": "h2",
@@ -766,7 +769,7 @@
              "elType": "widget"
             },
             {
-             "id": "521561b6",
+             "id": "521683cf",
              "settings": {
               "editor": "<p>Delaying your heat pump service can lead to bigger issues and higher costs. A small repair left undone may shorten the life of the unit or reduce energy efficiency. Ignoring problems can also leave you without heating or cooling when you need it most. Here are some common risks:</p><ul><li>Increased energy bills from an overworked system</li><li>Sudden breakdowns during peak heating or cooling seasons</li><li>Expensive repairs that could have been avoided</li><li>Less comfort and uneven temperatures in your home</li></ul>"
              },
@@ -780,14 +783,14 @@
            "elType": "container"
           },
           {
-           "id": "5215af12",
+           "id": "5216d12b",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "52158864",
+             "id": "5216aa7d",
              "settings": {
               "title": "The Benefits of Timely Heat Pump Service",
               "header_size": "h2",
@@ -814,7 +817,7 @@
              "elType": "widget"
             },
             {
-             "id": "52159bbb",
+             "id": "5216bdd4",
              "settings": {
               "editor": "<p>Taking care of your heat pump brings both immediate and long-term benefits. You’ll enjoy more consistent comfort and lower utility bills while extending the lifespan of your equipment. With the right installation or repair, your home will stay comfortable in every season. Benefits include:</p><ul><li>Reliable heating and cooling from a single system</li><li>Improved energy efficiency that saves money</li><li>Fewer unexpected breakdowns or costly repairs</li><li>Greater comfort and healthier indoor air</li></ul>"
              },
@@ -832,7 +835,7 @@
          "elType": "container"
         },
         {
-         "id": "52148cf9",
+         "id": "5215af12",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -860,11 +863,11 @@
             {
              "id": "52140598",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -887,11 +890,11 @@
             {
              "id": "52142c46",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -899,7 +902,7 @@
            "elType": "container"
           },
           {
-           "id": "521479a2",
+           "id": "52159bbb",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -917,13 +920,225 @@
              "elType": "widget"
             },
             {
-             "id": "5214664b",
+             "id": "52158864",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\" aria-current=\"page\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "214664b",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21479a2",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2148cf9",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "214a050",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "214b3a7",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "214c6fe",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": "aria-current|page"
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "214da55",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "214edac",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2150103",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "215145a",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21527b1",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2153b08",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2154e5f",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21561b6",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "215750d",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -947,7 +1162,7 @@
    "elType": "container"
   },
   {
-   "id": "5216aa7d",
+   "id": "5219d6c3",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -956,7 +1171,7 @@
    },
    "elements": [
     {
-     "id": "52169726",
+     "id": "5219c36c",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -984,31 +1199,33 @@
      },
      "elements": [
       {
-       "id": "521683cf",
+       "id": "5219b015",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "52165d21",
+         "id": "52199cbe",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
          },
          "elements": [
           {
-           "id": "52160fc5",
+           "id": "521731de",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "5216231c",
+           "id": "52174535",
            "settings": {
             "title": "Frequently Asked Questions",
             "header_size": "h2",
@@ -1035,7 +1252,7 @@
            "elType": "widget"
           },
           {
-           "id": "52163673",
+           "id": "5217588c",
            "settings": {
             "editor": "<p class=\"lead\">Here are some common questions we hear about heat pumps. If you don’t see your question here, reach out and we’ll provide you with an answer.</p>"
            },
@@ -1045,13 +1262,13 @@
            "elType": "widget"
           },
           {
-           "id": "521649ca",
+           "id": "52176be3",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -1059,13 +1276,253 @@
          "elType": "container"
         },
         {
-         "id": "52167078",
+         "id": "52198967",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>How long do heat pumps usually last?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most heat pumps last 10 to 15 years with proper maintenance. Regular service can help extend their lifespan and keep performance strong. The type of system and how often it’s used also play a role.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>How do I know if my heat pump needs a repair or replacement?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Signs like frequent repairs, rising energy bills, or uneven comfort often point to bigger issues. If your system is older than 10 years, replacement may save you more money in the long run. A technician can inspect the unit and recommend the best option.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Are heat pumps energy efficient?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, heat pumps are one of the most efficient HVAC systems available because they transfer heat instead of generating it. This reduces energy use compared to traditional heating and cooling systems. Many homeowners see lower monthly utility bills after switching.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Can a heat pump work in cold climates?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Modern heat pumps are designed to work well even in colder weather. In very low temperatures, some systems may need backup heating for extra support. We’ll help you choose the right unit for the climate.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>What kind of maintenance does a heat pump need?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Routine maintenance includes cleaning filters, checking refrigerant levels, and inspecting electrical components. We recommend at least one professional tune-up per year. Regular maintenance keeps your system efficient and prevents costly breakdowns.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>How long does heat pump installation take?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Installation usually takes one to two days, depending on the size of your system and the setup of your home. We’ll give you a clear timeline before we start. Our goal is to complete the work with minimal disruption to your schedule.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>What are the benefits of replacing an older heat pump?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Newer heat pumps are more efficient and reliable, often saving you money on energy bills. They also offer improved comfort and quieter operation. A new system is a long-term investment in your home’s comfort.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Can heat pumps improve indoor air quality?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, heat pumps circulate and filter air while heating or cooling, which can reduce dust and allergens. When paired with proper filters or indoor air quality systems, they can make your home’s air much cleaner. This is especially helpful for families with allergies or asthma.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Is financing available for your heat pump services?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, we offer financing through GoodLeap, Synchrony and Hearth. These options allow you to spread out the cost of installation or major repairs. It’s an easy way to get the service you need without financial stress.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "2177f3a",
+            "item_title": "How long do heat pumps usually last?"
+           },
+           {
+            "_id": "2179291",
+            "item_title": "How do I know if my heat pump needs a repair or replacement?"
+           },
+           {
+            "_id": "217a5e8",
+            "item_title": "Are heat pumps energy efficient?"
+           },
+           {
+            "_id": "217b93f",
+            "item_title": "Can a heat pump work in cold climates?"
+           },
+           {
+            "_id": "217cc96",
+            "item_title": "What kind of maintenance does a heat pump need?"
+           },
+           {
+            "_id": "217dfed",
+            "item_title": "How long does heat pump installation take?"
+           },
+           {
+            "_id": "217f344",
+            "item_title": "What are the benefits of replacing an older heat pump?"
+           },
+           {
+            "_id": "218069b",
+            "item_title": "Can heat pumps improve indoor air quality?"
+           },
+           {
+            "_id": "21819f2",
+            "item_title": "Is financing available for your heat pump services?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "521840a0",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52182d49",
+             "settings": {
+              "editor": "<p>Most heat pumps last 10 to 15 years with proper maintenance. Regular service can help extend their lifespan and keep performance strong. The type of system and how often it’s used also play a role.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5218674e",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521853f7",
+             "settings": {
+              "editor": "<p>Signs like frequent repairs, rising energy bills, or uneven comfort often point to bigger issues. If your system is older than 10 years, replacement may save you more money in the long run. A technician can inspect the unit and recommend the best option.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52188dfc",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52187aa5",
+             "settings": {
+              "editor": "<p>Yes, heat pumps are one of the most efficient HVAC systems available because they transfer heat instead of generating it. This reduces energy use compared to traditional heating and cooling systems. Many homeowners see lower monthly utility bills after switching.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5218b4aa",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5218a153",
+             "settings": {
+              "editor": "<p>Modern heat pumps are designed to work well even in colder weather. In very low temperatures, some systems may need backup heating for extra support. We’ll help you choose the right unit for the climate.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5218db58",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5218c801",
+             "settings": {
+              "editor": "<p>Routine maintenance includes cleaning filters, checking refrigerant levels, and inspecting electrical components. We recommend at least one professional tune-up per year. Regular maintenance keeps your system efficient and prevents costly breakdowns.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52190206",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5218eeaf",
+             "settings": {
+              "editor": "<p>Installation usually takes one to two days, depending on the size of your system and the setup of your home. We’ll give you a clear timeline before we start. Our goal is to complete the work with minimal disruption to your schedule.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521928b4",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5219155d",
+             "settings": {
+              "editor": "<p>Newer heat pumps are more efficient and reliable, often saving you money on energy bills. They also offer improved comfort and quieter operation. A new system is a long-term investment in your home’s comfort.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52194f62",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52193c0b",
+             "settings": {
+              "editor": "<p>Yes, heat pumps circulate and filter air while heating or cooling, which can reduce dust and allergens. When paired with proper filters or indoor air quality systems, they can make your home’s air much cleaner. This is especially helpful for families with allergies or asthma.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52197610",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521962b9",
+             "settings": {
+              "editor": "<p>Yes, we offer financing through GoodLeap, Synchrony and Hearth. These options allow you to spread out the cost of installation or major repairs. It’s an easy way to get the service you need without financial stress.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -1081,7 +1538,7 @@
    "elType": "container"
   },
   {
-   "id": "52177f3a",
+   "id": "521aab80",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1090,7 +1547,7 @@
    },
    "elements": [
     {
-     "id": "52176be3",
+     "id": "521a9829",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1118,21 +1575,21 @@
      },
      "elements": [
       {
-       "id": "5217588c",
+       "id": "521a84d2",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5216d12b",
+         "id": "5219fd71",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "5216bdd4",
+           "id": "5219ea1a",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -1146,7 +1603,7 @@
          "elType": "container"
         },
         {
-         "id": "52174535",
+         "id": "521a717b",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -1154,17 +1611,19 @@
          },
          "elements": [
           {
-           "id": "5216e482",
+           "id": "521a10c8",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "5216f7d9",
+           "id": "521a241f",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -1191,7 +1650,7 @@
            "elType": "widget"
           },
           {
-           "id": "52170b30",
+           "id": "521a3776",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -1201,7 +1660,7 @@
            "elType": "widget"
           },
           {
-           "id": "52171e87",
+           "id": "521a4acd",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -1211,7 +1670,7 @@
            "elType": "widget"
           },
           {
-           "id": "521731de",
+           "id": "521a5e24",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -1244,7 +1703,7 @@
    "elType": "container"
   },
   {
-   "id": "521853f7",
+   "id": "521b803d",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1252,7 +1711,7 @@
    },
    "elements": [
     {
-     "id": "521840a0",
+     "id": "521b6ce6",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1280,24 +1739,26 @@
      },
      "elements": [
       {
-       "id": "5218069b",
+       "id": "521b32e1",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "52179291",
+         "id": "521abed7",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "5217a5e8",
+         "id": "521ad22e",
          "settings": {
           "title": "Get Started Today",
           "header_size": "h2",
@@ -1324,7 +1785,7 @@
          "elType": "widget"
         },
         {
-         "id": "5217b93f",
+         "id": "521ae585",
          "settings": {
           "editor": "<p class=\"lead\">At Newman Air, we’re here to provide dependable heat pump installation and repair in Johnson City, TN. Our technicians will walk you through your options and handle the work with care from start to finish. Schedule an appointment with us today and enjoy comfort you can count on.</p>"
          },
@@ -1334,14 +1795,14 @@
          "elType": "widget"
         },
         {
-         "id": "5217f344",
+         "id": "521b1f8a",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "5217cc96",
+           "id": "521af8dc",
            "settings": {
             "text": "Schedule Service",
             "link": {
@@ -1358,7 +1819,7 @@
            "elType": "widget"
           },
           {
-           "id": "5217dfed",
+           "id": "521b0c33",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -1383,7 +1844,7 @@
        "elType": "container"
       },
       {
-       "id": "521819f2",
+       "id": "521b4638",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -1393,7 +1854,7 @@
        "elType": "widget"
       },
       {
-       "id": "52182d49",
+       "id": "521b598f",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

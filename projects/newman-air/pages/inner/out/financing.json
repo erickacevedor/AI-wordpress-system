@@ -56,21 +56,24 @@
           {
            "id": "521c1357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">Financing</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">Financing</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "521c26ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Flexible Financing</p>"
+            "title": "Flexible Financing",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -322,11 +325,11 @@
           {
            "id": "521d2219",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -591,7 +594,7 @@
    "elType": "container"
   },
   {
-   "id": "5221e482",
+   "id": "5223069b",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -600,7 +603,7 @@
    },
    "elements": [
     {
-     "id": "5221d12b",
+     "id": "5222f344",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -628,28 +631,28 @@
      },
      "elements": [
       {
-       "id": "5221bdd4",
+       "id": "5222dfed",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5221aa7d",
+         "id": "5222cc96",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "521fedac",
+           "id": "52210fc5",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "521fc6fe",
+             "id": "5220e917",
              "settings": {
               "title": "Smart Payment Plans That Do Not Strain Your Budget",
               "header_size": "h2",
@@ -676,7 +679,7 @@
              "elType": "widget"
             },
             {
-             "id": "521fda55",
+             "id": "5220fc6e",
              "settings": {
               "editor": "<p>A major HVAC project can feel overwhelming when the cost comes all at once. Financing gives you room to plan, compare options, and choose the right solution for your home without draining savings in a single payment.</p><p>Newman Air offers financing through:</p><div class=\"partners\"><span><img src=\"/wp-content/plugins/newman-core/assets/img/fin-goodleap.svg\" alt=\"GoodLeap\"></span><span><img src=\"/wp-content/plugins/newman-core/assets/img/fin-synchrony.png\" alt=\"Synchrony Bank\"></span><span><img class=\"hearth\" src=\"/wp-content/plugins/newman-core/assets/img/fin-hearth.svg\" alt=\"Hearth\"></span></div><ul><li><strong>GoodLeap</strong></li><li><strong>Synchrony</strong></li><li><strong>Hearth</strong></li></ul><p>With approved credit, financing may help you:</p><ul><li>Spread project costs over time</li><li>Move forward with urgent repairs or replacements sooner</li><li>Upgrade aging equipment before it fails completely</li><li>Choose a higher-efficiency comfort system when it makes sense</li><li>Plan around monthly payments</li><li>Protect your budget during unexpected HVAC emergencies</li></ul><p>Financing terms, approval, payment options, and promotional plans vary by provider. Our team can walk you through the available options so you know what to expect before making a decision.</p>"
              },
@@ -690,14 +693,14 @@
            "elType": "container"
           },
           {
-           "id": "52204e5f",
+           "id": "52217078",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "52200103",
+             "id": "5221231c",
              "settings": {
               "title": "Apply for Financing Through Hearth",
               "header_size": "h2",
@@ -724,7 +727,7 @@
              "elType": "widget"
             },
             {
-             "id": "5220145a",
+             "id": "52213673",
              "settings": {
               "editor": "<p>Want to start with Hearth? You can apply directly through Newman Air&#8217;s Hearth financing application.</p><p><span class=\"note\">Hearth application link pending: the doc has a placeholder</span></p>"
              },
@@ -734,14 +737,14 @@
              "elType": "widget"
             },
             {
-             "id": "52203b08",
+             "id": "52215d21",
              "settings": {
               "content_width": "full",
               "css_classes": "btn-row"
              },
              "elements": [
               {
-               "id": "522027b1",
+               "id": "522149ca",
                "settings": {
                 "text": "Apply for Financing with Hearth",
                 "link": {
@@ -766,14 +769,14 @@
            "elType": "container"
           },
           {
-           "id": "5221231c",
+           "id": "52224535",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "522061b6",
+             "id": "522183cf",
              "settings": {
               "title": "What HVAC Services Can Financing Help Cover?",
               "header_size": "h2",
@@ -800,7 +803,7 @@
              "elType": "widget"
             },
             {
-             "id": "5220750d",
+             "id": "52219726",
              "settings": {
               "editor": "<p>Financing may be available for many types of HVAC work. Whether you are planning ahead or dealing with an unexpected breakdown, Newman Air can help you understand which options may apply to your project.</p>"
              },
@@ -810,7 +813,7 @@
              "elType": "widget"
             },
             {
-             "id": "52208864",
+             "id": "5221aa7d",
              "settings": {
               "title": "AC Repair and Replacement",
               "header_size": "h3"
@@ -821,7 +824,7 @@
              "elType": "widget"
             },
             {
-             "id": "52209bbb",
+             "id": "5221bdd4",
              "settings": {
               "editor": "<p>Do not hibernate in a hot home. Financing may help with major AC repairs, central AC replacement, ductless mini-split installation, heat pump installation, or other cooling upgrades.</p>"
              },
@@ -831,7 +834,7 @@
              "elType": "widget"
             },
             {
-             "id": "5220af12",
+             "id": "5221d12b",
              "settings": {
               "title": "Heating Repair and Installation",
               "header_size": "h3"
@@ -842,7 +845,7 @@
              "elType": "widget"
             },
             {
-             "id": "5220c269",
+             "id": "5221e482",
              "settings": {
               "editor": "<p>When East Tennessee cold nights settle in, your heating system needs to be ready. Financing may help cover furnace replacement, heat pump installation, major heating repairs, or system upgrades.</p>"
              },
@@ -852,7 +855,7 @@
              "elType": "widget"
             },
             {
-             "id": "5220d5c0",
+             "id": "5221f7d9",
              "settings": {
               "title": "Indoor Air Quality Solutions",
               "header_size": "h3"
@@ -863,7 +866,7 @@
              "elType": "widget"
             },
             {
-             "id": "5220e917",
+             "id": "52220b30",
              "settings": {
               "editor": "<p>True comfort is about more than temperature. Financing may be available for whole-home air quality solutions, including air cleaners, air handlers, germicidal lights, and related HVAC improvements.</p>"
              },
@@ -873,7 +876,7 @@
              "elType": "widget"
             },
             {
-             "id": "5220fc6e",
+             "id": "52221e87",
              "settings": {
               "title": "Ductwork and Whole-Home Comfort Projects",
               "header_size": "h3"
@@ -884,7 +887,7 @@
              "elType": "widget"
             },
             {
-             "id": "52210fc5",
+             "id": "522231de",
              "settings": {
               "editor": "<p>If your comfort issues are tied to airflow, ductwork, or uneven rooms, financing may help make larger improvements more manageable.</p>"
              },
@@ -898,14 +901,14 @@
            "elType": "container"
           },
           {
-           "id": "52215d21",
+           "id": "52227f3a",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "52213673",
+             "id": "5222588c",
              "settings": {
               "title": "Why Financing Can Be a Smart Choice",
               "header_size": "h2",
@@ -932,7 +935,7 @@
              "elType": "widget"
             },
             {
-             "id": "522149ca",
+             "id": "52226be3",
              "settings": {
               "editor": "<p>Financing is not about spending more than you need. It is about giving you flexibility when your home comfort cannot wait.</p><p>It may be a smart option if:</p><ul><li>Your HVAC system breaks down unexpectedly</li><li>A repair cost is higher than expected</li><li>Replacement makes more sense than repeated repairs</li><li>You want to upgrade before peak heating or cooling season</li><li>Your home needs ductwork or indoor air quality improvements</li><li>You want to protect savings while still addressing the problem</li></ul><p>Our goal is to give you clear information, not pressure. We will explain your service options, discuss financing availability, and help you decide what fits your home and budget.</p>"
              },
@@ -946,14 +949,14 @@
            "elType": "container"
           },
           {
-           "id": "52219726",
+           "id": "5222b93f",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "52217078",
+             "id": "52229291",
              "settings": {
               "title": "Why Finance with Newman Air?",
               "header_size": "h2",
@@ -980,7 +983,7 @@
              "elType": "widget"
             },
             {
-             "id": "522183cf",
+             "id": "5222a5e8",
              "settings": {
               "editor": "<p>Choosing financing is only part of the decision. You also need an HVAC team that gives honest guidance, does clean work, and treats your home with respect.</p><p>Newman Air is locally owned and family-operated, with more than 30 years serving homeowners across the Tri-Cities. Our bear-strong team is known for transparent pricing, friendly service, and dependable workmanship.</p><p>Homeowners choose Newman Air because we offer:</p><ul><li>Clear recommendations without pressure</li><li>Transparent pricing before work begins</li><li>Financing options through GoodLeap, Synchrony, and Hearth</li><li>Heating, cooling, ductwork, and indoor air quality solutions</li><li>Friendly technicians who respect your home</li><li>Local service across Johnson City, Kingsport, Bristol, Jonesborough, and nearby areas</li></ul><p>When the cost of comfort feels heavy, we help make the next step easier.</p>"
              },
@@ -998,7 +1001,7 @@
          "elType": "container"
         },
         {
-         "id": "521fb3a7",
+         "id": "5220d5c0",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -1026,11 +1029,11 @@
             {
              "id": "521f2c46",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -1053,11 +1056,11 @@
             {
              "id": "521f52f4",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -1065,7 +1068,7 @@
            "elType": "container"
           },
           {
-           "id": "521fa050",
+           "id": "5220c269",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -1083,13 +1086,225 @@
              "elType": "widget"
             },
             {
-             "id": "521f8cf9",
+             "id": "5220af12",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "21f8cf9",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21fa050",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21fb3a7",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21fc6fe",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21fda55",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21fedac",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2200103",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "220145a",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "22027b1",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2203b08",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2204e5f",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "22061b6",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "220750d",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2208864",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2209bbb",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -1113,7 +1328,7 @@
    "elType": "container"
   },
   {
-   "id": "52227f3a",
+   "id": "52253776",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1122,7 +1337,7 @@
    },
    "elements": [
     {
-     "id": "52226be3",
+     "id": "5225241f",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1150,31 +1365,33 @@
      },
      "elements": [
       {
-       "id": "5222588c",
+       "id": "522510c8",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "522231de",
+         "id": "5224fd71",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
          },
          "elements": [
           {
-           "id": "5221f7d9",
+           "id": "522319f2",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "52220b30",
+           "id": "52232d49",
            "settings": {
             "title": "Frequently Asked Questions About HVAC Financing",
             "header_size": "h2",
@@ -1201,13 +1418,13 @@
            "elType": "widget"
           },
           {
-           "id": "52221e87",
+           "id": "522340a0",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -1215,13 +1432,203 @@
          "elType": "container"
         },
         {
-         "id": "52224535",
+         "id": "5224ea1a",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>Who does Newman Air partner with for financing?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Newman Air offers financing options through <strong>GoodLeap, Synchrony, and Hearth</strong>. Each provider may offer different payment options, terms, approval requirements, and promotional plans.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Can I apply for Hearth financing online?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes. Newman Air can add an <strong>Apply for Financing</strong> button that links directly to the company&#8217;s Hearth application page. This will take customers to an external Hearth site to complete the application.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>What HVAC services can I finance?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Financing may be available for many HVAC services, including AC replacement, heating replacement, major repairs, ductwork, indoor air quality upgrades, heat pumps, and full system installations. Availability depends on the project and financing provider.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Is financing only for emergency HVAC repairs?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>No. Financing can help with both urgent repairs and planned upgrades. Some homeowners use financing when a system fails unexpectedly, while others use it to plan ahead for replacement or efficiency improvements.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Will I know my payment options before moving forward?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>In most cases, approved applicants can review available payment options before moving forward. Terms and approval depend on the financing provider.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Does applying for financing guarantee approval?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>No. Financing is subject to credit approval and provider terms. Rates, payment options, promotional plans, and approval may vary.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Can financing help with indoor air quality upgrades?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, financing may be available for indoor air quality projects such as air cleaners, germicidal lights, air handler work, and related HVAC improvements. Newman Air can confirm which options may apply to your project.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "22353f7",
+            "item_title": "Who does Newman Air partner with for financing?"
+           },
+           {
+            "_id": "223674e",
+            "item_title": "Can I apply for Hearth financing online?"
+           },
+           {
+            "_id": "2237aa5",
+            "item_title": "What HVAC services can I finance?"
+           },
+           {
+            "_id": "2238dfc",
+            "item_title": "Is financing only for emergency HVAC repairs?"
+           },
+           {
+            "_id": "223a153",
+            "item_title": "Will I know my payment options before moving forward?"
+           },
+           {
+            "_id": "223b4aa",
+            "item_title": "Does applying for financing guarantee approval?"
+           },
+           {
+            "_id": "223c801",
+            "item_title": "Can financing help with indoor air quality upgrades?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "5223eeaf",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5223db58",
+             "settings": {
+              "editor": "<p>Newman Air offers financing options through <strong>GoodLeap, Synchrony, and Hearth</strong>. Each provider may offer different payment options, terms, approval requirements, and promotional plans.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5224155d",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52240206",
+             "settings": {
+              "editor": "<p>Yes. Newman Air can add an <strong>Apply for Financing</strong> button that links directly to the company&#8217;s Hearth application page. This will take customers to an external Hearth site to complete the application.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52243c0b",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "522428b4",
+             "settings": {
+              "editor": "<p>Financing may be available for many HVAC services, including AC replacement, heating replacement, major repairs, ductwork, indoor air quality upgrades, heat pumps, and full system installations. Availability depends on the project and financing provider.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "522462b9",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52244f62",
+             "settings": {
+              "editor": "<p>No. Financing can help with both urgent repairs and planned upgrades. Some homeowners use financing when a system fails unexpectedly, while others use it to plan ahead for replacement or efficiency improvements.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52248967",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52247610",
+             "settings": {
+              "editor": "<p>In most cases, approved applicants can review available payment options before moving forward. Terms and approval depend on the financing provider.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5224b015",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52249cbe",
+             "settings": {
+              "editor": "<p>No. Financing is subject to credit approval and provider terms. Rates, payment options, promotional plans, and approval may vary.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5224d6c3",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5224c36c",
+             "settings": {
+              "editor": "<p>Yes, financing may be available for indoor air quality projects such as air cleaners, germicidal lights, air handler work, and related HVAC improvements. Newman Air can confirm which options may apply to your project.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -1237,7 +1644,7 @@
    "elType": "container"
   },
   {
-   "id": "522353f7",
+   "id": "52260c33",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1246,7 +1653,7 @@
    },
    "elements": [
     {
-     "id": "522340a0",
+     "id": "5225f8dc",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1274,21 +1681,21 @@
      },
      "elements": [
       {
-       "id": "52232d49",
+       "id": "5225e585",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5222a5e8",
+         "id": "52255e24",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "52229291",
+           "id": "52254acd",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -1302,7 +1709,7 @@
          "elType": "container"
         },
         {
-         "id": "522319f2",
+         "id": "5225d22e",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -1310,17 +1717,19 @@
          },
          "elements": [
           {
-           "id": "5222b93f",
+           "id": "5225717b",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "5222cc96",
+           "id": "522584d2",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -1347,7 +1756,7 @@
            "elType": "widget"
           },
           {
-           "id": "5222dfed",
+           "id": "52259829",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -1357,7 +1766,7 @@
            "elType": "widget"
           },
           {
-           "id": "5222f344",
+           "id": "5225ab80",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -1367,7 +1776,7 @@
            "elType": "widget"
           },
           {
-           "id": "5223069b",
+           "id": "5225bed7",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -1400,7 +1809,7 @@
    "elType": "container"
   },
   {
-   "id": "52243c0b",
+   "id": "5226f447",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1408,7 +1817,7 @@
    },
    "elements": [
     {
-     "id": "522428b4",
+     "id": "5226e0f0",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1436,24 +1845,26 @@
      },
      "elements": [
       {
-       "id": "5223eeaf",
+       "id": "5226a6eb",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "5223674e",
+         "id": "52261f8a",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "52237aa5",
+         "id": "522632e1",
          "settings": {
           "title": "Ready to Talk Through Your HVAC Financing Options?",
           "header_size": "h2",
@@ -1480,7 +1891,7 @@
          "elType": "widget"
         },
         {
-         "id": "52238dfc",
+         "id": "52264638",
          "settings": {
           "editor": "<p class=\"lead\">You should not have to delay an important HVAC repair, replacement, or comfort upgrade because the timing is inconvenient. With financing options through GoodLeap, Synchrony, and Hearth, Newman Air can help you explore payment plans and move forward with confidence.</p>"
          },
@@ -1490,7 +1901,7 @@
          "elType": "widget"
         },
         {
-         "id": "5223a153",
+         "id": "5226598f",
          "settings": {
           "editor": "<p class=\"lead\">Schedule service with Newman Air today and ask about HVAC financing options for your heating, cooling, ductwork, or indoor air quality project. When comfort cannot wait, <strong>trust the bear to fix your air</strong>.</p>"
          },
@@ -1500,14 +1911,14 @@
          "elType": "widget"
         },
         {
-         "id": "5223db58",
+         "id": "52269394",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "5223b4aa",
+           "id": "52266ce6",
            "settings": {
             "text": "Schedule Service",
             "link": {
@@ -1524,7 +1935,7 @@
            "elType": "widget"
           },
           {
-           "id": "5223c801",
+           "id": "5226803d",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -1549,7 +1960,7 @@
        "elType": "container"
       },
       {
-       "id": "52240206",
+       "id": "5226ba42",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -1559,7 +1970,7 @@
        "elType": "widget"
       },
       {
-       "id": "5224155d",
+       "id": "5226cd99",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

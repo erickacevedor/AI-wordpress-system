@@ -56,21 +56,24 @@
           {
            "id": "52181357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Maintenance</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Maintenance</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "521826ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+            "title": "Our Services",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -302,11 +305,11 @@
           {
            "id": "5218fb6b",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -571,7 +574,7 @@
    "elType": "container"
   },
   {
-   "id": "521cfc6e",
+   "id": "521e1e87",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -579,7 +582,7 @@
    },
    "elements": [
     {
-     "id": "521ce917",
+     "id": "521e0b30",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -607,28 +610,28 @@
      },
      "elements": [
       {
-       "id": "521cd5c0",
+       "id": "521df7d9",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "521cc269",
+         "id": "521de482",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "521c145a",
+           "id": "521d3673",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "521ba050",
+             "id": "521cc269",
              "settings": {
               "title": "Why Regular Maintenance Matters",
               "header_size": "h2",
@@ -655,7 +658,7 @@
              "elType": "widget"
             },
             {
-             "id": "521bb3a7",
+             "id": "521cd5c0",
              "settings": {
               "editor": "<p>Your HVAC system works hard every day, and without routine care, small issues can turn into costly problems. Dirt, worn parts, and neglected filters all reduce its performance and raise your energy bills. Some common signs that your system may need maintenance include:</p><ul><li>Uneven heating or cooling around your home</li><li>Higher energy costs without increased usage</li><li>Strange noises or odors when the system runs</li><li>Frequent cycling on and off</li></ul>"
              },
@@ -665,7 +668,7 @@
              "elType": "widget"
             },
             {
-             "id": "521bc6fe",
+             "id": "521ce917",
              "settings": {
               "title": "Let’s Work Together",
               "header_size": "h3"
@@ -676,7 +679,7 @@
              "elType": "widget"
             },
             {
-             "id": "521bda55",
+             "id": "521cfc6e",
              "settings": {
               "editor": "<p>Routine maintenance is the key to avoiding HVAC breakdowns in your home or business and saving money on your energy bills. We’ll handle the tune-ups, inspections, and adjustments that keep your system running strong all year, so you can focus on more important things. Since 1984, we’ve been proud members of the local community, and you can expect to be treated just like a member of the family with every service. With a commitment to honest service and dependable results, our team is always ready to help. Here are extra reasons homeowners prefer to work with us:</p><ul><li>Clear pricing with no extra surprises</li><li>Our “Done Right” service guarantee</li><li>Respectful technicians who care for your home</li><li>A locally owned company with decades of reliable service</li></ul>"
              },
@@ -686,7 +689,7 @@
              "elType": "widget"
             },
             {
-             "id": "521bedac",
+             "id": "521d0fc5",
              "settings": {
               "title": "Budget-Friendly Financing Options",
               "header_size": "h3"
@@ -697,7 +700,7 @@
              "elType": "widget"
             },
             {
-             "id": "521c0103",
+             "id": "521d231c",
              "settings": {
               "editor": "<p>Investing in regular maintenance is easier with flexible financing from GoodLeap, Synchrony and Hearth. You can spread out the cost while still getting the service your system needs. We’ll walk you through the options and help you choose what fits your budget.</p>"
              },
@@ -711,14 +714,14 @@
            "elType": "container"
           },
           {
-           "id": "521c750d",
+           "id": "521d9726",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "521c27b1",
+             "id": "521d49ca",
              "settings": {
               "title": "How Our Maintenance Service Works",
               "header_size": "h2",
@@ -745,7 +748,7 @@
              "elType": "widget"
             },
             {
-             "id": "521c3b08",
+             "id": "521d5d21",
              "settings": {
               "editor": "<p>Our technicians will start with a full inspection of your system to check key components like coils, filters, motors, and connections. We’ll clean, adjust, and lubricate parts as needed to keep everything operating efficiently. If we spot any potential problems, we’ll explain them clearly and recommend the right fix before they become emergencies. This proactive approach helps extend the life of your system. With regular visits, you’ll have peace of mind knowing your HVAC is in good hands.</p>"
              },
@@ -755,7 +758,7 @@
              "elType": "widget"
             },
             {
-             "id": "521c4e5f",
+             "id": "521d7078",
              "settings": {
               "title": "Risks of Skipping Maintenance",
               "header_size": "h3"
@@ -766,7 +769,7 @@
              "elType": "widget"
             },
             {
-             "id": "521c61b6",
+             "id": "521d83cf",
              "settings": {
               "editor": "<p>Putting off heating and cooling system maintenance can cause small issues to grow into expensive repairs. It can also shorten the lifespan of your HVAC system. Here are some potential issues that can come up if you choose to ignore routine maintenance:</p><ul><li>Unexpected breakdowns at the worst times</li><li>Reduced efficiency and higher monthly bills</li><li>Poor air quality from dirty components</li><li>Costly replacements sooner than expected</li></ul>"
              },
@@ -780,14 +783,14 @@
            "elType": "container"
           },
           {
-           "id": "521caf12",
+           "id": "521dd12b",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "521c8864",
+             "id": "521daa7d",
              "settings": {
               "title": "The Benefits of Routine Care",
               "header_size": "h2",
@@ -814,7 +817,7 @@
              "elType": "widget"
             },
             {
-             "id": "521c9bbb",
+             "id": "521dbdd4",
              "settings": {
               "editor": "<p>Regular HVAC maintenance brings both short- and long-term rewards. You’ll notice your system runs smoother, and your energy bills stay more predictable. Over time, the savings and comfort make a big difference. Here are some benefits:</p><ul><li>Consistent heating and cooling throughout your home</li><li>Longer equipment life and fewer repairs</li><li>Cleaner indoor air for a healthier environment</li><li>Reliable performance in every season</li></ul>"
              },
@@ -832,7 +835,7 @@
          "elType": "container"
         },
         {
-         "id": "521b8cf9",
+         "id": "521caf12",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -860,11 +863,11 @@
             {
              "id": "521b0598",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -887,11 +890,11 @@
             {
              "id": "521b2c46",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -899,7 +902,7 @@
            "elType": "container"
           },
           {
-           "id": "521b79a2",
+           "id": "521c9bbb",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -917,13 +920,225 @@
              "elType": "widget"
             },
             {
-             "id": "521b664b",
+             "id": "521c8864",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\" aria-current=\"page\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "21b664b",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21b79a2",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21b8cf9",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21ba050",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21bb3a7",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21bc6fe",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21bda55",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": "aria-current|page"
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21bedac",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21c0103",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21c145a",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21c27b1",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21c3b08",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21c4e5f",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21c61b6",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21c750d",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -947,7 +1162,7 @@
    "elType": "container"
   },
   {
-   "id": "521daa7d",
+   "id": "5220d6c3",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -956,7 +1171,7 @@
    },
    "elements": [
     {
-     "id": "521d9726",
+     "id": "5220c36c",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -984,31 +1199,33 @@
      },
      "elements": [
       {
-       "id": "521d83cf",
+       "id": "5220b015",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "521d5d21",
+         "id": "52209cbe",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
          },
          "elements": [
           {
-           "id": "521d0fc5",
+           "id": "521e31de",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "521d231c",
+           "id": "521e4535",
            "settings": {
             "title": "Frequently Asked Questions",
             "header_size": "h2",
@@ -1035,7 +1252,7 @@
            "elType": "widget"
           },
           {
-           "id": "521d3673",
+           "id": "521e588c",
            "settings": {
             "editor": "<p class=\"lead\">Here are some of the most common questions about our HVAC maintenance services. If you don’t see your question here, get in touch and we’ll provide an answer.</p>"
            },
@@ -1045,13 +1262,13 @@
            "elType": "widget"
           },
           {
-           "id": "521d49ca",
+           "id": "521e6be3",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -1059,13 +1276,253 @@
          "elType": "container"
         },
         {
-         "id": "521d7078",
+         "id": "52208967",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>How often should HVAC maintenance be done?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most systems benefit from maintenance twice a year, once in the spring for cooling and once in the fall for heating. This timing prepares your system for seasonal demands. Regular care keeps everything running efficiently when you need it most.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>What’s included in professional HVAC maintenance?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Maintenance usually covers a full inspection, cleaning, and adjustment of key parts like coils, fans, and electrical connections. Filters are checked or replaced, and moving parts are lubricated. The goal is to improve efficiency and spot problems early.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Can HVAC maintenance help lower my energy bills?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, when your system is clean and properly tuned, it doesn’t have to work as hard to heat or cool your home. This lowers energy use and keeps monthly costs more predictable. Over time, the savings often cover the cost of maintenance.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>What happens if I skip maintenance?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Skipping maintenance can lead to dirty coils, worn parts, and clogged filters. These issues cause higher bills, less comfort, and more frequent breakdowns. In many cases, neglect can even shorten the system’s lifespan.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>How long does maintenance take?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most maintenance visits take about one to two hours, depending on the system size and condition. Our technicians work carefully without dragging out the process. You’ll get a thorough service without wasting your day.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Does HVAC maintenance improve indoor air quality?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, clean filters and components reduce dust, allergens, and pollutants that circulate through your home. This leads to fresher, healthier air. It’s especially helpful for families with allergies or respiratory issues.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Is maintenance still needed for a new system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Absolutely. Even new systems need care to stay in top condition. Regular maintenance also helps protect warranties, which often require proof of upkeep.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Can I do HVAC maintenance myself?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>You can handle simple tasks like replacing filters and keeping vents clear. But professional maintenance is needed to inspect electrical parts, refrigerant levels, and safety systems. Our technicians have the tools and knowledge to do it right, so you get the results you want without any of the risks.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>How do maintenance plans work?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Maintenance plans typically cover scheduled visits throughout the year, plus perks like priority service or discounts on repairs. They simplify upkeep and give you peace of mind. Many homeowners find them to be a cost-effective option.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "21e7f3a",
+            "item_title": "How often should HVAC maintenance be done?"
+           },
+           {
+            "_id": "21e9291",
+            "item_title": "What’s included in professional HVAC maintenance?"
+           },
+           {
+            "_id": "21ea5e8",
+            "item_title": "Can HVAC maintenance help lower my energy bills?"
+           },
+           {
+            "_id": "21eb93f",
+            "item_title": "What happens if I skip maintenance?"
+           },
+           {
+            "_id": "21ecc96",
+            "item_title": "How long does maintenance take?"
+           },
+           {
+            "_id": "21edfed",
+            "item_title": "Does HVAC maintenance improve indoor air quality?"
+           },
+           {
+            "_id": "21ef344",
+            "item_title": "Is maintenance still needed for a new system?"
+           },
+           {
+            "_id": "21f069b",
+            "item_title": "Can I do HVAC maintenance myself?"
+           },
+           {
+            "_id": "21f19f2",
+            "item_title": "How do maintenance plans work?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "521f40a0",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521f2d49",
+             "settings": {
+              "editor": "<p>Most systems benefit from maintenance twice a year, once in the spring for cooling and once in the fall for heating. This timing prepares your system for seasonal demands. Regular care keeps everything running efficiently when you need it most.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521f674e",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521f53f7",
+             "settings": {
+              "editor": "<p>Maintenance usually covers a full inspection, cleaning, and adjustment of key parts like coils, fans, and electrical connections. Filters are checked or replaced, and moving parts are lubricated. The goal is to improve efficiency and spot problems early.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521f8dfc",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521f7aa5",
+             "settings": {
+              "editor": "<p>Yes, when your system is clean and properly tuned, it doesn’t have to work as hard to heat or cool your home. This lowers energy use and keeps monthly costs more predictable. Over time, the savings often cover the cost of maintenance.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521fb4aa",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521fa153",
+             "settings": {
+              "editor": "<p>Skipping maintenance can lead to dirty coils, worn parts, and clogged filters. These issues cause higher bills, less comfort, and more frequent breakdowns. In many cases, neglect can even shorten the system’s lifespan.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521fdb58",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521fc801",
+             "settings": {
+              "editor": "<p>Most maintenance visits take about one to two hours, depending on the system size and condition. Our technicians work carefully without dragging out the process. You’ll get a thorough service without wasting your day.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52200206",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521feeaf",
+             "settings": {
+              "editor": "<p>Yes, clean filters and components reduce dust, allergens, and pollutants that circulate through your home. This leads to fresher, healthier air. It’s especially helpful for families with allergies or respiratory issues.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "522028b4",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5220155d",
+             "settings": {
+              "editor": "<p>Absolutely. Even new systems need care to stay in top condition. Regular maintenance also helps protect warranties, which often require proof of upkeep.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52204f62",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52203c0b",
+             "settings": {
+              "editor": "<p>You can handle simple tasks like replacing filters and keeping vents clear. But professional maintenance is needed to inspect electrical parts, refrigerant levels, and safety systems. Our technicians have the tools and knowledge to do it right, so you get the results you want without any of the risks.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52207610",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "522062b9",
+             "settings": {
+              "editor": "<p>Maintenance plans typically cover scheduled visits throughout the year, plus perks like priority service or discounts on repairs. They simplify upkeep and give you peace of mind. Many homeowners find them to be a cost-effective option.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -1081,7 +1538,7 @@
    "elType": "container"
   },
   {
-   "id": "521e7f3a",
+   "id": "5221ab80",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1090,7 +1547,7 @@
    },
    "elements": [
     {
-     "id": "521e6be3",
+     "id": "52219829",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1118,21 +1575,21 @@
      },
      "elements": [
       {
-       "id": "521e588c",
+       "id": "522184d2",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "521dd12b",
+         "id": "5220fd71",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "521dbdd4",
+           "id": "5220ea1a",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -1146,7 +1603,7 @@
          "elType": "container"
         },
         {
-         "id": "521e4535",
+         "id": "5221717b",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -1154,17 +1611,19 @@
          },
          "elements": [
           {
-           "id": "521de482",
+           "id": "522110c8",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "521df7d9",
+           "id": "5221241f",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -1191,7 +1650,7 @@
            "elType": "widget"
           },
           {
-           "id": "521e0b30",
+           "id": "52213776",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -1201,7 +1660,7 @@
            "elType": "widget"
           },
           {
-           "id": "521e1e87",
+           "id": "52214acd",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -1211,7 +1670,7 @@
            "elType": "widget"
           },
           {
-           "id": "521e31de",
+           "id": "52215e24",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -1244,7 +1703,7 @@
    "elType": "container"
   },
   {
-   "id": "521f53f7",
+   "id": "5222803d",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1252,7 +1711,7 @@
    },
    "elements": [
     {
-     "id": "521f40a0",
+     "id": "52226ce6",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1280,24 +1739,26 @@
      },
      "elements": [
       {
-       "id": "521f069b",
+       "id": "522232e1",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "521e9291",
+         "id": "5221bed7",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "521ea5e8",
+         "id": "5221d22e",
          "settings": {
           "title": "Get Started with Maintenance Today",
           "header_size": "h2",
@@ -1324,7 +1785,7 @@
          "elType": "widget"
         },
         {
-         "id": "521eb93f",
+         "id": "5221e585",
          "settings": {
           "editor": "<p class=\"lead\">At Newman Air, our team is committed to keeping your home comfortable with dependable HVAC maintenance in Johnson City, TN and the surrounding areas. You’ll have a system that runs efficiently and lasts longer, giving you total peace of mind. Call us today to schedule your service and protect your investment.</p>"
          },
@@ -1334,14 +1795,14 @@
          "elType": "widget"
         },
         {
-         "id": "521ef344",
+         "id": "52221f8a",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "521ecc96",
+           "id": "5221f8dc",
            "settings": {
             "text": "Schedule Service",
             "link": {
@@ -1358,7 +1819,7 @@
            "elType": "widget"
           },
           {
-           "id": "521edfed",
+           "id": "52220c33",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -1383,7 +1844,7 @@
        "elType": "container"
       },
       {
-       "id": "521f19f2",
+       "id": "52224638",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -1393,7 +1854,7 @@
        "elType": "widget"
       },
       {
-       "id": "521f2d49",
+       "id": "5222598f",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

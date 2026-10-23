@@ -56,21 +56,24 @@
           {
            "id": "52021357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">HVAC Services</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">HVAC Services</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "520226ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+            "title": "Our Services",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -302,11 +305,11 @@
           {
            "id": "5202fb6b",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -571,7 +574,7 @@
    "elType": "container"
   },
   {
-   "id": "5206d5c0",
+   "id": "5207f7d9",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -579,7 +582,7 @@
    },
    "elements": [
     {
-     "id": "5206c269",
+     "id": "5207e482",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -607,28 +610,28 @@
      },
      "elements": [
       {
-       "id": "5206af12",
+       "id": "5207d12b",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "52069bbb",
+         "id": "5207bdd4",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "5206145a",
+           "id": "52073673",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "5205a050",
+             "id": "5206c269",
              "settings": {
               "title": "A Full Range of HVAC Services",
               "header_size": "h2",
@@ -655,7 +658,7 @@
              "elType": "widget"
             },
             {
-             "id": "5205b3a7",
+             "id": "5206d5c0",
              "settings": {
               "editor": "<p>Our team of HVAC specialists offers a complete range of services that will help keep your home or business comfortable and running smoothly all year long. Here’s a breakdown of what we have to offer:</p><p>AC Repair<br>Summers are tough without reliable cooling. We’ll repair your AC, so it keeps your home at a comfortable temperature day and night. Quick, dependable repairs help you avoid costly replacements.</p>"
              },
@@ -665,7 +668,7 @@
              "elType": "widget"
             },
             {
-             "id": "5205c6fe",
+             "id": "5206e917",
              "settings": {
               "editor": "<div class=\"mini-cards\"><a class=\"mini-card\" href=\"/services/ac-installation/\"><strong>AC Installation</strong><span>A new AC is an investment in both comfort and energy savings. We’ll install a system designed for your space, so it cools effectively without overworking. Modern units are quieter, stronger, and more efficient.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a></div>"
              },
@@ -675,7 +678,7 @@
              "elType": "widget"
             },
             {
-             "id": "5205da55",
+             "id": "5206fc6e",
              "settings": {
               "editor": "<p>Heating Repair<br>A heating system that fails in winter is more than an inconvenience. We’ll diagnose and repair issues so your home stays warm and safe. Our repairs focus on reliability and long-term use.</p>"
              },
@@ -685,7 +688,7 @@
              "elType": "widget"
             },
             {
-             "id": "5205edac",
+             "id": "52070fc5",
              "settings": {
               "editor": "<div class=\"mini-cards\"><a class=\"mini-card\" href=\"/services/heating-installation/\"><strong>Heating Installation</strong><span>When it’s time for a new heating system, you need one built for steady performance. We’ll install a unit that fits your home and helps lower utility bills. You’ll notice a difference in comfort right away.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/maintenance/\"><strong>HVAC Maintenance</strong><span>Preventive care keeps your system from breaking down when you need it most. We’ll provide seasonal maintenance that cleans, tunes, and checks every part. It’s the best way to extend your system’s life.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/commercial/\"><strong>Commercial HVAC Services</strong><span>A failing HVAC system can interrupt business operations. We’ll handle installation, repairs, and ongoing maintenance for commercial systems of all sizes. Dependable service keeps your workplace productive.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/ductwork/\"><strong>Ductwork Installation &amp; Repair</strong><span>Damaged ducts lead to uneven heating and cooling. We’ll install new ducts or repair existing ones for better airflow throughout your home. Strong ductwork makes your system more efficient.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/ductless/\"><strong>Ductless HVAC Services</strong><span>Not every home has space for central ductwork. We’ll install ductless systems that offer zoned comfort with minimal disruption. They’re energy-efficient and flexible for a variety of needs.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/heat-pumps/\"><strong>Heat Pump Installation &amp; Repair</strong><span>Heat pumps are an efficient way to heat and cool with one system. We’ll repair existing units or install new ones for year-round reliability. They’re a smart choice for balanced comfort.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/air-handlers/\"><strong>Air Handler Installation &amp; Servicing</strong><span>Air handlers are essential for moving conditioned air through your home. We’ll install or repair yours, so your HVAC runs at peak performance. A well-functioning handler supports overall efficiency.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/air-cleaners/\"><strong>Air Cleaner Installation</strong><span>Cleaner air makes every room more comfortable. We’ll install air cleaners that reduce allergens, dust, and bacteria. It’s a simple way to create a healthier home.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/ductless/\"><strong>Mini Split Services</strong><span>Mini splits provide comfort exactly where you want it. We can install or repair these systems to give you precise control in individual rooms. They’re efficient, quiet, and low-maintenance.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/germicidal-lights/\"><strong>Germicidal Light Installation</strong><span>Protect your HVAC system and your air from harmful contaminants. We’ll install germicidal lights that help kill bacteria, mold, and other organisms inside your system. The result is cleaner air and a healthier space.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/thermostats/\"><strong>Thermostat Installation &amp; Repair</strong><span>A faulty thermostat makes it difficult to keep your home comfortable. We’ll install or repair one so you can control your system with ease. Smart thermostats also offer convenient scheduling and remote access.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/indoor-air-quality/\"><strong>Indoor Air Quality Services</strong><span>Air quality matters just as much as temperature. We’ll help with humidity control, ventilation, and purification solutions. You’ll breathe easier with every service.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a></div>"
              },
@@ -695,7 +698,7 @@
              "elType": "widget"
             },
             {
-             "id": "52060103",
+             "id": "5207231c",
              "settings": {
               "editor": "<p>Reach out today to learn more about our services or set up an appointment.</p>"
              },
@@ -709,14 +712,14 @@
            "elType": "container"
           },
           {
-           "id": "52064e5f",
+           "id": "52077078",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "520627b1",
+             "id": "520749ca",
              "settings": {
               "title": "Why Choose Us?",
               "header_size": "h2",
@@ -743,7 +746,7 @@
              "elType": "widget"
             },
             {
-             "id": "52063b08",
+             "id": "52075d21",
              "settings": {
               "editor": "<p>Finding the right HVAC company can make all the difference, and we’re here to deliver reliable service every time with a full range of services. Our team will repair, replace, or install your system with skill and the same level of care we’d give our own homes. For decades, we’ve been focused on long-term solutions and strong customer relationships. Here’s what you’ll get when you work with us:</p><ul><li>Straightforward pricing with no hidden fees</li><li>A “Done Right” promise you can trust</li><li>Experienced technicians who respect your space</li><li>A family-owned business dedicated to quality and service</li></ul>"
              },
@@ -757,14 +760,14 @@
            "elType": "container"
           },
           {
-           "id": "52068864",
+           "id": "5207aa7d",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "520661b6",
+             "id": "520783cf",
              "settings": {
               "title": "Budget-Friendly Financing",
               "header_size": "h2",
@@ -791,7 +794,7 @@
              "elType": "widget"
             },
             {
-             "id": "5206750d",
+             "id": "52079726",
              "settings": {
               "editor": "<p>Unexpected HVAC repairs or upgrades don’t need to derail your plans. We work with GoodLeap, Synchrony and Hearth to provide financing that helps spread out costs and make projects more manageable. With these options, you can keep your home comfortable today while paying over time in a way that fits your budget.</p>"
              },
@@ -809,7 +812,7 @@
          "elType": "container"
         },
         {
-         "id": "52058cf9",
+         "id": "5206af12",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -837,11 +840,11 @@
             {
              "id": "52050598",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -864,11 +867,11 @@
             {
              "id": "52052c46",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -876,7 +879,7 @@
            "elType": "container"
           },
           {
-           "id": "520579a2",
+           "id": "52069bbb",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -894,13 +897,225 @@
              "elType": "widget"
             },
             {
-             "id": "5205664b",
+             "id": "52068864",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "205664b",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20579a2",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2058cf9",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "205a050",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "205b3a7",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "205c6fe",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "205da55",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "205edac",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2060103",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "206145a",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20627b1",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2063b08",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2064e5f",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20661b6",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "206750d",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -924,7 +1139,7 @@
    "elType": "container"
   },
   {
-   "id": "520783cf",
+   "id": "520ab015",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -933,7 +1148,7 @@
    },
    "elements": [
     {
-     "id": "52077078",
+     "id": "520a9cbe",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -961,31 +1176,33 @@
      },
      "elements": [
       {
-       "id": "52075d21",
+       "id": "520a8967",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "52073673",
+         "id": "520a7610",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
          },
          "elements": [
           {
-           "id": "5206e917",
+           "id": "52080b30",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "5206fc6e",
+           "id": "52081e87",
            "settings": {
             "title": "Frequently Asked Questions",
             "header_size": "h2",
@@ -1012,7 +1229,7 @@
            "elType": "widget"
           },
           {
-           "id": "52070fc5",
+           "id": "520831de",
            "settings": {
             "editor": "<p class=\"lead\">Here are some answers to common HVAC questions. If you don’t see your concern covered, reach out and we’ll provide you with the information you need.</p>"
            },
@@ -1022,13 +1239,13 @@
            "elType": "widget"
           },
           {
-           "id": "5207231c",
+           "id": "52084535",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -1036,13 +1253,253 @@
          "elType": "container"
         },
         {
-         "id": "520749ca",
+         "id": "520a62b9",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>How often should I schedule HVAC maintenance?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Twice a year is recommended; once in spring for cooling and once in fall for heating. These visits keep your system prepared for seasonal demand. Regular maintenance lowers costs and extends lifespan.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Can I handle small HVAC repairs on my own?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>While you can change filters and check thermostats, most repairs need a trained technician. HVAC systems are complex and unsafe to handle without proper tools. Calling a pro protects both your home and your equipment.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>What’s the benefit of installing a ductless system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Ductless systems provide zoned comfort without needing ductwork. They’re energy-efficient, quiet, and allow for room-by-room control. Many homeowners use them for additions or spaces with poor airflow.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>How long does an HVAC system usually last?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>With regular maintenance, most systems last 12 to 15 years. Usage, climate, and upkeep all play a role in lifespan. When repairs become too frequent, replacement may be the best choice.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Why is my system making strange noises?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Noises like banging, rattling, or hissing often signal loose parts, airflow problems, or failing components. Ignoring them can lead to bigger issues. A technician can diagnose and repair the cause.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>What’s included in an air quality service?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Air quality services may include air cleaners, humidifiers, dehumidifiers, and ventilation improvements. These solutions reduce allergens, pollutants, and excess moisture. The result is a healthier indoor environment.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Can a new thermostat lower my energy bills?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, upgrading to a programmable or smart thermostat gives you more control. These devices let you adjust settings automatically or remotely, saving energy when you’re not home. Over time, they often pay for themselves.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Do you offer services for businesses as well as homes?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, we provide HVAC installation, repair, and maintenance for commercial properties too. Businesses rely on consistent comfort, and our team has the expertise to keep systems running. Reliable service supports smooth operations.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>How do I know when it’s time to replace my AC?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Signs include rising energy bills, frequent repairs, or uneven cooling. If your unit is more than 10 to 15 years old, replacement often makes more financial sense. A new system provides better comfort and efficiency.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "208588c",
+            "item_title": "How often should I schedule HVAC maintenance?"
+           },
+           {
+            "_id": "2086be3",
+            "item_title": "Can I handle small HVAC repairs on my own?"
+           },
+           {
+            "_id": "2087f3a",
+            "item_title": "What’s the benefit of installing a ductless system?"
+           },
+           {
+            "_id": "2089291",
+            "item_title": "How long does an HVAC system usually last?"
+           },
+           {
+            "_id": "208a5e8",
+            "item_title": "Why is my system making strange noises?"
+           },
+           {
+            "_id": "208b93f",
+            "item_title": "What’s included in an air quality service?"
+           },
+           {
+            "_id": "208cc96",
+            "item_title": "Can a new thermostat lower my energy bills?"
+           },
+           {
+            "_id": "208dfed",
+            "item_title": "Do you offer services for businesses as well as homes?"
+           },
+           {
+            "_id": "208f344",
+            "item_title": "How do I know when it’s time to replace my AC?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "520919f2",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5209069b",
+             "settings": {
+              "editor": "<p>Twice a year is recommended; once in spring for cooling and once in fall for heating. These visits keep your system prepared for seasonal demand. Regular maintenance lowers costs and extends lifespan.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520940a0",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52092d49",
+             "settings": {
+              "editor": "<p>While you can change filters and check thermostats, most repairs need a trained technician. HVAC systems are complex and unsafe to handle without proper tools. Calling a pro protects both your home and your equipment.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5209674e",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520953f7",
+             "settings": {
+              "editor": "<p>Ductless systems provide zoned comfort without needing ductwork. They’re energy-efficient, quiet, and allow for room-by-room control. Many homeowners use them for additions or spaces with poor airflow.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52098dfc",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52097aa5",
+             "settings": {
+              "editor": "<p>With regular maintenance, most systems last 12 to 15 years. Usage, climate, and upkeep all play a role in lifespan. When repairs become too frequent, replacement may be the best choice.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5209b4aa",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5209a153",
+             "settings": {
+              "editor": "<p>Noises like banging, rattling, or hissing often signal loose parts, airflow problems, or failing components. Ignoring them can lead to bigger issues. A technician can diagnose and repair the cause.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5209db58",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5209c801",
+             "settings": {
+              "editor": "<p>Air quality services may include air cleaners, humidifiers, dehumidifiers, and ventilation improvements. These solutions reduce allergens, pollutants, and excess moisture. The result is a healthier indoor environment.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520a0206",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5209eeaf",
+             "settings": {
+              "editor": "<p>Yes, upgrading to a programmable or smart thermostat gives you more control. These devices let you adjust settings automatically or remotely, saving energy when you’re not home. Over time, they often pay for themselves.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520a28b4",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520a155d",
+             "settings": {
+              "editor": "<p>Yes, we provide HVAC installation, repair, and maintenance for commercial properties too. Businesses rely on consistent comfort, and our team has the expertise to keep systems running. Reliable service supports smooth operations.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520a4f62",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520a3c0b",
+             "settings": {
+              "editor": "<p>Signs include rising energy bills, frequent repairs, or uneven cooling. If your unit is more than 10 to 15 years old, replacement often makes more financial sense. A new system provides better comfort and efficiency.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -1058,7 +1515,7 @@
    "elType": "container"
   },
   {
-   "id": "5208588c",
+   "id": "520b84d2",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1067,7 +1524,7 @@
    },
    "elements": [
     {
-     "id": "52084535",
+     "id": "520b717b",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1095,21 +1552,21 @@
      },
      "elements": [
       {
-       "id": "520831de",
+       "id": "520b5e24",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5207aa7d",
+         "id": "520ad6c3",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "52079726",
+           "id": "520ac36c",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -1123,7 +1580,7 @@
          "elType": "container"
         },
         {
-         "id": "52081e87",
+         "id": "520b4acd",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -1131,17 +1588,19 @@
          },
          "elements": [
           {
-           "id": "5207bdd4",
+           "id": "520aea1a",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "5207d12b",
+           "id": "520afd71",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -1168,7 +1627,7 @@
            "elType": "widget"
           },
           {
-           "id": "5207e482",
+           "id": "520b10c8",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -1178,7 +1637,7 @@
            "elType": "widget"
           },
           {
-           "id": "5207f7d9",
+           "id": "520b241f",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -1188,7 +1647,7 @@
            "elType": "widget"
           },
           {
-           "id": "52080b30",
+           "id": "520b3776",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -1221,7 +1680,7 @@
    "elType": "container"
   },
   {
-   "id": "52092d49",
+   "id": "520c598f",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1229,7 +1688,7 @@
    },
    "elements": [
     {
-     "id": "520919f2",
+     "id": "520c4638",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1257,24 +1716,26 @@
      },
      "elements": [
       {
-       "id": "5208dfed",
+       "id": "520c0c33",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "52086be3",
+         "id": "520b9829",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "52087f3a",
+         "id": "520bab80",
          "settings": {
           "title": "Schedule Your Service Today!",
           "header_size": "h2",
@@ -1301,7 +1762,7 @@
          "elType": "widget"
         },
         {
-         "id": "52089291",
+         "id": "520bbed7",
          "settings": {
           "editor": "<p class=\"lead\">Booking a service with Newman Air is quick and easy. Simply reach out to our team, choose a time that works for you, and let us handle the rest.</p>"
          },
@@ -1311,14 +1772,14 @@
          "elType": "widget"
         },
         {
-         "id": "5208cc96",
+         "id": "520bf8dc",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "5208a5e8",
+           "id": "520bd22e",
            "settings": {
             "text": "Schedule Service",
             "link": {
@@ -1335,7 +1796,7 @@
            "elType": "widget"
           },
           {
-           "id": "5208b93f",
+           "id": "520be585",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -1360,7 +1821,7 @@
        "elType": "container"
       },
       {
-       "id": "5208f344",
+       "id": "520c1f8a",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -1370,7 +1831,7 @@
        "elType": "widget"
       },
       {
-       "id": "5209069b",
+       "id": "520c32e1",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

@@ -56,21 +56,24 @@
           {
            "id": "521d8761",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">Maintenance Plan</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">Maintenance Plan</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "521d9ab8",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Year-Round Comfort &amp; Peace of Mind</p>"
+            "title": "Year-Round Comfort &amp; Peace of Mind",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -316,11 +319,11 @@
           {
            "id": "521d60b3",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Online checkout comes later. Our office confirms every sign-up.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Online checkout comes later. Our office confirms every sign-up.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -409,11 +412,13 @@
             {
              "id": "521e6f75",
              "settings": {
-              "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Transparent Pricing</p>"
+              "title": "Transparent Pricing",
+              "header_size": "p",
+              "_css_classes": "nw-eyebrow"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "heading",
              "elType": "widget"
             },
             {
@@ -477,11 +482,13 @@
             {
              "id": "521ed028",
              "settings": {
-              "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Membership Advantages</p>"
+              "title": "Membership Advantages",
+              "header_size": "p",
+              "_css_classes": "nw-eyebrow"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "heading",
              "elType": "widget"
             },
             {
@@ -535,11 +542,13 @@
             {
              "id": "521f1d84",
              "settings": {
-              "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Simple Three-Step Process</p>"
+              "title": "Simple Three-Step Process",
+              "header_size": "p",
+              "_css_classes": "nw-eyebrow"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "heading",
              "elType": "widget"
             },
             {
@@ -645,7 +654,7 @@
    "elType": "container"
   },
   {
-   "id": "522079a2",
+   "id": "522161b6",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -654,7 +663,7 @@
    },
    "elements": [
     {
-     "id": "5220664b",
+     "id": "52214e5f",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -682,14 +691,14 @@
      },
      "elements": [
       {
-       "id": "522052f4",
+       "id": "52213b08",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "52202c46",
+         "id": "522127b1",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
@@ -698,11 +707,13 @@
           {
            "id": "521ff241",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -735,11 +746,11 @@
           {
            "id": "522018ef",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -747,13 +758,128 @@
          "elType": "container"
         },
         {
-         "id": "52203f9d",
+         "id": "5221145a",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>Does the $149 fee cover my entire home if I have two HVAC units?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p><strong>No, the $149 fee covers your primary HVAC system for one full year.</strong> You can add each additional heating and cooling unit in your home to your plan for just <strong>$50 per year</strong>, which includes two complete maintenance visits for those secondary systems as well.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>When are the two seasonal maintenance visits performed?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p><strong>Maintenance visits are scheduled twice a year, once in the spring and once in the fall.</strong> Your spring visit preps your air conditioner or heat pump for summer heat, while your fall visit ensures your furnace or backup heating coils run safely before winter freezes arrive.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>What if I need repairs during my maintenance visit?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p><strong>If our technician finds worn parts or electrical issues, we will provide a clear, upfront estimate before doing any work.</strong> As a maintenance plan member, you automatically receive a <strong>10% discount on all qualifying repairs</strong>.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Do you supply the replacement air filters?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p><strong>No, our technicians install customer-provided air filters during tune-up visits.</strong> If you have your preferred filter brand or media size ready when we arrive, our technician will inspect the air box, remove the old filter, and properly install the fresh replacement at no extra charge.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "2202c46",
+            "item_title": "Does the $149 fee cover my entire home if I have two HVAC units?"
+           },
+           {
+            "_id": "2203f9d",
+            "item_title": "When are the two seasonal maintenance visits performed?"
+           },
+           {
+            "_id": "22052f4",
+            "item_title": "What if I need repairs during my maintenance visit?"
+           },
+           {
+            "_id": "220664b",
+            "item_title": "Do you supply the replacement air filters?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "52208cf9",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "522079a2",
+             "settings": {
+              "editor": "<p><strong>No, the $149 fee covers your primary HVAC system for one full year.</strong> You can add each additional heating and cooling unit in your home to your plan for just <strong>$50 per year</strong>, which includes two complete maintenance visits for those secondary systems as well.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5220b3a7",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5220a050",
+             "settings": {
+              "editor": "<p><strong>Maintenance visits are scheduled twice a year, once in the spring and once in the fall.</strong> Your spring visit preps your air conditioner or heat pump for summer heat, while your fall visit ensures your furnace or backup heating coils run safely before winter freezes arrive.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5220da55",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5220c6fe",
+             "settings": {
+              "editor": "<p><strong>If our technician finds worn parts or electrical issues, we will provide a clear, upfront estimate before doing any work.</strong> As a maintenance plan member, you automatically receive a <strong>10% discount on all qualifying repairs</strong>.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52210103",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5220edac",
+             "settings": {
+              "editor": "<p><strong>No, our technicians install customer-provided air filters during tune-up visits.</strong> If you have your preferred filter brand or media size ready when we arrive, our technician will inspect the air box, remove the old filter, and properly install the fresh replacement at no extra charge.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -769,7 +895,7 @@
    "elType": "container"
   },
   {
-   "id": "52214e5f",
+   "id": "52223673",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -777,7 +903,7 @@
    },
    "elements": [
     {
-     "id": "52213b08",
+     "id": "5222231c",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -805,24 +931,26 @@
      },
      "elements": [
       {
-       "id": "52210103",
+       "id": "5221e917",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "52208cf9",
+         "id": "5221750d",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Start Your Membership</p>"
+          "title": "Start Your Membership",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "5220a050",
+         "id": "52218864",
          "settings": {
           "title": "Ready to Protect Your Home Year-Round?",
           "header_size": "h2",
@@ -849,7 +977,7 @@
          "elType": "widget"
         },
         {
-         "id": "5220b3a7",
+         "id": "52219bbb",
          "settings": {
           "editor": "<p class=\"lead\">Join the Bear Necessities Maintenance Plan today starting at just <strong>$149/year</strong>. Enjoy total peace of mind, lower energy bills, and priority service whenever you need us.</p>"
          },
@@ -859,14 +987,14 @@
          "elType": "widget"
         },
         {
-         "id": "5220edac",
+         "id": "5221d5c0",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "5220c6fe",
+           "id": "5221af12",
            "settings": {
             "text": "Join Today",
             "link": {
@@ -883,7 +1011,7 @@
            "elType": "widget"
           },
           {
-           "id": "5220da55",
+           "id": "5221c269",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -908,7 +1036,7 @@
        "elType": "container"
       },
       {
-       "id": "5221145a",
+       "id": "5221fc6e",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -918,7 +1046,7 @@
        "elType": "widget"
       },
       {
-       "id": "522127b1",
+       "id": "52220fc5",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

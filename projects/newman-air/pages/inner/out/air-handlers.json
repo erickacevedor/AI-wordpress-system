@@ -56,21 +56,24 @@
           {
            "id": "52071357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Air Handlers</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Air Handlers</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "520726ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+            "title": "Our Services",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -302,11 +305,11 @@
           {
            "id": "5207fb6b",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -571,7 +574,7 @@
    "elType": "container"
   },
   {
-   "id": "520bd5c0",
+   "id": "520cf7d9",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -579,7 +582,7 @@
    },
    "elements": [
     {
-     "id": "520bc269",
+     "id": "520ce482",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -607,28 +610,28 @@
      },
      "elements": [
       {
-       "id": "520baf12",
+       "id": "520cd12b",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "520b9bbb",
+         "id": "520cbdd4",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "520b8864",
+           "id": "520caa7d",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "520aa050",
+             "id": "520bc269",
              "settings": {
               "title": "Why Choose Us For an Air Handler Installation and Repair?",
               "header_size": "h2",
@@ -655,7 +658,7 @@
              "elType": "widget"
             },
             {
-             "id": "520ab3a7",
+             "id": "520bd5c0",
              "settings": {
               "editor": "<p>When your air handler needs service or replacement, you want a team that knows how to get it right the first time. We’ll handle everything from diagnosis to installation with professionalism, keeping your comfort front and center. Since 1984, we’ve built our name on reliable service and local trust, and we bring that same dedication to every home we visit. Here’s what makes us the right choice:</p><ul><li>Honest estimates with no surprise add-ons</li><li>A “Done right” guarantee on our work</li><li>Polite, skilled technicians who respect your property</li><li>A locally owned company, proud to serve the community</li></ul>"
              },
@@ -665,7 +668,7 @@
              "elType": "widget"
             },
             {
-             "id": "520ac6fe",
+             "id": "520be917",
              "settings": {
               "title": "When Your Air Handler Becomes a Problem",
               "header_size": "h3"
@@ -676,7 +679,7 @@
              "elType": "widget"
             },
             {
-             "id": "520ada55",
+             "id": "520bfc6e",
              "settings": {
               "editor": "<p>A failing air handler can leave your home uncomfortable and your system working harder than it should. Since it controls airflow, even small issues can quickly affect your heating and cooling. Common signs to watch for include:</p><ul><li>Uneven temperatures in different rooms</li><li>Weak or inconsistent airflow from vents</li><li>Strange noises such as rattling or squealing</li><li>Higher energy bills without a clear cause</li></ul>"
              },
@@ -686,7 +689,7 @@
              "elType": "widget"
             },
             {
-             "id": "520aedac",
+             "id": "520c0fc5",
              "settings": {
               "title": "Flexible Financing Options",
               "header_size": "h3"
@@ -697,7 +700,7 @@
              "elType": "widget"
             },
             {
-             "id": "520b0103",
+             "id": "520c231c",
              "settings": {
               "editor": "<p>Installing or replacing an air handler can feel like a big expense, but financing makes it easier to manage. Through GoodLeap, Synchrony and Hearth, we provide flexible payment options that spread out the cost over time. This helps you get the service you need now without delaying important repairs. We’ll walk you through the process, so you understand your choices.</p>"
              },
@@ -707,7 +710,7 @@
              "elType": "widget"
             },
             {
-             "id": "520b145a",
+             "id": "520c3673",
              "settings": {
               "title": "How Our Team Solves the Issue",
               "header_size": "h3"
@@ -718,7 +721,7 @@
              "elType": "widget"
             },
             {
-             "id": "520b27b1",
+             "id": "520c49ca",
              "settings": {
               "editor": "<p>When you call us for air handler service, our technicians will start with a full system inspection. We’ll check the blower motor, fan, filters, and other components to find the root cause. If repairs can restore its performance, we’ll make them on the spot. If replacement is the better option, we’ll recommend a high-efficiency model that matches your HVAC system. Either way, you’ll get clear communication and reliable results.</p>"
              },
@@ -728,7 +731,7 @@
              "elType": "widget"
             },
             {
-             "id": "520b3b08",
+             "id": "520c5d21",
              "settings": {
               "title": "Risks of Ignoring Your Air Handler Issues",
               "header_size": "h3"
@@ -739,7 +742,7 @@
              "elType": "widget"
             },
             {
-             "id": "520b4e5f",
+             "id": "520c7078",
              "settings": {
               "editor": "<p>If you choose to delay service on your air handler, it can create larger and more expensive problems. Since this part affects the airflow, the rest of your system has to work even harder when it’s not functioning properly. This can lead to:</p><ul><li>Premature breakdown of your HVAC unit</li><li>Higher energy bills every month</li><li>Poor indoor air quality from clogged or dirty components</li><li>Frequent hot and cold spots in your home</li></ul>"
              },
@@ -749,7 +752,7 @@
              "elType": "widget"
             },
             {
-             "id": "520b61b6",
+             "id": "520c83cf",
              "settings": {
               "title": "The Benefits of Professional Service",
               "header_size": "h3"
@@ -760,7 +763,7 @@
              "elType": "widget"
             },
             {
-             "id": "520b750d",
+             "id": "520c9726",
              "settings": {
               "editor": "<p>Timely installation or repair of your air handler keeps your HVAC system efficient and your home comfortable. You’ll notice an immediate difference in airflow and overall system performance. Here are some of the benefits:</p><ul><li>Consistent temperatures in every room</li><li>Lower operating costs with a properly functioning system</li><li>Better air quality with clean, efficient circulation</li><li>Extended lifespan of your HVAC equipment</li></ul>"
              },
@@ -778,7 +781,7 @@
          "elType": "container"
         },
         {
-         "id": "520a8cf9",
+         "id": "520baf12",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -806,11 +809,11 @@
             {
              "id": "520a0598",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -833,11 +836,11 @@
             {
              "id": "520a2c46",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -845,7 +848,7 @@
            "elType": "container"
           },
           {
-           "id": "520a79a2",
+           "id": "520b9bbb",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -863,13 +866,225 @@
              "elType": "widget"
             },
             {
-             "id": "520a664b",
+             "id": "520b8864",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\" aria-current=\"page\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "20a664b",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20a79a2",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20a8cf9",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20aa050",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20ab3a7",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20ac6fe",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20ada55",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20aedac",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20b0103",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20b145a",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": "aria-current|page"
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20b27b1",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20b3b08",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20b4e5f",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20b61b6",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20b750d",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -893,7 +1108,7 @@
    "elType": "container"
   },
   {
-   "id": "520c83cf",
+   "id": "520fb015",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -902,7 +1117,7 @@
    },
    "elements": [
     {
-     "id": "520c7078",
+     "id": "520f9cbe",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -930,31 +1145,33 @@
      },
      "elements": [
       {
-       "id": "520c5d21",
+       "id": "520f8967",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "520c3673",
+         "id": "520f7610",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
          },
          "elements": [
           {
-           "id": "520be917",
+           "id": "520d0b30",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "520bfc6e",
+           "id": "520d1e87",
            "settings": {
             "title": "Frequently Asked Questions",
             "header_size": "h2",
@@ -981,7 +1198,7 @@
            "elType": "widget"
           },
           {
-           "id": "520c0fc5",
+           "id": "520d31de",
            "settings": {
             "editor": "<p class=\"lead\">Here are some common questions about air handler installation and repair. If you don’t see yours, get in touch and we’ll be glad to help.</p>"
            },
@@ -991,13 +1208,13 @@
            "elType": "widget"
           },
           {
-           "id": "520c231c",
+           "id": "520d4535",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -1005,13 +1222,253 @@
          "elType": "container"
         },
         {
-         "id": "520c49ca",
+         "id": "520f62b9",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>What does an air handler do in an HVAC system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>The air handler is responsible for moving conditioned air throughout your home. It includes components like the blower motor, fan, and filters that keep air circulating. Without it, your HVAC system can’t distribute heating or cooling effectively.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>How do I know if my air handler needs repair?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Signs include weak airflow, loud noises, musty odors, or uneven room temperatures. A sudden spike in energy bills can also point to a problem. If you notice these issues, a technician should check your system.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>How long does an air handler last?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>With regular maintenance, most air handlers last 10 to 15 years. Usage, air quality, and maintenance all play a role in lifespan. Replacing older units often improves efficiency and comfort.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Can an air handler be repaired, or does it need replacement?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Many problems can be repaired, such as faulty motors or clogged filters. If the unit is older or has significant damage, replacement may be more cost-effective. Our team will provide honest recommendations based on your system’s condition.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Will a new air handler lower my energy bills?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, newer models are designed for efficiency and can reduce energy use. A properly matched air handler also helps your HVAC system perform better overall. The savings often offset the cost over time.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>How often should I schedule maintenance for my air handler?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>It’s best to have your air handler serviced at least once a year. Regular maintenance helps prevent breakdowns, improves efficiency, and extends its lifespan. Seasonal tune-ups can keep everything running smoothly.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Can I replace just the air handler without replacing the entire HVAC system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>In some cases, yes, but compatibility is key. If your HVAC system is older, a full replacement may be recommended for efficiency and performance. A technician can determine the best option for your setup.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>What’s the difference between an air handler and a furnace?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>An air handler moves air through your home and is often paired with heat pumps or AC systems. A furnace generates heat by burning fuel and then distributes it through ducts. They serve different purposes, but both are essential for comfort.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>How long does installation or repair take?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most repairs can be done in a few hours, while installation may take most of the day. The timeline depends on your system and what’s required. We’ll give you an accurate estimate before starting work.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "20d588c",
+            "item_title": "What does an air handler do in an HVAC system?"
+           },
+           {
+            "_id": "20d6be3",
+            "item_title": "How do I know if my air handler needs repair?"
+           },
+           {
+            "_id": "20d7f3a",
+            "item_title": "How long does an air handler last?"
+           },
+           {
+            "_id": "20d9291",
+            "item_title": "Can an air handler be repaired, or does it need replacement?"
+           },
+           {
+            "_id": "20da5e8",
+            "item_title": "Will a new air handler lower my energy bills?"
+           },
+           {
+            "_id": "20db93f",
+            "item_title": "How often should I schedule maintenance for my air handler?"
+           },
+           {
+            "_id": "20dcc96",
+            "item_title": "Can I replace just the air handler without replacing the entire HVAC system?"
+           },
+           {
+            "_id": "20ddfed",
+            "item_title": "What’s the difference between an air handler and a furnace?"
+           },
+           {
+            "_id": "20df344",
+            "item_title": "How long does installation or repair take?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "520e19f2",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520e069b",
+             "settings": {
+              "editor": "<p>The air handler is responsible for moving conditioned air throughout your home. It includes components like the blower motor, fan, and filters that keep air circulating. Without it, your HVAC system can’t distribute heating or cooling effectively.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520e40a0",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520e2d49",
+             "settings": {
+              "editor": "<p>Signs include weak airflow, loud noises, musty odors, or uneven room temperatures. A sudden spike in energy bills can also point to a problem. If you notice these issues, a technician should check your system.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520e674e",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520e53f7",
+             "settings": {
+              "editor": "<p>With regular maintenance, most air handlers last 10 to 15 years. Usage, air quality, and maintenance all play a role in lifespan. Replacing older units often improves efficiency and comfort.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520e8dfc",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520e7aa5",
+             "settings": {
+              "editor": "<p>Many problems can be repaired, such as faulty motors or clogged filters. If the unit is older or has significant damage, replacement may be more cost-effective. Our team will provide honest recommendations based on your system’s condition.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520eb4aa",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520ea153",
+             "settings": {
+              "editor": "<p>Yes, newer models are designed for efficiency and can reduce energy use. A properly matched air handler also helps your HVAC system perform better overall. The savings often offset the cost over time.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520edb58",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520ec801",
+             "settings": {
+              "editor": "<p>It’s best to have your air handler serviced at least once a year. Regular maintenance helps prevent breakdowns, improves efficiency, and extends its lifespan. Seasonal tune-ups can keep everything running smoothly.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520f0206",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520eeeaf",
+             "settings": {
+              "editor": "<p>In some cases, yes, but compatibility is key. If your HVAC system is older, a full replacement may be recommended for efficiency and performance. A technician can determine the best option for your setup.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520f28b4",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520f155d",
+             "settings": {
+              "editor": "<p>An air handler moves air through your home and is often paired with heat pumps or AC systems. A furnace generates heat by burning fuel and then distributes it through ducts. They serve different purposes, but both are essential for comfort.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520f4f62",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "520f3c0b",
+             "settings": {
+              "editor": "<p>Most repairs can be done in a few hours, while installation may take most of the day. The timeline depends on your system and what’s required. We’ll give you an accurate estimate before starting work.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -1027,7 +1484,7 @@
    "elType": "container"
   },
   {
-   "id": "520d588c",
+   "id": "521084d2",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1036,7 +1493,7 @@
    },
    "elements": [
     {
-     "id": "520d4535",
+     "id": "5210717b",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1064,21 +1521,21 @@
      },
      "elements": [
       {
-       "id": "520d31de",
+       "id": "52105e24",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "520caa7d",
+         "id": "520fd6c3",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "520c9726",
+           "id": "520fc36c",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -1092,7 +1549,7 @@
          "elType": "container"
         },
         {
-         "id": "520d1e87",
+         "id": "52104acd",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -1100,17 +1557,19 @@
          },
          "elements": [
           {
-           "id": "520cbdd4",
+           "id": "520fea1a",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "520cd12b",
+           "id": "520ffd71",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -1137,7 +1596,7 @@
            "elType": "widget"
           },
           {
-           "id": "520ce482",
+           "id": "521010c8",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -1147,7 +1606,7 @@
            "elType": "widget"
           },
           {
-           "id": "520cf7d9",
+           "id": "5210241f",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -1157,7 +1616,7 @@
            "elType": "widget"
           },
           {
-           "id": "520d0b30",
+           "id": "52103776",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -1190,7 +1649,7 @@
    "elType": "container"
   },
   {
-   "id": "520e2d49",
+   "id": "5211598f",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1198,7 +1657,7 @@
    },
    "elements": [
     {
-     "id": "520e19f2",
+     "id": "52114638",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1226,24 +1685,26 @@
      },
      "elements": [
       {
-       "id": "520ddfed",
+       "id": "52110c33",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "520d6be3",
+         "id": "52109829",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "520d7f3a",
+         "id": "5210ab80",
          "settings": {
           "title": "Get Started Today",
           "header_size": "h2",
@@ -1270,7 +1731,7 @@
          "elType": "widget"
         },
         {
-         "id": "520d9291",
+         "id": "5210bed7",
          "settings": {
           "editor": "<p class=\"lead\">If you’re dealing with air handler problems or need a new installation, you can rely on us at Newman Air to get the job done right. We provide reliable air handler services in Johnson City, TN, to keep your system running the way it should. Call us today to schedule your appointment and bring comfort back to your home.</p>"
          },
@@ -1280,14 +1741,14 @@
          "elType": "widget"
         },
         {
-         "id": "520dcc96",
+         "id": "5210f8dc",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "520da5e8",
+           "id": "5210d22e",
            "settings": {
             "text": "Schedule Service",
             "link": {
@@ -1304,7 +1765,7 @@
            "elType": "widget"
           },
           {
-           "id": "520db93f",
+           "id": "5210e585",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -1329,7 +1790,7 @@
        "elType": "container"
       },
       {
-       "id": "520df344",
+       "id": "52111f8a",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -1339,7 +1800,7 @@
        "elType": "widget"
       },
       {
-       "id": "520e069b",
+       "id": "521132e1",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

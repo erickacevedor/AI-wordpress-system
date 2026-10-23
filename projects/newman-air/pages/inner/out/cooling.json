@@ -56,21 +56,24 @@
           {
            "id": "520a1357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Cooling</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Cooling</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "520a26ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+            "title": "Our Services",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -302,11 +305,11 @@
           {
            "id": "520afb6b",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -571,7 +574,7 @@
    "elType": "container"
   },
   {
-   "id": "520f0fc5",
+   "id": "521031de",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -579,7 +582,7 @@
    },
    "elements": [
     {
-     "id": "520efc6e",
+     "id": "52101e87",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -607,28 +610,28 @@
      },
      "elements": [
       {
-       "id": "520ee917",
+       "id": "52100b30",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "520ed5c0",
+         "id": "520ff7d9",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "520e8864",
+           "id": "520faa7d",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "520dedac",
+             "id": "520f0fc5",
              "settings": {
               "title": "Cooling Services Built for Tri-Cities Summers",
               "header_size": "h2",
@@ -655,7 +658,7 @@
              "elType": "widget"
             },
             {
-             "id": "520e0103",
+             "id": "520f231c",
              "settings": {
               "editor": "<p>When summer heat and humidity settle into Johnson City and the Tri-Cities, your AC system has a big job to do. It needs to cool your home, manage indoor humidity, support healthy airflow, and operate efficiently without driving up energy costs. Newman Air Cooling and Heating provides professional AC services in Tri-Cities, TN, including installation, repair, and maintenance for homeowners who want dependable comfort without confusion or pressure. Whether you are searching for cooling services near me, comparing replacement options, or trying to stop a small AC issue from becoming a full breakdown, our team helps you understand what your system needs and choose the right next step.</p>"
              },
@@ -665,7 +668,7 @@
              "elType": "widget"
             },
             {
-             "id": "520e145a",
+             "id": "520f3673",
              "settings": {
               "title": "AC Installation That Fits Your Home",
               "header_size": "h3"
@@ -676,7 +679,7 @@
              "elType": "widget"
             },
             {
-             "id": "520e27b1",
+             "id": "520f49ca",
              "settings": {
               "editor": "<p>A new air conditioner should do more than replace the old one. It should be properly sized, professionally installed, and matched to the way your home actually cools. AC installation may be the right choice if your current system is aging, inefficient, noisy, uneven, or no longer keeping up during hot weather. Newman Air helps Johnson City homeowners choose cooling equipment that fits their comfort goals, home layout, efficiency needs, and budget, so they can enjoy stronger performance and better long-term reliability.</p>"
              },
@@ -686,7 +689,7 @@
              "elType": "widget"
             },
             {
-             "id": "520e3b08",
+             "id": "520f5d21",
              "settings": {
               "title": "AC Repair When Comfort Is on the Line",
               "header_size": "h3"
@@ -697,7 +700,7 @@
              "elType": "widget"
             },
             {
-             "id": "520e4e5f",
+             "id": "520f7078",
              "settings": {
               "editor": "<p>If your AC is blowing warm air, making unusual noises, leaking, short cycling, or struggling to cool certain rooms, it may be time for professional repair. Newman Air provides AC repair for homeowners who want clear diagnostics, honest recommendations, and dependable solutions. In many cases, a timely repair can help restore comfort, prevent added strain on the system, and reduce the risk of a more expensive breakdown later.</p>"
              },
@@ -707,7 +710,7 @@
              "elType": "widget"
             },
             {
-             "id": "520e61b6",
+             "id": "520f83cf",
              "settings": {
               "title": "AC Maintenance for a Longer-Lasting System",
               "header_size": "h3"
@@ -718,7 +721,7 @@
              "elType": "widget"
             },
             {
-             "id": "520e750d",
+             "id": "520f9726",
              "settings": {
               "editor": "<p>Routine AC maintenance is one of the simplest ways to protect your cooling system before summer puts it to the test. Maintenance helps identify worn parts, airflow issues, dirty components, and performance problems early, before they interrupt your comfort. Newman Air also offers the Bear Necessities Maintenance Plan for homeowners who want regular system care, priority service, and a smarter way to keep their cooling system ready season after season.</p>"
              },
@@ -732,14 +735,14 @@
            "elType": "container"
           },
           {
-           "id": "520ec269",
+           "id": "520fe482",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "520e9bbb",
+             "id": "520fbdd4",
              "settings": {
               "title": "Why Newman Air Leads the Pack",
               "header_size": "h2",
@@ -766,7 +769,7 @@
              "elType": "widget"
             },
             {
-             "id": "520eaf12",
+             "id": "520fd12b",
              "settings": {
               "editor": "<p>Newman Air brings more than technical HVAC service to every cooling call. Homeowners across Johnson City and the Tri-Cities choose our team for honest guidance, respectful service, skilled workmanship, and practical comfort solutions built around long-term value.</p><ul><li>Trusted Comfort Since 1994: Newman Air has served the Tri-Cities for more than 30 years as a family-operated company built on honesty, reliability, and skilled craftsmanship.</li><li>Honest work at a fair price: Our team focuses on clear communication, straightforward recommendations, and cooling solutions that make sense for your home instead of pushing a one-size-fits-all answer.</li><li>Comfort care beyond the service call: From AC repair and installation to financing options and the Bear Necessities Maintenance Plan, Newman Air gives homeowners practical ways to protect comfort, manage costs, and plan ahead.</li></ul>"
              },
@@ -784,7 +787,7 @@
          "elType": "container"
         },
         {
-         "id": "520dda55",
+         "id": "520efc6e",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -812,11 +815,11 @@
             {
              "id": "520d0598",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -839,11 +842,11 @@
             {
              "id": "520d2c46",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -900,7 +903,7 @@
            "elType": "container"
           },
           {
-           "id": "520dc6fe",
+           "id": "520ee917",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -918,13 +921,225 @@
              "elType": "widget"
             },
             {
-             "id": "520db3a7",
+             "id": "520ed5c0",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\" aria-current=\"page\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "20db3a7",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20dc6fe",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20dda55",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": "aria-current|page"
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20dedac",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20e0103",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20e145a",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20e27b1",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20e3b08",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20e4e5f",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20e61b6",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20e750d",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20e8864",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20e9bbb",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20eaf12",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "20ec269",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -948,7 +1163,7 @@
    "elType": "container"
   },
   {
-   "id": "520fbdd4",
+   "id": "52120206",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -957,7 +1172,7 @@
    },
    "elements": [
     {
-     "id": "520faa7d",
+     "id": "5211eeaf",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -985,31 +1200,33 @@
      },
      "elements": [
       {
-       "id": "520f9726",
+       "id": "5211db58",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "520f7078",
+         "id": "5211c801",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
          },
          "elements": [
           {
-           "id": "520f231c",
+           "id": "52104535",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "520f3673",
+           "id": "5210588c",
            "settings": {
             "title": "Frequently Asked Questions About Cooling Services",
             "header_size": "h2",
@@ -1036,7 +1253,7 @@
            "elType": "widget"
           },
           {
-           "id": "520f49ca",
+           "id": "52106be3",
            "settings": {
             "editor": "<p class=\"lead\">Choosing the right cooling service can feel overwhelming when you are trying to balance comfort, cost, timing, and long-term value. These answers can help you decide whether your home needs AC repair, replacement, or maintenance.</p>"
            },
@@ -1046,13 +1263,13 @@
            "elType": "widget"
           },
           {
-           "id": "520f5d21",
+           "id": "52107f3a",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -1060,13 +1277,153 @@
          "elType": "container"
         },
         {
-         "id": "520f83cf",
+         "id": "5211b4aa",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>How do I know if I need AC repair or AC replacement?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Repair may be the better choice if your AC is newer, the problem is minor, and the system has been reliable overall. Replacement may make more sense if the unit is 10 to 15 years old, needs frequent repairs, struggles with humidity, or causes rising energy bills. A professional inspection can help you compare both options before making a decision.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Why is my AC running but not cooling my home well?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Poor cooling can come from several issues, including a dirty filter, low refrigerant, weak airflow, frozen coils, thermostat problems, duct leaks, or an aging system that can no longer keep up. If your AC still struggles after you replace the filter and check the thermostat, it is best to schedule service before the system works harder than it should.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Are cooling services worth scheduling before summer?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes. Scheduling cooling service before peak summer can help catch worn parts, airflow problems, dirty coils, or performance issues before the hottest days arrive. Waiting until a heat wave can leave you with fewer scheduling options and a higher chance of dealing with an uncomfortable home.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>How often should I schedule AC maintenance?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most homeowners should schedule AC maintenance once a year, ideally before peak cooling season. If your system runs heavily, serves a larger home, or has a history of repairs, regular maintenance becomes even more important. Consistent service can improve reliability, support efficiency, and help extend equipment life.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Can better AC service help lower my energy bills?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>It can. A clean, properly repaired, well-maintained, or correctly installed AC system usually operates more efficiently than one that is dirty, damaged, oversized, undersized, or neglected. Energy savings depend on your home, ductwork, insulation, thermostat habits, and system condition, but better performance often helps reduce wasted energy.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "2109291",
+            "item_title": "How do I know if I need AC repair or AC replacement?"
+           },
+           {
+            "_id": "210a5e8",
+            "item_title": "Why is my AC running but not cooling my home well?"
+           },
+           {
+            "_id": "210b93f",
+            "item_title": "Are cooling services worth scheduling before summer?"
+           },
+           {
+            "_id": "210cc96",
+            "item_title": "How often should I schedule AC maintenance?"
+           },
+           {
+            "_id": "210dfed",
+            "item_title": "Can better AC service help lower my energy bills?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "5211069b",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5210f344",
+             "settings": {
+              "editor": "<p>Repair may be the better choice if your AC is newer, the problem is minor, and the system has been reliable overall. Replacement may make more sense if the unit is 10 to 15 years old, needs frequent repairs, struggles with humidity, or causes rising energy bills. A professional inspection can help you compare both options before making a decision.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52112d49",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521119f2",
+             "settings": {
+              "editor": "<p>Poor cooling can come from several issues, including a dirty filter, low refrigerant, weak airflow, frozen coils, thermostat problems, duct leaks, or an aging system that can no longer keep up. If your AC still struggles after you replace the filter and check the thermostat, it is best to schedule service before the system works harder than it should.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521153f7",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521140a0",
+             "settings": {
+              "editor": "<p>Yes. Scheduling cooling service before peak summer can help catch worn parts, airflow problems, dirty coils, or performance issues before the hottest days arrive. Waiting until a heat wave can leave you with fewer scheduling options and a higher chance of dealing with an uncomfortable home.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52117aa5",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5211674e",
+             "settings": {
+              "editor": "<p>Most homeowners should schedule AC maintenance once a year, ideally before peak cooling season. If your system runs heavily, serves a larger home, or has a history of repairs, regular maintenance becomes even more important. Consistent service can improve reliability, support efficiency, and help extend equipment life.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5211a153",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52118dfc",
+             "settings": {
+              "editor": "<p>It can. A clean, properly repaired, well-maintained, or correctly installed AC system usually operates more efficiently than one that is dirty, damaged, oversized, undersized, or neglected. Energy savings depend on your home, ductwork, insulation, thermostat habits, and system condition, but better performance often helps reduce wasted energy.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -1082,7 +1439,7 @@
    "elType": "container"
   },
   {
-   "id": "52109291",
+   "id": "5212d6c3",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1091,7 +1448,7 @@
    },
    "elements": [
     {
-     "id": "52107f3a",
+     "id": "5212c36c",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1119,21 +1476,21 @@
      },
      "elements": [
       {
-       "id": "52106be3",
+       "id": "5212b015",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "520fe482",
+         "id": "521228b4",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "520fd12b",
+           "id": "5212155d",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -1147,7 +1504,7 @@
          "elType": "container"
         },
         {
-         "id": "5210588c",
+         "id": "52129cbe",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -1155,17 +1512,19 @@
          },
          "elements": [
           {
-           "id": "520ff7d9",
+           "id": "52123c0b",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "52100b30",
+           "id": "52124f62",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -1192,7 +1551,7 @@
            "elType": "widget"
           },
           {
-           "id": "52101e87",
+           "id": "521262b9",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -1202,7 +1561,7 @@
            "elType": "widget"
           },
           {
-           "id": "521031de",
+           "id": "52127610",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -1212,7 +1571,7 @@
            "elType": "widget"
           },
           {
-           "id": "52104535",
+           "id": "52128967",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -1245,7 +1604,7 @@
    "elType": "container"
   },
   {
-   "id": "5211674e",
+   "id": "5213ab80",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1253,7 +1612,7 @@
    },
    "elements": [
     {
-     "id": "521153f7",
+     "id": "52139829",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1281,24 +1640,26 @@
      },
      "elements": [
       {
-       "id": "521119f2",
+       "id": "52135e24",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "5210a5e8",
+         "id": "5212ea1a",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "5210b93f",
+         "id": "5212fd71",
          "settings": {
           "title": "Ready for Better Cooling?",
           "header_size": "h2",
@@ -1325,7 +1686,7 @@
          "elType": "widget"
         },
         {
-         "id": "5210cc96",
+         "id": "521310c8",
          "settings": {
           "editor": "<p class=\"lead\">Do not wait for weak airflow, rising bills, or a sudden breakdown to make your home uncomfortable. For dependable AC services in Tri-Cities, TN, schedule service with Newman Air Cooling and Heating and get comfort guidance you can trust.</p>"
          },
@@ -1335,14 +1696,14 @@
          "elType": "widget"
         },
         {
-         "id": "5211069b",
+         "id": "52134acd",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "5210dfed",
+           "id": "5213241f",
            "settings": {
             "text": "Schedule Now",
             "link": {
@@ -1359,7 +1720,7 @@
            "elType": "widget"
           },
           {
-           "id": "5210f344",
+           "id": "52133776",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -1384,7 +1745,7 @@
        "elType": "container"
       },
       {
-       "id": "52112d49",
+       "id": "5213717b",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -1394,7 +1755,7 @@
        "elType": "widget"
       },
       {
-       "id": "521140a0",
+       "id": "521384d2",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

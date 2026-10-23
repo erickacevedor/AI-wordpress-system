@@ -56,21 +56,24 @@
           {
            "id": "52141357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Indoor Air Quality</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Indoor Air Quality</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "521426ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+            "title": "Our Services",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -312,11 +315,11 @@
           {
            "id": "52150ec2",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -581,7 +584,7 @@
    "elType": "container"
   },
   {
-   "id": "521a7f3a",
+   "id": "521ba153",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -589,7 +592,7 @@
    },
    "elements": [
     {
-     "id": "521a6be3",
+     "id": "521b8dfc",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -617,28 +620,28 @@
      },
      "elements": [
       {
-       "id": "521a588c",
+       "id": "521b7aa5",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "521a4535",
+         "id": "521b674e",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "521949ca",
+           "id": "521a6be3",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "52180103",
+             "id": "5219231c",
              "settings": {
               "title": "Cleaner Indoor Air Built for Tri-Cities Homes",
               "header_size": "h2",
@@ -665,7 +668,7 @@
              "elType": "widget"
             },
             {
-             "id": "5218145a",
+             "id": "52193673",
              "settings": {
               "editor": "<p>Indoor air quality problems often become more noticeable when your home stays closed up and the HVAC system runs for long stretches. During humid Tri-Cities summers, high-pollen months, and late-season heat, dust, pet dander, pollen, musty odors, and stale air can keep circulating through the same rooms.</p><p>The right solution depends on what is causing the problem. Some homes need better filtration. Others need improved airflow, air handler service, HVAC maintenance, or added system protection. Newman Air helps you understand what your home actually needs before recommending equipment.</p>"
              },
@@ -675,7 +678,7 @@
              "elType": "widget"
             },
             {
-             "id": "521827b1",
+             "id": "521949ca",
              "settings": {
               "title": "Air Cleaner Installation",
               "header_size": "h3"
@@ -686,7 +689,7 @@
              "elType": "widget"
             },
             {
-             "id": "52183b08",
+             "id": "52195d21",
              "settings": {
               "title": "for Dust, Allergens, and Airborne Particles",
               "header_size": "h3"
@@ -697,7 +700,7 @@
              "elType": "widget"
             },
             {
-             "id": "52184e5f",
+             "id": "52197078",
              "settings": {
               "editor": "<p>A standard HVAC filter helps protect your equipment, but it may not be enough to address fine dust, pollen, pet dander, smoke particles, or lingering odors. A whole-home air cleaner works with your HVAC system to help filter air as it circulates through the home.</p><p>Air cleaner installation may be a good fit if dust returns quickly after cleaning, allergy symptoms feel worse indoors, pet dander is difficult to manage, or certain odors seem to linger. Instead of relying only on portable room units, a whole-home solution can support cleaner air throughout the spaces your family uses most.</p>"
              },
@@ -707,14 +710,14 @@
              "elType": "widget"
             },
             {
-             "id": "5218750d",
+             "id": "52199726",
              "settings": {
               "content_width": "full",
               "css_classes": "btn-row"
              },
              "elements": [
               {
-               "id": "521861b6",
+               "id": "521983cf",
                "settings": {
                 "text": "Air Cleaner Installation",
                 "link": {
@@ -735,7 +738,7 @@
              "elType": "container"
             },
             {
-             "id": "52188864",
+             "id": "5219aa7d",
              "settings": {
               "title": "Air Handler Service",
               "header_size": "h3"
@@ -746,7 +749,7 @@
              "elType": "widget"
             },
             {
-             "id": "52189bbb",
+             "id": "5219bdd4",
              "settings": {
               "title": "for Better Airflow and Circulation",
               "header_size": "h3"
@@ -757,7 +760,7 @@
              "elType": "widget"
             },
             {
-             "id": "5218af12",
+             "id": "5219d12b",
              "settings": {
               "editor": "<p>Your air handler helps move conditioned air through your home. If it is dirty, worn, or struggling, you may notice weak airflow, uneven comfort, stale rooms, noisy operation, or higher energy bills.</p><p>Air handler problems can also affect indoor air quality because poor circulation makes it harder for air to move properly through filters and indoor air quality equipment. If your indoor air concerns come with weak airflow or rooms that never feel fresh, the air handler may need to be evaluated.</p><p>Newman Air provides air handler installation and repair for Johnson City homeowners who want stronger circulation, better system performance, and more consistent comfort.</p>"
              },
@@ -767,14 +770,14 @@
              "elType": "widget"
             },
             {
-             "id": "5218d5c0",
+             "id": "5219f7d9",
              "settings": {
               "content_width": "full",
               "css_classes": "btn-row"
              },
              "elements": [
               {
-               "id": "5218c269",
+               "id": "5219e482",
                "settings": {
                 "text": "Air Handler",
                 "link": {
@@ -795,7 +798,7 @@
              "elType": "container"
             },
             {
-             "id": "5218e917",
+             "id": "521a0b30",
              "settings": {
               "title": "Germicidal Lights",
               "header_size": "h3"
@@ -806,7 +809,7 @@
              "elType": "widget"
             },
             {
-             "id": "5218fc6e",
+             "id": "521a1e87",
              "settings": {
               "title": "for Added HVAC System Protection",
               "header_size": "h3"
@@ -817,7 +820,7 @@
              "elType": "widget"
             },
             {
-             "id": "52190fc5",
+             "id": "521a31de",
              "settings": {
               "editor": "<p>Some air quality concerns begin inside the HVAC system. Damp coils, dark spaces, and constant airflow can create conditions where microbial growth may become a concern. Germicidal lights, often called UV lights, are installed inside the HVAC system to help target biological contaminants where they may develop.</p><p>Germicidal lights are not a replacement for filtration, cleaning, or routine HVAC maintenance. They are one part of a broader indoor air quality plan. They may be worth discussing if you notice musty HVAC odors, recurring coil concerns, or want added protection inside the system.</p>"
              },
@@ -827,14 +830,14 @@
              "elType": "widget"
             },
             {
-             "id": "52193673",
+             "id": "521a588c",
              "settings": {
               "content_width": "full",
               "css_classes": "btn-row"
              },
              "elements": [
               {
-               "id": "5219231c",
+               "id": "521a4535",
                "settings": {
                 "text": "Germicidal Lights",
                 "link": {
@@ -859,14 +862,14 @@
            "elType": "container"
           },
           {
-           "id": "521983cf",
+           "id": "521aa5e8",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "52195d21",
+             "id": "521a7f3a",
              "settings": {
               "title": "Signs Your Home May Need Indoor Air Quality Help",
               "header_size": "h2",
@@ -893,7 +896,7 @@
              "elType": "widget"
             },
             {
-             "id": "52197078",
+             "id": "521a9291",
              "settings": {
               "editor": "<p>You may benefit from an indoor air quality evaluation if you notice:</p><ul><li>Dust returning soon after cleaning</li><li>Lingering household or pet odors</li><li>Musty smells near vents</li><li>Allergy or asthma symptoms that feel worse indoors</li><li>Stale air in bedrooms, offices, or common areas</li><li>Weak or uneven airflow</li><li>Frequent filter changes without much improvement</li><li>Moisture or humidity concerns that affect comfort</li></ul><p>These signs do not always point to one solution. The issue may involve filtration, airflow, ductwork, HVAC maintenance, air handler performance, or an indoor air quality upgrade.</p>"
              },
@@ -907,14 +910,14 @@
            "elType": "container"
           },
           {
-           "id": "5219bdd4",
+           "id": "521adfed",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "52199726",
+             "id": "521ab93f",
              "settings": {
               "title": "Choosing the Right Indoor Air Quality Solution",
               "header_size": "h2",
@@ -941,7 +944,7 @@
              "elType": "widget"
             },
             {
-             "id": "5219aa7d",
+             "id": "521acc96",
              "settings": {
               "editor": "<p>Indoor air quality products work best when they match the actual problem in your home.</p><p>If dust, pollen, pet dander, or airborne particles are the main concern, an air cleaner or upgraded filtration may be the best place to start. If rooms feel stale, weak, or uneven, airflow and air handler performance should be checked first. If musty odors seem connected to the HVAC system, maintenance and germicidal lights may be part of the solution.</p><p>If humidity is the main issue, the answer may also involve AC performance, drainage, airflow, or a dedicated humidity-control option. Newman Air helps you sort through the possibilities so you are not paying for a product that does not address the real cause.</p><p>If an indoor air quality upgrade is the right fit, our team can also walk you through available financing options so you can make a decision that works for your home and budget.</p>"
              },
@@ -955,14 +958,14 @@
            "elType": "container"
           },
           {
-           "id": "5219f7d9",
+           "id": "521b19f2",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "5219d12b",
+             "id": "521af344",
              "settings": {
               "title": "Why Newman Air Leads the Pack",
               "header_size": "h2",
@@ -989,7 +992,7 @@
              "elType": "widget"
             },
             {
-             "id": "5219e482",
+             "id": "521b069b",
              "settings": {
               "editor": "<p>Indoor air quality is personal. You are not just choosing equipment. You are trying to make your home feel cleaner, fresher, and more comfortable for the people who live there.</p><p>Newman Air brings practical HVAC knowledge, clear communication, and local experience to every indoor air quality service call. Homeowners across Johnson City and the Tri-Cities choose our team for honest recommendations, respectful service, and comfort solutions designed around long-term value.</p><ul><li>Decades of local comfort experience: Newman Air helps Tri-Cities homeowners solve comfort problems with reliable service and skilled workmanship.</li><li>Honest work at a fair price: We explain your options clearly and recommend solutions that make sense for your home, not a one-size-fits-all answer.</li><li>Whole-home comfort guidance: From air cleaners and air handlers to germicidal lights and HVAC maintenance, we help you understand which solution fits your air quality concern.</li></ul>"
              },
@@ -1003,14 +1006,14 @@
            "elType": "container"
           },
           {
-           "id": "521a31de",
+           "id": "521b53f7",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "521a0b30",
+             "id": "521b2d49",
              "settings": {
               "title": "See What our Customers Say About Our Service",
               "header_size": "h2",
@@ -1037,7 +1040,7 @@
              "elType": "widget"
             },
             {
-             "id": "521a1e87",
+             "id": "521b40a0",
              "settings": {
               "editor": "<p>When you are choosing an indoor air quality solution, you want more than equipment. You want clear answers, respectful service, and a team that takes the time to understand what is actually happening in your home.</p><p>Homeowners across Johnson City and the Tri-Cities turn to Newman Air because our team focuses on honest recommendations, dependable workmanship, and practical comfort solutions. Whether we are helping with dust, stale air, airflow concerns, odors, or HVAC system performance, our goal is to make the process easier to understand from the first conversation to the final recommendation.</p>"
              },
@@ -1055,7 +1058,7 @@
          "elType": "container"
         },
         {
-         "id": "5217edac",
+         "id": "52190fc5",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -1083,11 +1086,11 @@
             {
              "id": "521718ef",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -1110,11 +1113,11 @@
             {
              "id": "52173f9d",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -1171,7 +1174,7 @@
            "elType": "container"
           },
           {
-           "id": "5217da55",
+           "id": "5218fc6e",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -1189,13 +1192,225 @@
              "elType": "widget"
             },
             {
-             "id": "5217c6fe",
+             "id": "5218e917",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\" aria-current=\"page\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "217c6fe",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "217da55",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "217edac",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2180103",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "218145a",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21827b1",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2183b08",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2184e5f",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21861b6",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "218750d",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2188864",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2189bbb",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "218af12",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": "aria-current|page"
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "218c269",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "218d5c0",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -1219,7 +1434,7 @@
    "elType": "container"
   },
   {
-   "id": "521b2d49",
+   "id": "521d717b",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1228,7 +1443,7 @@
    },
    "elements": [
     {
-     "id": "521b19f2",
+     "id": "521d5e24",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1256,31 +1471,33 @@
      },
      "elements": [
       {
-       "id": "521b069b",
+       "id": "521d4acd",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "521adfed",
+         "id": "521d3776",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
          },
          "elements": [
           {
-           "id": "521a9291",
+           "id": "521bb4aa",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "521aa5e8",
+           "id": "521bc801",
            "settings": {
             "title": "Frequently Asked Questions About Indoor Air Quality",
             "header_size": "h2",
@@ -1307,7 +1524,7 @@
            "elType": "widget"
           },
           {
-           "id": "521ab93f",
+           "id": "521bdb58",
            "settings": {
             "editor": "<p class=\"lead\">Choosing an indoor air quality solution can feel overwhelming because dust, odors, airflow, allergens, and HVAC performance can overlap. These answers can help you understand where to start.</p>"
            },
@@ -1317,13 +1534,13 @@
            "elType": "widget"
           },
           {
-           "id": "521acc96",
+           "id": "521beeaf",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -1331,13 +1548,153 @@
          "elType": "container"
         },
         {
-         "id": "521af344",
+         "id": "521d241f",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>What are the most common signs of poor indoor air quality?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Common signs include excessive dust, lingering odors, musty smells, stale air, weak airflow, and allergy symptoms that feel worse indoors. These issues may be related to filtration, airflow, humidity, ductwork, or dirty HVAC components.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Do air cleaners work with my existing HVAC system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Many whole-home air cleaners are designed to work with existing HVAC systems, but compatibility depends on your equipment and setup. A technician can inspect your system and recommend an option that fits properly.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Can indoor air quality services help with allergies?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Indoor air quality services may help reduce airborne irritants such as dust, pollen, pet dander, and other particles. They cannot eliminate allergies, but better filtration and cleaner circulation may make the home feel more comfortable.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>What is the difference between an air cleaner and a germicidal light?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>An air cleaner helps capture airborne particles as air moves through the HVAC system. A germicidal light is installed inside the system to help target biological contaminants where they may develop. They solve different problems and may be used together.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Can my air handler affect indoor air quality?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes. Your air handler helps move air through your home. If it has airflow problems, dirty components, or failing parts, it can affect circulation, comfort, and how well air moves through filters and indoor air quality equipment.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "21c0206",
+            "item_title": "What are the most common signs of poor indoor air quality?"
+           },
+           {
+            "_id": "21c155d",
+            "item_title": "Do air cleaners work with my existing HVAC system?"
+           },
+           {
+            "_id": "21c28b4",
+            "item_title": "Can indoor air quality services help with allergies?"
+           },
+           {
+            "_id": "21c3c0b",
+            "item_title": "What is the difference between an air cleaner and a germicidal light?"
+           },
+           {
+            "_id": "21c4f62",
+            "item_title": "Can my air handler affect indoor air quality?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "521c7610",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521c62b9",
+             "settings": {
+              "editor": "<p>Common signs include excessive dust, lingering odors, musty smells, stale air, weak airflow, and allergy symptoms that feel worse indoors. These issues may be related to filtration, airflow, humidity, ductwork, or dirty HVAC components.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521c9cbe",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521c8967",
+             "settings": {
+              "editor": "<p>Many whole-home air cleaners are designed to work with existing HVAC systems, but compatibility depends on your equipment and setup. A technician can inspect your system and recommend an option that fits properly.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521cc36c",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521cb015",
+             "settings": {
+              "editor": "<p>Indoor air quality services may help reduce airborne irritants such as dust, pollen, pet dander, and other particles. They cannot eliminate allergies, but better filtration and cleaner circulation may make the home feel more comfortable.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521cea1a",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521cd6c3",
+             "settings": {
+              "editor": "<p>An air cleaner helps capture airborne particles as air moves through the HVAC system. A germicidal light is installed inside the system to help target biological contaminants where they may develop. They solve different problems and may be used together.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521d10c8",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521cfd71",
+             "settings": {
+              "editor": "<p>Yes. Your air handler helps move air through your home. If it has airflow problems, dirty components, or failing parts, it can affect circulation, comfort, and how well air moves through filters and indoor air quality equipment.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -1353,7 +1710,7 @@
    "elType": "container"
   },
   {
-   "id": "521c0206",
+   "id": "521e4638",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1362,7 +1719,7 @@
    },
    "elements": [
     {
-     "id": "521beeaf",
+     "id": "521e32e1",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1390,21 +1747,21 @@
      },
      "elements": [
       {
-       "id": "521bdb58",
+       "id": "521e1f8a",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "521b53f7",
+         "id": "521d9829",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "521b40a0",
+           "id": "521d84d2",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -1418,7 +1775,7 @@
          "elType": "container"
         },
         {
-         "id": "521bc801",
+         "id": "521e0c33",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -1426,17 +1783,19 @@
          },
          "elements": [
           {
-           "id": "521b674e",
+           "id": "521dab80",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "521b7aa5",
+           "id": "521dbed7",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -1463,7 +1822,7 @@
            "elType": "widget"
           },
           {
-           "id": "521b8dfc",
+           "id": "521dd22e",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -1473,7 +1832,7 @@
            "elType": "widget"
           },
           {
-           "id": "521ba153",
+           "id": "521de585",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -1483,7 +1842,7 @@
            "elType": "widget"
           },
           {
-           "id": "521bb4aa",
+           "id": "521df8dc",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -1516,7 +1875,7 @@
    "elType": "container"
   },
   {
-   "id": "521cea1a",
+   "id": "521f2e4c",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1524,7 +1883,7 @@
    },
    "elements": [
     {
-     "id": "521cd6c3",
+     "id": "521f1af5",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1552,24 +1911,26 @@
      },
      "elements": [
       {
-       "id": "521c9cbe",
+       "id": "521ee0f0",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "521c155d",
+         "id": "521e598f",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "521c28b4",
+         "id": "521e6ce6",
          "settings": {
           "title": "Ready for Fresher Indoor Air?",
           "header_size": "h2",
@@ -1596,7 +1957,7 @@
          "elType": "widget"
         },
         {
-         "id": "521c3c0b",
+         "id": "521e803d",
          "settings": {
           "editor": "<p class=\"lead\">If your home feels dusty, stale, musty, or harder to breathe in than it should, you do not have to guess at the cause. The right solution may be an air cleaner, air handler service, germicidal lights, HVAC maintenance, or a combination of improvements based on your home’s needs.</p>"
          },
@@ -1606,7 +1967,7 @@
          "elType": "widget"
         },
         {
-         "id": "521c4f62",
+         "id": "521e9394",
          "settings": {
           "editor": "<p class=\"lead\">For dependable indoor air quality services in Johnson City and the Tri-Cities, TN, schedule service with Newman Air and get clear guidance on how to make your home feel cleaner, fresher, and more comfortable.</p>"
          },
@@ -1616,14 +1977,14 @@
          "elType": "widget"
         },
         {
-         "id": "521c8967",
+         "id": "521ecd99",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "521c62b9",
+           "id": "521ea6eb",
            "settings": {
             "text": "Schedule Indoor Air Quality Service",
             "link": {
@@ -1640,7 +2001,7 @@
            "elType": "widget"
           },
           {
-           "id": "521c7610",
+           "id": "521eba42",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -1665,7 +2026,7 @@
        "elType": "container"
       },
       {
-       "id": "521cb015",
+       "id": "521ef447",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -1675,7 +2036,7 @@
        "elType": "widget"
       },
       {
-       "id": "521cc36c",
+       "id": "521f079e",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

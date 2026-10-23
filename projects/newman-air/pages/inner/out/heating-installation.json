@@ -56,21 +56,24 @@
           {
            "id": "52121357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Heating Installation</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Heating Installation</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "521226ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+            "title": "Our Services",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -302,11 +305,11 @@
           {
            "id": "5212fb6b",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -571,7 +574,7 @@
    "elType": "container"
   },
   {
-   "id": "5216fc6e",
+   "id": "52181e87",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -579,7 +582,7 @@
    },
    "elements": [
     {
-     "id": "5216e917",
+     "id": "52180b30",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -607,28 +610,28 @@
      },
      "elements": [
       {
-       "id": "5216d5c0",
+       "id": "5217f7d9",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5216c269",
+         "id": "5217e482",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "5216145a",
+           "id": "52173673",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "5215a050",
+             "id": "5216c269",
              "settings": {
               "title": "When Heating Systems Fall Short",
               "header_size": "h2",
@@ -655,7 +658,7 @@
              "elType": "widget"
             },
             {
-             "id": "5215b3a7",
+             "id": "5216d5c0",
              "settings": {
               "editor": "<p>Old or inefficient heating systems can leave you cold and frustrated. They may work harder but still struggle to keep up with your comfort needs. Common signs you may need a new system include:</p><ul><li>Rising energy bills with no change in usage</li><li>Uneven heating or cold spots throughout the home</li><li>Frequent breakdowns or costly repairs</li><li>A system that’s over 15 years old and is losing efficiency</li></ul>"
              },
@@ -665,7 +668,7 @@
              "elType": "widget"
             },
             {
-             "id": "5215c6fe",
+             "id": "5216e917",
              "settings": {
               "title": "Why Work with Us?",
               "header_size": "h3"
@@ -676,7 +679,7 @@
              "elType": "widget"
             },
             {
-             "id": "5215da55",
+             "id": "5216fc6e",
              "settings": {
               "editor": "<p>Installing a new heating system is a big investment, and you want it done right the first time. We’ll guide you through the process, recommend the right system, and install it with care so you get dependable comfort all winter. Since 1984, we’ve been helping families just like yours stay warm. Here’s what sets us apart:</p><ul><li>Clear, honest pricing from the start</li><li>A “Done Right” guarantee for your peace of mind</li><li>Professional technicians who treat your home with respect</li><li>Longstanding local experience you can trust</li></ul>"
              },
@@ -686,7 +689,7 @@
              "elType": "widget"
             },
             {
-             "id": "5215edac",
+             "id": "52170fc5",
              "settings": {
               "title": "Flexible Financing Options",
               "header_size": "h3"
@@ -697,7 +700,7 @@
              "elType": "widget"
             },
             {
-             "id": "52160103",
+             "id": "5217231c",
              "settings": {
               "editor": "<p>We know a new heating system can be a big investment. That’s why we offer financing through GoodLeap, Synchrony and Hearth, giving you flexible options to spread out the cost. With financing, you can enjoy the comfort of a new system right away instead of waiting. We’ll walk you through the process and help you find the plan that works best for you.</p>"
              },
@@ -711,14 +714,14 @@
            "elType": "container"
           },
           {
-           "id": "5216750d",
+           "id": "52179726",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "521627b1",
+             "id": "521749ca",
              "settings": {
               "title": "A Proven Heating Installation Process",
               "header_size": "h2",
@@ -745,7 +748,7 @@
              "elType": "widget"
             },
             {
-             "id": "52163b08",
+             "id": "52175d21",
              "settings": {
               "editor": "<p>Our installation process starts with understanding your home’s specific heating needs. We’ll carefully size and recommend a system that delivers reliable comfort and efficiency. During installation, our technicians handle everything from removing the old unit to setting up the new one with precision. We’ll test the system, explain how it works, and leave your home as clean as we found it. You’ll end up with a dependable heating system built to perform for years.</p>"
              },
@@ -755,7 +758,7 @@
              "elType": "widget"
             },
             {
-             "id": "52164e5f",
+             "id": "52177078",
              "settings": {
               "title": "Risks of Delaying Your Installation",
               "header_size": "h3"
@@ -766,7 +769,7 @@
              "elType": "widget"
             },
             {
-             "id": "521661b6",
+             "id": "521783cf",
              "settings": {
               "editor": "<p>Waiting too long to replace an outdated heating system can create more problems than it solves. A failing system costs more to run, breaks down more often, and may even leave you without heat on the coldest days. Here are some risks of delaying a new installation:</p><ul><li>Higher energy bills from an inefficient unit</li><li>Frequent repairs that add up quickly</li><li>Potential safety hazards like cracked heat exchangers</li><li>Uncomfortable indoor temperatures during winter</li></ul>"
              },
@@ -780,14 +783,14 @@
            "elType": "container"
           },
           {
-           "id": "5216af12",
+           "id": "5217d12b",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "52168864",
+             "id": "5217aa7d",
              "settings": {
               "title": "The Benefits of Installing a New Heating System",
               "header_size": "h2",
@@ -814,7 +817,7 @@
              "elType": "widget"
             },
             {
-             "id": "52169bbb",
+             "id": "5217bdd4",
              "settings": {
               "editor": "<p>A new heating system is an investment that pays off immediately and in the long run. You’ll enjoy consistent warmth, lower utility bills, and peace of mind knowing your home is ready for cold weather. With today’s energy-efficient models, the upgrade is both practical and cost-saving. Here are some benefits:</p><ul><li>Reliable comfort throughout every room</li><li>Improved energy efficiency and reduced operating costs</li><li>Fewer service calls and unexpected breakdowns</li><li>A safer, more dependable heating solution</li></ul>"
              },
@@ -832,7 +835,7 @@
          "elType": "container"
         },
         {
-         "id": "52158cf9",
+         "id": "5216af12",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -860,11 +863,11 @@
             {
              "id": "52150598",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -887,11 +890,11 @@
             {
              "id": "52152c46",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -899,7 +902,7 @@
            "elType": "container"
           },
           {
-           "id": "521579a2",
+           "id": "52169bbb",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -917,13 +920,225 @@
              "elType": "widget"
             },
             {
-             "id": "5215664b",
+             "id": "52168864",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\" aria-current=\"page\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "215664b",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21579a2",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2158cf9",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "215a050",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "215b3a7",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": "aria-current|page"
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "215c6fe",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "215da55",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "215edac",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2160103",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "216145a",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21627b1",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2163b08",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2164e5f",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21661b6",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "216750d",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -947,7 +1162,7 @@
    "elType": "container"
   },
   {
-   "id": "5217aa7d",
+   "id": "521ad6c3",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -956,7 +1171,7 @@
    },
    "elements": [
     {
-     "id": "52179726",
+     "id": "521ac36c",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -984,31 +1199,33 @@
      },
      "elements": [
       {
-       "id": "521783cf",
+       "id": "521ab015",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "52175d21",
+         "id": "521a9cbe",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
          },
          "elements": [
           {
-           "id": "52170fc5",
+           "id": "521831de",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "5217231c",
+           "id": "52184535",
            "settings": {
             "title": "Frequently Asked Questions",
             "header_size": "h2",
@@ -1035,7 +1252,7 @@
            "elType": "widget"
           },
           {
-           "id": "52173673",
+           "id": "5218588c",
            "settings": {
             "editor": "<p class=\"lead\">Here are answers to common questions about heating installation. If you don’t see yours listed, reach out, and we’ll be happy to provide an answer.</p>"
            },
@@ -1045,13 +1262,13 @@
            "elType": "widget"
           },
           {
-           "id": "521749ca",
+           "id": "52186be3",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -1059,13 +1276,253 @@
          "elType": "container"
         },
         {
-         "id": "52177078",
+         "id": "521a8967",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>How long does it take to install a new heating system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most installations can be completed in one day, depending on the size of the system and your home’s setup. If additional ductwork or modifications are needed, it may take a little longer. We’ll give you a clear timeline before work begins.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>What type of heating system should I choose?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>The best system depends on your home’s size, insulation, and energy needs. Common options include furnaces, heat pumps, and hybrid systems. Our technicians will recommend the best fit after evaluating your home.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>How do I know if I need a new heating system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Signs include frequent repairs, uneven heating, strange noises, or rising energy bills. Systems older than 15 years are often candidates for replacement. A professional inspection can confirm whether repair or replacement is the better choice.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Will a new heating system save money on energy bills?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, modern heating systems are designed to be more efficient than older models. Many homeowners notice significant savings right away. Over time, those savings can help offset the cost of installation.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Do you remove the old heating system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, we’ll safely remove and dispose of your old unit as part of the installation process. You won’t need to worry about handling it yourself. Our team will take care of everything from start to finish.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Can I finance my new heating system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, we offer financing through GoodLeap, Synchrony and Hearth to make installation more manageable. This gives you the flexibility to upgrade your comfort without financial stress.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>How do I prepare my home for installation?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>We recommend clearing the area around your current heating unit and making space for our technicians to work. Our team will handle all the heavy lifting and setup. We’ll also protect your floors and home while we work.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Are newer heating systems quieter?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, many modern systems are designed with noise reduction in mind. You’ll likely notice a big difference in how quietly your new system runs compared to an older one. This adds to overall comfort in your home.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>How long will a new heating system last?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>With proper maintenance, most systems last 15 to 20 years. Regular servicing helps maximize lifespan and efficiency. Investing in annual maintenance can keep your system in top shape.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "2187f3a",
+            "item_title": "How long does it take to install a new heating system?"
+           },
+           {
+            "_id": "2189291",
+            "item_title": "What type of heating system should I choose?"
+           },
+           {
+            "_id": "218a5e8",
+            "item_title": "How do I know if I need a new heating system?"
+           },
+           {
+            "_id": "218b93f",
+            "item_title": "Will a new heating system save money on energy bills?"
+           },
+           {
+            "_id": "218cc96",
+            "item_title": "Do you remove the old heating system?"
+           },
+           {
+            "_id": "218dfed",
+            "item_title": "Can I finance my new heating system?"
+           },
+           {
+            "_id": "218f344",
+            "item_title": "How do I prepare my home for installation?"
+           },
+           {
+            "_id": "219069b",
+            "item_title": "Are newer heating systems quieter?"
+           },
+           {
+            "_id": "21919f2",
+            "item_title": "How long will a new heating system last?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "521940a0",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52192d49",
+             "settings": {
+              "editor": "<p>Most installations can be completed in one day, depending on the size of the system and your home’s setup. If additional ductwork or modifications are needed, it may take a little longer. We’ll give you a clear timeline before work begins.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5219674e",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521953f7",
+             "settings": {
+              "editor": "<p>The best system depends on your home’s size, insulation, and energy needs. Common options include furnaces, heat pumps, and hybrid systems. Our technicians will recommend the best fit after evaluating your home.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52198dfc",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "52197aa5",
+             "settings": {
+              "editor": "<p>Signs include frequent repairs, uneven heating, strange noises, or rising energy bills. Systems older than 15 years are often candidates for replacement. A professional inspection can confirm whether repair or replacement is the better choice.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5219b4aa",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5219a153",
+             "settings": {
+              "editor": "<p>Yes, modern heating systems are designed to be more efficient than older models. Many homeowners notice significant savings right away. Over time, those savings can help offset the cost of installation.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5219db58",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5219c801",
+             "settings": {
+              "editor": "<p>Yes, we’ll safely remove and dispose of your old unit as part of the installation process. You won’t need to worry about handling it yourself. Our team will take care of everything from start to finish.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521a0206",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "5219eeaf",
+             "settings": {
+              "editor": "<p>Yes, we offer financing through GoodLeap, Synchrony and Hearth to make installation more manageable. This gives you the flexibility to upgrade your comfort without financial stress.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521a28b4",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521a155d",
+             "settings": {
+              "editor": "<p>We recommend clearing the area around your current heating unit and making space for our technicians to work. Our team will handle all the heavy lifting and setup. We’ll also protect your floors and home while we work.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521a4f62",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521a3c0b",
+             "settings": {
+              "editor": "<p>Yes, many modern systems are designed with noise reduction in mind. You’ll likely notice a big difference in how quietly your new system runs compared to an older one. This adds to overall comfort in your home.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521a7610",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521a62b9",
+             "settings": {
+              "editor": "<p>With proper maintenance, most systems last 15 to 20 years. Regular servicing helps maximize lifespan and efficiency. Investing in annual maintenance can keep your system in top shape.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -1081,7 +1538,7 @@
    "elType": "container"
   },
   {
-   "id": "52187f3a",
+   "id": "521bab80",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1090,7 +1547,7 @@
    },
    "elements": [
     {
-     "id": "52186be3",
+     "id": "521b9829",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1118,21 +1575,21 @@
      },
      "elements": [
       {
-       "id": "5218588c",
+       "id": "521b84d2",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5217d12b",
+         "id": "521afd71",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "5217bdd4",
+           "id": "521aea1a",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -1146,7 +1603,7 @@
          "elType": "container"
         },
         {
-         "id": "52184535",
+         "id": "521b717b",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -1154,17 +1611,19 @@
          },
          "elements": [
           {
-           "id": "5217e482",
+           "id": "521b10c8",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "5217f7d9",
+           "id": "521b241f",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -1191,7 +1650,7 @@
            "elType": "widget"
           },
           {
-           "id": "52180b30",
+           "id": "521b3776",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -1201,7 +1660,7 @@
            "elType": "widget"
           },
           {
-           "id": "52181e87",
+           "id": "521b4acd",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -1211,7 +1670,7 @@
            "elType": "widget"
           },
           {
-           "id": "521831de",
+           "id": "521b5e24",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -1244,7 +1703,7 @@
    "elType": "container"
   },
   {
-   "id": "521953f7",
+   "id": "521c803d",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1252,7 +1711,7 @@
    },
    "elements": [
     {
-     "id": "521940a0",
+     "id": "521c6ce6",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1280,24 +1739,26 @@
      },
      "elements": [
       {
-       "id": "5219069b",
+       "id": "521c32e1",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "52189291",
+         "id": "521bbed7",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "5218a5e8",
+         "id": "521bd22e",
          "settings": {
           "title": "Get Started Today",
           "header_size": "h2",
@@ -1324,7 +1785,7 @@
          "elType": "widget"
         },
         {
-         "id": "5218b93f",
+         "id": "521be585",
          "settings": {
           "editor": "<p class=\"lead\">At Newman Air, we specialize in heating installation in Johnson City, TN, with systems that match your home’s needs and your budget. Our team will guide you through the options and complete the installation with professionalism and attention to detail from start to finish. Call us today to schedule your installation and stay warm all winter long.</p>"
          },
@@ -1334,14 +1795,14 @@
          "elType": "widget"
         },
         {
-         "id": "5218f344",
+         "id": "521c1f8a",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "5218cc96",
+           "id": "521bf8dc",
            "settings": {
             "text": "Schedule Service",
             "link": {
@@ -1358,7 +1819,7 @@
            "elType": "widget"
           },
           {
-           "id": "5218dfed",
+           "id": "521c0c33",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -1383,7 +1844,7 @@
        "elType": "container"
       },
       {
-       "id": "521919f2",
+       "id": "521c4638",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -1393,7 +1854,7 @@
        "elType": "widget"
       },
       {
-       "id": "52192d49",
+       "id": "521c598f",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

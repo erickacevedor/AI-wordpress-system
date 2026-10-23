@@ -56,21 +56,24 @@
           {
            "id": "521e8761",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">Contact Us</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">Contact Us</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "521e9ab8",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Contact Us</p>"
+            "title": "Contact Us",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -285,11 +288,11 @@
           {
            "id": "521e60b3",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -497,11 +500,55 @@
             {
              "id": "521f6f75",
              "settings": {
-              "html": "<ul class=\"contact-list\"><li><span class=\"ic\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg></span><span><strong>Address</strong>3583 W Market St, Suite 1, Johnson City, TN 37604</span></li><li><span class=\"ic\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg></span><span><strong>Phone</strong><a href=\"tel:+14237537788\">(423) 753-7788</a></span></li><li><span class=\"ic\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-mail\"/></svg></span><span><strong>Email</strong><a href=\"mailto:dispatch@newmanair.com\">dispatch@newmanair.com</a></span></li><li><span class=\"ic\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-calendar\"/></svg></span><span><strong>Business Hours</strong>Mon to Fri, 8 AM to 5 PM</span></li></ul>"
+              "icon_list": [
+               {
+                "_id": "nwct01",
+                "text": "3583 W Market St, Suite 1, Johnson City, TN 37604",
+                "selected_icon": {
+                 "value": "fas fa-map-marker-alt",
+                 "library": "fa-solid"
+                }
+               },
+               {
+                "_id": "nwct02",
+                "text": "(423) 753-7788",
+                "link": {
+                 "url": "tel:+14237537788",
+                 "is_external": "",
+                 "nofollow": ""
+                },
+                "selected_icon": {
+                 "value": "fas fa-phone-alt",
+                 "library": "fa-solid"
+                }
+               },
+               {
+                "_id": "nwct03",
+                "text": "dispatch@newmanair.com",
+                "link": {
+                 "url": "mailto:dispatch@newmanair.com",
+                 "is_external": "",
+                 "nofollow": ""
+                },
+                "selected_icon": {
+                 "value": "fas fa-envelope",
+                 "library": "fa-solid"
+                }
+               },
+               {
+                "_id": "nwct04",
+                "text": "Mon to Fri, 8 AM to 5 PM",
+                "selected_icon": {
+                 "value": "far fa-clock",
+                 "library": "fa-regular"
+                }
+               }
+              ],
+              "_css_classes": "contact-list"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -600,11 +647,13 @@
           {
            "id": "5220918e",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {

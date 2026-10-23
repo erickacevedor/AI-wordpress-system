@@ -33,10 +33,10 @@ def build():
         {"_id": "nwdate1", "type": "date", "selected_icon": {"value": "", "library": ""}},
         {"_id": "nwterm1", "type": "terms", "taxonomy": "category", "selected_icon": {"value": "", "library": ""}},
     ]}, classes="post-meta")
-    crumbs = B.raw('<nav aria-label="Breadcrumb"><ol class="crumbs"><li><a href="/">Home</a></li>'
-                   '<li><a href="/blog/">Blog</a></li></ol></nav>')
+    crumbs = B.text('<ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/blog/">Blog</a></li></ol>',
+                    classes="nw-crumbs")
     hero = B.section("hero page-hero topo grain on-dark compact solo post-hero", [
-        B.box("wrap", [B.box("", [crumbs, B.eyebrow("Newman Air Blog"), title, meta])]),
+        B.box("wrap", [B.box("", [crumbs, I.eyebrow("Newman Air Blog"), title, meta])]),
         B.raw(I.RIDGES)])
     body = B.box("prose", [
         B.E.widget("theme-post-featured-image", {"__dynamic__": {"image": tag("post-featured-image")},

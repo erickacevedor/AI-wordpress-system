@@ -56,21 +56,24 @@
           {
            "id": "52131357",
            "settings": {
-            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Heating Repair</span></li></ol></nav>"
+            "editor": "<ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Heating Repair</span></li></ol>",
+            "_css_classes": "nw-crumbs"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           },
           {
            "id": "521326ae",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+            "title": "Our Services",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -302,11 +305,11 @@
           {
            "id": "5213fb6b",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -571,7 +574,7 @@
    "elType": "container"
   },
   {
-   "id": "5217e917",
+   "id": "52190b30",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -579,7 +582,7 @@
    },
    "elements": [
     {
-     "id": "5217d5c0",
+     "id": "5218f7d9",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -607,28 +610,28 @@
      },
      "elements": [
       {
-       "id": "5217c269",
+       "id": "5218e482",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5217af12",
+         "id": "5218d12b",
          "settings": {
           "content_width": "full",
           "css_classes": "prose"
          },
          "elements": [
           {
-           "id": "5217145a",
+           "id": "52183673",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "5216a050",
+             "id": "5217c269",
              "settings": {
               "title": "When Your Heater Lets You Down",
               "header_size": "h2",
@@ -655,7 +658,7 @@
              "elType": "widget"
             },
             {
-             "id": "5216b3a7",
+             "id": "5217d5c0",
              "settings": {
               "editor": "<p>A heating system that isn’t working properly can cause more than just discomfort. Small issues can quickly grow into bigger ones if left untreated. Common signs you may need professional repairs include:</p><ul><li>Uneven temperatures throughout your home</li><li>Unusual noises like banging or rattling</li><li>Cool air blowing from your vents</li><li>Rising energy bills without using the system more</li><li>Frequent cycling on and off</li></ul>"
              },
@@ -665,7 +668,7 @@
              "elType": "widget"
             },
             {
-             "id": "5216c6fe",
+             "id": "5217e917",
              "settings": {
               "title": "Why Work with Us?",
               "header_size": "h3"
@@ -676,7 +679,7 @@
              "elType": "widget"
             },
             {
-             "id": "5216da55",
+             "id": "5217fc6e",
              "settings": {
               "editor": "<p>A broken heater can bring your home to a standstill, but our team is here to fix it fast. We’ll find the problem, repair it as quickly as possible, and get your system running smoothly again. Since 1984, we’ve been providing high-quality heating repair, and we know how to handle all makes and models. You can count on being treated just like a member of the family when you work with us. Here are more reasons why homeowners rely on us:</p><ul><li>Honest quotes with no hidden surprises</li><li>Our “Done Right” service promise</li><li>Friendly technicians who care about your comfort</li><li>A locally owned business proud to serve the community</li></ul>"
              },
@@ -686,7 +689,7 @@
              "elType": "widget"
             },
             {
-             "id": "5216edac",
+             "id": "52180fc5",
              "settings": {
               "title": "Flexible Financing Options",
               "header_size": "h3"
@@ -697,7 +700,7 @@
              "elType": "widget"
             },
             {
-             "id": "52170103",
+             "id": "5218231c",
              "settings": {
               "editor": "<p>Unexpected repairs can put a strain on your budget, but we make it easier with financing through GoodLeap, Synchrony and Hearth. Spreading out the cost allows you to get your heating system fixed right away without waiting. We’ll walk you through the options and help you find a plan that fits your needs.</p>"
              },
@@ -711,14 +714,14 @@
            "elType": "container"
           },
           {
-           "id": "52179bbb",
+           "id": "5218bdd4",
            "settings": {
             "content_width": "full",
             "css_classes": "prose-block"
            },
            "elements": [
             {
-             "id": "521727b1",
+             "id": "521849ca",
              "settings": {
               "title": "How Our Heating Repair Process Works",
               "header_size": "h2",
@@ -745,7 +748,7 @@
              "elType": "widget"
             },
             {
-             "id": "52173b08",
+             "id": "52185d21",
              "settings": {
               "editor": "<p>When you call us to take care of your heating system, our technicians arrive ready to diagnose the problem quickly. We’ll inspect the system, identify the root cause, and explain the repair in clear terms. Once you approve, we’ll get to work using proven methods and quality parts to provide you with the results you need. Our goal is to restore your heat and leave your system running at full capacity, so you and your family are comfortable. We’ll also share tips on how to avoid future problems.</p>"
              },
@@ -755,7 +758,7 @@
              "elType": "widget"
             },
             {
-             "id": "52174e5f",
+             "id": "52187078",
              "settings": {
               "title": "What Happens If You Put Off Repairs?",
               "header_size": "h3"
@@ -766,7 +769,7 @@
              "elType": "widget"
             },
             {
-             "id": "521761b6",
+             "id": "521883cf",
              "settings": {
               "editor": "<p>The longer you wait to take care of your heating repairs, the higher the likelihood of more damage and even safety risks down the road. A small fix today can prevent a costly replacement tomorrow. Here are some possible risks of waiting too long:</p><ul><li>Larger, more expensive repairs down the road</li><li>Increased energy bills from an inefficient system</li><li>Unexpected breakdowns during cold weather</li><li>Possible safety concerns, like carbon monoxide leaks</li></ul>"
              },
@@ -776,7 +779,7 @@
              "elType": "widget"
             },
             {
-             "id": "5217750d",
+             "id": "52189726",
              "settings": {
               "title": "The Benefits of Timely Repairs",
               "header_size": "h3"
@@ -787,7 +790,7 @@
              "elType": "widget"
             },
             {
-             "id": "52178864",
+             "id": "5218aa7d",
              "settings": {
               "editor": "<p>Fixing your heating problems as soon as they show up saves time, money, and unwanted stress. You’ll regain comfort in your home and avoid bigger problems later. With professional repairs, your heating system will run better and last longer. The benefits include:</p><ul><li>Consistent, reliable heating when you need it most</li><li>Lower energy costs with improved efficiency</li><li>Longer lifespan for your current system</li><li>Peace of mind knowing your system is safe and dependable</li></ul>"
              },
@@ -805,7 +808,7 @@
          "elType": "container"
         },
         {
-         "id": "52168cf9",
+         "id": "5217af12",
          "settings": {
           "content_width": "full",
           "html_tag": "aside",
@@ -833,11 +836,11 @@
             {
              "id": "52160598",
              "settings": {
-              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+              "editor": "<p><a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a></p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             },
             {
@@ -860,11 +863,11 @@
             {
              "id": "52162c46",
              "settings": {
-              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+              "editor": "<p class=\"fee nw-lock\">$75 diagnostic fee, upfront pricing.</p>"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -872,7 +875,7 @@
            "elType": "container"
           },
           {
-           "id": "521679a2",
+           "id": "52179bbb",
            "settings": {
             "content_width": "full",
             "css_classes": "side-card"
@@ -890,13 +893,225 @@
              "elType": "widget"
             },
             {
-             "id": "5216664b",
+             "id": "52178864",
              "settings": {
-              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\" aria-current=\"page\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "216664b",
+                "text": "AC Repair",
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21679a2",
+                "text": "AC Installation",
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2168cf9",
+                "text": "Cooling",
+                "link": {
+                 "url": "/services/cooling/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "216a050",
+                "text": "Heating Repair",
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": "aria-current|page"
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "216b3a7",
+                "text": "Heating Installation",
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "216c6fe",
+                "text": "Heat Pumps",
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "216da55",
+                "text": "Maintenance",
+                "link": {
+                 "url": "/services/maintenance/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "216edac",
+                "text": "Ductless Mini Splits",
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2170103",
+                "text": "Ductwork",
+                "link": {
+                 "url": "/services/ductwork/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "217145a",
+                "text": "Air Handlers",
+                "link": {
+                 "url": "/services/air-handlers/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21727b1",
+                "text": "Air Cleaners",
+                "link": {
+                 "url": "/services/air-cleaners/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2173b08",
+                "text": "Germicidal Lights",
+                "link": {
+                 "url": "/services/germicidal-lights/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "2174e5f",
+                "text": "Indoor Air Quality",
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "21761b6",
+                "text": "Thermostats",
+                "link": {
+                 "url": "/services/thermostats/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               },
+               {
+                "_id": "217750d",
+                "text": "Commercial HVAC",
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                }
+               }
+              ],
+              "_css_classes": "side-nav"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -920,7 +1135,7 @@
    "elType": "container"
   },
   {
-   "id": "52189726",
+   "id": "521bfd71",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -929,7 +1144,7 @@
    },
    "elements": [
     {
-     "id": "521883cf",
+     "id": "521bea1a",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -957,31 +1172,33 @@
      },
      "elements": [
       {
-       "id": "52187078",
+       "id": "521bd6c3",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "521849ca",
+         "id": "521bc36c",
          "settings": {
           "content_width": "full",
           "css_classes": "faq-side reveal"
          },
          "elements": [
           {
-           "id": "5217fc6e",
+           "id": "52191e87",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "52180fc5",
+           "id": "521931de",
            "settings": {
             "title": "Frequently Asked Questions",
             "header_size": "h2",
@@ -1008,7 +1225,7 @@
            "elType": "widget"
           },
           {
-           "id": "5218231c",
+           "id": "52194535",
            "settings": {
             "editor": "<p class=\"lead\">Here are answers to some of the most common questions about heating repair. If you don’t see your question here, get in touch and we’ll be glad to help.</p>"
            },
@@ -1018,13 +1235,13 @@
            "elType": "widget"
           },
           {
-           "id": "52183673",
+           "id": "5219588c",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -1032,13 +1249,278 @@
          "elType": "container"
         },
         {
-         "id": "52185d21",
+         "id": "521bb015",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>How much do you charge for a diagnostic visit?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Our standard diagnostic fee is <strong>$75</strong>. A technician will inspect your system, find the issue, and provide a clear, upfront repair estimate before any work starts.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>How do I know if my heater needs repair?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Common signs include strange noises, uneven heating, or a system that won’t turn on. Higher energy bills are another indicator. If you notice any of these, it’s time to schedule a repair. Acting quickly can prevent small issues from turning into costly breakdowns.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>How fast can you repair my heating system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most repairs can be completed the same day, depending on the problem. Our technicians arrive prepared with tools and parts to fix most issues on the spot. If a special part is needed, we’ll explain the timeline clearly. We work to restore your comfort as quickly as possible without cutting corners.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Can repairs extend the life of my system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, timely repairs can add years to your heating system’s lifespan. Addressing problems early prevents more serious damage. This also keeps your system running more efficiently. In many cases, it delays the need for a full replacement.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>What types of heating systems can you repair?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Our team works with a wide range of systems, including furnaces and heat pumps. We’re trained to service different brands and models. Whatever system you have, we’ll know how to handle it. Our experience means you won’t need to call multiple companies for help.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Will repairing my heater lower my energy bills?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>In many cases, yes. A system that’s struggling to work uses more energy than one that’s running smoothly. Repairs restore efficiency, which can reduce monthly costs. Even small fixes can make a noticeable difference in your bill.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>What if my system can’t be repaired?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>If repairs aren’t possible or cost-effective, we’ll explain your options for replacement. Our team can recommend the best system for your home. We’ll also guide you through installation if you decide to upgrade. That way, you’ll have a reliable solution in place quickly.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>How often should I schedule maintenance to avoid repairs?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Annual maintenance is the best way to prevent unexpected breakdowns. Regular checkups keep your system running efficiently and help catch problems early. We recommend scheduling maintenance before the heating season begins. Consistent care is the key to fewer repairs and longer system life.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Is it safe to keep running my heater if it’s making strange noises?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>It’s best to shut it down and call for service. Strange noises can signal a serious issue that may cause further damage. Running it could make the problem worse or create safety risks. A professional inspection will tell you exactly what’s wrong.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>How can I improve the efficiency of my heating system between repairs?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Simple steps like replacing air filters regularly, keeping vents clear, and scheduling routine maintenance make a big difference. Even adjusting your thermostat a few degrees can reduce strain on your system. These habits not only save energy but also help your heater last longer.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "2196be3",
+            "item_title": "How much do you charge for a diagnostic visit?"
+           },
+           {
+            "_id": "2197f3a",
+            "item_title": "How do I know if my heater needs repair?"
+           },
+           {
+            "_id": "2199291",
+            "item_title": "How fast can you repair my heating system?"
+           },
+           {
+            "_id": "219a5e8",
+            "item_title": "Can repairs extend the life of my system?"
+           },
+           {
+            "_id": "219b93f",
+            "item_title": "What types of heating systems can you repair?"
+           },
+           {
+            "_id": "219cc96",
+            "item_title": "Will repairing my heater lower my energy bills?"
+           },
+           {
+            "_id": "219dfed",
+            "item_title": "What if my system can’t be repaired?"
+           },
+           {
+            "_id": "219f344",
+            "item_title": "How often should I schedule maintenance to avoid repairs?"
+           },
+           {
+            "_id": "21a069b",
+            "item_title": "Is it safe to keep running my heater if it’s making strange noises?"
+           },
+           {
+            "_id": "21a19f2",
+            "item_title": "How can I improve the efficiency of my heating system between repairs?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "521a40a0",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521a2d49",
+             "settings": {
+              "editor": "<p>Our standard diagnostic fee is <strong>$75</strong>. A technician will inspect your system, find the issue, and provide a clear, upfront repair estimate before any work starts.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521a674e",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521a53f7",
+             "settings": {
+              "editor": "<p>Common signs include strange noises, uneven heating, or a system that won’t turn on. Higher energy bills are another indicator. If you notice any of these, it’s time to schedule a repair. Acting quickly can prevent small issues from turning into costly breakdowns.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521a8dfc",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521a7aa5",
+             "settings": {
+              "editor": "<p>Most repairs can be completed the same day, depending on the problem. Our technicians arrive prepared with tools and parts to fix most issues on the spot. If a special part is needed, we’ll explain the timeline clearly. We work to restore your comfort as quickly as possible without cutting corners.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521ab4aa",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521aa153",
+             "settings": {
+              "editor": "<p>Yes, timely repairs can add years to your heating system’s lifespan. Addressing problems early prevents more serious damage. This also keeps your system running more efficiently. In many cases, it delays the need for a full replacement.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521adb58",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521ac801",
+             "settings": {
+              "editor": "<p>Our team works with a wide range of systems, including furnaces and heat pumps. We’re trained to service different brands and models. Whatever system you have, we’ll know how to handle it. Our experience means you won’t need to call multiple companies for help.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521b0206",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521aeeaf",
+             "settings": {
+              "editor": "<p>In many cases, yes. A system that’s struggling to work uses more energy than one that’s running smoothly. Repairs restore efficiency, which can reduce monthly costs. Even small fixes can make a noticeable difference in your bill.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521b28b4",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521b155d",
+             "settings": {
+              "editor": "<p>If repairs aren’t possible or cost-effective, we’ll explain your options for replacement. Our team can recommend the best system for your home. We’ll also guide you through installation if you decide to upgrade. That way, you’ll have a reliable solution in place quickly.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521b4f62",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521b3c0b",
+             "settings": {
+              "editor": "<p>Annual maintenance is the best way to prevent unexpected breakdowns. Regular checkups keep your system running efficiently and help catch problems early. We recommend scheduling maintenance before the heating season begins. Consistent care is the key to fewer repairs and longer system life.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521b7610",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521b62b9",
+             "settings": {
+              "editor": "<p>It’s best to shut it down and call for service. Strange noises can signal a serious issue that may cause further damage. Running it could make the problem worse or create safety risks. A professional inspection will tell you exactly what’s wrong.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521b9cbe",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "521b8967",
+             "settings": {
+              "editor": "<p>Simple steps like replacing air filters regularly, keeping vents clear, and scheduling routine maintenance make a big difference. Even adjusting your thermostat a few degrees can reduce strain on your system. These habits not only save energy but also help your heater last longer.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -1054,7 +1536,7 @@
    "elType": "container"
   },
   {
-   "id": "52196be3",
+   "id": "521cd22e",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1063,7 +1545,7 @@
    },
    "elements": [
     {
-     "id": "5219588c",
+     "id": "521cbed7",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1091,21 +1573,21 @@
      },
      "elements": [
       {
-       "id": "52194535",
+       "id": "521cab80",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "5218bdd4",
+         "id": "521c241f",
          "settings": {
           "content_width": "full",
           "css_classes": "reveal"
          },
          "elements": [
           {
-           "id": "5218aa7d",
+           "id": "521c10c8",
            "settings": {
             "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
            },
@@ -1119,7 +1601,7 @@
          "elType": "container"
         },
         {
-         "id": "521931de",
+         "id": "521c9829",
          "settings": {
           "content_width": "full",
           "_attributes": "style|--d:1",
@@ -1127,17 +1609,19 @@
          },
          "elements": [
           {
-           "id": "5218d12b",
+           "id": "521c3776",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
-           "id": "5218e482",
+           "id": "521c4acd",
            "settings": {
             "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
             "header_size": "h2",
@@ -1164,7 +1648,7 @@
            "elType": "widget"
           },
           {
-           "id": "5218f7d9",
+           "id": "521c5e24",
            "settings": {
             "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
            },
@@ -1174,7 +1658,7 @@
            "elType": "widget"
           },
           {
-           "id": "52190b30",
+           "id": "521c717b",
            "settings": {
             "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
            },
@@ -1184,7 +1668,7 @@
            "elType": "widget"
           },
           {
-           "id": "52191e87",
+           "id": "521c84d2",
            "settings": {
             "text": "Explore Plan Details",
             "link": {
@@ -1217,7 +1701,7 @@
    "elType": "container"
   },
   {
-   "id": "521a40a0",
+   "id": "521da6eb",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -1225,7 +1709,7 @@
    },
    "elements": [
     {
-     "id": "521a2d49",
+     "id": "521d9394",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -1253,24 +1737,26 @@
      },
      "elements": [
       {
-       "id": "5219f344",
+       "id": "521d598f",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "52197f3a",
+         "id": "521ce585",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "52199291",
+         "id": "521cf8dc",
          "settings": {
           "title": "Take the Next Step",
           "header_size": "h2",
@@ -1297,7 +1783,7 @@
          "elType": "widget"
         },
         {
-         "id": "5219a5e8",
+         "id": "521d0c33",
          "settings": {
           "editor": "<p class=\"lead\">When you need professional heating repair in Johnson City, TN, you can count on us at Newman Air to deliver exceptional results. Our technicians are trained to handle all types of systems and repairs, big or small, so a long-term solution is never far away. Call today to schedule your repair and get your home warm again.</p>"
          },
@@ -1307,14 +1793,14 @@
          "elType": "widget"
         },
         {
-         "id": "5219dfed",
+         "id": "521d4638",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "5219b93f",
+           "id": "521d1f8a",
            "settings": {
             "text": "Schedule Service",
             "link": {
@@ -1331,7 +1817,7 @@
            "elType": "widget"
           },
           {
-           "id": "5219cc96",
+           "id": "521d32e1",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -1356,7 +1842,7 @@
        "elType": "container"
       },
       {
-       "id": "521a069b",
+       "id": "521d6ce6",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -1366,7 +1852,7 @@
        "elType": "widget"
       },
       {
-       "id": "521a19f2",
+       "id": "521d803d",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },
