@@ -223,8 +223,7 @@ def block_checklist(page, sec, opt, fix):
     return B.section("section %s svc-intro %s" % (opt.get("bg", "section--mist"), page["_cat"]), [
         B.box("svc-intro__layout", [
             B.box("svc-intro__copy", copy),
-            B.box("checklist-card", [
-                B.text(ck_title, "checklist-card__title"),
+            B.box("checklist-card", ([B.text(ck_title, "checklist-card__title")] if ck_title else []) + [
                 B.raw('<ul class="checklist">%s</ul>' % "".join(
                     "<li>%s<span>%s</span></li>" % (svg("i-check", "icon-sm"), li) for li in lis)),
                 (B.button("Call " + B.PHONE, B.PHONE_TEL, "btn btn-primary", icon="phone") if opt.get("tel")
@@ -306,7 +305,7 @@ def block_pair(page, sec, opt, fix):
 
 
 ARROW_LINKS = {"Furnace": "heating", "AC Installation": "ac-installation", "AC Replacement": "ac-replacement",
-               "Heat Pumps": "heat-pumps", "Water Heater Installation": "water-heater-services",
+               "Heat Pumps": "heat-pumps", "Water Heater Installation": "water-heater-installation",
                "Indoor Air Quality": "indoor-air-quality"}
 
 
@@ -695,11 +694,13 @@ def block_steps(page, sec, opt, fix):
     cards = [B.box("step", [B.raw('<span class="step__num">%d</span>' % i), B.heading(ttl, "h3", "step__title"),
                             B.text("<p>%s</p>" % body if body else "", "step__body")], tag="article")
              for i, (ttl, body) in enumerate(steps, 1)]
-    return B.section("section steps-section %s %s" % (opt.get("bg", ""), page["_cat"]), [
-        _head(page, opt["eyebrow"], fix(sec["title"]), " ".join(lead) if lead else None,
-              center=opt.get("center", True)),
-        B.box("steps steps--%d" % len(cards), cards),
-    ])
+    kids = [_head(page, opt["eyebrow"], fix(sec["title"]), " ".join(lead) if lead else None,
+                  center=opt.get("center", True)),
+            B.box("steps steps--%d" % len(cards), cards)]
+    btns = _doc_buttons(sec["nodes"], opt) if opt.get("buttons") else []
+    if btns:
+        kids.append(B.box("section-cta section-cta--center", btns))
+    return B.section("section steps-section %s %s" % (opt.get("bg", ""), page["_cat"]), kids)
 
 
 def block_cta(page, sec, opt, fix):
@@ -870,6 +871,9 @@ def _crumbs(page):
         return B.raw('<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li>'
                      '<li aria-current="page">%s</li></ol></nav>' % page["title"])
     hub_label, hub_key = page["hub"]
+    if not B.href(hub_key):            # Additional Services has no hub page
+        return B.raw('<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li>'
+                     '<li aria-current="page">%s</li></ol></nav>' % page["title"])
     return B.raw('<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li>'
                  '<li><a href="%s">%s</a></li><li aria-current="page">%s</li></ol></nav>'
                  % (L[hub_key], hub_label, page["title"]))
@@ -953,7 +957,7 @@ BLURBS = {
     "indoor-purification": "Filtration for dust, dander and allergens.",
     "duct-cleaning": "Clear out built-up dust and debris.",
     "thermostat-services": "Smart thermostat install and setup.",
-    "water-heater-services": "Tank and tankless, professionally installed.",
+    "water-heater-installation": "Tank and tankless, professionally installed.",
     "ductwork": "Repairs, modifications and airflow balancing.",
     "gas-lines": "Safe runs for appliances and outdoor setups.",
     "heat-pumps": "Heating and cooling from one efficient system.",
@@ -962,6 +966,9 @@ BLURBS = {
 
 def _related(page):
     title, hub, kids = next(s for s in B.MENU if s[1] == page["hub"][1])
+    heading = "More %s Services" % title
+    if page.get("related"):            # (heading, [(label, key)]) when the hub has no built siblings
+        heading, kids = page["related"]
     cards = [(CAT[page["cat"]]["card"], icon_for(n, i), n, BLURBS.get(k, ""), k)
              for i, (n, k) in enumerate(kids) if L[k] != "/%s/" % page["slug"]]
     cards = cards[:3] + [("both", "i-award", "Maintenance Plans", "Priority dispatch and 10 to 20% off parts.",
@@ -970,9 +977,9 @@ def _related(page):
         B.box("svc-band svc-band--" + page["cat"], [
             B.box("svc-band__head", [
                 B.raw('<span class="svc-band__icon">%s</span>' % svg(page["cat_icon"])),
-                B.box("svc-band__txt", [B.heading("More %s Services" % title, "h3"),
+                B.box("svc-band__txt", [B.heading(heading, "h3"),
                                         B.text("<p>%s</p>" % page["related_text"])]),
-                B.arrow_link("svc-band__go", "All %s Services" % title, L[hub]),
+                *([B.arrow_link("svc-band__go", "All %s Services" % title, B.href(hub))] if B.href(hub) else []),
             ]),
             B.box("svc-band__grid", [B.service_card(*c) for c in cards]),
         ], tag="section"),
@@ -982,6 +989,8 @@ def _related(page):
 def build(page):
     """Return (sections, meta, fixes_applied) for one service page."""
     doc = docx_outline.read(page["source"])
+    if page.get("prepare"):            # a doc without section headings: the page build reshapes it
+        doc = page["prepare"](doc)
     # Content that arrived after the doc (e.g. ClickUp requests): text patches and
     # extra `h` + `p` items appended to a section, each documented in the page build.
     for old, new in page.get("doc_patches", []):

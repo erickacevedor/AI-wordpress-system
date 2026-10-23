@@ -1593,7 +1593,14 @@
              "id": "1009ab80",
              "settings": {
               "content_width": "full",
-              "css_classes": "service-card service-card--static"
+              "html_tag": "a",
+              "link": {
+               "url": "/water-heater-installation/",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "css_classes": "service-card"
              },
              "elements": [
               {

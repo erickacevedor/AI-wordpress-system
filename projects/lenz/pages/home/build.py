@@ -94,7 +94,7 @@ BANDS = [
      "safety. Our team installs and services smart thermostats, heat pumps, water heaters (tank and "
      "tankless), custom ductwork repairs and modifications, airflow balancing, and gas lines.",
      [("both", "i-calendar", "Thermostat Services", "Smart thermostat install and setup.", "thermostat-services"),
-      ("both", "i-droplet", "Water Heater Services", "Tank and tankless, professionally installed.", "water-heater-services"),
+      ("both", "i-droplet", "Water Heater Services", "Tank and tankless, professionally installed.", "water-heater-installation"),
       ("both", "i-wind", "Ductwork", "Repairs, modifications and airflow balancing.", "ductwork"),
       ("both", "i-flame", "Gas Lines", "Safe runs for appliances and outdoor setups.", "gas-lines"),
       ("both", "i-heat", "Heat Pumps", "Heating and cooling from one efficient system.", "heat-pumps")]),

@@ -79,7 +79,7 @@ L = {
     "duct-cleaning": "/duct-cleaning/",                      # planned
     "additional-services": "/additional-services/",          # planned
     "thermostat-services": "/thermostat-services/",          # planned
-    "water-heater-services": "/water-heater-services/",      # planned
+    "water-heater-installation": "/water-heater-installation/",  # ClickUp 86bckn61j (2026-10-22)
     "ductwork": "/ductwork/",                                # planned
     "gas-lines": "/gas-lines/",                              # planned
     "heat-pumps": "/heat-pumps/",                            # planned
@@ -109,7 +109,7 @@ L = {
 # href() returns None and cards render without a link. Add a key back here once the
 # page is in scope and built. (Erick, 2026-10-14.)
 OUT_OF_SCOPE = {"heating-replacement", "duct-cleaning", "additional-services", "thermostat-services",
-                "water-heater-services", "ductwork", "gas-lines", "heat-pumps"}
+                "ductwork", "gas-lines", "heat-pumps"}
 
 
 def href(key):
@@ -135,11 +135,13 @@ SERVICES = [
         ("Humidity Control", "humidity-control"), ("UV Light Purification", "uv-light-purification"),
         ("Air Purification", "indoor-purification"), ("Duct Cleaning", "duct-cleaning")]),
     ("Additional Services", "additional-services", [
-        ("Thermostat Services", "thermostat-services"), ("Water Heater Services", "water-heater-services"),
+        ("Thermostat Services", "thermostat-services"), ("Water Heater Installation", "water-heater-installation"),
         ("Ductwork", "ductwork"), ("Gas Lines", "gas-lines"), ("Heat Pumps", "heat-pumps")]),
 ]
 
-MENU = [(t, hub, in_scope(items)) for t, hub, items in SERVICES if hub not in OUT_OF_SCOPE]
+# A hub without its own page still gets a column once one of its pages is built
+# (Additional Services: Water Heater Installation, 2026-10-22); its title is not linked.
+MENU = [(t, hub, in_scope(items)) for t, hub, items in SERVICES if hub not in OUT_OF_SCOPE or in_scope(items)]
 
 NAV = [("Maintenance Plans", "maintenance-plans"), ("Specials", "specials"),
        ("Financing", "financing"), ("Service Areas", "service-areas"),

@@ -54,11 +54,16 @@ offer = B.section("offer-bar", [
 ], box_classes="offer-bar__inner", tag="div", el_id="offer-bar", label="Financing options")
 offer["settings"]["_attributes"] = "aria-label|Financing options\ndata-season|financing"
 
-# Column titles link to the hub pages (QA 2026-10-19: the hubs had no way in from the menu).
+# Column titles link to the hub pages (QA 2026-10-19: the hubs had no way in from the menu);
+# a hub with no page of its own (Additional Services) shows a plain title.
+def hub_title(title, hub):
+    return '<a href="%s">%s</a>' % (B.href(hub), title) if B.href(hub) else title
+
+
 mega_cols = "".join(
-    '<div class="mega__col"><p class="mega__col-title" id="mega-c%d"><a href="%s">%s</a></p>'
+    '<div class="mega__col"><p class="mega__col-title" id="mega-c%d">%s</p>'
     '<ul class="mega__list" aria-labelledby="mega-c%d">%s</ul></div>'
-    % (i, L[hub], title, i, "".join('<li><a href="%s">%s</a></li>' % (L[k], n) for n, k in items))
+    % (i, hub_title(title, hub), i, "".join('<li><a href="%s">%s</a></li>' % (L[k], n) for n, k in items))
     for i, (title, hub, items) in enumerate(SERVICES, 1))
 
 nav_links = (
@@ -87,7 +92,7 @@ m_groups = "".join(
     '<div class="m-acc__head"><button class="m-acc__trigger" aria-expanded="false" aria-controls="m-acc-%d">'
     '%s %s</button></div><div class="m-group__sub" id="m-acc-%d" hidden>%s</div>'
     % (i, title, svg("i-plus", "icon-sm m-acc__icon"), i,
-       '<a href="%s">All %s Services</a>' % (L[hub], title) +
+       ('<a href="%s">All %s Services</a>' % (B.href(hub), title) if B.href(hub) else "") +
        "".join('<a href="%s">%s</a>' % (L[k], n) for n, k in items))
     for i, (title, hub, items) in enumerate(SERVICES, 1))
 mobile = B.section("lz-mobile-menu-host", [
@@ -123,7 +128,7 @@ def col(*groups):
     """A footer column with one or more (title, hub, links) groups; the title links to the hub."""
     kids = []
     for title, hub, items in groups:
-        kids += [B.heading('<a href="%s">%s</a>' % (L[hub], title) if hub else title, "h3"),
+        kids += [B.heading(hub_title(title, hub) if hub else title, "h3"),
                  B.text(links_list(items))]
     return B.box("footer__col", kids)
 
@@ -150,7 +155,7 @@ footer = B.section("footer", [
                      svg("i-mail", "icon-sm"), EMAIL, EMAIL, svg("i-clock", "icon-sm"))),
         ]),
         col(SERVICES[0], SERVICES[2]),
-        col(SERVICES[1], ("Plans &amp; Savings", None, PLANS_NAV)),
+        col(SERVICES[1], SERVICES[3], ("Plans &amp; Savings", None, PLANS_NAV)),
         col(("Company", None, COMPANY_NAV)),
     ]),
     B.raw('<div class="footer__bottom"><span>© 2026 Lenz Heating &amp; Cooling</span><span class="sep">·</span>'

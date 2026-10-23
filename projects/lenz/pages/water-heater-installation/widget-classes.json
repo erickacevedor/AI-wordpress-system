@@ -1,0 +1,16 @@
+{
+  "btn": "button",
+  "btn-gold": "button",
+  "btn-outline": "button",
+  "btn-outline-light": "button",
+  "btn-primary": "button",
+  "close-form__lead": "text",
+  "hero__sub": "text",
+  "prose__body": "text",
+  "section__lead": "text",
+  "section__title": "heading",
+  "step__body": "text",
+  "step__title": "heading",
+  "trustbar__label": "text",
+  "trustbar__value": "text"
+}
