@@ -169,7 +169,8 @@ def faq_band(faq, eb="Got Questions?"):
                  % (i % 4, " open" if i == 0 else "", html.escape(it["q"], quote=False), svg("i-plus"),
                     "".join("<p>%s</p>" % a for a in it["a"]))
                  for i, it in enumerate(faq["items"]))
-    return B.section("faq", [B.box("wrap", [B.box("faq-side reveal", side), B.raw('<div class="faq-list">%s</div>' % qa)])],
+    # Tinted band (Erick 2026-10-23): inner pages are white from the article down, the FAQ needs separation.
+    return B.section("faq topo light faq-alt", [B.box("wrap", [B.box("faq-side reveal", side), B.raw('<div class="faq-list">%s</div>' % qa)])],
                      el_id="faq")
 
 

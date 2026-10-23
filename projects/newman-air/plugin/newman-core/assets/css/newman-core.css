@@ -1359,6 +1359,11 @@ body.elementor-editor-active.nw-site .elementor .hero h1 .hl::after { clip-path:
 /* The badge ring sits over the card's top-right corner: keep long titles clear of it. */
 .nw-site .elementor .page-hero .form-card .elementor-widget-heading .elementor-heading-title { padding-right: 64px; }
 
+/* ---- FAQ band on inner pages: tinted, so it separates from the white article above ---- */
+.nw-site .elementor .faq.faq-alt { background: var(--c-base-soft); }
+.nw-site .elementor .faq.faq-alt .faq-side .ask { background: var(--c-surface); box-shadow: var(--shadow); }
+.nw-site .elementor .faq.faq-alt details.qa { border-color: transparent; box-shadow: 0 6px 18px -14px color-mix(in srgb, var(--c-base-deep) 45%, transparent); }
+
 /* ---- Article: content column + sticky sidebar ------------------------------ */
 .nw-site .elementor .article .wrap {
   display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 64px; align-items: start;

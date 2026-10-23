@@ -882,7 +882,7 @@
     "content_width": "full",
     "html_tag": "section",
     "_element_id": "faq",
-    "css_classes": "faq e-no-lazyload"
+    "css_classes": "faq topo light faq-alt e-no-lazyload"
    },
    "elements": [
     {
