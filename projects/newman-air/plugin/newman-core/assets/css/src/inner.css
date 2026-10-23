@@ -322,10 +322,12 @@
 .nw-site .elementor .logo img { width: auto; max-width: none; }
 
 /* ---- Nav Menu: top level ---- */
-.nw-site .elementor .nw-nav { margin-left: auto; align-self: stretch; display: flex; position: relative; }   /* relative: the stretched mobile dropdown measures from here */
+.nw-site .elementor .nw-nav { margin-left: auto; align-self: stretch; display: flex; }
 @media (min-width: 1025px) { .nw-site .elementor .nw-nav .elementor-nav-menu--main { display: flex; } }
 @media (max-width: 1024px) {
-  .nw-site .elementor .nw-nav { align-self: center; }
+  /* relative only here: the stretched mobile dropdown measures from the widget. On desktop the
+     mega menu must measure from the header's .wrap (logo to CTA), so the widget stays static. */
+  .nw-site .elementor .nw-nav { align-self: center; position: relative; }
   .nw-site .elementor .nw-nav .elementor-nav-menu--main { display: none; }
 }
 .nw-site .elementor .nw-nav .elementor-nav-menu--main > .elementor-nav-menu { display: flex; gap: 20px; margin: 0; padding: 0; position: static; }
