@@ -572,3 +572,7 @@
    top edge from 600px up). */
 @media (max-width: 599px) { .financing__panel { padding-bottom: 150px; } }
 @media (min-width: 600px) { .financing__panel { padding-bottom: 170px; } }
+
+/* A link inside an FAQ answer (Water Heater Installation: "See financing options.")
+   read as plain grey text. Same treatment as the area address links. */
+.faq__panel a { color: var(--blue-700); font-weight: var(--font-semibold); text-decoration: underline; text-underline-offset: 2px; }

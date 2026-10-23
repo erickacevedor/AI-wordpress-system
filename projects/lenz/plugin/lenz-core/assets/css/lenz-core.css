@@ -3027,6 +3027,9 @@ body.menu-open {
   padding-bottom: 170px;
 }
 }
+.elementor .faq__panel a {
+  color: var(--blue-700); font-weight: var(--font-semibold); text-decoration: underline; text-underline-offset: 2px;
+}
 
 /* ============================================================================
    HAND-WRITTEN OVERRIDES (come last in lenz-core.css)
