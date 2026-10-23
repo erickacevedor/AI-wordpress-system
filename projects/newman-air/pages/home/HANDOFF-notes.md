@@ -66,7 +66,9 @@ only; switch them to Entire Site (`include/general`) at launch. No Elementor sit
   office@newmanheatandair.com. Confirm, plus SMTP and spam protection before launch.
 - **Links** use the current site's slugs as placeholders; the new slugs and redirects were never shared.
 - **Pending content** (yellow notes kept on purpose): team photo, live review widget, GBP map.
-- **Tracking code** from Wanse (DJ, 2026-10-21 meeting) before the domain redirect.
+- **Tracking:** GTM-TCW4SVVM (from Juanse, ClickUp 86bcjyqph, 2026-10-22) is installed site-wide by Esteban
+  through Header Footer Code Manager (snippets 1 and 2) and loads once on this page. Do not add it to
+  newman-core. Juanse verifies form submissions and phone clicks after launch.
 - **Fonts:** V2.1 uses Bricolage Grotesque + DM Sans (approved V2); tokens.json and the splash use Oxanium + Roboto.
 
 ## Editing notes
