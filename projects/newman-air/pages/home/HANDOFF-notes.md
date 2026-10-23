@@ -91,3 +91,17 @@ Style lives in newman-core: colours and sizes set in the Elementor panel do noth
 prototype CSS sets them. Text, links and order are editable in Elementor. The header nav, mobile
 drawer, eyebrows, ridges, badge, polaroids, reviews skeleton, marquee, map, city list and FAQ are
 html widgets (verbatim prototype markup): edit them in `build.py` / `brand.py` and rebuild.
+
+## Native widgets (2026-10-23)
+
+Erick asked for editable widgets instead of raw HTML. Now native: eyebrows (heading as `<p>`,
+paw by CSS), service card links (text, arrow by CSS), form foot (text), FAQ (nested accordion with
+FAQ schema), city list (icon list `#cityList`; newman-site.js links it to the map pins by name).
+Still html on purpose (decoration or interactive markup): badge, ridges, card glyphs, polaroids,
+slider controls and progress, member card, partner logos, reviews placeholder, marquee, map,
+bear. Checked: document height identical to before at 1440 (10481) and 390 (16906); map hover works.
+
+Header and footer: see `../_theme/build-templates.py`. The menu is the WordPress menu
+"Newman Main" (Appearance > Menus), created by `tools/make-menus.php`; the Nav Menu widget shows it
+and inner.css lays out the mega menu and the mobile dropdown. Moving Local to Flywheel carries the
+menu with the database; on a fresh install run make-menus.php first, then import the header.
