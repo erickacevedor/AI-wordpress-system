@@ -1067,7 +1067,7 @@
         {
          "id": "4105d12b",
          "settings": {
-          "html": "<div class=\"polaroid-stack reveal\"><figure class=\"polaroid p1\"><span class=\"tape\"></span><div class=\"shot\"><span class=\"display\" style=\"font-size:1.1rem;color:var(--c-base)\">Team photo</span></div><figcaption>Our pack</figcaption></figure><figure class=\"polaroid p2\"><span class=\"tape\"></span><div class=\"shot\"><img src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Stacked.svg\" alt=\"Newman Air\"></div><figcaption>Since 1994</figcaption></figure></div>"
+          "html": "<div class=\"polaroid-stack reveal\"><figure class=\"polaroid p1\"><span class=\"tape\"></span><div class=\"shot\"><span class=\"display\" style=\"font-size:1.1rem;color:var(--c-base)\">Team photo</span><span class=\"note\">Client photos requested</span></div><figcaption>Our pack</figcaption></figure><figure class=\"polaroid p2\"><span class=\"tape\"></span><div class=\"shot\"><img src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Stacked.svg\" alt=\"Newman Air\"></div><figcaption>Since 1994</figcaption></figure></div>"
          },
          "elements": [],
          "isInner": true,

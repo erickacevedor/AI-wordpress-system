@@ -31,6 +31,10 @@
   --widgets-spacing-column: 0px;
   --kit-widget-spacing: 0px;
 }
+/* Every container sets `text-align: var(--text-align)` with `--text-align: initial`,
+   which breaks inheritance: a centred band (`.final`) would not centre its
+   inline children. The prototype's <div>s inherit. */
+.nw-site .elementor .e-con { text-align: inherit; }
 .nw-site .elementor .e-con {
   min-width: auto;
   --gap: 0px;
@@ -77,6 +81,10 @@
 
 .nw-site .elementor .elementor-button .elementor-button-content-wrapper { display: contents; }
 .nw-site .elementor .elementor-button .elementor-button-text { display: contents; }
+
+/* Hello Elementor's reset sets `small { font-size: 80% }`; the prototype has the
+   browser default (`smaller`). Prototype rules that size a <small> still win. */
+.nw-site .elementor small { font-size: smaller; }
 
 /* Theme Builder parts: the fixed header and the footer give up their wrapper. */
 .nw-site .elementor-location-header { display: contents; }
@@ -1300,3 +1308,8 @@ body.nw-site {
    reset (and Elementor's `.elementor .elementor-widget:not(..):not(..) figure`,
    0,4,1) would move them 40px out and 17px up. */
 .nw-site .elementor .elementor-widget .polaroid-stack figure.polaroid { margin: 1em 40px; }
+
+/* `.btn-row` is a flex row whose items stretch: in the prototype a button without
+   an icon grows to its neighbour's height (Get In Touch next to Our Story). The
+   widget wrapper is the flex item here, so it passes the stretch to the <a>. */
+.nw-site .elementor .btn-row > .btn.elementor-widget-button { display: flex; }

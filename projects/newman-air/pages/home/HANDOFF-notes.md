@@ -4,9 +4,14 @@
 Windows Local copy `newman-air` as page 37 `/home/`, with Theme Builder header 38 and footer 39.
 The splash (page 15) is still the front page; nothing is on Flywheel yet.
 
-Verified against the prototype with headless Chrome at 1440, 1024, 768 and 390: every section has
-the same top and height as the prototype (1px or less), and the form card, polaroids, member card,
-marquee, map, final bear and mobile drawer match in position and size. Form submission tested:
+Verified against the prototype with headless Chrome at 1440, 1024, 768 and 390: document height
+identical at all four widths; every section's top and height identical; about 190 sampled elements
+(headings, eyebrows, leads, buttons, cards, stats, form, nav, footer) match in font, size, weight,
+line height, colour, background and box within 2px. No console errors, no failed requests. Same
+behaviour as the prototype: header state on scroll, mega menu, mobile drawer, count-ups, slider,
+marquee, FAQ, city/map hover, badge spin, H1 underline, parallax. Content: every text unit of the
+homepage doc (Alexis, last modified 2026-10-12), the Bear Necessities block and the 10/06 edits
+checked present. Form submission tested:
 the email reaches Mailpit addressed to dispatch@newmanair.com.
 
 ## SEO (set in the SEO plugin; Elementor JSON cannot carry these)

@@ -105,3 +105,8 @@
    reset (and Elementor's `.elementor .elementor-widget:not(..):not(..) figure`,
    0,4,1) would move them 40px out and 17px up. */
 .nw-site .elementor .elementor-widget .polaroid-stack figure.polaroid { margin: 1em 40px; }
+
+/* `.btn-row` is a flex row whose items stretch: in the prototype a button without
+   an icon grows to its neighbour's height (Get In Touch next to Our Story). The
+   widget wrapper is the flex item here, so it passes the stretch to the <a>. */
+.nw-site .elementor .btn-row > .btn.elementor-widget-button { display: flex; }

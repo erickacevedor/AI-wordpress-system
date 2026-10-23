@@ -150,7 +150,8 @@ S.append(B.section("services topo light", [
 # ================================================================== ABOUT ====
 POLAROIDS = ('<div class="polaroid-stack reveal">'
              '<figure class="polaroid p1"><span class="tape"></span><div class="shot"><span class="display" '
-             'style="font-size:1.1rem;color:var(--c-base)">Team photo</span></div><figcaption>Our pack</figcaption></figure>'
+             'style="font-size:1.1rem;color:var(--c-base)">Team photo</span><span class="note">Client photos requested</span></div>'
+             '<figcaption>Our pack</figcaption></figure>'
              '<figure class="polaroid p2"><span class="tape"></span><div class="shot"><img src="%s" alt="Newman Air">'
              '</div><figcaption>Since 1994</figcaption></figure></div>' % B.LOGO_STACKED)
 S.append(B.section("about grain", [
