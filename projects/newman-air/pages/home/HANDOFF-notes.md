@@ -54,6 +54,12 @@ only; switch them to Entire Site (`include/general`) at launch. No Elementor sit
 - newman-core 0.1.0 active (CSS, fonts Bricolage Grotesque + DM Sans, icon sprite, newman-site.js,
   logo and brand images in `assets/img/`).
 - Elementor + Pro Elements (Pro form, Theme Builder).
+- Site setting: **Elementor > Settings: Disable Default Colors and Disable Default Fonts**
+  (`elementor_disable_color_schemes` / `elementor_disable_typography_schemes` = yes), as on Lenz.
+  Without it the editor canvas paints headings in the kit colour and buttons green (the front end
+  was fine). Set on Local 2026-10-23; the splash, /promo-landing/ and
+  /best-in-show-is-now-newman-air/ were compared pixel by pixel before and after at 1440 and 390:
+  identical. Make sure Flywheel production has the same two options after the push.
 
 ## Deliberate differences from the prototype
 
@@ -77,6 +83,9 @@ only; switch them to Entire Site (`include/general`) at launch. No Elementor sit
 - **Fonts:** V2.1 uses Bricolage Grotesque + DM Sans (approved V2); tokens.json and the splash use Oxanium + Roboto.
 
 ## Editing notes
+
+In the editor canvas the entrance animations are off (blocks shown in their final state) and
+newman-site.js does not load; the public page keeps the prototype's animations.
 
 Style lives in newman-core: colours and sizes set in the Elementor panel do nothing where the
 prototype CSS sets them. Text, links and order are editable in Elementor. The header nav, mobile

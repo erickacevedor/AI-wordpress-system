@@ -85,6 +85,4 @@
 /* Theme Builder parts: the fixed header and the footer give up their wrapper. */
 .nw-site .elementor-location-header { display: contents; }
 
-/* In the editor nothing waits for the scroll observer. */
-.elementor-editor-active.nw-site :is(.reveal, .fade-up),
-.elementor-editor-active.nw-site .hero h1 .w { opacity: 1; transform: none; animation: none; }
+/* Editor: see the end of overrides.css (it must come after the ported rules). */

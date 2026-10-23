@@ -49,7 +49,7 @@
 
 /* ---- Child-combinator rules the port turned into descendants ---------------
    `.trust-item > span:not(.num)` also reaches the count-up span inside `.num`. */
-.nw-site .elementor .trust-item .num span { font: inherit; line-height: inherit; opacity: 1; }
+.nw-site .elementor .trust-item .num span[data-count] { font: inherit; line-height: inherit; opacity: 1; }   /* (0,5,1): also wins in the editor, where an extra .elementor-text-editor div sits in between */
 
 /* `.svc p { flex: 1 }` pushed the card link to the bottom; the text widget
    wrapper is the flex item now. */
@@ -110,3 +110,16 @@
    an icon grows to its neighbour's height (Get In Touch next to Our Story). The
    widget wrapper is the flex item here, so it passes the stretch to the <a>. */
 .nw-site .elementor .btn-row > .btn.elementor-widget-button { display: flex; }
+
+/* ---- Elementor editor: no entrance animations --------------------------------
+   newman-site.js does not run in the editor canvas, so nothing adds `.in` and the
+   `.reveal` / `.fade-up` blocks and the H1 words would stay at opacity 0 (Erick,
+   2026-10-23: the canvas showed empty bands). In the editor everything is shown
+   in its final state; the public page keeps the prototype's animations. Weights
+   are above the ported rules they replace ((0,3,0) for .reveal, (0,4,1) for
+   `.hero h1 .w`). */
+body.elementor-editor-active.nw-site .elementor :is(.reveal, .fade-up),
+body.elementor-editor-active.nw-site .elementor .hero h1 .w {
+  opacity: 1; transform: none; animation: none; transition: none;
+}
+body.elementor-editor-active.nw-site .elementor .hero h1 .hl::after { clip-path: none; animation: none; }

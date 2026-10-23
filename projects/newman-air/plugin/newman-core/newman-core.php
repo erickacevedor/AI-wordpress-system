@@ -77,7 +77,10 @@ add_action( 'elementor/preview/enqueue_styles', 'newman_core_enqueue_assets' );
  */
 function newman_core_enqueue_site_js() {
 	$js = NEWMAN_CORE_PATH . 'assets/js/newman-site.js';
-	if ( ! newman_core_is_site_page() || ! file_exists( $js ) ) {
+	// Not in the Elementor canvas: there Elementor owns the DOM (re-renders on
+	// every edit) and these handlers would fight it; overrides.css shows the
+	// animated blocks in their final state instead.
+	if ( ! newman_core_is_site_page() || ! file_exists( $js ) || isset( $_GET['elementor-preview'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification
 		return;
 	}
 	wp_enqueue_script(
