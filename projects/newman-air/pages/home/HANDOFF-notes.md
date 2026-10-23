@@ -105,3 +105,13 @@ Header and footer: see `../_theme/build-templates.py`. The menu is the WordPress
 "Newman Main" (Appearance > Menus), created by `tools/make-menus.php`; the Nav Menu widget shows it
 and inner.css lays out the mega menu and the mobile dropdown. Moving Local to Flywheel carries the
 menu with the database; on a fresh install run make-menus.php first, then import the header.
+
+### Editing the main menu (Appearance > Menus > "Newman Main")
+
+Turn on Screen Options > CSS Classes to see the classes the layout depends on:
+- `nw-mega` on Services: its children become the mega menu.
+- `mega-group` + an icon class (`ic-snow`, `ic-flame`, `ic-air`, `ic-plus`) on each column heading
+  (link "#", not clickable on desktop); the service pages are children of a heading.
+- `mega-cta` on the last Services child: the dark card; its title takes `<strong>` for the first line.
+- `nw-drop` on Service Areas: simple dropdown.
+A top-level item without a class is a plain link. The Nav Menu widget in the header only selects the menu.

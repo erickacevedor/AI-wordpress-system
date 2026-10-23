@@ -474,3 +474,9 @@
    (it sits over the dark hero), so in its own editor canvas it gets the hero's dark ground. ---- */
 body.single-elementor_library.nw-site:has(.site-head) { background: var(--c-base-deep); }
 body.single-elementor_library.nw-site .site-head { position: relative; }
+
+/* In the Elementor editor every widget is position: relative (for its handles), which made the
+   mega menu measure from the nav widget instead of the header's .wrap. Desktop only. */
+@media (min-width: 1025px) {
+  body.elementor-editor-active.nw-site .elementor .nw-nav { position: static; }
+}
