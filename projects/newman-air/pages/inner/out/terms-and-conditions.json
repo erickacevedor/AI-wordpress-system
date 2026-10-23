@@ -1,0 +1,441 @@
+{
+ "version": "0.4",
+ "title": "Terms and Conditions",
+ "type": "page",
+ "content": [
+  {
+   "id": "521a8761",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "hero page-hero topo grain on-dark compact solo e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "521a740a",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "521a4d5c",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "521a3a05",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "521a1357",
+           "settings": {
+            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">Terms and Conditions</span></li></ol></nav>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "521a26ae",
+           "settings": {
+            "title": "Terms and Conditions",
+            "header_size": "h1",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "521a60b3",
+       "settings": {
+        "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\" data-parallax=\".12\"><path class=\"r1\" d=\"M0 150 L110 92 L210 130 L330 58 L460 120 L580 70 L700 128 L840 44 L980 116 L1100 66 L1240 124 L1360 78 L1480 112 L1600 84 V260 H0Z\"/></svg><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\" data-parallax=\".06\"><path class=\"r2\" d=\"M0 190 L140 128 L260 170 L400 112 L540 176 L680 130 L820 186 L960 120 L1100 178 L1250 132 L1390 182 L1520 140 L1600 160 V260 H0Z\"/></svg><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 236 Q400 206 800 230 T1600 220 V260 H0Z\"/><g class=\"trees\"><path d=\"M120 236 l14-40 14 40Z M150 238 l10-28 10 28Z M1380 226 l14-42 14 42Z M1410 228 l10-30 10 30Z M1440 226 l12-36 12 36Z\"/></g></svg></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "521ca4e5",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "article wide e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "521c918e",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "521c7e37",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "521c6ae0",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "prose"
+         },
+         "elements": [
+          {
+           "id": "521c5789",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "prose-block"
+           },
+           "elements": [
+            {
+             "id": "521a9ab8",
+             "settings": {
+              "editor": "<p>Terms of Service</p><p>Last Updated Date: January 1, 2026.</p><p>These Terms and Conditions govern your use of Newman Air services, including our website and our SMS and email communications programs. By using our services or opting into our communications, you agree to these Terms and our Privacy Policy.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521aae0f",
+             "settings": {
+              "title": "Eligibility &amp; Age Requirement",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521ac166",
+             "settings": {
+              "editor": "<p>To use or participate in the services provided through this website and the SMS and email communications program (“Services”), you must be at least 18 years of age or the age of majority in your jurisdiction, whichever is greater. By accessing or using the Services, opting into SMS or email communications, or submitting your contact information, you represent and warrant that you meet this age requirement. Use of the Services by anyone under 18 years old is strictly prohibited.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521ad4bd",
+             "settings": {
+              "title": "1. Program Description",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521ae814",
+             "settings": {
+              "editor": "<p>Newman Air may send SMS and email messages to users who opt in. Messages may include promotional offers, service updates, appointment confirmations, and appointment reminders. Message frequency may vary.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521afb6b",
+             "settings": {
+              "title": "2. Consent to Receive Messages",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521b0ec2",
+             "settings": {
+              "editor": "<p>By providing your phone number and opting in, you authorize Newman Air to send text messages to your mobile number. Consent is not a condition of purchase.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521b2219",
+             "settings": {
+              "title": "3. Opt Out",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521b3570",
+             "settings": {
+              "editor": "<p>You can cancel the SMS service at any time. Just text “STOP” to 423.753.7788. After you send the SMS message “STOP” to us, we will send you an SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521b48c7",
+             "settings": {
+              "title": "4. Opt In Again",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521b5c1e",
+             "settings": {
+              "editor": "<p>If you want to rejoin after opting out, you can opt in again using the same method you used to enroll originally.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521b6f75",
+             "settings": {
+              "title": "5. Help and Support",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521b82cc",
+             "settings": {
+              "editor": "<p>If you are experiencing issues with the messaging program you can reply with the keyword HELP for more assistance, or you can get help directly at office@newmanheatandair.com or 423.753.7788.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521b9623",
+             "settings": {
+              "title": "6. Message Frequency and Rates",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521ba97a",
+             "settings": {
+              "editor": "<p>As always, message and data rates may apply for any messages sent to you from us and to us from you. You will receive 5 messages. If you have any questions about your text plan or data plan, it is best to contact your wireless provider.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521bbcd1",
+             "settings": {
+              "title": "7. Carrier Disclaimer",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521bd028",
+             "settings": {
+              "editor": "<p>Carriers are not liable for delayed or undelivered messages.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521be37f",
+             "settings": {
+              "title": "8. Privacy",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521bf6d6",
+             "settings": {
+              "editor": "<p>Your use of the messaging program is also governed by our Privacy Policy. You can view it here: <a href=\"https://newmanair.com/privacy-policy/\">https://newmanair.com/privacy-policy/</a></p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521c0a2d",
+             "settings": {
+              "title": "9. Changes to Terms",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521c1d84",
+             "settings": {
+              "editor": "<p>We may update these Terms from time to time. Updates will be posted with a new Last Updated date.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521c30db",
+             "settings": {
+              "title": "10. Contact Us",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521c4432",
+             "settings": {
+              "editor": "<p>If you have any questions about these Terms, please contact us at:</p><p>Newman Air. 3583 W Market St, Suite 1, Johnson City, TN 37604 423.753.7788 office@newmanheatandair.com</p><p>If you have any questions regarding privacy, please read our privacy policy: <a href=\"https://newmanair.com/privacy-policy/\">https://newmanair.com/privacy-policy/</a></p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

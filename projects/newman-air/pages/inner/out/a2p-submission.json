@@ -1,0 +1,210 @@
+{
+ "version": "0.4",
+ "title": "A2P Submission",
+ "type": "page",
+ "content": [
+  {
+   "id": "521fae0f",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "hero page-hero topo grain on-dark compact solo e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "521f9ab8",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "521f740a",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "521f60b3",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "521f3a05",
+           "settings": {
+            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><span aria-current=\"page\">A2P Submission</span></li></ol></nav>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "521f4d5c",
+           "settings": {
+            "title": "Text Message Opt-In",
+            "header_size": "h1",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "521f8761",
+       "settings": {
+        "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\" data-parallax=\".12\"><path class=\"r1\" d=\"M0 150 L110 92 L210 130 L330 58 L460 120 L580 70 L700 128 L840 44 L980 116 L1100 66 L1240 124 L1360 78 L1480 112 L1600 84 V260 H0Z\"/></svg><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\" data-parallax=\".06\"><path class=\"r2\" d=\"M0 190 L140 128 L260 170 L400 112 L540 176 L680 130 L820 186 L960 120 L1100 178 L1250 132 L1390 182 L1520 140 L1600 160 V260 H0Z\"/></svg><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 236 Q400 206 800 230 T1600 220 V260 H0Z\"/><g class=\"trees\"><path d=\"M120 236 l14-40 14 40Z M150 238 l10-28 10 28Z M1380 226 l14-42 14 42Z M1410 228 l10-30 10 30Z M1440 226 l12-36 12 36Z\"/></g></svg></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "521ffb6b",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "article wide e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "521fe814",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "521fd4bd",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "521fc166",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "prose"
+         },
+         "elements": [
+          {
+           "id": "521f26ae",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "prose-block"
+           },
+           "elements": [
+            {
+             "id": "521f1357",
+             "settings": {
+              "html": "<div class=\"embed-wrap\"><iframe src=\"https://api.leadconnectorhq.com/widget/form/XVWf4Kh8yQaMh79JUrby\" style=\"width:100%;height:100%;border:none;border-radius:4px\" id=\"inline-XVWf4Kh8yQaMh79JUrby\" data-layout=\"{'id':'INLINE'}\" data-trigger-type=\"alwaysShow\" data-trigger-value=\"\" data-activation-type=\"alwaysActivated\" data-activation-value=\"\" data-deactivation-type=\"neverDeactivate\" data-deactivation-value=\"\" data-form-name=\"A2P Optin Form\" data-height=\"906\" data-layout-iframe-id=\"inline-XVWf4Kh8yQaMh79JUrby\" data-form-id=\"XVWf4Kh8yQaMh79JUrby\" title=\"A2P Optin Form\"></iframe><script src=\"https://link.msgsndr.com/js/form_embed.js\"></script></div>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

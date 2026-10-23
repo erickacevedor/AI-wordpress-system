@@ -1,0 +1,1467 @@
+{
+ "version": "0.4",
+ "title": "Ductless",
+ "type": "page",
+ "content": [
+  {
+   "id": "520c6f75",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "contact",
+    "css_classes": "hero page-hero topo grain on-dark e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "520c5c1e",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "520c3570",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "520bae0f",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "520b1357",
+           "settings": {
+            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Ductless</span></li></ol></nav>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "520b26ae",
+           "settings": {
+            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "520b3a05",
+           "settings": {
+            "title": "Ductless Mini-Split Services in Johnson City, TN",
+            "header_size": "h1",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "520b4d5c",
+           "settings": {
+            "editor": "<p class=\"lead fade-up\">When one room keeps falling behind, your whole home can feel harder to enjoy. Maybe your upstairs bedroom stays too warm, your bonus room traps heat, your home office feels uncomfortable in the afternoon, or your garage addition was never connected to central HVAC.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "520b60b3",
+           "settings": {
+            "editor": "<p class=\"lead fade-up\">Newman Air provides ductless mini-split services in <a href=\"https://newmanair.com/service-area/\">Johnson City and across the Tri-Cities, TN</a>, helping homeowners solve hard-to-comfort spaces with honest guidance, careful workmanship, and targeted comfort solutions built around the way their homes actually live.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "520b9ab8",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--delay:.3s",
+            "css_classes": "btn-row fade-up"
+           },
+           "elements": [
+            {
+             "id": "520b740a",
+             "settings": {
+              "text": "Schedule Online",
+              "link": {
+               "url": "#contact",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-accent btn-xl nw-ico nw-ico-arrow nw-ico-after"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            },
+            {
+             "id": "520b8761",
+             "settings": {
+              "text": "Call Us Today",
+              "link": {
+               "url": "tel:+14237537788",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-ghost btn-xl nw-ico nw-ico-phone"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "520c2219",
+         "settings": {
+          "content_width": "full",
+          "_attributes": "style|--delay:.4s",
+          "css_classes": "form-card fade-up"
+         },
+         "elements": [
+          {
+           "id": "520bc166",
+           "settings": {
+            "html": "<div class=\"badge-ring\" aria-hidden=\"true\"><div class=\"disc\"></div><svg class=\"ring\" viewBox=\"0 0 150 150\"><defs><path id=\"circ\" d=\"M75 75 m-60 0 a60 60 0 1 1 120 0 a60 60 0 1 1 -120 0\"/></defs><text><textPath href=\"#circ\">Trust the bear to fix your air · Since 1994 · </textPath></text></svg><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "520bd4bd",
+           "settings": {
+            "title": "Request Service",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "1.7rem",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "1.7rem",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "1.7rem",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "520be814",
+           "settings": {
+            "editor": "<p class=\"form-sub\">Tell us what's going on and our team will reach out to confirm your visit.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "520bfb6b",
+           "settings": {
+            "form_name": "Request service",
+            "form_fields": [
+             {
+              "_id": "name",
+              "custom_id": "name",
+              "field_type": "text",
+              "field_label": "Name",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "phone",
+              "custom_id": "phone",
+              "field_type": "tel",
+              "field_label": "Phone",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "email",
+              "custom_id": "email",
+              "field_type": "email",
+              "field_label": "Email",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "city",
+              "custom_id": "city",
+              "field_type": "text",
+              "field_label": "City",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "message",
+              "custom_id": "message",
+              "field_type": "textarea",
+              "field_label": "Message/Request(s)",
+              "required": "",
+              "width": "100",
+              "placeholder": "",
+              "rows": "2"
+             }
+            ],
+            "show_labels": "yes",
+            "mark_required": "yes",
+            "button_text": "Schedule My Visit",
+            "button_width": "100",
+            "column_gap": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "row_gap": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "submit_actions": [
+             "email"
+            ],
+            "email_to": "dispatch@newmanair.com",
+            "email_subject": "New service request from newmanair.com",
+            "email_content": "[all-fields]",
+            "email_from_name": "Newman Air website",
+            "custom_messages": "yes",
+            "success_message": "Thanks! Your request was received. Our team will reach out to confirm your visit.",
+            "required_field_message": "This field is required.",
+            "invalid_message": "Please check the highlighted fields.",
+            "_css_classes": "nw-form"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "form",
+           "elType": "widget"
+          },
+          {
+           "id": "520c0ec2",
+           "settings": {
+            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "520c48c7",
+       "settings": {
+        "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\" data-parallax=\".12\"><path class=\"r1\" d=\"M0 150 L110 92 L210 130 L330 58 L460 120 L580 70 L700 128 L840 44 L980 116 L1100 66 L1240 124 L1360 78 L1480 112 L1600 84 V260 H0Z\"/></svg><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\" data-parallax=\".06\"><path class=\"r2\" d=\"M0 190 L140 128 L260 170 L400 112 L540 176 L680 130 L820 186 L960 120 L1100 178 L1250 132 L1390 182 L1520 140 L1600 160 V260 H0Z\"/></svg><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 236 Q400 206 800 230 T1600 220 V260 H0Z\"/><g class=\"trees\"><path d=\"M120 236 l14-40 14 40Z M150 238 l10-28 10 28Z M1380 226 l14-42 14 42Z M1410 228 l10-30 10 30Z M1440 226 l12-36 12 36Z\"/></g></svg></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "520df241",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_attributes": "aria-label|Why homeowners trust us",
+    "css_classes": "trust e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "520ddeea",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "520dcb93",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "band"
+       },
+       "elements": [
+        {
+         "id": "520db83c",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "wrap"
+         },
+         "elements": [
+          {
+           "id": "520cbcd1",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:0",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "520c82cc",
+             "settings": {
+              "editor": "<span class=\"num\" data-count=\"30\" data-suffix=\"+\">30+</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520c9623",
+             "settings": {
+              "editor": "<strong>Years Serving Tri-Cities</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520ca97a",
+             "settings": {
+              "editor": "<span>Local, family-owned &amp; operated since 1994.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520d0a2d",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:1",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "520cd028",
+             "settings": {
+              "editor": "<span class=\"num\" data-count=\"1100\" data-suffix=\"+\">1,100+</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520ce37f",
+             "settings": {
+              "editor": "<strong>5-Star Reviews</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520cf6d6",
+             "settings": {
+              "editor": "<span>Rated 4.8/5 stars across Johnson City, Kingsport, and Bristol.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520d5789",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:2",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "520d1d84",
+             "settings": {
+              "editor": "<span class=\"num\">$<span data-count=\"75\">75</span></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520d30db",
+             "settings": {
+              "editor": "<strong>Diagnostic Fee</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520d4432",
+             "settings": {
+              "editor": "<span>Upfront evaluations and transparent pricing before repairs begin.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520da4e5",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:3",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "520d6ae0",
+             "settings": {
+              "editor": "<span class=\"num\">$$</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520d7e37",
+             "settings": {
+              "editor": "<strong>Flexible Financing</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520d918e",
+             "settings": {
+              "editor": "<span>Fast online application through GoodLeap, Synchrony &amp; Hearth.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "521049ca",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "article e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "52103673",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "5210231c",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "52100fc5",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "prose"
+         },
+         "elements": [
+          {
+           "id": "520f9bbb",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "prose-block"
+           },
+           "elements": [
+            {
+             "id": "520f0103",
+             "settings": {
+              "title": "Ductless Comfort Built for Tri-Cities Homes",
+              "header_size": "h2",
+              "typography_font_size": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_tablet": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_mobile": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_typography": "custom"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520f145a",
+             "settings": {
+              "editor": "<p>Ductless mini-splits are designed to heat and cool specific rooms or zones without relying on traditional ductwork. Instead of forcing your <a href=\"https://newmanair.com/services/cooling/\">central HVAC system</a> to work harder for one uncomfortable area, a ductless system delivers comfort directly where it is needed.</p><p>That can be especially helpful in Tri-Cities homes with bonus rooms over garages, upstairs bedrooms, sunrooms, additions, older layouts, or spaces where extending ductwork would be difficult or expensive. During long Johnson City summers, these rooms can feel warmer because of attic heat, afternoon sun exposure, weak airflow, or limited duct access.</p><p>A ductless mini-split may be a smart fit if most of your home feels comfortable but one space never seems to keep up. If the whole home is uncomfortable, the better answer may be AC repair, ductwork improvements, insulation upgrades, or central system replacement. Our team helps you understand what is causing the comfort problem so you can choose the next step with confidence.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520f27b1",
+             "settings": {
+              "title": "Ductless Mini-Split Installation",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520f3b08",
+             "settings": {
+              "editor": "<p>A ductless mini-split installation should be matched to the room, not guessed into place. Proper sizing, placement, and installation all affect how well the mini-split system performs.</p><p>If the unit is too small, it may struggle during hot weather. If it is too large, it may short cycle or fail to manage humidity well. The indoor air handler should also be placed where it can move air effectively without creating uncomfortable drafts over beds, desks, or seating areas.</p><p>Ductless mini-split installation may be a good fit for bonus rooms, home offices, finished garages, sunrooms, room additions, upstairs bedrooms, older homes without strong duct access, and spaces that are too hot or too cold compared to the rest of the house.</p><p>Newman Air helps Tri-Cities homeowners evaluate the space, compare options, and choose a ductless setup that supports reliable room-by-room comfort without unnecessary guesswork.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520f4e5f",
+             "settings": {
+              "title": "Ductless Mini-Split Repair",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520f61b6",
+             "settings": {
+              "editor": "<p>If your ductless mini-split used to keep a room comfortable but now struggles to cool, heat, or move air properly, it may be time for professional ductless mini-split repair.</p><p>Common warning signs include weak airflow, warm air, water leaks, musty odors, unusual noises, frequent shutoffs, or a system that does not respond correctly to the remote or thermostat. These issues may come from dirty filters, clogged drains, electrical problems, sensor issues, refrigerant concerns, or lack of maintenance.</p><p>A timely repair can help restore comfort before the issue gets worse. If the unit is older, inefficient, or breaking down often, we can also help you compare repair and replacement options clearly.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520f750d",
+             "settings": {
+              "title": "Ductless Mini-Split Maintenance",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520f8864",
+             "settings": {
+              "editor": "<p>Ductless mini-split maintenance helps keep your system clean, efficient, and ready for regular use. Because the indoor air handler serves a specific room, dirty filters, coil buildup, drainage problems, or blocked airflow can quickly affect comfort in that space.</p><p>Regular maintenance can help keep airflow strong, reduce odors, support efficient operation, protect system components, and catch small issues early. It is especially important for systems that run heavily through late summer or provide year-round heating and cooling.</p><p>If your ductless system serves a home office, bedroom, bonus room, or finished garage, routine service helps keep that space comfortable when you rely on it most.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520ffc6e",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "prose-block"
+           },
+           "elements": [
+            {
+             "id": "520faf12",
+             "settings": {
+              "title": "Why Newman Air Leads the Pack",
+              "header_size": "h2",
+              "typography_font_size": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_tablet": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_mobile": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_typography": "custom"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520fc269",
+             "settings": {
+              "editor": "<p>Choosing a ductless mini-split is not just about picking equipment. It is about understanding whether ductless is truly the right solution for your room, your comfort goals, and your budget.</p><p>Newman Air brings practical HVAC experience, clear communication, and local knowledge to every ductless service call. Homeowners across Johnson City and the Tri-Cities choose our team for honest recommendations, respectful service, and comfort solutions designed around long-term value.</p><ul><li>Bear-Strong Comfort Since 1994: Newman Air has served the Tri-Cities for more than 30 years as a family-operated company built on honesty, reliability, and skilled craftsmanship.</li><li>Honest work at a fair price: We explain your options clearly and recommend solutions that make sense for your home, not a one-size-fits-all answer.</li><li>Targeted comfort guidance: From installation and repair to maintenance and replacement conversations, we help you understand whether ductless is the right fit or whether another HVAC solution would serve you better.</li></ul>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520fe917",
+             "settings": {
+              "content_width": "full",
+              "css_classes": "btn-row"
+             },
+             "elements": [
+              {
+               "id": "520fd5c0",
+               "settings": {
+                "text": "Know More About Newman Air",
+                "link": {
+                 "url": "/about-us/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                },
+                "_css_classes": "btn btn-accent nw-ico nw-ico-arrow nw-ico-after"
+               },
+               "elements": [],
+               "isInner": true,
+               "widgetType": "button",
+               "elType": "widget"
+              }
+             ],
+             "isInner": true,
+             "elType": "container"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "520eedac",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "aside",
+          "css_classes": "aside"
+         },
+         "elements": [
+          {
+           "id": "520e52f4",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "side-card dark"
+           },
+           "elements": [
+            {
+             "id": "520e0598",
+             "settings": {
+              "title": "Talk to Our Team",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520e18ef",
+             "settings": {
+              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "520e2c46",
+             "settings": {
+              "text": "Schedule Online",
+              "link": {
+               "url": "#contact",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-accent nw-ico nw-ico-arrow nw-ico-after"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            },
+            {
+             "id": "520e3f9d",
+             "settings": {
+              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520ea050",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "side-card"
+           },
+           "elements": [
+            {
+             "id": "520e664b",
+             "settings": {
+              "title": "Take the Next Step",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520e79a2",
+             "settings": {
+              "editor": "<p>If you’ve been considering ductless heating and air conditioning in Johnson City, TN, you can count on us at Newman Air to get the job done right. Our technicians will install a system that brings you comfort and efficiency right away. Schedule an appointment today and let’s find the perfect solution for your home.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520e8cf9",
+             "settings": {
+              "text": "Schedule Now",
+              "link": {
+               "url": "/contact-us/",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-accent"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520eda55",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "side-card"
+           },
+           "elements": [
+            {
+             "id": "520eb3a7",
+             "settings": {
+              "title": "Our Services",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520ec6fe",
+             "settings": {
+              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\" aria-current=\"page\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "5210f7d9",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "faq",
+    "css_classes": "faq e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "5210e482",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "5210d12b",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "5210aa7d",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "faq-side reveal"
+         },
+         "elements": [
+          {
+           "id": "52105d21",
+           "settings": {
+            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "52107078",
+           "settings": {
+            "title": "Frequently Asked Questions About Ductless Mini-Splits",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "521083cf",
+           "settings": {
+            "editor": "<p class=\"lead\">Choosing a ductless system can feel overwhelming if you are comparing it to central AC, window units, added ductwork, or full system replacement. These answers can help you decide whether ductless mini-splits are worth considering for your home.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "52109726",
+           "settings": {
+            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "5210bdd4",
+         "settings": {
+          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>Is a ductless mini-split worth it for one room?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>It can be. If one room is consistently uncomfortable while the rest of the home feels fine, a ductless mini-split may be a practical way to add targeted heating and cooling without changing the entire central HVAC system.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Can a ductless mini-split replace central AC?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Sometimes, but not always. Central AC is usually better for whole-home cooling when ductwork is in good condition. Ductless mini-splits are often better for specific rooms, additions, garages, bonus rooms, or homes where traditional ductwork is limited.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Is ductless better than adding ductwork?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>It depends on the home. If extending ductwork would be expensive, disruptive, or difficult, ductless may be a cleaner solution. If the existing duct system can be improved effectively, ductwork repairs or modifications may be worth considering.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>How many rooms can a ductless mini-split cool?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>A single-zone ductless mini-split is typically used for one room or area. A multi-zone system can serve multiple rooms with separate indoor units connected to one outdoor unit. The best setup depends on the layout and comfort goals.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Do ductless mini-splits need maintenance?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes. Ductless mini-splits need <a href=\"https://newmanair.com/services/maintenance/\">regular maintenance</a> to keep filters, coils, drains, electrical components, and airflow in good condition. Routine care helps protect comfort, performance, and system life.</p></div></details></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "5211cc96",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "maintenance-plan",
+    "css_classes": "club e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "5211b93f",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "5211a5e8",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "52111e87",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "reveal"
+         },
+         "elements": [
+          {
+           "id": "52110b30",
+           "settings": {
+            "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "52119291",
+         "settings": {
+          "content_width": "full",
+          "_attributes": "style|--d:1",
+          "css_classes": "reveal"
+         },
+         "elements": [
+          {
+           "id": "521131de",
+           "settings": {
+            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "52114535",
+           "settings": {
+            "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "5211588c",
+           "settings": {
+            "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "52116be3",
+           "settings": {
+            "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "52117f3a",
+           "settings": {
+            "text": "Explore Plan Details",
+            "link": {
+             "url": "/maintenance-plan/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-accent nw-ico nw-ico-arrow nw-ico-after"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "5212b4aa",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "final topo grain on-dark e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "5212a153",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "5212674e",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap reveal"
+       },
+       "elements": [
+        {
+         "id": "5211dfed",
+         "settings": {
+          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "5211f344",
+         "settings": {
+          "title": "Ready for Bear-Strong Ductless Comfort?",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 6vw, 4.8rem)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 6vw, 4.8rem)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 6vw, 4.8rem)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "5212069b",
+         "settings": {
+          "editor": "<p class=\"lead\">Do not let one uncomfortable room make your whole home harder to enjoy. If your central HVAC system handles most of the house but one area still feels too hot, too cold, or inconsistent, a ductless mini-split may be the focused solution you need.</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "521219f2",
+         "settings": {
+          "editor": "<p class=\"lead\">For dependable ductless mini-split services in Johnson City and the Tri-Cities, TN, schedule service with Newman Air and find out whether ductless, ductwork improvements, or another HVAC solution is the right fit for your space.</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "521253f7",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "btn-row"
+         },
+         "elements": [
+          {
+           "id": "52122d49",
+           "settings": {
+            "text": "Get Your Ductless Mini-Split Today!",
+            "link": {
+             "url": "/contact-us/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-accent btn-xl nw-ico nw-ico-arrow nw-ico-after"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "521240a0",
+           "settings": {
+            "text": "Call Us Now",
+            "link": {
+             "url": "tel:+14237537788",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-ghost btn-xl nw-ico nw-ico-phone"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "52127aa5",
+       "settings": {
+        "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      },
+      {
+       "id": "52128dfc",
+       "settings": {
+        "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

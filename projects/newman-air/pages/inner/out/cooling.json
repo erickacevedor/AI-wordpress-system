@@ -1,0 +1,1419 @@
+{
+ "version": "0.4",
+ "title": "Cooling",
+ "type": "page",
+ "content": [
+  {
+   "id": "520b5c1e",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "contact",
+    "css_classes": "hero page-hero topo grain on-dark e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "520b48c7",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "520b2219",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "520a9ab8",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "520a1357",
+           "settings": {
+            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Cooling</span></li></ol></nav>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "520a26ae",
+           "settings": {
+            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "520a3a05",
+           "settings": {
+            "title": "Medal-Worthy AC Services in Johnson City, TN",
+            "header_size": "h1",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "520a4d5c",
+           "settings": {
+            "editor": "<p class=\"lead fade-up\">When your home feels too warm, too humid, or too expensive to cool, Newman Air Cooling and Heating is here to help you get comfort back on track. We provide trusted AC services in Johnson City and across the Tri-Cities, TN, with honest recommendations, skilled workmanship, and cooling solutions built around your home, your budget, and your peace of mind.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "520a8761",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--delay:.3s",
+            "css_classes": "btn-row fade-up"
+           },
+           "elements": [
+            {
+             "id": "520a60b3",
+             "settings": {
+              "text": "Schedule Online",
+              "link": {
+               "url": "#contact",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-accent btn-xl nw-ico nw-ico-arrow nw-ico-after"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            },
+            {
+             "id": "520a740a",
+             "settings": {
+              "text": "Call Us Today",
+              "link": {
+               "url": "tel:+14237537788",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-ghost btn-xl nw-ico nw-ico-phone"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "520b0ec2",
+         "settings": {
+          "content_width": "full",
+          "_attributes": "style|--delay:.4s",
+          "css_classes": "form-card fade-up"
+         },
+         "elements": [
+          {
+           "id": "520aae0f",
+           "settings": {
+            "html": "<div class=\"badge-ring\" aria-hidden=\"true\"><div class=\"disc\"></div><svg class=\"ring\" viewBox=\"0 0 150 150\"><defs><path id=\"circ\" d=\"M75 75 m-60 0 a60 60 0 1 1 120 0 a60 60 0 1 1 -120 0\"/></defs><text><textPath href=\"#circ\">Trust the bear to fix your air · Since 1994 · </textPath></text></svg><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "520ac166",
+           "settings": {
+            "title": "Request Service",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "1.7rem",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "1.7rem",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "1.7rem",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "520ad4bd",
+           "settings": {
+            "editor": "<p class=\"form-sub\">Tell us what's going on and our team will reach out to confirm your visit.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "520ae814",
+           "settings": {
+            "form_name": "Request service",
+            "form_fields": [
+             {
+              "_id": "name",
+              "custom_id": "name",
+              "field_type": "text",
+              "field_label": "Name",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "phone",
+              "custom_id": "phone",
+              "field_type": "tel",
+              "field_label": "Phone",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "email",
+              "custom_id": "email",
+              "field_type": "email",
+              "field_label": "Email",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "city",
+              "custom_id": "city",
+              "field_type": "text",
+              "field_label": "City",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "message",
+              "custom_id": "message",
+              "field_type": "textarea",
+              "field_label": "Message/Request(s)",
+              "required": "",
+              "width": "100",
+              "placeholder": "",
+              "rows": "2"
+             }
+            ],
+            "show_labels": "yes",
+            "mark_required": "yes",
+            "button_text": "Schedule My Visit",
+            "button_width": "100",
+            "column_gap": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "row_gap": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "submit_actions": [
+             "email"
+            ],
+            "email_to": "dispatch@newmanair.com",
+            "email_subject": "New service request from newmanair.com",
+            "email_content": "[all-fields]",
+            "email_from_name": "Newman Air website",
+            "custom_messages": "yes",
+            "success_message": "Thanks! Your request was received. Our team will reach out to confirm your visit.",
+            "required_field_message": "This field is required.",
+            "invalid_message": "Please check the highlighted fields.",
+            "_css_classes": "nw-form"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "form",
+           "elType": "widget"
+          },
+          {
+           "id": "520afb6b",
+           "settings": {
+            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "520b3570",
+       "settings": {
+        "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\" data-parallax=\".12\"><path class=\"r1\" d=\"M0 150 L110 92 L210 130 L330 58 L460 120 L580 70 L700 128 L840 44 L980 116 L1100 66 L1240 124 L1360 78 L1480 112 L1600 84 V260 H0Z\"/></svg><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\" data-parallax=\".06\"><path class=\"r2\" d=\"M0 190 L140 128 L260 170 L400 112 L540 176 L680 130 L820 186 L960 120 L1100 178 L1250 132 L1390 182 L1520 140 L1600 160 V260 H0Z\"/></svg><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 236 Q400 206 800 230 T1600 220 V260 H0Z\"/><g class=\"trees\"><path d=\"M120 236 l14-40 14 40Z M150 238 l10-28 10 28Z M1380 226 l14-42 14 42Z M1410 228 l10-30 10 30Z M1440 226 l12-36 12 36Z\"/></g></svg></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "520cdeea",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_attributes": "aria-label|Why homeowners trust us",
+    "css_classes": "trust e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "520ccb93",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "520cb83c",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "band"
+       },
+       "elements": [
+        {
+         "id": "520ca4e5",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "wrap"
+         },
+         "elements": [
+          {
+           "id": "520ba97a",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:0",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "520b6f75",
+             "settings": {
+              "editor": "<span class=\"num\" data-count=\"30\" data-suffix=\"+\">30+</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520b82cc",
+             "settings": {
+              "editor": "<strong>Years Serving Tri-Cities</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520b9623",
+             "settings": {
+              "editor": "<span>Local, family-owned &amp; operated since 1994.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520bf6d6",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:1",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "520bbcd1",
+             "settings": {
+              "editor": "<span class=\"num\" data-count=\"1100\" data-suffix=\"+\">1,100+</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520bd028",
+             "settings": {
+              "editor": "<strong>5-Star Reviews</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520be37f",
+             "settings": {
+              "editor": "<span>Rated 4.8/5 stars across Johnson City, Kingsport, and Bristol.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520c4432",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:2",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "520c0a2d",
+             "settings": {
+              "editor": "<span class=\"num\">$<span data-count=\"75\">75</span></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520c1d84",
+             "settings": {
+              "editor": "<strong>Diagnostic Fee</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520c30db",
+             "settings": {
+              "editor": "<span>Upfront evaluations and transparent pricing before repairs begin.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520c918e",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:3",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "520c5789",
+             "settings": {
+              "editor": "<span class=\"num\">$$</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520c6ae0",
+             "settings": {
+              "editor": "<strong>Flexible Financing</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520c7e37",
+             "settings": {
+              "editor": "<span>Fast online application through GoodLeap, Synchrony &amp; Hearth.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "520f0fc5",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "article e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "520efc6e",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "520ee917",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "520ed5c0",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "prose"
+         },
+         "elements": [
+          {
+           "id": "520e8864",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "prose-block"
+           },
+           "elements": [
+            {
+             "id": "520dedac",
+             "settings": {
+              "title": "Cooling Services Built for Tri-Cities Summers",
+              "header_size": "h2",
+              "typography_font_size": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_tablet": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_mobile": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_typography": "custom"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520e0103",
+             "settings": {
+              "editor": "<p>When summer heat and humidity settle into Johnson City and the Tri-Cities, your AC system has a big job to do. It needs to cool your home, manage indoor humidity, support healthy airflow, and operate efficiently without driving up energy costs. Newman Air Cooling and Heating provides professional AC services in Tri-Cities, TN, including installation, repair, and maintenance for homeowners who want dependable comfort without confusion or pressure. Whether you are searching for cooling services near me, comparing replacement options, or trying to stop a small AC issue from becoming a full breakdown, our team helps you understand what your system needs and choose the right next step.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520e145a",
+             "settings": {
+              "title": "AC Installation That Fits Your Home",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520e27b1",
+             "settings": {
+              "editor": "<p>A new air conditioner should do more than replace the old one. It should be properly sized, professionally installed, and matched to the way your home actually cools. AC installation may be the right choice if your current system is aging, inefficient, noisy, uneven, or no longer keeping up during hot weather. Newman Air helps Johnson City homeowners choose cooling equipment that fits their comfort goals, home layout, efficiency needs, and budget, so they can enjoy stronger performance and better long-term reliability.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520e3b08",
+             "settings": {
+              "title": "AC Repair When Comfort Is on the Line",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520e4e5f",
+             "settings": {
+              "editor": "<p>If your AC is blowing warm air, making unusual noises, leaking, short cycling, or struggling to cool certain rooms, it may be time for professional repair. Newman Air provides AC repair for homeowners who want clear diagnostics, honest recommendations, and dependable solutions. In many cases, a timely repair can help restore comfort, prevent added strain on the system, and reduce the risk of a more expensive breakdown later.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520e61b6",
+             "settings": {
+              "title": "AC Maintenance for a Longer-Lasting System",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520e750d",
+             "settings": {
+              "editor": "<p>Routine AC maintenance is one of the simplest ways to protect your cooling system before summer puts it to the test. Maintenance helps identify worn parts, airflow issues, dirty components, and performance problems early, before they interrupt your comfort. Newman Air also offers the Bear Necessities Maintenance Plan for homeowners who want regular system care, priority service, and a smarter way to keep their cooling system ready season after season.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520ec269",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "prose-block"
+           },
+           "elements": [
+            {
+             "id": "520e9bbb",
+             "settings": {
+              "title": "Why Newman Air Leads the Pack",
+              "header_size": "h2",
+              "typography_font_size": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_tablet": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_mobile": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_typography": "custom"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520eaf12",
+             "settings": {
+              "editor": "<p>Newman Air brings more than technical HVAC service to every cooling call. Homeowners across Johnson City and the Tri-Cities choose our team for honest guidance, respectful service, skilled workmanship, and practical comfort solutions built around long-term value.</p><ul><li>Bear-Strong Comfort Since 1994: Newman Air has served the Tri-Cities for more than 30 years as a family-operated company built on honesty, reliability, and skilled craftsmanship.</li><li>Honest work at a fair price: Our team focuses on clear communication, straightforward recommendations, and cooling solutions that make sense for your home instead of pushing a one-size-fits-all answer.</li><li>Comfort care beyond the service call: From AC repair and installation to financing options and the Bear Necessities Maintenance Plan, Newman Air gives homeowners practical ways to protect comfort, manage costs, and plan ahead.</li></ul>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "520dda55",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "aside",
+          "css_classes": "aside"
+         },
+         "elements": [
+          {
+           "id": "520d3f9d",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "side-card dark"
+           },
+           "elements": [
+            {
+             "id": "520cf241",
+             "settings": {
+              "title": "Talk to Our Team",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520d0598",
+             "settings": {
+              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "520d18ef",
+             "settings": {
+              "text": "Schedule Online",
+              "link": {
+               "url": "#contact",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-accent nw-ico nw-ico-arrow nw-ico-after"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            },
+            {
+             "id": "520d2c46",
+             "settings": {
+              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520d8cf9",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "side-card"
+           },
+           "elements": [
+            {
+             "id": "520d52f4",
+             "settings": {
+              "title": "Take the Next Step",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520d664b",
+             "settings": {
+              "editor": "<p>If you’re ready for dependable AC installation in Johnson City, TN, our team at Newman Air is here to help. We’ll handle everything from start to finish so you can relax and stay cool. Call today to schedule an appointment, and let’s get your home set up with the comfort it deserves.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "520d79a2",
+             "settings": {
+              "text": "Schedule Now",
+              "link": {
+               "url": "/contact-us/",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-accent"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "520dc6fe",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "side-card"
+           },
+           "elements": [
+            {
+             "id": "520da050",
+             "settings": {
+              "title": "Our Services",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "520db3a7",
+             "settings": {
+              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\" aria-current=\"page\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "520fbdd4",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "faq",
+    "css_classes": "faq e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "520faa7d",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "520f9726",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "520f7078",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "faq-side reveal"
+         },
+         "elements": [
+          {
+           "id": "520f231c",
+           "settings": {
+            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "520f3673",
+           "settings": {
+            "title": "Frequently Asked Questions About Cooling Services",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "520f49ca",
+           "settings": {
+            "editor": "<p class=\"lead\">Choosing the right cooling service can feel overwhelming when you are trying to balance comfort, cost, timing, and long-term value. These answers can help you decide whether your home needs AC repair, replacement, or maintenance.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "520f5d21",
+           "settings": {
+            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "520f83cf",
+         "settings": {
+          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>How do I know if I need AC repair or AC replacement?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Repair may be the better choice if your AC is newer, the problem is minor, and the system has been reliable overall. Replacement may make more sense if the unit is 10 to 15 years old, needs frequent repairs, struggles with humidity, or causes rising energy bills. A professional inspection can help you compare both options before making a decision.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Why is my AC running but not cooling my home well?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Poor cooling can come from several issues, including a dirty filter, low refrigerant, weak airflow, frozen coils, thermostat problems, duct leaks, or an aging system that can no longer keep up. If your AC still struggles after you replace the filter and check the thermostat, it is best to schedule service before the system works harder than it should.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Are cooling services worth scheduling before summer?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes. Scheduling cooling service before peak summer can help catch worn parts, airflow problems, dirty coils, or performance issues before the hottest days arrive. Waiting until a heat wave can leave you with fewer scheduling options and a higher chance of dealing with an uncomfortable home.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>How often should I schedule AC maintenance?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most homeowners should schedule AC maintenance once a year, ideally before peak cooling season. If your system runs heavily, serves a larger home, or has a history of repairs, regular maintenance becomes even more important. Consistent service can improve reliability, support efficiency, and help extend equipment life.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Can better AC service help lower my energy bills?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>It can. A clean, properly repaired, well-maintained, or correctly installed AC system usually operates more efficiently than one that is dirty, damaged, oversized, undersized, or neglected. Energy savings depend on your home, ductwork, insulation, thermostat habits, and system condition, but better performance often helps reduce wasted energy.</p></div></details></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "52109291",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "maintenance-plan",
+    "css_classes": "club e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "52107f3a",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "52106be3",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "520fe482",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "reveal"
+         },
+         "elements": [
+          {
+           "id": "520fd12b",
+           "settings": {
+            "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "5210588c",
+         "settings": {
+          "content_width": "full",
+          "_attributes": "style|--d:1",
+          "css_classes": "reveal"
+         },
+         "elements": [
+          {
+           "id": "520ff7d9",
+           "settings": {
+            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "52100b30",
+           "settings": {
+            "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "52101e87",
+           "settings": {
+            "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "521031de",
+           "settings": {
+            "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "52104535",
+           "settings": {
+            "text": "Explore Plan Details",
+            "link": {
+             "url": "/maintenance-plan/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-accent nw-ico nw-ico-arrow nw-ico-after"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "5211674e",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "final topo grain on-dark e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "521153f7",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "521119f2",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap reveal"
+       },
+       "elements": [
+        {
+         "id": "5210a5e8",
+         "settings": {
+          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "5210b93f",
+         "settings": {
+          "title": "Ready for Bear-Strong Cooling?",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 6vw, 4.8rem)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 6vw, 4.8rem)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 6vw, 4.8rem)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "5210cc96",
+         "settings": {
+          "editor": "<p class=\"lead\">Do not wait for weak airflow, rising bills, or a sudden breakdown to make your home uncomfortable. For dependable AC services in Tri-Cities, TN, schedule service with Newman Air Cooling and Heating and get comfort guidance you can trust.</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "5211069b",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "btn-row"
+         },
+         "elements": [
+          {
+           "id": "5210dfed",
+           "settings": {
+            "text": "Schedule Now",
+            "link": {
+             "url": "/contact-us/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-accent btn-xl nw-ico nw-ico-arrow nw-ico-after"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "5210f344",
+           "settings": {
+            "text": "Call Us Now",
+            "link": {
+             "url": "tel:+14237537788",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-ghost btn-xl nw-ico nw-ico-phone"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "52112d49",
+       "settings": {
+        "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      },
+      {
+       "id": "521140a0",
+       "settings": {
+        "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

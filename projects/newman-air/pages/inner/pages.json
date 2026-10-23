@@ -1,0 +1,342 @@
+[
+ {
+  "key": "service-area",
+  "json": "pages/inner/out/service-area.json",
+  "slug": "service-area",
+  "parent": "",
+  "title": "Service Area",
+  "seo_title": "Service Area | Newman Air",
+  "seo_description": "Newman Air proudly serves homeowners across the Tri-Cities with expert HVAC solutions. From repairs and installations to maintenance, we deliver reliable comfort to every service area we cover.",
+  "robots": ""
+ },
+ {
+  "key": "services",
+  "json": "pages/inner/out/services.json",
+  "slug": "services",
+  "parent": "",
+  "title": "HVAC Services",
+  "seo_title": "Services | Newman Air",
+  "seo_description": "Discover expert HVAC services with Newman Air. From heating and cooling repair to ductless systems and maintenance, we keep your home comfortable year-round.",
+  "robots": ""
+ },
+ {
+  "key": "about-us",
+  "json": "pages/inner/out/about-us.json",
+  "slug": "about-us",
+  "parent": "",
+  "title": "About Us",
+  "seo_title": "About Us | Newman Air",
+  "seo_description": "",
+  "robots": ""
+ },
+ {
+  "key": "ac-installation",
+  "json": "pages/inner/out/ac-installation.json",
+  "slug": "ac-installation",
+  "parent": "services",
+  "title": "AC Installation",
+  "seo_title": "AC Installation in Johnson City, TN | Newman Air",
+  "seo_description": "AC installation in Johnson City, TN. High-efficiency systems, upfront pricing, and financing through GoodLeap, Synchrony and Hearth. Schedule online.",
+  "robots": ""
+ },
+ {
+  "key": "ac-repair",
+  "json": "pages/inner/out/ac-repair.json",
+  "slug": "ac-repair",
+  "parent": "services",
+  "title": "AC Repair",
+  "seo_title": "AC Repair in Johnson City, TN | Newman Air",
+  "seo_description": "Fast AC repair in Johnson City, TN. Same-day diagnostics, honest fixes, and upfront pricing to beat the Tennessee heat. Schedule online.",
+  "robots": ""
+ },
+ {
+  "key": "air-cleaners",
+  "json": "pages/inner/out/air-cleaners.json",
+  "slug": "air-cleaners",
+  "parent": "services",
+  "title": "Air Cleaners",
+  "seo_title": "Air Cleaner Installation in Johnson City, TN | Newman Air",
+  "seo_description": "Breathe cleaner air with expert air cleaner installation in Johnson City, TN. Newman Air helps improve indoor air quality with professional solutions tailored to your home.",
+  "robots": ""
+ },
+ {
+  "key": "air-handlers",
+  "json": "pages/inner/out/air-handlers.json",
+  "slug": "air-handlers",
+  "parent": "services",
+  "title": "Air Handlers",
+  "seo_title": "Air Handler Installation & Repair, Johnson City TN | Newman Air",
+  "seo_description": "Air handler installation and repair in Johnson City, TN. Fix weak airflow and uneven temperatures and keep your HVAC efficient. Schedule today.",
+  "robots": ""
+ },
+ {
+  "key": "bristol",
+  "json": "pages/inner/out/bristol.json",
+  "slug": "bristol",
+  "parent": "service-area",
+  "title": "Bristol",
+  "seo_title": "HVAC Services in Bristol, TN | Newman Air",
+  "seo_description": "Keep your home comfortable with trusted HVAC services in Bristol, TN. Newman Air delivers expert heating, cooling, and indoor air quality solutions designed for year-round comfort.",
+  "robots": ""
+ },
+ {
+  "key": "commercial",
+  "json": "pages/inner/out/commercial.json",
+  "slug": "commercial",
+  "parent": "services",
+  "title": "Commercial HVAC Services",
+  "seo_title": "Commercial HVAC Services in Johnson City, TN | Newman Air",
+  "seo_description": "Commercial HVAC in Johnson City, TN. Installation, repair, and maintenance built around your building and schedule. Schedule today.",
+  "robots": ""
+ },
+ {
+  "key": "cooling",
+  "json": "pages/inner/out/cooling.json",
+  "slug": "cooling",
+  "parent": "services",
+  "title": "Cooling",
+  "seo_title": "AC Installation in Johnson City, TN | Newman Air",
+  "seo_description": "AC installation in Johnson City, TN. High-efficiency systems, upfront pricing, and financing through GoodLeap, Synchrony and Hearth. Schedule online.",
+  "robots": ""
+ },
+ {
+  "key": "ductless",
+  "json": "pages/inner/out/ductless.json",
+  "slug": "ductless",
+  "parent": "services",
+  "title": "Ductless",
+  "seo_title": "Ductless Heating & Cooling in Johnson City, TN | Newman Air",
+  "seo_description": "Ductless heating and cooling in Johnson City, TN. Energy-efficient comfort, room-by-room zone control, and easy installation. Schedule today.",
+  "robots": ""
+ },
+ {
+  "key": "ductwork",
+  "json": "pages/inner/out/ductwork.json",
+  "slug": "ductwork",
+  "parent": "services",
+  "title": "Ductwork Repair & Installation",
+  "seo_title": "Ductwork Repair & Installation in Johnson City, TN | Newman Air",
+  "seo_description": "Ductwork repair and installation in Johnson City, TN. Seal leaks, fix airflow, and lower energy bills with efficient ducts. Schedule today.",
+  "robots": ""
+ },
+ {
+  "key": "elizabethton",
+  "json": "pages/inner/out/elizabethton.json",
+  "slug": "elizabethton",
+  "parent": "service-area",
+  "title": "Elizabethton",
+  "seo_title": "HVAC Services in Elizabethton, TN | Newman Air",
+  "seo_description": "Newman Air delivers reliable HVAC services in Elizabethton, TN. From heating and cooling repair to new system installation, we keep your home comfortable year-round.",
+  "robots": ""
+ },
+ {
+  "key": "germicidal-lights",
+  "json": "pages/inner/out/germicidal-lights.json",
+  "slug": "germicidal-lights",
+  "parent": "services",
+  "title": "Germicidal Lights",
+  "seo_title": "Germicidal Light Installation in Johnson City, TN | Newman Air",
+  "seo_description": "Germicidal UV light installation in Johnson City, TN. Cut airborne bacteria, mold, and viruses for cleaner, healthier home air. Schedule today.",
+  "robots": ""
+ },
+ {
+  "key": "gray",
+  "json": "pages/inner/out/gray.json",
+  "slug": "gray",
+  "parent": "service-area",
+  "title": "Gray",
+  "seo_title": "HVAC Services in Gray, TN | Newman Air",
+  "seo_description": "Newman Air provides trusted HVAC services in Gray, TN. From heating and cooling repair to new installations, our experts keep your home comfortable year-round.",
+  "robots": ""
+ },
+ {
+  "key": "greeneville",
+  "json": "pages/inner/out/greeneville.json",
+  "slug": "greeneville",
+  "parent": "service-area",
+  "title": "Greeneville",
+  "seo_title": "HVAC Services in Greeneville, TN | Newman Air",
+  "seo_description": "Meta Description: Stay comfortable year-round with expert HVAC services in Greeneville, TN. Newman Air provides reliable heating, cooling, and indoor air quality solutions to keep your home efficient and comfortable.",
+  "robots": ""
+ },
+ {
+  "key": "heat-pumps",
+  "json": "pages/inner/out/heat-pumps.json",
+  "slug": "heat-pumps",
+  "parent": "services",
+  "title": "Heat Pumps",
+  "seo_title": "Heat Pumps in Johnson City, TN | Newman Air",
+  "seo_description": "Heat pump installation and repair in Johnson City, TN. Energy-efficient heating and cooling in one system, year-round. Schedule today.",
+  "robots": ""
+ },
+ {
+  "key": "heating-installation",
+  "json": "pages/inner/out/heating-installation.json",
+  "slug": "heating-installation",
+  "parent": "services",
+  "title": "Heating Installation",
+  "seo_title": "Heating Installation in Johnson City, TN | Newman Air",
+  "seo_description": "Heating installation in Johnson City, TN. New furnaces and heat pumps sized right, upfront pricing, and financing. Schedule today.",
+  "robots": ""
+ },
+ {
+  "key": "heating-repair",
+  "json": "pages/inner/out/heating-repair.json",
+  "slug": "heating-repair",
+  "parent": "services",
+  "title": "Heating Repair",
+  "seo_title": "Heating Repair in Johnson City, TN | Newman Air",
+  "seo_description": "Fast heating repair in Johnson City, TN. Furnace and heat pump fixes, honest diagnostics, and upfront pricing all winter. Schedule today.",
+  "robots": ""
+ },
+ {
+  "key": "indoor-air-quality",
+  "json": "pages/inner/out/indoor-air-quality.json",
+  "slug": "indoor-air-quality",
+  "parent": "services",
+  "title": "Indoor Air Quality",
+  "seo_title": "Indoor Air Quality in Johnson City, TN | Newman Air",
+  "seo_description": "Indoor air quality in Johnson City, TN. Cut allergens, dust, and odors with air cleaners, UV germicidal lights, and filtration. Schedule today.",
+  "robots": ""
+ },
+ {
+  "key": "johnson-city",
+  "json": "pages/inner/out/johnson-city.json",
+  "slug": "johnson-city",
+  "parent": "service-area",
+  "title": "Johnson City",
+  "seo_title": "HVAC Services in Johnson City, TN | Newman Air",
+  "seo_description": "Count on Newman Air for top-quality HVAC services in Johnson City, TN. From heating and cooling repairs to installations and maintenance, we keep your home comfortable year-round.",
+  "robots": ""
+ },
+ {
+  "key": "jonesborough",
+  "json": "pages/inner/out/jonesborough.json",
+  "slug": "jonesborough",
+  "parent": "service-area",
+  "title": "Jonesborough",
+  "seo_title": "HVAC Services in Jonesborough, TN | Newman Air",
+  "seo_description": "Keep your home comfortable with trusted HVAC services in Jonesborough, TN. Newman Air delivers expert heating, cooling, and indoor air quality solutions designed for year-round comfort.",
+  "robots": ""
+ },
+ {
+  "key": "kingsport",
+  "json": "pages/inner/out/kingsport.json",
+  "slug": "kingsport",
+  "parent": "service-area",
+  "title": "Kingsport",
+  "seo_title": "HVAC Services in Kingsport, TN | Newman Air",
+  "seo_description": "Experience reliable HVAC services in Kingsport, TN with Newman Air. Our team provides expert heating, cooling, and indoor air quality solutions to keep your home comfortable in every season.",
+  "robots": ""
+ },
+ {
+  "key": "maintenance",
+  "json": "pages/inner/out/maintenance.json",
+  "slug": "maintenance",
+  "parent": "services",
+  "title": "Maintenance",
+  "seo_title": "HVAC Maintenance in Johnson City, TN | Newman Air",
+  "seo_description": "HVAC maintenance in Johnson City, TN. Seasonal tune-ups that boost efficiency, extend equipment life, and prevent breakdowns. Schedule today.",
+  "robots": ""
+ },
+ {
+  "key": "privacy-policy",
+  "json": "pages/inner/out/privacy-policy.json",
+  "slug": "privacy-policy",
+  "parent": "",
+  "title": "Privacy Policy",
+  "seo_title": "Privacy Policy | Newman Air",
+  "seo_description": "",
+  "robots": ""
+ },
+ {
+  "key": "terms-and-conditions",
+  "json": "pages/inner/out/terms-and-conditions.json",
+  "slug": "terms-and-conditions",
+  "parent": "",
+  "title": "Terms and Conditions",
+  "seo_title": "Terms and Conditions | Newman Air",
+  "seo_description": "",
+  "robots": ""
+ },
+ {
+  "key": "thermostats",
+  "json": "pages/inner/out/thermostats.json",
+  "slug": "thermostats",
+  "parent": "services",
+  "title": "Thermostats",
+  "seo_title": "Smart Thermostat Installation in Johnson City, TN | Newman Air",
+  "seo_description": "Smart thermostat installation and repair in Johnson City, TN. Save energy and control comfort from anywhere, year-round. Schedule today.",
+  "robots": ""
+ },
+ {
+  "key": "financing",
+  "json": "pages/inner/out/financing.json",
+  "slug": "financing",
+  "parent": "",
+  "title": "Financing",
+  "seo_title": "HVAC Financing in Johnson City, TN | Newman Air",
+  "seo_description": "Flexible HVAC financing in the Tri-Cities through GoodLeap, Synchrony and Hearth. Repairs, replacements and upgrades with clear options. Call Newman Air.",
+  "robots": ""
+ },
+ {
+  "key": "maintenance-plan",
+  "json": "pages/inner/out/maintenance-plan.json",
+  "slug": "maintenance-plan",
+  "parent": "",
+  "title": "Bear Necessities Maintenance Plan",
+  "seo_title": "Bear Necessities HVAC Maintenance Plan | Newman Air",
+  "seo_description": "Protect your home's comfort with the Bear Necessities Maintenance Plan from Newman Air. Two tune-ups a year, priority scheduling & 10% repair discounts.",
+  "robots": ""
+ },
+ {
+  "key": "contact-us",
+  "json": "pages/inner/out/contact-us.json",
+  "slug": "contact-us",
+  "parent": "",
+  "title": "Contact Us",
+  "seo_title": "Contact Us | Newman Air",
+  "seo_description": "Contact Newman Air for heating and cooling service in Johnson City and the Tri-Cities. Call (423) 753-7788 or send us a message.",
+  "robots": ""
+ },
+ {
+  "key": "a2p-submission",
+  "json": "pages/inner/out/a2p-submission.json",
+  "slug": "a2p-submission",
+  "parent": "",
+  "title": "A2P Submission",
+  "seo_title": "A2P Submission | Newman Air",
+  "seo_description": "",
+  "robots": "noindex"
+ },
+ {
+  "key": "sitemap",
+  "json": "pages/inner/out/sitemap.json",
+  "slug": "sitemap",
+  "parent": "",
+  "title": "Sitemap",
+  "seo_title": "Sitemap | Newman Air",
+  "seo_description": "",
+  "robots": ""
+ },
+ {
+  "key": "thank-you",
+  "json": "pages/inner/out/thank-you.json",
+  "slug": "thank-you",
+  "parent": "",
+  "title": "Thank You",
+  "seo_title": "Thank You | Newman Air",
+  "seo_description": "",
+  "robots": "noindex"
+ },
+ {
+  "key": "confirmed",
+  "json": "pages/inner/out/confirmed.json",
+  "slug": "confirmed",
+  "parent": "",
+  "title": "Confirmed",
+  "seo_title": "Confirmed | Newman Air",
+  "seo_description": "",
+  "robots": "noindex"
+ }
+]

@@ -1,0 +1,233 @@
+{
+ "key": "indoor-air-quality",
+ "path": "services/indoor-air-quality",
+ "type": "service",
+ "title": "Indoor Air Quality",
+ "seo": {
+  "title": "Indoor Air Quality in Johnson City, TN | Newman Air",
+  "description": "Indoor air quality in Johnson City, TN. Cut allergens, dust, and odors with air cleaners, UV germicidal lights, and filtration. Schedule today."
+ },
+ "source": "https://callbestinshow.com/services/indoor-air-quality/",
+ "hero": {
+  "eyebrow": "Our Services",
+  "h1": "Indoor Air Quality Services in Johnson City, TN",
+  "paras": [
+   "When your home feels dusty, stale, musty, or uncomfortable, the problem may not be your thermostat. Your HVAC system moves air through your home every day, so filtration, airflow, cleanliness, and system condition all affect how fresh your home feels.",
+   "Newman Air provides indoor air quality services in Johnson City and across the Tri-Cities, TN, helping homeowners address dust, odors, allergens, stale air, weak airflow, and other comfort concerns with honest recommendations and practical whole-home solutions."
+  ]
+ },
+ "blocks": [
+  {
+   "h2": "Cleaner Indoor Air Built for Tri-Cities Homes",
+   "items": [
+    {
+     "t": "p",
+     "html": "Indoor air quality problems often become more noticeable when your home stays closed up and the HVAC system runs for long stretches. During humid Tri-Cities summers, high-pollen months, and late-season heat, dust, pet dander, pollen, musty odors, and stale air can keep circulating through the same rooms."
+    },
+    {
+     "t": "p",
+     "html": "The right solution depends on what is causing the problem. Some homes need better filtration. Others need improved airflow, air handler service, HVAC maintenance, or added system protection. Newman Air helps you understand what your home actually needs before recommending equipment."
+    },
+    {
+     "t": "h3",
+     "text": "Air Cleaner Installation"
+    },
+    {
+     "t": "h3",
+     "text": "for Dust, Allergens, and Airborne Particles"
+    },
+    {
+     "t": "p",
+     "html": "A standard HVAC filter helps protect your equipment, but it may not be enough to address fine dust, pollen, pet dander, smoke particles, or lingering odors. A whole-home air cleaner works with your HVAC system to help filter air as it circulates through the home."
+    },
+    {
+     "t": "p",
+     "html": "Air cleaner installation may be a good fit if dust returns quickly after cleaning, allergy symptoms feel worse indoors, pet dander is difficult to manage, or certain odors seem to linger. Instead of relying only on portable room units, a whole-home solution can support cleaner air throughout the spaces your family uses most."
+    },
+    {
+     "t": "btn",
+     "label": "Air Cleaner Installation",
+     "url": "/services/air-cleaners/"
+    },
+    {
+     "t": "h3",
+     "text": "Air Handler Service"
+    },
+    {
+     "t": "h3",
+     "text": "for Better Airflow and Circulation"
+    },
+    {
+     "t": "p",
+     "html": "Your air handler helps move conditioned air through your home. If it is dirty, worn, or struggling, you may notice weak airflow, uneven comfort, stale rooms, noisy operation, or higher energy bills."
+    },
+    {
+     "t": "p",
+     "html": "Air handler problems can also affect indoor air quality because poor circulation makes it harder for air to move properly through filters and indoor air quality equipment. If your indoor air concerns come with weak airflow or rooms that never feel fresh, the air handler may need to be evaluated."
+    },
+    {
+     "t": "p",
+     "html": "Newman Air provides air handler installation and repair for Johnson City homeowners who want stronger circulation, better system performance, and more consistent comfort."
+    },
+    {
+     "t": "btn",
+     "label": "Air Handler",
+     "url": "/services/air-handlers/"
+    },
+    {
+     "t": "h3",
+     "text": "Germicidal Lights"
+    },
+    {
+     "t": "h3",
+     "text": "for Added HVAC System Protection"
+    },
+    {
+     "t": "p",
+     "html": "Some air quality concerns begin inside the HVAC system. Damp coils, dark spaces, and constant airflow can create conditions where microbial growth may become a concern. Germicidal lights, often called UV lights, are installed inside the HVAC system to help target biological contaminants where they may develop."
+    },
+    {
+     "t": "p",
+     "html": "Germicidal lights are not a replacement for filtration, cleaning, or routine HVAC maintenance. They are one part of a broader indoor air quality plan. They may be worth discussing if you notice musty HVAC odors, recurring coil concerns, or want added protection inside the system."
+    },
+    {
+     "t": "btn",
+     "label": "Germicidal Lights",
+     "url": "/services/germicidal-lights/"
+    }
+   ]
+  },
+  {
+   "h2": "Signs Your Home May Need Indoor Air Quality Help",
+   "items": [
+    {
+     "t": "p",
+     "html": "You may benefit from an indoor air quality evaluation if you notice:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Dust returning soon after cleaning",
+      "Lingering household or pet odors",
+      "Musty smells near vents",
+      "Allergy or asthma symptoms that feel worse indoors",
+      "Stale air in bedrooms, offices, or common areas",
+      "Weak or uneven airflow",
+      "Frequent filter changes without much improvement",
+      "Moisture or humidity concerns that affect comfort"
+     ]
+    },
+    {
+     "t": "p",
+     "html": "These signs do not always point to one solution. The issue may involve filtration, airflow, ductwork, HVAC maintenance, air handler performance, or an indoor air quality upgrade."
+    }
+   ]
+  },
+  {
+   "h2": "Choosing the Right Indoor Air Quality Solution",
+   "items": [
+    {
+     "t": "p",
+     "html": "Indoor air quality products work best when they match the actual problem in your home."
+    },
+    {
+     "t": "p",
+     "html": "If dust, pollen, pet dander, or airborne particles are the main concern, an air cleaner or upgraded filtration may be the best place to start. If rooms feel stale, weak, or uneven, airflow and air handler performance should be checked first. If musty odors seem connected to the HVAC system, maintenance and germicidal lights may be part of the solution."
+    },
+    {
+     "t": "p",
+     "html": "If humidity is the main issue, the answer may also involve AC performance, drainage, airflow, or a dedicated humidity-control option. Newman Air helps you sort through the possibilities so you are not paying for a product that does not address the real cause."
+    },
+    {
+     "t": "p",
+     "html": "If an indoor air quality upgrade is the right fit, our team can also walk you through available financing options so you can make a decision that works for your home and budget."
+    }
+   ]
+  },
+  {
+   "h2": "Why Newman Air Leads the Pack",
+   "items": [
+    {
+     "t": "p",
+     "html": "Indoor air quality is personal. You are not just choosing equipment. You are trying to make your home feel cleaner, fresher, and more comfortable for the people who live there."
+    },
+    {
+     "t": "p",
+     "html": "Newman Air brings practical HVAC knowledge, clear communication, and local experience to every indoor air quality service call. Homeowners across Johnson City and the Tri-Cities choose our team for honest recommendations, respectful service, and comfort solutions designed around long-term value."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Decades of local comfort experience: Newman Air helps Tri-Cities homeowners solve comfort problems with reliable service and skilled workmanship.",
+      "Honest work at a fair price: We explain your options clearly and recommend solutions that make sense for your home, not a one-size-fits-all answer.",
+      "Whole-home comfort guidance: From air cleaners and air handlers to germicidal lights and HVAC maintenance, we help you understand which solution fits your air quality concern."
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "See What our Customers Say About our Bear-Strong Service",
+   "items": [
+    {
+     "t": "p",
+     "html": "When you are choosing an indoor air quality solution, you want more than equipment. You want clear answers, respectful service, and a team that takes the time to understand what is actually happening in your home."
+    },
+    {
+     "t": "p",
+     "html": "Homeowners across Johnson City and the Tri-Cities turn to Newman Air because our team focuses on honest recommendations, dependable workmanship, and practical comfort solutions. Whether we are helping with dust, stale air, airflow concerns, odors, or HVAC system performance, our goal is to make the process easier to understand from the first conversation to the final recommendation."
+    }
+   ]
+  }
+ ],
+ "faq": {
+  "h2": "Frequently Asked Questions About Indoor Air Quality",
+  "intro": "Choosing an indoor air quality solution can feel overwhelming because dust, odors, airflow, allergens, and HVAC performance can overlap. These answers can help you understand where to start.",
+  "items": [
+   {
+    "q": "What are the most common signs of poor indoor air quality?",
+    "a": [
+     "Common signs include excessive dust, lingering odors, musty smells, stale air, weak airflow, and allergy symptoms that feel worse indoors. These issues may be related to filtration, airflow, humidity, ductwork, or dirty HVAC components."
+    ]
+   },
+   {
+    "q": "Do air cleaners work with my existing HVAC system?",
+    "a": [
+     "Many whole-home air cleaners are designed to work with existing HVAC systems, but compatibility depends on your equipment and setup. A technician can inspect your system and recommend an option that fits properly."
+    ]
+   },
+   {
+    "q": "Can indoor air quality services help with allergies?",
+    "a": [
+     "Indoor air quality services may help reduce airborne irritants such as dust, pollen, pet dander, and other particles. They cannot eliminate allergies, but better filtration and cleaner circulation may make the home feel more comfortable."
+    ]
+   },
+   {
+    "q": "What is the difference between an air cleaner and a germicidal light?",
+    "a": [
+     "An air cleaner helps capture airborne particles as air moves through the HVAC system. A germicidal light is installed inside the system to help target biological contaminants where they may develop. They solve different problems and may be used together."
+    ]
+   },
+   {
+    "q": "Can my air handler affect indoor air quality?",
+    "a": [
+     "Yes. Your air handler helps move air through your home. If it has airflow problems, dirty components, or failing parts, it can affect circulation, comfort, and how well air moves through filters and indoor air quality equipment."
+    ]
+   }
+  ]
+ },
+ "cta": {
+  "h2": "Ready for Fresher Indoor Air?",
+  "paras": [
+   "If your home feels dusty, stale, musty, or harder to breathe in than it should, you do not have to guess at the cause. The right solution may be an air cleaner, air handler service, germicidal lights, HVAC maintenance, or a combination of improvements based on your home’s needs.",
+   "For dependable indoor air quality services in Johnson City and the Tri-Cities, TN, schedule service with Newman Air and get clear guidance on how to make your home feel cleaner, fresher, and more comfortable."
+  ],
+  "button": {
+   "label": "Schedule Indoor Air Quality Service",
+   "url": "/contact-us/"
+  }
+ },
+ "next": {
+  "h2": "Take the Next Step",
+  "text": "At Newman Air, we’re here to help homeowners in Johnson City, TN, enjoy safer, cleaner indoor air. Our team will walk you through your options and provide solutions that make a real difference. Call us today to schedule your indoor air quality service and take the first step toward healthier living."
+ }
+}

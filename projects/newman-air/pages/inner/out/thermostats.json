@@ -1,0 +1,1418 @@
+{
+ "version": "0.4",
+ "title": "Thermostats",
+ "type": "page",
+ "content": [
+  {
+   "id": "521c5c1e",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "contact",
+    "css_classes": "hero page-hero topo grain on-dark e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "521c48c7",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "521c2219",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "521b9ab8",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "521b1357",
+           "settings": {
+            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/services/\">Services</a></li><li><span aria-current=\"page\">Thermostats</span></li></ol></nav>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "521b26ae",
+           "settings": {
+            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "521b3a05",
+           "settings": {
+            "title": "Thermostat Installation & Repair in Johnson City, TN",
+            "header_size": "h1",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "521b4d5c",
+           "settings": {
+            "editor": "<p class=\"lead fade-up\">Comfort at home starts with the right thermostat. At Newman Air, we handle thermostat installation and repair in Johnson City, TN, so you can control your heating and cooling with ease. If your current thermostat isn’t keeping up, now’s the time to reach out and make a change.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "521b8761",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--delay:.3s",
+            "css_classes": "btn-row fade-up"
+           },
+           "elements": [
+            {
+             "id": "521b60b3",
+             "settings": {
+              "text": "Schedule Online",
+              "link": {
+               "url": "#contact",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-accent btn-xl nw-ico nw-ico-arrow nw-ico-after"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            },
+            {
+             "id": "521b740a",
+             "settings": {
+              "text": "Call Us Today",
+              "link": {
+               "url": "tel:+14237537788",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-ghost btn-xl nw-ico nw-ico-phone"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "521c0ec2",
+         "settings": {
+          "content_width": "full",
+          "_attributes": "style|--delay:.4s",
+          "css_classes": "form-card fade-up"
+         },
+         "elements": [
+          {
+           "id": "521bae0f",
+           "settings": {
+            "html": "<div class=\"badge-ring\" aria-hidden=\"true\"><div class=\"disc\"></div><svg class=\"ring\" viewBox=\"0 0 150 150\"><defs><path id=\"circ\" d=\"M75 75 m-60 0 a60 60 0 1 1 120 0 a60 60 0 1 1 -120 0\"/></defs><text><textPath href=\"#circ\">Trust the bear to fix your air · Since 1994 · </textPath></text></svg><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "521bc166",
+           "settings": {
+            "title": "Request Service",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "1.7rem",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "1.7rem",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "1.7rem",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "521bd4bd",
+           "settings": {
+            "editor": "<p class=\"form-sub\">Tell us what's going on and our team will reach out to confirm your visit.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "521be814",
+           "settings": {
+            "form_name": "Request service",
+            "form_fields": [
+             {
+              "_id": "name",
+              "custom_id": "name",
+              "field_type": "text",
+              "field_label": "Name",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "phone",
+              "custom_id": "phone",
+              "field_type": "tel",
+              "field_label": "Phone",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "email",
+              "custom_id": "email",
+              "field_type": "email",
+              "field_label": "Email",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "city",
+              "custom_id": "city",
+              "field_type": "text",
+              "field_label": "City",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "message",
+              "custom_id": "message",
+              "field_type": "textarea",
+              "field_label": "Message/Request(s)",
+              "required": "",
+              "width": "100",
+              "placeholder": "",
+              "rows": "2"
+             }
+            ],
+            "show_labels": "yes",
+            "mark_required": "yes",
+            "button_text": "Schedule My Visit",
+            "button_width": "100",
+            "column_gap": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "row_gap": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "submit_actions": [
+             "email"
+            ],
+            "email_to": "dispatch@newmanair.com",
+            "email_subject": "New service request from newmanair.com",
+            "email_content": "[all-fields]",
+            "email_from_name": "Newman Air website",
+            "custom_messages": "yes",
+            "success_message": "Thanks! Your request was received. Our team will reach out to confirm your visit.",
+            "required_field_message": "This field is required.",
+            "invalid_message": "Please check the highlighted fields.",
+            "_css_classes": "nw-form"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "form",
+           "elType": "widget"
+          },
+          {
+           "id": "521bfb6b",
+           "settings": {
+            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "521c3570",
+       "settings": {
+        "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\" data-parallax=\".12\"><path class=\"r1\" d=\"M0 150 L110 92 L210 130 L330 58 L460 120 L580 70 L700 128 L840 44 L980 116 L1100 66 L1240 124 L1360 78 L1480 112 L1600 84 V260 H0Z\"/></svg><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\" data-parallax=\".06\"><path class=\"r2\" d=\"M0 190 L140 128 L260 170 L400 112 L540 176 L680 130 L820 186 L960 120 L1100 178 L1250 132 L1390 182 L1520 140 L1600 160 V260 H0Z\"/></svg><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 236 Q400 206 800 230 T1600 220 V260 H0Z\"/><g class=\"trees\"><path d=\"M120 236 l14-40 14 40Z M150 238 l10-28 10 28Z M1380 226 l14-42 14 42Z M1410 228 l10-30 10 30Z M1440 226 l12-36 12 36Z\"/></g></svg></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "521ddeea",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_attributes": "aria-label|Why homeowners trust us",
+    "css_classes": "trust e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "521dcb93",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "521db83c",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "band"
+       },
+       "elements": [
+        {
+         "id": "521da4e5",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "wrap"
+         },
+         "elements": [
+          {
+           "id": "521ca97a",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:0",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "521c6f75",
+             "settings": {
+              "editor": "<span class=\"num\" data-count=\"30\" data-suffix=\"+\">30+</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521c82cc",
+             "settings": {
+              "editor": "<strong>Years Serving Tri-Cities</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521c9623",
+             "settings": {
+              "editor": "<span>Local, family-owned &amp; operated since 1994.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521cf6d6",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:1",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "521cbcd1",
+             "settings": {
+              "editor": "<span class=\"num\" data-count=\"1100\" data-suffix=\"+\">1,100+</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521cd028",
+             "settings": {
+              "editor": "<strong>5-Star Reviews</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521ce37f",
+             "settings": {
+              "editor": "<span>Rated 4.8/5 stars across Johnson City, Kingsport, and Bristol.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521d4432",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:2",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "521d0a2d",
+             "settings": {
+              "editor": "<span class=\"num\">$<span data-count=\"75\">75</span></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521d1d84",
+             "settings": {
+              "editor": "<strong>Diagnostic Fee</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521d30db",
+             "settings": {
+              "editor": "<span>Upfront evaluations and transparent pricing before repairs begin.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521d918e",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:3",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "521d5789",
+             "settings": {
+              "editor": "<span class=\"num\">$$</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521d6ae0",
+             "settings": {
+              "editor": "<strong>Flexible Financing</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521d7e37",
+             "settings": {
+              "editor": "<span>Fast online application through GoodLeap, Synchrony &amp; Hearth.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "521ffc6e",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "article e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "521fe917",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "521fd5c0",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "521fc269",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "prose"
+         },
+         "elements": [
+          {
+           "id": "521f145a",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "prose-block"
+           },
+           "elements": [
+            {
+             "id": "521ea050",
+             "settings": {
+              "title": "Common Problems with Thermostats",
+              "header_size": "h2",
+              "typography_font_size": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_tablet": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_mobile": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_typography": "custom"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521eb3a7",
+             "settings": {
+              "editor": "<p>A faulty thermostat can throw your whole system off balance. You may notice uneven heating or cooling, or your system may cycle on and off at the wrong times. Other warning signs include:</p><ul><li>Rooms that don’t reach the temperature you set</li><li>Higher energy bills without increased usage</li><li>Blank screens, unresponsive buttons, or dead batteries</li><li>Constant system cycling or no response from your unit</li></ul>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521ec6fe",
+             "settings": {
+              "title": "Let’s Work Together",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521eda55",
+             "settings": {
+              "editor": "<p>The right thermostat can make all the difference in your comfort and your home’s efficiency. We’ll help you choose, install, or repair a thermostat that works for your home and your lifestyle. Since 1984, we’ve been helping homeowners enjoy reliable comfort, and our team brings that same level of care to every visit. Our goal is to build long-lasting relationships with every customer, so you can rest easy knowing you’ll be treated like a member of the family every time we meet. Here’s what sets us apart:</p><ul><li>Transparent pricing with no surprise fees</li><li>A “Done Right” guarantee</li><li>Friendly technicians who treat your home with respect</li><li>A local business proud to serve our neighbors for decades</li></ul>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521eedac",
+             "settings": {
+              "title": "Financing Options to Fit Your Needs",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521f0103",
+             "settings": {
+              "editor": "<p>Upgrading to a new thermostat, especially a smart model, is an investment that pays off in comfort and savings. To make it easier, we offer financing options through GoodLeap, Synchrony and Hearth. With flexible payment plans, you can enjoy modern comfort now while paying over time.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521f750d",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "prose-block"
+           },
+           "elements": [
+            {
+             "id": "521f27b1",
+             "settings": {
+              "title": "How Our Thermostat Services Work",
+              "header_size": "h2",
+              "typography_font_size": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_tablet": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_mobile": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_typography": "custom"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521f3b08",
+             "settings": {
+              "editor": "<p>Our technicians will start the process by assessing your current thermostat and system compatibility. If a repair is possible, we’ll get your unit working again with reliable parts and careful service. For installations, we’ll help you choose between standard programmable models and advanced smart thermostats. Once it’s been installed, we’ll show you how to use your new thermostat so you get the most from it. When we leave, you’ll have a system that’s easy to control and built for efficiency.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521f4e5f",
+             "settings": {
+              "title": "The Risks of Not Taking Action",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521f61b6",
+             "settings": {
+              "editor": "<p>If you choose to ignore your thermostat problems, it can lead to bigger issues with your HVAC system and your home’s comfort level. If you continue operating your house with an old or damaged thermostat, it could lead to:</p><ul><li>A shorter equipment lifespan due to overuse</li><li>Higher monthly energy costs from inefficient operation</li><li>Inconsistent temperatures that make your home uncomfortable</li><li>Complete system failure if problems go unresolved</li></ul>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521faf12",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "prose-block"
+           },
+           "elements": [
+            {
+             "id": "521f8864",
+             "settings": {
+              "title": "The Benefits of Reliable Thermostat Control",
+              "header_size": "h2",
+              "typography_font_size": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_tablet": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_mobile": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_typography": "custom"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521f9bbb",
+             "settings": {
+              "editor": "<p>A properly working thermostat is the key to keeping your home comfortable and energy-efficient all year round. With the right installation or repair, you’ll enjoy both immediate and long-term advantages that include:</p><ul><li>Steadier temperatures throughout your home</li><li>Lower energy bills from more efficient use</li><li>Convenient control with modern smart features</li><li>Improved comfort and peace of mind every season</li></ul>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "521e8cf9",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "aside",
+          "css_classes": "aside"
+         },
+         "elements": [
+          {
+           "id": "521e3f9d",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "side-card dark"
+           },
+           "elements": [
+            {
+             "id": "521df241",
+             "settings": {
+              "title": "Talk to Our Team",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521e0598",
+             "settings": {
+              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "521e18ef",
+             "settings": {
+              "text": "Schedule Online",
+              "link": {
+               "url": "#contact",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-accent nw-ico nw-ico-arrow nw-ico-after"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            },
+            {
+             "id": "521e2c46",
+             "settings": {
+              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521e79a2",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "side-card"
+           },
+           "elements": [
+            {
+             "id": "521e52f4",
+             "settings": {
+              "title": "Our Services",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521e664b",
+             "settings": {
+              "html": "<ul class=\"side-nav\"><li><a href=\"/services/ac-repair/\">AC Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ac-installation/\">AC Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/cooling/\">Cooling<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-repair/\">Heating Repair<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heating-installation/\">Heating Installation<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/maintenance/\">Maintenance<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/ductwork/\">Ductwork<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-handlers/\">Air Handlers<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/air-cleaners/\">Air Cleaners<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/germicidal-lights/\">Germicidal Lights<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/thermostats/\" aria-current=\"page\">Thermostats<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/services/commercial/\">Commercial HVAC<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "5220aa7d",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "faq",
+    "css_classes": "faq e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "52209726",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "522083cf",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "52205d21",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "faq-side reveal"
+         },
+         "elements": [
+          {
+           "id": "52200fc5",
+           "settings": {
+            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "5220231c",
+           "settings": {
+            "title": "Frequently Asked Questions",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "52203673",
+           "settings": {
+            "editor": "<p class=\"lead\">Here are answers to common questions about thermostat installation and repair. If you don’t see your question here, just reach out and we’ll be glad to help.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "522049ca",
+           "settings": {
+            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "52207078",
+         "settings": {
+          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>How do I know if my thermostat needs to be replaced?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>If your thermostat doesn’t respond, can’t hold the set temperature, or causes your system to cycle constantly, it may be time for a replacement. Sometimes issues are minor, like dead batteries, but repeated problems often signal a failing unit. Our technicians can confirm whether repair or replacement is the better option.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Can I install a new thermostat myself?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Some basic models can be installed by homeowners, but wiring mistakes or compatibility issues are common. Professional installation guarantees safe setup and proper function with your HVAC system. Plus, we’ll show you how to use it so you get the most benefit.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>What’s the difference between programmable and smart thermostats?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Programmable thermostats let you schedule temperature changes throughout the day, while smart thermostats connect to Wi-Fi and adapt to your habits. Smart models often include mobile control, energy tracking, and integration with home automation systems. Both options can save energy, but smart thermostats offer more flexibility.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>How long does thermostat installation take?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most installations take about an hour, depending on the model and wiring setup. We’ll remove the old thermostat, connect the new one, and test the system to confirm it’s running smoothly. Before leaving, we’ll walk you through its features.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Do smart thermostats really save money?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, smart thermostats help lower energy bills by learning your patterns and adjusting heating or cooling automatically. They also allow remote control, so you can avoid wasted energy when you’re away. Over time, many homeowners see noticeable savings.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>Why is my thermostat not turning on my AC or heat?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>This could be caused by dead batteries, wiring problems, or a faulty thermostat. Sometimes the issue lies in the HVAC system itself, not the thermostat. Our technicians can run tests to pinpoint the problem.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>How often should I replace my thermostat?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most thermostats last about 10 years, but you may want to upgrade sooner to take advantage of modern features. If your thermostat is older, it may not communicate effectively with newer HVAC systems. An upgrade can improve both comfort and efficiency.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Are all thermostats compatible with every HVAC system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>No, compatibility depends on the type of system you have. Our technicians can recommend models that work with your specific equipment and meet your needs. Choosing the right thermostat prevents future performance issues.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Can thermostat issues affect my whole HVAC system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, a faulty thermostat can cause your system to run too often, not enough, or at the wrong times. Over time, this can strain your equipment and shorten its lifespan. That’s why quick service is important.</p></div></details></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "52217f3a",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "maintenance-plan",
+    "css_classes": "club e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "52216be3",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "5221588c",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "5220d12b",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "reveal"
+         },
+         "elements": [
+          {
+           "id": "5220bdd4",
+           "settings": {
+            "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "52214535",
+         "settings": {
+          "content_width": "full",
+          "_attributes": "style|--d:1",
+          "css_classes": "reveal"
+         },
+         "elements": [
+          {
+           "id": "5220e482",
+           "settings": {
+            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "5220f7d9",
+           "settings": {
+            "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "52210b30",
+           "settings": {
+            "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "52211e87",
+           "settings": {
+            "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "522131de",
+           "settings": {
+            "text": "Explore Plan Details",
+            "link": {
+             "url": "/maintenance-plan/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-accent nw-ico nw-ico-arrow nw-ico-after"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "522253f7",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "final topo grain on-dark e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "522240a0",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "5222069b",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap reveal"
+       },
+       "elements": [
+        {
+         "id": "52219291",
+         "settings": {
+          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "5221a5e8",
+         "settings": {
+          "title": "Get Started Today",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 6vw, 4.8rem)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 6vw, 4.8rem)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 6vw, 4.8rem)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "5221b93f",
+         "settings": {
+          "editor": "<p class=\"lead\">If you’re looking for a professional thermostat installation and repair in Johnson City, TN, you can count on our team at Newman Air to deliver the results you need. We will help you choose, install, or repair the right thermostat for your home and make the process as simple and stress-free as possible. Call us today to schedule your appointment and get your system back under control.</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "5221f344",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "btn-row"
+         },
+         "elements": [
+          {
+           "id": "5221cc96",
+           "settings": {
+            "text": "Schedule Service",
+            "link": {
+             "url": "/contact-us/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-accent btn-xl nw-ico nw-ico-arrow nw-ico-after"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "5221dfed",
+           "settings": {
+            "text": "Call Us Now",
+            "link": {
+             "url": "tel:+14237537788",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-ghost btn-xl nw-ico nw-ico-phone"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "522219f2",
+       "settings": {
+        "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      },
+      {
+       "id": "52222d49",
+       "settings": {
+        "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

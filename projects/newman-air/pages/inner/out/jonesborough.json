@@ -1,0 +1,1321 @@
+{
+ "version": "0.4",
+ "title": "Jonesborough",
+ "type": "page",
+ "content": [
+  {
+   "id": "52175c1e",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "contact",
+    "css_classes": "hero page-hero topo grain on-dark e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "521748c7",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "52172219",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "52169ab8",
+         "settings": {
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "52161357",
+           "settings": {
+            "html": "<nav aria-label=\"Breadcrumb\"><ol class=\"crumbs\"><li><a href=\"/\">Home</a></li><li><a href=\"/service-area/\">Service Area</a></li><li><span aria-current=\"page\">Jonesborough</span></li></ol></nav>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "521626ae",
+           "settings": {
+            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Service Area</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "52163a05",
+           "settings": {
+            "title": "Dependable HVAC Solutions in Jonesborough, TN",
+            "header_size": "h1",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2.3rem, 4.6vw, 3.9rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "52164d5c",
+           "settings": {
+            "editor": "<p class=\"lead fade-up\">Are you looking for dependable HVAC services in Jonesborough, TN? At Newman Air, we provide a full range of repair, installation, and maintenance services that will keep your space comfortable no matter the season. We have a proven reputation for handling even the most challenging HVAC issues, and one call is all it takes to get the long-lasting solution you need.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "52168761",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--delay:.3s",
+            "css_classes": "btn-row fade-up"
+           },
+           "elements": [
+            {
+             "id": "521660b3",
+             "settings": {
+              "text": "Schedule Online",
+              "link": {
+               "url": "#contact",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-accent btn-xl nw-ico nw-ico-arrow nw-ico-after"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            },
+            {
+             "id": "5216740a",
+             "settings": {
+              "text": "Call Us Today",
+              "link": {
+               "url": "tel:+14237537788",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-ghost btn-xl nw-ico nw-ico-phone"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "52170ec2",
+         "settings": {
+          "content_width": "full",
+          "_attributes": "style|--delay:.4s",
+          "css_classes": "form-card fade-up"
+         },
+         "elements": [
+          {
+           "id": "5216ae0f",
+           "settings": {
+            "html": "<div class=\"badge-ring\" aria-hidden=\"true\"><div class=\"disc\"></div><svg class=\"ring\" viewBox=\"0 0 150 150\"><defs><path id=\"circ\" d=\"M75 75 m-60 0 a60 60 0 1 1 120 0 a60 60 0 1 1 -120 0\"/></defs><text><textPath href=\"#circ\">Trust the bear to fix your air · Since 1994 · </textPath></text></svg><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "5216c166",
+           "settings": {
+            "title": "Request Service",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "1.7rem",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "1.7rem",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "1.7rem",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "5216d4bd",
+           "settings": {
+            "editor": "<p class=\"form-sub\">Tell us what's going on and our team will reach out to confirm your visit.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "5216e814",
+           "settings": {
+            "form_name": "Request service",
+            "form_fields": [
+             {
+              "_id": "name",
+              "custom_id": "name",
+              "field_type": "text",
+              "field_label": "Name",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "phone",
+              "custom_id": "phone",
+              "field_type": "tel",
+              "field_label": "Phone",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "email",
+              "custom_id": "email",
+              "field_type": "email",
+              "field_label": "Email",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "city",
+              "custom_id": "city",
+              "field_type": "text",
+              "field_label": "City",
+              "required": "true",
+              "width": "50",
+              "placeholder": ""
+             },
+             {
+              "_id": "message",
+              "custom_id": "message",
+              "field_type": "textarea",
+              "field_label": "Message/Request(s)",
+              "required": "",
+              "width": "100",
+              "placeholder": "",
+              "rows": "2"
+             }
+            ],
+            "show_labels": "yes",
+            "mark_required": "yes",
+            "button_text": "Schedule My Visit",
+            "button_width": "100",
+            "column_gap": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "row_gap": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "submit_actions": [
+             "email"
+            ],
+            "email_to": "dispatch@newmanair.com",
+            "email_subject": "New service request from newmanair.com",
+            "email_content": "[all-fields]",
+            "email_from_name": "Newman Air website",
+            "custom_messages": "yes",
+            "success_message": "Thanks! Your request was received. Our team will reach out to confirm your visit.",
+            "required_field_message": "This field is required.",
+            "invalid_message": "Please check the highlighted fields.",
+            "_css_classes": "nw-form"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "form",
+           "elType": "widget"
+          },
+          {
+           "id": "5216fb6b",
+           "settings": {
+            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "52173570",
+       "settings": {
+        "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\" data-parallax=\".12\"><path class=\"r1\" d=\"M0 150 L110 92 L210 130 L330 58 L460 120 L580 70 L700 128 L840 44 L980 116 L1100 66 L1240 124 L1360 78 L1480 112 L1600 84 V260 H0Z\"/></svg><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\" data-parallax=\".06\"><path class=\"r2\" d=\"M0 190 L140 128 L260 170 L400 112 L540 176 L680 130 L820 186 L960 120 L1100 178 L1250 132 L1390 182 L1520 140 L1600 160 V260 H0Z\"/></svg><svg viewBox=\"0 0 1600 260\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 236 Q400 206 800 230 T1600 220 V260 H0Z\"/><g class=\"trees\"><path d=\"M120 236 l14-40 14 40Z M150 238 l10-28 10 28Z M1380 226 l14-42 14 42Z M1410 228 l10-30 10 30Z M1440 226 l12-36 12 36Z\"/></g></svg></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "5218deea",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_attributes": "aria-label|Why homeowners trust us",
+    "css_classes": "trust e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "5218cb93",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "5218b83c",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "band"
+       },
+       "elements": [
+        {
+         "id": "5218a4e5",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "wrap"
+         },
+         "elements": [
+          {
+           "id": "5217a97a",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:0",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "52176f75",
+             "settings": {
+              "editor": "<span class=\"num\" data-count=\"30\" data-suffix=\"+\">30+</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521782cc",
+             "settings": {
+              "editor": "<strong>Years Serving Tri-Cities</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "52179623",
+             "settings": {
+              "editor": "<span>Local, family-owned &amp; operated since 1994.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5217f6d6",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:1",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "5217bcd1",
+             "settings": {
+              "editor": "<span class=\"num\" data-count=\"1100\" data-suffix=\"+\">1,100+</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "5217d028",
+             "settings": {
+              "editor": "<strong>5-Star Reviews</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "5217e37f",
+             "settings": {
+              "editor": "<span>Rated 4.8/5 stars across Johnson City, Kingsport, and Bristol.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "52184432",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:2",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "52180a2d",
+             "settings": {
+              "editor": "<span class=\"num\">$<span data-count=\"75\">75</span></span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "52181d84",
+             "settings": {
+              "editor": "<strong>Diagnostic Fee</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521830db",
+             "settings": {
+              "editor": "<span>Upfront evaluations and transparent pricing before repairs begin.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5218918e",
+           "settings": {
+            "content_width": "full",
+            "_attributes": "style|--d:3",
+            "css_classes": "trust-item reveal"
+           },
+           "elements": [
+            {
+             "id": "52185789",
+             "settings": {
+              "editor": "<span class=\"num\">$$</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "52186ae0",
+             "settings": {
+              "editor": "<strong>Flexible Financing</strong>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "52187e37",
+             "settings": {
+              "editor": "<span>Fast online application through GoodLeap, Synchrony &amp; Hearth.</span>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "521a8864",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "article e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "521a750d",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "521a61b6",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "521a4e5f",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "prose"
+         },
+         "elements": [
+          {
+           "id": "521a3b08",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "prose-block"
+           },
+           "elements": [
+            {
+             "id": "5219a050",
+             "settings": {
+              "title": "Professional Heating and Cooling Services in Jonesborough",
+              "header_size": "h2",
+              "typography_font_size": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_tablet": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_font_size_mobile": {
+               "unit": "custom",
+               "size": "clamp(1.75rem, 3vw, 2.45rem)",
+               "sizes": []
+              },
+              "typography_typography": "custom"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "5219b3a7",
+             "settings": {
+              "editor": "<p>Your HVAC system works hard throughout the year, and when something goes wrong, it can disrupt your whole day. Our technicians handle everything from minor tune-ups to major replacements so you can stay comfortable. Here’s how we can help you in Jonesborough:</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "5219c6fe",
+             "settings": {
+              "editor": "<div class=\"mini-cards\"><a class=\"mini-card\" href=\"/services/ac-repair/\"><strong>AC Repair</strong><span>A broken air conditioner makes hot days even harder. We’ll repair your system quickly, so it cools your home again. Our repairs are designed to restore comfort and prevent further problems.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/ac-installation/\"><strong>AC Installation</strong><span>Upgrading your air conditioner can improve efficiency and comfort. We’ll recommend the right model for your home and handle the installation from start to finish. You’ll have a system built for reliable performance.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/heating-repair/\"><strong>Heating Repair</strong><span>A heating issue can make cold nights unbearable. We’ll repair your furnace, heat pump, or other system so you get warmth when you need it most. Our focus is on safe, long-lasting solutions.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/heating-installation/\"><strong>Heating Installation</strong><span>Old heating systems often waste energy and struggle to keep up. We’ll install a modern system that keeps your home comfortable and reduces energy costs. You’ll notice the difference right away.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/maintenance/\"><strong>HVAC Maintenance</strong><span>Maintenance keeps your system running smoothly all year. We’ll clean, test, and inspect components to catch issues early. Regular upkeep saves money and extends system life.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/commercial/\"><strong>Commercial HVAC Services</strong><span>Businesses rely on dependable heating and cooling. We’ll install, repair, and maintain commercial HVAC systems to keep your workplace comfortable. A well-functioning system helps support both staff and customers.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/ductwork/\"><strong>Ductwork Installation &amp; Repair</strong><span>Damaged ducts waste energy and reduce airflow. We’ll install or repair ductwork so your system runs more efficiently. Strong ducts mean better comfort and lower bills.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/ductless/\"><strong>Ductless HVAC Services</strong><span>Ductless units are flexible options for homes without central ductwork or for hard-to-condition areas. We’ll install or repair these systems to provide targeted comfort. They’re energy-efficient and simple to use.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/heat-pumps/\"><strong>Heat Pump Installation &amp; Repair</strong><span>Heat pumps provide both heating and cooling in one unit. We’ll install a new one or repair your current system to keep it dependable. With proper care, heat pumps work year-round with great efficiency.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/air-handlers/\"><strong>Air Handler Installation &amp; Servicing</strong><span>Air handlers are essential for moving air through your home. We’ll install or repair these units to improve airflow and performance. A good air handler makes your HVAC more effective.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/air-cleaners/\"><strong>Air Cleaner Installation</strong><span>Cleaner air means a healthier home or business. We install air cleaners that filter out allergens, dust, and other particles, so you can focus on more important things. Fresh air supports better comfort and health, and we’re here to help.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/ductless/\"><strong>Mini Split Services</strong><span>Mini splits give you precise control over specific rooms. We’ll install or repair systems that provide efficient, quiet comfort. They’re an excellent choice for additions, garages, or hard-to-heat spaces.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/germicidal-lights/\"><strong>Germicidal Light Installation</strong><span>UV germicidal lights help reduce mold, bacteria, and other pollutants inside your HVAC system. We’ll install these lights to improve your indoor air quality. It’s a simple upgrade that supports healthier living.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/thermostats/\"><strong>Thermostat Installation &amp; Repair</strong><span>Your thermostat controls how well your system works. We’ll repair or install modern thermostats, including smart options. Better controls make your HVAC more efficient and easier to manage.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a><a class=\"mini-card\" href=\"/services/indoor-air-quality/\"><strong>Indoor Air Quality Services</strong><span>Air quality affects everything from comfort to health. We’ll offer solutions like filtration, humidification, and ventilation improvements. You’ll feel the benefits throughout your home.</span><span class=\"more\">Learn more <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></span></a></div>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "5219da55",
+             "settings": {
+              "editor": "<p>We’ll handle your heating, cooling, and air quality needs so you can stay comfortable all year.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "5219edac",
+             "settings": {
+              "title": "Flexible Financing for Your HVAC Project",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521a0103",
+             "settings": {
+              "editor": "<p>Big HVAC upgrades don’t need to feel overwhelming. We provide financing through GoodLeap, Synchrony and Hearth to make projects more manageable. Spreading payments out helps you move forward with comfort improvements without financial stress.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            },
+            {
+             "id": "521a145a",
+             "settings": {
+              "title": "Why Choose Us?",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "521a27b1",
+             "settings": {
+              "editor": "<p>For Jonesborough residents and businesses, reliable HVAC service starts here. We’ll provide the installation, repair, or maintenance you need to keep your system running strong, no matter what time of year it happens to be. We’ve been a fixture in the local community since 1984, and you can count on being treated just like a member of the family every time we meet. Here’s more of what you can expect when you choose to work with us:</p><ul><li>Clear, upfront estimates with no hidden surprises</li><li>Our “Done Right” service guarantee</li><li>Technicians who show up on time and treat your home with respect</li><li>A locally owned and community-focused company</li></ul>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "52198cf9",
+         "settings": {
+          "content_width": "full",
+          "html_tag": "aside",
+          "css_classes": "aside"
+         },
+         "elements": [
+          {
+           "id": "52193f9d",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "side-card dark"
+           },
+           "elements": [
+            {
+             "id": "5218f241",
+             "settings": {
+              "title": "Talk to Our Team",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "52190598",
+             "settings": {
+              "html": "<a class=\"big-phone\" href=\"tel:+14237537788\">(423) 753-7788</a>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            },
+            {
+             "id": "521918ef",
+             "settings": {
+              "text": "Schedule Online",
+              "link": {
+               "url": "#contact",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "btn btn-accent nw-ico nw-ico-arrow nw-ico-after"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "button",
+             "elType": "widget"
+            },
+            {
+             "id": "52192c46",
+             "settings": {
+              "html": "<p class=\"fee\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>$75 diagnostic fee, upfront pricing.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "521979a2",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "side-card"
+           },
+           "elements": [
+            {
+             "id": "521952f4",
+             "settings": {
+              "title": "Service Areas",
+              "header_size": "h3"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "5219664b",
+             "settings": {
+              "html": "<ul class=\"side-nav\"><li><a href=\"/service-area/johnson-city/\">Johnson City<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/service-area/kingsport/\">Kingsport<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/service-area/bristol/\">Bristol<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/service-area/elizabethton/\">Elizabethton<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/service-area/greeneville/\">Greeneville<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/service-area/jonesborough/\" aria-current=\"page\">Jonesborough<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li><li><a href=\"/service-area/gray/\">Gray<svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></li></ul>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "html",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "521b3673",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "faq",
+    "css_classes": "faq e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "521b231c",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "521b0fc5",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "521ae917",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "faq-side reveal"
+         },
+         "elements": [
+          {
+           "id": "521a9bbb",
+           "settings": {
+            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "521aaf12",
+           "settings": {
+            "title": "Frequently Asked Questions",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "521ac269",
+           "settings": {
+            "editor": "<p class=\"lead\">Here are some of the most common questions about HVAC services in Jonesborough. If you don’t see your question, get in touch and we’ll provide you with an answer.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "521ad5c0",
+           "settings": {
+            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "521afc6e",
+         "settings": {
+          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>How often should I have my HVAC system serviced?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Twice-yearly maintenance is always recommended; once in spring for cooling and once in fall for heating. These visits prepare your system for heavy use during extreme temperatures. Regular servicing can also extend the life of your equipment.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>When should I consider replacing my HVAC system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Replacement is often needed after 12–15 years or if your system has frequent issues. If your bills are rising and comfort is decreasing, it may be time for a new unit. Installing a modern system can bring major improvements.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Can ductless systems heat and cool the whole house?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, ductless systems can be used to condition individual rooms or larger areas with multiple units. They’re especially helpful in homes without existing ductwork. Their efficiency and flexibility make them a popular choice.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Why does my HVAC make strange noises?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Sounds like banging, rattling, or squealing usually mean parts are worn or loose. These noises should be checked quickly to avoid further damage. A technician can find and fix the cause before it gets worse.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>Will a smart thermostat really make a difference?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Smart thermostats can cut energy waste by adjusting temperatures to your schedule. Many allow remote access through an app, making them convenient and efficient. Homeowners often see lower utility bills after installing one.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>How does indoor air quality affect my health?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Poor air quality can lead to allergy flare-ups, headaches, or respiratory problems. Clean air makes your home more comfortable and supports better well-being. Adding systems like cleaners or UV lights can help significantly.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>How long does it take to install HVAC equipment?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Most new installations are finished in a day. More complex projects may take longer, but we’ll explain the timeline upfront. Our team works efficiently to minimize disruption.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Do you offer HVAC services for businesses in Jonesborough?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes, we provide commercial HVAC installation, repair, and maintenance. We work with systems of all sizes to keep business environments comfortable. A reliable system helps protect staff, customers, and equipment.</p></div></details><details class=\"qa reveal\" style=\"--d:0\"><summary>What’s included in routine HVAC maintenance?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Maintenance includes cleaning, testing, and checking all major components. We’ll look for potential problems before they become bigger issues. It’s the best way to keep your system safe and efficient.</p></div></details></div>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "521c0b30",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "_element_id": "maintenance-plan",
+    "css_classes": "club e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "521bf7d9",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "521be482",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap"
+       },
+       "elements": [
+        {
+         "id": "521b5d21",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "reveal"
+         },
+         "elements": [
+          {
+           "id": "521b49ca",
+           "settings": {
+            "html": "<div class=\"member-card\"><div class=\"mc-top\"><div class=\"mc-name\">BEAR NECESSITIES<small>NEWMAN AIR MEMBER</small></div><span class=\"chip\"></span></div><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div class=\"mc-foot\">Starting at<b>$149/year</b></div></div>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        },
+        {
+         "id": "521bd12b",
+         "settings": {
+          "content_width": "full",
+          "_attributes": "style|--d:1",
+          "css_classes": "reveal"
+         },
+         "elements": [
+          {
+           "id": "521b7078",
+           "settings": {
+            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "html",
+           "elType": "widget"
+          },
+          {
+           "id": "521b83cf",
+           "settings": {
+            "title": "Protect Your HVAC System Starting at <span class=\"price\">$149/Year</span>",
+            "header_size": "h2",
+            "typography_font_size": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "custom",
+             "size": "clamp(2rem, 4.2vw, 3.4rem)",
+             "sizes": []
+            },
+            "typography_typography": "custom"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "heading",
+           "elType": "widget"
+          },
+          {
+           "id": "521b9726",
+           "settings": {
+            "editor": "<p class=\"lead\">East Tennessee weather pushes heating and cooling systems to their limits. Our annual maintenance plan keeps your equipment running efficiently, helps prevent sudden breakdowns, and gives you priority service when you need it most.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "521baa7d",
+           "settings": {
+            "editor": "<ul class=\"checks\"><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Two Seasonal Tune-Ups:</strong> Comprehensive spring cooling and fall heating inspections.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>10% Repair Savings:</strong> Instant discounts on qualifying parts and labor.</span></li><li><span class=\"tick\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg></span><span><strong>Priority Scheduling:</strong> Jump to the front of the line during extreme weather.</span></li></ul>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "521bbdd4",
+           "settings": {
+            "text": "Explore Plan Details",
+            "link": {
+             "url": "/maintenance-plan/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-accent nw-ico nw-ico-arrow nw-ico-after"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  },
+  {
+   "id": "521cdfed",
+   "settings": {
+    "content_width": "full",
+    "html_tag": "section",
+    "css_classes": "final topo grain on-dark e-no-lazyload"
+   },
+   "elements": [
+    {
+     "id": "521ccc96",
+     "settings": {
+      "content_width": "boxed",
+      "boxed_width": {
+       "unit": "px",
+       "size": 1240,
+       "sizes": []
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "nw-pass"
+     },
+     "elements": [
+      {
+       "id": "521c9291",
+       "settings": {
+        "content_width": "full",
+        "css_classes": "wrap reveal"
+       },
+       "elements": [
+        {
+         "id": "521c1e87",
+         "settings": {
+          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "html",
+         "elType": "widget"
+        },
+        {
+         "id": "521c31de",
+         "settings": {
+          "title": "Take the Next Step",
+          "header_size": "h2",
+          "typography_font_size": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 6vw, 4.8rem)",
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 6vw, 4.8rem)",
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "custom",
+           "size": "clamp(2.4rem, 6vw, 4.8rem)",
+           "sizes": []
+          },
+          "typography_typography": "custom"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "heading",
+         "elType": "widget"
+        },
+        {
+         "id": "521c4535",
+         "settings": {
+          "editor": "<p class=\"lead\">At Newman Air, we’re proud to offer complete HVAC services in Jonesborough, TN, that keep homes and businesses comfortable year-round. Whether you need repairs, maintenance, or a new installation, our team is ready to help. Call today to schedule your appointment and take control of your comfort.</p>"
+         },
+         "elements": [],
+         "isInner": true,
+         "widgetType": "text-editor",
+         "elType": "widget"
+        },
+        {
+         "id": "521c7f3a",
+         "settings": {
+          "content_width": "full",
+          "css_classes": "btn-row"
+         },
+         "elements": [
+          {
+           "id": "521c588c",
+           "settings": {
+            "text": "Schedule Service",
+            "link": {
+             "url": "/contact-us/",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-accent btn-xl nw-ico nw-ico-arrow nw-ico-after"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          },
+          {
+           "id": "521c6be3",
+           "settings": {
+            "text": "Call Us Now",
+            "link": {
+             "url": "tel:+14237537788",
+             "is_external": "",
+             "nofollow": "",
+             "custom_attributes": ""
+            },
+            "_css_classes": "btn btn-ghost btn-xl nw-ico nw-ico-phone"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "button",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
+        }
+       ],
+       "isInner": true,
+       "elType": "container"
+      },
+      {
+       "id": "521ca5e8",
+       "settings": {
+        "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      },
+      {
+       "id": "521cb93f",
+       "settings": {
+        "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
+       },
+       "elements": [],
+       "isInner": true,
+       "widgetType": "html",
+       "elType": "widget"
+      }
+     ],
+     "isInner": true,
+     "elType": "container"
+    }
+   ],
+   "isInner": false,
+   "elType": "container"
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

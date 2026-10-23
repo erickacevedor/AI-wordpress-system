@@ -1,0 +1,104 @@
+{
+ "key": "about-us",
+ "path": "about-us",
+ "type": "about",
+ "title": "About Us",
+ "seo": {
+  "title": "About Us | Newman Air",
+  "description": ""
+ },
+ "source": "https://callbestinshow.com/about-us/",
+ "hero": {
+  "eyebrow": "About Newman Air",
+  "h1": "Bear-Strong Comfort Since 1994",
+  "paras": [
+   "At Newman Air, comfort isn’t just our business—it’s in our roots. For more than 30 years, we’ve proudly served the Tri-Cities, TN, area as a family-operated company built on honesty, reliability and skilled craftsmanship. What started as a local business with big ambitions has grown into a trusted team that treats every customer like a neighbor. From day one, we’ve focused on doing the right thing, keeping our promises and delivering service that feels less like a transaction and more like a helping hand."
+  ]
+ },
+ "blocks": [
+  {
+   "h2": "",
+   "items": [
+    {
+     "t": "p",
+     "html": "Our culture is simple: do the right thing for customers, keep our word and make the process easy from the first call to the follow-up. Customers often say that having us in their home feels like “a friend stopped by to help,” and that’s the experience we aim to deliver—personal, respectful and professional."
+    },
+    {
+     "t": "h3",
+     "text": "A Team That Puts Customers First"
+    },
+    {
+     "t": "p",
+     "html": "You deserve clear answers and work done the right way. That’s why every visit starts with listening. We explain what we find, lay out practical options and help you choose the path that best fits your home or business. No runaround, no pressure, no unnecessary upselling—just straightforward guidance and careful workmanship."
+    },
+    {
+     "t": "p",
+     "html": "We’re particular about the details that shape your day. Timely arrivals, tidy work areas and clean wrap-ups aren’t extras to us—they’re part of doing the job properly and leaving your space better than we found it."
+    },
+    {
+     "t": "h3",
+     "text": "Rooted in the Tri-Cities"
+    },
+    {
+     "t": "p",
+     "html": "This is home. We live here, raise our families here and understand the weather swings and housing quirks that come with the Tri-Cities, TN, area. That local perspective shapes our recommendations and the way we show up for neighbors. Our membership in the Home Builders Association keeps us connected to fellow local professionals and the standards that shape our industry."
+    },
+    {
+     "t": "h3",
+     "text": "More Than Just Service Calls"
+    },
+    {
+     "t": "p",
+     "html": "Heating and cooling is what we do, but people are why we do it. A repair or replacement is never just about equipment—it’s about making your space safer, healthier and more comfortable. We take time to answer questions, talk through timelines and costs and keep communication clear so you can move forward with confidence."
+    },
+    {
+     "t": "p",
+     "html": "For customers who like a proactive approach, our Bear Necessities Maintenance Plan delivers year-round maintenance, priority scheduling and member-only savings to keep everything running smoothly and efficiently."
+    },
+    {
+     "t": "h3",
+     "text": "Your Comfort Deserves a Bear-Strong Team"
+    },
+    {
+     "t": "p",
+     "html": "Choosing the right heating and cooling team makes all the difference. With decades of experience, hometown values and technicians who truly care, we bring the kind of service that’s worth recommending to your neighbors. Here’s why families and businesses across the Tri-Cities, TN, area continue to put their trust in us:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Proven track record—more than 30 years of reliable service",
+      "Family-operated—local roots and a personal touch in every call",
+      "Certified expertise—Daikin® Comfort Pro and certified CCE (Certified Comfort Expert) dealer through YORK® for trusted solutions",
+      "Friendly faces—a caring team that treats your home like their own",
+      "A guarantee you can count on",
+      "Flexible financing—options through GoodLeap, Synchrony Bank and Hearth to keep comfort within reach",
+      "Top brands—reliable systems from Ruud, Daikin, YORK, Mitsubishi and more",
+      "Community loyalty—supporting the same neighborhoods we proudly serve"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Built on Integrity and Quality"
+    },
+    {
+     "t": "p",
+     "html": "We believe great service is about more than just technical skill—it’s about how you’re treated along the way. That means transparent pricing, dependable communication and workmanship that’s never rushed or incomplete. From the first conversation to the final handshake, you’ll know you’re working with people who genuinely care about getting it right."
+    },
+    {
+     "t": "h3",
+     "text": "Your Comfort, Our Commitment"
+    },
+    {
+     "t": "p",
+     "html": "At Newman Air, we don’t measure success in awards or titles. We measure it in the comfort of your home or business, the trust you place in us and the relationships we’ve built for decades. For us, every service call is a chance to prove why we’re Newman Air—and to make sure you always feel like you’ve got a best friend on your side."
+    }
+   ]
+  }
+ ],
+ "faq": null,
+ "cta": null,
+ "next": {
+  "h2": "Schedule Your Service Today!",
+  "text": "Booking a service with Newman Air is quick and easy. Simply reach out to our team, choose a time that works for you, and let us handle the rest."
+ }
+}

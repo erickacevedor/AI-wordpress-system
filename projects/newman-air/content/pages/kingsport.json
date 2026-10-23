@@ -1,0 +1,188 @@
+{
+ "key": "kingsport",
+ "path": "service-area/kingsport",
+ "type": "city",
+ "title": "Kingsport",
+ "seo": {
+  "title": "HVAC Services in Kingsport, TN | Newman Air",
+  "description": "Experience reliable HVAC services in Kingsport, TN with Newman Air. Our team provides expert heating, cooling, and indoor air quality solutions to keep your home comfortable in every season."
+ },
+ "source": "https://callbestinshow.com/service-area/kingsport/",
+ "hero": {
+  "eyebrow": "Service Area",
+  "h1": "Reliable HVAC Services in Kingsport, TN",
+  "paras": [
+   "Your comfort depends on more than just the weather; it depends on how well your HVAC system is running. At Newman Air, we provide trusted HVAC services in Kingsport, TN, to keep your home or business at the right temperature year-round. From new installations to quick repairs, our team is here to help."
+  ]
+ },
+ "blocks": [
+  {
+   "h2": "Complete HVAC Solutions in Kingsport",
+   "items": [
+    {
+     "t": "p",
+     "html": "Every home and business needs heating and cooling systems that perform when it matters most. Whether your system is due for a replacement, requires an urgent repair, or just needs routine care, we’ll take care of it. Here’s a closer look at the services we offer:"
+    },
+    {
+     "t": "cards",
+     "items": [
+      {
+       "title": "AC Repair",
+       "html": "A broken AC makes summers in Kingsport feel even hotter. We’ll diagnose the issue and repair your unit quickly, so your home cools down fast. Our repairs are dependable and designed to extend the life of your system."
+      },
+      {
+       "title": "AC Installation",
+       "html": "If your air conditioner is past its prime, an upgrade can improve both comfort and efficiency. We’ll recommend and install a system that matches your home’s needs. You’ll notice better cooling and lower energy use right away."
+      },
+      {
+       "title": "Heating Repair",
+       "html": "Heating problems can make cold nights uncomfortable and stressful. We’ll repair your furnace, heat pump, or boiler so it provides consistent warmth again. Our technicians focus on safe, effective results."
+      },
+      {
+       "title": "Heating Installation",
+       "html": "Old heating systems cost more to run and often fail when you need them most. We’ll install a modern system designed for steady comfort and lower utility costs. You’ll have peace of mind knowing your home is ready for winter."
+      },
+      {
+       "title": "HVAC Maintenance",
+       "html": "Regular maintenance is the best way to avoid costly repairs. We’ll clean, inspect, and test your system so it runs efficiently all year. Preventive care helps extend the life of your equipment."
+      },
+      {
+       "title": "Commercial HVAC Services",
+       "html": "Businesses can’t afford downtime from a failing HVAC system. We’ll install, repair, and maintain commercial units of all sizes to keep workplaces comfortable. A reliable system supports your employees, customers, and operations."
+      },
+      {
+       "title": "Ductwork Installation &amp; Repair",
+       "html": "Leaky or damaged ducts waste energy and reduce airflow. We’ll repair or replace ductwork so your system works the way it should. Strong ducts improve comfort and efficiency in every room."
+      },
+      {
+       "title": "Ductless HVAC Services",
+       "html": "Ductless systems are a smart choice for areas without central ductwork or for spot heating and cooling. We’ll install or service these units to provide energy-efficient comfort. They’re quiet, compact, and easy to manage."
+      },
+      {
+       "title": "Heat Pump Installation &amp; Repair",
+       "html": "Heat pumps handle both heating and cooling in a single system. We’ll install a new one or repair your current unit, so it runs reliably year-round. These systems are efficient and versatile for Kingsport’s weather."
+      },
+      {
+       "title": "Air Handler Installation &amp; Servicing",
+       "html": "Air handlers are a key factor for proper airflow through your home. We can install or service these units, so your HVAC performs at its best. A strong air handler helps your system work more effectively."
+      },
+      {
+       "title": "Air Cleaner Installation",
+       "html": "Cleaner indoor air supports better health and comfort. The air cleaners we install will reduce dust, allergens, and pollutants in your home. You’ll enjoy fresher, healthier air every day."
+      },
+      {
+       "title": "Mini Split Services",
+       "html": "Mini splits are great for controlling comfort in specific rooms or additions. We install and repair these units so you get efficient heating and cooling where you need it most. They’re flexible, effective, and energy-friendly."
+      },
+      {
+       "title": "Germicidal Light Installation",
+       "html": "Germicidal lights help reduce mold, bacteria, and other contaminants inside your HVAC system. We’ll install these lights to improve indoor air quality and protect your home. It’s a simple addition that brings long-term benefits."
+      },
+      {
+       "title": "Thermostat Installation &amp; Repair",
+       "html": "The right thermostat makes your system easier to control and more efficient. We’ll install modern or smart thermostats or repair your current one. Better controls mean better comfort and lower energy costs."
+      },
+      {
+       "title": "Indoor Air Quality Services",
+       "html": "Air quality impacts your comfort and health every day. We’ll offer solutions that address humidity, filtration, and ventilation issues. A healthier home starts with cleaner air."
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "We’ll keep your home or business in Kingsport comfortable in every season."
+    },
+    {
+     "t": "h3",
+     "text": "HVAC Financing Options"
+    },
+    {
+     "t": "p",
+     "html": "Big HVAC projects don’t have to stop your plans. At Newman Air, we partner with GoodLeap, Synchrony and Hearth to offer financing options that make upgrades more affordable. Spreading payments over time helps you invest in comfort now without financial stress."
+    },
+    {
+     "t": "h3",
+     "text": "Why Choose Us?"
+    },
+    {
+     "t": "p",
+     "html": "In Kingsport, people want HVAC service they can trust, and that’s exactly what we deliver. We’ll repair or install your system with precision and respect for your home or business, and we routinely go out of our way to make sure every customer is happy. Since 1984, we’ve been proud members of the local community, building long-lasting relationships with everyone we meet. Here’s more of what you can expect when you work with us:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Transparent pricing with no hidden fees or costs",
+      "A “Done Right” guarantee",
+      "Professional technicians who treat your home with respect",
+      "A locally owned business, proud to be part of the community"
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": {
+  "h2": "Frequently Asked Questions",
+  "intro": "Here are answers to common questions about HVAC services in Kingsport. If you don’t see your question, get in touch and we’ll provide you with an answer.",
+  "items": [
+   {
+    "q": "How often should my HVAC system be maintained?",
+    "a": [
+     "We recommend maintenance service twice per year. Once before summer and once before winter. These visits keep your system prepared for peak use. Regular maintenance also lowers the chance of breakdowns and improves efficiency."
+    ]
+   },
+   {
+    "q": "What’s the average lifespan of an HVAC system?",
+    "a": [
+     "Most systems last 12 to 15 years with proper maintenance. Age, regular usage, and routine upkeep all affect how long a system will last. Replacing an older system often saves money in the long run."
+    ]
+   },
+   {
+    "q": "Can ductless systems work in larger homes?",
+    "a": [
+     "Yes, multiple ductless units can provide comfort across an entire home. They’re especially useful in homes without existing ductwork. Many homeowners enjoy the energy savings they provide."
+    ]
+   },
+   {
+    "q": "Why does my HVAC keep short-cycling?",
+    "a": [
+     "Short cycling often happens when a unit is oversized, a thermostat malfunctions, or airflow is restricted. This constant starting and stopping uses more energy and wears parts down. A technician can pinpoint and fix the problem."
+    ]
+   },
+   {
+    "q": "Are smart thermostats worth the upgrade?",
+    "a": [
+     "Smart thermostats give you more control and can reduce energy waste. Many models let you adjust settings remotely, which makes them convenient and efficient. Over time, they often pay for themselves in savings."
+    ]
+   },
+   {
+    "q": "How do air cleaners improve comfort?",
+    "a": [
+     "Air cleaners remove dust, pollen, and pollutants that standard filters may miss. This improves air quality and can help reduce allergy or asthma symptoms. Cleaner air makes your home more comfortable and healthier."
+    ]
+   },
+   {
+    "q": "How long does a new HVAC installation take?",
+    "a": [
+     "Most installations are completed in one day. More complex jobs may take longer, but we’ll explain the timeline clearly before starting. Our team works efficiently while focusing on quality."
+    ]
+   },
+   {
+    "q": "Do you offer HVAC services for businesses in Kingsport?",
+    "a": [
+     "Yes, we handle commercial HVAC installation, maintenance, and repair. We work with systems of all sizes to keep business spaces comfortable. A well-running system supports productivity and customer satisfaction."
+    ]
+   },
+   {
+    "q": "What’s included in routine HVAC maintenance?",
+    "a": [
+     "Maintenance includes cleaning coils, checking refrigerant, testing controls, and inspecting all components. We’ll also look for small issues that could turn into larger problems. Regular care helps extend the life of your equipment."
+    ]
+   }
+  ]
+ },
+ "cta": null,
+ "next": {
+  "h2": "Reach Out to Us Today",
+  "text": "At Newman Air, we offer dependable HVAC services in Kingsport, TN, for both homes and businesses. Whether you need repairs, installation, or maintenance, our team is ready to help you stay comfortable all year long. Call today to schedule an appointment and take the first step toward better heating and cooling."
+ }
+}

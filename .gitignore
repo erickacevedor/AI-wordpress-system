@@ -6,3 +6,6 @@ __pycache__/
 
 # Claude Code session exports (/export) — transcripts, not repo content
 20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*.txt
+
+# Newman Air: downloaded HTML of the old site (regenerable, large)
+projects/newman-air/content/source/html/

@@ -1,0 +1,164 @@
+/* ============================================================================
+   INNER PAGES (hand-written, comes after overrides.css in newman-core.css)
+
+   The V2.1 prototype only covers the homepage. Inner pages (services, service
+   areas, About, Contact, Financing, Maintenance Plan, legal) reuse its bands as
+   they are (hero + form card, trust band, FAQ, Bear Necessities, final CTA) and
+   add the pieces below, built from the same tokens: a shorter hero, an article
+   column with a sticky sidebar, numbered steps, mini service cards, pricing cards
+   and a contact card. Built by pages/inner/build.py.
+   ============================================================================ */
+
+/* ---- Hero: same band as the homepage, shorter, smaller H1 ------------------ */
+.nw-site .elementor .hero.page-hero { padding: 150px 0 200px; }
+.nw-site .elementor .page-hero h1 { font-size: clamp(2.3rem, 4.6vw, 3.9rem); }
+.nw-site .elementor .page-hero .lead + .lead { margin-top: .8em; }
+.nw-site .elementor .page-hero.solo .wrap { grid-template-columns: minmax(0, 820px); }
+.nw-site .elementor .page-hero.compact { padding: 140px 0 150px; }
+.nw-site .elementor .page-hero.compact .ridges { height: 140px; }
+.nw-site .elementor .crumbs {
+  display: flex; flex-wrap: wrap; gap: .45rem; margin: 0 0 1.1rem; padding: 0; list-style: none;
+  font: 600 .85rem/1.3 var(--font-body); color: var(--c-on-dark);
+}
+.nw-site .elementor .crumbs li + li::before { content: "/"; margin-right: .45rem; opacity: .5; }
+.nw-site .elementor .crumbs a { color: #fff; text-decoration: none; opacity: .8; }
+.nw-site .elementor .crumbs a:hover { opacity: 1; text-decoration: underline; }
+.nw-site .elementor .crumbs [aria-current] { color: var(--c-highlight); }
+
+/* The badge ring sits over the card's top-right corner: keep long titles clear of it. */
+.nw-site .elementor .page-hero .form-card .elementor-widget-heading .elementor-heading-title { padding-right: 64px; }
+
+/* ---- Article: content column + sticky sidebar ------------------------------ */
+.nw-site .elementor .article .wrap {
+  display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 64px; align-items: start;
+}
+.nw-site .elementor .article.wide .wrap { grid-template-columns: minmax(0, 860px); justify-content: center; }
+.nw-site .elementor .prose { font-size: 1.06rem; color: var(--c-ink); }
+.nw-site .elementor .prose-block + .prose-block { margin-top: 64px; padding-top: 56px; border-top: 1.5px solid var(--c-line); }
+.nw-site .elementor .prose h2,
+.nw-site .elementor .prose h2.elementor-heading-title { font-size: clamp(1.75rem, 3vw, 2.45rem); margin: 0 0 .55em; }
+.nw-site .elementor .prose h3,
+.nw-site .elementor .prose h3.elementor-heading-title { font-size: 1.32rem; margin: 1.6em 0 .5em; }
+.nw-site .elementor .prose .elementor-widget-heading:first-child h3 { margin-top: 0; }
+.nw-site .elementor .prose p { margin: 0 0 1em; }
+.nw-site .elementor .prose p:last-child { margin-bottom: 0; }
+.nw-site .elementor .prose a:not(.btn):not(.elementor-button):not(.text-link):not(.mini-card) {
+  color: var(--c-highlight-2); font-weight: 600; text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--c-highlight) 60%, transparent); text-underline-offset: .18em;
+}
+.nw-site .elementor .prose ul { list-style: none; padding: 0; margin: .4em 0 1.3em; display: grid; gap: 10px; }
+.nw-site .elementor .prose ul li { position: relative; padding-left: 36px; }
+.nw-site .elementor .prose ul li::before {
+  content: ""; position: absolute; left: 0; top: .18em; width: 24px; height: 24px; border-radius: 50%;
+  background: var(--c-accent-soft);
+}
+.nw-site .elementor .prose ul li::after {
+  content: ""; position: absolute; left: 6px; top: calc(.18em + 6px); width: 12px; height: 12px;
+  background: var(--c-base);
+  -webkit-mask: url(../icons/i-check.svg) center / contain no-repeat; mask: url(../icons/i-check.svg) center / contain no-repeat;
+}
+.nw-site .elementor .prose .btn-row { margin-top: 26px; }
+
+/* Numbered steps (old "What happens during..." lists) */
+.nw-site .elementor .prose ol.steps-list { list-style: none; padding: 0; margin: 1em 0 1.2em; display: grid; gap: 14px; counter-reset: stp; }
+.nw-site .elementor .steps-list li {
+  counter-increment: stp; position: relative; padding: 20px 22px 20px 78px; border-radius: var(--radius);
+  background: var(--c-surface); border: 1.5px solid var(--c-line);
+}
+.nw-site .elementor .steps-list li::before {
+  content: counter(stp); position: absolute; left: 20px; top: 18px; width: 42px; height: 42px; border-radius: 50%;
+  display: grid; place-items: center; background: var(--c-base); color: #fff; font: 800 1.15rem/1 var(--font-display);
+}
+.nw-site .elementor .steps-list strong { display: block; font: 800 1.12rem/1.3 var(--font-display); color: var(--c-base); margin-bottom: .3em; }
+.nw-site .elementor .steps-list p { margin: 0; color: var(--c-muted); }
+
+/* Mini service cards (old "Title<br>text" paragraphs on hubs and city pages) */
+.nw-site .elementor .mini-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 1.2em 0 1.4em; }
+.nw-site .elementor .mini-card {
+  display: flex; flex-direction: column; gap: .45em; padding: 22px 22px 20px; border-radius: var(--radius);
+  background: var(--c-surface); border: 1.5px solid var(--c-line); text-decoration: none; color: var(--c-ink);
+  transition: border-color .25s, box-shadow .25s, transform .25s var(--ease);
+}
+.nw-site .elementor a.mini-card:hover { border-color: color-mix(in srgb, var(--c-highlight) 60%, white); box-shadow: var(--shadow); transform: translateY(-2px); }
+.nw-site .elementor .mini-card strong { font: 800 1.12rem/1.25 var(--font-display); color: var(--c-base); }
+.nw-site .elementor .mini-card span { font-size: .96rem; color: var(--c-muted); }
+.nw-site .elementor .mini-card .more { margin-top: auto; padding-top: .4em; font-weight: 700; color: var(--c-highlight-2); display: inline-flex; gap: .35em; align-items: center; }
+.nw-site .elementor .mini-card .more svg { width: 1em; height: 1em; }
+
+/* ---- Sidebar ---------------------------------------------------------------- */
+.nw-site .elementor .aside { position: sticky; top: 120px; display: grid; gap: 18px; }
+.nw-site .elementor .side-card { border-radius: var(--radius); padding: 26px 24px; background: var(--c-cream); }
+.nw-site .elementor .side-card h3,
+.nw-site .elementor .side-card .elementor-heading-title { font-size: 1.2rem; margin: 0 0 .6em; }
+.nw-site .elementor .side-card p { margin: 0 0 1em; color: var(--c-muted); font-size: .97rem; }
+.nw-site .elementor .side-card .btn { width: 100%; }
+.nw-site .elementor .side-card.dark { background: linear-gradient(170deg, var(--c-base), var(--c-base-deep)); color: var(--c-on-dark); }
+.nw-site .elementor .side-card.dark h3,
+.nw-site .elementor .side-card.dark .elementor-heading-title { color: #fff; }
+.nw-site .elementor .side-card.dark p { color: var(--c-on-dark); }
+.nw-site .elementor .side-card .big-phone { display: block; font: 800 1.6rem/1.1 var(--font-display); color: #fff; text-decoration: none; margin: .1em 0 .5em; }
+.nw-site .elementor .side-card .fee { display: flex; gap: .5em; align-items: center; font-size: .9rem; margin: 14px 0 0; }
+.nw-site .elementor .side-card .fee svg { width: 1.1em; height: 1.1em; color: var(--c-accent); flex: none; }
+.nw-site .elementor .side-nav { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.nw-site .elementor .side-nav a {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 9px 12px; border-radius: 10px;
+  text-decoration: none; color: var(--c-base); font-weight: 600; font-size: .97rem;
+}
+.nw-site .elementor .side-nav a:hover { background: #fff; }
+.nw-site .elementor .side-nav a[aria-current] { background: var(--c-base); color: #fff; }
+.nw-site .elementor .side-nav svg { width: 1em; height: 1em; opacity: .6; flex: none; }
+.nw-site .elementor .side-nav .grp { font: 700 .72rem/1 var(--font-body); letter-spacing: .16em; text-transform: uppercase; color: var(--c-highlight-2); padding: 14px 12px 6px; }
+
+/* ---- Pricing (Maintenance Plan) -------------------------------------------- */
+.nw-site .elementor .price-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 34px; }
+.nw-site .elementor .price-card {
+  position: relative; padding: 32px 30px; border-radius: calc(var(--radius) + 4px); background: var(--c-surface);
+  border: 1.5px solid var(--c-line); box-shadow: var(--shadow);
+}
+.nw-site .elementor .price-card.featured { background: linear-gradient(170deg, var(--c-base), var(--c-base-deep)); color: var(--c-on-dark); border-color: transparent; }
+.nw-site .elementor .price-card .tier { font: 700 .8rem/1 var(--font-body); letter-spacing: .16em; text-transform: uppercase; color: var(--c-highlight-2); }
+.nw-site .elementor .price-card.featured .tier { color: var(--c-highlight); }
+.nw-site .elementor .price-card .amt { display: block; font: 800 clamp(2.4rem, 4vw, 3.2rem)/1 var(--font-display); color: var(--c-base); margin: .35em 0 .2em; }
+.nw-site .elementor .price-card.featured .amt { color: #fff; }
+.nw-site .elementor .price-card .amt small { font-size: .38em; font-weight: 700; opacity: .75; }
+.nw-site .elementor .price-card p { margin: 0; color: var(--c-muted); }
+.nw-site .elementor .price-card.featured p { color: var(--c-on-dark); }
+.nw-site .elementor .fine { margin-top: 18px; font-size: .92rem; color: var(--c-muted); font-style: italic; }
+
+/* ---- Contact card ------------------------------------------------------------ */
+.nw-site .elementor .contact-list { list-style: none; padding: 0; margin: 26px 0 0; display: grid; gap: 16px; }
+.nw-site .elementor .contact-list li { display: flex; gap: 14px; align-items: flex-start; }
+.nw-site .elementor .contact-list .ic {
+  width: 44px; height: 44px; border-radius: 50%; flex: none; display: grid; place-items: center;
+  background: color-mix(in srgb, #fff 12%, transparent); color: var(--c-accent);
+}
+.nw-site .elementor .contact-list .ic svg { width: 20px; height: 20px; }
+.nw-site .elementor .contact-list strong { display: block; color: #fff; font-weight: 700; }
+.nw-site .elementor .contact-list a { color: var(--c-on-dark); text-decoration: none; }
+.nw-site .elementor .contact-list a:hover { color: #fff; text-decoration: underline; }
+
+/* ---- Partner logos on a light band (Financing) -------------------------------- */
+.nw-site .elementor .prose .partners { margin: 1.2em 0 1.4em; }
+
+/* ---- Third-party embed (A2P opt-in form) --------------------------------------- */
+.nw-site .elementor .embed-wrap iframe { display: block; width: 100%; min-height: 906px; border: 0; }
+
+/* ---- Sitemap ------------------------------------------------------------------- */
+.nw-site .elementor .sitemap-cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 34px; }
+.nw-site .elementor .sitemap-cols h3 { font-size: 1.15rem; margin: 0 0 .6em; }
+
+/* ---- Responsive (prototype breakpoints: 960 / 600) ----------------------------- */
+@media (max-width: 960px) {
+  .nw-site .elementor .article .wrap { grid-template-columns: minmax(0, 1fr); gap: 48px; }
+  .nw-site .elementor .aside { position: static; }
+  .nw-site .elementor .hero.page-hero { padding: 130px 0 170px; }
+  .nw-site .elementor .sitemap-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .nw-site .elementor .mini-cards,
+  .nw-site .elementor .price-cards,
+  .nw-site .elementor .sitemap-cols { grid-template-columns: minmax(0, 1fr); }
+  .nw-site .elementor .steps-list li { padding: 18px 18px 18px 68px; }
+  .nw-site .elementor .steps-list li::before { left: 16px; width: 38px; height: 38px; }
+  .nw-site .elementor .prose-block + .prose-block { margin-top: 48px; padding-top: 42px; }
+}

@@ -75,7 +75,8 @@ update_post_meta( $tpl_id, '_elementor_template_type', $type );
 wp_set_object_terms( $tpl_id, $type, 'elementor_library_type' );
 
 /* "Entire Site". Without this the part is built but never displayed. */
-update_post_meta( $tpl_id, '_elementor_conditions', array( $condition ) );
+// One condition, or several separated by commas (e.g. one include/singular/page/<id> per page).
+update_post_meta( $tpl_id, '_elementor_conditions', array_values( array_filter( array_map( 'trim', explode( ',', $condition ) ) ) ) );
 
 if ( class_exists( '\ElementorPro\Modules\ThemeBuilder\Module' ) ) {
 	// Rebuild the conditions cache, or the new part will not be picked up until

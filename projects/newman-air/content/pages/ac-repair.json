@@ -1,0 +1,304 @@
+{
+ "key": "ac-repair",
+ "path": "services/ac-repair",
+ "type": "service",
+ "title": "AC Repair",
+ "seo": {
+  "title": "AC Repair in Johnson City, TN | Newman Air",
+  "description": "Fast AC repair in Johnson City, TN. Same-day diagnostics, honest fixes, and upfront pricing to beat the Tennessee heat. Schedule online."
+ },
+ "source": "https://callbestinshow.com/services/ac-repair/",
+ "hero": {
+  "eyebrow": "Our Services",
+  "h1": "Bear-Strong AC Repair in Johnson City, TN",
+  "paras": [
+   "When your air conditioner is running but your home still feels warm, sticky, or uncomfortable, every hour matters, especially during a humid Tri-Cities afternoon. Newman Air provides professional AC repair and air conditioning repair in Johnson City, TN, for homeowners dealing with weak airflow, warm air, frozen coils, water leaks, short cycling, strange noises, and other cooling problems.<br>Tri-Cities summers can put serious strain on your AC system, especially during long July and August cooling cycles.",
+   "Our team helps you find the real cause of the problem, understand your repair options, and get your cooling system back in form without confusion, pressure, or guesswork. It is the kind of service we believe every home deserves: honest, friendly, and done right."
+  ]
+ },
+ "blocks": [
+  {
+   "h2": "Cooling Problems, Clear Answers, Done Right",
+   "items": [
+    {
+     "t": "p",
+     "html": "An AC problem does not always mean you need a new system. Sometimes the issue is a clogged filter, failing capacitor, dirty coil, thermostat problem, refrigerant concern, clogged drain line, or airflow restriction. The challenge is knowing what is minor, what needs professional repair, and what could lead to bigger damage if ignored."
+    },
+    {
+     "t": "p",
+     "html": "At <a href=\"https://newmanair.com/\">Newman Air</a>, our first step is to find out whether the issue can be repaired safely and cost-effectively. We help homeowners <a href=\"https://newmanair.com/service-area/\">throughout Johnson City and the Tri-Cities</a> get practical answers before making a decision. Our technicians inspect your system, explain what is happening in plain language, and recommend the repair that makes the most sense for your comfort, equipment, and budget."
+    },
+    {
+     "t": "p",
+     "html": "If your AC can be repaired, we will help you understand the fix. If the system is older and repair may not be the best long-term value, we will explain that honestly too."
+    },
+    {
+     "t": "p",
+     "html": "That is what Newman Air service means to us: no runaround, no unnecessary pressure, and no leaving you in the dark about your own home comfort."
+    }
+   ]
+  },
+  {
+   "h2": "Signs You Need AC Repair",
+   "items": [
+    {
+     "t": "p",
+     "html": "Air conditioners often show warning signs before they stop working completely. Paying attention early can help you avoid higher energy bills, added system strain, and emergency breakdowns during the hottest part of the season."
+    },
+    {
+     "t": "p",
+     "html": "You may need AC repair if you notice:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Warm air, weak airflow, or uneven cooling",
+      "Hot spots in upstairs rooms, sun-exposed spaces, or certain areas of the home",
+      "An AC that runs constantly but never reaches the set temperature",
+      "Short cycling, where the system turns on and off too often",
+      "Ice on the refrigerant line or indoor coil area",
+      "Water leaking around the indoor unit",
+      "Grinding, buzzing, rattling, banging, or other unusual sounds",
+      "Musty or burning smells when the system runs",
+      "A breaker that keeps tripping",
+      "Rising energy bills without a clear reason",
+      "Indoor humidity that feels worse than usual"
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Some issues may have simple causes, but repeated symptoms usually mean the system needs a professional diagnosis. In Johnson City and nearby Tri-Cities communities, waiting too long during peak cooling season can turn a manageable repair into a bigger headache."
+    }
+   ]
+  },
+  {
+   "h2": "Honest Repair Recommendations That Fit Your Home",
+   "items": [
+    {
+     "t": "p",
+     "html": "No homeowner wants to feel pressured into work they do not understand. Newman Air focuses on clear communication, honest recommendations, and upfront pricing so you know what to expect before moving forward."
+    },
+    {
+     "t": "p",
+     "html": "After inspecting your system, we will explain what is causing the issue, what repair options are available, and whether the repair is a smart investment based on the age and condition of your AC. If a repair makes sense, we will say so. If maintenance can help prevent the issue from returning, we will explain that. If your system is older, inefficient, or repeatedly breaking down, we will help you understand when replacement may be worth considering without pushing you into a rushed decision."
+    },
+    {
+     "t": "p",
+     "html": "Our goal is simple: help you make the right comfort call for your home and feel confident about the next step."
+    },
+    {
+     "t": "btn",
+     "label": "Schedule a Repair",
+     "url": "/contact-us/"
+    }
+   ]
+  },
+  {
+   "h2": "What Happens During AC Repair?",
+   "items": [
+    {
+     "t": "p",
+     "html": "Professional AC repair is more than a quick guess at the problem. Newman Air follows a careful process to diagnose the issue, explain the solution, and restore cooling performance as safely and efficiently as possible."
+    },
+    {
+     "t": "steps",
+     "items": [
+      {
+       "title": "We listen to what you are experiencing",
+       "html": "Your technician starts by asking about the symptoms you have noticed, such as warm air, weak airflow, strange noises, high bills, leaks, short cycling, or rooms that never cool properly. These details help narrow down what may be happening inside the system."
+      },
+      {
+       "title": "We inspect the AC system",
+       "html": "Next, we check key parts of the cooling system, including the thermostat, air filter, indoor equipment, outdoor unit, electrical components, refrigerant-related indicators, drain line, and airflow. This helps us identify whether the issue is simple, mechanical, electrical, or performance-related."
+      },
+      {
+       "title": "We explain the problem clearly",
+       "html": "Once we find the cause, we explain it in plain language. You should not have to decode technical terms to understand what is wrong with your AC. We will tell you what failed, why it matters, and what could happen if the issue is ignored."
+      },
+      {
+       "title": "We review your repair options",
+       "html": "Before work begins, we walk you through the recommended repair, pricing, and any other relevant options. If maintenance could help prevent the issue from returning, we will explain that. If the system’s age, efficiency, or repair history changes the decision, we will discuss that too."
+      },
+      {
+       "title": "We complete the repair and test the system",
+       "html": "After the repair is completed, we test the AC to make sure it is cooling properly, moving air as expected, and operating safely. Before we leave, we can also share practical tips to help you protect your system through the rest of the cooling season. Our goal is to leave your system, your home, and your confidence in better shape than we found them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Why Delaying AC Repair Can Cost More",
+   "items": [
+    {
+     "t": "p",
+     "html": "It is tempting to wait and see if an AC problem goes away on its own, especially if the system is still running. But many cooling issues get worse with time."
+    },
+    {
+     "t": "p",
+     "html": "A dirty coil can reduce cooling performance. Weak airflow can lead to frozen coils. Low refrigerant can point to a leak that needs attention. Electrical problems can cause repeated shutdowns or damage important components. A clogged drain line can lead to water around the indoor unit. In older Tri-Cities homes, airflow and ductwork issues can also make certain rooms feel warmer or more humid than the thermostat suggests."
+    },
+    {
+     "t": "p",
+     "html": "Delaying AC repair can increase the risk of:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Higher energy bills from longer run times",
+      "More strain on motors, coils, and electrical parts",
+      "Frozen coils or poor humidity control",
+      "Water damage from drainage issues",
+      "Emergency breakdowns during extreme heat",
+      "More expensive repairs later",
+      "Reduced system lifespan"
+     ]
+    },
+    {
+     "t": "p",
+     "html": "If your AC is showing warning signs, getting it checked early can help you avoid bigger comfort problems during a hot Tri-Cities summer. A small issue today does not have to become a full comfort emergency tomorrow."
+    }
+   ]
+  },
+  {
+   "h2": "The Benefits of Timely AC Repair",
+   "items": [
+    {
+     "t": "p",
+     "html": "A properly repaired AC system can make your home feel more comfortable and help prevent a small problem from becoming a larger one. Timely repair is especially valuable when your system is still in good condition and worth protecting."
+    },
+    {
+     "t": "p",
+     "html": "With professional AC repair, you may experience:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Cooler, more consistent indoor comfort",
+      "Better airflow from room to room",
+      "Improved humidity control",
+      "Fewer unexpected shutdowns",
+      "Lower energy waste from a struggling system",
+      "Quieter operation",
+      "Less strain on important AC components",
+      "Better confidence during hot weather"
+     ]
+    },
+    {
+     "t": "p",
+     "html": "For many homeowners, the biggest benefit is peace of mind. You get clear answers about what is wrong, what it will take to fix it, and whether your current system is still worth repairing. That is comfort with a little more confidence behind it."
+    }
+   ]
+  },
+  {
+   "h2": "Why Choose Newman Air for AC Repair?",
+   "items": [
+    {
+     "t": "p",
+     "html": "Choosing an HVAC company for AC repair can feel stressful when your home is already uncomfortable. Newman Air makes the process easier with honest service, respectful technicians, and local experience built around Tri-Cities homes and weather."
+    },
+    {
+     "t": "p",
+     "html": "Since 1994, our family-operated company has served the Tri-Cities with dependable workmanship, fair communication, and a commitment to doing the job right. When you choose Newman Air for AC repair in Johnson City, TN, you can expect:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Upfront and honest pricing with no hidden fees",
+      "A “Done Right or It’s FREE” guarantee",
+      "Courteous technicians who respect your home",
+      "Local experience with Johnson City and Tri-Cities comfort challenges",
+      "Clear repair recommendations without high-pressure tactics",
+      "Practical guidance if maintenance or replacement should be considered"
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Our bear-strong technicians bring skill, patience, and friendly service to every call. We believe being the best is about more than fixing equipment. It is about showing up with integrity, keeping our word, and giving you a service experience worth coming back to."
+    }
+   ]
+  }
+ ],
+ "faq": {
+  "h2": "Frequently Asked Questions",
+  "intro": "Here are answers to common questions homeowners ask before scheduling AC repair in Johnson City, TN.",
+  "items": [
+   {
+    "q": "How much do you charge for a diagnostic visit?",
+    "a": [
+     "Our standard diagnostic fee is <strong>$75</strong>. A technician will inspect your system, find the issue, and provide a clear, upfront repair estimate before any work starts."
+    ],
+    "added": "86bcajgu6"
+   },
+   {
+    "q": "Why is my AC running but not cooling?",
+    "a": [
+     "Your AC may be <a href=\"https://newmanair.com/blog/ac-running-but-not-cooling/\">running but not cooling</a> because of a dirty filter, blocked airflow, frozen coil, dirty outdoor unit, thermostat issue, low refrigerant, electrical problem, or failing component. If basic checks do not restore cooling, professional AC repair is the safest next step."
+    ]
+   },
+   {
+    "q": "Should I turn off my AC if it is blowing warm air?",
+    "a": [
+     "If the AC is blowing warm air, running constantly, making unusual noises, or showing ice on the system, it is smart to turn it off and schedule service. Continuing to run the system can sometimes make the problem worse."
+    ]
+   },
+   {
+    "q": "Is ice on my AC normal during hot weather?",
+    "a": [
+     "No. Ice on your AC is not normal, even in summer. It often points to restricted airflow, a dirty coil, low refrigerant, or another system issue. Turn the system off and let it thaw before a technician inspects it."
+    ]
+   },
+   {
+    "q": "Can AC repair lower my energy bills?",
+    "a": [
+     "It can, especially if the problem is causing your AC to run longer than necessary. Repairs that improve airflow, restore cooling performance, fix electrical issues, or address dirty components can help reduce wasted energy."
+    ]
+   },
+   {
+    "q": "How do I know if I need AC repair or AC maintenance?",
+    "a": [
+     "Maintenance is usually preventative and helps keep a working system clean, efficient, and reliable. Repair is needed when something is already wrong, such as warm air, weak airflow, leaks, unusual sounds, or short cycling. A technician can help determine which service fits your situation."
+    ]
+   },
+   {
+    "q": "How long does AC repair usually take?",
+    "a": [
+     "Many AC repairs can be completed during the same visit, depending on the issue and parts availability. More complex problems, such as refrigerant leaks, major electrical issues, or failed components, may take longer. Your technician will explain the timeline before work begins."
+    ]
+   },
+   {
+    "q": "Should I repair or replace my air conditioner?",
+    "a": [
+     "Repair may make sense if your system is newer, the issue is minor, and the AC has been reliable overall. Replacement may be worth discussing if the system is older, needs frequent repairs, struggles with humidity, or costs more to operate each season."
+    ]
+   },
+   {
+    "q": "Can I troubleshoot my AC before calling?",
+    "a": [
+     "Yes. You can check the thermostat settings, replace a dirty filter, make sure vents are open, and clear debris around the outdoor unit. If those steps do not solve the problem, or if you see ice, leaks, burning smells, or breaker issues, call a professional."
+    ]
+   },
+   {
+    "q": "Do you repair AC systems in the Tri-Cities area?",
+    "a": [
+     "Yes. Newman Air provides AC repair in Johnson City, TN, and serves homeowners throughout the Tri-Cities and nearby areas. Our team understands the local heat, humidity, and comfort issues that can put extra strain on cooling systems."
+    ]
+   }
+  ]
+ },
+ "cta": {
+  "h2": "Get Your Cooling Back in Form",
+  "paras": [
+   "Do not wait for a small AC problem to turn into a full breakdown. If your system is blowing warm air, running constantly, leaking, freezing, or failing to keep your home comfortable, Newman Air can help you find the cause and understand the right next step.",
+   "Schedule AC repair in Johnson City, TN, today and get the best service, hands down, before a small cooling issue turns into a bigger breakdown."
+  ],
+  "button": {
+   "label": "Repair Your AC Today!",
+   "url": "/contact-us/"
+  }
+ },
+ "next": {
+  "h2": "Schedule Your AC Repair Today",
+  "text": "If you need fast and reliable AC repair in Johnson City, TN, Newman Air is here for you. Our team will handle the job from start to finish so you can get back to enjoying your home. Call today to schedule your appointment, and we’ll take care of the rest."
+ }
+}

@@ -10,6 +10,7 @@
 | Front page | page 15 `newman-air` (the splash), `show_on_front=page` |
 | Media | 13 horizontal logo, 14 bear mark (Site Icon) |
 | V2.1 build (2026-10-23) | page 37 `/home/` (not front page), header template 38, footer template 39 (both conditioned to page 37), plugin newman-core active. See `pages/home/HANDOFF-notes.md` |
+| Inner pages (2026-10-23) | 34 pages: hubs 41/42, services, cities, About 43, Contact 70, Financing 68, Maintenance Plan 69, legal and utility pages; header/footer conditioned to every `_newman_core` page. See `pages/inner/HANDOFF-notes.md`. DB backup before the import: `C:\Users\erick\Local Sites\newman-air\backups\2026-10-23-before-inner-pages.sql` |
 | Not ours, do not touch | Esteban's Scheduled Promos plugin, promos 27/28, page 29 Promo Landing, page 30 `best-in-show-is-now-newman-air`, Header Footer Code Manager |
 
 ## WP-CLI from an ordinary terminal
