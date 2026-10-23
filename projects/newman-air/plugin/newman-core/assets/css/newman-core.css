@@ -1508,7 +1508,7 @@ body.elementor-editor-active.nw-site .elementor .hero h1 .hl::after { clip-path:
 .nw-site .elementor .post-meta .elementor-icon-list-icon { display: none; }
 .nw-site .elementor .post-thumb { margin: 0 0 40px; }
 .nw-site .elementor .post-thumb img { width: 100%; height: auto; max-height: 520px; object-fit: cover; border-radius: calc(var(--radius) + 4px); box-shadow: var(--shadow); }
-.nw-site .elementor .prose img { max-width: 100%; height: auto; border-radius: var(--radius); }
+.nw-site .elementor .post-body img { max-width: 100%; height: auto; border-radius: var(--radius); }   /* blog post images only: .partners logos keep their fixed height */
 .nw-site .elementor .prose ol:not(.steps-list) { margin: .4em 0 1.3em; padding-left: 1.4em; display: grid; gap: 8px; }
 .nw-site .elementor .prose ol:not(.steps-list) li::marker { color: var(--c-highlight-2); font-weight: 800; }
 .nw-site .elementor .prose table { width: 100%; border-collapse: collapse; margin: 1.2em 0 1.6em; font-size: .97rem; display: block; overflow-x: auto; }
