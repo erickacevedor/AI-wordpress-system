@@ -56,11 +56,14 @@
           {
            "id": "41001357",
            "settings": {
-            "html": "<p class=\"eyebrow fade-up\" style=\"--delay:.05s\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Hibernate in total comfort all year long</p>"
+            "title": "Hibernate in total comfort all year long",
+            "header_size": "p",
+            "_attributes": "style|--delay:.05s",
+            "_css_classes": "nw-eyebrow fade-up"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -302,11 +305,11 @@
           {
            "id": "4100fb6b",
            "settings": {
-            "html": "<p class=\"form-foot\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-lock\"/></svg>Upfront $75 diagnostic fee. No hidden surprises.</p>"
+            "editor": "<p class=\"form-foot nw-lock\">Upfront $75 diagnostic fee. No hidden surprises.</p>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -631,11 +634,13 @@
             {
              "id": "4102f241",
              "settings": {
-              "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Services</p>"
+              "title": "Our Services",
+              "header_size": "p",
+              "_css_classes": "nw-eyebrow"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "heading",
              "elType": "widget"
             },
             {
@@ -723,11 +728,12 @@
             {
              "id": "410379a2",
              "settings": {
-              "html": "<a class=\"text-link\" href=\"/services/ac-installation/\">AC Installation <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+              "editor": "<p><a class=\"text-link nw-arrow\" href=\"/services/ac-installation/\">AC Installation</a></p>",
+              "_css_classes": "svc-link"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -777,11 +783,12 @@
             {
              "id": "4103da55",
              "settings": {
-              "html": "<a class=\"text-link\" href=\"/services/ac-repair/\">AC Repair <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+              "editor": "<p><a class=\"text-link nw-arrow\" href=\"/services/ac-repair/\">AC Repair</a></p>",
+              "_css_classes": "svc-link"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -831,11 +838,12 @@
             {
              "id": "41043b08",
              "settings": {
-              "html": "<a class=\"text-link\" href=\"/services/heating-installation/\">Heating Installation <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+              "editor": "<p><a class=\"text-link nw-arrow\" href=\"/services/heating-installation/\">Heating Installation</a></p>",
+              "_css_classes": "svc-link"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -885,11 +893,12 @@
             {
              "id": "41049bbb",
              "settings": {
-              "html": "<a class=\"text-link\" href=\"/services/heating-repair/\">Heating Repair <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+              "editor": "<p><a class=\"text-link nw-arrow\" href=\"/services/heating-repair/\">Heating Repair</a></p>",
+              "_css_classes": "svc-link"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -939,11 +948,12 @@
             {
              "id": "4104fc6e",
              "settings": {
-              "html": "<a class=\"text-link\" href=\"/maintenance-plan/\">Maintenance Plans <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+              "editor": "<p><a class=\"text-link nw-arrow\" href=\"/maintenance-plan/\">Maintenance Plans</a></p>",
+              "_css_classes": "svc-link"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -993,11 +1003,12 @@
             {
              "id": "41055d21",
              "settings": {
-              "html": "<a class=\"text-link\" href=\"/services/indoor-air-quality/\">Air Quality Solutions <svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a>"
+              "editor": "<p><a class=\"text-link nw-arrow\" href=\"/services/indoor-air-quality/\">Air Quality Solutions</a></p>",
+              "_css_classes": "svc-link"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "text-editor",
              "elType": "widget"
             }
            ],
@@ -1085,11 +1096,13 @@
           {
            "id": "4105e482",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>About Our Pack</p>"
+            "title": "About Our Pack",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -1271,11 +1284,13 @@
             {
              "id": "4106cc96",
              "settings": {
-              "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>The Newman Air Difference</p>"
+              "title": "The Newman Air Difference",
+              "header_size": "p",
+              "_css_classes": "nw-eyebrow"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "heading",
              "elType": "widget"
             },
             {
@@ -1703,11 +1718,13 @@
           {
            "id": "41099829",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Bear Necessities Maintenance Plan</p>"
+            "title": "Bear Necessities Maintenance Plan",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -1844,11 +1861,13 @@
           {
            "id": "410a4638",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Flexible Financing</p>"
+            "title": "Flexible Financing",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -2092,11 +2111,13 @@
           {
            "id": "410bb5ad",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Reviews &amp; Testimonials</p>"
+            "title": "Reviews &amp; Testimonials",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -2228,11 +2249,13 @@
         {
          "id": "410c7713",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Quality Equipment</p>"
+          "title": "Quality Equipment",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
@@ -2348,11 +2371,13 @@
           {
            "id": "410cfe74",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Our Service Area</p>"
+            "title": "Our Service Area",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -2395,11 +2420,137 @@
           {
            "id": "410d3879",
            "settings": {
-            "html": "<ul class=\"cities\" id=\"cityList\"><li data-city=\"jc\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg><a href=\"/service-area/johnson-city/\">Johnson City, TN</a></li><li data-city=\"kp\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg><a href=\"/service-area/kingsport/\">Kingsport, TN</a></li><li data-city=\"br\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg><a href=\"/service-area/bristol/\">Bristol, TN</a></li><li data-city=\"el\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg><a href=\"/service-area/elizabethton/\">Elizabethton, TN</a></li><li data-city=\"gv\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg><a href=\"/service-area/greeneville/\">Greeneville, TN</a></li><li data-city=\"jb\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg><a href=\"/service-area/jonesborough/\">Jonesborough, TN</a></li><li data-city=\"gr\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg><a href=\"/service-area/gray/\">Gray, TN</a></li><li data-city=\"pf\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Piney Flats, TN</li><li data-city=\"bc\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Bluff City, TN</li><li data-city=\"ls\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Limestone, TN</li><li data-city=\"tf\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-pin\"/></svg>Telford, TN</li></ul>"
+            "_element_id": "cityList",
+            "icon_list": [
+             {
+              "_id": "nwcityjc",
+              "text": "Johnson City, TN",
+              "selected_icon": {
+               "value": "fas fa-map-marker-alt",
+               "library": "fa-solid"
+              },
+              "link": {
+               "url": "/service-area/johnson-city/",
+               "is_external": "",
+               "nofollow": ""
+              }
+             },
+             {
+              "_id": "nwcitykp",
+              "text": "Kingsport, TN",
+              "selected_icon": {
+               "value": "fas fa-map-marker-alt",
+               "library": "fa-solid"
+              },
+              "link": {
+               "url": "/service-area/kingsport/",
+               "is_external": "",
+               "nofollow": ""
+              }
+             },
+             {
+              "_id": "nwcitybr",
+              "text": "Bristol, TN",
+              "selected_icon": {
+               "value": "fas fa-map-marker-alt",
+               "library": "fa-solid"
+              },
+              "link": {
+               "url": "/service-area/bristol/",
+               "is_external": "",
+               "nofollow": ""
+              }
+             },
+             {
+              "_id": "nwcityel",
+              "text": "Elizabethton, TN",
+              "selected_icon": {
+               "value": "fas fa-map-marker-alt",
+               "library": "fa-solid"
+              },
+              "link": {
+               "url": "/service-area/elizabethton/",
+               "is_external": "",
+               "nofollow": ""
+              }
+             },
+             {
+              "_id": "nwcitygv",
+              "text": "Greeneville, TN",
+              "selected_icon": {
+               "value": "fas fa-map-marker-alt",
+               "library": "fa-solid"
+              },
+              "link": {
+               "url": "/service-area/greeneville/",
+               "is_external": "",
+               "nofollow": ""
+              }
+             },
+             {
+              "_id": "nwcityjb",
+              "text": "Jonesborough, TN",
+              "selected_icon": {
+               "value": "fas fa-map-marker-alt",
+               "library": "fa-solid"
+              },
+              "link": {
+               "url": "/service-area/jonesborough/",
+               "is_external": "",
+               "nofollow": ""
+              }
+             },
+             {
+              "_id": "nwcitygr",
+              "text": "Gray, TN",
+              "selected_icon": {
+               "value": "fas fa-map-marker-alt",
+               "library": "fa-solid"
+              },
+              "link": {
+               "url": "/service-area/gray/",
+               "is_external": "",
+               "nofollow": ""
+              }
+             },
+             {
+              "_id": "nwcitypf",
+              "text": "Piney Flats, TN",
+              "selected_icon": {
+               "value": "fas fa-map-marker-alt",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "_id": "nwcitybc",
+              "text": "Bluff City, TN",
+              "selected_icon": {
+               "value": "fas fa-map-marker-alt",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "_id": "nwcityls",
+              "text": "Limestone, TN",
+              "selected_icon": {
+               "value": "fas fa-map-marker-alt",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "_id": "nwcitytf",
+              "text": "Telford, TN",
+              "selected_icon": {
+               "value": "fas fa-map-marker-alt",
+               "library": "fa-solid"
+              }
+             }
+            ],
+            "_css_classes": "nw-cities"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "icon-list",
            "elType": "widget"
           },
           {
@@ -2456,7 +2607,7 @@
    "elType": "container"
   },
   {
-   "id": "410e5a92",
+   "id": "410f1bf8",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -2465,7 +2616,7 @@
    },
    "elements": [
     {
-     "id": "410e473b",
+     "id": "410f08a1",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -2493,7 +2644,7 @@
      },
      "elements": [
       {
-       "id": "410e33e4",
+       "id": "410ef54a",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
@@ -2509,11 +2660,13 @@
           {
            "id": "410dd331",
            "settings": {
-            "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Got Questions?</p>"
+            "title": "Got Questions?",
+            "header_size": "p",
+            "_css_classes": "nw-eyebrow"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "heading",
            "elType": "widget"
           },
           {
@@ -2546,11 +2699,11 @@
           {
            "id": "410df9df",
            "settings": {
-            "html": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
+            "editor": "<div class=\"ask\"><img class=\"mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\"><div><strong>Still wondering about something?</strong><a href=\"tel:+14237537788\">Call (423) 753-7788</a></div></div>"
            },
            "elements": [],
            "isInner": true,
-           "widgetType": "html",
+           "widgetType": "text-editor",
            "elType": "widget"
           }
          ],
@@ -2558,13 +2711,153 @@
          "elType": "container"
         },
         {
-         "id": "410e208d",
+         "id": "410ee1f3",
          "settings": {
-          "html": "<div class=\"faq-list\"><details class=\"qa reveal\" style=\"--d:0\" open><summary>How much do you charge for a diagnostic visit?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Our standard diagnostic fee is <strong>$75</strong>. A technician will inspect your system, find the issue, and provide a clear, upfront repair estimate before any work starts.</p></div></details><details class=\"qa reveal\" style=\"--d:1\"><summary>What areas do you service and do you handle emergencies?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>We serve homeowners across Washington, Sullivan, Carter, and Greene counties. When your heat fails in winter or your AC breaks in summer, our team responds quickly.</p></div></details><details class=\"qa reveal\" style=\"--d:2\"><summary>Are your technicians licensed, insured, and certified?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes. Newman Air is fully licensed, bonded, and insured in Tennessee. Our 23-person team is background-checked, certified, and professionally trained.</p></div></details><details class=\"qa reveal\" style=\"--d:3\"><summary>Do you offer financing for new system installations?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>Yes. We partner with GoodLeap, Synchrony Bank, and Hearth to offer flexible monthly payment plans with quick online pre-approval.</p></div></details><details class=\"qa reveal\" style=\"--d:4\"><summary>Should I repair or replace my heating and cooling system?<span class=\"pm\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-plus\"/></svg></span></summary><div class=\"ans\"><p>If your unit is under 10 years old, repair is usually best. If it's over 10 to 12 years old, requires frequent fixes, or drives up electric bills, upgrading to a high-efficiency system saves money over time.</p></div></details></div>"
+          "items": [
+           {
+            "_id": "nwfaq0",
+            "item_title": "How much do you charge for a diagnostic visit?"
+           },
+           {
+            "_id": "nwfaq1",
+            "item_title": "What areas do you service and do you handle emergencies?"
+           },
+           {
+            "_id": "nwfaq2",
+            "item_title": "Are your technicians licensed, insured, and certified?"
+           },
+           {
+            "_id": "nwfaq3",
+            "item_title": "Do you offer financing for new system installations?"
+           },
+           {
+            "_id": "nwfaq4",
+            "item_title": "Should I repair or replace my heating and cooling system?"
+           }
+          ],
+          "title_tag": "h3",
+          "faq_schema": "yes",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "accordion_item_title_icon": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-plus",
+           "library": "fa-solid"
+          },
+          "_css_classes": "faq-acc"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "410e33e4",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "410e208d",
+             "settings": {
+              "editor": "<p>Our standard diagnostic fee is <strong>$75</strong>. A technician will inspect your system, find the issue, and provide a clear, upfront repair estimate before any work starts.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "410e5a92",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "410e473b",
+             "settings": {
+              "editor": "<p>We serve homeowners across Washington, Sullivan, Carter, and Greene counties. When your heat fails in winter or your AC breaks in summer, our team responds quickly.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "410e8140",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "410e6de9",
+             "settings": {
+              "editor": "<p>Yes. Newman Air is fully licensed, bonded, and insured in Tennessee. Our 23-person team is background-checked, certified, and professionally trained.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "410ea7ee",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "410e9497",
+             "settings": {
+              "editor": "<p>Yes. We partner with GoodLeap, Synchrony Bank, and Hearth to offer flexible monthly payment plans with quick online pre-approval.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "410ece9c",
+           "settings": {
+            "content_width": "full",
+            "css_classes": "faq-ans"
+           },
+           "elements": [
+            {
+             "id": "410ebb45",
+             "settings": {
+              "editor": "<p>If your unit is under 10 years old, repair is usually best. If it's over 10 to 12 years old, requires frequent fixes, or drives up electric bills, upgrading to a high-efficiency system saves money over time.</p>"
+             },
+             "elements": [],
+             "isInner": true,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "nested-accordion",
          "elType": "widget"
         }
        ],
@@ -2580,7 +2873,7 @@
    "elType": "container"
   },
   {
-   "id": "410f2f4f",
+   "id": "410ff0b5",
    "settings": {
     "content_width": "full",
     "html_tag": "section",
@@ -2588,7 +2881,7 @@
    },
    "elements": [
     {
-     "id": "410f1bf8",
+     "id": "410fdd5e",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -2616,24 +2909,26 @@
      },
      "elements": [
       {
-       "id": "410ee1f3",
+       "id": "410fa359",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap reveal"
        },
        "elements": [
         {
-         "id": "410e6de9",
+         "id": "410f2f4f",
          "settings": {
-          "html": "<p class=\"eyebrow\"><svg class=\"paw\" aria-hidden=\"true\"><use href=\"#i-paw\"/></svg>Trust the bear to fix your air</p>"
+          "title": "Trust the bear to fix your air",
+          "header_size": "p",
+          "_css_classes": "nw-eyebrow"
          },
          "elements": [],
          "isInner": true,
-         "widgetType": "html",
+         "widgetType": "heading",
          "elType": "widget"
         },
         {
-         "id": "410e8140",
+         "id": "410f42a6",
          "settings": {
           "title": "Reliable Home Comfort Is Just a Call or Click Away",
           "header_size": "h2",
@@ -2660,7 +2955,7 @@
          "elType": "widget"
         },
         {
-         "id": "410e9497",
+         "id": "410f55fd",
          "settings": {
           "editor": "<p class=\"lead\">From simple repairs to full system replacements, we bring honest answers and upfront pricing to every doorstep in the Tri-Cities. Give our friendly team a call or book your service visit online in just a few clicks.</p>"
          },
@@ -2670,14 +2965,14 @@
          "elType": "widget"
         },
         {
-         "id": "410ece9c",
+         "id": "410f9002",
          "settings": {
           "content_width": "full",
           "css_classes": "btn-row"
          },
          "elements": [
           {
-           "id": "410ea7ee",
+           "id": "410f6954",
            "settings": {
             "text": "Schedule Service",
             "link": {
@@ -2694,7 +2989,7 @@
            "elType": "widget"
           },
           {
-           "id": "410ebb45",
+           "id": "410f7cab",
            "settings": {
             "text": "Call Us Now",
             "link": {
@@ -2719,7 +3014,7 @@
        "elType": "container"
       },
       {
-       "id": "410ef54a",
+       "id": "410fb6b0",
        "settings": {
         "html": "<img class=\"bear-rise mascot\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Bear.svg\" alt=\"\">"
        },
@@ -2729,7 +3024,7 @@
        "elType": "widget"
       },
       {
-       "id": "410f08a1",
+       "id": "410fca07",
        "settings": {
         "html": "<div class=\"ridges\" aria-hidden=\"true\"><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r1\" d=\"M0 120 L160 70 L300 110 L460 50 L620 104 L800 40 L980 100 L1140 56 L1300 108 L1460 64 L1600 96 V200 H0Z\"/></svg><svg viewBox=\"0 0 1600 200\" preserveAspectRatio=\"none\"><path class=\"r3\" d=\"M0 170 Q400 140 800 166 T1600 156 V200 H0Z\"/></svg></div>"
        },

@@ -72,15 +72,17 @@
     Array.prototype.slice.call(bt.children, bt.children.length / 2).forEach(function (n) { n.setAttribute('aria-hidden', 'true'); });
   }
 
-  /* ---------- Map <-> city list ---------- */
-  var pins = {}; $$('.pin').forEach(function (p) { pins[p.dataset.city] = p; });
-  $$('#cityList li').forEach(function (li) {
-    var on = function (v) { var p = pins[li.dataset.city]; if (p) p.classList.toggle('on', v); li.classList.toggle('on', v); };
-    li.addEventListener('mouseenter', function () { on(true); }); li.addEventListener('mouseleave', function () { on(false); });
-  });
+  /* ---------- Map <-> city list ----------
+     Matched by city name (pin label vs list text without ", TN"): the list is a native
+     icon-list widget, which cannot carry data attributes on every item. */
+  var key = function (t) { return (t || '').replace(/,\s*TN\s*$/i, '').trim().toLowerCase(); };
+  var pins = {}, items = {};
+  $$('.pin').forEach(function (p) { var t = p.querySelector('text'); pins[key(t ? t.textContent : p.dataset.city)] = p; });
+  $$('#cityList li').forEach(function (li) { items[key(li.textContent)] = li; });
   Object.keys(pins).forEach(function (k) {
-    var li = document.querySelector('#cityList li[data-city="' + k + '"]');
-    pins[k].addEventListener('mouseenter', function () { pins[k].classList.add('on'); if (li) li.classList.add('on'); });
-    pins[k].addEventListener('mouseleave', function () { pins[k].classList.remove('on'); if (li) li.classList.remove('on'); });
+    var pin = pins[k], li = items[k];
+    var on = function (v) { pin.classList.toggle('on', v); if (li) li.classList.toggle('on', v); };
+    pin.addEventListener('mouseenter', function () { on(true); }); pin.addEventListener('mouseleave', function () { on(false); });
+    if (li) { li.addEventListener('mouseenter', function () { on(true); }); li.addEventListener('mouseleave', function () { on(false); }); }
   });
 })();

@@ -22,7 +22,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(os.path.dirname(HERE)))
 import brand as B  # noqa: E402
-from brand import L, PHONE, PHONE_TEL, svg, eyebrow, STARS  # noqa: E402
+from brand import L, PHONE, PHONE_TEL, svg, STARS  # noqa: E402
 
 B.reset(0x41000000)
 S = []
@@ -30,6 +30,22 @@ ARROW = svg("i-arrow")
 # Prototype type scale (h1, h2 and the two h2 overrides); element settings outrank the stylesheet.
 H1 = "clamp(2.7rem, 6.2vw, 5.4rem)"
 H2 = "clamp(2rem, 4.2vw, 3.4rem)"
+
+
+# Native widgets for text an editor changes (Erick 2026-10-23), same pieces as the
+# inner pages (inner.css): eyebrows, card links, the form foot, the FAQ and the city
+# list. Raw html stays for decoration and interactive markup (badge, ridges, glyphs,
+# polaroids, slider controls, member card, partner logos, reviews placeholder,
+# marquee, map).
+def eyebrow(label, extra="", delay=None):
+    st = {"title": label, "header_size": "p"}
+    if delay:
+        st["_attributes"] = "style|--delay:%s" % delay
+    return B.E.widget("heading", st, classes=("nw-eyebrow " + extra).strip())
+
+
+def text_link(label, url):
+    return B.text('<p><a class="text-link nw-arrow" href="%s">%s</a></p>' % (url, label), classes="svc-link")
 
 
 def h2(t):
@@ -61,7 +77,7 @@ BADGE = ('<div class="badge-ring" aria-hidden="true"><div class="disc"></div>'
 S.append(B.section("hero topo grain on-dark", [
     B.box("wrap", [
         B.box("", [
-            eyebrow("Hibernate in total comfort all year long", 'fade-up" style="--delay:.05s'),
+            eyebrow("Hibernate in total comfort all year long", "fade-up", delay=".05s"),
             B.heading(h1, "h1", size=H1),
             lead("Locally owned and family-operated, Newman Air is proud to serve the Tri-Cities, TN area with "
                  "reliable work and honest service you can count on. We're known for transparent pricing, friendly "
@@ -80,7 +96,7 @@ S.append(B.section("hero topo grain on-dark", [
             B.heading("Request Service", "h2", size="1.7rem"),
             B.text('<p class="form-sub">Tell us what\'s going on and our team will reach out to confirm your visit.</p>'),
             B.request_form(),
-            B.raw('<p class="form-foot">%sUpfront $75 diagnostic fee. No hidden surprises.</p>' % svg("i-lock")),
+            B.text('<p class="form-foot nw-lock">Upfront $75 diagnostic fee. No hidden surprises.</p>'),
         ], style="--delay:.6s"),
     ]),
     B.raw(RIDGES),
@@ -140,7 +156,7 @@ S.append(B.section("services topo light", [
                       '<div class="duo">%s</div>' % (ic, svg(ic))),
                 B.heading(h, "h3"),
                 B.text("<p>%s</p>" % t),
-                B.text_link(lk, url),
+                text_link(lk, url),
             ], tag="article", d=i % 3)
             for i, (c, ic, h, t, url, lk) in enumerate(CARDS)
         ]),
@@ -323,10 +339,11 @@ S.append(B.section("area grain on-dark", [
             h2("Proudly Serving Homes Across the Tri&#8209;Cities Region"),
             lead("We provide prompt diagnostic calls, maintenance, and installations across all major Tri-Cities "
                  "communities:"),
-            B.raw('<ul class="cities" id="cityList">%s</ul>' % "".join(
-                '<li data-city="%s">%s%s</li>' % (k, svg("i-pin"),
-                                                 ('<a href="%s">%s, TN</a>' % (B.area(s), n)) if s else n + ", TN")
-                for k, n, s in CITIES)),
+            B.E.widget("icon-list", {"_element_id": "cityList", "icon_list": [
+                dict({"_id": "nwcity%s" % k, "text": n + ", TN",
+                      "selected_icon": {"value": "fas fa-map-marker-alt", "library": "fa-solid"}},
+                     **({"link": {"url": B.area(sl), "is_external": "", "nofollow": ""}} if sl else {}))
+                for k, n, sl in CITIES]}, classes="nw-cities"),
             B.text('<p>Not sure if you\'re in our service zone? Give us a quick call at <a class="phone" href="%s">%s</a>.</p>'
                    % (PHONE_TEL, PHONE)),
             B.button("Contact Our Team", L["contact"], "btn btn-accent", icon="arrow", icon_after=True),
@@ -353,18 +370,20 @@ FAQ = [
      "If your unit is under 10 years old, repair is usually best. If it's over 10 to 12 years old, requires frequent "
      "fixes, or drives up electric bills, upgrading to a high-efficiency system saves money over time."),
 ]
+PLUS = {"value": "fas fa-plus", "library": "fa-solid"}
 S.append(B.section("faq", [
     B.box("wrap", [
         B.box("faq-side reveal", [
             eyebrow("Got Questions?"),
             h2("Frequently Asked Questions"),
-            B.raw('<div class="ask"><img class="mascot" src="%s" alt=""><div><strong>Still wondering about something?'
-                  '</strong><a href="%s">Call %s</a></div></div>' % (B.LOGO_BEAR, PHONE_TEL, PHONE)),
+            B.text('<div class="ask"><img class="mascot" src="%s" alt=""><div><strong>Still wondering about something?'
+                   '</strong><a href="%s">Call %s</a></div></div>' % (B.LOGO_BEAR, PHONE_TEL, PHONE)),
         ]),
-        B.raw('<div class="faq-list">%s</div>' % "".join(
-            '<details class="qa reveal" style="--d:%d"%s><summary>%s<span class="pm">%s</span></summary>'
-            '<div class="ans"><p>%s</p></div></details>' % (i, " open" if i == 0 else "", q, svg("i-plus"), a)
-            for i, (q, a) in enumerate(FAQ))),
+        B.E.widget("nested-accordion", {
+            "items": [{"_id": "nwfaq%d" % i, "item_title": q} for i, (q, a) in enumerate(FAQ)],
+            "title_tag": "h3", "faq_schema": "yes", "default_state": "expanded", "max_items_expended": "one",
+            "accordion_item_title_icon": PLUS, "accordion_item_title_icon_active": PLUS,
+        }, elements=[B.box("faq-ans", [B.text("<p>%s</p>" % a)]) for q, a in FAQ], classes="faq-acc"),
     ]),
 ], el_id="faq"))
 
