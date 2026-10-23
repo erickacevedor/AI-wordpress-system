@@ -32,7 +32,7 @@ ARROW = svg("i-arrow")
 H1 = "clamp(2.3rem, 4.6vw, 3.9rem)"        # .page-hero h1 (inner.css)
 H2 = "clamp(2rem, 4.2vw, 3.4rem)"          # prototype h2 (FAQ, club)
 H2_PROSE = "clamp(1.75rem, 3vw, 2.45rem)"  # .prose h2 (inner.css)
-OFFICE_EMAIL = "office@newmanheatandair.com"
+OFFICE_EMAIL = "office@newmanheatandair.com"   # Maintenance Plan sign-ups only (Alexis's doc comment)
 ADDRESS = "3583 W Market St, Suite 1, Johnson City, TN 37604"   # old Contact page
 HOURS = "Mon to Fri, 8 AM to 5 PM"                               # old Contact page: "Mon–Fri, 8 AM–5 PM"
 
@@ -548,7 +548,7 @@ def contact():
               '<li><span class="ic">%s</span><span><strong>Phone</strong><a href="%s">%s</a></span></li>'
               '<li><span class="ic">%s</span><span><strong>Email</strong><a href="mailto:%s">%s</a></span></li>'
               '<li><span class="ic">%s</span><span><strong>Business Hours</strong>%s</span></li></ul>'
-              % (svg("i-pin"), ADDRESS, svg("i-phone"), PHONE_TEL, PHONE, svg("i-mail"), OFFICE_EMAIL, OFFICE_EMAIL,
+              % (svg("i-pin"), ADDRESS, svg("i-phone"), PHONE_TEL, PHONE, svg("i-mail"), B.EMAIL, B.EMAIL,
                  svg("i-calendar"), HOURS)),
     ])], tag="aside")
     areas = [{"title": "%s, TN" % n, "html": "", "link": B.area(s)} for n, s in AREA_NAV]
@@ -574,7 +574,7 @@ def simple(key, title, h1, eb, body, seo, trail=None):
 
 
 def thanks(key):
-    body = [B.box("prose-block", [eyebrow("About Us"), B.heading("Bear-Strong Comfort Since 1994", "h2", size=H2_PROSE),
+    body = [B.box("prose-block", [eyebrow("About Us"), B.heading("Trusted Comfort Since 1994", "h2", size=H2_PROSE),
                                   B.text("<p>At Newman Air, we&#8217;ve spent over 30 years delivering honest, reliable service "
                                          "with the care and craftsmanship every neighbor deserves.</p>"),
                                   B.box("btn-row", [B.button("Learn More", B.L["about"], "btn btn-accent", icon="arrow", icon_after=True),
@@ -594,6 +594,26 @@ def a2p():
              'title="A2P Optin Form"></iframe><script src="https://link.msgsndr.com/js/form_embed.js"></script></div>')
     return simple("a2p-submission", "A2P Submission", "Text Message Opt-In", "", [B.box("prose-block", [B.raw(embed)])],
                   {"title": "A2P Submission | Newman Air", "description": "", "robots": "noindex"})
+
+
+def blog_page():
+    """Blog index: an Elementor Pro Posts grid (the old site had no /blog/ page; its posts lived under /blog/)."""
+    grid = B.E.widget("posts", {
+        "_skin": "classic", "classic_columns": "3", "classic_columns_tablet": "2", "classic_columns_mobile": "1",
+        "classic_posts_per_page": 12, "classic_thumbnail": "top", "classic_thumbnail_size_size": "medium_large",
+        "classic_item_ratio": {"unit": "px", "size": 0.62, "sizes": []}, "classic_show_title": "yes",
+        "classic_title_tag": "h3", "classic_show_excerpt": "yes", "classic_excerpt_length": 22,
+        "classic_meta_data": ["date"], "classic_show_read_more": "yes", "classic_read_more_text": "Read More",
+        "posts_post_type": "post", "posts_exclude": ["manual_selection"], "posts_exclude_ids": ["1"],  # WordPress's "Hello world!"
+        "pagination_type": "numbers",
+    }, classes="blog-grid")
+    doc, S, seo = simple("blog", "Blog", "Blog", "Newman Air Blog", [B.box("prose-block", [grid])],
+                         {"title": "Blog | Newman Air", "description": "HVAC tips and answers for Tri-Cities homeowners "
+                                                                       "from the Newman Air team."})
+    S[1]["settings"]["css_classes"] = S[1]["settings"].get("css_classes", "") + " blog-index"
+    return doc, S + [club(), final("Reliable Home Comfort Is Just a Call or Click Away", [
+        "From simple repairs to full system replacements, we bring honest answers and upfront pricing to every doorstep "
+        "in the Tri-Cities. Give our friendly team a call or book your service visit online in just a few clicks."])], seo
 
 
 def sitemap(all_pages):
@@ -639,7 +659,7 @@ def main():
         else:
             S = standard(doc)
         write(doc, S, doc["seo"], seed, manifest)
-    for fn in (financing, maintenance_plan, contact, a2p, sitemap, lambda: thanks("thank-you"), lambda: thanks("confirmed")):
+    for fn in (financing, maintenance_plan, contact, a2p, sitemap, blog_page, lambda: thanks("thank-you"), lambda: thanks("confirmed")):
         seed += 0x10000
         B.E.reset_ids(seed)
         doc, S, seo = fn(manifest) if fn is sitemap else fn()

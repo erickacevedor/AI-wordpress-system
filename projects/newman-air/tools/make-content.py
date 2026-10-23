@@ -66,6 +66,16 @@ FEE_FAQ = ("How much do you charge for a diagnostic visit?",
 
 # Ordered rewrites: (pattern, replacement). Specific phrases first, the bare name last.
 REWRITES = [
+    # Headlines: neutral, no bear (Erick 2026-10-23; the pages are listed in the ClickUp comment).
+    (r"Best-in-Show AC Installation", "Professional AC Installation"),
+    (r"Top-Dog AC Repair", "Professional AC Repair"),
+    (r"Medal-Worthy AC Services", "Professional AC Services"),
+    (r"Finding the Medal-Worthy Cooling Option", "Finding the Right Cooling Option"),
+    (r"Ready for Best-in-Show Cooling\?", "Ready for Better Cooling?"),
+    (r"Ready for Best-in-Show Ductless Comfort\?", "Ready for Better Ductless Comfort?"),
+    (r"About our Best-in-Show Service", "About Our Service"),
+    (r"Pure-Bred Comfort Since 1994", "Trusted Comfort Since 1994"),
+    (r"Your Comfort Deserves a First-Place Finish", "Your Comfort Deserves a Team You Can Trust"),
     (r"Best [Ii]n Show Heating (&amp;|&|and) Cooling", "Newman Air"),
     (r"That is what best-in-show service means to us", "That is what Newman Air service means to us"),
     (r"\bbest-in-show\b", "bear-strong"),
@@ -77,18 +87,17 @@ REWRITES = [
     (r"\btop-dog\b", "bear-strong"),
     (r"a big-dog headache", "a bigger headache"),
     (r"worthy of a blue ribbon", "worth coming back to"),
-    (r"Pure-Bred Comfort", "Bear-Strong Comfort"),
     (r"pure-bred", "bear-strong"),
     (r"it’s our pedigree", "it’s in our roots"),
     (r"it's our pedigree", "it's in our roots"),
     (r"Winner[’']s Circle Comfort Club", "Bear Necessities Maintenance Plan"),
     (r"Winner[’']s Circle", "Bear Necessities"),
-    (r"Your Comfort Deserves a First-Place Finish", "Your Comfort Deserves a Bear-Strong Team"),
     (r"worth a standing ovation", "worth recommending to your neighbors"),
     (r"we don’t measure success in trophies or titles", "we don’t measure success in awards or titles"),
     (r"A guarantee that’s more than show", "A guarantee you can count on"),
     (r"Prizewinning Praise", "Reviews &amp; Testimonials"),
-    (r"office@NewmanHeatAndAir\.com", "office@newmanheatandair.com"),
+    # Public email on Contact and legal pages: dispatch@ (Erick 2026-10-23), as on the homepage.
+    (r"office@NewmanHeatAndAir\.com", "dispatch@newmanair.com"),
     (r"https?://(www\.)?callbestinshow\.com/", "https://newmanair.com/"),   # plain-text URLs (Terms)
     # Financing partners: add Hearth (86bcan2a2).
     (r"\bGoodLeap and Synchrony Bank\b", "GoodLeap, Synchrony Bank and Hearth"),

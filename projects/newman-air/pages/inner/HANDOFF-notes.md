@@ -39,10 +39,19 @@ Financing, Maintenance Plan, Contact, A2P, Sitemap, Thank You and Confirmed are 
 ## What changed from the old pages (all listed in content/REVIEW.md)
 
 - Best in Show -> Newman Air; dog-show idioms (Top-Dog, best-in-show, pure-bred, paws down,
-  blue ribbon, first-place, standing ovation, pedigree) -> bear or neutral wording; Winner's
-  Circle -> Bear Necessities. H1s that changed: "Bear-Strong AC Installation/AC Repair..." and
-  About "Bear-Strong Comfort Since 1994". Shelby/Alexis should approve (86bcajgua asked for
-  bear-adjacent headlines with approval).
+  blue ribbon, first-place, standing ovation, pedigree, medal-worthy) -> neutral wording in
+  headlines (Erick, 2026-10-23: no bear in headlines; list them in the ClickUp comment):
+  AC Installation H1 "Professional AC Installation in Johnson City, TN" and closing "Ready for
+  Better Cooling?"; AC Repair H1 "Professional AC Repair in Johnson City, TN"; Cooling H1
+  "Professional AC Services in Johnson City, TN" and closing "Ready for Better Cooling?";
+  Ductless closing "Ready for Better Ductless Comfort?"; Indoor Air Quality H2 "See What our
+  Customers Say About Our Service"; About H1 "Trusted Comfort Since 1994" and H3 "Your Comfort
+  Deserves a Team You Can Trust"; Cooling/Ductless body lead-in "Trusted Comfort Since 1994";
+  Thank You/Confirmed teaser; blog "Ductless Mini-Split vs. Central AC" H2 "Finding the Right
+  Cooling Option for You". Body text keeps a few bear words where the old copy had dog ones
+  (e.g. "bear-strong technicians"). Winner's Circle -> Bear Necessities.
+- Public email on Contact, Privacy and Terms: dispatch@newmanair.com (Erick, 2026-10-23; the old
+  pages said office@newmanheatandair.com). The Maintenance Plan form still sends to office@ (Alexis's doc).
 - Hearth added next to GoodLeap and Synchrony (86bcan2a2); Ruud added where brands are listed (86bcajgzg).
 - $75 diagnostic FAQ added to AC Repair, Ductwork and Heating Repair (86bcajgu6), answer from the approved homepage FAQ.
 - About: "(formerly Best in Show Heating & Cooling)" in the first paragraph (DJ's plan doc v2, Phase B).
@@ -53,11 +62,35 @@ Financing, Maintenance Plan, Contact, A2P, Sitemap, Thank You and Confirmed are 
 
 ## Open items
 
-- **Blog:** header and footer link `/blog/`; AC Repair links `/blog/ac-running-but-not-cooling/`. No blog on the new install yet (Phase C: migrate blogs as is).
 - **SEO meta:** stored as Rank Math post meta (`rank_math_title`, `rank_math_description`, `rank_math_robots` noindex on Thank You, Confirmed, A2P). Rank Math is not installed on Local; it applies once it is. Cooling's old title duplicates AC Installation's ("AC Installation in Johnson City, TN"), kept as is.
 - **Financing:** Hearth application URL missing in Dani's doc: button goes to `#hearth-link-pending` with a yellow note.
 - **Maintenance Plan:** built with the sign-up form (entries to office@newmanheatandair.com, Alexis's comment). Megan never chose form vs call (86bcg1f4b); remove the form card if she picks call only.
-- **Emails:** Contact and legal pages keep the old site's office@newmanheatandair.com; the homepage form and header use dispatch@newmanair.com. Form routing is Esteban's task (86bcajgud).
+- **Form routing** (recipients, SMTP, spam) is Esteban's task (86bcajgud).
 - **A2P:** same LeadConnector form embed as the old page; its content (and the Privacy/Terms SMS wording) belongs to Esteban's A2P update.
 - **Header/footer** are conditioned page by page; switch to Entire Site at launch only if every page then carries `_newman_core`.
 - **Indoor Air Quality** had a reviews embed under "See What our Customers Say..."; dropped like the other review shortcodes.
+
+## Blog (2026-10-23)
+
+12 posts from callbestinshow.com, same slugs, dates and categories (HVAC 4, Uncategorized 8),
+URLs `/blog/<slug>/` (permalink structure set to `/blog/%postname%/` on Local, as on the old
+site). Index page `/blog/` (page 156, Posts widget; the old site had no index). Theme Builder
+single-post template 157 (`pages/blog/build.py`, condition include/singular/post). Header and
+footer conditions include all posts.
+
+```bash
+python projects/newman-air/tools/make-blog.py        # posts -> content/blog/*.json + content/BLOG-REVIEW.md
+python projects/newman-air/pages/blog/build.py       # single-post template
+W eval-file projects/newman-air/tools/import-posts.php "<abs path>/projects/newman-air/content" 1
+W eval-file projects/newman-air/tools/import-template.php projects/newman-air/pages/blog/single-post.json newman-single-post include/singular/post
+```
+
+- Images: featured and inline images live in the Media Library now (22 files; the old Gutenberg
+  posts hot-linked bannerbear and a Google "temp_images" URL). Five carried the old brand
+  (a "Best In Show / callbestinshow.com" stamp or footer): cropped off; originals kept locally in
+  `content/source/blog-img-orig/` (gitignored). One long file name was shortened (Windows path limit).
+- Authors: the old authors do not exist on the new install; posts are by user 1.
+- WordPress's "Hello world!" (post 1) is excluded from the index; delete it before launch.
+- Category archives (`/blog/category/...`) have no Newman template; nothing links to them.
+- In Git Bash, run WP-CLI with `MSYS_NO_PATHCONV=1` and a `C:/` PHP path when an argument starts with `/`
+  (Git Bash turned `/blog/%postname%/` into `C:/Program Files/Git/blog/...` once; fixed).

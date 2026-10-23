@@ -9,3 +9,5 @@ __pycache__/
 
 # Newman Air: downloaded HTML of the old site (regenerable, large)
 projects/newman-air/content/source/html/
+projects/newman-air/content/source/blog-img/
+projects/newman-air/content/source/blog-img-orig/

@@ -320,6 +320,16 @@
   "robots": ""
  },
  {
+  "key": "blog",
+  "json": "pages/inner/out/blog.json",
+  "slug": "blog",
+  "parent": "",
+  "title": "Blog",
+  "seo_title": "Blog | Newman Air",
+  "seo_description": "HVAC tips and answers for Tri-Cities homeowners from the Newman Air team.",
+  "robots": ""
+ },
+ {
   "key": "thank-you",
   "json": "pages/inner/out/thank-you.json",
   "slug": "thank-you",

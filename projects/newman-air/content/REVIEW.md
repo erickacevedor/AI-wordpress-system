@@ -5,7 +5,7 @@ Every source line the rebrand changed, then anything still matching a brand or d
 ## Still to decide (0)
 
 
-## Changed (186)
+## Changed (187)
 
 - **services**
   - before: At Best In Show, we provide comprehensive heating and cooling solutions in Johnson City, TN, and surrounding communities. Whether you need a small repair or it’s time for a full-scale replacement, we have the experience and the industry expertise to get the job done right. Reach out to us at the first sign of trouble for a lasting solution you can count on.
@@ -24,7 +24,7 @@ Every source line the rebrand changed, then anything still matching a brand or d
   - after: Discover expert HVAC services with Newman Air. From heating and cooling repair to ductless systems and maintenance, we keep your home comfortable year-round.
 - **ac-installation**
   - before: Best-in-Show AC Installation in Johnson City, TN
-  - after: Bear-Strong AC Installation in Johnson City, TN
+  - after: Professional AC Installation in Johnson City, TN
 - **ac-installation**
   - before: When your air conditioner can no longer keep up with Tri-Cities heat and humidity, replacing it is not just about getting a new unit. It is about choosing the right system for your home, your comfort, and your long-term energy costs. Best In Show Cooling and Heating provides professional AC installation in Johnson City, TN, with honest guidance, careful workmanship, and cooling solutions built to help your home feel comfortable when summer is at its toughest.
   - after: When your air conditioner can no longer keep up with Tri-Cities heat and humidity, replacing it is not just about getting a new unit. It is about choosing the right system for your home, your comfort, and your long-term energy costs. Newman Air Cooling and Heating provides professional AC installation in Johnson City, TN, with honest guidance, careful workmanship, and cooling solutions built to help your home feel comfortable when summer is at its toughest.
@@ -54,7 +54,7 @@ Every source line the rebrand changed, then anything still matching a brand or d
   - after: Newman Air works with quality cooling equipment designed for dependable performance, efficiency, and comfort. Your technician can explain available options and help you choose a system that fits your home, preferences, and budget.
 - **ac-installation**
   - before: Ready for Best-in-Show Cooling?
-  - after: Ready for Bear-Strong Cooling?
+  - after: Ready for Better Cooling?
 - **ac-installation**
   - before: Do not wait for weak airflow, rising bills, or a sudden breakdown to make your home uncomfortable. For dependable AC services in Tri-Cities, TN, schedule service with Best In Show Cooling and Heating and get comfort guidance you can trust.
   - after: Do not wait for weak airflow, rising bills, or a sudden breakdown to make your home uncomfortable. For dependable AC services in Tri-Cities, TN, schedule service with Newman Air Cooling and Heating and get comfort guidance you can trust.
@@ -69,7 +69,7 @@ Every source line the rebrand changed, then anything still matching a brand or d
   - after: AC installation in Johnson City, TN. High-efficiency systems, upfront pricing, and financing through GoodLeap, Synchrony and Hearth. Schedule online.
 - **ac-repair**
   - before: Top-Dog AC Repair in Johnson City, TN
-  - after: Bear-Strong AC Repair in Johnson City, TN
+  - after: Professional AC Repair in Johnson City, TN
 - **ac-repair**
   - before: When your air conditioner is running but your home still feels warm, sticky, or uncomfortable, every hour matters, especially during a humid Tri-Cities afternoon. Best in Show Heating & Cooling provides professional AC repair and air conditioning repair in Johnson City, TN, for homeowners dealing with weak airflow, warm air, frozen coils, water leaks, short cycling, strange noises, and other cooling problems. / Tri-Cities summers can put serious strain on your AC system, especially during long July and August cooling cycles.
   - after: When your air conditioner is running but your home still feels warm, sticky, or uncomfortable, every hour matters, especially during a humid Tri-Cities afternoon. Newman Air provides professional AC repair and air conditioning repair in Johnson City, TN, for homeowners dealing with weak airflow, warm air, frozen coils, water leaks, short cycling, strange noises, and other cooling problems. / Tri-Cities summers can put serious strain on your AC system, especially during long July and August cooling cycles.
@@ -158,6 +158,9 @@ Every source line the rebrand changed, then anything still matching a brand or d
   - before: Commercial HVAC Services in Johnson City, TN | Best in Show
   - after: Commercial HVAC Services in Johnson City, TN | Newman Air
 - **cooling**
+  - before: Medal-Worthy AC Services in Johnson City, TN
+  - after: Professional AC Services in Johnson City, TN
+- **cooling**
   - before: When your home feels too warm, too humid, or too expensive to cool, Best In Show Cooling and Heating is here to help you get comfort back on track. We provide trusted AC services in Johnson City and across the Tri-Cities, TN, with honest recommendations, skilled workmanship, and cooling solutions built around your home, your budget, and your peace of mind.
   - after: When your home feels too warm, too humid, or too expensive to cool, Newman Air Cooling and Heating is here to help you get comfort back on track. We provide trusted AC services in Johnson City and across the Tri-Cities, TN, with honest recommendations, skilled workmanship, and cooling solutions built around your home, your budget, and your peace of mind.
 - **cooling**
@@ -180,13 +183,13 @@ Every source line the rebrand changed, then anything still matching a brand or d
   - after: Newman Air brings more than technical HVAC service to every cooling call. Homeowners across Johnson City and the Tri-Cities choose our team for honest guidance, respectful service, skilled workmanship, and practical comfort solutions built around long-term value.
 - **cooling**
   - before: Pure-Bred Comfort Since 1994: Best In Show has served the Tri-Cities for more than 30 years as a family-operated company built on honesty, reliability, and skilled craftsmanship.
-  - after: Bear-Strong Comfort Since 1994: Newman Air has served the Tri-Cities for more than 30 years as a family-operated company built on honesty, reliability, and skilled craftsmanship.
+  - after: Trusted Comfort Since 1994: Newman Air has served the Tri-Cities for more than 30 years as a family-operated company built on honesty, reliability, and skilled craftsmanship.
 - **cooling**
   - before: Comfort care beyond the service call: From AC repair and installation to financing options and the Winner’s Circle Comfort Club, Best In Show gives homeowners practical ways to protect comfort, manage costs, and plan ahead.
   - after: Comfort care beyond the service call: From AC repair and installation to financing options and the Bear Necessities Maintenance Plan, Newman Air gives homeowners practical ways to protect comfort, manage costs, and plan ahead.
 - **cooling**
   - before: Ready for Best-in-Show Cooling?
-  - after: Ready for Bear-Strong Cooling?
+  - after: Ready for Better Cooling?
 - **cooling**
   - before: Do not wait for weak airflow, rising bills, or a sudden breakdown to make your home uncomfortable. For dependable AC services in Tri-Cities, TN, schedule service with Best In Show Cooling and Heating and get comfort guidance you can trust.
   - after: Do not wait for weak airflow, rising bills, or a sudden breakdown to make your home uncomfortable. For dependable AC services in Tri-Cities, TN, schedule service with Newman Air Cooling and Heating and get comfort guidance you can trust.
@@ -216,7 +219,7 @@ Every source line the rebrand changed, then anything still matching a brand or d
   - after: Newman Air brings practical HVAC experience, clear communication, and local knowledge to every ductless service call. Homeowners across Johnson City and the Tri-Cities choose our team for honest recommendations, respectful service, and comfort solutions designed around long-term value.
 - **ductless**
   - before: Pure-Bred Comfort Since 1994: Best In Show has served the Tri-Cities for more than 30 years as a family-operated company built on honesty, reliability, and skilled craftsmanship.
-  - after: Bear-Strong Comfort Since 1994: Newman Air has served the Tri-Cities for more than 30 years as a family-operated company built on honesty, reliability, and skilled craftsmanship.
+  - after: Trusted Comfort Since 1994: Newman Air has served the Tri-Cities for more than 30 years as a family-operated company built on honesty, reliability, and skilled craftsmanship.
 - **ductless**
   - before: Know More About Best In Show
   - after: Know More About Newman Air
@@ -225,7 +228,7 @@ Every source line the rebrand changed, then anything still matching a brand or d
   - after: Yes. Ductless mini-splits need [regular maintenance](https://newmanair.com/services/maintenance/) to keep filters, coils, drains, electrical components, and airflow in good condition. Routine care helps protect comfort, performance, and system life.
 - **ductless**
   - before: Ready for Best-in-Show Ductless Comfort?
-  - after: Ready for Bear-Strong Ductless Comfort?
+  - after: Ready for Better Ductless Comfort?
 - **ductless**
   - before: For dependable ductless mini-split services in Johnson City and the Tri-Cities, TN, schedule service with Best In Show Heating & Cooling and find out whether ductless, ductwork improvements, or another HVAC solution is the right fit for your space.
   - after: For dependable ductless mini-split services in Johnson City and the Tri-Cities, TN, schedule service with Newman Air and find out whether ductless, ductwork improvements, or another HVAC solution is the right fit for your space.
@@ -324,7 +327,7 @@ Every source line the rebrand changed, then anything still matching a brand or d
   - after: Decades of local comfort experience: Newman Air helps Tri-Cities homeowners solve comfort problems with reliable service and skilled workmanship.
 - **indoor-air-quality**
   - before: See What our Customers Say About our Best-in-Show Service
-  - after: See What our Customers Say About our Bear-Strong Service
+  - after: See What our Customers Say About Our Service
 - **indoor-air-quality**
   - before: Homeowners across Johnson City and the Tri-Cities turn to Best In Show Heating & Cooling because our team focuses on honest recommendations, dependable workmanship, and practical comfort solutions. Whether we are helping with dust, stale air, airflow concerns, odors, or HVAC system performance, our goal is to make the process easier to understand from the first conversation to the final recommendation.
   - after: Homeowners across Johnson City and the Tri-Cities turn to Newman Air because our team focuses on honest recommendations, dependable workmanship, and practical comfort solutions. Whether we are helping with dust, stale air, airflow concerns, odors, or HVAC system performance, our goal is to make the process easier to understand from the first conversation to the final recommendation.
@@ -492,7 +495,7 @@ Every source line the rebrand changed, then anything still matching a brand or d
   - after: About Newman Air
 - **about-us**
   - before: Pure-Bred Comfort Since 1994
-  - after: Bear-Strong Comfort Since 1994
+  - after: Trusted Comfort Since 1994
 - **about-us**
   - before: At Best in Show Heating & Cooling, comfort isn’t just our business—it’s our pedigree. For more than 30 years, we’ve proudly served the Tri-Cities, TN, area as a family-operated company built on honesty, reliability and skilled craftsmanship. What started as a local business with big ambitions has grown into a trusted team that treats every customer like a neighbor. From day one, we’ve focused on doing the right thing, keeping our promises and delivering service that feels less like a transaction and more like a helping hand.
   - after: At Newman Air, comfort isn’t just our business—it’s in our roots. For more than 30 years, we’ve proudly served the Tri-Cities, TN, area as a family-operated company built on honesty, reliability and skilled craftsmanship. What started as a local business with big ambitions has grown into a trusted team that treats every customer like a neighbor. From day one, we’ve focused on doing the right thing, keeping our promises and delivering service that feels less like a transaction and more like a helping hand.
@@ -501,7 +504,7 @@ Every source line the rebrand changed, then anything still matching a brand or d
   - after: For customers who like a proactive approach, our Bear Necessities Maintenance Plan delivers year-round maintenance, priority scheduling and member-only savings to keep everything running smoothly and efficiently.
 - **about-us**
   - before: Your Comfort Deserves a First-Place Finish
-  - after: Your Comfort Deserves a Bear-Strong Team
+  - after: Your Comfort Deserves a Team You Can Trust
 - **about-us**
   - before: Choosing the right heating and cooling team makes all the difference. With decades of experience, hometown values and technicians who truly care, we bring the kind of service that’s worth a standing ovation. Here’s why families and businesses across the Tri-Cities, TN, area continue to put their trust in us:
   - after: Choosing the right heating and cooling team makes all the difference. With decades of experience, hometown values and technicians who truly care, we bring the kind of service that’s worth recommending to your neighbors. Here’s why families and businesses across the Tri-Cities, TN, area continue to put their trust in us:
@@ -537,7 +540,7 @@ Every source line the rebrand changed, then anything still matching a brand or d
   - after: Business transfers: If Newman Air is involved in a merger, acquisition, or asset sale, information may be transferred as part of that transaction. Any successor will be required to honor this Privacy Policy.
 - **privacy-policy**
   - before: Best in Show. 3583 W Market St, Suite 1, Johnson City, TN 37604. office@NewmanHeatAndAir.com 423.753.7788
-  - after: Newman Air. 3583 W Market St, Suite 1, Johnson City, TN 37604. office@newmanheatandair.com 423.753.7788
+  - after: Newman Air. 3583 W Market St, Suite 1, Johnson City, TN 37604. dispatch@newmanair.com 423.753.7788
 - **privacy-policy**
   - before: Privacy Policy - Best In Show
   - after: Privacy Policy - Newman Air
@@ -552,13 +555,13 @@ Every source line the rebrand changed, then anything still matching a brand or d
   - after: By providing your phone number and opting in, you authorize Newman Air to send text messages to your mobile number. Consent is not a condition of purchase.
 - **terms-and-conditions**
   - before: If you are experiencing issues with the messaging program you can reply with the keyword HELP for more assistance, or you can get help directly at office@NewmanHeatAndAir.com or 423.753.7788.
-  - after: If you are experiencing issues with the messaging program you can reply with the keyword HELP for more assistance, or you can get help directly at office@newmanheatandair.com or 423.753.7788.
+  - after: If you are experiencing issues with the messaging program you can reply with the keyword HELP for more assistance, or you can get help directly at dispatch@newmanair.com or 423.753.7788.
 - **terms-and-conditions**
   - before: Your use of the messaging program is also governed by our Privacy Policy. You can view it here: [https://callbestinshow.com/privacy-policy/](https://callbestinshow.com/privacy-policy/)
   - after: Your use of the messaging program is also governed by our Privacy Policy. You can view it here: [https://newmanair.com/privacy-policy/](https://newmanair.com/privacy-policy/)
 - **terms-and-conditions**
   - before: Best in Show. 3583 W Market St, Suite 1, Johnson City, TN 37604 423.753.7788 office@NewmanHeatAndAir.com
-  - after: Newman Air. 3583 W Market St, Suite 1, Johnson City, TN 37604 423.753.7788 office@newmanheatandair.com
+  - after: Newman Air. 3583 W Market St, Suite 1, Johnson City, TN 37604 423.753.7788 dispatch@newmanair.com
 - **terms-and-conditions**
   - before: If you have any questions regarding privacy, please read our privacy policy: [https://callbestinshow.com/privacy-policy/](https://callbestinshow.com/privacy-policy/)
   - after: If you have any questions regarding privacy, please read our privacy policy: [https://newmanair.com/privacy-policy/](https://newmanair.com/privacy-policy/)

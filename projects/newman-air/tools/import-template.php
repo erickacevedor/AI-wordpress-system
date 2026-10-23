@@ -32,7 +32,7 @@ if ( ! is_array( $doc ) || empty( $doc['content'] ) ) {
 }
 
 $type = $doc['type'] ?? '';
-if ( ! in_array( $type, array( 'header', 'footer' ), true ) ) {
+if ( ! in_array( $type, array( 'header', 'footer', 'single-post' ), true ) ) {
 	WP_CLI::error( 'Unsupported template type: ' . $type );
 }
 
