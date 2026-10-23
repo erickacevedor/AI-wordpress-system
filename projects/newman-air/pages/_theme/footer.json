@@ -4,7 +4,7 @@
  "type": "footer",
  "content": [
   {
-   "id": "43015c1e",
+   "id": "43033f9d",
    "settings": {
     "content_width": "full",
     "html_tag": "footer",
@@ -13,7 +13,7 @@
    },
    "elements": [
     {
-     "id": "430148c7",
+     "id": "43032c46",
      "settings": {
       "content_width": "boxed",
       "boxed_width": {
@@ -41,21 +41,21 @@
      },
      "elements": [
       {
-       "id": "43013570",
+       "id": "430318ef",
        "settings": {
         "content_width": "full",
         "css_classes": "wrap"
        },
        "elements": [
         {
-         "id": "43010ec2",
+         "id": "4302a4e5",
          "settings": {
           "content_width": "full",
           "css_classes": "cols"
          },
          "elements": [
           {
-           "id": "43004d5c",
+           "id": "4300740a",
            "settings": {
             "content_width": "full"
            },
@@ -63,11 +63,25 @@
             {
              "id": "43001357",
              "settings": {
-              "html": "<img class=\"foot-logo\" src=\"/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Horiz.svg\" alt=\"Newman Air\">"
+              "image": {
+               "url": "/wp-content/plugins/newman-core/assets/img/NewmanAirLogo_Horiz.svg",
+               "id": "",
+               "alt": "Newman Air",
+               "source": "library"
+              },
+              "image_size": "full",
+              "link_to": "custom",
+              "link": {
+               "url": "/",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "foot-logo"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "image",
              "elType": "widget"
             },
             {
@@ -81,13 +95,43 @@
              "elType": "widget"
             },
             {
-             "id": "43003a05",
+             "id": "430060b3",
              "settings": {
-              "html": "<div class=\"foot-contact\"><a href=\"tel:+14237537788\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-phone\"/></svg>(423) 753-7788</a><a href=\"mailto:dispatch@newmanair.com\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#i-mail\"/></svg>dispatch@newmanair.com</a></div>"
+              "icon_list": [
+               {
+                "_id": "3003a05",
+                "text": "(423) 753-7788",
+                "selected_icon": {
+                 "value": "fas fa-phone-alt",
+                 "library": "fa-solid"
+                },
+                "link": {
+                 "url": "tel:+14237537788",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "3004d5c",
+                "text": "dispatch@newmanair.com",
+                "selected_icon": {
+                 "value": "far fa-envelope",
+                 "library": "fa-regular"
+                },
+                "link": {
+                 "url": "mailto:dispatch@newmanair.com",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               }
+              ],
+              "_css_classes": "foot-contact"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "html",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -95,13 +139,13 @@
            "elType": "container"
           },
           {
-           "id": "43008761",
+           "id": "430148c7",
            "settings": {
             "content_width": "full"
            },
            "elements": [
             {
-             "id": "430060b3",
+             "id": "43008761",
              "settings": {
               "title": "Services",
               "header_size": "h4"
@@ -112,13 +156,127 @@
              "elType": "widget"
             },
             {
-             "id": "4300740a",
+             "id": "43013570",
              "settings": {
-              "editor": "<ul><li><a href=\"/services/ac-installation/\">AC Installation</a></li><li><a href=\"/services/ac-repair/\">AC Repair</a></li><li><a href=\"/services/heating-installation/\">Heating Installation</a></li><li><a href=\"/services/heating-repair/\">Heating Repair</a></li><li><a href=\"/services/heat-pumps/\">Heat Pumps</a></li><li><a href=\"/services/ductless/\">Ductless Mini Splits</a></li><li><a href=\"/services/indoor-air-quality/\">Indoor Air Quality</a></li><li><a href=\"/services/commercial/\">Commercial HVAC</a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "3009ab8",
+                "text": "AC Installation",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/services/ac-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "300ae0f",
+                "text": "AC Repair",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/services/ac-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "300c166",
+                "text": "Heating Installation",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/services/heating-installation/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "300d4bd",
+                "text": "Heating Repair",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/services/heating-repair/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "300e814",
+                "text": "Heat Pumps",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/services/heat-pumps/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "300fb6b",
+                "text": "Ductless Mini Splits",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/services/ductless/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "3010ec2",
+                "text": "Indoor Air Quality",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/services/indoor-air-quality/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "3012219",
+                "text": "Commercial HVAC",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/services/commercial/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               }
+              ],
+              "_css_classes": "foot-links"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "text-editor",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -126,13 +284,13 @@
            "elType": "container"
           },
           {
-           "id": "4300c166",
+           "id": "4301e37f",
            "settings": {
             "content_width": "full"
            },
            "elements": [
             {
-             "id": "43009ab8",
+             "id": "43015c1e",
              "settings": {
               "title": "Company",
               "header_size": "h4"
@@ -143,13 +301,85 @@
              "elType": "widget"
             },
             {
-             "id": "4300ae0f",
+             "id": "4301d028",
              "settings": {
-              "editor": "<ul><li><a href=\"/about-us/\">About Us</a></li><li><a href=\"/maintenance-plan/\">Maintenance Plan</a></li><li><a href=\"/financing/\">Financing</a></li><li><a href=\"/blog/\">Blog</a></li><li><a href=\"/contact-us/\">Contact Us</a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "3016f75",
+                "text": "About Us",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/about-us/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "30182cc",
+                "text": "Maintenance Plan",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/maintenance-plan/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "3019623",
+                "text": "Financing",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/financing/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "301a97a",
+                "text": "Blog",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/blog/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "301bcd1",
+                "text": "Contact Us",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/contact-us/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               }
+              ],
+              "_css_classes": "foot-links"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "text-editor",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -157,13 +387,13 @@
            "elType": "container"
           },
           {
-           "id": "4300fb6b",
+           "id": "4302918e",
            "settings": {
             "content_width": "full"
            },
            "elements": [
             {
-             "id": "4300d4bd",
+             "id": "4301f6d6",
              "settings": {
               "title": "Service Areas",
               "header_size": "h4"
@@ -174,13 +404,99 @@
              "elType": "widget"
             },
             {
-             "id": "4300e814",
+             "id": "43027e37",
              "settings": {
-              "editor": "<ul><li><a href=\"/service-area/bristol/\">Bristol</a></li><li><a href=\"/service-area/elizabethton/\">Elizabethton</a></li><li><a href=\"/service-area/gray/\">Gray</a></li><li><a href=\"/service-area/greeneville/\">Greeneville</a></li><li><a href=\"/service-area/jonesborough/\">Jonesborough</a></li><li><a href=\"/service-area/kingsport/\">Kingsport</a></li></ul>"
+              "icon_list": [
+               {
+                "_id": "3020a2d",
+                "text": "Bristol",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/service-area/bristol/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "3021d84",
+                "text": "Elizabethton",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/service-area/elizabethton/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "30230db",
+                "text": "Gray",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/service-area/gray/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "3024432",
+                "text": "Greeneville",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/service-area/greeneville/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "3025789",
+                "text": "Jonesborough",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/service-area/jonesborough/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               },
+               {
+                "_id": "3026ae0",
+                "text": "Kingsport",
+                "selected_icon": {
+                 "value": "",
+                 "library": ""
+                },
+                "link": {
+                 "url": "/service-area/kingsport/",
+                 "is_external": "",
+                 "nofollow": "",
+                 "custom_attributes": ""
+                }
+               }
+              ],
+              "_css_classes": "foot-links"
              },
              "elements": [],
              "isInner": true,
-             "widgetType": "text-editor",
+             "widgetType": "icon-list",
              "elType": "widget"
             }
            ],
@@ -192,14 +508,66 @@
          "elType": "container"
         },
         {
-         "id": "43012219",
+         "id": "43030598",
          "settings": {
-          "html": "<div class=\"legal\"><span>© 2026 Newman Air. All rights reserved.</span><nav aria-label=\"Legal\"><a href=\"/privacy-policy/\">Privacy Policy</a><a href=\"/terms-and-conditions/\">Terms of Service</a></nav></div>"
+          "content_width": "full",
+          "css_classes": "legal"
          },
-         "elements": [],
+         "elements": [
+          {
+           "id": "4302b83c",
+           "settings": {
+            "editor": "<p>&copy; 2026 Newman Air. All rights reserved.</p>"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "text-editor",
+           "elType": "widget"
+          },
+          {
+           "id": "4302f241",
+           "settings": {
+            "icon_list": [
+             {
+              "_id": "302cb93",
+              "text": "Privacy Policy",
+              "selected_icon": {
+               "value": "",
+               "library": ""
+              },
+              "link": {
+               "url": "/privacy-policy/",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              }
+             },
+             {
+              "_id": "302deea",
+              "text": "Terms of Service",
+              "selected_icon": {
+               "value": "",
+               "library": ""
+              },
+              "link": {
+               "url": "/terms-and-conditions/",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              }
+             }
+            ],
+            "view": "inline",
+            "_css_classes": "legal-links"
+           },
+           "elements": [],
+           "isInner": true,
+           "widgetType": "icon-list",
+           "elType": "widget"
+          }
+         ],
          "isInner": true,
-         "widgetType": "html",
-         "elType": "widget"
+         "elType": "container"
         }
        ],
        "isInner": true,
