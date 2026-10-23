@@ -11,6 +11,10 @@
 
 /* ---- Hero: same band as the homepage, shorter, smaller H1 ------------------ */
 .nw-site .elementor .hero.page-hero { padding: 150px 0 200px; }
+/* With the form card: the badge ring sits 64px above the card, so the card starts lower
+   than the text to keep the badge clear of the fixed header and its Schedule button. */
+.nw-site .elementor .hero.page-hero:not(.solo) { padding-top: 175px; }
+.nw-site .elementor .hero.page-hero:not(.solo) .form-card { margin-top: 60px; }
 .nw-site .elementor .page-hero h1 { font-size: clamp(2.3rem, 4.6vw, 3.9rem); }
 .nw-site .elementor .page-hero .lead + .lead { margin-top: .8em; }
 .nw-site .elementor .page-hero.solo .wrap { grid-template-columns: minmax(0, 820px); }
