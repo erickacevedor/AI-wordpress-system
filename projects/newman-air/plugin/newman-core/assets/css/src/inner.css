@@ -469,3 +469,8 @@
 .nw-site .elementor .nw-cities .elementor-icon-list-icon :is(svg, i) { width: 16px; height: 16px; fill: var(--c-accent); color: var(--c-accent); }
 .nw-site .elementor .nw-cities .elementor-icon-list-text { color: #fff; padding: 0; }
 .nw-site .elementor .nw-cities a .elementor-icon-list-text { border-bottom: 1.5px dashed color-mix(in srgb, var(--c-accent) 70%, transparent); }
+
+/* ---- Editing the header template itself: it is fixed and white-on-transparent on the site
+   (it sits over the dark hero), so in its own editor canvas it gets the hero's dark ground. ---- */
+body.single-elementor_library.nw-site:has(.site-head) { background: var(--c-base-deep); }
+body.single-elementor_library.nw-site .site-head { position: relative; }

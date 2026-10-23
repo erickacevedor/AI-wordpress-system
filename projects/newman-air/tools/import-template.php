@@ -69,6 +69,9 @@ if ( is_wp_error( $tpl_id ) ) {
 update_post_meta( $tpl_id, '_elementor_data', wp_slash( wp_json_encode( $doc['content'] ) ) );
 update_post_meta( $tpl_id, '_elementor_edit_mode', 'builder' );
 update_post_meta( $tpl_id, '_elementor_template_type', $type );
+// newman-core loads its CSS only where this flag is set; on a template it matters in the
+// Elementor editor (the preview is the template itself), so the part is edited as it looks.
+update_post_meta( $tpl_id, '_newman_core', '1' );
 
 /* The library taxonomy is what makes Elementor treat this as a Theme Builder part
    rather than a loose saved template. */

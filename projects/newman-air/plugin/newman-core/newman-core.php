@@ -29,7 +29,11 @@ define( 'NEWMAN_CORE_URL', plugin_dir_url( __FILE__ ) );
 function newman_core_is_site_page() {
 	$id = get_queried_object_id();
 	if ( isset( $_GET['elementor-preview'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification
-		$id = absint( $_GET['elementor-preview'] ); // phpcs:ignore WordPress.Security.NonceVerification
+		$preview = absint( $_GET['elementor-preview'] ); // phpcs:ignore WordPress.Security.NonceVerification
+		// Only for someone who can edit that post: a visitor adding the parameter gets the normal page.
+		if ( $preview && current_user_can( 'edit_post', $preview ) ) {
+			$id = $preview;
+		}
 	}
 	return $id && '1' === (string) get_post_meta( $id, '_newman_core', true );
 }
